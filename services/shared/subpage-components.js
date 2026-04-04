@@ -6,6 +6,17 @@
 */
 (async function initPortalSubpageShell(){
   function getPortalRootPrefix(){
+    const currentScript = document.currentScript;
+    if (currentScript && currentScript.src) {
+      try {
+        const scriptUrl = new URL(currentScript.src, window.location.href);
+        let root = scriptUrl.pathname.replace(/\/shared\/subpage-components\.js$/, '');
+        if (!root.endsWith('/')) root += '/';
+        return root;
+      } catch (error) {
+        // fallback to path depth when currentScript is unavailable
+      }
+    }
     const path = window.location.pathname.replace(/index\.html$/i, '').replace(/\/+/g, '/');
     const parts = path.split('/').filter(Boolean);
     return parts.length ? '../'.repeat(parts.length) : './';
