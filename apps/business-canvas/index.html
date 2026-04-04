@@ -8,26 +8,28 @@
   <link rel="stylesheet" href="../../css/base.css">
   <style>
     .tool-page{padding:32px 0 64px}
-    .tool-hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);gap:18px;align-items:start}
-    .tool-card,.tool-grid article,.tool-output{background:color-mix(in srgb, var(--surface-strong) 100%, transparent);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:24px}
+    .tool-hero{display:grid;gap:18px}
+    .tool-card,.tool-grid article,.tool-output{background:rgba(255,255,255,.95);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:24px}
     .tool-card{padding:24px}
     .tool-kicker{margin:0 0 8px;color:var(--muted);font-size:.8rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
     .tool-title{margin:0;font-size:clamp(2rem, 4vw, 3.4rem);line-height:.95;letter-spacing:-.05em}
     .tool-lead{margin:14px 0 0;color:var(--muted);max-width:56ch}
-    .tool-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+    .tool-actions{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:18px}
+    .tool-actions-left{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
     .tool-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px}
     .tool-grid article{padding:18px}
     .tool-grid h3{margin:0 0 10px;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase}
-    .tool-grid textarea{width:100%;min-height:170px;resize:vertical;border:1px solid var(--line);border-radius:16px;padding:14px;background:rgba(255,255,255,.65);color:var(--text)}
-    .tool-side{display:grid;gap:16px}
-    .tool-side ul{margin:0;padding-left:18px;color:var(--muted);display:grid;gap:8px}
+    .tool-grid textarea{width:100%;min-height:170px;resize:vertical;border:1px solid var(--line);border-radius:16px;padding:14px;background:rgba(255,255,255,.65);color:var(--text);white-space:pre-wrap;overflow-wrap:break-word;word-break:break-word;line-height:1.5;overflow:auto;}
+    .tool-details{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px}
+    .tool-details .tool-card{padding:24px}
+    .tool-details ul{margin:0;padding-left:18px;color:var(--muted);display:grid;gap:8px}
     .tool-output{margin-top:18px;padding:22px}
     .tool-output h2{margin:0 0 12px}
     .tool-output pre{white-space:pre-wrap;word-break:break-word;margin:0;padding:16px;border-radius:18px;background:rgba(17,24,39,.04);border:1px solid var(--line);font-family:inherit;line-height:1.6}
     .tool-pill{display:inline-flex;align-items:center;gap:8px;min-height:38px;padding:0 14px;border-radius:999px;background:rgba(17,24,39,.04);border:1px solid var(--line);font-weight:700}
     @media (max-width: 900px){
-      .tool-hero{grid-template-columns:1fr}
       .tool-grid{grid-template-columns:1fr}
+      .tool-details{grid-template-columns:1fr}
     }
   </style>
 </head>
@@ -38,35 +40,36 @@
       <div class="tool-card">
         <p class="tool-kicker">iAppLab / Business Maker App</p>
         <h1 class="tool-title">Business Model Canvas</h1>
-        <p class="tool-lead">Canvas 9 ô để phác mô hình kinh doanh nhanh, gom ý tưởng trước khi đi vào workflow hoặc mini app.</p>
+        <p class="tool-lead">Bảng ghi chép ý tưởng kinh doanh 1 trang.</p>
         <div class="tool-actions">
-          <a class="portal-cta" href="../">Quay lại Apps</a>
-          <a class="portal-chip" href="../../services/workflow/">Xem workflow</a>
-          <a class="portal-chip" href="../../shop/">Mở shop</a>
+          <div class="tool-actions-left">
+            <a class="portal-cta" href="../">Quay lại Apps</a>
+          </div>
+          <button class="portal-cta" type="button" id="exportJpgBtn">Xuất JPG</button>
         </div>
 
         <section class="tool-grid">
           <article><h3>Value Proposition</h3><textarea data-field-key="value" data-field-label="Value Proposition" placeholder="Khách hàng nhận giá trị gì từ anh?"></textarea></article><article><h3>Customer Segments</h3><textarea data-field-key="customers" data-field-label="Customer Segments" placeholder="Ai là nhóm khách hàng chính?"></textarea></article><article><h3>Channels</h3><textarea data-field-key="channels" data-field-label="Channels" placeholder="Website, social, affiliate, đối tác, local tour..."></textarea></article><article><h3>Revenue Streams</h3><textarea data-field-key="revenue" data-field-label="Revenue Streams" placeholder="Dòng doanh thu chính và phụ?"></textarea></article><article><h3>Key Activities</h3><textarea data-field-key="activities" data-field-label="Key Activities" placeholder="Các hoạt động cốt lõi để mô hình chạy được?"></textarea></article><article><h3>Key Resources</h3><textarea data-field-key="resources" data-field-label="Key Resources" placeholder="Nguồn lực chính: kỹ năng, web, nội dung, sản phẩm, AI..."></textarea></article><article><h3>Key Partners</h3><textarea data-field-key="partners" data-field-label="Key Partners" placeholder="Nhà cung cấp, cộng tác viên, xưởng, đối tác phân phối..."></textarea></article><article><h3>Cost Structure</h3><textarea data-field-key="costs" data-field-label="Cost Structure" placeholder="Chi phí chính, chi phí cố định, chi phí tăng trưởng..."></textarea></article>
         </section>
       </div>
+    </section>
 
-      <aside class="tool-side">
-        <div class="tool-card">
-          <p class="tool-kicker">Flow</p>
-          <h2 style="margin:0 0 10px">App → Service → Shop</h2>
-          <ul>
-            <li>Business maker vào app để tự nghĩ nhanh và gom ý tưởng.</li>
-            <li>Khi ý tưởng đủ rõ, chuyển sang Services để biến thành workflow, tài liệu hoặc mini app.</li>
-            <li>Nếu cần quà tặng, vật phẩm hoặc sản phẩm đi kèm, tiếp tục sang Shop.</li>
-          </ul>
-        </div>
-        <div class="tool-card">
-          <p class="tool-kicker">Gợi ý dùng</p>
-          <div class="tool-pill">Dùng để nghĩ nhanh trước khi thuê dịch vụ.</div>
-          <div style="height:10px"></div>
-          <div class="tool-pill">Copy kết quả rồi đưa thẳng vào brief dịch vụ.</div>
-        </div>
-      </aside>
+    <section class="tool-details">
+      <div class="tool-card">
+        <p class="tool-kicker">Flow</p>
+        <h2 style="margin:0 0 10px">App → Service → Shop</h2>
+        <ul>
+          <li>Business maker vào app để tự nghĩ nhanh và gom ý tưởng.</li>
+          <li>Khi ý tưởng đủ rõ, chuyển sang Services để biến thành workflow, tài liệu hoặc mini app.</li>
+          <li>Nếu cần quà tặng, vật phẩm hoặc sản phẩm đi kèm, tiếp tục sang Shop.</li>
+        </ul>
+      </div>
+      <div class="tool-card">
+        <p class="tool-kicker">Gợi ý dùng</p>
+        <div class="tool-pill">Dùng để nghĩ nhanh trước khi thuê dịch vụ.</div>
+        <div style="height:10px"></div>
+        <div class="tool-pill">Copy kết quả rồi đưa thẳng vào brief dịch vụ.</div>
+      </div>
     </section>
 
     <section class="tool-output">
@@ -90,12 +93,23 @@
     import { rootPath, setupSharedShell } from '../../js/modules.js';
     setupSharedShell(rootPath());
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 
   <script>
     const fieldSelectors = Array.from(document.querySelectorAll('[data-field-key]'));
     const resultBox = document.getElementById('resultBox');
     const buildBtn = document.getElementById('buildBtn');
     const copyBtn = document.getElementById('copyBtn');
+
+    function adjustTextareaHeight(textarea){
+      textarea.style.height = 'auto';
+      textarea.style.height = Math.max(textarea.scrollHeight, 170) + 'px';
+    }
+
+    fieldSelectors.forEach((textarea) => {
+      adjustTextareaHeight(textarea);
+      textarea.addEventListener('input', () => adjustTextareaHeight(textarea));
+    });
 
     function buildOutput(){
       const sections = fieldSelectors.map((el) => {
@@ -112,6 +126,162 @@
       resultBox.textContent = `BẢN GHI NHANH\n\n` + lines.join('\n\n');
     }
 
+    const exportJpgBtn = document.getElementById('exportJpgBtn');
+
+    function loadHtml2canvas(){
+      if (window.html2canvas) return Promise.resolve(window.html2canvas);
+      return new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js';
+        script.onload = () => resolve(window.html2canvas);
+        script.onerror = () => reject(new Error('Không tải được html2canvas.'));
+        document.body.appendChild(script);
+      });
+    }
+
+    function downloadBlob(blob, filename){
+      const link = document.createElement('a');
+      link.style.display = 'none';
+      link.href = URL.createObjectURL(blob);
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(link.href);
+    }
+
+    function downloadDataUrl(dataUrl, filename){
+      const link = document.createElement('a');
+      link.style.display = 'none';
+      link.href = dataUrl;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    function createExportClone(source){
+      const clone = source.cloneNode(true);
+      clone.style.width = source.offsetWidth + 'px';
+      clone.style.boxSizing = 'border-box';
+      clone.style.padding = '0';
+      clone.style.paddingBottom = '40px';
+      clone.style.margin = '0';
+      clone.style.background = 'white';
+
+      const textareas = Array.from(clone.querySelectorAll('textarea'));
+      textareas.forEach((textarea) => {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'export-textarea';
+        wrapper.textContent = textarea.value || textarea.placeholder || '';
+        wrapper.style.whiteSpace = 'pre-wrap';
+        wrapper.style.wordBreak = 'break-word';
+        wrapper.style.minHeight = '170px';
+        wrapper.style.padding = '14px';
+        wrapper.style.border = '1px solid var(--line)';
+        wrapper.style.borderRadius = '16px';
+        wrapper.style.background = 'rgba(255,255,255,.95)';
+        wrapper.style.color = 'var(--text)';
+        wrapper.style.fontFamily = 'inherit';
+        wrapper.style.fontSize = '1rem';
+        wrapper.style.lineHeight = '1.5';
+        wrapper.style.width = '100%';
+        wrapper.style.boxSizing = 'border-box';
+        wrapper.style.overflowWrap = 'break-word';
+        wrapper.style.wordBreak = 'break-word';
+        wrapper.style.whiteSpace = 'pre-wrap';
+        wrapper.style.margin = '0';
+        textarea.replaceWith(wrapper);
+      });
+
+      const buttons = clone.querySelectorAll('button');
+      buttons.forEach((btn) => btn.remove());
+
+      const footer = document.createElement('div');
+      footer.style.marginTop = '24px';
+      footer.style.marginBottom = '20px';
+      footer.style.paddingTop = '16px';
+      footer.style.paddingBottom = '8px';
+      footer.style.borderTop = '1px solid var(--line)';
+      footer.style.fontSize = '0.8rem';
+      footer.style.color = 'var(--muted)';
+      footer.style.lineHeight = '1.4';
+      footer.textContent = 'Được làm tại trang web www.ai-uiux.com - Made by Anhdophin - Email: anhdophin@gmail.com';
+      clone.appendChild(footer);
+      return clone;
+    }
+
+    async function exportPageAsJpg(){
+      const source = document.querySelector('.tool-hero');
+      if (!source) return;
+
+      const exportWrapper = createExportClone(source);
+      const tempContainer = document.createElement('div');
+      tempContainer.style.position = 'fixed';
+      tempContainer.style.top = '-9999px';
+      tempContainer.style.left = '-9999px';
+      tempContainer.style.zIndex = '-1';
+      tempContainer.appendChild(exportWrapper);
+      document.body.appendChild(tempContainer);
+
+      exportJpgBtn.disabled = true;
+      const originalText = exportJpgBtn.textContent;
+      exportJpgBtn.textContent = 'Đang xuất...';
+
+      let html2canvasLib;
+      try {
+        html2canvasLib = await loadHtml2canvas();
+      } catch (error) {
+        window.alert('Không tải được công cụ xuất ảnh. Vui lòng thử lại.');
+        tempContainer.remove();
+        exportJpgBtn.disabled = false;
+        exportJpgBtn.textContent = originalText;
+        return;
+      }
+      try {
+        const contentCanvas = await html2canvasLib(exportWrapper, {
+          backgroundColor: '#ffffff',
+          scale: 2,
+          useCORS: true,
+          allowTaint: true,
+        });
+
+        const a4Width = 2480; // A4 at 300 DPI
+        const a4Height = 3508;
+        const scale = Math.min(a4Width / contentCanvas.width, a4Height / contentCanvas.height);
+        const finalCanvas = document.createElement('canvas');
+        finalCanvas.width = a4Width;
+        finalCanvas.height = a4Height;
+        const ctx = finalCanvas.getContext('2d');
+        ctx.fillStyle = '#ffffff';
+        ctx.fillRect(0, 0, a4Width, a4Height);
+        const targetWidth = Math.round(contentCanvas.width * scale);
+        const targetHeight = Math.round(contentCanvas.height * scale);
+        const offsetX = Math.round((a4Width - targetWidth) / 2);
+        const offsetY = Math.round((a4Height - targetHeight) / 2);
+        ctx.drawImage(contentCanvas, 0, 0, contentCanvas.width, contentCanvas.height, offsetX, offsetY, targetWidth, targetHeight);
+
+        if (finalCanvas.toBlob) {
+          finalCanvas.toBlob((blob) => {
+            if (!blob) {
+              throw new Error('Không tạo được blob ảnh.');
+            }
+            downloadBlob(blob, 'business-canvas.jpg');
+          }, 'image/jpeg', 0.95);
+        } else {
+          const dataUrl = finalCanvas.toDataURL('image/jpeg', 0.95);
+          downloadDataUrl(dataUrl, 'business-canvas.jpg');
+        }
+      } catch (error) {
+        window.alert('Xuất JPG không thành công. Hãy thử lại sau.');
+        console.error(error);
+      } finally {
+        tempContainer.remove();
+        exportJpgBtn.disabled = false;
+        exportJpgBtn.textContent = originalText;
+      }
+    }
+
     buildBtn.addEventListener('click', buildOutput);
     copyBtn.addEventListener('click', async () => {
       try {
@@ -121,6 +291,9 @@
       } catch (error) {
         window.alert('Trình duyệt chưa cho copy tự động.');
       }
+    });
+    exportJpgBtn.addEventListener('click', async () => {
+      await exportPageAsJpg();
     });
   </script>
 </body>

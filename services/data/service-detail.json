@@ -1,0 +1,57 @@
+{
+  "seoTitle": "Service Detail",
+  "hero": {
+    "label": "Service Detail",
+    "title": "Dịch vụ Chi tiết cho Workflow & Tool",
+    "subtitle": "Các dịch vụ phân tích, thiết kế và chuyển đổi quy trình nội bộ thành công cụ thực tế."
+  },
+  "sectionTitle": "Service Detail Offerings",
+  "sectionBody": "Chọn dịch vụ phù hợp để làm rõ workflow, giảm phụ thuộc cá nhân và thiết kế công cụ hỗ trợ đúng ngữ cảnh.",
+  "stats": [
+    { "value": "3 bước", "label": "Quy trình rõ ràng" },
+    { "value": "+50%", "label": "Hiệu suất vận hành" },
+    { "value": "100%", "label": "Công việc có thể chuyển giao" }
+  ],
+  "items": [
+    {
+      "title": "Workflow Audit Service",
+      "excerpt": "Phân tích workflow hiện tại và bóc tách quy trình thực tế để thiết kế lại bước tiếp theo.",
+      "tag": "Service",
+      "meta": "Audit",
+      "cover": "../assets/gvn.png",
+      "href": "gvn/"
+    },
+    {
+      "title": "Process Design Service",
+      "excerpt": "Thiết kế quy trình và công cụ hỗ trợ, giúp công việc dễ hiểu và dễ triển khai hơn.",
+      "tag": "Service",
+      "meta": "Design",
+      "cover": "../assets/par-logo.png",
+      "href": "par/"
+    },
+    {
+      "title": "Thiết Kế Website",
+      "excerpt": "Thiết kế website thương hiệu chuẩn UX, tối ưu trình bày câu chuyện doanh nghiệp và chuyển đổi khách hàng.",
+      "tag": "Service",
+      "meta": "Website",
+      "cover": "../assets/website.png",
+      "href": "website-design/"
+    },
+    {
+      "title": "Trang Dạy Thiết Kế",
+      "excerpt": "Xây dựng landing page và khóa học dạy thiết kế, tập trung truyền cảm hứng và chuyển đổi học viên.",
+      "tag": "Service",
+      "meta": "Training",
+      "cover": "../assets/brand-logo-linear.png",
+      "href": "teaching-design/"
+    },
+    {
+      "title": "Thiết Kế Câu Chuyện Doanh Nghiệp",
+      "excerpt": "Thiết kế câu chuyện doanh nghiệp trên website và tài liệu thương hiệu, giúp thông điệp rõ ràng và cảm xúc hơn.",
+      "tag": "Service",
+      "meta": "Story",
+      "cover": "../assets/Work Support Tools.png",
+      "href": "corporate-story-design/"
+    }
+  ]
+}

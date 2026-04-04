@@ -59,16 +59,16 @@
       "parent": "/"
     },
     {
-      "route": "/projects/",
-      "title": "Projects",
-      "short_title": "Projects",
-      "nav_label": "Projects",
-      "section": "projects",
+      "route": "/service-detail/",
+      "title": "Service Detail",
+      "short_title": "Service Detail",
+      "nav_label": "Service Detail",
+      "section": "service-detail",
       "order": null,
       "nav_order": 30,
       "show_in_nav": true,
       "template": null,
-      "source": "projects/index.html",
+      "source": "service-detail/index.html",
       "depth": 1,
       "parent": "/"
     },
@@ -227,32 +227,32 @@
       "parent": "/"
     },
     {
-      "route": "/projects/gvn/",
+      "route": "/service-detail/gvn/",
       "title": "Workflow Audit Service",
       "short_title": "Workflow Audit Service",
       "nav_label": "Workflow Audit Service",
-      "section": "projects",
+      "section": "service-detail",
       "order": null,
       "nav_order": null,
       "show_in_nav": false,
       "template": null,
-      "source": "projects/gvn/index.html",
+      "source": "service-detail/gvn/index.html",
       "depth": 2,
-      "parent": "/projects/"
+      "parent": "/service-detail/"
     },
     {
-      "route": "/projects/par/",
+      "route": "/service-detail/par/",
       "title": "Workflow Audit Service",
       "short_title": "Workflow Audit Service",
       "nav_label": "Workflow Audit Service",
-      "section": "projects",
+      "section": "service-detail",
       "order": null,
       "nav_order": null,
       "show_in_nav": false,
       "template": null,
-      "source": "projects/par/index.html",
+      "source": "service-detail/par/index.html",
       "depth": 2,
-      "parent": "/projects/"
+      "parent": "/service-detail/"
     },
     {
       "route": "/services/game-hoa-workflow/",

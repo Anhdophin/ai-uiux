@@ -3,32 +3,61 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SWOT Starter - iAppLab</title>
-  <meta name="description" content="App nhanh để business maker ghi Strengths, Weaknesses, Opportunities, Threats rồi xuất ra brief ngắn.">
+  <title>SWOT Analysis - iAppLab</title>
+  <meta name="description" content="Bảng phân tích SWOT 1 trang cho kinh doanh.">
   <link rel="stylesheet" href="../../css/base.css">
   <style>
     .tool-page{padding:32px 0 64px}
-    .tool-hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);gap:18px;align-items:start}
-    .tool-card,.tool-grid article,.tool-output{background:color-mix(in srgb, var(--surface-strong) 100%, transparent);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:24px}
+    .tool-hero{display:grid;gap:18px}
+    .tool-card,.tool-grid article,.tool-output{background:rgba(255,255,255,.95);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:24px}
     .tool-card{padding:24px}
     .tool-kicker{margin:0 0 8px;color:var(--muted);font-size:.8rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
     .tool-title{margin:0;font-size:clamp(2rem, 4vw, 3.4rem);line-height:.95;letter-spacing:-.05em}
     .tool-lead{margin:14px 0 0;color:var(--muted);max-width:56ch}
-    .tool-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+    .tool-actions{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:18px}
+    .tool-actions-left{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    .theme-filter-wrapper{margin-top:24px;padding:16px;background:rgba(17,24,39,.02);border-radius:16px;border:1px solid var(--line)}
+    .theme-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+    .theme-tab{padding:10px 16px;border:2px solid var(--line);background:white;border-radius:12px;cursor:pointer;font-weight:600;transition:all .2s;font-size:.9rem}
+    .theme-tab:hover{border-color:var(--text);background:rgba(17,24,39,.04)}
+    .theme-tab.active{background:var(--text);color:white;border-color:var(--text)}
+    .theme-templates{display:flex;flex-wrap:wrap;gap:10px;min-height:40px;align-items:flex-start}
+    .template-group{margin-bottom:16px}
+    .template-group-header{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-weight:700;font-size:.9rem;padding-bottom:8px;border-bottom:2px solid}
+    .template-group-label{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:6px;color:white;font-weight:800;font-size:.85rem}
+    .template-group.swot-s .template-group-header{border-bottom-color:#22c55e;color:#22c55e}
+    .template-group.swot-s .template-group-label{background:#22c55e}
+    .template-group.swot-w .template-group-header{border-bottom-color:#ef4444;color:#ef4444}
+    .template-group.swot-w .template-group-label{background:#ef4444}
+    .template-group.swot-o .template-group-header{border-bottom-color:#3b82f6;color:#3b82f6}
+    .template-group.swot-o .template-group-label{background:#3b82f6}
+    .template-group.swot-t .template-group-header{border-bottom-color:#f97316;color:#f97316}
+    .template-group.swot-t .template-group-label{background:#f97316}
+    .template-items-row{display:flex;flex-wrap:wrap;gap:8px;padding:10px;border-radius:12px;border:1px solid}
+    .template-group.swot-s .template-items-row{border-color:#22c55e;background:rgba(34,197,94,.04)}
+    .template-group.swot-w .template-items-row{border-color:#ef4444;background:rgba(239,68,68,.04)}
+    .template-group.swot-o .template-items-row{border-color:#3b82f6;background:rgba(59,130,246,.04)}
+    .template-group.swot-t .template-items-row{border-color:#f97316;background:rgba(249,115,22,.04)}
+    .template-item{display:inline-flex;align-items:center;gap:4px;padding:6px 10px;border-radius:6px;background:white;border:1px solid var(--line);cursor:pointer;font-size:.8rem;transition:all .2s;white-space:nowrap}
+    .template-item:hover{background:rgba(17,24,39,.08);border-color:var(--text)}
     .tool-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px}
     .tool-grid article{padding:18px}
     .tool-grid h3{margin:0 0 10px;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase}
-    .tool-grid textarea{width:100%;min-height:170px;resize:vertical;border:1px solid var(--line);border-radius:16px;padding:14px;background:rgba(255,255,255,.65);color:var(--text)}
-    .tool-side{display:grid;gap:16px}
-    .tool-side ul{margin:0;padding-left:18px;color:var(--muted);display:grid;gap:8px}
+    .swot-mobile-filter{display:none;margin-top:12px;padding:12px;border-top:1px solid var(--line)}
+    @media (max-width: 900px){
+      .tool-grid{grid-template-columns:1fr}
+      .theme-filter-wrapper{display:none}
+      .swot-mobile-filter{display:block}
+    }
+    .swot-item{display:flex;gap:12px;align-items:center;padding:10px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.95)}
+    .swot-item input{flex:1;border:none;background:transparent;padding:0;font-family:inherit;font-size:1rem;line-height:1.4;outline:none}
+    .swot-item input::placeholder{color:var(--muted)}
+    .swot-slider{width:140px;cursor:pointer}
+    .swot-value{min-width:35px;font-size:.85rem;color:var(--muted);text-align:right;font-weight:600}
     .tool-output{margin-top:18px;padding:22px}
     .tool-output h2{margin:0 0 12px}
     .tool-output pre{white-space:pre-wrap;word-break:break-word;margin:0;padding:16px;border-radius:18px;background:rgba(17,24,39,.04);border:1px solid var(--line);font-family:inherit;line-height:1.6}
     .tool-pill{display:inline-flex;align-items:center;gap:8px;min-height:38px;padding:0 14px;border-radius:999px;background:rgba(17,24,39,.04);border:1px solid var(--line);font-weight:700}
-    @media (max-width: 900px){
-      .tool-hero{grid-template-columns:1fr}
-      .tool-grid{grid-template-columns:1fr}
-    }
   </style>
 </head>
 <body data-root="../.." class="mini-shell">
@@ -37,36 +66,35 @@
     <section class="tool-hero">
       <div class="tool-card">
         <p class="tool-kicker">iAppLab / Business Maker App</p>
-        <h1 class="tool-title">SWOT Starter</h1>
-        <p class="tool-lead">App nhanh để business maker ghi Strengths, Weaknesses, Opportunities, Threats rồi xuất ra brief ngắn.</p>
+        <h1 class="tool-title">SWOT Analysis</h1>
+        <p class="tool-lead">Bảng phân tích SWOT 1 trang cho kinh doanh.</p>
         <div class="tool-actions">
-          <a class="portal-cta" href="../">Quay lại Apps</a>
-          <a class="portal-chip" href="../../services/workflow/">Xem workflow</a>
-          <a class="portal-chip" href="../../shop/">Mở shop</a>
+          <div class="tool-actions-left">
+            <a class="portal-cta" href="../">Quay lại Apps</a>
+          </div>
+          <button class="portal-cta" type="button" id="exportJpgBtn">Xuất JPG</button>
+        </div>
+
+        <div class="theme-filter-wrapper">
+          <div style="margin-bottom:12px">
+            <div style="font-size:.85rem;color:var(--muted);line-height:1.6">
+              <strong>💡 Hướng dẫn:</strong> Chọn loại đặc điểm từ template rồi sửa chi tiết phù hợp với bạn. VD: <em>Kỹ năng mềm</em> → <em>Kỹ năng mềm tư duy sáng tạo</em>, <em>Kỹ năng mềm tư duy thiết kế</em>
+            </div>
+          </div>
+          <div class="theme-tabs">
+            <button type="button" class="theme-tab active" data-theme="personal">Cá nhân</button>
+            <button type="button" class="theme-tab" data-theme="business">Kinh doanh</button>
+            <button type="button" class="theme-tab" data-theme="production">Sản xuất</button>
+            <button type="button" class="theme-tab" data-theme="finance">Tài chính</button>
+          </div>
+          <div style="margin-bottom:8px;font-size:.85rem;color:var(--muted)">Nhấn vào template để thêm vào form (có thể chỉnh sửa sau)</div>
+          <div id="templateContainer" class="theme-templates"></div>
         </div>
 
         <section class="tool-grid">
-          <article><h3>Strengths</h3><textarea data-field-key="strengths" data-field-label="Strengths" placeholder="Điểm mạnh đang có, nguồn lực, lợi thế, kỹ năng, mạng lưới..."></textarea></article><article><h3>Weaknesses</h3><textarea data-field-key="weaknesses" data-field-label="Weaknesses" placeholder="Điểm yếu, lỗ hổng, giới hạn, thứ còn thiếu..."></textarea></article><article><h3>Opportunities</h3><textarea data-field-key="opportunities" data-field-label="Opportunities" placeholder="Cơ hội thị trường, timing, nguồn hàng, nhu cầu, đối tác..."></textarea></article><article><h3>Threats</h3><textarea data-field-key="threats" data-field-label="Threats" placeholder="Rủi ro, đối thủ, pháp lý, vận hành, vốn, thời gian..."></textarea></article>
+          <article><h3>Strengths</h3><div class="swot-items" data-field-key="strengths" data-field-label="Strengths"></div><div class="swot-mobile-filter" data-field-key="strengths"></div></article><article><h3>Weaknesses</h3><div class="swot-items" data-field-key="weaknesses" data-field-label="Weaknesses"></div><div class="swot-mobile-filter" data-field-key="weaknesses"></div></article><article><h3>Opportunities</h3><div class="swot-items" data-field-key="opportunities" data-field-label="Opportunities"></div><div class="swot-mobile-filter" data-field-key="opportunities"></div></article><article><h3>Threats</h3><div class="swot-items" data-field-key="threats" data-field-label="Threats"></div><div class="swot-mobile-filter" data-field-key="threats"></div></article>
         </section>
       </div>
-
-      <aside class="tool-side">
-        <div class="tool-card">
-          <p class="tool-kicker">Flow</p>
-          <h2 style="margin:0 0 10px">App → Service → Shop</h2>
-          <ul>
-            <li>Business maker vào app để tự nghĩ nhanh và gom ý tưởng.</li>
-            <li>Khi ý tưởng đủ rõ, chuyển sang Services để biến thành workflow, tài liệu hoặc mini app.</li>
-            <li>Nếu cần quà tặng, vật phẩm hoặc sản phẩm đi kèm, tiếp tục sang Shop.</li>
-          </ul>
-        </div>
-        <div class="tool-card">
-          <p class="tool-kicker">Gợi ý dùng</p>
-          <div class="tool-pill">Dùng để nghĩ nhanh trước khi thuê dịch vụ.</div>
-          <div style="height:10px"></div>
-          <div class="tool-pill">Copy kết quả rồi đưa thẳng vào brief dịch vụ.</div>
-        </div>
-      </aside>
     </section>
 
     <section class="tool-output">
@@ -92,22 +120,317 @@
   </script>
 
   <script>
-    const fieldSelectors = Array.from(document.querySelectorAll('[data-field-key]'));
+    // Template data cho 4 chủ đề × 4 khu vực SWOT
+    const templateData = {
+      personal: {
+        strengths: [
+          'Kỹ năng mềm', 'Tư duy phản biện', 'Khả năng học nhanh',
+          'Kỹ năng giao tiếp', 'Kinh nghiệm', 'Sáng tạo',
+          'Kỹ năng AI/Tech', 'Giải quyết vấn đề', 'Lãnh đạo'
+        ],
+        weaknesses: [
+          'Quản lý thời gian', 'Thiếu kinh nghiệm', 'Ít tự tin',
+          'Kỹ năng kỹ thuật', 'Bé buồn dễ', 'Thiếu tập trung',
+          'Không thành thạo ngoại ngữ', 'Nỗi sợ thất bại', 'Kì vọng quá cao'
+        ],
+        opportunities: [
+          'Khóa học trực tuyến', 'Networking', 'Tình nguyện',
+          'Dự án cá nhân', 'Công việc mới', 'Mentoring',
+          'Cộng đồng tech', 'Sáng kiến riêng', 'Hợp tác'
+        ],
+        threats: [
+          'Thị trường cạnh tranh', 'Công nghệ cũ', 'Suy thoái kinh tế',
+          'Thay đổi nhanh', 'Tự động hóa', 'Học vị không đủ',
+          'Health issues', 'Động lực giảm', 'Áp suất xã hội'
+        ]
+      },
+      business: {
+        strengths: [
+          'Thương hiệu mạnh', 'Vị trí thị trường', 'Mạng lưới khách hàng',
+          'Sản phẩm chất lượng', 'Đội ngũ giỏi', 'Tài chính ổn định',
+          'Công nghệ tự động', 'Dịch vụ chăm sóc tốt', 'Giá cạnh tranh'
+        ],
+        weaknesses: [
+          'Quản lý không hiệu quả', 'Chi phí cao', 'Tư cấp hạn chế',
+          'Sản xuất chậm', 'Lợi nhuận thấp', 'Nợ lớn',
+          'Hệ thống lạc hậu', 'Nhân viên năng suất thấp', 'Tài trợ khó khăn'
+        ],
+        opportunities: [
+          'Thị trường mới', 'Sản phẩm mới', 'Hợp tác chiến lược',
+          'Công nghệ mới', 'Mở rộng địa lý', 'M&A',
+          'Kinh tế phân tán', 'Nhãn hiệu mở rộng', 'Export'
+        ],
+        threats: [
+          'Cạnh tranh tăng', 'Thay đổi quy định', 'Suy thoái kinh tế',
+          'Đội ngũ rủi ro', 'Sự thay đổi gu khách', 'Nguyên liệu tăng',
+          'Công nghệ disrupt', 'Vấn đề môi trường', 'Thay đổi tiêu thụ'
+        ]
+      },
+      production: {
+        strengths: [
+          'Quy trình tối ưu', 'Máy móc hiện đại', 'Nhân viên kỹ năng cao',
+          'Chi phí sản xuất thấp', 'Sản lượng cao', 'Địa điểm suất vấn',
+          'Kiểm soát chất lượng', 'Đóng gói bền vững', 'Chuỗi cung ứng'
+        ],
+        weaknesses: [
+          'Thiết bị cũ', 'Bảo trì quá tải', 'Nhân viên không đủ',
+          'Bỏng phế thải', 'Tiêu chuẩn XK kém', 'Không sẵn sàng',
+          'Năng lực hạn chế', 'Bảo mật yếu', 'Không agile'
+        ],
+        opportunities: [
+          'Tự động hóa', 'Công nghệ xanh', 'Mô hình circular',
+          'Mở rộng nhà máy', 'Sản phẩm mới', 'Thị trường mới',
+          'Đại lý mới', 'Robotics', 'AI/ML tối ưu'
+        ],
+        threats: [
+          'Giá nguyên liệu', 'Cạnh tranh giá', 'Logistics tắc',
+          'Quy định môi trường', 'Su cộng ứng', 'Sốc thị trường',
+          'Thiếu nhân công', 'Phát thải cao', 'Điểm yếu kỹ thuật'
+        ]
+      },
+      finance: {
+        strengths: [
+          'Dòng tiền mạnh', 'Tỷ lệ margin cao', 'Tài sản lớn',
+          'Không nợ', 'Chi phí thấp', 'Thu nhập ổn định',
+          'Mô hình revenu đa dạng', 'Credit rating tốt', 'Nền tảng vững'
+        ],
+        weaknesses: [
+          'Dòng tiền âm', 'Nợ cao', 'Lợi nhuận âm',
+          'Chi phí quá cao', 'Vốn chủ sở hữu yếu', 'Lợi tức thấp',
+          'Công nợ lâu', 'Hệ thống tài chính lạc hậu', 'Quy mô nhỏ'
+        ],
+        opportunities: [
+          'Tăng giá bán', 'Mở vốn mới', 'Tiết kiệm chi phí',
+          'Khoảng rộng mới', 'IPO', 'Cân bằng danh mục',
+          'Tài chính xanh', 'Fintech', 'Tử nhân thêm'
+        ],
+        threats: [
+          'Lãi suất tăng', 'Suy thoái', 'Biến động tiền tệ',
+          'Tăng thuế', 'Credit crunch', 'Lạm phát',
+          'Rủi ro địa chính trị', 'Sụp đổ thị trường', 'Quy định tighter'
+        ]
+      }
+    };
+
+    const sections = Array.from(document.querySelectorAll('[data-field-key].swot-items'));
     const resultBox = document.getElementById('resultBox');
     const buildBtn = document.getElementById('buildBtn');
     const copyBtn = document.getElementById('copyBtn');
+    const exportJpgBtn = document.getElementById('exportJpgBtn');
+    const templateContainer = document.getElementById('templateContainer');
+    const themeTabs = document.querySelectorAll('.theme-tab');
+    const swotColorMap = {
+      'strengths': 'swot-s',
+      'weaknesses': 'swot-w',
+      'opportunities': 'swot-o',
+      'threats': 'swot-t'
+    };
+
+    // Hàm cập nhật templates khi chọn theme
+    function renderTemplates(theme) {
+      // Render cho desktop container
+      const desktopContainer = document.getElementById('templateContainer');
+      renderTemplateGroup(theme, desktopContainer);
+      
+      // Render cho mobile filter containers
+      const mobileFilters = document.querySelectorAll('.swot-mobile-filter');
+      mobileFilters.forEach((filter) => {
+        renderMobileFieldTemplates(filter);
+      });
+    }
+
+    // Render group templates vào một container
+    function renderTemplateGroup(theme, container) {
+      container.innerHTML = '';
+      const templates = templateData[theme];
+      const swotOrder = ['strengths', 'weaknesses', 'opportunities', 'threats'];
+      const swotNames = {
+        'strengths': 'Strengths',
+        'weaknesses': 'Weaknesses',
+        'opportunities': 'Opportunities',
+        'threats': 'Threats'
+      };
+      
+      swotOrder.forEach((field) => {
+        const items = templates[field];
+        if (!items || items.length === 0) return;
+        
+        const group = document.createElement('div');
+        group.className = `template-group ${swotColorMap[field]}`;
+        
+        const header = document.createElement('div');
+        header.className = 'template-group-header';
+        const label = document.createElement('div');
+        label.className = 'template-group-label';
+        label.textContent = swotNames[field].substring(0, 1);
+        const title = document.createElement('span');
+        title.textContent = swotNames[field];
+        header.appendChild(label);
+        header.appendChild(title);
+        
+        const row = document.createElement('div');
+        row.className = 'template-items-row';
+        
+        items.forEach((template) => {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'template-item';
+          btn.textContent = template;
+          btn.addEventListener('click', () => fillTemplate(field, template));
+          row.appendChild(btn);
+        });
+        
+        group.appendChild(header);
+        group.appendChild(row);
+        container.appendChild(group);
+      });
+    }
+
+    // Render templates cho mobile filter (chỉ field tương ứng)
+    function renderMobileFieldTemplates(filterContainer) {
+      const fieldKey = filterContainer.dataset.fieldKey;
+      const currentTheme = document.querySelector('.theme-tab.active').dataset.theme;
+      const templates = templateData[currentTheme];
+      const items = templates[fieldKey];
+      
+      filterContainer.innerHTML = '';
+      
+      if (!items || items.length === 0) return;
+      
+      const swotNames = {
+        'strengths': 'Strengths',
+        'weaknesses': 'Weaknesses',
+        'opportunities': 'Opportunities',
+        'threats': 'Threats'
+      };
+      
+      const group = document.createElement('div');
+      group.className = `template-group ${swotColorMap[fieldKey]}`;
+      
+      const header = document.createElement('div');
+      header.className = 'template-group-header';
+      header.style.marginBottom = '8px';
+      const label = document.createElement('div');
+      label.className = 'template-group-label';
+      label.textContent = swotNames[fieldKey].substring(0, 1);
+      const title = document.createElement('span');
+      title.textContent = `Chọn ${swotNames[fieldKey]}`;
+      header.appendChild(label);
+      header.appendChild(title);
+      
+      const row = document.createElement('div');
+      row.className = 'template-items-row';
+      
+      items.forEach((template) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'template-item';
+        btn.textContent = template;
+        btn.addEventListener('click', () => fillTemplate(fieldKey, template));
+        row.appendChild(btn);
+      });
+      
+      group.appendChild(header);
+      group.appendChild(row);
+      filterContainer.appendChild(group);
+    }
+
+    // Hàm thêm template vào form
+    function fillTemplate(fieldKey, templateValue) {
+      const section = sections.find(s => s.dataset.fieldKey === fieldKey);
+      if (!section) return;
+      
+      const items = Array.from(section.querySelectorAll('.swot-item'));
+      const firstEmptyOrLast = items.find(item => !item.querySelector('.swot-input').value.trim()) || items[items.length - 1];
+      
+      if (firstEmptyOrLast) {
+        const input = firstEmptyOrLast.querySelector('.swot-input');
+        input.value = templateValue;
+        input.focus();
+        
+        // Nếu đây là item cuối cùng và có nội dung, tạo item mới
+        if (firstEmptyOrLast === items[items.length - 1] && templateValue.trim()) {
+          section.appendChild(createSwotItem());
+        }
+      }
+    }
+
+    // Event listeners cho theme tabs
+    themeTabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        themeTabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        renderTemplates(tab.dataset.theme);
+      });
+    });
+
+    // Khởi tạo templates cho theme đầu tiên (personal)
+    renderTemplates('personal');
+
+    function createSwotItem(value = '', score = 0){
+      const item = document.createElement('div');
+      item.className = 'swot-item';
+      item.innerHTML = `
+        <input type="text" value="${value}" placeholder="Nhập nội dung..." class="swot-input">
+        <input type="range" min="0" max="100" value="${score}" class="swot-slider">
+        <div class="swot-value">${score}%</div>
+      `;
+      const input = item.querySelector('.swot-input');
+      const slider = item.querySelector('.swot-slider');
+      const valueDisplay = item.querySelector('.swot-value');
+      
+      slider.addEventListener('input', () => {
+        valueDisplay.textContent = slider.value + '%';
+      });
+      
+      input.addEventListener('focus', () => {
+        const container = input.closest('.swot-items');
+        const items = Array.from(container.querySelectorAll('.swot-item'));
+        const lastItem = items[items.length - 1];
+        const lastInput = lastItem.querySelector('.swot-input');
+        if (lastInput.value.trim()) {
+          container.appendChild(createSwotItem());
+        }
+      });
+      
+      input.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          const container = input.closest('.swot-items');
+          const items = Array.from(container.querySelectorAll('.swot-item'));
+          const currentIndex = items.indexOf(item);
+          if (currentIndex < items.length - 1) {
+            items[currentIndex + 1].querySelector('.swot-input').focus();
+          }
+        }
+      });
+      
+      return item;
+    }
+
+    sections.forEach((section) => {
+      if (!section.querySelector('.swot-item')) {
+        for (let i = 0; i < 5; i++) {
+          section.appendChild(createSwotItem());
+        }
+      }
+    });
 
     function buildOutput(){
-      const sections = fieldSelectors.map((el) => {
-        const label = el.dataset.fieldLabel || '';
-        const key = el.dataset.fieldKey || '';
-        const value = el.value.trim();
-        return { label, key, value };
-      });
       const lines = sections.map((section) => {
-        return section.value
-          ? `## ${section.label}\n${section.value}`
-          : `## ${section.label}\n(chưa nhập)`;
+        const label = section.dataset.fieldLabel || '';
+        const items = Array.from(section.querySelectorAll('.swot-item'));
+        const filledItems = items
+          .map((item) => {
+            const input = item.querySelector('.swot-input');
+            const value = input.value.trim();
+            return value ? `• ${value}` : null;
+          })
+          .filter(Boolean);
+        
+        return filledItems.length
+          ? `## ${label}\n${filledItems.join('\n')}`
+          : `## ${label}\n(chưa nhập)`;
       });
       resultBox.textContent = `BẢN GHI NHANH\n\n` + lines.join('\n\n');
     }
@@ -121,6 +444,192 @@
       } catch (error) {
         window.alert('Trình duyệt chưa cho copy tự động.');
       }
+    });
+
+    function loadHtml2canvas(){
+      if (window.html2canvas) return Promise.resolve(window.html2canvas);
+      return new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js';
+        script.onload = () => resolve(window.html2canvas);
+        script.onerror = () => reject(new Error('Không tải được html2canvas.'));
+        document.body.appendChild(script);
+      });
+    }
+
+    function downloadBlob(blob, filename){
+      const link = document.createElement('a');
+      link.style.display = 'none';
+      link.href = URL.createObjectURL(blob);
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(link.href);
+    }
+
+    function downloadDataUrl(dataUrl, filename){
+      const link = document.createElement('a');
+      link.style.display = 'none';
+      link.href = dataUrl;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    function createExportClone(source){
+      const clone = source.cloneNode(true);
+      clone.style.width = source.offsetWidth + 'px';
+      clone.style.boxSizing = 'border-box';
+      clone.style.padding = '0';
+      clone.style.paddingBottom = '40px';
+      clone.style.margin = '0';
+      clone.style.background = 'white';
+
+      const swotSections = Array.from(clone.querySelectorAll('.swot-items'));
+      swotSections.forEach((section) => {
+        const label = section.dataset.fieldLabel || '';
+        const items = Array.from(section.querySelectorAll('.swot-item'));
+        const filledItems = items.filter((item) => {
+          const input = item.querySelector('.swot-input');
+          return input.value.trim();
+        });
+        
+        const wrapper = document.createElement('div');
+        wrapper.className = 'export-swot-section';
+        wrapper.style.marginBottom = '16px';
+        
+        const heading = document.createElement('div');
+        heading.style.fontWeight = '700';
+        heading.style.marginBottom = '8px';
+        heading.textContent = label;
+        wrapper.appendChild(heading);
+        
+        filledItems.forEach((item) => {
+          const input = item.querySelector('.swot-input');
+          const slider = item.querySelector('.swot-slider');
+          const value = input.value.trim();
+          const score = slider.value;
+          
+          const itemWrapper = document.createElement('div');
+          itemWrapper.style.display = 'flex';
+          itemWrapper.style.justifyContent = 'space-between';
+          itemWrapper.style.alignItems = 'center';
+          itemWrapper.style.padding = '6px 0';
+          itemWrapper.style.fontSize = '0.95rem';
+          itemWrapper.style.lineHeight = '1.4';
+          
+          const textSpan = document.createElement('span');
+          textSpan.textContent = `• ${value}`;
+          textSpan.style.flex = '1';
+          
+          const scoreSpan = document.createElement('span');
+          scoreSpan.textContent = `${score}%`;
+          scoreSpan.style.fontSize = '0.85rem';
+          scoreSpan.style.color = 'var(--muted)';
+          scoreSpan.style.fontWeight = '600';
+          scoreSpan.style.marginLeft = '12px';
+          
+          itemWrapper.appendChild(textSpan);
+          itemWrapper.appendChild(scoreSpan);
+          wrapper.appendChild(itemWrapper);
+        });
+        
+        section.replaceWith(wrapper);
+      });
+
+
+      const buttons = clone.querySelectorAll('button');
+      buttons.forEach((btn) => btn.remove());
+
+      const footer = document.createElement('div');
+      footer.style.marginTop = '24px';
+      footer.style.marginBottom = '20px';
+      footer.style.paddingTop = '16px';
+      footer.style.paddingBottom = '8px';
+      footer.style.borderTop = '1px solid var(--line)';
+      footer.style.fontSize = '0.8rem';
+      footer.style.color = 'var(--muted)';
+      footer.style.lineHeight = '1.4';
+      footer.textContent = 'Được làm tại trang web www.ai-uiux.com - Made by Anhdophin - Email: anhdophin@gmail.com';
+      clone.appendChild(footer);
+      return clone;
+    }
+
+    async function exportPageAsJpg(){
+      const source = document.querySelector('.tool-hero');
+      if (!source) return;
+
+      const exportWrapper = createExportClone(source);
+      const tempContainer = document.createElement('div');
+      tempContainer.style.position = 'fixed';
+      tempContainer.style.top = '-9999px';
+      tempContainer.style.left = '-9999px';
+      tempContainer.style.zIndex = '-1';
+      tempContainer.appendChild(exportWrapper);
+      document.body.appendChild(tempContainer);
+
+      exportJpgBtn.disabled = true;
+      const originalText = exportJpgBtn.textContent;
+      exportJpgBtn.textContent = 'Đang xuất...';
+
+      let html2canvasLib;
+      try {
+        html2canvasLib = await loadHtml2canvas();
+      } catch (error) {
+        window.alert('Không tải được công cụ xuất ảnh. Vui lòng thử lại.');
+        tempContainer.remove();
+        exportJpgBtn.disabled = false;
+        exportJpgBtn.textContent = originalText;
+        return;
+      }
+      try {
+        const contentCanvas = await html2canvasLib(exportWrapper, {
+          backgroundColor: '#ffffff',
+          scale: 2,
+          useCORS: true,
+          allowTaint: true,
+        });
+
+        const a4Width = 3508; // A4 landscape at 300 DPI
+        const a4Height = 2480;
+        const scale = Math.min(a4Width / contentCanvas.width, a4Height / contentCanvas.height);
+        const finalCanvas = document.createElement('canvas');
+        finalCanvas.width = a4Width;
+        finalCanvas.height = a4Height;
+        const ctx = finalCanvas.getContext('2d');
+        ctx.fillStyle = '#ffffff';
+        ctx.fillRect(0, 0, a4Width, a4Height);
+        const targetWidth = Math.round(contentCanvas.width * scale);
+        const targetHeight = Math.round(contentCanvas.height * scale);
+        const offsetX = Math.round((a4Width - targetWidth) / 2);
+        const offsetY = Math.round((a4Height - targetHeight) / 2);
+        ctx.drawImage(contentCanvas, 0, 0, contentCanvas.width, contentCanvas.height, offsetX, offsetY, targetWidth, targetHeight);
+
+        if (finalCanvas.toBlob) {
+          finalCanvas.toBlob((blob) => {
+            if (!blob) {
+              throw new Error('Không tạo được blob ảnh.');
+            }
+            downloadBlob(blob, 'swot-analysis.jpg');
+          }, 'image/jpeg', 0.95);
+        } else {
+          const dataUrl = finalCanvas.toDataURL('image/jpeg', 0.95);
+          downloadDataUrl(dataUrl, 'swot-analysis.jpg');
+        }
+      } catch (error) {
+        window.alert('Xuất JPG không thành công. Hãy thử lại sau.');
+        console.error(error);
+      } finally {
+        tempContainer.remove();
+        exportJpgBtn.disabled = false;
+        exportJpgBtn.textContent = originalText;
+      }
+    }
+
+    exportJpgBtn.addEventListener('click', async () => {
+      await exportPageAsJpg();
     });
   </script>
 </body>
