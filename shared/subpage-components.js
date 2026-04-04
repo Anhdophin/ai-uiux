@@ -57,8 +57,8 @@
   }
   const prefix = getPortalRootPrefix();
   await Promise.all([
-    inject('#subpage-header', `${prefix}../partials/header.html`),
-    inject('#subpage-footer', `${prefix}../partials/footer.html`),
+    inject('#subpage-header', `${prefix}partials/header.html`),
+    inject('#subpage-footer', `${prefix}partials/footer.html`),
   ]);
   hydrate(prefix);
 })();
