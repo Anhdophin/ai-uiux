@@ -1,0 +1,47 @@
+PHỤ LỤC ANGUỒN GỐC KINH TẾ CỦA LỢI THẾ CẠNH TRANH
+
+Như một thử nghiệm giả tưởng đơn giản dựa trên nguyên tắc đầu tiên có thể chỉ ra lợi ích kinh tế có được từ việc mở rộng khoảng cách giữa lợi ích mà khách hàng nhận được với chi phí mà doanh nghiệp bỏ ra so với các đối thủ cạnh tranh.
+
+Để hình dung rõ hơn, hãy giả sử rằng có một doanh nghiệp chỉ bán một sản phẩm, phục vụ một thị trường đơn giản. Bây giờ, chúng ta hãy thử xác định mức giá tối ưu về kinh tế cho doanh nghiệp đó.
+
+Gọi mẫu phương trình chuẩn cho lợi nhuận của doanh nghiệp này là:
+
+π = Q (P − Vc) − Fc
+
+Trong đó π là lợi nhuận của doanh nghiệp, Q là số lượng sản phẩm bán ra P là giá sản phẩm. Vc là chi phí biến đổi để sản xuất sản phẩm và Fc là chi phí cố định của doanh nghiệp.
+
+Theo phép tính chuẩn, hàm lợi nhuận cho sản phẩm thông thường được tối đa hóa khi đạo hàm đầu tiên của lợi nhuận tương ứng với mức giá bằng 0. Khi tìm hiểu phương trình lợi nhuận của doanh nghiệp trên, chúng ta thấy rằng thay đổi về giá sẽ ảnh hưởng trực tiếp đến lợi nhuận thông qua biến P. Giá thay đổi cũng ảnh hưởng đến số lượng sản phẩm bán ra và do đó gián tiếp tác động đến lợi nhuận của doanh nghiệp thông qua biến Q. Đối với Fc và Vc, chi phí cố định và biến đổi là các hằng số liên quan đến một sự thay đổi thuần túy về giá cả.
+
+Lấy đạo hàm đầu tiên trong phương trình lợi nhuận của doanh nghiệp tương ứng với giá cả, và đặt giá trị này bằng 0, ta được:
+
+Đạo hàm của phương trình lợi nhuận phụ thuộc vào mối quan hệ giữa mức giá (P) và số lượng sản phẩm bán ra (Q). Hàm nhu cầu xác định mối quan hệ này.
+
+Các nhà kinh tế thường đặt ra một giả định đơn giản dạng hàm nhu cầu để tìm hiểu những ý nghĩa về mặt chiến lược. Do với hàng hóa thông thường, giá cao hơn liên quan đến khối lượng hàng bán ra ít hơn và giá thấp hơn mang lại khối lượng hàng bán ra nhiều hơn, nên chúng ta biết rằng hàm nhu cầu phải có chiều đi xuống. Cách đơn giản nhất để ước tính đường cong nhu cầu theo chiều đi xuống là một đường thẳng.
+
+Có thể trình bày như sau bằng toán học hàm nhu cầu tuyến tính, trong đó số lượng sản phẩm mà thị trường yêu cầu biến thiên tuyến tính với mức giá mà doanh nghiệp thu về:
+
+Đạo hàm đầu tiên tương ứng với mức giá của phương trình này là:
+
+Trong đó, QM là nhu cầu tối đa có thể đạt được trên thị trường (số lượng sản phẩm mà thị trường yêu cầu khi mức giá bằng 0, nghĩa là miễn phí), còn B là lợi ích tối đa mà bất kỳ khách hàng nào cũng có thể có được từ sản phẩm.
+
+Đưa hàm nhu cầu (xem hình A.1) vào các phương trình trước rồi rút gọn, ta được các phép đồng nhất như sau:
+
+Mức giá tối ưu là giá trị trung bình của những lợi ích mà sản phẩm cung cấp và chi phí biến đổi:
+
+Số lượng sản phẩm bán ra được ở mức giá này tương ứng với sự chênh lệch giữa lợi ích cung cấp và chi phí biến đổi:
+
+Và lợi nhuận của doanh nghiệp ở mức giá này là:
+
+Xin lưu ý rằng lợi nhuận phụ thuộc vào sự chênh lệch giữa B và Vc, bình phương cho đường cong nhu cầu tuyến tính. Nghĩa là, chênh lệch giữa lợi ích mà sản phẩm/dịch vụ cung cấp cho khách hàng với chi phí mà doanh nghiệp bỏ ra để sản xuất sản phẩm đó càng lớn, thì doanh nghiệp càng kiếm được nhiều lợi nhuận. Và lợi nhuận không chỉ phụ thuộc vào sự chênh lệch giữa lợi ích cung cấp và chi phí bỏ ra, mà chúng còn phụ thuộc theo bình phương vì nhu cầu tuyến tính đi theo đường cong. Nghĩa là, với mỗi trường hợp tăng gấp đôi sự chênh lệch giữa lợi ích cung cấp với chi phí sản xuất, lợi nhuận lại tăng gấp bốn lần.
+
+Đối với các đường cong nhu cầu phi tuyến tính thực tế hơn, mối quan hệ giữa lợi nhuận, lợi ích và chi phí biến đổi có thể không ở mức bình phương, nhưng mối quan hệ quyền lực này vẫn sẽ lớn hơn.
+
+Mối quan hệ giữa lợi nhuận và sự chênh lệch giữa lợi ích cung cấp (B) với chi phí sản xuất (Vc) lý giải cho phần lớn chiến lược cạnh tranh hiện đại. Chiến lược cạnh tranh hiện đại thường đi theo quan điểm dựa trên nguồn lực, cho rằng:
+
+Một doanh nghiệp sẽ có lợi thế cạnh tranh nếu họ có thể kiếm lợi nhuận nhiều hơn so với các đối thủ trong cùng thị trường.
+
+Nếu một doanh nghiệp muốn có lợi thế cạnh tranh trước đối thủ, họ phải sở hữu được một số nguồn lực chiến lược mà các đối thủ khác không có và không thể có (hiếm và không thể bắt chước).
+
+Ngoài ra, nguồn lực chiến lược đó cho phép doanh nghiệp cung cấp thêm lợi ích cho khách hàng nhiều hơn so với đối thủ nhưng không làm gia tăng chi phí, hoặc cho phép doanh nghiệp cắt giảm chi phí mà không giảm bớt các lợi ích, hoặc có thể đồng thời thực hiện cả hai điều trên.
+
+Trình bày theo các phương trình ở trên, một nguồn lực chiến lược mang lại một lợi thế cạnh tranh vì nó tạo ra sự chênh lệch giữa hai giá trị B và Vc – nghĩa là sự chênh lệch giữa lợi ích tối đa cung cấp và chi phí sản xuất, khi so sánh với các đối thủ cạnh tranh.

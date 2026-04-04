@@ -1,0 +1,835 @@
+{
+  "brand": {
+    "name": "Anhdophin Ebook Reader",
+    "tagline": "PWA đọc ebook local, mobile-first, icon-first",
+    "homeUrl": "https://anhdophin.github.io/Anhdophin-AI-Translator-Home-Site/"
+  },
+  "library": {
+    "count": 2,
+    "books": [
+      {
+        "id": "dinh-gia-dua-tren-gia-tri-tim-smith-metadata-export",
+        "folderName": "dinh-gia-dua-tren-gia-tri-tim-smith-metadata-export",
+        "title": "Định Giá Dựa Trên Giá Trị",
+        "author": "Tim Smith",
+        "language": "vi",
+        "identifier": "a2ef75c9-93f8-4d28-b60d-c76db398cc1e",
+        "bookId": "định-giá-dựa-trên-giá-trị-tim-smith",
+        "sourceFilename": "Định Giá Dựa Trên Giá Trị - Tim Smith.epub",
+        "description": "13 chương · 17 file text",
+        "cover": "/library/books/dinh-gia-dua-tren-gia-tri-tim-smith-metadata-export/cover.jpg?v=1775249556",
+        "metadataPath": "/library/books/dinh-gia-dua-tren-gia-tri-tim-smith-metadata-export/metadata/metadata.json?v=1775249556",
+        "textsBase": "/library/books/dinh-gia-dua-tren-gia-tri-tim-smith-metadata-export/texts/",
+        "firstText": "001-titlepage.txt",
+        "tocCount": 13,
+        "chapterCount": 13,
+        "textCount": 17,
+        "tocItems": [
+          {
+            "id": "node-001-doanh-nghiệp-j-và-doanh-nghiệp-k",
+            "title": "Doanh nghiệp J và Doanh nghiệp K",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "",
+            "matched_file": "005-page0003.txt",
+            "matched_heading": "Lời tựaDoanh nghiệp J và Doanh nghiệp K"
+          },
+          {
+            "id": "node-002-chương-1-khung-định-giá-dựa-trên-giá-trị-để-định-giá-tối-ưu",
+            "title": "Chương 1 Khung định giá dựa trên giá trị để định giá tối ưu",
+            "level": 1,
+            "role": "chapter",
+            "chapter_number": "1",
+            "matched_file": "006-page0004.txt",
+            "matched_heading": "Chương 1Khung định giá dựa trên giá trị để định giá tối ưu"
+          },
+          {
+            "id": "node-003-chương-2-định-giá-dựa-trên-giá-trị",
+            "title": "Chương 2 Định giá dựa trên giá trị",
+            "level": 1,
+            "role": "chapter",
+            "chapter_number": "2",
+            "matched_file": "003-page0001.txt",
+            "matched_heading": "ĐỊNH GIÁ DỰA TRÊN GIÁ TRỊ"
+          },
+          {
+            "id": "node-004-chương-3-điều-chỉnh-chiến-lược-kinh-doanh",
+            "title": "Chương 3 Điều chỉnh chiến lược kinh doanh",
+            "level": 1,
+            "role": "chapter",
+            "chapter_number": "3",
+            "matched_file": "008-page0006.txt",
+            "matched_heading": "Chương 3Điều chỉnh chiến lược kinh doanh"
+          },
+          {
+            "id": "node-005-chương-4-chiến-lược-định-giá",
+            "title": "Chương 4 Chiến lược Định giá",
+            "level": 1,
+            "role": "chapter",
+            "chapter_number": "4",
+            "matched_file": "009-page0007.txt",
+            "matched_heading": "Chương 4Chiến lược Định giá"
+          },
+          {
+            "id": "node-006-chương-5-quản-lý-giá",
+            "title": "Chương 5 Quản lý giá",
+            "level": 1,
+            "role": "chapter",
+            "chapter_number": "5",
+            "matched_file": "010-page0008.txt",
+            "matched_heading": "Chương 5Quản lý giá"
+          },
+          {
+            "id": "node-007-chương-6-xác-định-và-tổ-chức-đội-ngũ-ra-quyết-định-về-giá",
+            "title": "Chương 6 Xác định và tổ chức đội ngũ ra quyết định về giá",
+            "level": 1,
+            "role": "chapter",
+            "chapter_number": "6",
+            "matched_file": "011-page0009.txt",
+            "matched_heading": "Chương 6Xác định và tổ chức đội ngũ ra quyết định về giá"
+          },
+          {
+            "id": "node-008-chương-7-cải-tiến-liên-tục-và-phân-tích-định-giá",
+            "title": "Chương 7 Cải tiến liên tục và Phân tích Định giá",
+            "level": 1,
+            "role": "chapter",
+            "chapter_number": "7",
+            "matched_file": "012-page0010.txt",
+            "matched_heading": "Chương 7Cải tiến liên tục và Phân tích Định giá"
+          },
+          {
+            "id": "node-009-chương-8-thiết-kế-tổ-chức-của-bộ-phận-chuyên-gia-định-giá",
+            "title": "Chương 8 Thiết kế tổ chức của bộ phận chuyên gia định giá",
+            "level": 1,
+            "role": "chapter",
+            "chapter_number": "8",
+            "matched_file": "013-page0011.txt",
+            "matched_heading": "Chương 8Thiết kế tổ chức của bộ phận chuyên gia định giá"
+          },
+          {
+            "id": "node-010-chương-9-quyết-định-nằm-trong-tay-bạn",
+            "title": "Chương 9 Quyết định nằm trong tay bạn",
+            "level": 1,
+            "role": "chapter",
+            "chapter_number": "9",
+            "matched_file": "014-page0012.txt",
+            "matched_heading": "Chương 9Quyết định nằm trong tay bạn"
+          },
+          {
+            "id": "node-011-phụ-lục-a-nguồn-gốc-kinh-tế-của-lợi-thế-cạnh-tranh",
+            "title": "Phụ lục A Nguồn gốc kinh tế của lợi thế cạnh tranh",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "",
+            "matched_file": "015-page0013.txt",
+            "matched_heading": "Phụ lục ANguồn gốc kinh tế của lợi thế cạnh tranh"
+          },
+          {
+            "id": "node-012-phụ-lục-b-thực-hành-định-giá-với-chuyên-gia-cao-cấp-định-giá",
+            "title": "Phụ lục B Thực hành định giá với chuyên gia cao cấp định giá",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "",
+            "matched_file": "016-page0014.txt",
+            "matched_heading": "Phụ lục BThực hành định giá với chuyên gia cao cấp định giá"
+          },
+          {
+            "id": "node-013-phụ-lục-c-thực-hành-định-giá-với-giám-đốc-bộ-phận-định-giá-robert-smith-của-công-ty-hóa-chất-eastma",
+            "title": "Phụ lục C Thực hành định giá với Giám đốc Bộ phận định giá Robert Smith của Công ty Hóa chất EASTMA",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "",
+            "matched_file": "017-page0015.txt",
+            "matched_heading": "Phụ lục C Thực hành định giá với Giám đốc Bộ phận định giá Robert Smith của Công ty Hóa chất EASTMAN"
+          }
+        ],
+        "textFiles": [
+          {
+            "file_name": "001-titlepage.txt",
+            "order": 1,
+            "href": "titlepage.xhtml",
+            "headings": []
+          },
+          {
+            "file_name": "002-credit.txt",
+            "order": 2,
+            "href": "OEBPS/contents/credit.xhtml",
+            "headings": []
+          },
+          {
+            "file_name": "003-page0001.txt",
+            "order": 3,
+            "href": "OEBPS/contents/page0001.xhtml",
+            "headings": [
+              {
+                "title": "ĐỊNH GIÁ DỰA TRÊN GIÁ TRỊ",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "004-page0002.txt",
+            "order": 4,
+            "href": "OEBPS/contents/page0002.xhtml",
+            "headings": [
+              {
+                "title": "Lời giới thiệu",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "005-page0003.txt",
+            "order": 5,
+            "href": "OEBPS/contents/page0003.xhtml",
+            "headings": [
+              {
+                "title": "Lời tựaDoanh nghiệp J và Doanh nghiệp K",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "006-page0004.txt",
+            "order": 6,
+            "href": "OEBPS/contents/page0004.xhtml",
+            "headings": [
+              {
+                "title": "Chương 1Khung định giá dựa trên giá trị để định giá tối ưu",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "007-page0005.txt",
+            "order": 7,
+            "href": "OEBPS/contents/page0005.xhtml",
+            "headings": [
+              {
+                "title": "Chương 2Định giá dựa trên giá trị",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "008-page0006.txt",
+            "order": 8,
+            "href": "OEBPS/contents/page0006.xhtml",
+            "headings": [
+              {
+                "title": "Chương 3Điều chỉnh chiến lược kinh doanh",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "009-page0007.txt",
+            "order": 9,
+            "href": "OEBPS/contents/page0007.xhtml",
+            "headings": [
+              {
+                "title": "Chương 4Chiến lược Định giá",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "010-page0008.txt",
+            "order": 10,
+            "href": "OEBPS/contents/page0008.xhtml",
+            "headings": [
+              {
+                "title": "Chương 5Quản lý giá",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "011-page0009.txt",
+            "order": 11,
+            "href": "OEBPS/contents/page0009.xhtml",
+            "headings": [
+              {
+                "title": "Chương 6Xác định và tổ chức đội ngũ ra quyết định về giá",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "012-page0010.txt",
+            "order": 12,
+            "href": "OEBPS/contents/page0010.xhtml",
+            "headings": [
+              {
+                "title": "Chương 7Cải tiến liên tục và Phân tích Định giá",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "013-page0011.txt",
+            "order": 13,
+            "href": "OEBPS/contents/page0011.xhtml",
+            "headings": [
+              {
+                "title": "Chương 8Thiết kế tổ chức của bộ phận chuyên gia định giá",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "014-page0012.txt",
+            "order": 14,
+            "href": "OEBPS/contents/page0012.xhtml",
+            "headings": [
+              {
+                "title": "Chương 9Quyết định nằm trong tay bạn",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "015-page0013.txt",
+            "order": 15,
+            "href": "OEBPS/contents/page0013.xhtml",
+            "headings": [
+              {
+                "title": "Phụ lục ANguồn gốc kinh tế của lợi thế cạnh tranh",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "016-page0014.txt",
+            "order": 16,
+            "href": "OEBPS/contents/page0014.xhtml",
+            "headings": [
+              {
+                "title": "Phụ lục BThực hành định giá với chuyên gia cao cấp định giá",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "017-page0015.txt",
+            "order": 17,
+            "href": "OEBPS/contents/page0015.xhtml",
+            "headings": [
+              {
+                "title": "Phụ lục C Thực hành định giá với Giám đốc Bộ phận định giá Robert Smith của Công ty Hóa chất EASTMAN",
+                "level": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nghe-thuat-khoi-nghiep",
+        "folderName": "nghe-thuat-khoi-nghiep",
+        "title": "Thuật Khởi Nghiệp",
+        "author": "Guy Kawasaki",
+        "language": "vi",
+        "identifier": "e3b5666c-5ed8-4f08-bd65-127cb60db074",
+        "bookId": "thuat-khoi-nghiep-guy-kawasaki",
+        "sourceFilename": "Thuat Khoi Nghiep - Guy Kawasaki.epub",
+        "description": "18 chương · 23 file text",
+        "cover": "/library/books/nghe-thuat-khoi-nghiep/cover.png?v=1775249556",
+        "metadataPath": "/library/books/nghe-thuat-khoi-nghiep/metadata/metadata.json?v=1775249556",
+        "textsBase": "/library/books/nghe-thuat-khoi-nghiep/texts/",
+        "firstText": "001-titlepage.txt",
+        "tocCount": 18,
+        "chapterCount": 18,
+        "textCount": 23,
+        "tocItems": [
+          {
+            "id": "node-001-lời-nói-đầu",
+            "title": "LỜI NÓI ĐẦU",
+            "level": 2,
+            "role": "Lời Nói Đầu",
+            "chapter_number": "",
+            "matched_file": "004-page0003.txt",
+            "matched_heading": "Lời nói đầu"
+          },
+          {
+            "id": "node-002-các-khái-niệm",
+            "title": "CÁC KHÁI NIỆM",
+            "level": 1,
+            "role": "chapter",
+            "chapter_number": "",
+            "matched_file": "005-page0004.txt",
+            "matched_heading": "CÁC KHÁI NIỆM"
+          },
+          {
+            "id": "node-003-chương-1-nghệ-thuật-khởi-động",
+            "title": "Chương 1: NGHỆ THUẬT KHỞI ĐỘNG",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "1",
+            "matched_file": "006-page0005.txt",
+            "matched_heading": "Chương 1Nghệ thuật khởi động"
+          },
+          {
+            "id": "node-004-hành-động",
+            "title": "HÀNH ĐỘNG",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "",
+            "matched_file": "007-page0006.txt",
+            "matched_heading": "HÀNH ĐỘNG"
+          },
+          {
+            "id": "node-005-chương-2-nghệ-thuật-ra-mắt-sản-phẩm",
+            "title": "Chương 2: NGHỆ THUẬT RA MẮT SẢN PHẨM",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "2",
+            "matched_file": "008-page0007.txt",
+            "matched_heading": "Chương 2Nghệ thuật ra mắt sản phẩm"
+          },
+          {
+            "id": "node-006-chương-3-nghệ-thuật-lãnh-đạo",
+            "title": "Chương 3: NGHỆ THUẬT LÃNH ĐẠO",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "3",
+            "matched_file": "009-page0008.txt",
+            "matched_heading": "Chương 3Nghệ thuật lãnh đạo"
+          },
+          {
+            "id": "node-007-chương-4-nghệ-thuật-tự-thân-vận-động",
+            "title": "Chương 4: NGHỆ THUẬT TỰ THÂN VẬN ĐỘNG",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "4",
+            "matched_file": "010-page0009.txt",
+            "matched_heading": "Chương 4Nghệ thuật tự thân vận động"
+          },
+          {
+            "id": "node-008-chương-5-nghệ-thuật-huy-động-vốn",
+            "title": "Chương 5: NGHỆ THUẬT HUY ĐỘNG VỐN",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "5",
+            "matched_file": "011-page0010.txt",
+            "matched_heading": "Chương 5Nghệ thuật huy động vốn"
+          },
+          {
+            "id": "node-009-chương-6-nghệ-thuật-thuyết-trình",
+            "title": "Chương 6: NGHỆ THUẬT THUYẾT TRÌNH",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "6",
+            "matched_file": "012-page0011.txt",
+            "matched_heading": "Chương 6Nghệ thuật thuyết trình"
+          },
+          {
+            "id": "node-010-phát-triển",
+            "title": "PHÁT TRIỂN",
+            "level": 1,
+            "role": "chapter",
+            "chapter_number": "",
+            "matched_file": "013-page0012.txt",
+            "matched_heading": "PHÁT TRIỂN"
+          },
+          {
+            "id": "node-011-chương-8-nghệ-thuật-marketing-truyền-giáo",
+            "title": "Chương 8: NGHỆ THUẬT MARKETING TRUYỀN GIÁO",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "8",
+            "matched_file": "015-page0014.txt",
+            "matched_heading": "Chương 8Nghệ thuật marketing truyền giáo"
+          },
+          {
+            "id": "node-012-chương-9-nghệ-thuật-sử-dụng-mạng-xã-hội",
+            "title": "Chương 9: NGHỆ THUẬT SỬ DỤNG MẠNG XÃ HỘI",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "9",
+            "matched_file": "016-page0015.txt",
+            "matched_heading": "Chương 9Nghệ thuật sử dụng mạng xã hội"
+          },
+          {
+            "id": "node-013-chương-10-nghệ-thuật-tạo-mưa",
+            "title": "Chương 10: NGHỆ THUẬT TẠO MƯA",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "10",
+            "matched_file": "017-page0016.txt",
+            "matched_heading": "Chương 10Nghệ thuật tạo mưa"
+          },
+          {
+            "id": "node-014-chương-11-nghệ-thuật-hợp-tác",
+            "title": "Chương 11: NGHỆ THUẬT HỢP TÁC",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "11",
+            "matched_file": "018-page0017.txt",
+            "matched_heading": "Chương 11Nghệ thuật hợp tác"
+          },
+          {
+            "id": "node-015-chương-12-nghệ-thuật-tạo-dựng-sức-bền",
+            "title": "Chương 12: NGHỆ THUẬT TẠO DỰNG SỨC BỀN",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "12",
+            "matched_file": "019-page0018.txt",
+            "matched_heading": "Chương 12Nghệ thuật tạo dựng sức bền"
+          },
+          {
+            "id": "node-016-trách-nhiệm",
+            "title": "TRÁCH NHIỆM",
+            "level": 1,
+            "role": "chapter",
+            "chapter_number": "",
+            "matched_file": "020-page0019.txt",
+            "matched_heading": "TRÁCH NHIỆM"
+          },
+          {
+            "id": "node-017-chương-13-nghệ-thuật-trở-thành-người-được-quý-trọng",
+            "title": "Chương 13: NGHỆ THUẬT TRỞ THÀNH NGƯỜI ĐƯỢC QUÝ TRỌNG",
+            "level": 2,
+            "role": "chapter",
+            "chapter_number": "13",
+            "matched_file": "021-page0020.txt",
+            "matched_heading": "Chương 13Nghệ thuật trở thành người được quý trọng"
+          },
+          {
+            "id": "node-018-lời-bạt",
+            "title": "LỜI BẠT",
+            "level": 3,
+            "role": "chapter",
+            "chapter_number": "",
+            "matched_file": "022-page0021.txt",
+            "matched_heading": "Lời bạt"
+          }
+        ],
+        "textFiles": [
+          {
+            "file_name": "001-titlepage.txt",
+            "order": 1,
+            "href": "titlepage.xhtml",
+            "headings": []
+          },
+          {
+            "file_name": "002-page0001.txt",
+            "order": 2,
+            "href": "OEBPS/contents/page0001.xhtml",
+            "headings": []
+          },
+          {
+            "file_name": "003-page0002.txt",
+            "order": 3,
+            "href": "OEBPS/contents/page0002.xhtml",
+            "headings": [
+              {
+                "title": "Mục lục",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "004-page0003.txt",
+            "order": 4,
+            "href": "OEBPS/contents/page0003.xhtml",
+            "headings": [
+              {
+                "title": "Lời nói đầu",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "005-page0004.txt",
+            "order": 5,
+            "href": "OEBPS/contents/page0004.xhtml",
+            "headings": [
+              {
+                "title": "CÁC KHÁI NIỆM",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "006-page0005.txt",
+            "order": 6,
+            "href": "OEBPS/contents/page0005.xhtml",
+            "headings": [
+              {
+                "title": "Chương 1Nghệ thuật khởi động",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "007-page0006.txt",
+            "order": 7,
+            "href": "OEBPS/contents/page0006.xhtml",
+            "headings": [
+              {
+                "title": "HÀNH ĐỘNG",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "008-page0007.txt",
+            "order": 8,
+            "href": "OEBPS/contents/page0007.xhtml",
+            "headings": [
+              {
+                "title": "Chương 2Nghệ thuật ra mắt sản phẩm",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "009-page0008.txt",
+            "order": 9,
+            "href": "OEBPS/contents/page0008.xhtml",
+            "headings": [
+              {
+                "title": "Chương 3Nghệ thuật lãnh đạo",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "010-page0009.txt",
+            "order": 10,
+            "href": "OEBPS/contents/page0009.xhtml",
+            "headings": [
+              {
+                "title": "Chương 4Nghệ thuật tự thân vận động",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "011-page0010.txt",
+            "order": 11,
+            "href": "OEBPS/contents/page0010.xhtml",
+            "headings": [
+              {
+                "title": "Chương 5Nghệ thuật huy động vốn",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "012-page0011.txt",
+            "order": 12,
+            "href": "OEBPS/contents/page0011.xhtml",
+            "headings": [
+              {
+                "title": "Chương 6Nghệ thuật thuyết trình",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "013-page0012.txt",
+            "order": 13,
+            "href": "OEBPS/contents/page0012.xhtml",
+            "headings": [
+              {
+                "title": "PHÁT TRIỂN",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "014-page0013.txt",
+            "order": 14,
+            "href": "OEBPS/contents/page0013.xhtml",
+            "headings": [
+              {
+                "title": "Chương 7Nghệ thuật xây dựng đội ngũ",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "015-page0014.txt",
+            "order": 15,
+            "href": "OEBPS/contents/page0014.xhtml",
+            "headings": [
+              {
+                "title": "Chương 8Nghệ thuật marketing truyền giáo",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "016-page0015.txt",
+            "order": 16,
+            "href": "OEBPS/contents/page0015.xhtml",
+            "headings": [
+              {
+                "title": "Chương 9Nghệ thuật sử dụng mạng xã hội",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "017-page0016.txt",
+            "order": 17,
+            "href": "OEBPS/contents/page0016.xhtml",
+            "headings": [
+              {
+                "title": "Chương 10Nghệ thuật tạo mưa",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "018-page0017.txt",
+            "order": 18,
+            "href": "OEBPS/contents/page0017.xhtml",
+            "headings": [
+              {
+                "title": "Chương 11Nghệ thuật hợp tác",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "019-page0018.txt",
+            "order": 19,
+            "href": "OEBPS/contents/page0018.xhtml",
+            "headings": [
+              {
+                "title": "Chương 12Nghệ thuật tạo dựng sức bền",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "020-page0019.txt",
+            "order": 20,
+            "href": "OEBPS/contents/page0019.xhtml",
+            "headings": [
+              {
+                "title": "TRÁCH NHIỆM",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "021-page0020.txt",
+            "order": 21,
+            "href": "OEBPS/contents/page0020.xhtml",
+            "headings": [
+              {
+                "title": "Chương 13Nghệ thuật trở thành người được quý trọng",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "022-page0021.txt",
+            "order": 22,
+            "href": "OEBPS/contents/page0021.xhtml",
+            "headings": [
+              {
+                "title": "Lời bạt",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "file_name": "023-page0022.txt",
+            "order": 23,
+            "href": "OEBPS/contents/page0022.xhtml",
+            "headings": [
+              {
+                "title": "Lời kết của lời bạt",
+                "level": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "fonts": [
+    {
+      "id": "akronism",
+      "name": "akronism",
+      "file": "akronism.ttf",
+      "url": "/library/fonts/akronism.ttf?v=1775249556"
+    },
+    {
+      "id": "amazone",
+      "name": "amazone",
+      "file": "amazone.ttf",
+      "url": "/library/fonts/amazone.ttf?v=1775249556"
+    },
+    {
+      "id": "antique",
+      "name": "antique",
+      "file": "antique.ttf",
+      "url": "/library/fonts/antique.ttf?v=1775249556"
+    },
+    {
+      "id": "architep",
+      "name": "architep",
+      "file": "architep.ttf",
+      "url": "/library/fonts/architep.ttf?v=1775249556"
+    },
+    {
+      "id": "arrusb",
+      "name": "arrusb",
+      "file": "arrusb.ttf",
+      "url": "/library/fonts/arrusb.ttf?v=1775249556"
+    },
+    {
+      "id": "aztekb",
+      "name": "aztekb",
+      "file": "aztekb.ttf",
+      "url": "/library/fonts/aztekb.ttf?v=1775249556"
+    },
+    {
+      "id": "bigapple",
+      "name": "bigapple",
+      "file": "bigapple.ttf",
+      "url": "/library/fonts/bigapple.ttf?v=1775249556"
+    },
+    {
+      "id": "broadb",
+      "name": "broadb",
+      "file": "broadb.ttf",
+      "url": "/library/fonts/broadb.ttf?v=1775249556"
+    },
+    {
+      "id": "brushsbi",
+      "name": "brushsbi",
+      "file": "brushsbi.ttf",
+      "url": "/library/fonts/brushsbi.ttf?v=1775249556"
+    },
+    {
+      "id": "circle",
+      "name": "circle",
+      "file": "circle.ttf",
+      "url": "/library/fonts/circle.ttf?v=1775249557"
+    },
+    {
+      "id": "circle3d",
+      "name": "circle3d",
+      "file": "circle3d.ttf",
+      "url": "/library/fonts/circle3d.ttf?v=1775249557"
+    },
+    {
+      "id": "comic",
+      "name": "comic",
+      "file": "comic.ttf",
+      "url": "/library/fonts/comic.ttf?v=1775249557"
+    },
+    {
+      "id": "comicbd",
+      "name": "comicbd",
+      "file": "comicbd.ttf",
+      "url": "/library/fonts/comicbd.ttf?v=1775249557"
+    }
+  ]
+}

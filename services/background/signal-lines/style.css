@@ -1,0 +1,23 @@
+[data-background="signal-lines"]{
+  position:relative;
+  overflow:hidden;
+  background:#02060d;
+  isolation:isolate;
+}
+[data-background="signal-lines"]::before,
+[data-background="signal-lines"]::after{
+  content:"";
+  position:absolute; inset:0; pointer-events:none; z-index:0;
+}
+[data-background="signal-lines"]::before{
+  background:
+    linear-gradient(to top, rgba(0,255,115,.02), transparent 46%),
+    repeating-linear-gradient(to right, transparent 0 6vw, rgba(0,255,115,.06) 6vw 6.2vw, transparent 6.2vw 12vw);
+  mask-image: linear-gradient(to top, black 30%, transparent 100%);
+}
+[data-background="signal-lines"]::after{
+  background: radial-gradient(circle at 50% 120%, rgba(0,255,115,.22), transparent 35%);
+  filter: blur(12px);
+}
+.signal-lines-canvas{position:absolute; inset:0; z-index:0; pointer-events:none; opacity:.95;}
+[data-background="signal-lines"] > *{position:relative; z-index:1;}

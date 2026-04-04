@@ -1,0 +1,111 @@
+
+:root{
+  --reader-font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --reader-scale: 1;
+  --reader-paper: #ffffff;
+  --reader-ink: #1d2433;
+  --reader-max-width: 72ch;
+  --reader-title-size: calc(2.15rem * var(--reader-scale));
+  --reader-chapter-size: calc(1.75rem * var(--reader-scale));
+  --reader-header-large-size: calc(1.4rem * var(--reader-scale));
+  --reader-header-medium-size: calc(1.2rem * var(--reader-scale));
+  --reader-header-small-size: calc(1.04rem * var(--reader-scale));
+  --reader-body-size: calc(1rem * var(--reader-scale));
+  --reader-line-height: 1.9;
+}
+.reader-article{
+  background: var(--reader-paper);
+  color: var(--reader-ink);
+}
+.reader-content{
+  font-family: var(--reader-font-family);
+  color: var(--reader-ink);
+}
+.format-standard{
+  max-width: min(var(--reader-max-width), 100%);
+  margin: 0 auto;
+}
+
+.format-standard,
+.format-standard > *,
+.reader-content,
+.reader-content *{
+  max-width:100%;
+  min-width:0;
+}
+.format-title,
+.format-chapter,
+.format-header-large,
+.format-header-medium,
+.format-header-small,
+.format-body{
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
+.reader-content img,
+.reader-content svg,
+.reader-content video,
+.reader-content canvas,
+.reader-content iframe,
+.reader-content table,
+.reader-content pre,
+.reader-content code{
+  max-width:100%;
+}
+.reader-content table{
+  display:block;
+  overflow-x:auto;
+}
+.reader-content pre{
+  white-space:pre-wrap;
+}
+.format-title,
+.format-chapter,
+.format-header-large,
+.format-header-medium,
+.format-header-small,
+.format-body{
+  margin: 0;
+  color: var(--reader-ink);
+}
+.format-title{
+  font-size: var(--reader-title-size);
+  line-height: 1.12;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+.format-chapter{
+  font-size: var(--reader-chapter-size);
+  line-height: 1.18;
+  font-weight: 780;
+  letter-spacing: -0.01em;
+  margin-bottom: .95rem;
+}
+.format-header-large{
+  font-size: var(--reader-header-large-size);
+  line-height: 1.28;
+  font-weight: 750;
+  margin-top: 1.5rem;
+  margin-bottom: .85rem;
+}
+.format-header-medium{
+  font-size: var(--reader-header-medium-size);
+  line-height: 1.34;
+  font-weight: 720;
+  margin-top: 1.3rem;
+  margin-bottom: .75rem;
+}
+.format-header-small{
+  font-size: var(--reader-header-small-size);
+  line-height: 1.42;
+  font-weight: 700;
+  margin-top: 1.05rem;
+  margin-bottom: .65rem;
+}
+.format-body{
+  font-size: var(--reader-body-size);
+  line-height: var(--reader-line-height);
+  margin-bottom: .9rem;
+  white-space: pre-wrap;
+}

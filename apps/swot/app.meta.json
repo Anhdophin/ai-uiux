@@ -1,0 +1,12 @@
+{
+  "title": "SWOT Starter",
+  "summary": "Công cụ self-help giúp bạn phân tích bản thân.",
+  "category": "Business Tool",
+  "tags": [
+    "swot",
+    "strategy",
+    "business-maker"
+  ],
+  "order": 1,
+  "icon": "icon.png"
+}

@@ -1,0 +1,18 @@
+/* Apps hub lấy cảm hứng từ Icon App Hub và dùng cùng base.css của toàn site */
+.apps-hub-page{padding-bottom:56px}
+.apps-hub-hero{padding-top:58px}
+.apps-hub-hero__inner{max-width:920px}
+.apps-hub-kicker{margin:0;color:var(--muted);font-size:.84rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.apps-hub-search{width:min(100%,720px);margin-top:8px}
+.apps-hub-meta{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.apps-hub-meta .portal-chip{display:inline-flex;align-items:center}
+.app-badge{display:block}
+.shelf-track{padding-top:26px}
+.app-card{color:inherit}
+.app-card .app-meta{max-width:240px}
+.app-card .app-subtitle{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.apps-hub-page code{padding:.15rem .42rem;border-radius:8px;background:color-mix(in srgb, var(--surface-strong) 100%, transparent);border:1px solid var(--line)}
+@media (max-width:720px){
+  .apps-hub-hero{padding-top:30px}
+  .app-badge{display:none}
+}

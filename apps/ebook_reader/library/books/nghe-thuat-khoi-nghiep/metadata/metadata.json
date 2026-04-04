@@ -1,0 +1,613 @@
+{
+  "book": {
+    "title": "Thuật Khởi Nghiệp",
+    "author": "Guy Kawasaki",
+    "language": "vi",
+    "identifier": "e3b5666c-5ed8-4f08-bd65-127cb60db074",
+    "source_filename": "Thuat Khoi Nghiep - Guy Kawasaki.epub",
+    "book_id": "thuat-khoi-nghiep-guy-kawasaki"
+  },
+  "role_options": [
+    "title",
+    "chapter",
+    "header_large",
+    "header_medium",
+    "header_small",
+    "topic",
+    "phụ lục",
+    "Lời Nói Đầu",
+    "Chủ Đề",
+    "Phần"
+  ],
+  "toc_items": [
+    {
+      "id": "node-001-lời-nói-đầu",
+      "title": "LỜI NÓI ĐẦU",
+      "level": 2,
+      "role": "Lời Nói Đầu",
+      "chapter_number": "",
+      "matched_file": "004-page0003.txt",
+      "matched_heading": "Lời nói đầu"
+    },
+    {
+      "id": "node-002-các-khái-niệm",
+      "title": "CÁC KHÁI NIỆM",
+      "level": 1,
+      "role": "chapter",
+      "chapter_number": "",
+      "matched_file": "005-page0004.txt",
+      "matched_heading": "CÁC KHÁI NIỆM"
+    },
+    {
+      "id": "node-003-chương-1-nghệ-thuật-khởi-động",
+      "title": "Chương 1: NGHỆ THUẬT KHỞI ĐỘNG",
+      "level": 2,
+      "role": "chapter",
+      "chapter_number": "1",
+      "matched_file": "006-page0005.txt",
+      "matched_heading": "Chương 1Nghệ thuật khởi động"
+    },
+    {
+      "id": "node-004-hành-động",
+      "title": "HÀNH ĐỘNG",
+      "level": 2,
+      "role": "chapter",
+      "chapter_number": "",
+      "matched_file": "007-page0006.txt",
+      "matched_heading": "HÀNH ĐỘNG"
+    },
+    {
+      "id": "node-005-chương-2-nghệ-thuật-ra-mắt-sản-phẩm",
+      "title": "Chương 2: NGHỆ THUẬT RA MẮT SẢN PHẨM",
+      "level": 2,
+      "role": "chapter",
+      "chapter_number": "2",
+      "matched_file": "008-page0007.txt",
+      "matched_heading": "Chương 2Nghệ thuật ra mắt sản phẩm"
+    },
+    {
+      "id": "node-006-chương-3-nghệ-thuật-lãnh-đạo",
+      "title": "Chương 3: NGHỆ THUẬT LÃNH ĐẠO",
+      "level": 2,
+      "role": "chapter",
+      "chapter_number": "3",
+      "matched_file": "009-page0008.txt",
+      "matched_heading": "Chương 3Nghệ thuật lãnh đạo"
+    },
+    {
+      "id": "node-007-chương-4-nghệ-thuật-tự-thân-vận-động",
+      "title": "Chương 4: NGHỆ THUẬT TỰ THÂN VẬN ĐỘNG",
+      "level": 2,
+      "role": "chapter",
+      "chapter_number": "4",
+      "matched_file": "010-page0009.txt",
+      "matched_heading": "Chương 4Nghệ thuật tự thân vận động"
+    },
+    {
+      "id": "node-008-chương-5-nghệ-thuật-huy-động-vốn",
+      "title": "Chương 5: NGHỆ THUẬT HUY ĐỘNG VỐN",
+      "level": 2,
+      "role": "chapter",
+      "chapter_number": "5",
+      "matched_file": "011-page0010.txt",
+      "matched_heading": "Chương 5Nghệ thuật huy động vốn"
+    },
+    {
+      "id": "node-009-chương-6-nghệ-thuật-thuyết-trình",
+      "title": "Chương 6: NGHỆ THUẬT THUYẾT TRÌNH",
+      "level": 2,
+      "role": "chapter",
+      "chapter_number": "6",
+      "matched_file": "012-page0011.txt",
+      "matched_heading": "Chương 6Nghệ thuật thuyết trình"
+    },
+    {
+      "id": "node-010-phát-triển",
+      "title": "PHÁT TRIỂN",
+      "level": 1,
+      "role": "chapter",
+      "chapter_number": "",
+      "matched_file": "013-page0012.txt",
+      "matched_heading": "PHÁT TRIỂN"
+    },
+    {
+      "id": "node-011-chương-8-nghệ-thuật-marketing-truyền-giáo",
+      "title": "Chương 8: NGHỆ THUẬT MARKETING TRUYỀN GIÁO",
+      "level": 2,
+      "role": "chapter",
+      "chapter_number": "8",
+      "matched_file": "015-page0014.txt",
+      "matched_heading": "Chương 8Nghệ thuật marketing truyền giáo"
+    },
+    {
+      "id": "node-012-chương-9-nghệ-thuật-sử-dụng-mạng-xã-hội",
+      "title": "Chương 9: NGHỆ THUẬT SỬ DỤNG MẠNG XÃ HỘI",
+      "level": 2,
+      "role": "chapter",
+      "chapter_number": "9",
+      "matched_file": "016-page0015.txt",
+      "matched_heading": "Chương 9Nghệ thuật sử dụng mạng xã hội"
+    },
+    {
+      "id": "node-013-chương-10-nghệ-thuật-tạo-mưa",
+      "title": "Chương 10: NGHỆ THUẬT TẠO MƯA",
+      "level": 2,
+      "role": "chapter",
+      "chapter_number": "10",
+      "matched_file": "017-page0016.txt",
+      "matched_heading": "Chương 10Nghệ thuật tạo mưa"
+    },
+    {
+      "id": "node-014-chương-11-nghệ-thuật-hợp-tác",
+      "title": "Chương 11: NGHỆ THUẬT HỢP TÁC",
+      "level": 2,
+      "role": "chapter",
+      "chapter_number": "11",
+      "matched_file": "018-page0017.txt",
+      "matched_heading": "Chương 11Nghệ thuật hợp tác"
+    },
+    {
+      "id": "node-015-chương-12-nghệ-thuật-tạo-dựng-sức-bền",
+      "title": "Chương 12: NGHỆ THUẬT TẠO DỰNG SỨC BỀN",
+      "level": 2,
+      "role": "chapter",
+      "chapter_number": "12",
+      "matched_file": "019-page0018.txt",
+      "matched_heading": "Chương 12Nghệ thuật tạo dựng sức bền"
+    },
+    {
+      "id": "node-016-trách-nhiệm",
+      "title": "TRÁCH NHIỆM",
+      "level": 1,
+      "role": "chapter",
+      "chapter_number": "",
+      "matched_file": "020-page0019.txt",
+      "matched_heading": "TRÁCH NHIỆM"
+    },
+    {
+      "id": "node-017-chương-13-nghệ-thuật-trở-thành-người-được-quý-trọng",
+      "title": "Chương 13: NGHỆ THUẬT TRỞ THÀNH NGƯỜI ĐƯỢC QUÝ TRỌNG",
+      "level": 2,
+      "role": "chapter",
+      "chapter_number": "13",
+      "matched_file": "021-page0020.txt",
+      "matched_heading": "Chương 13Nghệ thuật trở thành người được quý trọng"
+    },
+    {
+      "id": "node-018-lời-bạt",
+      "title": "LỜI BẠT",
+      "level": 3,
+      "role": "chapter",
+      "chapter_number": "",
+      "matched_file": "022-page0021.txt",
+      "matched_heading": "Lời bạt"
+    }
+  ],
+  "source_toc_from_epub": [
+    {
+      "title": "Lời nói đầu",
+      "href": "OEBPS/contents/page0003.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": ""
+    },
+    {
+      "title": "CÁC KHÁI NIỆM",
+      "href": "OEBPS/contents/page0004.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": ""
+    },
+    {
+      "title": "Chương 1 - Nghệ thuật khởi động",
+      "href": "OEBPS/contents/page0005.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": "1"
+    },
+    {
+      "title": "HÀNH ĐỘNG",
+      "href": "OEBPS/contents/page0006.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": ""
+    },
+    {
+      "title": "Chương 2 - Nghệ thuật ra mắt sản phẩm",
+      "href": "OEBPS/contents/page0007.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": "2"
+    },
+    {
+      "title": "Chương 3 - Nghệ thuật lãnh đạo",
+      "href": "OEBPS/contents/page0008.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": "3"
+    },
+    {
+      "title": "Chương 4 - Nghệ thuật tự thân vận động",
+      "href": "OEBPS/contents/page0009.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": "4"
+    },
+    {
+      "title": "Chương 5 - Nghệ thuật huy động vốn",
+      "href": "OEBPS/contents/page0010.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": "5"
+    },
+    {
+      "title": "Chương 6 - Nghệ thuật thuyết trình",
+      "href": "OEBPS/contents/page0011.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": "6"
+    },
+    {
+      "title": "PHÁT TRIỂN",
+      "href": "OEBPS/contents/page0012.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": ""
+    },
+    {
+      "title": "Chương 7 - Nghệ thuật xây dựng đội ngũ",
+      "href": "OEBPS/contents/page0013.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": "7"
+    },
+    {
+      "title": "Chương 8 - Nghệ thuật marketing truyền giáo",
+      "href": "OEBPS/contents/page0014.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": "8"
+    },
+    {
+      "title": "Chương 9 - Nghệ thuật sử dụng mạng xã hội",
+      "href": "OEBPS/contents/page0015.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": "9"
+    },
+    {
+      "title": "Chương 10 - Nghệ thuật tạo mưa",
+      "href": "OEBPS/contents/page0016.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": "10"
+    },
+    {
+      "title": "Chương 11 - Nghệ thuật hợp tác",
+      "href": "OEBPS/contents/page0017.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": "11"
+    },
+    {
+      "title": "Chương 12 - Nghệ thuật tạo dựng sức bền",
+      "href": "OEBPS/contents/page0018.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": "12"
+    },
+    {
+      "title": "TRÁCH NHIỆM",
+      "href": "OEBPS/contents/page0019.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": ""
+    },
+    {
+      "title": "Chương 13 - Nghệ thuật trở thành người được quý trọng",
+      "href": "OEBPS/contents/page0020.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": "13"
+    },
+    {
+      "title": "Lời bạt",
+      "href": "OEBPS/contents/page0021.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": ""
+    },
+    {
+      "title": "Lời kết của lời bạt",
+      "href": "OEBPS/contents/page0022.xhtml",
+      "level": 1,
+      "role": "",
+      "matched_file": "",
+      "matched_heading": "",
+      "chapter_number": ""
+    }
+  ],
+  "text_files": [
+    {
+      "file_name": "001-titlepage.txt",
+      "order": 1,
+      "href": "titlepage.xhtml",
+      "headings": []
+    },
+    {
+      "file_name": "002-page0001.txt",
+      "order": 2,
+      "href": "OEBPS/contents/page0001.xhtml",
+      "headings": []
+    },
+    {
+      "file_name": "003-page0002.txt",
+      "order": 3,
+      "href": "OEBPS/contents/page0002.xhtml",
+      "headings": [
+        {
+          "title": "Mục lục",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "004-page0003.txt",
+      "order": 4,
+      "href": "OEBPS/contents/page0003.xhtml",
+      "headings": [
+        {
+          "title": "Lời nói đầu",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "005-page0004.txt",
+      "order": 5,
+      "href": "OEBPS/contents/page0004.xhtml",
+      "headings": [
+        {
+          "title": "CÁC KHÁI NIỆM",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "006-page0005.txt",
+      "order": 6,
+      "href": "OEBPS/contents/page0005.xhtml",
+      "headings": [
+        {
+          "title": "Chương 1Nghệ thuật khởi động",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "007-page0006.txt",
+      "order": 7,
+      "href": "OEBPS/contents/page0006.xhtml",
+      "headings": [
+        {
+          "title": "HÀNH ĐỘNG",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "008-page0007.txt",
+      "order": 8,
+      "href": "OEBPS/contents/page0007.xhtml",
+      "headings": [
+        {
+          "title": "Chương 2Nghệ thuật ra mắt sản phẩm",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "009-page0008.txt",
+      "order": 9,
+      "href": "OEBPS/contents/page0008.xhtml",
+      "headings": [
+        {
+          "title": "Chương 3Nghệ thuật lãnh đạo",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "010-page0009.txt",
+      "order": 10,
+      "href": "OEBPS/contents/page0009.xhtml",
+      "headings": [
+        {
+          "title": "Chương 4Nghệ thuật tự thân vận động",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "011-page0010.txt",
+      "order": 11,
+      "href": "OEBPS/contents/page0010.xhtml",
+      "headings": [
+        {
+          "title": "Chương 5Nghệ thuật huy động vốn",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "012-page0011.txt",
+      "order": 12,
+      "href": "OEBPS/contents/page0011.xhtml",
+      "headings": [
+        {
+          "title": "Chương 6Nghệ thuật thuyết trình",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "013-page0012.txt",
+      "order": 13,
+      "href": "OEBPS/contents/page0012.xhtml",
+      "headings": [
+        {
+          "title": "PHÁT TRIỂN",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "014-page0013.txt",
+      "order": 14,
+      "href": "OEBPS/contents/page0013.xhtml",
+      "headings": [
+        {
+          "title": "Chương 7Nghệ thuật xây dựng đội ngũ",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "015-page0014.txt",
+      "order": 15,
+      "href": "OEBPS/contents/page0014.xhtml",
+      "headings": [
+        {
+          "title": "Chương 8Nghệ thuật marketing truyền giáo",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "016-page0015.txt",
+      "order": 16,
+      "href": "OEBPS/contents/page0015.xhtml",
+      "headings": [
+        {
+          "title": "Chương 9Nghệ thuật sử dụng mạng xã hội",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "017-page0016.txt",
+      "order": 17,
+      "href": "OEBPS/contents/page0016.xhtml",
+      "headings": [
+        {
+          "title": "Chương 10Nghệ thuật tạo mưa",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "018-page0017.txt",
+      "order": 18,
+      "href": "OEBPS/contents/page0017.xhtml",
+      "headings": [
+        {
+          "title": "Chương 11Nghệ thuật hợp tác",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "019-page0018.txt",
+      "order": 19,
+      "href": "OEBPS/contents/page0018.xhtml",
+      "headings": [
+        {
+          "title": "Chương 12Nghệ thuật tạo dựng sức bền",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "020-page0019.txt",
+      "order": 20,
+      "href": "OEBPS/contents/page0019.xhtml",
+      "headings": [
+        {
+          "title": "TRÁCH NHIỆM",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "021-page0020.txt",
+      "order": 21,
+      "href": "OEBPS/contents/page0020.xhtml",
+      "headings": [
+        {
+          "title": "Chương 13Nghệ thuật trở thành người được quý trọng",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "022-page0021.txt",
+      "order": 22,
+      "href": "OEBPS/contents/page0021.xhtml",
+      "headings": [
+        {
+          "title": "Lời bạt",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "file_name": "023-page0022.txt",
+      "order": 23,
+      "href": "OEBPS/contents/page0022.xhtml",
+      "headings": [
+        {
+          "title": "Lời kết của lời bạt",
+          "level": 1
+        }
+      ]
+    }
+  ]
+}

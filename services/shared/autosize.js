@@ -1,0 +1,1 @@
+window.ToolAutoSize={syncCssVars(vars={}){Object.entries(vars).forEach(([k,v])=>document.documentElement.style.setProperty(k,v));}};

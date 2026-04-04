@@ -1,0 +1,8 @@
+{
+  "title": "All Products",
+  "short_title": "All",
+  "nav_label": "All",
+  "section": "shop",
+  "show_in_nav": false,
+  "template": "shop-all"
+}

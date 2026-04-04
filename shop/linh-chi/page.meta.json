@@ -1,0 +1,19 @@
+{
+  "_clone_help": "KHI CLONE NHÓM: sửa title, short_title, nav_label, description, badge, card_caption, experience_tags. Nếu nhóm mới có ảnh riêng thì thêm file shop/media/<slug-nhom>.(jpg|png|webp) rồi chạy python shop/scan_shop.py",
+  "_clone_slug_note": "Slug nhóm hiện tại là \"linh-chi\". Khi clone nhóm mới, slug chính là tên folder. Scanner lấy category_slug của sản phẩm theo folder cha này.",
+  "title": "Linh Chi",
+  "short_title": "Linh Chi",
+  "nav_label": "Linh Chi",
+  "section": "shop",
+  "show_in_nav": false,
+  "template": "shop-category",
+  "description": "Nhóm sản phẩm sức khoẻ, thưởng thức và quà biếu từ nấm linh chi.",
+  "experience_tags": [
+    "sức khoẻ",
+    "thưởng thức",
+    "quà biếu"
+  ],
+  "accent": "#7aa35a",
+  "badge": "Wellness",
+  "card_caption": "Cafe & rượu linh chi"
+}

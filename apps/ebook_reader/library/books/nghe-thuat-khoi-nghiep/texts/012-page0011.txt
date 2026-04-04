@@ -1,0 +1,463 @@
+CHƯƠNG 6NGHỆ THUẬT THUYẾT TRÌNH
+
+Con nên lựa lại lời mà nói, kẻo sau này sẽ phải thiệt thòi nhiều.
+
+– William Shakespeare, King Lear
+
+GIST
+
+Hãy quên câu “Tôi suy nghĩ, tôi tồn tại” đi. Với các doanh nhân, câu nói hiệu quả là “Tôi thuyết trình, tôi tồn tại”.
+
+Thuyết trình không chỉ để huy động vốn – nó còn giúp đạt được thỏa thuận, và thỏa thuận mang lại nhiều điều tốt lành như việc bán hàng, các mối quan hệ đối tác, và cả những nhân sự mới.
+
+Câu hỏi đặt ra là: “Làm sao bạn biết một doanh nhân đang thuyết trình?”
+
+Câu trả lời là: “Miệng anh ấy cử động.”
+
+Trong chương này, bạn sẽ học cách thuyết trình về startup và sản phẩm của bạn một cách ngắn gọn, đơn giản, và hiệu quả hơn.
+
+Hãy chuẩn bị kỹ lưỡng
+
+Nếu máy chiếu không sẵn sàng khi bạn thuyết trình tại một cuộc họp, đó là lỗi của bạn. Nếu laptop và máy chiếu của bạn không kết nối được với nhau, đó là lỗi của bạn. Nếu đèn máy chiếu của bạn bị nổ ngay giữa buổi thuyết trình, đó là lỗi của bạn. Nếu bạn khởi động chậm, có vẻ bị rối, và không thu hút được khán giả, đó cũng là lỗi của bạn.
+
+Bạn có đang nhìn thấy một mô hình không?
+
+Gần như không thể vãn hồi được sau một khởi đầu tồi tệ, vì vậy hãy đến sớm và chuẩn bị mọi thứ. Mang theo máy chiếu, hai laptop có chứa bài thuyết trình, hai cáp VGA, bản sao bài thuyết trình của mình trong một USB. Và cả bản in của bài thuyết trình phòng khi mọi chuyện không ổn.
+
+Chuẩn bị tâm thế cho khán giả
+
+Khi buổi thuyết trình bắt đầu, bạn nên bắt nhịp cho toàn bộ phần còn lại của bài thuyết trình. Để làm điều này hãy hỏi hai câu sau: “Các vị dành cho tôi bao nhiêu thời gian?” Câu hỏi này cho thấy rằng bạn tôn trọng giá trị thời gian của khán giả bằng cách không vượt quá thời lượng dành cho bạn. Nó cũng làm cho khán giả tập trung dành cho bạn một khoảng thời gian tối thiểu cho phép.
+
+“Nếu bạn có thể làm cho mọi người cùng hướng về một phía, bạn sẽ có lợi thế.”
+
+Rồi bạn hỏi tiếp “Ba thông tin quan trọng nhất mà tôi cần cung cấp là gì?”. Bạn có thể phát hiện ra rằng khán giả đã biết trước một điều nào đó mà bạn sắp cố gắng trình bày, vì vậy bạn có thể bỏ qua nó. Và bạn cũng có thể phát hiện ra rằng không thể bỏ qua dù bạn nghĩ rằng họ đã biết điều đó.
+
+Cuối cùng hãy nói “Hãy cho phép tôi trả lời các câu hỏi sau khi hoàn thành bài thuyết trình?”. Bạn đang cố gắng làm cho khán giả tập trung và không làm gián đoạn để bài thuyết trình của bạn được trôi chảy hơn.
+
+Bạn nên có các thông tin này trước buổi thuyết trình từ nhà tài trợ của bạn, nhưng vẫn cần dành cho việc hỏi và trả lời những câu trên trong khoảng 5 phút trước khi thuyết trình. Nếu bạn có thể làm cho mọi người cùng hướng về một phía, bạn sẽ có lợi thế.
+
+Nói về bản thân trong phút cuối cùng
+
+Tôi chưa bao giờ ngồi suốt một buổi thuyết trình và chờ đợi người thuyết trình sẽ dành 15 phút đầu tiên nói về chuyện đời của họ. Thêm 15 phút nữa cho các thành viên của nhóm có mặt trong phòng.
+
+Không may là nhiều doanh nhân tin rằng bài thuyết trình là một bài tự sự mà chương mở đầu phải luôn như viết tiểu sử. Những câu chuyện cá nhân này được cho là để thuyết phục khán giả rằng đây là một nhóm tuyệt vời. Trong khi đấy, khán giả lại đang muốn biết, “Startup này làm gì nhỉ?”. Nếu dùng ngôn ngữ của ngành hàng không thì bài thuyết trình thường sẽ giống một chiếc 747 cất cánh trên đường băng dài khoảng 3,2km. Thay vì vậy, bạn nên là một chiếc F18 phóng lên từ boong tàu sân bay dài khoảng 90m.
+
+Không nhiều hơn một phút cuối cùng bài thuyết trình của mình bạn dành cho việc giải thích startup của bạn làm gì. (Hãy nhớ rằng đã mất 5 phút đầu tiên để hỏi khán giả ba câu hỏi ở trên.) Một khi khán giả đã biết bạn làm gì, họ có thể lắng nghe phần còn lại của bài thuyết trình với sự tập trung và thoải mái.
+
+Đừng quá phấn khích với những cụm từ như “bằng phát minh đã được đăng ký, tạo ra sự đột phá, tầng lớp doanh nhân, có thể mở rộng, có tính cách mạng, lợi thế người tiên phong, xóa bỏ sự trì trệ, các giải pháp tập trung vào khách hàng”. Thay vào đó, hãy dùng những câu ngắn gọn thế này:
+
+• “Chúng tôi kinh doanh phần mềm.”
+
+• “Chúng tôi kinh doanh ổ cứng.”
+
+• “Chúng tôi giáo dục những đứa trẻ chịu thiệt thòi.”
+
+• “Chúng tôi ngăn ngừa tình trạng lạm dụng trẻ em.”
+
+BÀI TẬP
+
+Hãy đặt đồng hồ 1 phút. Giải thích về startup của bạn cho một người bạn đến khi hết thời gian. Hãy yêu cầu người ấy viết lại những gì startup của bạn làm. So sánh câu trả lời của họ với những gì bạn nghĩ là bạn đã nói.
+
+Quy Tắc 10/20/30
+
+Tôi mắc chứng Ménière, một thuật ngữ y tế chỉ sự kết hợp của chứng ù tai và hoa mắt. Không có thuốc chữa, nhưng có nhiều giả thuyết về nguyên nhân và cách chữa trị. Tôi tin rằng chứng Ménière của tôi là kết quả của việc ngồi nghe hàng ngàn bài thuyết trình vớ vẩn.
+
+Nguyên lý của Pareto là 80% hậu quả quả đến từ 20% nguyên nhân. Quy tắc 10/20/30 có nghĩa là bạn dùng 10 slide trong 20 phút với tối đa là 30 gạch đầu dòng (bullet). Đây là quy tắc quan trọng nhất mà bạn có thể học được về nghệ thuật thuyết trình và nó sẽ giúp ngăn ngừa chứng Ménière.
+
+Mười slide
+
+Mục đích của một bài thuyết trình là để kích thích sự quan tâm, chứ không phải bao quát mọi khía cạnh của startup của bạn và ép khán giả phải quan tâm. Mục tiêu của bạn là tạo ra đủ sự quan tâm để có được cuộc gặp thứ hai.
+
+Do đó, số lượng slide được khuyến cáo là 10. Con số ít đến không tưởng này bắt bạn phải tập trung vào những điểm quan trọng nhất. Bạn có thể thêm vài slide nữa, nhưng không nên quá 15 – càng nhiều slide, ý tưởng của bạn càng ít tập trung. Mười slide này bao gồm:
+
+• TIÊU ĐỀ: Tên công ty của bạn, tên bạn và chức danh, địa chỉ, email và số điện thoại di động. Khi chiếu slide này, bạn có thể hỏi 3 câu hỏi để chuẩn bị tâm thế cho khán giả và sau đó giải thích công ty của bạn đang làm gì. Hãy nói vào trọng tâm vấn đề!
+
+• THÁCH THỨC VÀ CƠ HỘI: Mô tả những nhu cầu của khách hàng mà bạn đang muốn đáp ứng. Mục tiêu là để mọi người chú ý vào tính khả thi ở sản phẩm của bạn. Tránh việc mọi người hiểu là bạn có vẻ đang trình bày một giải pháp để tìm kiếm các thách thức. Giảm thiểu hoặc loại bỏ các trích dẫn từ các nghiên cứu tư vấn về quy mô thị trường trong tương lai.
+
+Nếu bạn không đáp ứng được các nhu cầu nhưng có thể giúp mọi người làm điều đấy, điều mà trước kia họ chưa bao giờ làm được, đây là thời điểm để đưa ra một viễn cảnh về một thế giới mới dũng cảm mà bạn đang trưng ra.
+
+• TUYÊN BỐ GIÁ TRỊ: Giải thích cách bạn có thể đáp ứng nhu cầu của khách hàng và ý nghĩa mà bạn tạo ra. Hãy đảm bảo rằng khán giả hiểu rõ những gì bạn kinh doanh và tuyên bố giá trị của công ty bạn.
+
+Đây không phải là chỗ cho những lý giải chuyên sâu về công nghệ. Đưa ra những điều thú vị của startup của bạn – ví dụ như, “Chúng tôi là một trang web cung cấp thông tin giảm giá trong du lịch. Chúng tôi đã viết một phần mềm để tìm kiếm thông tin giảm giá trên tất cả các trang du lịch khác và so sánh chúng trong một báo cáo”.
+
+• ĐIỀU KỲ DIỆU ẨN GIẤU: Hãy mô tả công nghệ, công thức bí mật hay điều kỳ diệu đằng sau sản phẩm của bạn. Càng ít chữ và càng nhiều biểu đồ, sơ đồ và lược đồ càng tốt. Nếu bạn có một sản phẩm MVVVP, mô hình kinh doanh hay bản giới thiệu sản phẩm, đây là lúc để thực hiện việc chuyển đổi cho nó. Nếu bạn may mắn, bạn sẽ không cần dùng tới các slide còn lại. Như Glen Shires của Google từng nói, “Nếu một bức tranh đáng giá bằng hàng ngàn con chữ, thì một sản phẩm mẫu đáng giá bằng mười ngàn slide”.
+
+• MÔ HÌNH KINH DOANH: Mô hình này giải thích cách bạn kiếm tiền, các kênh phân phối, và lợi nhuận biên của bạn. Nói chung, một mô hình kinh doanh mới lạ, chưa được kiểm chứng là một thứ gây e ngại. Nếu bạn có một mô hình mang tính cách mạng, hãy giải thích nó như những cái quen thuộc. Đây cũng là cơ hội để bạn trưng ra tên của những công ty đang dùng sản phẩm của bạn.
+
+• KẾ HOẠCH THÂM NHẬP THỊ TRƯỜNG: Giải thích cách bạn tiếp cận khách hàng và tóm tắt các chiến thuật marketing kích cầu của bạn. Hãy thuyết phục khán giả là bạn có một chiến lược tiếp cận thị trường hiệu quả mà nó sẽ không làm bạn cạn túi. (Hãy cố gắng cưỡng lại mong muốn sử dụng từ “phát tán nhanh”, vì đây là một suy nghĩ mang tính chủ quan, chứ không phải là một chiến thuật.)
+
+• PHÂN TÍCH CẠNH TRANH: Đưa ra một cái nhìn toàn diện về tình hình cạnh tranh. Quá nhiều thì tốt hơn là quá ít. Đừng bao giờ bỏ qua đối thủ của bạn. Tất cả mọi người – khách hàng, nhà đầu tư, và các đối tác – muốn biết vì sao bạn lại tốt, chứ không phải lý do đối thủ tệ.
+
+• BỘ MÁY ĐIỀU HÀNH: Nói về các thành viên quan trọng trong ban quản trị, ban giám đốc, ban cố vấn, cũng như những nhà đầu tư chính. Sẽ không có vấn đề gì nếu bạn chưa có được một nhóm hoàn thiện – vì nếu bạn là nhà đồng sáng lập của Cisco hay YouTube, bạn sẽ không cần kiếm tiền.
+
+Chỉ cần đề cập đến phần học vấn và kinh nghiệm làm việc của bạn có liên quan đến thị trường mà bạn theo đuổi. Tất cả các startup đều có những hạn chế – điều quan trọng là liệu bạn có nhận ra những hạn chế này không và có sẵn sàng sửa chữa không.
+
+• CÁC KẾ HOẠCH TÀI CHÍNH CÙNG NHỮNG CHỈ SỐ QUAN TRỌNG: Trình bày một dự báo từ 3 đến 5 năm không chỉ về tiền mà còn về những thông số quan trọng như số lượng khách hàng, tỷ lệ chuyển đổi. Hãy thực hiện một dự đoán từ dưới lên (đọc chương 4 “Nghệ thuật tự thân vận động”). Hãy chú ý đến chu trình bán hàng kéo dài và tính thời vụ. Hãy làm cho mọi người hiểu rằng các giả định nằm trong bản báo cáo của bạn cũng quan trọng như chính những con số mà bạn đưa ra.
+
+• TÌNH HÌNH HIỆN NAY, NHỮNG VIỆC ĐÃ LÀM ĐƯỢC, LỊCH TRÌNH, VÀ KẾ HOẠCH SỬ DỤNG VỐN: Giải thích tình hình hiện tại của sản phẩm, tương lai gần sẽ thế nào, và bạn sẽ sử dụng lượng vốn mà bạn đang cố gắng huy động ra sao. Hãy nói chi tiết về động lực và sức hút tích cực của bạn. Sau đó sử dụng slide này để kết thúc với một cam kết hành động.
+
+Chú ý về việc thanh khoản: Không doanh nhân nào biết được khi nào, bằng cách nào, hay liệu anh/cô ta sẽ đạt được sự thanh khoản, và mặc dù vậy nhiều người vẫn khăng khăng thêm một slide nói rằng, “Chúng tôi sẽ có hai lựa chọn thanh khoản: một đợt IPO hoặc một vụ sát nhập”. Chà! Nếu một nhà đầu tư yêu cầu bạn trình bày chiến lược thanh khoản, nó luôn cho thấy rằng ông ta thiếu kinh nghiệm. Còn nếu bạn trả lời với 2 lựa chọn này, bạn cũng thường thường như bao người khác. Thời điểm duy nhất bạn nên bổ sung một slide về tính thanh khoản là khi bạn có thể liệt kê ít nhất 3 công ty muốn mua lại mà nhà đầu tư chưa bao giờ nghe đến – điều này cho thấy rằng bạn hiểu rất rõ ngành của mình. Ngược lại, việc nói rằng Google hay một công ty hàng đầu trong ngành sẽ mua công ty bạn sẽ làm cho tất cả, trừ những nhà đầu tư ngớ ngẩn nhất, cười nhạo bạn mà thôi.
+
+Ngoài 10 slide trên, bạn có thể bổ sung thêm một vài cái nữa để đề cập chi tiết hơn về công nghệ, marketing, các khách hàng hiện tại, và những chiến lược chính. Những slide này nên được chuẩn bị trước phòng khi bạn được yêu cầu giải thích sâu hơn, tuy nhiên đừng dùng đến trừ khi bạn được yêu cầu.
+
+Hai mươi phút
+
+Phần lớn các bài thuyết trình kéo dài khoảng 1 giờ; tuy nhiên, bạn nên thực hiện bài thuyết trình trong vòng 20 phút. Có ba lý do như sau:
+
+• Nếu bạn đang sử dụng một máy tính cài Windows, bạn có thể sẽ cần 40 phút để kết nối với máy chiếu. Nếu gần đây bạn đã nâng cấp Windows, việc đấy có thể lên đến cả tiếng đồng hồ.
+
+• Bạn có thể không có được một tiếng đồng hồ trọn vẹn nếu cuộc họp ngay trước đó kéo dài, và tôi chưa bao giờ thấy cuộc họp nào kết thúc đúng giờ. Không may là bạn có thể phải kết thúc đúng giờ để hướng mọi người quay lại lịch trình làm việc.
+
+• Bạn muốn có chút thời gian dư giả để thảo luận. Việc đi theo trình tự thuyết trình 20 phút rồi thảo luận 40 phút, hay theo trình tự slide/ thảo luận, slide/ thảo luận, slide/ thảo luận không quan trọng.
+
+Bạn đang nghĩ, Guy đang nói đến đám đông khổ sở, xoàng xĩnh. Họ nên làm theo quy tắc 10 slide và 20 phút. Chúng tôi có công nghệ đang được đăng ký sáng chế mang tính đột phá, cách tân, tiên phong. Không, tôi đang nói tới chính bạn đấy. Tôi không quan tâm bạn bán thức ăn cho chó, thuốc trường sinh bất lão, hạt nano, thiết bị quang học, thuốc chữa ung thư hay gì đi nữa: 10 slide và 20 phút là tất cả những gì bạn có.
+
+Font chữ cỡ 30
+
+Lời khuyên này áp dụng cho tất cả các bài thuyết trình có sử dụng máy chiếu. Hãy nghĩ về điều này: Phần lớn các nhà đầu tư đều đã lớn tuổi và có vấn đề về thị lực. Cách làm tốt nhất là hãy lấy tuổi của nhà đầu tư già nhất chia đôi và dùng font chữ cỡ đấy. Một quan sát khác cho thấy rằng, font chữ càng to thì người thuyết trình càng giỏi – Steve Jobs dùng font 150. Bạn dùng font 8!
+
+Bạn cần font lớn và ít chữ là vì các slide dùng để dẫn dắt chứ không phải để đọc. Chúng nên được dùng để diễn giải và neo lại những gì bạn đang nói. Vì mọi người có thể đọc nhanh hơn bạn nói nên nếu bạn đưa ra quá nhiều thông tin trên một slide, khán giả sẽ đọc trước và không tập trung vào những gì bạn nói.
+
+BÀI TẬP
+
+Giả sử ai đó đề nghị trả cho bạn 100 đô-la cho mỗi từ mà bạn sẽ xóa đi trong bài thuyết trình. Bài thuyết trình của bạn sẽ trông thế nào?
+
+Nếu bạn phải sử dụng font chữ nhỏ để truyền tải hết nội dung thì có nghĩa là bạn đang nhét quá nhiều chi tiết vào một slide. Mỗi slide nên nói về một điểm chính. Toàn bộ văn bản và các gạch đầu dòng (bullet) nên tập trung vào điểm này.
+
+Hãy làm chủ những điều quan trọng
+
+Trong một vài trường hợp… con dao có thể gây nguy hại cho người dùng nó… bạn nên sử dụng nó cẩn thận vì bạn biết nó không có mắt.
+
+– Stephen King
+
+Nếu bạn tuân theo quy tắc 10/20/30, các bài thuyết trình của bạn sẽ tốt hơn 90% các doanh nhân khác. Để đến gần hơn với sự hoàn hảo, hãy cố gắng làm chủ những điều quan trọng sau:
+
+• ĐỪNG BAO GIỜ ĐỌC-CÁC-SLIDE-CỦA-BẠN: Đừng bao giờ giờ đọc các slide. Văn bản trên slide là những điểm định vị. Những gì bạn nói ra là để giải thích và tô điểm thêm.
+
+“Ông có nghĩ hiệu ứng bay vào và mờ dần từ góc dưới bên trái sẽ làm cho bài thuyết trình hấp dẫn hơn không?”
+
+• DÙNG NỀN TỐI: Nền tối thể hiện sự nghiêm túc và chắc chắn. Nền trắng hay sáng trông rẻ tiền và nghiệp dư. Bên cạnh đó, việc nhìn vào một nền trắng trong suốt 20 đến 60 phút (tùy thuộc vào loại máy tính bạn sử dụng) thật mệt mỏi. Bạn đã bao giờ thấy danh sách đoàn làm phim (ở cuối phim) được chạy trên nền trắng chữ đen chưa.
+
+• BỔ SUNG LOGO CỦA BẠN VÀO SLIDE MASTER: Mỗi bài thuyết trình là một cơ hội để xây dựng nhận diện thương hiệu cho startup của bạn, vì vậy hãy đặt logo trên slide master. Bằng cách này logo của bạn sẽ xuất hiện trên tất cả các slide.
+
+• SỬ DỤNG CÁC FONT CHỮ SANS-SERIF PHỔ BIẾN: Một bài thuyết trình không phải là nơi để thể hiện rằng bạn đã sưu tập được một bộ font chữ lớn nhất thế giới. Hãy sử dụng những font chữ phổ biến vì có thể bạn phải trình bày bài thuyết trình bằng máy tính của người khác. Hãy dùng các font chữ Sans-Serif vì chúng dễ đọc hơn là các font chữ thanh nhã mà bạn yêu thích. Bạn có thể không bao giờ gặp rắc rối với font Arial.
+
+• HOẠT HÓA (ANIMATION) CƠ THỂ BẠN, CHỨ KHÔNG PHẢI CÁC SLIDE: PowerPoint có hơn 60 cách để hoạt hóa chữ và các đồ họa. Ở đây thừa tới 59 cách. Nhiều doanh nhân sử dụng các kiểu hoạt hóa và chuyển đổi giữa các slide để làm đẹp bài thuyết trình của họ. Bạn có nghĩ rằng hiệu ứng bay vào và mờ dần từ góc dưới bên trái sẽ làm cho bài thuyết trình hấp dẫn hơn không? Hãy sử dụng cơ thể của bạn, chứ không phải các hiệu ứng PowerPoint, để truyền tải cảm xúc và sự say mê.
+
+• SỬ DỤNG CÁC KÝ HIỆU ĐẦU DÒNG (BULLET): Phần lớn các doanh nhân không sử bullet. Họ trình bày và đọc những đoạn văn dài. Thay vì vậy, hãy dùng bullet: các đoạn văn nhỏ sẽ tập trung vào những điều chính. Ngay cả khi có một số người dùng bullet, họ cũng chiếu tất cả một lần, và việc này làm cho khán giả đọc trước nội dung. Đây cũng là một sai lầm. Hãy sử dụng như sau: bấm chuột, bullet 1, giải thích; bấm chuột, bullet 2, giải thích; bấm chuột, bullet 3, giải thích và cứ thế. Đấy là tất cả hoạt hóa mà bạn cần ở bất kỳ đâu trong một bài thuyết trình.
+
+• SỬ DỤNG CÁC KÝ HIỆU ĐẦU DÒNG Ở CÙNG MỘT CẤP: Việc sử dụng các ký hiệu ở nhiều cấp có nghĩa là bạn đang cố gắng truyền tải quá nhiều thông tin trong một slide. Mỗi slide nên tập trung vào một điểm chính, với các ký hiệu đầu dòng hỗ trợ cho nó. Nếu bạn chú ý tới con số “30” trong quy tắc 10/20/30, bạn sẽ thấy khó có thể sử dụng các ký hiệu đầu dòng ở nhiều cấp.
+
+• SỬ DỤNG CÁC SƠ ĐỒ VÀ ĐỒ THỊ: Một định dạng liệt kê tốt hơn một khối văn bản, nhưng một sơ đồ hay biểu đồ cũng hữu hiệu hơn một định dạng liệt kê. Sử dụng sơ đồ để giải thích doanh nghiệp của bạn hoạt động thế nào. Sử dụng đồ thị để mô tả các xu hướng và kết luận về số liệu. Và tạo các sơ đồ và hình ảnh rồi chúng xuất hiện bằng cách bấm chuột, giống các định dạng liệt kê.
+
+• LÀM NHỮNG SLIDE CÓ THỂ IN ĐƯỢC: Có một điều cần lưu ý khi đưa các sơ đồ và đồ thị vào slide. Đôi khi, những đồ họa này được sắp chồng lên nhau, điều này không vấn đề gì khi thuyết trình, nhưng sẽ không được thể hiện khi in các slide này. Vì thế, hãy đảm bảo rằng tất cả được thể hiện rõ ràng khi in.
+
+Hãy để một người thuyết trình
+
+Nhiều doanh nhân tin rằng các nhà đầu tư bỏ vốn vào các nhóm, vì vậy họ nên thể hiện tinh thần đồng đội qua các bài thuyết trình. Dựa vào lập luận này, bốn hoặc năm người sẽ tham gia thuyết trình, mỗi người một phần.
+
+Logic về việc mỗi người có một vai rất tuyệt cho một vở kịch ở trường học. Ông bà, cha mẹ được chứng kiến con vàng cháu bạc của họ tỏa sáng trên sân khấu và có nhiều thứ để quay lại để làm kỷ niệm. Cuộc sống thật tuyệt, công bằng và hợp lý. Tuy nhiên, một bài thuyết trình lại chẳng phải là một vở kịch ở trường.
+
+Khi thuyết trình, CEO nên đảm trách 80% công việc. Những người còn lại của nhóm (và không nên quá hai người) có thể trình bày một hoặc hai slide liên quan tới lĩnh vực chuyên môn chuyên biệt của họ. Họ có thể cung cấp các câu trả lời chi tiết cho các câu hỏi được nêu ra. Tuy nhiên, nếu CEO không thể tự đảm trách phần lớn bài thuyết trình, anh ta nên luyện tập đến khi có thể, hoặc anh ta nên bị thay thế. Thường thì các thành viên sẽ cố gắng giải cứu CEO khi khán giả phản ứng về một điều nào đó mà anh ta nói. Ví dụ như ai đó muốn tranh luận về một hệ thống phân phối đa tầng để bán sản phẩm. Một thành viên trong nhóm, với ý định tốt, quả quyết rằng, “Tôi nghĩ là ông/bà đúng. Tôi đã trăn trở một thời gian dài về việc chúng tôi nên bán trực tiếp cho khách hàng”. Một động thái sai lầm. Điều này không cho thấy sự linh hoạt, cởi mở, hay một tập hợp nhóm với nhiều kinh nghiệm đa dạng. Nó chỉ cho thấy sự thiếu nhất quán. Câu trả lời đúng là không ai nói gì cả mà để CEO phát biểu như sau, “Ông/bà đã đưa ra một đề xuất thú vị. Chúng ta sẽ thảo luận sau đươc chứ?”.
+
+Bay lên độ cao một ngàn mét và ở đó
+
+Tôi hứa rằng đây là lần duy nhất sự so sánh với chiến tranh xuất hiện trong cuốn sách này. Hãy xem xét ba loại vũ khí/ lực lượng quân sự sau đây:
+
+• MÁY BAY NÉM BOM B-1B LANCER: Đây là loại máy bay ném bom tầm xa thực hiện các phi vụ liên lục địa và có thể xuyên qua những hệ thống phòng ngự phức tạp. Nó có thể đạt trần bay khoảng 9.000m. Một chiếc như thế trị giá 200 triệu đô-la.
+
+“Nếu các bài thuyết trình là vũ khí/ lực lượng quân sự, không may, đa số chỉ là những chiếc B-1 Lancer hay lực lượng Navy Seal.”
+
+• LỰC LƯỢNG NGƯỜI NHÁI HẢI QUÂN NAVY SEAL: Những người này chuyên thực hiện các chiến dịch mặt đất trong lãnh thổ quân thù. Họ mang lại những lợi thế trong điều kiện không thuận lợi và trực tiếp áp sát mục tiêu bằng cách tấn công rồi rút ra biển.
+
+• MÁY BAY CƯỜNG KÍCH A-10 WARTHOG: Đây là loại máy bay hoạt động tầm gần để hỗ trợ bộ binh. Nó đơn giản nhưng mạnh mẽ. Trần bay lý tưởng khoảng 300m và có giá 13 triệu đô-la.
+
+Nếu các bài thuyết trình là vũ khí/ lực lượng quân sự, không may, đa số chỉ là những chiếc B-1 Lancer hay lực lượng Navy Seal. Chiếc B-1 bay quá cao. Nó là hiện thân của các hiệu ứng PowerPoint ấn tượng và những thuật ngữ hoành tráng như “chiến lược”, “quan hệ đối tác”, “quan hệ liên minh”, “lợi thế tiên phong”, và “công nghệ đã được cấp bằng sáng chế”. Một người có bằng thạc sĩ quản trị kinh doanh hay có nền tảng về tư vấn hay mắc lỗi này.
+
+Những người đam mê công nghệ, chuyên gia, hay các kỹ sư thường cho ra một bài thuyết trình “kiểu Navy Seal”. Họ giải thích các vấn đề kỹ thuật, sử dụng rất nhiều từ viết tắt mà chỉ họ mới hiểu. Hiển nhiên là họ hiểu rõ mọi ngóc ngách về mặt công nghệ – và muốn truyền tải tất cả.
+
+Bài thuyết trình “kiểu B-1” quá cao siêu vì người nghe muốn biết công ty làm gì và tại sao nó sẽ thành công, chứ không phải muốn nghe về những xu hướng lớn và những tham vọng vĩ đại.
+
+Bài thuyết trình “kiểu Navy Seal” lại quá sa đà. Nó tập trung quá sâu vào các chi tiết về mặt kỹ thuật và công nghệ.
+
+Hợp lý nhất là “kiểu thuyết trình A-10 Warthog” (có trần bay khoảng 300m). Bài thuyết trình của bạn đừng ở trên mây, cũng đừng sa đà quá thấp.
+
+Đơn giản là hãy cung cấp đủ chi tiết để chứng minh bạn có thể thành công và đủ các phân tích để cho thấy bạn có một kế hoạch.
+
+Trả lời người tí hon
+
+Khi Bill Joos, một đồng nghiệp cũ của tôi ở Garage Technology Ventures, bắt đầu sự nghiệp của mình, IBM đã huấn luyện cho Bill tưởng tượng có một người tí hon ngồi trên vai ông. Trong các bài thuyết trình, mỗi lần Bill nói gì đó, người tí hon sẽ thì thầm, “Thế thì sao?”.
+
+Bạn cũng nên tưởng tượng như vậy, vì không phải lúc nào bạn cũng tự nhận thức được những gì bạn nói, và vì vậy sẽ ít tạo cảm hứng hơn nhiều. Mỗi khi bạn nói câu nào đó, hãy tưởng tượng người tí hon sẽ đặt cho bạn một câu hỏi.
+
+Sau khi trả lời câu hỏi, hãy tuân theo ba từ có sức mạnh nhất trong một bài thuyết trình: “Ví dụ như…”1. Rồi thảo luận công dụng thực sự hay dự tính về một đặc điểm của sản phẩm. Sau đây là một vài ví dụ:
+
+1 Richard C. Borden, Public Speaking as Listeners Like It! – Nghệ thuật nói chuyện trước công chúng! (New York: Harper & Brothers, 1935), trang 53.
+
+Tập thuyết trình thường xuyên
+
+Trăm hay không bằng tay quen1. Khi bạn hoàn toàn nắm chắc và thoải mái với bài thuyết trình của mình, bạn sẽ có thể thực hiện nó một cách hiệu quả nhất. Không có con đường tắt nào đạt được điều đó – bạn phải luyện tập rất nhiều lần.
+
+1 Familirity breeds contempt (Thân quá hóa nhờn) tác giả chơi chữ thành Familirity breeds content (Sự quen thuộc nuôi dưỡng nội dung). (ND)
+
+“Nếu bạn tệ khi tập luyện, bạn sẽ tệ khi thuyết trình.”
+
+Tập đi tập lại ít nhất 25 lần là cách phần lớn mọi người đạt đến sự thành thục. Tất cả những lần tập luyện này không phải là với các khán giả thực sự của bạn – mà là người đồng sáng lập, nhân viên, họ hàng, bạn bè của bạn thậm chí cả cún cưng cũng đều là những thính giả tốt.
+
+Hãy quên việc đến buổi thuyết trình mà không luyện tập. Steve Jobs cũng phải luyện giới thiệu sản phẩm của ông ấy trong suốt nhiều giờ, mà dĩ nhiên bạn không phải là Steve Jobs rồi. Nếu bạn tệ khi tập luyện, bạn sẽ tệ khi thuyết trình. Vì vậy hãy cố gắng – bởi vì sẽ không có điều gì tệ hơn việc làm người khác mắc chứng Ménière, mà chính sự tệ hại của bạn góp phần gây ra điều đó.
+
+BÀI TẬP
+
+Hãy quay phim khi tập thuyết trình. Nếu bạn có thể xem lại mà không cảm thấy xấu hổ thì bạn đã sẵn sàng.
+
+Cung cấp những con số phù hợp
+
+Chủ nghĩa xã hội không bao giờ bắt rễ được ở nước Mỹ vì người nghèo xem bản thân họ không phải là giai cấp vô sản bị bóc lột mà là những triệu phú đáng xấu hổ tạm thời.
+
+– John Steinbeck
+
+Các nhà đầu tư không trải các bài thuyết trình lên bàn, rồi căn cứ trên các kế hoạch tài chính hoặc tỷ suất lợi nhuận của chúng và rót vốn vào vài cái. Phần lớn các bài thuyết trình trước các nhà đầu tư mạo hiểm thường giống nhau hơn là khác nhau. Cụ thể thì chúng đều là những kế hoạch cho doanh số gấp 4 đến 5 lần con số 50 triệu đô-la. Bất kỳ ai có thể sử dụng Excel cũng có thể đưa ra được các kết quả mang tính lý thuyết này.
+
+Nói chung các nhà đầu tư mạo hiểm muốn các kế hoạch từ 3 đến 4 năm để giúp họ làm được những việc sau: Thứ nhất, hiểu được quy mô của công ty bạn;thứ hai, kiểm tra được các giả thuyết trong mô hình kinh doanh của bạn; thứ ba, xác định được bạn sẽ cần bao nhiêu vốn. Sau đây là những gì ba nhà đầu tư hàng đầu mô tả điều họ mong chờ từ các kế hoạch tài chính:
+
+• MOHANJIT JOLLY – QUỸ DRAPER FISHER JURVETSON: “Tôi muốn thấy một dự báo 5 năm với một số giả định chi tiết cho một vài năm đầu khi mà mức độ khả thi xuất hiện. Những năm sau đó chủ yếu là để tìm hiểu sự tăng trưởng doanh thu như một sự đảm bảo cho việc liệu doanh nhân có đang nghĩ lớn cũng như việc hiểu các nhân tố chính như sự tập trung vốn, sự tăng trưởng… Nói chung các vấn đề tài chính là một “thử thách” hơn bất kỳ điều gì khác: Doanh nghiệp có đủ lớn mạnh trong một khoảng thời gian hợp lý để mang lại những gì chúng tôi đang tìm kiếm? Và những giả định đưa ra có hợp lý không?”
+
+• DOUG LEONE – SEQUOIA CAPITAL: “Dù bạn có tin hay không thì các kế hoạch tài chính cho các startup đã trở nên không còn cần thiết nữa” là câu trả lời của Doug, vì vậy tôi hỏi thêm, “Vậy trong một kế hoạch kinh doanh hoặc bài thuyết trình cho Sequoia, các doanh nhân không phải nhắc tới kế hoạch tài chính nữa à? Các vị hoàn toàn không quan tâm nữa sao?”.
+
+Ông giải thích rằng, “Với các startup là hoàn toàn không. Điều chúng tôi muốn biết là thị trường lớn cỡ nào, mất bao lâu để gây dựng công ty, có bao nhiêu kỹ sư, công dụng của sản phẩm thế nào và sự cam kết hoàn thành nó cùng nhiều thứ nữa”.
+
+• IAN SOBIESKI – CÔNG TY ĐẦU TƯ BAND OF ANGELS: “Tôi biết sự đầu tư trong giai đoạn đầu của chúng tôi sẽ không đáp ứng được dự toán 5 năm của họ, nhưng tôi vẫn muốn doanh nhân có một kế hoạch tài chính chi tiết để cho thấy cô/anh ấy đang nghĩ gì về công ty của mình. Không cần chính xác như khoa học, nhưng nó là một bức tranh ấn tượng bằng những con số mà doanh nhân đang cố gắng xây dựng. Rồi tôi muốn thấy cách kế hoạch này được phân rã thành những thông số và thực nghiệm có thể chứng minh. Những thông số và thực nghiệm này cho phép doanh nhân kiểm chứng các yếu tố thành phần trong kế hoạch khi công ty lớn mạnh. Những thành phần này sẽ là những khúc ngoặt tự nhiên trong kế hoạch kinh doanh nơi những sự kiện quan trọng có thể được thực hiện, và chúng cũng là những thời điểm tiến hành các vòng huy động vốn khác nhau: series A, B, C…”
+
+Điểm mấu chốt là các nhà đầu tư đang không tìm kiếm những dự báo chi tiết có chứa tất cả những mục có thể tin được. Họ đang tìm kiếm bức tranh tổng thể và cố gắng hiểu những giả định mà bạn đang đưa ra về việc kinh doanh của mình. Có một cách để cải thiện các dự báo của bạn là xây dựng chúng theo hướng từ dưới lên thay vì từ trên xuống. Đầu tiên, chúng ta hãy xem cách làm sai: Chọn một con số rất lớn trên đỉnh rồi chia nhỏ trong một phép chia thị phần dễ-đạt-được. Hãy áp dụng phương pháp này vào việc bán thức ăn cho chó:
+
+• Theo Hiệp hội bảo vệ vật nuôi, có khoảng 85 triệu người nuôi chó ở Mỹ.
+
+• Mỗi chú chó ăn hết hai hộp thức ăn mỗi ngày.
+
+• Do đó, tổng thị trường là 170 triệu hộp mỗi ngày.
+
+• Hãy giả định một cách khiêm tốn là bạn có thể đạt được một phần trăm thị phần hay 1,7 triệu hộp mỗi ngày.
+
+• Hãy giả định tiếp rằng mỗi hộp trị giá 1 đô-la.
+
+• Điều này có nghĩa là công ty của bạn sẽ có doanh thu 1,7 triệu đô-la mỗi ngày – một lần nữa chỉ là khiêm tốn thôi đấy. Và doanh thu sơ bộ sẽ là 620 triệu đô-la mỗi năm.
+
+Bây giờ chúng ta hãy xem xét cách làm đúng, bắt đầu từ dưới với không một đô-la nào và ước tính bao nhiêu khách hàng bạn có thể tiếp cận và bán được hàng:
+
+• Sử dụng mọi kỹ thuật để tối ưu hóa công cụ tìm kiếm (SEO), các mối quan hệ, các kỹ thuật trên mạng xã hội, bạn có thể có được 50 ngàn khách hàng ghé thăm website của bạn trong mỗi tháng.
+
+• Một phần trăm hay 500 người sẽ mua đủ 60 hộp cần cho một tháng, vì thế doanh thu tháng là 500 người x 60 hộp x 1 đô-la = 30.000 đô-la.
+
+• Bạn có thể có nhiều khách hơn và cải thiện được tỷ lệ phần trăm bán được hàng, nhưng đây là con số thực tế: 30.000 đô-la mỗi tháng, hay 360.000 đô-la mỗi năm.
+
+Ba trăm sáu mươi ngàn cách một khoảng rất, rất xa với 620 triệu. Có lẽ con số 360.000 là quá bi quan, nhưng các kết quả thực sự của bạn sẽ rất gần với con số này hơn là 620 triệu.
+
+Minh bạch mọi thứ
+
+Nếu có điều gì “lấn cấn” trong công ty mà bạn không thể dọn dẹp ngay lập tức, hãy trình bày cho các nhà đầu tư sớm trong quá trình huy động vốn. Bạn tiết lộ càng muộn, sẽ càng khó để giải quyết và sẽ càng gây hại cho danh tiếng của bạn. Ví dụ như Garage Technology Ventures đã từng đầu tư vào một công ty mà nơi này đã ký hợp đồng tư vấn với một nhà đầu tư tiềm năng. Thỏa thuận này đã bị lộ chỉ vài ngày trước khi việc rót vốn được ký kết. Nhà đầu tư này đang mua cổ phần, cũng như nhận cổ phần và tiền mặt cho các hoạt động tư vấn. Không nhà đầu tư nào khác có một thỏa thuận tương tự.
+
+Khi các nhà đầu tư khác phát hiện điều này, các thỏa thuận rót vốn gần như đổ vỡ ngay. Nếu công ty minh bạch hóa mọi thứ sớm hơn, đồng thời giải thích lý do tại sao điều này có thể chấp nhận được (thực ra, đúng là vậy) thì mọi chuyện sẽ ổn thỏa hơn. Không may là một nhà đầu tư lớn đã rút lui vì sự cố phút cuối này.
+
+Điều gì sẽ xảy ra nếu có vết nhơ trong tiểu sử của bạn, như việc bạn đã từng khởi nghiệp thất bại, hay làm cho một công ty thất bại? Sẽ không ích gì khi cố giấu điều này vì các nhà đầu tư sẽ phát hiện được thôi. Việc đổ lỗi cũng rất tệ, dù quả thực sự thất bại đó là do thị trường, do nhân viên, do khách hàng, hay các nhà đầu tư.
+
+Lời khuyên của tôi là bạn nên mea culpa. Có nghĩa là hãy chấp nhận những lời trách cứ, thừa nhận các lỗi lầm của mình. Các nhà đầu tư có trình độ sẽ nhìn nhận sự chân thành ấy một cách ngưỡng mộ, và nhiều nhà đầu tư đã tung hàng đống tiền cho những doanh nhân đã từng thất bại trong quá khứ. Điều quan trọng là bạn học được gì từ thất bại và sẵn sàng cố gắng làm lại.
+
+Im lặng, ghi chép, tóm tắt, chỉnh sửa và thực hiện
+
+Hầu hết mọi người đều trở nên thú vị hơn khi họ ngừng nói.
+
+– Mary Lowry
+
+Một lần tôi đi cùng giám đốc điều hành (CEO) và giám đốc kinh doanh (CCO) của một startup đến một buổi thuyết trình cho nhà đầu tư mạo hiểm. Vài ngày sau buổi thuyết trình tôi gặp lại ông ấy. Khi chúng tôi bắt đầu bàn về ban quản trị – Management (với chữ cái viết hoa là M), ông ấy nói, “Tôi thấy vị giám đốc điều hành nói nhiều quá, còn vị giám đốc kinh doanh ngồi ghi chép cẩn thận. Vị giám đốc điều hành chẳng ghi gì cả. Tôi nghĩ giám đốc kinh doanh là một anh chàng có năng lực đấy”.
+
+“Hành động ghi chép trước mặt một người đang nói cho thấy rằng: Tôi nghĩ ông thông minh. Ông đang nói điều gì đấy đáng để tôi ghi lại. Tôi sẵn sàng và nghiêm túc học hỏi. Tôi rất tận tâm.”
+
+Tôi không nhớ liệu những gì nhà đầu tư mạo hiểm nói trong cuộc gặp ấy có đáng để ghi lại không, nhưng điều đấy không quan trọng. Hãy im lặng, ghi chép, lắng nghe, tìm cách để cải thiện là những điều tốt nên làm trong một buổi thuyết trình vì thậm chí ngay cả một hành động nhỏ nhất cũng có thể tạo ra ảnh hưởng lớn.
+
+Hành động ghi chép trước mặt một người đang nói cho thấy rằng, “Tôi nghĩ ông thông minh. Ông đang nói điều gì đấy đáng để tôi ghi lại. Tôi sẵn sàng và nghiêm túc học hỏi. Tôi rất tận tâm”. Việc ghi chép mang lại những lợi ích này, bên cạnh giá trị của thông tin mà bạn có được. Không gì có thể tốt hơn điều này.
+
+Cuối buổi gặp, cũng nên tóm tắt lại những gì bạn nghe và xem xét lại để đảm bảo rằng bạn có được những thông tin chính xác. Rồi trong ngày hôm đấy luôn, hãy thực hiện những lời hứa mà bạn đã đưa ra trong buổi thuyết trình – ví dụ như việc cung cấp thông tin bổ sung.
+
+Viết lại từ đầu
+
+Sau chiến tranh thế giới thứ hai, nhiều xe Jeep quân sự của Mỹ đã được tặng hoặc bán cho người dân Philippines. Những chiếc xe này, được gọi là Jeepneys, được người Philippines độ lại để thêm chỗ ngồi và trang trí với những màu sắc sặc sỡ cho đến khi chúng trông rất đẹp, nhưng khác hoàn toàn bản gốc. Một số chiếc thậm chí còn được biến thành Mercedes.
+
+Tương tự như vậy, sau một thời gian, nhiều bài thuyết trình bắt đầu giống như những chiếc xe này. Khởi đầu với đúng chức năng, rất cơ bản, chúng được các doanh nhân chỉnh sửa, bồi đắp dựa trên phản hồi từ những nhà đầu tư tiềm năng. Mỗi cuộc gặp là những chỉnh sửa, bổ sung cho đến khi gần như không thể nhận ra bài thuyết trình ban đầu nữa.
+
+Lời khuyên của tôi là sau khoảng 5 lần thuyết trình, bạn nên vứt bỏ và viết lại từ đầu. Hãy để phiên bản 2.0 này phản ánh tổng thể những gì bạn học hỏi được hơn là một thứ chắp vá.
+
+Thuyết trình, rồi kế hoạch – Và tại sao không có chương nào về các kế hoạch kinh doanh trong cuốn sách này
+
+Tôi đã không thấy một kế hoạch kinh doanh thực sự nào trong suốt 5 năm. Chỉ có các phép tính.
+
+– Doug Leone, Sequoia Capital
+
+Theo Thư viện Quốc gia Anh, trong truyền thuyết của người Celtic có những chiếc cốc thần kỳ có thể “làm thỏa mãn mọi khẩu vị và nhu cầu”. Những truyền thuyết này dẫn đến huyền thoại về chiếc Cốc Thánh. Trong thời hiện đại, chiếc Cốc Thánh của các doanh nhân chính là một kế hoạch kinh doanh.
+
+Trước kia, các doanh nhân viết kế hoạch kinh doanh và rồi trình bày trên PowerPoint. Họ xem kế hoạch kinh doanh là điều quan trọng nhất, tốt nhất, và buổi thuyết trình là một phần nhỏ trong điều kỳ diệu này. Kế hoạch kinh doanh được cho là thỏa mãn nhu cầu và khẩu vị của tất cả những ai đọc nó và nó mang những ảnh hưởng diệu kỳ – cụ thể là tạo ra mong muốn góp vốn ngay tức thì.
+
+Điều này là một suy tưởng vớ vẩn, và những kế hoạch kinh doanh tầm cỡ “Cốc Thánh” vẫn là một thứ xa vời và huyễn hoặc. Trong thực tế, những ngày dành cho việc viết kế hoạch kinh doanh đã xưa rồi. Rất ít các nhà đầu tư có trình độ sẽ đọc trước kế hoạch kinh doanh – tất cả mọi người đều muốn nghe bạn thuyết trình, chứ không phải đọc kế hoạch kinh doanh của bạn.
+
+Đối với những công ty non trẻ, tất cả những gì bạn cần là một bài thuyết trình bằng PowerPoint hay Keynote. Chỉ có một khả năng rất nhỏ cho việc các nhà đầu tư tiềm năng sẽ yêu cầu bạn đưa ra một kế hoạch kinh doanh, nhưng ngay cả vậy họ cũng đã đưa ra quyết định mà không cần đến nó.
+
+Mãi về sau này, khi huy động ở vòng mở rộng ngay trước khi bán cổ phần ra công chúng, bạn có thể mới phải đưa ra một kế hoạch kinh doanh, nhưng vào lúc đó bạn sẽ tuyển những chuyên gia ngân hàng chuyên về đầu tư và các luật sư chấp bút cho bạn.
+
+Phụ trương
+
+Tiểu chương: Chỉnh sửa một bài thuyết trình
+
+Tôi cố vấn cho Enthrill, một công ty hỗ trợ các nhà xuất bản bán sách điện tử tại các cửa hàng truyền thống. Giám đốc điều hành của công ty, Kevin Franco, có yêu cầu tôi xem qua bài thuyết trình dài 90 giây tại triễn lãm TechShowcase 2014 ở Calgary, Alberta. Sau đây tôi sẽ trình bày lại bản gốc của Kevin và những gì tôi đã chỉnh sửa (làm cho nó mượt mà hơn) để minh họa cho cách tạo ra một bài thuyết trình hiệu quả.
+
+(Lời nhận xét của tôi cho Kevin được in nghiêng)
+
+Lời của Kevin: Xin chào quý vị, tên tôi là Kevin Franco. Tôi là đồng sáng lập và là giám đốc điều hành của công ty phân phối Enthrill Distribution Inc. Chúng tôi đang kêu gọi lượng vốn 750.000 đô-la để thương mại hóa công nghệ phân phối sách điện tử của chúng tôi. – Lời nhận xét của tôi: Đừng đưa ra một con số. Điều gì sẽ xảy ra nếu ai đó muốn đầu tư 2 triệu đô-la?
+
+Lời của Kevin: Một trong những vấn đề lớn nhất của ngành xuất bản ngày nay là rào cản được gọi là “walled gardens”. – Lời nhận xét của tôi: Thuật ngữ “walled gardens” không dễ hiểu với mọi người trừ khi họ thực sự quen thuộc với công việc xuất bản. Tôi cũng thực sự quen thuộc, nhưng cũng không chắc bạn muốn nói về điều gì…?
+
+Lời của Kevin: Amazon, Apple, Kobo, Nook và Sony không thể đưa những nội dung số của các hãng khác vào thiết bị của nhau. Điều này hạn chế các nhà xuất bản trong phạm vi doanh số bán hàng cho khách hàng, chỉ một phần trong tổng doanh số xuất bản.
+
+– Lời nhận xét của tôi: Có bao nhiêu người hiểu được cụm từ “doanh số bán hàng cho khách hàng”?
+
+Lời của Kevin: Enthrill đã giải quyết vấn đề này. Công nghệ của chúng tôi phát hành sách đến tất cả các loại thiết bị. Chúng tôi có hai ứng dụng giúp các nhà xuất bản bán sách điện tử:
+
+A. Bán hàng B2B (Bán số lượng lớn sách điện tử cho các công ty). – Lời nhận xét của tôi: Tôi hoàn toàn hiểu rõ việc xuất bản. Tôi cũng hiểu B2B nghĩa là gì. Nhưng tôi đang cố tìm ra nghĩa của B2B trong ngành xuất bản.
+
+B. Bán lẻ (hay bán sách điện tử trong các chuỗi cửa hàng). Trong mô hình bán hàng B2B, chúng tôi nhận thấy một khoảng trắng doanh thu với cơ hội lợi nhuận toàn cầu khoảng trên 4 tỷ đô-la cho các nhà xuất bản sử dụng dịch vụ SaaS của chúng tôi (phần mềm như một dịch vụ). – Lời nhận xét của tôi: “Khoảng trắng doanh thu” là gì? Bây giờ bạn đang làm cho tôi phải vắt óc như thế này, “Hừm, việc SaaS có thể làm cho một nhà xuất bản bán sách là sao? Ồ, bạn muốn nói Enthrill là SaaS, không phải thứ các nhà xuất bản sẽ làm. Nhưng SaaS thì giống Salesforce.com. Thế Enthrill giống Salesforce về những mặt nào? Ông nội này đang nói cái quái gì thế nhỉ?”.
+
+Trong mô hình bán lẻ, chúng tôi thấy một cơ hội tuyệt vời cho các nhà xuất bản thúc đẩy doanh số từ các nhà bán lẻ truyền thống và thị trường thẻ tặng quà bùng nổ bằng cách bán các nội dung số qua các thẻ quà sách điện tử.
+
+Trong vài tuần nữa, Enthrill sẽ chính thức đưa công nghệ của chúng tôi ra thị trường. Walmart sẽ khai trương một cửa hàng sách online được hỗ trợ bởi Enthrill và một chương trình quà tặng Enthrill với sách điện tử tại siêu thị triển khai ở tất cả các siêu thị của họ ở Canada. Enthrill sẽ bán thẻ quà sách điện tử tại hơn một ngàn cửa hàng bán lẻ ở Canada trong mùa nghỉ lễ này. – Lời nhận xét của tôi: Ba phần tư công việc được hoàn thành và cuối cùng nó đang trở nên thú vị. Thật là rắc rối.
+
+Chúng tôi đã ký hợp đồng với HarperCollins, Macmillan, Harlequin, Scholastic, và nhiều nhà xuất bản khác, cũng như với Walmart, Target, Safeway, Air Miles, Toys “R” Us, Home Hardware, InComm, Air Miles, Blackhawk Network và CMMI.
+
+Tôi rất muốn gặp trực tiếp các vị để chúng ta có thể thảo luận thêm về cơ hội này.
+
+Đây là bản mà tôi đã viết để thay thế bản Kevin gửi cho tôi.
+
+Tên tôi là Kevin Franco. Tôi là đồng sáng lập và là giám đốc điều hành của công ty phát hành Enthrill Distribution. Chúng tôi có lẽ là công ty duy nhất cho đến thời điểm này đã ký kết, xác nhận với một sản phẩm sắp đưa ra thị trường. Trong vài tuần tới, khách mua sắm ở Walmart sẽ có thể mua sách điện tử từ các nhà xuất bản như HaperCollins, Macmillan, Harlequin và Scholastic. Quý vị đã quen với thẻ quà. (Giơ một cái thẻ quà lên.) Sản phẩm của chúng tôi tương tự như thế này, nhưng thay vì thẻ tiền mặt, nó là một cuốn sách cụ thể.
+
+Mọi người mua thẻ sách, về nhà, lên mạng, nhập mã số trên thẻ và tải sách về. Hoặc quý vị có thể dùng thẻ như quà tặng. Không có công nghệ của chúng tôi, các nhà xuất bản không thể cung cấp sách điện tử qua hệ thống các cửa hàng truyền thống. Họ hoàn toàn phụ thuộc vào dịch vụ bán hàng online được cung cấp bởi Amazon, Kobo, Nook, và Sony – và quý vị biết họ cảm thấy như thế nào về điều đó.
+
+Sản phẩm của chúng tôi mang lại lợi ích cho cả ba bên (win- win-win). Các nhà xuất bản yêu thích chúng tôi vì Amazon và các nhà phân phối trên mạng khác không còn kiểm soát việc phát hành sách điện tử của họ. Walmart và các nhà bán lẻ yêu thích chúng tôi vì họ có thể xâm nhập vào thị trường sách điện tử, chứ không chỉ thị trường sách in truyền thống. Bên cạnh đó, thẻ sách của chúng tôi không hề tốn nhiều diện tích, vì vậy các nhà bán lẻ có thể trưng được nhiều sách hơn trên cùng một kệ và việc xử lý sách đổi trả cũng dễ dàng hơn, ngược lại hoàn toàn với việc phải giao hàng đống sách.
+
+Và mọi người yêu thích chúng tôi vì họ có thể tìm được những cuốn sách điện tử mới trong lúc mua sắm.
+
+Còn thêm một điều nữa… Chúng tôi đã ký hợp đồng với Target, Safeway, Toys “R” Us, và cả Home Hardware. Vào Giáng sinh, thẻ Enthrill sẽ có mặt trong hàng ngàn cửa hàng trên khắp Canada.
+
+Các bài học rút ra từ bài viết lại là:
+
+• BẮT ĐẦU MẠNH MẼ: Nếu bạn sắp làm ăn với một người khổng lồ như Walmart, bạn nên hét toáng điều này càng to càng tốt. Hãy bắt đầu với bất cứ điều gì tốt nhất của bạn.
+
+• LOẠI BỎ NHỮNG TỪ NGỮ CHUYÊN NGÀNH: Hãy nói cho mọi người biết bạn làm gì, bạn làm như thế nào, ai là khách hàng của bạn bằng thứ ngôn ngữ đơn giản nhất có thể.
+
+• HÃY TRƯNG RA NHỮNG CÁI TÊN LỚN NHẤT BẠN CÓ ĐƯỢC: Nếu bạn có những cái tên lớn khác trong danh sách đối tác của mình, hãy “nổ” thật to. Khán giả đang tìm kiếm bằng chứng cho thấy bạn sẽ thành công. Những khách hàng lớn đi cùng với bạn sẽ khiến điều này xảy ra.
+
+• KÍCH THÍCH SỰ TƯỞNG TƯỢNG: Hãy chú ý rằng không đề cập đến các con số lợi nhuận ngành và kích cỡ thị trường. Một giải pháp như của Enthrill sẽ thu hút rất nhiều nhà xuất bản, vì thế bạn không cần phải là một nhà toán học để tính số lượng sách điện tử sẽ được bán ra.
+
+Tiểu chương: Làm thế nào để chiến thắng trong một cuộc thi lập kế hoạch kinh doanh
+
+Có nhiều tổ chức trên khắp thế giới tổ chức các cuộc thi lập kế hoạch kinh doanh để thúc đẩy sự sáng tạo và tinh thần kinh doanh. Tin tốt là những cuộc thi như vậy khiến cho các doanh nhân phải cùng nhau làm việc vì áp lực thời gian, và họ đang phải trải qua những gì mà một nhóm khởi nghiệp thực thụ cần làm.
+
+Tin xấu là các kế hoạch kinh doanh không còn cần thiết nữa, vì vậy các cuộc thi lập kế hoạch kinh doanh đang sử dụng sai format. Thay vào đó, họ nên tổ chức các cuộc thi thuyết trình. Tôi đã làm giám khảo cho nhiều cuộc thi lập kế hoạch kinh doanh và tôi chỉ đọc bản tóm tắt và nghe các bài thuyết trình để đưa ra quyết định.
+
+Một vấn đề nữa là những cuộc thi như thế này nhằm mục đích khiến cho các công ty tự nhiên trở nên thu hút các nhà đầu tư. Theo ngụ ý của tôi, việc nhấn mạnh này là có hại cho các doanh nhân. Điều quan trọng hơn việc làm cho một startup trở nên thu hút đầu tư trong một chương trình như thi hoa hậu chính là việc làm cho công ty ấy có thể sống sót được trong đời thực.
+
+Ví dụ như, vì không tập trung vào một thị trường đã được chứng minh với một đội ngũ quản lý đã thành danh và một công nghệ hiện hữu (ba yếu tố phần lớn các nhà đầu tư nói rằng họ đang tìm kiếm), bài dự thi có thể không thu hút được các nhà đầu tư. Nhưng những đội ngũ chưa thành danh trong những thị trường chưa hiện hữu với những công nghệ chưa được chứng minh thường tạo ra những startup đáng ngưỡng mộ.
+
+Trong thế giới thực, khả năng tồn tại quan trọng hơn khả năng huy động vốn vì những lý do sau: Thứ nhất, bạn cần ít vốn khởi nghiệp hơn vì mọi thứ bây giờ trở nên rẻ hoặc thậm chí là miễn phí – cơ sở hạ tầng, các phương pháp marketing, các công cụ. Thứ hai, việc huy động vốn từ cộng đồng có thể mang lại cho bạn vài trăm ngàn đô-la tiền mặt. Việc bạn không có một công ty có khả năng huy động vốn tốt nhất không quan trọng lắm nếu bạn không cần huy động vốn. Thứ ba, phần khó khăn nhất trong việc khởi đầu một công ty là khả năng tồn tại, chứ không phải việc huy động vốn. Có ý nghĩa gì đâu khi bạn có một startup có khả năng huy động vốn tốt nhưng nó lại không thể tồn tại.
+
+Nhưng tôi lạc đề.
+
+Tôi không thể nói rằng việc chiến thắng trong một cuộc thi lập kế hoạch kinh doanh hay một cuộc thi thuyết trình là điều không tốt, vì khả năng hiện hữu luôn là điều tốt. Những cuộc thi này là những thành trì cuối cùng trong các kế hoạch kinh doanh. Vì vậy bạn có thể phải viết một kế hoạch để tham gia, nhưng quyết định cuối cùng thì tùy thuộc vào việc thuyết trình, vì vậy để vượt qua được một trong những điều này, bạn nên tập trung vào bài thuyết trình của mình:
+
+• LUYỆN TẬP: Hãy luyện tập cho đến khi bạn cảm thấy ngán bài thuyết trình của mình. Rất ít người có thể thăng hoa với một bài thuyết trình. Và không có khả năng là bạn nằm trong số đó. “Bạn sẽ thắng hoặc thua ngay trong phút đầu tiên hay gần như vậy.”
+
+• VÀO ĐỀ NGAY: Giải thích sản phẩm của bạn ngay trong 30 giây đầu tiên. Trình bày những nhu cầu của khách hàng mà nó có thể đáp ứng trong 30 giây tiếp theo. Bạn sẽ thắng hoặc thua ngay trong phút đầu tiên hay gần như vậy. Hãy nhớ: là F18 chứ không phải 747.
+
+• HÃY KỂ MỘT CÂU CHUYỆN: Hãy đưa ra lý do hợp lý cho sự đam mê với sản phẩm, dịch vụ, và lĩnh vực của bạn. Những câu chuyện như “Bạn gái tôi muốn bán những món đồ chơi cho các nhà sưu tầm trên mạng” đã có được hàng ngàn lần thành công.
+
+• KÍCH THÍCH TRÍ TƯỞNG TƯỢNG: Hãy quên đi việc cố gắng chứng minh rằng có một thị trường khổng lồ dành cho sản phẩm của bạn bằng cách trích dẫn các số liệu thống kê hoặc những nghiên cứu tư vấn. Bất kỳ đội nào khác cũng sẽ làm những điều như vậy. Hãy đưa ra một câu chuyện mà nó thuyết phục và ấn tượng đến nỗi mà những giám khảo trở nên mơ mộng với tiềm năng của bạn và tự thực hiện những tính toán trong đầu họ.
+
+• SỬ DỤNG FONT CHỮ CỠ LỚN: Các giám khảo có thể lớn tuổi và không đọc được những con chữ nhỏ trên các slide. Cũng có thể là có một lượng khán giả đông, vì vậy những người ngồi ở phía sau cũng có thể đọc được các slide của bạn.
+
+• SỬ DỤNG NHỮNG ĐỒ HỌA LỚN: Đối thủ của bạn sẽ dùng chữ nhỏ và không có đồ họa. Hãy nghĩ khác đi. Sử dụng càng nhiều đồ họa, hình ảnh và càng ít chữ càng tốt. Các hình chụp màn hình cũng có ảnh hưởng lớn vì chúng làm cho ý tưởng của bạn dường như thật hơn.
+
+• HÃY TÌM HIỂU: Bạn sẽ cần biết trước ai là giám khảo.
+
+Tìm tất cả những gì bạn có thể về họ và đo ni đóng giày bài thuyết trình của bạn cho họ. Lợi ích thấy rõ là một bài thuyết trình gần gũi hơn với họ, nhưng còn có lợi ích khác nữa: Các giám khảo sẽ đánh giá bạn thông minh và kiên trì khi làm điều này.
+
+• VUI VẺ VỚI NHỮNG KHẬP KHIỄNG VỀ NĂNG LỰC TRONG ĐỘI BẠN: Dĩ nhiên nếu bạn tham gia một trong những cuộc thi này, các thành viên trong đội có lẽ sẽ không có một CV ấn tượng. Cố gắng giảm thiểu điểm yếu không tạo ra sức mạnh.
+
+Hãy cho mọi người thấy rằng năng lực của bạn đáp ứng được việc kinh doanh của bạn.
+
+• LUYỆN TẬP THÊM.
+
+Tiểu chương: Mười lời nói dối hàng đầu của các doanh nhân
+
+Trong một ngày làm việc bình thường, một nhà đầu tư gặp 2 hoặc 3 startup và xem xét 4 hay 5 bản tóm tắt kế hoạch. Mỗi công ty đều khẳng định mình có một cơ hội độc nhất và có thể làm rung chuyển thế giới với một đội ngũ đã thành danh, công nghệ đã được chứng minh, và một thị trường hiện hữu. Không công ty nào nói rằng họ là một nhóm thất bại và không biết đang làm gì. Vì lợi ích của các nhà đầu tư, những người mệt mỏi khi nghe những lời nói dối của các doanh nhân và cũng vì lợi ích của các doanh nhân, những người sẽ làm mất đi cơ hội của mình do việc nói dối, sau đây là 10 lời nói dối hàng đầu của các doanh nhân. Hãy nghiên cứu chúng, để ít nhất, bạn cũng có thể đưa ra những lời nói dối mới:
+
+1. “Kế hoạch của chúng tôi rất khiêm nhường”. Kế hoạch của bạn rất khiêm nhường, nhưng bạn nói rằng bạn sẽ kiếm được 100 triệu đô-la vào năm thứ ba. Thực ra, công ty của bạn sẽ là công ty phát triển nhanh nhất trong lịch sử loài người.
+
+Sự thật là, bạn chẳng biết doanh số của bạn sẽ thế nào, và tôi mộng mơ về cái ngày tươi đẹp mà một doanh nhân vẽ ra cho tôi, “Kế hoạch của chúng tôi là những con số được bốc ra từ không khí. Chúng tôi đang cố gắng làm cho nó đủ cao để thu hút quý vị, nhưng cũng đủ thấp để chúng tôi không giống như những kẻ đần. Chúng tôi thực sự không biết cho đến khi chúng tôi giao hàng và xem sản phẩm được chấp nhận như thế nào”. Cuối cùng doanh nhân đấy cũng tỏ ra trung thực.
+
+2. “Các chuyên gia nói rằng thị trường của chúng tôi sẽ là 50 tỷ đô-la trong 5 năm tới”. Đừng trích dẫn các con số như thế này và mong rằng nó sẽ gây ấn tượng cho các nhà đầu tư. Không ai đã từng bước vào và nói, “Chúng tôi có một thị trường bé xíu và rất tệ”. Tất cả mọi người đều nói cùng một thứ. Nó có vẻ dễ hơn hơn nhiều để kích thích sự tưởng tượng.
+
+3. “Amazon sẽ ký hợp đồng với chúng tôi trong tuần tới”. Sự thu hút rõ là rất tuyệt. Nó làm cho bạn có thể huy động được vốn. Nhưng vẫn chưa là gì cho đến khi một hợp đồng được ký. Nếu nhà đầu tư hỏi về hợp đồng trong tuần kế tiếp, và hợp đồng vẫn chưa được ký, bạn sẽ gặp phải vấn đề về lòng tin. Trong suốt 5 năm, tôi chưa từng bao giờ thấy hợp đồng nào được ký đúng thời hạn. Hãy nói về Amazon và những hợp đồng lớn của bạn sau khi chúng đã được ký.
+
+4. “Những nhân sự tài ba sẽ tham gia công ty chúng tôi ngay khi chúng tôi nhận được vốn”. Hãy cho tôi nói thẳng điều này: Các bạn là hai chàng trong một garage, các bạn đang cố gắng tìm kiếm vài trăm ngàn đô-la, và còn 12 tháng nữa sản phẩm của bạn mới được hoàn thành, vậy mà giờ đây bạn đang nói về những người nổi tiếng sắp từ bỏ công việc đánh giá 250 ngàn đô-la mỗi năm, cộng với bổng lộc như quyền lựa chọn cổ phiếu để tham gia công ty của bạn ư?
+
+Khi các nhà đầu tư tiếp xúc với những nhân vật được cho là sẽ tham gia một công ty, câu trả lời thường là, “Tôi nhớ mang máng có gặp anh chàng CEO này tại một bữa tiệc cocktail”. Nếu bạn sắp thốt ra lời nói dối này, hãy đảm bảo rằng những nhân sự tiềm năng kia đã thực sự sẵn sàng tham gia.
+
+5. “Một vài nhà đầu tư đã thẩm định chúng tôi”. Câu này có nghĩa là, “Nếu quý vị chậm trễ, người khác sẽ đầu tư vào công ty chúng tôi, và quý vị sẽ không có cơ hội”. Câu này sẽ rất có hiệu quả trong những cuộc vui quên trời đất, nhưng ở những lúc khác, nó là một chiến thuật nực cười. Sự thật, và điều người nghe đang nghĩ, là “Anh chàng đã thuyết trình cho vài người khác rồi và họ chưa nỡ lòng từ chối thôi”.
+
+Chuyện là các nhà đầu tư biết nhau rõ hơn là bạn biết họ. Họ có thể gọi cho bạn bè và biết rằng các công ty khác quan tâm tới thỏa thuận của bạn ở mức nào. Để thành công với câu nói dối này, hoặc bạn phải là tay bợm đại tài hoặc bạn cực kỳ quyến rũ, không thì bạn sẽ không có lấy một cơ hội để chống đỡ lại hệ thống các nhà đầu tư.
+
+6. “Microsoft thì quá già nua, kềnh càng, trì trệ và chậm chạp để là một mối đe dọa cho chúng tôi”. Microsoft, Oracle, Apple, Facebook… Chọn một công ty thành công. Nhiều doanh nhân nghĩ rằng bằng cách đưa ra một tuyên bố thế này, họ đang (a) thuyết phục các nhà đầu tư về sự can đảm của họ, (b) chứng minh rằng họ sẽ đánh bại một đối thủ khổng lồ và (c) thiết lập một lợi thế cạnh tranh. Trong thực tế, tất cả những gì họ đang trưng ra là sự ngây thơ của mình về những gì cần thiết để tạo dựng một doanh nghiệp thành công. Có những lý do tại sao những người Larry Ellison có thể yêu cầu sân bay San Jose mở cửa muộn cho máy bay riêng của ông ấy, trong khi bạn và tôi đang nhai đậu phộng trên máy bay của hãng Southwest Airlines. Và không phải bởi vì công ty của ông ấy già cỗi, cồng kềnh, trì trệ và chậm chạp.
+
+Việc bạn đang muốn cạnh tranh với một công ty như vậy sẽ làm khiếp đảm các nhà đầu tư. Đừng đậy nắp quan tài của mình bằng cách cho thấy rằng bạn kém cỏi khi hạ thấp một đối thủ như vậy. Thay vào đấy, hãy giải thích làm sao bạn có thể tránh một đối thủ như vậy bằng cách tập trung vào những phân đoạn thị trường khác hoặc tránh sự kiểm soát của đối thủ. Nếu không có gì xảy ra, hãy nói rằng bạn đang xây dựng một kế hoạch có độ mạo hiểm và độ khó cao, để ít nhất cho thấy rằng bạn biết rõ về độ khó của những thách thức.
+
+7. “Các bằng sáng chế sẽ bảo vệ việc kinh doanh của chúng tôi”. Các bằng sáng chế không bảo vệ việc kinh doanh của bạn. Chúng có thể tạo ra một lợi thế cạnh tranh tạm thời – đặc biệt là trong các công ty về vật liệu khoa học, thiết bị y tế, và công nghệ sinh học – và chỉ vậy mà thôi.
+
+Dĩ nhiên, hãy đăng ký bằng sáng chế nếu bạn có thể, nhưng đừng mong chờ chúng mang lại cho bạn nhiều hơn việc gây ấn tượng với ba mẹ trừ khi bạn có thời gian (nhiều năm) và tiền bạc (hàng triệu đô-la) để theo đuổi kiện tụng khi kẻ khác vi phạm bằng sáng chế của bạn.
+
+Khi trình bày với các nhà đầu tư, số lần nhắc đến công nghệ có thể được cấp bằng sáng chế của bạn chỉ là một. Không nhắc thì quá tệ vì nó cho thấy rằng bạn chẳng có tài sản gì cả. Hơn một lần lại cho thấy sự thiếu kinh nghiệm của bạn.
+
+8. “Tất cả những gì chúng tôi phải làm là giành được 1% thị phần”. Đây là điều mà các nhà đầu tư mạo hiểm gọi là “Lời nói dối Soda Trung Quốc”. Có nghĩa là, “Nếu chỉ 1% dân số Trung Quốc uống soda của chúng ta, chúng ta sẽ trở nên thành công hơn bất kỳ công ty nào trong lịch sử loài người”. Có những vấn đề với cách suy luận trên: Thứ nhất, không dễ dàng để làm cho 1% dân số Trung Quốc uống số soda của bạn. Thứ hai, rất ít doanh nhân thực sự theo đuổi một thị trường lớn như toàn bộ dân số Trung Quốc. Thứ ba, công ty vừa mới thuyết trình trước bạn cũng nói tương tự về một thị trường khác, và công ty sau bạn cũng vậy. Thứ tư, một công ty mà chỉ nhắm 1% thị phần không phải là một công ty hấp dẫn.
+
+9. “Chúng tôi có lợi thế của người tiên phong”. Có ít nhất hai vấn đề với lời nói dối này: Thứ nhất, nó có vẻ không đúng sự thật. Làm sao bạn có thể biết rằng không có ai khác đang làm những gì bạn làm? Theo lẽ thường, nếu bạn đang làm một điều gì đấy tốt, 5 startup khác cũng đang làm điều tương tự. Nếu bạn đang làm một điều gì đấy tuyệt vời, con số là 10. Thứ hai, lợi thế tiên phong không hẳn đã tốt. Là người nhanh chân thứ hai có thể sẽ tốt hơn – hãy để ai đó dẫn đầu và học hỏi từ những sai lầm của họ – rồi vượt qua họ.
+
+10. “Chúng tôi có một đội ngũ đã thành danh, mang tầm thế giới”. Ý nghĩa có thể chấp nhận được của cụm từ “mang tầm thế giới” và “thành danh” trong ngữ cảnh này là các nhà sáng lập tạo ra vô số của cải cho các nhà đầu tư trong một công ty trước đấy, hoặc họ nắm giữ vị trí trong những công ty lớn, có tiếng tăm. Ngồi lên con tàu của một công ty thành công ở một vị trí khiêm tốn, làm việc cho McKinsey như một cố vấn, hay có một vài năm kinh nghiệm tại một ngân hàng đầu tư không được tính là có nền tảng kinh doanh được chứng thực.
+
+BÀI TẬP
+
+Đưa danh sách những lời nói dối cho một người bạn rồi nhờ anh ta nghe bài thuyết trình của bạn. Bạn đã nói ra bao nhiêu lời nói dối? Bạn sẽ không vượt qua được bài tập này nếu bạn nói nhiều hơn hai lời nói dối.
+
+FAQ
+
+Câu hỏi: Làm thế nào để tôi làm cho bài thuyết trình của tôi trở nên đáng nhớ?
+
+Câu trả lời: Vấn đề không phải ở chỗ các bài thuyết trình không đáng nhớ. Trong một trạng thái không trọng lực, nhiều doanh nhân trở nên phấn khích vì những lời hứa của họ về lợi thế tiên phong, công nghệ đã được bảo hộ, một thị trường trị giá 50 tỷ đô-la, và một đội ngũ đã được chứng thực với nhiều nhân tài rất nhiệt huyết.
+
+Vấn đề là các bài thuyết trình đều bắt đầu giống nhau vì họ đều đưa ra những tuyên bố như nhau. Bạn có thể làm cho bài thuyết trình của mình trở nên đáng nhớ bằng cách bám sát những điều cơ bản sau: một bài thuyết trình ngắn (10 slide trong 20 phút) với một câu chuyện thuyết phục về mục tiêu giải quyết những khó khăn thực sự cho khách hàng hoặc nắm chắc một cơ hội hấp dẫn.
+
+Có thêm một điều bạn cần làm: Một buổi ra mắt sản phẩm khiến cho khán giả bùng nổ vì nó quá tuyệt vời. Sau đó bạn sẽ không còn phải lo lắng về các slide PowerPoint nữa. Sự thật là, bạn có lẽ sẽ không bao giờ cần tới những slide sau khi giới thiệu sản phẩm vì sẽ có rất nhiều việc phải làm.
+
+Luôn luôn tưởng tượng rằng khán giả của bạn đang mệt mỏi sau một ngày dài với các cuộc họp, tất cả mọi người đều nửa mê nửa tỉnh, hầu như kém tập trung, và chỉ muốn về nhà. Và thường là mọi người sẽ thế này khi bạn bước vào phòng họp, vì vậy hãy chuẩn bị cho điều đó.
+
+Câu hỏi: Tôi có nên in màu bài thuyết trình và đóng tập để đưa cho các nhà đầu tư không?
+
+Câu trả lời: Chiếc áo đẹp đẽ gọn gàng không che giấu được sự xoàng xĩnh. Tôi sẽ lo lắng về những thứ quan trọng hơn, như nội dung và cách thuyết trình, hơn là việc in ấn và đóng tập.
+
+Câu hỏi: Tôi có nên gửi trước bài thuyết trình của tôi cho những người tham dự không?
+
+Câu trả lời: Không. Một bài thuyết trình tốt thường chỉ có những đoạn văn ngắn (với font chữ to đùng!), vì vậy người nhận chắc chắn sẽ nhận thấy rất khó để hiểu mà không có lời thuyết trình, giải thích của bạn.
+
+Câu hỏi: Tôi có nên phát cho mọi người bài thuyết trình của mình vào lúc bắt đầu cuộc họp không?
+
+Câu trả lời: Không. Nếu bạn làm điều này, mọi người sẽ lướt qua vì họ có thể đọc nhanh hơn bạn nói. Tuy nhiên rồi việc này sẽ làm cho khán giả khó ghi chép, vì vậy có một chiến lược thay thế khác là phát bài thuyết trình vào đầu của cuộc họp nhưng yêu cầu mọi người không đọc trước.
+
+Tìm đọc
+
+Nesheim, John. High Tech Start Up: The Complete Handbook for Creating Successful New High Tech Companies – Khởi nghiệp công nghệ cao: Hướng dẫn hoàn chỉnh để tạo ra những công ty công nghệ cao thành công. New York: Free Press, 2000.
+
+Reynolds, Garr. Presentation Zen: Simple Ideas on Presentation Design and Delivery – Thiền trong thuyết trình: Những ý tưởng đơn giản để thiết kế và thực hiện các bài thuyết trình. New York: New Riders, 2008.

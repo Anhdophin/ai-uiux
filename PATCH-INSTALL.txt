@@ -1,0 +1,24 @@
+Giải nén patch này vào root project.
+
+File chính:
+- apps/scan_apps.py
+- apps/data/apps-catalog.json
+- apps/data/apps-home-feed.json
+- apps/shared/apps-page.js
+- apps/shared/apps-catalog.css
+- data/apps-portal.json
+- data/apps-home-feed.json
+- js/apps-home-feed.js
+
+Cập nhật sau mỗi lần thêm app:
+1. thêm folder app mới vào apps/
+2. nếu cần, tạo apps/<slug>/app.meta.json
+3. chạy:
+   python apps/scan_apps.py
+
+Trang apps:
+- apps/index.html sẽ đọc apps/data/apps-catalog.json
+
+Trang chủ root:
+- có thể dùng data/apps-home-feed.json
+- file js/apps-home-feed.js là helper render feed nếu cần

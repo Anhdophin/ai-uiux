@@ -1,0 +1,5 @@
+:root{
+  --page-accent:#ff4f7a;
+  --page-accent-2:#0fa8b8;
+  --page-accent-soft:color-mix(in srgb, #ff4f7a 14%, white);
+}

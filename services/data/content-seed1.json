@@ -1,0 +1,178 @@
+{
+  "note": "Copy dữ liệu này vào từng bảng Supabase hoặc dùng làm seed thủ công.",
+  "site_profile": {
+    "brand_name": "Human AI Agent",
+    "hero_eyebrow": "Hello, I'm Anhdophin",
+    "hero_title": "Human AI Agent",
+    "hero_subtitle": "Workflow Automation for Repetitive & Scalable Tasks",
+    "hero_body": "Tôi thiết kế các công cụ digital giúp giải quyết những việc lặp lại hoặc cần làm số lượng lớn",
+    "header_cta_label": "Let's talk",
+    "hero_primary_cta_label": "Nhận tư vấn",
+    "hero_primary_cta_href": "#contact",
+    "hero_secondary_cta_label": "Xem cách hoạt động",
+    "hero_secondary_cta_href": "#portfolio",
+    "about_title": "You Can Imagine I Can Do",
+    "about_skill_label": "Workflow Design with AI",
+    "about_skill_percent": 90,
+    "about_body": "Anh không làm phần mềm, anh làm cách để công việc tự chạy. Dùng AI để chuyển hóa workflow, tri thức và xử lý nội bộ thành flow chạy ổn định, dễ lặp lại và dễ mở rộng.",
+    "about_card_title": "About Me",
+    "services_title": "I Provide Wide Range of Digital Services",
+    "portfolio_title": "My Creative Workflow",
+    "testimonial_title": "Clients are satisfied for our work, view feedback",
+    "contact_title": "Can't find your desired service?",
+    "contact_subtitle": "Let us know 24/7 in 123456",
+    "contact_primary_label": "Hire Me",
+    "contact_primary_href": "#request",
+    "contact_secondary_label": "Get CV",
+    "contact_secondary_href": "#downloads",
+    "footer_copy": "Static web demo đọc dữ liệu từ Supabase để dựng landing page giới thiệu bản thân và dịch vụ.",
+    "hero_image_url": "assets/portrait-1.svg",
+    "about_image_url": "assets/portrait-2.svg"
+  },
+  "site_nav": [
+    {
+      "label": "Home",
+      "href": "#hero",
+      "sort_order": 1
+    },
+    {
+      "label": "About us",
+      "href": "#about",
+      "sort_order": 2
+    },
+    {
+      "label": "Services",
+      "href": "#services",
+      "sort_order": 3
+    },
+    {
+      "label": "Portfolio",
+      "href": "#portfolio",
+      "sort_order": 4
+    },
+    {
+      "label": "Contact",
+      "href": "#contact",
+      "sort_order": 6
+    },
+    {
+      "label": "Booking",
+      "href": "workflow/",
+      "sort_order": 5
+    }
+  ],
+  "site_socials": [
+    {
+      "label": "Tw",
+      "href": "#",
+      "icon_text": "T",
+      "sort_order": 1
+    },
+    {
+      "label": "Li",
+      "href": "#",
+      "icon_text": "in",
+      "sort_order": 2
+    },
+    {
+      "label": "Be",
+      "href": "#",
+      "icon_text": "B",
+      "sort_order": 3
+    }
+  ],
+  "site_services": [
+    {
+      "title": "UI/UX cho tool nội bộ",
+      "body": "Thiết kế luồng dùng đơn giản, rõ, bám đúng thao tác thật trong nội bộ.",
+      "icon_text": "⚙",
+      "accent_color": "#9b4dff",
+      "sort_order": 1
+    },
+    {
+      "title": "Workflow Design",
+      "body": "Phân tích step-by-step để biến việc lặp lại thành flow xử lý rõ ràng.",
+      "icon_text": "</>",
+      "accent_color": "#f6b400",
+      "sort_order": 2
+    },
+    {
+      "title": "Batch Content & Data",
+      "body": "Xử lý nội dung, file, data số lượng lớn bằng logic có thể lặp lại.",
+      "icon_text": "✦",
+      "accent_color": "#ff5a7a",
+      "sort_order": 3
+    },
+    {
+      "title": "Supabase Reader Demo",
+      "body": "Static frontend đọc dữ liệu từ Supabase, dễ chỉnh nội dung mà không cần sửa layout.",
+      "icon_text": "∞",
+      "accent_color": "#0fa8b8",
+      "sort_order": 4
+    }
+  ],
+  "site_projects": [
+    {
+      "title": "Workflow Audit",
+      "body": "Nhìn cách doanh nghiệp đang làm bằng tay, tách ra thành từng bước có thể tự động hóa.",
+      "tag": "Discovery",
+      "image_url": "assets/project-1.svg",
+      "sort_order": 1
+    },
+    {
+      "title": "Logic Mapping",
+      "body": "Biến rule vận hành thành logic xử lý rõ ràng để AI và tool có thể đọc được.",
+      "tag": "Structure",
+      "image_url": "assets/project-2.svg",
+      "sort_order": 2
+    },
+    {
+      "title": "Micro Tool Delivery",
+      "body": "Dựng micro tool hoặc static reader để đội nội bộ test và dùng thật trên localhost trước.",
+      "tag": "Delivery",
+      "image_url": "assets/project-3.svg",
+      "sort_order": 3
+    }
+  ],
+  "site_testimonials": [
+    {
+      "name": "A. Nguyen",
+      "role": "Operations",
+      "body": "Flow được bóc lại rất dễ hiểu. Cảm giác như công việc cũ được sắp hàng lại thành một hệ chạy được.",
+      "rating": 5,
+      "image_url": "assets/avatar-1.svg",
+      "sort_order": 1
+    },
+    {
+      "name": "B. Tran",
+      "role": "Founder",
+      "body": "Điểm tốt là không sa vào dev nặng. Tập trung đúng vào workflow lặp lại nên đội nội bộ dễ hiểu và test nhanh.",
+      "rating": 5,
+      "image_url": "assets/avatar-2.svg",
+      "sort_order": 2
+    }
+  ],
+  "site_downloads": [
+    {
+      "title": "Sample Workflow PDF",
+      "description": "Mẫu tài liệu bóc workflow",
+      "file_url": "assets/download-workflow.txt",
+      "button_label": "Download",
+      "sort_order": 1
+    },
+    {
+      "title": "Supabase SQL Setup",
+      "description": "Schema để tạo bảng demo",
+      "file_url": "supabase/schema.sql",
+      "button_label": "Open",
+      "sort_order": 2
+    },
+    {
+      "title": "Content Seed JSON",
+      "description": "Dữ liệu mẫu để import",
+      "file_url": "data/content-seed.json",
+      "button_label": "Open",
+      "sort_order": 3
+    }
+  ]
+}

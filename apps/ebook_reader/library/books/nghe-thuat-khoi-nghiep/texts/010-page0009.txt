@@ -1,0 +1,307 @@
+CHƯƠNG 4NGHỆ THUẬT TỰ THÂN VẬN ĐỘNG
+
+Việc nhắm vào mục tiêu cao là hợp lý nếu bạn có nhiều nguồn lực.
+
+– Hawley R. Everhart
+
+GIST
+
+Bill Reichert, đối tác của tôi tại Garage Technology Ventures, thích nói với các doanh nhân rằng họ dễ bị sét đánh khi nằm dưới đáy một hồ bơi trong một ngày nắng đẹp hơn là khi họ sắp huy động vốn. Ông ấy dường như hơi quá lời. Nhưng mọi thứ còn tệ hơn thế.
+
+Phần lớn các doanh nhân phải đào xới, cào xé từng xu cho công ty trong trong khi cũng đang sống bằng rau dưa. May mắn là những chi phí tốn kém nhất để khởi sự doanh nghiệp bây giờ đã rẻ hơn, thậm chí là miễn phí. Ngày nay, có nhiều thuận lợi để tự gây dựng doanh nghiệp bằng vốn của chính mình hơn bất kỳ lúc nào trong lịch sử vì những lý do sau:
+
+• Các công cụ phát triển ứng dụng là các mã nguồn mở hoặc miễn phí.
+
+• Cơ sở hạ tầng rẻ nhờ các dịch vụ đám mây.
+
+• Các ứng dụng “trung gian” trên đám mây giúp cho việc phát triển dễ hơn và nhanh hơn.
+
+• Nhân viên có thể làm việc trên mạng hoặc bạn có thể tuyển những người làm tự do, vì thế bạn sẽ cần ít không gian văn phòng hơn.
+
+• Hình thức quảng bá hiệu lực nhất cũng là rẻ nhất: mạng xã hội.
+
+Thật là một thế giới tuyệt vời. Chương này giải thích làm thế nào để sống sót qua những ngày đầu thiếu thốn, nhưng quan trọng là bằng cách tự dựa vào những nguồn lực của chính mình.
+
+Xoay xở để kiếm nguồn tiền mặt, chứ không phải vì khả năng sinh lời
+
+Trong thời sơ khai của tờ New Yorker, các văn phòng thì quá bé và sơ sài đến nỗi Dorothy Parker thích làm việc ở quán cà phê kế bên. Ngày nọ, một biên tập viên thấy bà ngồi ở đó.
+
+“Sao bà không làm việc trên lầu?”, Harold Ross hỏi.
+
+“Ai đó dang sử dụng bút chì”, Parker giải thích.1
+
+1 Peter Hay, The Book of Business Anecdotes – Những giai thoại trong kinh doanh. (New York: Wings Books, 1988), trang 149.
+
+Các doanh nhân có thể tự thân vận động hầu như trong bất kỳ lĩnh vực kinh doanh nào – đặc biệt là nếu họ không có lựa chọn nào khác. Một mô hình kinh doanh bằng nguồn vốn tự có có những đặc điểm sau:
+
+• Yêu cầu nguồn vốn thấp
+
+• Chu kỳ bán hàng ngắn ( dưới một tháng)
+
+• Thời hạn thanh toán ngắn (dưới một tháng)
+
+• Lợi nhuận có tính định kỳ
+
+• Quảng cáo qua mạng xã hội và truyền miệng
+
+“Tự thân vận động là cố gắng xoay xở kiếm nguồn tiền mặt, chứ không vì khả năng sinh lợi nhuận.”
+
+Những yêu cầu sau đây tập trung vào sản phẩm và các thị trường đích với những đặc điểm sau:
+
+• Người ta đã biết, hoặc sẽ sớm biết, rằng họ cần sản phẩm của bạn. Bạn không phải “chỉ dạy” các khách hàng tiềm năng về nhu cầu của họ.
+
+• Sản phẩm của bạn có khả năng “tự thuyết phục”1. Điều đó có nghĩa là một khi người ta nhận ra nhu cầu của mình và bạn có thể đáp ứng nó, họ có thể tự thuyết phục bản thân họ thứ mà bạn đang cung cấp.
+
+1 Michael Schrage, “Letting Buyers Sell Themselves” – “Hãy để khách hàng tự thuyết phục chính họ”. MIT Technology Review (Tháng 10, 2003): 17.
+
+• Một cơn sóng thần của thị trường đang phá vỡ những rào cản cho bạn. Internet là một ví dụ. (Tuy nhiên, hãy nhớ rằng mọi con sóng cuối cùng đều hết năng lượng, vì vậy bạn phải có một doanh nghiệp thực sự khi điều này xảy ra.)
+
+• Bạn có thể “đứng trên vai người khổng lồ”, tức là dựa vào một sản phẩm đã thành công với nền tảng vững chắc, vì vậy có thể giảm thiểu rủi ro.
+
+• Việc tự thân vận động là cố gắng xoay xở kiếm nguồn tiền mặt, chứ không vì khả năng sinh lợi nhuận. Đây không phải là một kế hoạch lâu dài, nhưng cho đến khi bạn có được một số tiền lớn, đây vẫn là cách tốt nhất để tiến lên.
+
+Dùng dịch vụ đám mây
+
+Cho đến khoảng năm 2010, nếu bạn khởi sự một công ty công nghệ, bạn cần một căn phòng đầy các máy chủ và tuyển người vận hành chúng. Bạn cần cài đặt các ứng dụng, trang web, và dữ liệu của mình ở nhiều nơi khác nhau phòng khi có một vụ tấn công kinh khủng càn quét văn phòng của bạn và các thiết bị khôi phục này có thể giúp bạn vượt qua nó.
+
+Từ năm 2010, mọi việc đã hoàn toàn thay đổi và những phần cứng mà phần lớn các startup phải mua chỉ là máy tính xách tay cho nhân viên. Vào lúc đó những máy chủ của công ty được đặt trên đám mây – có nghĩa là ở trong các máy chủ tại những công ty như Rackspace và Amazon Web Services chuyên về dịch vụ máy chủ, thương mại điện tử, cơ sở dữ liệu và các ứng dụng được cung cấp qua Internet.
+
+Điều này cho phép các startup chỉ tốn vài ngàn đô-la mỗi tháng cho tất cả nhu cầu mà họ cần, thay vì hàng ngàn đô-la cho mỗi máy chủ. Tóm lại, cơ sở hạ tầng dựa trên dịch vụ đám mây mang lại cho bạn những lợi thế tuyệt vời:
+
+• CHI PHÍ THẤP: Khi bạn xem xét tổng chi phí cho cơ sở hạ tầng (phần cứng, phần mềm, đội ngũ nhân viên, dự phòng), ưu điểm trả – khi – bạn – dùng của hạ tầng cơ sở đám mây là không phải bàn cãi và đó là điểm đáng tiền nhất của nó.
+
+• DỄ ĐIỀU CHỈNH: Nhu cầu về dung lượng và hiệu suất có thể thay đổi nhanh chóng. Các hệ thống đám mây có thể đáp ứng những thay đổi này nhanh chóng – mà lý tưởng là dung lượng nhiều hơn thay vì hiệu suất cao hơn. Ngày xưa (trước năm 2010), cần mất vài ngày để tăng dung lượng, nhưng giờ đây các dịch vụ đám mây có thể thay đổi cấu hình và tăng dung lượng cho bạn nhanh chóng – nếu không muốn nói là tự động.
+
+• ĐỘ TIN CẬY CAO: Có hàng trăm người ở những nơi như Rackspace và Amazon mà nhiệm vụ chính của họ là đảm bảo cho mọi thứ hoạt động ổn định. Rõ ràng những công ty này là mục tiêu cho những vụ tấn công mạng, Nhưng các hệ thống đám mây chắc chắn đáng tin cậy hơn nhiều so với những hệ thống bạn tự lắp đặt.
+
+Hãy quên đội ngũ “Đã thành danh”
+
+Kinh nghiệm là cái tên mọi người đặt cho lỗi lầm của họ.
+
+– Oscar Wilde
+
+Nếu bạn đang tự thân vận động, hãy quên việc tuyển dụng những nhà cựu công nghiệp nổi tiếng và tự xây dựng đội ngũ của riêng mình. Hãy tập trung vào những gì mình có – nghĩa là tin vào những người trẻ tuổi, thiếu kinh nghiệm, nhưng có đầy tài năng, nhiệt huyết, và cả sự ham hiểu biết.
+
+“Đôi khi, sự ngờ nghệch vô tư lại là một động lực lạ lùng.”
+
+Việc tuyển dụng những người chưa thành danh có thể giảm khả năng huy động vốn mạo hiểm, nhưng bảng dưới đây cho thấy việc xây dựng đội ngũ với những người chưa có nhiều kinh nghiệm dễ dàng như thế nào:
+
+Trong số những nhân tố trên, nhân tố cuối cùng là quan trọng nhất: không biết không chỉ là hạnh phúc, nó còn là động lực. Hãy xem câu chuyện ấn tượng của tiến sĩ George Dantzig, giáo sư Đại học Stanford về nghiên cứu quản lý. Khi là nghiên cứu sinh tiến sĩ tại Đại học UC Berkeley, một hôm ông đến lớp thống kê muộn, và có hai bài toán được ghi trên bảng mà ông nghĩ là bài tập về nhà.
+
+Thực ra, đó là hai giả thuyết thống kê chưa được chứng minh. Không biết điều này, Dantzig ghi lại và giải chúng. Theo Dantzig, khi ông hỏi giáo sư hướng dẫn chủ đề của luận án, vị giáo sư bảo ông “Hãy đóng thành tập hai bài toán và tôi sẽ nhận chúng như là luận án của anh”.
+
+Trở lại những năm 80 (1980s chứ không phải 1880s), tôi không biết về những khó khăn của việc truyền bá một hệ điều hành mới, vì vậy khi Apple đề nghị tôi một công việc, tôi nhận ngay. Sau thời Macintosh, bây giờ tôi đã biết nó khó thế nào, và sẽ không bao giờ thử lại nữa. Đây là một vấn đề cơ bản của những người đã có kinh nghiệm: họ biết quá nhiều.
+
+Nếu tôi biết sự khó khăn của công việc, tôi sẽ không thử. Nếu Dantzig biết về độ khó khăn của giả thuyết mà ông nghĩ là bài tập về nhà, có thể ông sẽ không cố gắng giải nó. Đôi khi, sự ngờ nghệch vô tư lại là một động lực lạ lùng.
+
+BÀI TẬP
+
+Hãy lên mạng và tìm hiểu điều kiện của những doanh nhân sau khi họ khởi sự công ty. Bao nhiêu người trong số họ có “điều kiện đủ” để bắt đầu sự nghiệp?
+
+Bill Gates, hãng Microsoft
+
+Michael Dell, hãng Dell
+
+Pierre Omidyar, công ty eBay
+
+Jerry Yang, công ty Yahoo!
+
+Anita Roddick, hãng The Body Shop
+
+Bắt đầu như một doanh nghiệp dịch vụ
+
+Một trong những lợi thế của doanh nghiệp dịch vụ là nguồn tiền bắt đầu xuất hiện chỉ trong vài tuần. Ví dụ cổ điển của hình thức tự thân vận động này là một công ty phần mềm. Câu chuyện thần tiên là thế này:
+
+• Một vài lập trình viên cùng nhau cung cấp dịch vụ cho một thị trường ngách. Họ hoạt động như những nhà tư vấn – nỗ lực hết sức hỗ trợ khách hàng. Phí dịch vụ được tính theo giờ và việc thanh toán được thực hiện trong vòng 30 ngày.
+
+• Trong quá trình cung cấp dịch vụ, họ phát triển một phần mềm cho khách hàng. Khi họ có thêm khách hàng, họ tiếp tục hoàn thiện phần công cụ này. Rất nhanh chóng, họ nhận ra rằng có nhiều công ty lớn có thể sử dụng nó.
+
+• Họ dùng phí tư vấn từ khách hàng để hoàn thiện phần mềm. Đến lúc này, việc tư vấn đã phát triển và tạo ra một nguồn thu ổn định.
+
+• Họ hoàn thiện việc phát triển phần mềm và cố gắng bán nó. Doanh thu tăng lên. Công ty không làm dịch vụ tư vấn nữa vì nhu cầu đã ít đi.
+
+• Công ty tiến hành bán cổ phần ra công chúng, hoặc Google mua nó. Những nhân viên đầu tiên giờ mua xe Tesla và thưởng thức những chai vang.
+
+Những câu chuyện cổ tích không phải lúc nào cũng trở thành sự thật. Một phiên bản khác của câu chuyện, khá tàn nhẫn, sẽ như thế này:
+
+• Một vài anh chàng có ý tưởng thành lập một công ty phần mềm. Họ sẽ cho Oracle, Microsoft hay Symantec ra rìa.
+
+• Họ bắt đầu tạo ra sản phẩm. Có lẽ họ sẽ kêu gọi vốn mạo hiểm. Có lẽ họ sẽ huy động vốn thiên thần. Hay có thể họ sẽ tự thân vận động.
+
+• Lần đầu tiên trong lịch sử loài người, việc phát triển tốn nhiều thời gian hơn các doanh nhân suy tính. Và khách hàng cũng không mặn mà với sản phẩm từ hai chàng trai trong garage. Công ty bắt đầu cạn vốn.
+
+• Để có tiền, họ quyết định làm một vài cuộc tư vấn. Họ mang sản phẩm mới hoàn thành một phần của mình và lang thang trên vỉa hè, tìm kiếm bất kỳ nhà đầu tư nào họ có thể gặp. Họ cho rằng quyết định này là một bước đi tích cực vì nó giúp họ phát triển một sản phẩm mà khách hàng cần.
+
+• Lạ chưa kìa! Người ta cần sản phẩm của họ. Những nhà phát triển hoàn thiện nó và bắt đầu bán nó. Doanh thu tăng lên. Công ty không làm dịch vụ tư vấn nữa vì nhu cầu tư vấn đã ít đi.
+
+• Công ty tiến hành bán cổ phần ra công chúng, hoặc Google mua nó. Những nhân viên đầu tiên giờ mua xe Tesla và thưởng thức những chai vang.
+
+Làm cho khách hàng trả tiền cho việc nghiên cứu và phát triển chỉ là chiến lược tạm thời cho một doanh nghiệp dựa trên sản phẩm hữu hình. về lâu dài, một doanh nghiệp dịch vụ khác biệt cơ bản với một doanh nghiệp sản xuất. Một bên hoàn toàn là về người lao động và những dự án hoặc giờ làm việc hái ra tiền. Còn bên kia là về chi phí nghiên cứu, phát triển, vận chuyển, và mở rộng tốn kém qua rất nhiều khâu.
+
+Bán hàng trực tiếp
+
+Nhiều startup cố gắng áp dụng hệ thống phân phối nhiều tầng mà trong đó họ bán cho đại lý, rồi đại lý bán cho người tiêu dùng. Lý do là những đại lý đã có tiếng sẽ mang lại các lợi ích từ lực lượng nhân viên kinh doanh của họ, nhận diện thương hiệu và các mối hàng hiện hữu của họ.
+
+Dù sao, đó cũng chỉ là ý tưởng. Nó thường không ổn vì phần lớn đại lý muốn đáp ứng nhu cầu, chứ không phải tạo ra nhu cầu. Họ không mặn mà gì trong việc giúp bạn tạo lập thị trường – họ chỉ muốn khai thác thị trường có sẵn. Nghe có vẻ Marxist (kiểu Groucho – hài hước), nhưng bạn có lẽ không cần đến bất kỳ đại lý nào.
+
+Có ba vấn đề cần cân nhắc khi bạn quan tâm đến một hệ thống phân phối đa tầng là:
+
+• Hệ thống này cách ly bạn khỏi khách hàng của bạn. Với một sản phẩm mới, bạn cần biết điều gì tốt, điều gì chưa tốt sớm nhất và chính xác nhất có thể.
+
+• Vì có biên độ lợi nhuận ròng rất nhỏ, bạn cần tạo ra một lượng bán hàng lớn, và rất khó để đạt được điều này khi bạn chỉ là một startup.
+
+• Cần nhiều thời gian để thuyết phục các nhà phân phối chấp nhận sản phẩm của bạn và cũng lâu như vậy để sản phẩm của bạn đi qua hệ thống đến tay người tiêu dùng.
+
+Vì tất cả những lý do trên, bạn nên bắt đầu bằng cách bán trực tiếp cho khách hàng. Một khi bạn đã hoàn thiện sản phẩm và tạo được doanh thu, bạn có thể dùng đến các đại lý để thúc đẩy, mở rộng và hỗ trợ cho các nỗ lực của bạn. Nhưng đừng mong là các đại lý sẽ định vị sản phẩm của bạn hoặc cung cấp những phản hồi chất lượng mà bạn có được khi bán trực tiếp cho khách hàng.
+
+Định vị đối lập với người dẫn đầu thị trường
+
+Seth Godin, tác giả của cuốn The Bootstrapper’s Bible: How to Start and Build a Business with a Great Idea and (Almost) No Money – Kinh thánh của những người tự thân vận động: Làm thế nào để khởi sự và xây dựng một doanh nghiệp bằng một ý tưởng lớn và (gần như) không có tiền, đưa ra một lý giải ấn tượng cho việc định vị đối lập với người đứng đầu thị trường của một startup. Thay vì cố gắng ra mắt sản phẩm từ con số không, bạn hãy tận dụng danh tiếng thực tại của đối thủ. Hãy xem những ví dụ sau để biết nên làm thế nào:
+
+• Xe Lexus: “Chất lượng tốt như Mercedes hay BMW nhưng rẻ hơn 30%”
+
+• Hãng hàng không Southwest Airlines: “Rẻ như đi xe hơi”
+
+• Nước uống 7UP: “Không cola”
+
+• Hãng Avis: “Chúng tôi nỗ lực hơn” (hơn Hertz)
+
+“Với việc chi hàng triệu đô-la và nhiều năm nỗ lực để định vị thương hiệu, đối thủ của bạn đã mang đến cho bạn một điều kỳ diệu.”
+
+Định vị ngược với công ty đứng đầu thị trường hoặc những cách làm chuẩn mực của việc kinh doanh có thể giúp bạn tiết kiệm rất nhiều trong việc marketing, PR, thúc đẩy và quảng cáo, vì vậy hãy lựa chọn chuẩn mực vàng trong ngành của bạn và xác định điểm khác biệt quan trọng trong sản phẩm của bạn như:
+
+• Giá rẻ hơn
+
+• Dễ sử dụng hơn
+
+• Tiện lợi hơn
+
+• Thiết kế đẹp hơn
+
+• Đáng tin cậy hơn
+
+• Tốc độ/ hiệu suất cao hơn
+
+• Nhiều lựa chọn hơn
+
+• Phục vụ khách hàng tốt hơn
+
+• Địa điểm thuận lợi hơn
+
+Với việc chi hàng triệu đô-la và nhiều năm nỗ lực để định vị thương hiệu, đối thủ của bạn đã mang đến cho bạn một điều kỳ diệu. Mặc dù vậy việc này cũng như một cú quăng lưới vì để định vị ngược thành công cần có ba yếu tố sau:
+
+• Công ty đứng đầu thị trường vẫn có giá trị định vị. Ví dụ như bạn cần định vị công ty của mình so với Enron thời nó còn là đứa con cưng của Phố Wall.
+
+• Đối thủ không phản đòn và hay xóa bỏ lợi thế của bạn – như việc bạn nói rằng máy tính của bạn nhanh hơn của IBM và họ đáp trả bằng thông báo về một mẫu máy mới nhanh hơn rất nhiều.
+
+• Sản phẩm của bạn phải vượt trội đối thủ về mức độ tin cậy, ý nghĩa và sự độc đáo. Nếu không, sẽ không ai quan tâm đến sự cường điệu của bạn. Tệ hơn nữa, bạn sẽ mất uy tín, và uy tín là thứ khó lấy lại được.
+
+Tuy vậy, trong tương lai gần, việc định vị ngược với công ty dẫn đầu thị trường là một chiến thuật vừa rẻ vừa hữu dụng cho phép bạn có thể giải thích những gì bạn đang làm.
+
+Nỗ lực cho những việc lớn
+
+Việc tự thân vận động sẽ thất bại khi các doanh nhân tập trung vào việc tiết kiệm đến mức làm tổn hại mục tiêu chính. Lý do để khởi sự một công ty không phải là để tạo ra những bàn làm việc của riêng bạn (cũng không phải việc dùng nguồn vốn mạo hiểm với mục đích làm cho Herman Miller1 trở thành một công ty lớn hơn). Sau đây là danh sách những việc lớn và nhỏ mà các doanh nhân phải chú ý:
+
+1 Một công ty sản xuất thiết bị văn phòng lớn trên thế giới. (ND)
+
+NHỮNG VIỆC LỚN
+
+• Phát triển sản phẩm MVVVP
+
+• Bán sản phẩm
+
+• Cải thiện sản phẩm
+
+NHỮNG VIỆC NHỎ
+
+• Danh thiếp và tiêu đề thư
+
+• Các nguồn cung cấp cho văn phòng
+
+• Bàn ghế
+
+• Thiết bị văn phòng
+
+Vì vậy hãy chú tâm giải quyết những việc nhỏ một cách nhanh chóng, vừa đủ tốt – chứ không cần hoàn hảo. Rick Sklarin, một cựu cố vấn của Accenture, nói thế này: “Hãy làm một chuyến đến cửa hàng bán lẻ Costco và xử lý mọi thứ”. Rồi tập trung sự quan tâm và các nguồn lực của bạn vào những việc lớn vì đó mới là điều quan trọng.
+
+BÀI TẬP
+
+Lần tới, khi có điều gì bạn nghĩ là bạn không thể sống nếu thiếu nó, hãy đợi một tuần xem liệu bạn có còn sống không.
+
+Cắt giảm nhân lực và sử dụng các nguồn lực bên ngoài
+
+Có một câu hỏi xưa cũ mà các CEO thường đối mặt: Điều nào tệ hơn – tốn tiền cho những nhân viên bàn giấy vì bạn không thể xử lý được mọi công việc hay sa thải bớt vì bạn đã ước lượng doanh thu quá cao?
+
+“Nếu bạn muốn công ty tồn tại được bằng nguồn vốn tự có, hãy tinh gọn nó.”
+
+Ý nghĩ về việc tốn tiền cho các nhân viên bàn giấy làm tôi nóng mặt, nhưng việc sa thải nhân viên còn tệ hơn. Bộ máy phình to làm cho khả năng phản ứng trở nên yếu đi, vì vậy việc xử lý nó không chỉ đơn giản là vấn đề giảm bớt số lượng nhân viên:
+
+• Quá dư thừa không gian trong văn phòng phải thuê dài hạn.
+
+• Quá nhiều bàn ghế và máy tính.
+
+• Những rạn nứt trong công ty khi có người ra đi.
+
+• Khó khăn trong cuộc sống của những người bị sa thải.
+
+• Phải tìm kiếm nhân sự khác (cho nhu cầu mới) trong khi sa thải người cũ.
+
+• Phải vượt qua những trở ngại để thuyết phục mọi người rằng bạn đang không phá vỡ sự ổn định của công ty.
+
+Nếu bạn muốn công ty tồn tại được bằng nguồn vốn tự có, hãy tinh gọn nó. Có một giải pháp cho những vấn đề bạn có thể gặp phải khi thiếu nhân viên là dựa vào nguồn lực bên ngoài cho những công việc không có tính chiến lược. Tuy nhiên việc dựa vào nguồn lực bên ngoài cho những nhiệm vụ chiến lược như nghiên cứu, phát triển, marketing và bán hàng là rất rủi ro vì đó là những trụ cột của công ty bạn. Những nguồn lực bên ngoài có thể sử dụng bao gồm:
+
+• Dịch vụ khách hàng
+
+• Hỗ trợ công nghệ
+
+• Kế toán
+
+• Việc quản lý trang thiết bị
+
+Một ví dụ ấn tượng ngược lại với việc tự thân vận động là công ty Webvan, chuyên bán thực phẩm online, đã từng rất phát triển trong trào lưu dot-com năm 2001. Công ty này từng có một đơn hàng 1 tỷ đô-la với Bechtel, một công ty công nghệ, để cung cấp trang thiết bị ở 26 thị trường. Khi sa thải vị CEO ngôi sao của mình, George Shaheen, người cũng đã từng đứng đầu Accenture, Webvan hứa trả cho ông ấy 375.000 đô-la mỗi năm cho đến cuối đời. Tất cả những gì tôi có thể nói là: “OMG”.
+
+Quan tâm tới chức năng, chứ không phải hình thức
+
+Để tiêu tiền một cách khôn ngoan, hãy tập trung vào chức năng bạn cần, chứ không phải hình thức. Ví dụ như để giải quyết ổn thỏa các vấn đề pháp lý, kế toán, marketing hay đào tạo (những chức năng), bạn không cần đến một công ty tên tuổi (hình thức).
+
+Các nhà cung cấp dịch vụ chiếm phần lớn trong các khoản chi của một startup, vì vậy sau đây là những lời khuyên để đưa ra những lựa chọn phù hợp khi tiếp cận họ:
+
+• CHỌN CÔNG TY CHUYÊN VỀ VIỆC BẠN CẦN: Ví dụ như bạn không nên tuyển luật sư chuyên về li dị Uncle Joe, hay một hãng luật từ Phố Wall để định giá cổ phần lựa chọn dành cho những nhân viên xứng đáng.
+
+• CHI NHIỀU HƠN CHO NHỮNG VIỆC QUAN TRỌNG: Các nhà đầu tư có lẽ sẽ cảm thấy thoải mái hơn khi làm việc với những công ty có sử dụng những luật sư hoặc kế toán quen thuộc, những người làm việc cho bạn. Nhưng hãy bỏ qua từ “quen thuộc” và tiến đến “tốt nhất”.
+
+• XEM XÉT CẢ NHỮNG CÁ NHÂN CÓ THỂ ĐẢM NHẬN CÔNG VIỆC – CHỨ KHÔNG CHỈ NGƯỜI CỦA CÁC CÔNG TY: Những xem xét hợp lý nhất chính là việc họ là những doanh nhân vui vẻ.
+
+• THƯƠNG LƯỢNG MỌI THỨ: Mọi thứ đều có thể thương lượng được: giá cả, kế hoạch thanh toán và phí hàng tháng. Ngay cả khi mọi chuyện tốt đẹp, cũng đừng ngại thương lượng – Nó là một phần của công việc. Ví dụ nhiều công ty sẽ trì hoãn việc thanh toán cho đến khi bạn phải “xiết nợ”.
+
+Logic của việc tập trung vào chức năng, chứ không phải hình thức, có thể áp dụng cho hầu hết mọi việc trong một startup. Một biểu tượng của thời bùng nổ dot-com là chiếc ghế của hãng Herman Miller Aeron. Đây là một thiết bị văn phòng có giá 700 đô-la mỗi chiếc, một biểu tượng thời thượng lúc bấy giờ. Đó là một chiếc ghế ấn tượng, nhưng tôi không biết liệu nó có phải là một sự ấn tượng đáng giá 700 đô-la không. Nó giúp người ta làm lâu hơn và chăm chỉ hơn, nhưng có lẽ không phải là những việc cần làm. Và nhân tiện cũng nói luôn là có đến 114 chiếc ghế như thế được bán tại buổi đấu giá phá sản của công ty Webvan.
+
+Phụ trương
+
+FAQ
+
+Câu hỏi: Làm thế nào tôi biết được khi nào việc tự thân vận động đã đưa chúng tôi đi xa nhất có thể?
+
+Câu trả lời: Bạn sẽ biết đâu là thời điểm để ngừng tự thân vận động khi bạn có nguồn tiền mặt ổn định và bạn chắc chắn rằng mỗi đợt gia tăng doanh số bán hàng đều mang lại lợi nhuận.
+
+Câu hỏi: Liệu tôi có bỏ lỡ sự tăng trưởng – thậm chí cả thành công – nếu tôi tự thân vận động quá nhiều?
+
+Câu trả lời: Tôi chưa bao giờ chứng kiến một công ty tự thân vận động quá nhiều. Có nguy hiểm lớn khi bạn tiết kiệm quá mức trong lúc có quá nhiều tiền chứ không phải trong lúc có quá ít. Nói một cách hình tượng, hãy xem vốn đầu tư mạo hiểm như những liều doping: nó có thể cho bạn lợi thế ngắn hạn, nhưng về lâu về dài nó sẽ giết bạn. Hãy nhớ rằng bạn được mong đợi là sẽ tăng giá trị đầu tư mà không quan trọng là tiền đến từ bản thân bạn hay từ các nhà đầu tư bên ngoài.
+
+Câu hỏi: Nếu tôi có thể thành công trong việc khởi nghiệp với nguồn vốn tự có, liệu tôi có phải tìm kiếm vốn từ bên ngoài? Có vấn đề gì với cách làm cổ lỗ sĩ như vậy không?
+
+Câu trả lời: Xin nói rằng, không và hoàn toàn không. Vốn từ bên ngoài không phải là cách duy nhất – đơn giản nó chỉ là một cách mà thôi. Mục tiêu là để tạo ra một điều gì đấy tuyệt vời, không quan trọng cách bạn có vốn như thế nào.
+
+Câu hỏi: Nếu chúng tôi không có hàng triệu đô-la trong quỹ đầu tư mạo hiểm, liệu chúng tôi có được quan tâm một cách nghiêm túc không?
+
+Câu trả lời: Chỉ bởi những người không có trình độ. Nếu bạn kêu gọi vốn bằng cách này, hãy dùng nó để bổ sung cho uy tín của mình, nhưng đừng tin rằng nó sẽ đảm bảo cho thành công của bạn. Nếu bạn không tìm loại vốn này, đừng vất vả với nó. Hãy tạo ra một doanh nghiệp lớn và đừng nhìn lại sau lưng.
+
+Câu hỏi: Startup có nên tránh việc huy động vốn từ các nguồn như gia đình bạn bè, tín dụng hay cầm cố nhà không?
+
+Câu trả lời: Có những rủi ro liên quan đến cả ba cách trên: chúng hủy hoại các mối quan hệ, gây ra những bất ổn về tài chính cá nhân, và có thể làm mất luôn ngôi nhà của bạn. Tuy nhiên việc kinh doanh là một nghệ thuật của việc làm bất cứ điều gì có thể. Mọi người đều muốn có một thị trường lớn và tăng trưởng, công nghệ hoàn hảo và nguồn vốn dồi dào. Trong những điều kiện này, bất kỳ ai cũng có thể là một doanh nhân. Câu hỏi là bạn sẵn lòng và có thể làm những gì làm khi các điều kiện còn xa mới đạt được mức độ đầy đủ. Nếu việc kinh doanh không có rủi ro, nhiều người hơn đã thử nó.
+
+Tìm đọc
+
+Godin, Seth. The Bootstrapper’s Bible: How to Start and Build a Business with a Great Idea and (Almost) No Money – Kinh thánh của những người tự thân vận động: Làm thế nào để khởi sự và xây dựng doanh nghiệp bằng một ý tưởng lớn và (gần như) không có tiền. Chicago: Upstart Publishing, 1998.
+
+Hess, Kenneth L. Bootstrapping: Lessons Learned Building a Successful Company from Scratch – Tự thân vận động: Các bài học từ việc xây dựng một công ty từ bàn tay trắng. Carmel, CA: S-Curve Press, 2001.

@@ -1,0 +1,283 @@
+CHƯƠNG 7NGHỆ THUẬT XÂY DỰNG ĐỘI NGŨ
+
+Việc tuyển dụng, tin tưởng, và ngợi khen những người có quan điểm, năng lực, và cách đánh giá rất khác với mình là điều cần thiết. Điều này là rất khó khăn vì cần đến sự chịu đựng, khiêm tốn và thông tuệ hiếm có.
+
+– Dee W. Hock
+
+GIST
+
+Không có nhiều điều hấp dẫn hơn việc tuyển dụng những nhân sự tuyệt vời cho một startup tuyệt vời, và cũng có rất ít yếu tố quan trọng hơn những nhân sự tuyệt vời trên con đường đi đến thành công. Việc các ứng viên cần có năng lực để làm việc cho công ty của bạn là chưa đủ, họ còn phải tin vào sản phẩm của bạn, vì làm việc cho một startup gần với sự hi sinh cho niềm tin tôn giáo hơn là một cách kiếm tiền. Chương này giải thích cách làm thế nào để xây dựng một đội ngũ xuất sắc.
+
+Đừng quan tâm đến những thứ không liên quan
+
+Trên thế giới này luôn thiếu những nhân sự tài năng. Vì vậy thật ngu ngốc (và ở nhiều nơi là bất hợp pháp) để đưa ra những quyết định tuyển dụng dựa vào những yếu tố không liên quan. Nghệ thuật xây dựng đội ngũ cần vượt qua những phân biệt về sắc tộc, tín ngưỡng, màu da, xu hướng tính dục, và tôn giáo. Tôi thậm chí sẽ bổ sung thêm về nền tảng giáo dục và kinh nghiệm làm việc vào danh sách này. Thay cho những điều đấy, hãy tập trung vào ba yếu tố sau:
+
+1. Ứng viên có thể làm những gì bạn cần không?
+
+2. Ứng viên có tin vào những gì bạn đang làm không?
+
+3. Ứng viên có dễ gần và đáng tin cậy không?
+
+“Những người đầu tiên của Apple, Google, Twitter, và Microsoft chưa hẳn đã là những nhân sự phù hợp cho một startup.”
+
+Nhiều người quá quan trọng vào những kinh nghiệm và lý lịch của các ứng viên. Đôi khi đáng để tuyển một ứng viên không có lý lịch hoàn hảo, và cũng có những thời điểm sẵn sàng không tuyển một ứng viên với lý lịch hoàn hảo.
+
+• ĐÃ LÀM Ở MỘT STARTUP THÀNH CÔNG: Những người đã từng làm việc tại một công ty thành công chưa chắc đã đóng góp vào sự thành công đó. Những người đầu tiên của Apple, Google, Twitter, và Microsoft chưa hẳn đã là những nhân sự phù hợp cho một startup. Vì một điều, vào lúc này, họ có thể đã trở nên quá giàu để một lần nữa muốn làm việc cực khổ.
+
+• ĐÃ LÀM CHO MỘT CÔNG TY LỚN: Làm việc trong những công ty lớn không phải là một chỉ dấu đáng tin cậy cho sự thành công trong môi trường khởi nghiệp. Những kỹ năng cần thiết ở mỗi môi trường là khác nhau. Một phó chủ tịch của Google (với thương hiệu vững chắc, nguồn lực vô hạn, và 80% thị phần) có thể không phải là một người phù hợp cho một công ty của “hai anh chàng trong một garage”.
+
+Thuật khởi nghiệp
+
+• ĐÃ LÀM CHO MỘT CÔNG TY THẤT BẠI: Điều này ngược lại với kinh nhiệm từ startup thành công hay một công ty lớn. Nhiều yếu tố có thể đã gây ra sự thất bại – có lẽ ứng viên là một phần trong đó. Hoặc không phải vậy. Tuy nhiên những thất bại thường mang lại nhiều bài học hơn sự thành công – đặc biệt khi bài học đấy được một công ty khác trả học phí.
+
+• NỀN TẢNG HỌC VẤN: Bạn muốn những người tài ba, và họ chưa hẳn là những người có bằng cấp. Hai điều này không phải là một. Steve Jobs chưa bao giờ tốt nghiệp trường Reed College. Steve Case, nhà sáng lập của AOL, chỉ học ở trường trung học Punahou (một câu đùa riêng của những người đến từ Hawaii). Một nửa trong số các kỹ sư của bộ phận Macintosh không học xong đại học. Tôi bỏ trường luật, và trường kinh doanh Stanford đã từng từ chối tôi.
+
+• CÓ KINH NGHIỆM TRONG CÙNG MỘT NHIỆM VỤ CỤ THỂ: Kinh nghiệm trong một nhiệm vụ cụ thể cũng là một con dao hai lưỡi. Apple từng tuyển một giám đốc điều hành từ một công ty sản xuất tampon vì chúng tôi nghĩ chúng tôi cần đến kinh nghiệm trong việc marketing hàng đóng gói để bán máy Macintosh như những hàng đóng gói khác. Tuy nhiên, kinh nghiệm của ông ấy không áp dụng được bao nhiêu trong việc kinh doanh máy tính – Chán thế đấy! Vị trí kế toán cần có những kỹ năng cụ thể, nhưng đối với nhiều vị trí khác trong một startup, việc tuyển “vận động viên tốt nhất” sẽ hiệu quả hơn.
+
+• CÓ KINH NGHIỆM TRONG NGÀNH: Kinh nghiệm trong ngành là một con dao hai lưỡi khác. Một mặt, việc hiểu biết về ngành của mình và sở hữu những mối quan hệ thì rất hữu ích. Mặt khác, một ứng viên bị đóng khung cách nghĩ về ngành của mình (ví như “Một nhà sản xuất máy tính không thể nào hỗ trợ một chuỗi cửa hàng bán lẻ của riêng họ”) có thể là một trở ngại. Lại một lần nữa, hãy sử dụng phương pháp “vận động viên tốt nhất”.
+
+Còn một điều cuối cùng cần bỏ qua nữa: điểm yếu. Bạn sẽ không nói rằng một trong những điểm mạnh của Steve Jobs là lòng trắc ẩn. Tương tự với Bill Gates là khả năng thiết kế thẩm mỹ. Vậy bạn có loại bỏ những Steve Jobs hay Bill Gates của tương lai không? Có hai cách làm như sau:
+
+• Tìm những ứng viên không có những điểm yếu lớn (mặc dù cũng thiếu những điểm mạnh quan trọng).
+
+• Tìm những ứng viên có điểm mạnh quan trọng (mặc dù anh ta cũng có những điểm yếu lớn).
+
+Cách đầu tiên không hợp lý vì ai cũng có những điểm yếu lớn – vấn đề chỉ là tìm ra chúng là gì thôi. Xuất sắc trong một lĩnh vực là đã quá khó, cố tìm người có thể làm mọi thứ là một sứ mệnh không tưởng.
+
+Cách thứ hai là hướng đúng để đi. Một nhóm những người có những điểm mạnh quan trọng và đa dạng là điều bạn cần trong những ngày đầu, khi mà số lượng nhân viên còn ít và không có chỗ cho những người thừa. Những người xuất sắc thường có những điểm yếu lớn. Trong khi những người không có điểm yếu lớn nào thường là những người bình thường.
+
+BÀI TẬP
+
+Hãy nhớ lại một vài công việc đầu tiên của bạn. Những câu sau là đúng hay sai?
+
+– Tôi hoàn toàn đủ năng lực.
+
+– Tôi đang đòi hỏi các ứng viên những tiêu chuẩn cao hơn so với các sếp cũ của tôi.
+
+Bi kịch hóa những kỳ vọng của ứng viên
+
+Nói rõ với bất kỳ ai bạn tuyển dụng rằng làm việc trong một startup khác hoàn toàn với những gì họ đã trải qua (nếu họ đến từ những công ty lớn) và cũng rất khác với phim ảnh (nếu họ xem tivi quá nhiều).
+
+Đối với trường hợp đầu, bạn cần hỏi họ “Anh có thể đi máy bay giá rẻ, làm việc mà không cần thư ký, và ở trong những nhà nghỉ rẻ tiền?”. Bạn có thể đánh mất một vài nhân sự tiềm năng, nhưng điều này là cần thiết để tránh gặp phải những người không thể làm việc trong môi trường khởi nghiệp.
+
+Đối với trường hợp thứ hai, những startup không phải nơi có bàn bóng bàn, thức ăn miễn phí, những bữa tiệc vui vẻ, hay là một con đường tắt để giàu có. Một mô tả thực tế là startup cần từ 4 đến 5 năm làm việc cật lực với mức lương thấp và nguy cơ cạn tiền thường trực. Đấy là đang nói nếu mọi chuyện suôn sẻ.
+
+Thu thập các dữ liệu cần thiết
+
+Bạn sẽ gặp hai tình huống phải nhờ đến trực giác của mình. Thứ nhất, học vấn và lý lịch của ứng viên không phù hợp lắm, và những người khác trong nhóm tuyển dụng sẽ nói không nên tuyển anh ta.
+
+Lý tính của bạn nói “Không, anh chàng này không có kinh nghiệm phù hợp”, nhưng trực giác lại bảo, “Hãy vồ lấy anh ta ngay”.
+
+Ở tình huống thứ hai, học vấn và lý lịch đều hoàn hảo, và tất cả mọi người thúc giục bạn tuyển cô ấy. Lý tính nói “Tuyển ngay”, nhưng trực giác lại bảo, “Bỏ qua đi”.
+
+“Bạn nên sử dụng việc kiểm tra này như một cách để xác định liệu ứng viên có phù hợp không, chứ không phải để củng cố cho quyết định bạn đã đưa ra.”
+
+Theo lẽ thường, bạn nên tin trực giác trong những tình huống như thế này. Không may là đôi khi trực giác cũng sai. Có lẽ bạn thích ứng viên đấy vì cô ta xinh xắn, vì đã học cùng trường với bạn, hay vì có cùng sở thích chơi hockey, vậy nên bạn thoải mái hơn khi phỏng vấn cũng như khi kiểm tra từ những người giới thiệu.
+
+Hoặc có lẽ bạn quá tin vào trực giác của mình vì bạn chỉ nhớ đến những lúc trực giác đúng và quên mất là nó cũng đã sai. Thế nên sau đây là một quy trình giúp bạn đưa ra những quyết định đúng đắn:
+
+• CẤU TRÚC HÓA CÁC CUỘC PHỎNG VẤN: Bạn và người của bạn nên xác định trước thái độ, kiến thức, tính cách và kinh nghiệm cần thiết cho vị trí cần tuyển trước khi thực hiện các cuộc phỏng vấn. Đừng để người của bạn tiến hành những cuộc phỏng vấn chưa được chuẩn bị vì có thể họ nghĩ mình giỏi đánh giá người khác.
+
+• HỎI VỀ NHỮNG YÊU CẦU CỤ THỂ CỦA CÔNG VIỆC: Sự thành thạo với công việc cũng quan trọng như ngoại hình và kiến thức. Hãy bắt đầu bằng việc xác định xem liệu ứng viên có thể làm tốt công việc trước khi tỏ ra thích cô ta. Ví dụ như, với vị trí phó chủ tịch phụ trách marketing thì các câu hỏi tốt sẽ là:
+
+– Bạn đã tiến hành giới thiệu sản phẩm như thế nào?
+
+– Bạn đã xác định những đặc tính của một sản phẩm mới như thế nào?
+
+– Bạn đã thuyết phục bộ phận kỹ thuật về những đặc tính ấy như thế nào?
+
+– Bạn đã chọn công ty PR như thế nào?
+
+– Bạn đã chọn công ty quảng cáo như thế nào?
+
+– Bạn đã xử lý một khủng hoảng khi có một sản phẩm lỗi như thế nào?
+
+• TUÂN THEO KỊCH BẢN: Hãy giảm thiểu những câu hỏi ngẫu hứng. Bạn cần có một mẫu chung cho các ứng viên trả lời cùng một bộ câu hỏi để có thể so sánh một cách chính xác.
+
+• PHỎNG VẤN SƠ BỘ QUA ĐIỆN THOẠI: Một cách khác để tạo sân chơi công bằng cho các ứng viên là phỏng vấn sơ bộ qua điện thoại. Điều này sẽ giảm thiểu tác động của những yếu tố như ngoại hình, trang phục hay màu da.
+
+• ĐỪNG HỎI DỄ QUÁ MỨC: Một ứng viên chỉ cần tương đối thông minh là có thể vượt qua những câu hỏi kiểu như “Tại sao bạn muốn làm cho startup này?”. Những câu hỏi sắc sảo hơn sẽ tốt hơn: “Những thành quả đáng tự hào nhất của bạn là gì?”, “Những thất bại nặng nề nhất của bạn là gì?”, “Kinh nghiệm đáng giá nhất bạn đã học được là gì?”. Nhắc lại một lần nữa là bạn hãy lo lắng về năng lực trước những điều khác.
+
+• LUÔN NHỚ LÀ ĐANG TUYỂN NGƯỜI CHO CÔNG VIỆC: Hãy đề phòng những cảm giác tích cực sai lầm: tuyển một người dễ gần nhưng không có năng lực. Và hãy cẩn trọng với cảm giác tiêu cực sai lầm: loại bỏ ứng viên khó gần nhưng có năng lực.
+
+• GHI CHÉP: Hãy ghi lại các câu trả lời để nhớ những gì mỗi ứng viên đã nói. Đừng ỷ y vào trí nhớ của mình, vì thời gian, cùng với sự chủ quan, sẽ làm cho việc đánh giá các ứng viên một cách chính xác và công bằng trở nên khó khăn.
+
+• KIỂM TRA QUA NGƯỜI GIỚI THIỆU TRƯỚC KHI TUYỂN DỤNG: Nhiều công ty thực hiện việc kiểm tra qua người giới thiệu sau khi đã tuyển dụng. Đây là một động thái để “hiện thực hóa lời tiên tri” vì đến lúc đó bạn sẽ chỉ muốn nghe những nhận xét để củng cố cho quyết định của mình. Thật là một sai lầm to lớn. Bạn nên sử dụng việc kiểm tra này như một cách để xác định liệu ứng viên có phù hợp không, chứ không phải để củng cố cho quyết định bạn đã đưa ra. (Có một số gợi ý cho việc kiểm tra qua người giới thiệu ở cuối chương này.)
+
+• SỬ DỤNG TRANG LINKEDIN: Các ứng viên có thể sẽ chỉ nói tên của những người giới thiệu mà họ sẽ nói những điều có lợi cho ứng viên. (Mặc dù bạn có thể sẽ ngạc nhiên), nhưng bạn có thể sử dụng trang LinkedIn để tìm những người đã cùng làm với các ứng viên và tham khảo họ. Điều này cho bạn một cái nhìn tổng quát về ứng viên.
+
+Điều tuyệt diệu của quy trình này là tính chuẩn hóa và vững chắc của nó sẽ giúp bạn có được thông tin tốt hơn, và điều này cũng giúp cải thiện trực giác của bạn. Bây giờ bạn có thể nghe theo trực giác của mình. Nghe theo trực giác đã giúp tôi rất nhiều (may mắn là trí nhớ của tôi có tính lựa chọn), và tôi sẽ là một kẻ đạo đức giả khi khuyên bạn chỉ dựa trên dữ liệu, vì Apple đã tuyển tôi – một kẻ đang lê lết trong một công ty trang sức với tấm bằng về tâm lý học – để quảng bá sản phẩm quan trọng nhất trong lịch sử của họ.
+
+(Những độc giả đầu tiên của cuốn sách này đã yêu cầu tôi cung cấp những thông tin về việc Apple tuyển dụng tôi. Nếu bạn muốn biết, thì toàn bộ câu chuyện là thế này, Apple tuyển tôi vì bạn cùng phòng của tôi ở đại học, Mike Boich, là người đưa ra quyết định. Trên lý thuyết, chẳng có lý do nào để Apple tuyển tôi làm người thứ hai quảng bá phần mềm của họ. Khi Steve Jobs phỏng vấn tôi lần đầu tiên, ông nói với Mike, “Tôi thích anh ấy, nhưng anh ấy không có kinh nghiệm phù hợp, vì vậy tôi sẽ nói không trừ khi anh muốn đặt cược công việc của mình vào chuyện này”.)
+
+Sử dụng tất cả công cụ của bạn
+
+Trong bất kỳ thời điểm nào, việc tuyển được những nhân sự hạng A+ luôn rất khó khăn vì vậy hãy sử dụng tất cả những công cụ mà bạn có. Phần lớn các doanh nhân nghĩ rằng vũ khí tuyển dụng của họ là lương, quyền mua cổ phần ưu tiên, và các phúc lợi, nhưng thực ra bạn có nhiều hơn những thứ như vậy:
+
+• TẦM NHÌN CỦA BẠN: Đối với nhiều người tiền bạc không phải là động lực quan trọng nhất. Họ sẽ nỗ lực để tạo ra điều gì đó có ý nghĩa và thay đổi thế giới hơn là để kiếm tiền.
+
+• ĐỘI NGŨ CỦA BẠN: Đừng chỉ giao các cuộc phỏng vấn cho những người quản lý trực tiếp các ứng viên sau này. Nếu bạn có những giám đốc, nhà tư vấn và các nhà đầu tư có kinh nghiệm tuyển dụng, hãy bổ sung họ vào đội ngũ phỏng vấn viên.
+
+• GIÚP NHÂN VIÊN VIẾT MỘT HỒ SƠ XIN VIỆC TỐT: Có một thực tế thế này: Rất ít người làm việc suốt đời cho một công ty. Vì vậy sẽ không có vấn đề gì nếu bạn giúp những người có nhiều cống hiến xây dựng một hồ sơ xin việc có giá trị khi đang làm cho bạn. Và bạn sẽ thấy có thể họ sẽ gắn bó với công ty lâu hơn bạn mong đợi.
+
+Tác động lên những người xung quanh ứng viên
+
+Quyết định làm việc cho một startup hiếm khi là một việc làm tự thân. Trong khi những nhà tuyển dụng sáng suốt hơn đôi chút có quan tâm đến người bạn đời của ứng viên thì quá trình đưa ra quyết định thường gắn liền với một mạng lưới phức tạp các mối quan hệ.
+
+Những người thường có ảnh hưởng lên họ là cha mẹ, bạn bè, và các đồng nghiệp. Dễ để hình dung một thanh niên sẽ hỏi bố mẹ liệu có nên làm việc cho một startup không. Và họ sẽ nói “Không. Nó quá chông chênh. Hãy làm cho một công ty tốt, an toàn, và sẽ tồn tại dài lâu – như Lehman Brothers, Arthur Andersen, hay Enron”.
+
+Vì vậy, hãy hỏi ứng viên về những người như trên, rồi xử lý những nỗi lo tiềm tàng của họ. Tuy nhiên, cần biết rằng một số ứng viên lại hiểu điều này như một câu hỏi dối lừa – nếu thừa nhận bố mẹ là những người có tác động lên mình, họ sẽ nghĩ rằng mình là một kẻ yếu đuối và sẽ không tuyển mình – vì vậy hãy cố hết sức để đảm bảo với họ đây chỉ là một cách để tăng khả năng tuyển dụng thành công những người như họ.
+
+Đừng vội đưa ra lời mời làm việc
+
+Nhiều startup mắc sai lầm khi gửi lời mời làm việc quá sớm trong quy trình tuyển dụng. Họ sử dụng nó như một người làm chứng, đưa ra các chi tiết về lương và đãi ngộ, để cho thấy họ quan tâm đến ứng viên như thế nào và muốn có được quyết định cuối cùng. Đây là một sai lầm.
+
+Một thư mời làm việc nên xuất hiện ở cuối của quy trình tuyển dụng. Nó không phải là một công cụ thương thảo để làm cho ứng viên gật đầu đồng ý, mà là một cách để đưa ra lời khẳng định trên giấy trắng mực đen khi ứng viên đã đồng ý. Hãy xem một lời mời làm việc như lời cầu hôn mà bạn sẽ đưa ra: Hãy làm điều đó khi bạn biết rằng câu trả lời là có, chứ không phải để cho thấy rằng bạn nghiêm túc quan tâm.
+
+Hiểu rõ những lời nói dối
+
+Khi làm việc cho Garage, Amy Vernetti – hiện là đối tác tại quỹ True Capital, đã đưa ra một danh sách 10 lời nói dối của các ứng viên. Hãy nghiên cứu chúng. Chúng sẽ giúp bạn tránh được việc đưa ra những quyết định tuyển dụng sai lầm. Đây thực sự là danh sách của những lời nói dối, vì vậy nếu ứng viên của bạn nói với bạn những lời nói dối khác, ít nhất thì anh ấy cũng rất sáng tạo.
+
+Áp dụng bài kiểm tra siêu thị
+
+Có một cách nữa để kiểm tra các ứng viên, bài kiểm tra siêu thị. Nguồn gốc của bài kiểm tra này là khi đang ở tại một trung tâm mua sắm, tôi bắt gặp một nhà phát triển phần mềm cho máy tính Macintosh, nhưng anh ta không thấy tôi. Tôi vội quay đi để tránh phải nói chuyện với anh ta vì anh ta là một nỗi thất vọng. Trải nghiệm này làm cho tôi nảy sinh ra bài kiểm tra siêu thị.
+
+“Cuộc đời quá ngắn để phải làm việc với người mà bạn không thích – đặc biệt là trong một startup.”
+
+Bài kiểm tra này là thế này. Giả sử bạn đang ở tại một siêu thị. Bạn thấy một ứng viên trước khi anh ta thấy bạn. Và lúc đó bạn có thể làm một trong ba điều sau:
+
+1. Lao đến và chào anh ấy.
+
+2. Nghĩ rằng nếu gặp mặt cũng được. Không cũng chẳng sao.
+
+3. Vào xe và đi đến trung tâm mua sắm khác.
+
+Dù cho trực giác của bạn và việc kiểm tra lại trực giác của bạn nói gì, tôi khuyên bạn chỉ tìm những người mà bạn muốn đến bắt chuyện. Nếu bạn thấy mình sẽ chọn câu số 2 hoặc 3, đừng tuyển anh ta. Cuộc đời quá ngắn để phải làm việc với người mà bạn không thích – đặc biệt là trong một startup.
+
+(Cũng phải nói thêm rằng, nếu bạn chọn số 2 hoặc số 3 đối với một người đang làm cho startup của bạn, bạn hãy cải thiện tình hình hoặc sa thải người đó.)
+
+Định rõ quy trình thử việc
+
+Mặc cho những nỗ lực của bạn, quá trình tuyển dụng (hay trực giác) của bạn đôi khi cũng sai lầm và nhân viên mới không đạt được những gì bạn mong đợi. Đối với tôi, một trong những điều khó khăn nhất là khi phát hiện sai lầm này và sửa chữa nó.
+
+Tuy nhiên, nếu có một thứ còn khó hơn việc đuổi ai đó mà bạn không muốn thì đó là việc phải sa thải người mà bạn thực sự cần. Nếu bạn không tiến hành việc sửa chữa hay sa thải những người tệ hại, bạn đang làm tăng nguy cơ mất những người được việc vì công ty của bạn sẽ gặp khó khăn.
+
+Để làm cho điều này được dễ dàng hơn cho cả công ty và nhân viên (vì việc nhân viên rời khỏi những công ty không phù hợp với họ cũng là điều hợp lý), bạn nên thiết lập một quy trình thử việc với những mục tiêu hợp lý. Các mục tiêu càng rõ ràng càng tốt. Ví dụ như mục tiêu cho một nhân viên bán hàng có thể gồm:
+
+• Hoàn thành việc huấn luyện về sản phẩm.
+
+• Hoàn thành việc huấn luyện kỹ năng bán hàng.
+
+• Thực hiện 5 cuộc gọi bán hàng.
+
+Thời gian thử việc cần dài hơn dư âm phấn khích từ cuộc tuyển dụng nhưng cũng ngắn hơn quãng thời gian khiến cho cảm giác thường trực của bạn trở thành câu hỏi “Tại sao chúng ta lại tuyển người này?”.
+
+Nói ngắn gọn là 90 ngày.
+
+Sau 90 ngày, hãy đưa ra một kết luận gồm những nhận định của cả hai phía để bàn thảo về những điều ổn thỏa và những gì còn vướng mắc và làm thế nào để cải thiện tình hình. Sẽ có vài vấn đề là do lỗi của bạn!
+
+Đừng nghĩ rằng việc đã xong
+
+Vào năm 2000, Garage có tuyển một nhân viên ngân hàng đầu tư nổi tiếng từ một công ty lớn. Mất rất nhiều thời gian để thuyết phục và hai lần thương thảo vì sếp cũ của ông muốn tăng lương thưởng để giữ ông ta lại. Cuối cùng chúng tôi cũng tuyển được. Ông ta và gia đình đã tham gia bữa tiệc BBQ với chúng tôi. Mọi chuyện thật tuyệt. Vài tuần sau đó ông ấy bắt đầu làm việc. Ông ấy làm vài ngày nhưng rồi cáo ốm. Vào một đêm khuya tôi nhận được email từ ông ấy nói rằng ông ấy sẽ từ chức.
+
+Ông ấy đòi ra đi để làm việc cho một khách hàng cũ của ngân hàng. Vài tháng sau đó ông ta quay lại với sếp cũ của mình. Bài học cho tôi là không bao giờ được nghĩ rằng việc đã xong. Việc tuyển dụng không dừng lại cho đến khi ứng viên chấp nhận lời mời của bạn, hoặc khi anh ta rời khỏi công ty cũ, hoặc vào ngày cuối cùng của anh ta tại công việc cũ – và thậm chí ngay cả khi anh ta bắt đầu làm việc cho bạn. Việc tuyển dụng không bao giờ ngừng lại. Mỗi ngày là một hợp đồng mới giữa các startup và nhân viên của họ.
+
+Phụ trương
+
+Tiểu chương: Nghệ thuật kiểm tra qua người giới thiệu
+
+Bạn không thể tạo dựng được danh tiếng nhờ vào những gì bạn sắp làm.
+
+– Henry Ford
+
+Việc kiểm tra qua người giới thiệu là một phần quan trọng để tuyển được một đội ngũ xuất sắc. Tuy nhiên phần lớn các startup làm điều này một cách máy móc và đơn giản – chỉ sau khi họ đã đưa ra quyết định tuyển dụng. Cũng nhờ vào Amy Vernetti chúng ta sẽ có một hướng dẫn ngắn về cách kiểm tra qua người giới thiệu để giúp cải thiện các kết quả của bạn.
+
+Mục tiêu của việc kiểm tra này không phải là đánh trượt ứng viên mà là tìm sự nhất quán giữa những gì ứng viên tự thể hiện với những gì người giới thiệu anh ta đưa ra. Tuy nhiên bạn cũng đừng tìm kiếm những chỉ dấu về việc liệu ứng viên có thể làm việc hiệu quả tại công ty của bạn hay không.
+
+Để có được một bức tranh toàn cảnh về ứng viên, bạn nên nói chuyện với ít nhất hai cấp dưới, hai người bạn, hai cấp trên, và hai khách hàng của anh ta. Các nhà đầu tư và các thành viên của ban giám đốc tại công ty hiện tại của ứng viên cũng là những nguồn tham khảo hữu ích. Sau đây là những câu hỏi được đề xuất:
+
+• Bạn biết gì người này? Bạn đã biết anh ta bao lâu?
+
+• Ấn tượng nổi trội của bạn với anh ta là gì?
+
+• Bạn đánh giá anh ta như thế nào khi ở cùng một vị trí của người khác?
+
+• Anh ta đã có những đóng góp gì cho công ty?
+
+• Mọi người trong công ty đánh giá anh ta như thế nào?
+
+• Những kỹ năng nổi trội của anh ta là gì? Anh ta giỏi nhất và kém nhất về điều gì?
+
+• Phong cách giao tiếp và quản lý của anh ta như thế nào?
+
+• Anh ta cần cải thiện trong lĩnh vực nào?
+
+• Liệu anh ta có thể hoạt động hiệu quả trong một công ty nhỏ?
+
+• Bạn đánh giá thế nào về đạo đức nghề nghiệp của anh ta?
+
+• Bạn có tuyển/ làm việc cho/ làm việc với anh ta lần nữa không?
+
+• Tôi nên nói chuyện với ai khác về anh ta?
+
+Ngoài những gợi ý của Amy, bạn nên có những nguồn tham khảo từ những người mà ứng viên không nêu tên. LinkedIn là một công cụ tuyệt vời để thực hiện việc này. Hãy tìm ai đó biết người nào khác tại công ty của ứng viên để tìm hiểu về anh ta.
+
+FAQ
+
+Câu hỏi: Tôi có nên trung thực về những điểm yếu cũng như những điểm mạnh của startup chúng tôi không?
+
+Câu trả lời: Hãy cho tôi nói thẳng: Bạn đang lo lắng liệu có nên nói dối các ứng viên không trong khi biết rõ nếu họ nhận công việc thì trước sau họ cũng phát hiện ra công ty bạn đã lừa họ.
+
+Hãy luôn nói thật. Đừng để họ kỳ vọng quá cao. Bạn sẽ gặp ba kiểu phản ứng trước sự trung thực của bạn như sau:
+
+Một số ứng viên chỉ cần một đánh giá trung thực về tất cả các vấn đề. Cơ hội là ở chỗ họ chỉ muốn biết rõ con tàu họ sắp lên và bạn đừng sợ họ sẽ chạy mất.
+
+Những ứng viên khác muốn đối đầu với thử thách. Với họ khó khăn là cơ hội. Bạn nên nói thế này, “Những người như anh sẽ giúp chúng tôi thành công. Anh có muốn làm người hùng của chúng tôi không?”.
+
+Bạn sẽ làm loại ứng viên thứ ba e sợ, kiểu người này không phù hợp cho một startup, vì vậy bạn đã làm một điều tốt cho chính mình.
+
+Câu hỏi: Trong mắt mọi người, việc chúng tôi chỉ có vài nhân viên có quá tệ không? Có nên có 6 nhân viên bán thời gian hơn là 3 nhân viên toàn thời gian, vì những con số đẹp?
+
+Câu trả lời: Có 6 nhân viên bán thời gian để làm cho công ty trông có vẻ lớn hơn là một điều thật ngớ ngẩn. Nếu bạn làm điều này vì những lý do khác – như đưa ra giờ làm việc linh hoạt để có được những người giỏi hơn – thì ổn, chứ không phải vì một lý do ngốc nghếch như trên.
+
+Câu hỏi: Thời điểm để tuyển dụng những nhân sự CXO (Chief Experience Officer – các nhà quản lý) nên là trước hay sau khi nhận vốn đầu tư?
+
+Câu trả lời: Nhiều người nghĩ rằng quá trình khởi nghiệp là một chuỗi các hành động theo thứ tự: Hãy nhớ rằng: Việc kinh doanh là một quá trình song song. Bạn làm điều A, điều B, và C cùng một lúc. Câu trả lời cho câu hỏi này là bạn có thể tuyển trước, trong hay sau quá trình huy động vốn.
+
+Tuy nhiên đừng mắc phải cái bẫy “thỏa mãn” một nhà đầu tư khi ông ta nói sẽ bỏ vốn vào nếu công ty của bạn có một CXO tầm thế giới. Bạn đồng ý, tuyển dụng, rồi quay lại với nhà đầu tư. Rồi ông ta lại đưa ra một thử thách khác: “Anh đã làm tốt đấy. Bây giờ hãy cho chúng tôi thấy rằng khách hàng đang chi trả cho các sản phẩm của anh”. Bài học ở đây là: Đừng bao giờ tìm người để làm cho một nhà đầu tư hài lòng. Hãy tìm người để tạo dựng một startup tầm cỡ.
+
+Câu hỏi: Tôi có nên chi tiền cho các công ty tuyển dụng hay tự mình thu hút những nhân tài hàng đầu?
+
+Câu trả lời: Trước khi huy động được vốn, nhiệm vụ của bạn là dựa vào các mối quan hệ để tìm được người phù hợp mà không phải trả phí. Sau khi huy động được vốn, hãy làm những gì bạn phải làm – bao gồm cả việc tìm kiếm nhân sự dựa vào các công ty tuyển dụng. Nhưng trước khi có vốn, đừng trả tiền cho những công ty săn đầu người để tìm kiếm bất kỳ nhân viên nào, vì bạn không có đủ tiền để làm vậy.
+
+Câu hỏi: Nếu bị yêu cầu, tôi có nên đưa ra thang bậc lương ngay từ đầu quá trình tuyển dụng?
+
+Câu trả lời: Không. Nếu bạn được hỏi vậy, hãy nói rằng “Chúng tôi sẽ trả bất cứ giá nào để có được một nhân sự xuất sắc”. Rồi hỏi lại, “Mức lương hiện tại của bạn là bao nhiêu để chúng tôi có một căn cứ?”. Điều này sẽ dạy cho họ bài học về việc đưa ra những câu hỏi khó.
+
+Thời điểm bắt đầu quá trình phỏng vấn là quá sớm để đề cập đến các con số. Các ứng viên sẽ nhớ những gì bạn nói với họ – đặc biệt là những mức cao nhất trong bảng lương. Và bất kỳ còn số nào bạn đưa ra cũng sẽ tác động lên các câu trả lời của các ứng viên trong các cuộc phỏng vấn.
+
+Câu hỏi: Nếu mục đích của tôi là tuyển được những người giỏi hơn bản thân mình, làm thế nào tôi có thể kiểm soát được sự mạo hiểm này và tránh bị “đá” khỏi công ty của chính tôi?
+
+Câu trả lời: Câu hỏi này cho biết nhiều về bản thân bạn hơn bạn nghĩ. Mục tiêu của bạn không nên là duy trì sự kiểm soát hay tránh bị loại khỏi cuộc chơi. Mục tiêu của bạn nên là xây dựng một startup tầm cỡ. Sẽ đến lúc bạn nên tránh sang một bên. Hãy chấp nhận điều này. Bạn có muốn có một công ty thất bại mà bạn nắm quyền kiểm soát cho đến phút chót không?
+
+Câu hỏi: Tôi đang làm việc với người bạn thân nhất. Vậy tôi có cần một thỏa thuận pháp lý không?
+
+Câu trả lời: Có, chắc chắn là vậy, mà thậm chí cần nhiều hơn vì đó là người bạn thân nhất của bạn. Thời gian thay đổi, con người thay đổi, và công ty cũng thay đổi. Dù có khó và không tế nhị cỡ nào, bạn cũng phải làm điều này. Một thỏa thuận pháp lý như vậy sẽ trở thành điều tốt nhất không chỉ cho tình bạn mà còn cho startup của các bạn.
+
+Bạn nên làm việc này ngay từ đầu, trước khi mọi chuyện trở nên khó khăn hơn. Bạn càng đợi lâu sẽ càng khó đạt được một thỏa thuận pháp lý. Khó khăn sẽ chồng chất vào thời điểm bạn cần thỏa thuận này nhất.
+
+Câu hỏi: Mức đãi ngộ hợp lý cho một thành viên của ban giám đốc là bao nhiêu?
+
+Câu trả lời: Thường là từ 0,25 tới 0,5% cổ phần của công ty, nhưng với một nhân sự cực xuất sắc, tôi sẽ trả đến mức 1% của công ty. Nếu cần nhiều hơn để có được ứng viên, hãy bỏ qua. Người này quan tâm nhiều đến tiền bạc hơn là tạo ra điều gì đấy có ý nghĩa.
+
+Câu hỏi: Ông làm gì khi ông phải sa thải chính người đã tạo dựng công ty, tuyển dụng ông, tin tưởng ông và bây giờ ông ở vị trí cao hơn người ấy?
+
+Câu trả lời: Bạn hãy gặp người ấy và có một cuộc nói chuyện riêng tư để giải thích tình hình. Bạn hãy đề xuất một vài lựa chọn về việc đảm nhận một vai trò nhỏ hơn, nhưng phải xác định rõ động thái này là cần thiết.
+
+Một vai trò nhỏ hơn có nghĩa là chấp nhận một vị trí khác hoặc chỉ nằm trong Ban giám đốc hoặc Ban cố vấn. Hãy cố gắng bảo vệ danh tính của người ấy. Trong phần lớn trường hợp, sẽ có một cơn thịnh nộ. Hãy lường trước điều này. Nó sẽ mất nhiều năm để hàn gắn mối quan hệ giữa hai người, nhưng đó là việc phải làm.
+
+Tìm đọc
+
+Lewis, Michael. Moneyball: The Art of Winning an Unfair Game – Bóng-tiền: Nghệ thuật để chiến thắng trong một trận đấu không công bằng. Waterville, ME: Thorndike Press, 2003.
+
+Myers, David G. Intuition: Its Powers and Perils – Trực giác: Những sức mạnh và hiểm nguy. New Haven, CT: Yale University Press, 2002.

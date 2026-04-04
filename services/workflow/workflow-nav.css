@@ -1,0 +1,70 @@
+:root{
+  --wf-nav-line:rgba(19,38,60,.10);
+  --wf-nav-bg:rgba(255,255,255,.82);
+  --wf-nav-text:#4f5d6c;
+  --wf-nav-active:#17324d;
+}
+.workflow-tabbar{
+  position:sticky;
+  top:92px;
+  z-index:30;
+  margin-bottom:20px;
+}
+.workflow-tabbar-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  padding:14px 18px;
+  border-radius:22px;
+  background:var(--wf-nav-bg);
+  backdrop-filter:blur(18px);
+  border:1px solid var(--wf-nav-line);
+  box-shadow:0 18px 50px rgba(17,30,45,.08);
+}
+.workflow-tabbar-label{
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:#1f7aec;
+  white-space:nowrap;
+}
+.workflow-tabbar-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.workflow-tabbar-links a{
+  text-decoration:none;
+  padding:10px 14px;
+  border-radius:999px;
+  border:1px solid var(--wf-nav-line);
+  color:var(--wf-nav-text);
+  background:#fff;
+  font-weight:700;
+  line-height:1.2;
+}
+.workflow-tabbar-links a.is-active{
+  color:var(--wf-nav-active);
+  background:rgba(31,122,236,.08);
+  border-color:rgba(31,122,236,.22);
+}
+.workflow-tabbar-select{
+  display:none;
+  width:100%;
+  min-height:46px;
+  border-radius:14px;
+  border:1px solid var(--wf-nav-line);
+  background:#fff;
+  padding:0 14px;
+  font:inherit;
+  color:var(--wf-nav-active);
+}
+@media (max-width:840px){
+  .workflow-tabbar{top:84px;}
+  .workflow-tabbar-inner{display:block;padding:14px;}
+  .workflow-tabbar-label{display:block;margin-bottom:10px;}
+  .workflow-tabbar-links{display:none;}
+  .workflow-tabbar-select{display:block;}
+}

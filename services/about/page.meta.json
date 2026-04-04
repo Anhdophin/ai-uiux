@@ -1,0 +1,7 @@
+{
+  "title": "About",
+  "nav_label": "About",
+  "show_in_nav": true,
+  "nav_order": 10,
+  "section": "about"
+}

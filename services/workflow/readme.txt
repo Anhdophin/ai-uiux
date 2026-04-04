@@ -1,0 +1,1 @@
+Trang này đã được chuyển thành trang workflow mô tả cách làm việc với dự án thiết kế mini app. Giữ nguyên folder booking để tránh vỡ link cũ trên site.

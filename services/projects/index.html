@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="../shared/catalog.css" />
+  <link rel="stylesheet" href="../shared/subpage-components.css" />
+</head>
+<body class="catalog-page" data-catalog-json="../data/projects.json">
+
+  <div id="subpage-header"></div>
+
+  <main class="catalog-main shell">
+    <section class="catalog-hero">
+      <div>
+        <span class="catalog-label" id="catalogLabel"></span>
+        <h1 class="catalog-title" id="catalogTitle"></h1>
+        <p class="catalog-subtitle" id="catalogSubtitle"></p>
+        <div class="catalog-actions" style="margin-top:20px">
+          <a class="site-link-btn" href="../index.html">Home</a>
+      </div>
+      <div class="catalog-stat-stack" id="catalogStats"></div>
+    </section>
+    <section class="catalog-grid-wrap">
+      <div class="catalog-grid-head"><div><h2 id="catalogSectionTitle"></h2><p id="catalogSectionBody"></p></div></div>
+      <div class="catalog-grid" id="catalogGrid"></div>
+    </section>
+  </main>
+  <div id="subpage-footer"></div> 
+   <script src="../shared/subpage-components.js"></script>
+  <script src="../shared/catalog.js"></script>
+</body>
+</html>

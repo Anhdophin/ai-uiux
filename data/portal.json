@@ -1,0 +1,7 @@
+{
+  "brand": "iAppLab",
+  "tagline": "Chuyên trang các ứng dụng hữu ích cho doanh nghiệp và cá nhân.",
+  "service_route": "services/",
+  "shop_route": "shop/",
+  "about_route": "services/about/"
+}

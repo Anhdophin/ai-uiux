@@ -1,0 +1,685 @@
+<!doctype html>
+<!-- AI EDIT NOTE: Trước khi sửa file này, đọc AGENTS.md + .cursorrules + AI-EDIT-PRECHECK.md ở root project. -->
+<!-- CLONE NOTE: Khi clone nhóm/sản phẩm, kiểm tra slug, title, href, page.meta.json, media/, và chạy lại python shop/scan_shop.py -->
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Lab - Anhdophin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../shared/subpage-components.css" />
+    <link rel="stylesheet" href="./shop-shared/catalog.css" />
+    <style>
+      :root {
+        --shop-bg: #eef1f5;
+        --shop-card: #ffffff;
+        --shop-ink: #111315;
+        --shop-muted: #6d747c;
+        --shop-line: #d9dee6;
+        --shop-dark: #0d1117;
+        --shop-radius: 28px;
+        --shop-shadow: 0 28px 80px rgba(16, 23, 34, 0.09);
+        --shop-shell: 1360px;
+        --shop-soft: #f7f8fa;
+        --shop-accent: #7cb6de;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family:
+          "Inter",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        background: linear-gradient(180deg, #f3f5f8 0%, #e8ecf2 100%);
+        color: var(--shop-ink);
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+      .shop-shell {
+        width: min(calc(100% - 28px), var(--shop-shell));
+        margin: 0 auto;
+      }
+      .shop-main {
+        padding: 18px 0 52px;
+      }
+      .shop-board {
+        background: rgba(255, 255, 255, 0.76);
+        border: 1px solid rgba(255, 255, 255, 0.78);
+        border-radius: 40px;
+        box-shadow: var(--shop-shadow);
+        backdrop-filter: blur(16px);
+        overflow: hidden;
+        padding: 18px;
+      }
+      .shop-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.9fr) minmax(280px, 0.95fr);
+        gap: 18px;
+        align-items: start;
+      }
+      .left-stack,
+      .right-stack {
+        display: grid;
+        gap: 18px;
+      }
+      .shop-card {
+        background: var(--shop-card);
+        border: 1px solid var(--shop-line);
+        border-radius: 30px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 10px 30px rgba(16, 23, 34, 0.04);
+      }
+      .shop-card.pad {
+        padding: 22px;
+      }
+      .tag-row {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+      .subtle {
+        font-size: 12px;
+        color: var(--shop-muted);
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        font-weight: 700;
+      }
+      .hero-card {
+        min-height: 640px;
+        background: linear-gradient(
+          135deg,
+          #b7d4e5 0%,
+          #b4c7d2 24%,
+          #f0f0eb 56%,
+          #e7ddd0 100%
+        );
+      }
+      .hero-card::after {
+        content: "";
+        position: absolute;
+        inset: auto -8% -10% auto;
+        width: 48%;
+        height: 62%;
+        background: radial-gradient(
+          circle at 40% 30%,
+          rgba(255, 255, 255, 0.7),
+          transparent 60%
+        );
+        pointer-events: none;
+      }
+      .hero-inner {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1.05fr 0.95fr;
+        min-height: 640px;
+      }
+      .hero-copy {
+        padding: 26px 24px 24px 26px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        z-index: 2;
+      }
+      .hero-kicker {
+        font-size: 14px;
+        line-height: 1.45;
+        max-width: 260px;
+        color: rgba(17, 19, 21, 0.72);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-weight: 600;
+      }
+      .hero-title {
+        margin: 18px 0 10px;
+        font-size: clamp(58px, 7.4vw, 112px);
+        line-height: 0.9;
+        letter-spacing: -0.08em;
+        font-weight: 900;
+        text-transform: uppercase;
+        max-width: 640px;
+      }
+      .hero-actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 18px;
+      }
+      .shop-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        min-height: 42px;
+        padding: 0 16px;
+        border-radius: 999px;
+        border: 1px solid rgba(17, 19, 21, 0.16);
+        font-size: 12px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        background: #fff;
+        transition: 0.2s ease;
+        cursor: pointer;
+      }
+      .shop-btn:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 8px 18px rgba(17, 19, 21, 0.08);
+      }
+      .shop-btn.dark {
+        background: var(--shop-dark);
+        color: #fff;
+        border-color: var(--shop-dark);
+      }
+      .hero-visual {
+        position: relative;
+        min-height: 640px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        overflow: hidden;
+      }
+      .hero-orb {
+        position: absolute;
+        top: 6%;
+        right: 9%;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        background: radial-gradient(
+          circle at 30% 30%,
+          rgba(255, 255, 255, 0.8),
+          rgba(255, 255, 255, 0) 66%
+        );
+        opacity: 0.85;
+      }
+      .hero-visual img {
+        height: 94%;
+        width: auto;
+        object-fit: contain;
+        filter: drop-shadow(0 24px 44px rgba(17, 19, 21, 0.18));
+        position: relative;
+        z-index: 2;
+      }
+      .hero-overlay-text {
+        position: absolute;
+        left: 24px;
+        bottom: 18px;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: #111;
+      }
+      .mosaic-grid {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        gap: 18px;
+      }
+      .look-card {
+        min-height: 246px;
+        background: linear-gradient(
+          135deg,
+          #d4d7db 0%,
+          #f4f4f4 55%,
+          #cfc8bf 100%
+        );
+      }
+      .look-card .content {
+        position: absolute;
+        inset: 0;
+        padding: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 2;
+      }
+      .look-card img {
+        position: absolute;
+        right: 10px;
+        bottom: 0;
+        height: 88%;
+        width: auto;
+        object-fit: contain;
+        filter: drop-shadow(0 18px 34px rgba(17, 19, 21, 0.15));
+      }
+      .look-title {
+        font-size: 24px;
+        font-weight: 800;
+        letter-spacing: -0.04em;
+        max-width: 220px;
+      }
+      .tiny-meta {
+        font-size: 11px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--shop-muted);
+        font-weight: 700;
+      }
+      .icon-arrow {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid rgba(17, 19, 21, 0.16);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        font-size: 14px;
+      }
+      .small-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+      }
+      .mini-card {
+        min-height: 180px;
+        padding: 16px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .mini-card .media {
+        height: 88px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .mini-card h4 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 800;
+      }
+      .mini-card p {
+        margin: 4px 0 0;
+        font-size: 11px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--shop-muted);
+      }
+      .panel-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+      .panel-title h3 {
+        margin: 0;
+        font-size: 13px;
+        font-weight: 900;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+      .panel-title a {
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--shop-muted);
+      }
+      .category-list,
+      .product-list {
+        display: grid;
+        gap: 12px;
+      }
+      .filter-chips {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 4px;
+        margin-bottom: 18px;
+      }
+      .chip {
+        border: 1px solid rgba(17, 19, 21, 0.12);
+        background: #fff;
+        border-radius: 999px;
+        min-height: 34px;
+        padding: 0 12px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 0.18s ease;
+      }
+      .chip.is-active,
+      .chip:hover {
+        background: var(--shop-dark);
+        color: #fff;
+        border-color: var(--shop-dark);
+      }
+      .banner-card {
+        min-height: 360px;
+        background: linear-gradient(
+          135deg,
+          #a6d3ea 0%,
+          #6ca2bf 42%,
+          #1c3a4a 100%
+        );
+        color: #fff;
+      }
+      .banner-card .content {
+        position: absolute;
+        inset: 0;
+        padding: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 2;
+      }
+      .banner-card::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          0deg,
+          rgba(8, 12, 17, 0.42),
+          rgba(8, 12, 17, 0.06)
+        );
+      }
+      .banner-card img {
+        position: absolute;
+        right: -10px;
+        bottom: 0;
+        height: 96%;
+        width: auto;
+        object-fit: contain;
+        opacity: 0.92;
+        filter: drop-shadow(0 24px 40px rgba(5, 8, 12, 0.35));
+      }
+      .banner-card h2 {
+        margin: 0;
+        font-size: 42px;
+        line-height: 0.92;
+        letter-spacing: -0.06em;
+        text-transform: uppercase;
+        max-width: 220px;
+      }
+      .banner-card p {
+        margin: 10px 0 0;
+        font-size: 13px;
+        line-height: 1.6;
+        max-width: 220px;
+        color: rgba(255, 255, 255, 0.84);
+      }
+      .split-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+      }
+      .feature-card {
+        padding: 22px;
+        min-height: 220px;
+        background: #fff;
+      }
+      .feature-card h3 {
+        margin: 0 0 10px;
+        font-size: 28px;
+        letter-spacing: -0.04em;
+      }
+      .feature-card p {
+        margin: 0;
+        color: var(--shop-muted);
+        line-height: 1.7;
+        font-size: 14px;
+        max-width: 340px;
+      }
+      .feature-card .stack {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 18px;
+      }
+      .promo-box {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 14px;
+        align-items: center;
+        padding: 18px;
+        border-radius: 22px;
+        background: linear-gradient(135deg, #111317, #2a3440);
+        color: #fff;
+      }
+      .promo-box strong {
+        display: block;
+        font-size: 24px;
+        letter-spacing: -0.03em;
+      }
+      .promo-box span {
+        display: block;
+        margin-top: 5px;
+        color: rgba(255, 255, 255, 0.72);
+        font-size: 13px;
+      }
+      @media (max-width: 1180px) {
+        .shop-grid {
+          grid-template-columns: 1fr;
+        }
+        .hero-inner {
+          grid-template-columns: 1fr;
+        }
+        .hero-visual {
+          min-height: 420px;
+        }
+      }
+      @media (max-width: 860px) {
+        .hero-card {
+          min-height: auto;
+        }
+        .hero-title {
+          font-size: clamp(50px, 14vw, 78px);
+        }
+        .mosaic-grid,
+        .split-cards {
+          grid-template-columns: 1fr;
+        }
+        .small-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      @media (max-width: 640px) {
+        .shop-board {
+          padding: 12px;
+          border-radius: 28px;
+        }
+        .shop-card {
+          border-radius: 24px;
+        }
+        .hero-copy {
+          padding: 18px;
+        }
+        .small-grid {
+          grid-template-columns: 1fr;
+        }
+        .banner-card h2 {
+          font-size: 34px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="subpage-header"></div>
+    <main class="shop-main">
+        <!--
+          HƯỚNG DẪN BẢO TRÌ SHOP:
+          - Thêm nhóm mới: tạo folder nhóm mới + page.meta.json + index.html + ảnh nhóm tại shop/media/<slug>.*
+          - Thêm sản phẩm mới: copy 1 folder sản phẩm mẫu vào đúng nhóm, sửa page.meta.json, bỏ ảnh vào media/, rồi chạy python shop/scan_shop.py
+          - KHÔNG sửa tay shop/data/shop-catalog.json vì đây là file output do scanner tạo ra.
+        -->
+      <div class="shop-shell">
+        <section class="shop-board">
+          <div class="shop-grid">
+            <div class="left-stack">
+              <article class="shop-card hero-card">
+                <div class="hero-inner">
+                  <div class="hero-copy">
+                    <div>
+                      <p class="hero-kicker">
+                        Bạn đang ở gian hàng sáng tạo và sản phẩm thú vị.
+                      </p>
+                      <h1 class="hero-title">Shop</h1>
+                      <div class="hero-actions">
+                        <a class="shop-btn dark" href="#featured-products"
+                          >Xem sản phẩm</a
+                        >
+                        <a class="shop-btn" href="./all/">All products</a>
+                      </div>
+                    </div>
+                    <!--<div class="hero-overlay-text">
+                      Folder based · Auto scan · Dynamic catalog
+                    </div>-->
+                  </div>
+                  <div class="hero-visual">
+                    <span class="hero-orb" aria-hidden="true"></span
+                    ><img
+                      src="../assets/portrait-1.png"
+                      alt="Shop hero visual"
+                    />
+                  </div>
+                </div>
+              </article>
+              <div class="mosaic-grid">
+                <!-- phần này dư nên ẩn lại
+              <article class="shop-card look-card"><img src="../assets/portrait-2.png" alt="Curated style block" /><div class="content"><div class="tag-row"><span class="subtle">Auto render</span><span class="icon-arrow">↗</span></div><div><div class="look-title">Danh mục sẽ tự lên</div><div class="tiny-meta">đọc từ folder + page.meta.json</div></div></div></article>-->
+                <!--Phần id homeCategoryCards này hiện tại đang ở trong block có grid, cần chỉnh lại không là grid để sử dụng tối đa width-->
+                <div class="small-grid" id="homeCategoryCards"></div>
+              </div>
+              <div class="split-cards" id="featured-products">
+                <article class="shop-card feature-card">
+                  <span class="subtle">Softcore structure</span>
+                  <h3>Chuẩn hoá shop homepage</h3>
+                  <p>
+                    Trang chủ shop giờ lấy danh mục, sản phẩm mới và trải nghiệm
+                    lọc từ cùng một nguồn dữ liệu. Khi anh thêm folder sản phẩm
+                    mới, homepage và trang all sẽ tự cập nhật sau khi scan.
+                  </p>
+                  <div class="stack">
+                    <span class="chip is-active">Categories</span
+                    ><span class="chip">Latest products</span
+                    ><span class="chip">Experience filters</span>
+                  </div>
+                </article>
+                <article class="shop-card feature-card">
+                  <span class="subtle">Hybrid commerce</span>
+                  <h3>Dùng cho retail, showcase, affiliate</h3>
+                  <p>
+                    Anh có thể dẫn về trang chi tiết nội bộ, trang dịch vụ
+                    ngoài, hoặc gắn affiliate. Cấu trúc dữ liệu vẫn giữ cùng một
+                    logic để dễ nhân bản.
+                  </p>
+                  <div class="promo-box">
+                    <div>
+                      <strong>Ready for clone</strong
+                      ><span>Thêm folder mới, sửa meta, scan lại là xong.</span>
+                    </div>
+                    <a class="shop-btn" href="./all/">Mở all</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <aside class="right-stack">
+              <section class="shop-card pad" id="shop-categories">
+                <div class="panel-title">
+                  <h3>Các nhóm sản phẩm</h3>
+                  <a href="./all/">All</a>
+                </div>
+                <div class="category-list" id="sidebarCategoryList"></div>
+              </section>
+              <section class="shop-card pad">
+                <div class="panel-title">
+                  <h3>Sản phẩm</h3>
+                  <a href="./all/">Xem hết</a>
+                </div>
+                <div class="filter-chips" id="shopFilters"></div>
+                <div id="productTabs"></div>
+              </section>
+              <article class="shop-card banner-card">
+                <img src="../assets/portrait-2.png" alt="Brand showcase" />
+                <div class="content">
+                  <div class="panel-title">
+                    <h3 style="color: #fff">Brand by hand</h3>
+                    <a href="#" style="color: rgba(255, 255, 255, 0.8)"
+                      >Promo</a
+                    >
+                  </div>
+                  <div>
+                    <h2>Dịch vụ của tôi</h2>
+                    <p>
+                      Khối này giữ nguyên tinh thần anh muốn: có thể dẫn sang
+                      trang dịch vụ lớn bên ngoài hệ shop hoặc block affiliate
+                      nổi bật.
+                    </p>
+                    <div class="hero-actions">
+                      <a class="shop-btn" href="../services/">Xem chi tiết</a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </aside>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div id="subpage-footer"></div>
+    <script src="../shared/subpage-components.js"></script>
+    <script src="./shop-shared/catalog.js"></script>
+    <script>
+      (async function () {
+        const catalog = await ShopCatalog.fetchCatalog();
+        const categories = catalog.categories || [];
+        document.getElementById("homeCategoryCards").innerHTML =
+          ShopCatalog.renderCategoryCards(categories.slice(0, 6));
+        document.getElementById("sidebarCategoryList").innerHTML =
+          ShopCatalog.renderSidebarCategories(categories);
+        document.getElementById("shopFilters").innerHTML =
+          ShopCatalog.renderExperienceChips(
+            catalog.experience_tags || [],
+            "all",
+          );
+        const productTabs = document.getElementById("productTabs");
+        productTabs.innerHTML = ShopCatalog.renderProductTabs(
+          catalog.products || [],
+          categories,
+          { includeLatest: true, latestLimit: 10 },
+        );
+        ShopCatalog.bindTabs(productTabs);
+        ShopCatalog.bindFilter(
+          document.getElementById("shopFilters"),
+          productTabs,
+        );
+      })().catch((error) => {
+        console.error(error);
+        document.getElementById("productTabs").innerHTML =
+          '<div class="empty-state">Không tải được catalog.</div>';
+      });
+    </script>
+  </body>
+</html>

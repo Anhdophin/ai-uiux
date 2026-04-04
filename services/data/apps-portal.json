@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-04-03T21:23:52+00:00",
+  "app_count": 3,
+  "apps": [
+    {
+      "slug": "swot",
+      "title": "SWOT Starter",
+      "summary": "Công cụ self-help giúp bạn phân tích bản thân.",
+      "category": "Business Tool",
+      "tags": [
+        "swot",
+        "strategy",
+        "business-maker"
+      ],
+      "entry_rel": "index.html",
+      "route": "/apps/swot/",
+      "icon": "/apps/swot/icon.png",
+      "cover": "/apps/swot/icon.png",
+      "uses_site_shell": true,
+      "has_root_index": true,
+      "order": 1
+    },
+    {
+      "slug": "business-canvas",
+      "title": "Business Model Canvas",
+      "summary": "Công cụ giúp bạn brainstorm mô hình kinh doanh.",
+      "category": "Business Tool",
+      "tags": [
+        "canvas",
+        "strategy",
+        "business-maker"
+      ],
+      "entry_rel": "index.html",
+      "route": "/apps/business-canvas/",
+      "icon": "/apps/business-canvas/icon.png",
+      "cover": "/apps/business-canvas/icon.png",
+      "uses_site_shell": true,
+      "has_root_index": true,
+      "order": 2
+    },
+    {
+      "slug": "ebook_reader",
+      "title": "Anhdophin Ebook Reader",
+      "summary": "PWA ebook reader local cho thư viện metadata + text export từ EPUB",
+      "category": "Reading Tool",
+      "tags": [
+        "ebook",
+        "reader"
+      ],
+      "entry_rel": "index.html",
+      "route": "/apps/ebook_reader/",
+      "icon": "/apps/ebook_reader/icon.png",
+      "cover": "/apps/ebook_reader/icon.png",
+      "uses_site_shell": false,
+      "has_root_index": true,
+      "order": 3
+    }
+  ],
+  "warnings": [
+    "ebook_reader: entry chưa dùng shared header/footer của site."
+  ]
+}

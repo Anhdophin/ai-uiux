@@ -1,0 +1,11 @@
+{
+  "title": "Tên app hiển thị",
+  "summary": "Mô tả ngắn của app",
+  "category": "Prototype",
+  "tags": [
+    "ui",
+    "tool"
+  ],
+  "order": 100,
+  "cover": "/apps/your-app-slug/media/cover.jpg"
+}

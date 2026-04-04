@@ -1,0 +1,73 @@
+PHỤ LỤC C THỰC HÀNH ĐỊNH GIÁ VỚI GIÁM ĐỐC BỘ PHẬN ĐỊNH GIÁ ROBERT SMITH CỦA CÔNG TY HÓA CHẤT EASTMAN
+
+C
+
+ác doanh nghiệp lớn định giá như thế nào? Tôi đã phỏng vấn Robert Smith, Giám đốc Bộ phận định giá của Công ty Hóa chất Eastman, để lắng nghe quan điểm của ông về cách tổ chức bộ phận định giá xoay quanh các câu hỏi: Bộ phận định giá nên giải quyết những thách thức nào? Ai nên tham gia vào quá trình định giá? Và có thể sử dụng các công cụ và kỹ thuật gì để giúp bộ phận định giá hoạt động hiệu quả hơn với hiệu suất cao hơn?
+
+Năm 2013, thu nhập từ hoạt động kinh doanh của Eastman đạt mức đáng nể là 1,59 tỷ đô-la trên doanh thu 9,35 tỷ đô-la. Từ trụ sở chính ở thành phố Kingsport thuộc bang Tennessee, Eastman tỏa chi nhánh sang Bắc Mỹ, châu Âu, châu Á – Thái Bình Dương, châu Mỹ Latin, Trung Đông và châu Phi, trong đó 50% doanh thu của họ đến từ thị trường quốc tế. Eastman có 5 phân khúc kinh doanh phục vụ hơn 11 thị trường khác nhau như vận tải, xây dựng và hàng tiêu dùng. Công ty này cung cấp dải sản phẩm đa dạng, từ các sản phẩm và dịch vụ có tỷ trọng công nghệ và sáng tạo cao cho đến các sản phẩm là hàng hóa thông thường.
+
+Nghĩa là, từ góc nhìn định giá, Eastman là một tập đoàn lớn và phức tạp khi xét từ khía cạnh sản phẩm, phân khúc thị trường, khu vực địa lý cho đến cơ sở khách hàng.
+
+Robert Smith đã kiểm soát thành công thách thức này ở Eastman trên cương vị Giám đốc Bộ phận định giá của tập đoàn kể từ năm 2009; và, cùng với các thành viên trong đội ngũ của mình, ông cũng là khán giả thường xuyên trong các cuộc hội thảo và hội nghị của Hiệp hội Định giá Chuyên nghiệp cũng như các cuộc hội thảo trực tuyến của Wiglaf Pricing.
+
+Dưới đây là nội dung cuộc phỏng vấn với ông (đã được biên tập) vào năm 2014.
+
+Thiết kế tổ chức cho bộ phận định giá
+
+TS: Thưa ông, công việc của bộ phận định giá được tổ chức như thế nào?
+
+RS: Có ba nhóm chuyên gia định giá.
+
+Trước hết, ở Eastman chúng tôi có Hội đồng Định giá do tôi lãnh đạo. Hội đồng này bao gồm thành viên của từng đơn vị kinh doanh và đại diện đến từ các bộ phận chức năng chính hỗ trợ định giá ở Eastman: IT, tài chính, nhân sự chuỗi cung ứng và các bộ phận khác như pháp chế... Hội đồng Định giá có nhiệm vụ thúc đẩy các dự án cải tiến trong công ty, điều phối hoạt động định giá ở các đơn vị kinh doanh, nhưng chủ yếu là thúc đẩy các nỗ lực cải tiến chất lượng định giá, chẳng hạn các dựa án IT lớn như triển khai phần mềm Vendavo ở Eastman.
+
+Nhóm chuyên gia định giá thứ hai ở Eastman là những người mà tôi hay gọi là nhà quản lý định giá hay quản lý sản phẩm. Những người này trực thuộc từng đơn vị kinh doanh khác nhau. Có thể họ là người chịu trách nhiệm chính cho tình hình lỗ lãi của đơn vị mình trong ngắn hạn, thông thường là những người có thẩm quyền ra các quyết định cuối cùng và có thẩm quyền phê duyệt các quyết định về giá. Họ là thành viên trong Ban Quản lý kinh doanh ở các đơn vị P&L đó.
+
+Cuối cùng là Tổ chức Định giá Tập đoàn, gồm khoảng 80 người đến từ khắp nơi trên thế giới [Robert Smith là Giám đốc]. Định giá Tập đoàn là một phân ban trong Eastman, là một phần trong tổ chức marketing. Chúng tôi bố trí các Tổ chức Marketing, Tổ chức Kinh doanh và Tổ chức Định giá với người đứng đầu là một người thuộc cấp quản lý. Như vậy, trong nhóm của chúng tôi có đại diện đến từ các bộ phận marketing, quản lý chất lượng kinh doanh, và định giá.
+
+TS: Vậy xin ông cho biết Định giá tập đoàn đảm nhiệm những chức năng gì?
+
+RS: Các chuyên gia phân tích định giá hỗ trợ các nhà quản lý định giá bằng cách đánh giá tác động và trong một số trường hợp, ra các quyết định về yêu cầu định giá cạnh tranh từ đội ngũ kinh doanh thực địa trình lên.
+
+Bộ phận của tôi phụ trách quản lý các hợp đồng kinh doanh và thỏa thuận hoàn tiền, vì vậy, bất kỳ đơn vị kinh doanh nào có hợp đồng kinh doanh hoặc thỏa thuận hoàn tiền thì chúng tôi đều hỗ trợ xây dựng và quản lý chúng. Các dịch vụ xử lý quy trình định giá, hỗ trợ cơ sở hạ tầng xử lý định giá hiện tại cho tập đoàn. Vì vậy, đây là những chuyên gia cần tìm đến khi phát sinh vấn đề với những hệ thống phần mềm như SAP, Vendavo, hay SciQuests’s Contract Director, hệ thống quản lý hợp đồng của chúng tôi.
+
+Ngoài ra, còn có một nhóm có nhiệm vụ chủ động tìm và hỗ trợ các đơn vị kinh doanh thông qua các dự án định giá, đây là phần việc thuộc về khía cạnh chiến lược. Nhiều đơn vị kinh doanh tìm đến chúng tôi và nói rằng họ cần chúng tôi hỗ trợ giải quyết một vấn đề định giá nào đó, có thể là một vấn đề liên quan đến chiến lược định giá, hoặc một vấn đề mang tính chiến thuật hay một vấn đề khác ít quan trọng hơn. Đội ngũ của chúng tôi gồm những chuyên gia đã có bằng thạc sĩ quản trị kinh doanh và nhiệm vụ của họ là hỗ trợ các đơn vị kinh doanh thực hiện các sáng kiến định giá mà họ cần chúng tôi hỗ trợ. Bởi vì các đơn vị kinh doanh thường cho biết đang gặp phải một vấn đề nào đó, nhưng chưa có thời gian xử lý và vì vậy họ cần người trợ giúp. Những chuyên gia của tôi đến để giúp họ giải quyết các vấn đề đó.
+
+Cuối cùng, chúng tôi có một đội ngũ nhỏ gồm các chuyên gia phân tích chuyên nghiệp, nhiệm vụ của họ là làm sao để các nhà quản lý định giá có thể dễ dàng lĩnh hội được các kiến giải chuyên sâu về đơn vị kinh doanh của họ, từ đó giúp họ đưa ra được những biện pháp cải tiến khả năng sinh lời.
+
+Sứ mệnh định giá
+
+TS: Eastman đặt ra sứ mệnh và tầm nhìn như thế nào cho định giá?
+
+RS: Eastman thực hiện bốn việc.
+
+Chúng tôi đang xây dựng năng lực định giá xuyên suốt toàn bộ tập đoàn thông qua các hoạt động đào tạo, hướng dẫn và phát triển bởi vì chúng tôi muốn trở thành tập đoàn có năng lực định giá hàng đầu thế giới. Do có hoạt động điều chuyển nhân sự từ vị trí công việc này sang vị trí công việc khác nên chúng tôi thường xuyên đào tạo nhân viên mới để họ có thể thực hiện vai trò định giá một cách hiệu quả ở Eastman.
+
+Chúng tôi đang giảm bớt độ phức tạp trong các hệ thống định giá của mình vì định giá là một nghiệp vụ chức năng phức tạp nhưng chúng tôi vẫn nỗ lực tìm cách để các đồng nghiệp của mình ở bộ phận kinh doanh hay các bộ phận khác không phải đau đầu đối phó với sự phức tạp đó. Giải quyết là trách nhiệm công việc của chúng tôi.
+
+Thứ ba, chúng tôi triển khai đưa các năng lực định giá lan tỏa khắp hệ thống toàn cầu của Eastman. Ngày nay, Eastman là một tập đoàn toàn cầu, nên chúng tôi cần có những hệ thống và năng lực vững vàng, hoạt động ở khắp các khu vực chứ không chỉ giới hạn trong phạm vi lãnh thổ nước Mỹ.
+
+Yếu tố cuối cùng trong sứ mệnh của chúng tôi, công việc thứ tư, là củng cố khả năng tạo ra lợi nhuận và khả năng cạnh tranh. Chúng tôi tin rằng mình có thể giúp các đơn vị kinh doanh có khả năng sinh lời cao hơn nhờ vào những kiến giải sâu sắc mà chúng tôi tìm ra khi nghiên cứu dữ liệu định giá của họ. Chúng tôi tin rằng mình có thể giúp họ hoạt động hiệu quả hơn khi phát triển và triển khai thực hiện các chiến lược định giá trong tập đoàn.
+
+TS: Bộ phận định giá đang hỗ trợ các khía cạnh chiến lược và chiến thuật chính nào ở Eastman?
+
+RS: Dĩ nhiên, một phần công việc của chúng tôi là bảo đảm mọi đơn vị kinh doanh đều đã phát triển được các chiến lược định giá phù hợp và hiểu rõ chúng. Một khía cạnh chiến lược khác mà chúng tôi tham gia là bảo đảm chúng tôi làm việc hướng về tương lai, nghĩa là các hệ thống, quy trình, và năng lực nền tảng mà chúng tôi xây dựng trong bộ phận định giá không chỉ đáp ứng các nhu cầu hiện tại của tổ chức mà còn có thể đáp ứng các nhu cầu trong tương lai.
+
+Nhưng rõ ràng, bên cạnh đó bộ phận định giá cũng phải thực hiện một khía cạnh rất quan trọng về mặt vận hành, liên quan đến vấn đề đàm phán định giá trên thị trường các loại hóa chất, chúng tôi phải xử lý những tình huống định giá cạnh tranh này thật nhanh chóng và chính xác để có thể đưa ra những phản ứng kịp thời trên thị trường khi cần thiết.
+
+Ở đây, chúng tôi yêu thích khi làm việc cùng dữ liệu để qua đó có thể thực hiện được những kỹ thuật phân tích phù hợp nhằm đưa ra những quyết định tốt nhất có thể trong thế giới vốn chứa đầy những thông tin chưa hoàn hảo.
+
+TS: Bước tiếp theo cho bộ phận định giá ở Eastman như thế nào?
+
+RS: Một trong những lý do để thành lập bộ phận Định giá Tập đoàn là CEO trước đây của chúng tôi, ông Jim Rogers, muốn đẩy nhanh tiến độ cải tiến chất lượng định giá. Ông ấy đã hỗ trợ chúng tôi thành lập Hội đồng Định giá. Khi đã chắc chắn rằng mình sắp trở thành CEO, Jim nói ông ấy đánh giá cao những gì mà Hội đồng Định giá đã làm được, nhưng muốn đẩy nhanh tiến độ công việc hơn nữa. Tôi nghĩ rằng chúng tôi đã làm tốt, nhưng tôi cũng muốn tốc độ công việc nhanh hơn để triển khai những cách làm hữu ích trong toàn bộ tổ chức.
+
+Chúng tôi chia sẻ về những cách làm hữu ích. “Đơn vị A đã làm việc này. Đơn vị B, C – các vị có muốn làm như vậy không? Nhưng quyết định là ở các bạn”. Thực ra, trong văn hóa ma trận hiện nay ở Eastman, mọi quyết định vẫn phụ thuộc vào các đơn vị kinh doanh đó, nhưng sự ra đời của bộ phận Định giá Tập đoàn đã giúp chúng tôi tạo thêm một chút áp lực cho phương trình này, đồng thời giúp Hội đồng Định giá có được cái nhìn toàn diện hơn về các cơ hội cải tiến trong toàn bộ tổ chức. Khi đã nhìn ra, chúng tôi có thể quay lại Hội đồng Định giá từ góc nhìn của bộ phận Định giá Tập đoàn và nói: “Này, có thể các vị chưa nhận ra được điều này, nhưng 3-4 đơn vị kinh doanh cùng có mối quan tâm tương tự. Chúng tôi đã lắng nghe từng đơn vị trình bày, và bây giờ chúng tôi muốn đề xuất một giải pháp ở quy mô toàn công ty cho vấn đề đó. Liệu các vị có sẵn sàng hỗ trợ chúng tôi hay không?”
+
+Việc phát triển tổ chức tư vấn tập trung cũng giúp chúng tôi làm việc đó hiệu quả hơn. Tuy nhiên, nó lại buộc chúng tôi phải dịch chuyển bản chất của một trong số các nhóm mà chúng tôi có, ở đây là nhóm dịch vụ xử lý định giá, rồi đưa nó ra khỏi vai trò một tổ chức hỗ trợ thuần túy và xây dựng những năng lực mang tính chiến lược hơn cho nó. Chúng tôi cho rằng công ty sẽ có lợi hơn nếu như trong bộ phận này, chúng tôi đưa vào đó những chuyên gia có khả năng xử lý các vấn đề về chiến lược định giá hoặc các công việc liên quan đến định giá nhiều hơn dựa trên giá trị. Họ có thể triển khai một năng lực như vận hành phần mềm LeveragePoint trong một đơn vị kinh doanh để đưa ra những số liệu dự đoán giá trị kinh tế – đây là năng lực mà họ đã xây dựng trong vài năm qua – thay vì sử dụng công cụ Excel vốn có thể nhanh chóng lỗi thời.
+
+Kiến trúc của chức năng định giá
+
+TS: Cuối cùng, ông cho rằng bộ phận định giá nên nằm ở đâu? kinh doanh, marketing hay tài chính?
+
+RS: Tôi không cho rằng việc bộ phận định giá nằm ở đâu trong ba bộ phận trên lại có ý nghĩa quan trọng. Theo tôi, điều đó tùy thuộc vào thước đo mà doanh nghiệp sử dụng và các mục tiêu của họ. Nếu đã làm đúng những vấn đề trên thì việc nó nằm ở đâu không thành vấn đề.
+
+TS: Cảm ơn ông đã dành thời gian cho cuộc trò chuyện này.

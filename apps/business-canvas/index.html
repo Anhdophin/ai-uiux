@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Business Model Canvas - iAppLab</title>
+  <meta name="description" content="Canvas 9 ô để phác mô hình kinh doanh nhanh, gom ý tưởng trước khi đi vào workflow hoặc mini app.">
+  <link rel="stylesheet" href="../../css/base.css">
+  <style>
+    .tool-page{padding:32px 0 64px}
+    .tool-hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);gap:18px;align-items:start}
+    .tool-card,.tool-grid article,.tool-output{background:color-mix(in srgb, var(--surface-strong) 100%, transparent);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:24px}
+    .tool-card{padding:24px}
+    .tool-kicker{margin:0 0 8px;color:var(--muted);font-size:.8rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    .tool-title{margin:0;font-size:clamp(2rem, 4vw, 3.4rem);line-height:.95;letter-spacing:-.05em}
+    .tool-lead{margin:14px 0 0;color:var(--muted);max-width:56ch}
+    .tool-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+    .tool-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px}
+    .tool-grid article{padding:18px}
+    .tool-grid h3{margin:0 0 10px;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase}
+    .tool-grid textarea{width:100%;min-height:170px;resize:vertical;border:1px solid var(--line);border-radius:16px;padding:14px;background:rgba(255,255,255,.65);color:var(--text)}
+    .tool-side{display:grid;gap:16px}
+    .tool-side ul{margin:0;padding-left:18px;color:var(--muted);display:grid;gap:8px}
+    .tool-output{margin-top:18px;padding:22px}
+    .tool-output h2{margin:0 0 12px}
+    .tool-output pre{white-space:pre-wrap;word-break:break-word;margin:0;padding:16px;border-radius:18px;background:rgba(17,24,39,.04);border:1px solid var(--line);font-family:inherit;line-height:1.6}
+    .tool-pill{display:inline-flex;align-items:center;gap:8px;min-height:38px;padding:0 14px;border-radius:999px;background:rgba(17,24,39,.04);border:1px solid var(--line);font-weight:700}
+    @media (max-width: 900px){
+      .tool-hero{grid-template-columns:1fr}
+      .tool-grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body data-root="../.." class="mini-shell">
+  <div id="site-header"></div>
+  <main class="tool-page container">
+    <section class="tool-hero">
+      <div class="tool-card">
+        <p class="tool-kicker">iAppLab / Business Maker App</p>
+        <h1 class="tool-title">Business Model Canvas</h1>
+        <p class="tool-lead">Canvas 9 ô để phác mô hình kinh doanh nhanh, gom ý tưởng trước khi đi vào workflow hoặc mini app.</p>
+        <div class="tool-actions">
+          <a class="portal-cta" href="../">Quay lại Apps</a>
+          <a class="portal-chip" href="../../services/workflow/">Xem workflow</a>
+          <a class="portal-chip" href="../../shop/">Mở shop</a>
+        </div>
+
+        <section class="tool-grid">
+          <article><h3>Value Proposition</h3><textarea data-field-key="value" data-field-label="Value Proposition" placeholder="Khách hàng nhận giá trị gì từ anh?"></textarea></article><article><h3>Customer Segments</h3><textarea data-field-key="customers" data-field-label="Customer Segments" placeholder="Ai là nhóm khách hàng chính?"></textarea></article><article><h3>Channels</h3><textarea data-field-key="channels" data-field-label="Channels" placeholder="Website, social, affiliate, đối tác, local tour..."></textarea></article><article><h3>Revenue Streams</h3><textarea data-field-key="revenue" data-field-label="Revenue Streams" placeholder="Dòng doanh thu chính và phụ?"></textarea></article><article><h3>Key Activities</h3><textarea data-field-key="activities" data-field-label="Key Activities" placeholder="Các hoạt động cốt lõi để mô hình chạy được?"></textarea></article><article><h3>Key Resources</h3><textarea data-field-key="resources" data-field-label="Key Resources" placeholder="Nguồn lực chính: kỹ năng, web, nội dung, sản phẩm, AI..."></textarea></article><article><h3>Key Partners</h3><textarea data-field-key="partners" data-field-label="Key Partners" placeholder="Nhà cung cấp, cộng tác viên, xưởng, đối tác phân phối..."></textarea></article><article><h3>Cost Structure</h3><textarea data-field-key="costs" data-field-label="Cost Structure" placeholder="Chi phí chính, chi phí cố định, chi phí tăng trưởng..."></textarea></article>
+        </section>
+      </div>
+
+      <aside class="tool-side">
+        <div class="tool-card">
+          <p class="tool-kicker">Flow</p>
+          <h2 style="margin:0 0 10px">App → Service → Shop</h2>
+          <ul>
+            <li>Business maker vào app để tự nghĩ nhanh và gom ý tưởng.</li>
+            <li>Khi ý tưởng đủ rõ, chuyển sang Services để biến thành workflow, tài liệu hoặc mini app.</li>
+            <li>Nếu cần quà tặng, vật phẩm hoặc sản phẩm đi kèm, tiếp tục sang Shop.</li>
+          </ul>
+        </div>
+        <div class="tool-card">
+          <p class="tool-kicker">Gợi ý dùng</p>
+          <div class="tool-pill">Dùng để nghĩ nhanh trước khi thuê dịch vụ.</div>
+          <div style="height:10px"></div>
+          <div class="tool-pill">Copy kết quả rồi đưa thẳng vào brief dịch vụ.</div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="tool-output">
+      <div style="display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap">
+        <div>
+          <p class="tool-kicker">Kết quả</p>
+          <h2>Bản ghi nhanh để chuyển tiếp</h2>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <button class="portal-chip" type="button" id="copyBtn">Copy text</button>
+          <button class="portal-cta" type="button" id="buildBtn">Tạo bản tóm tắt</button>
+        </div>
+      </div>
+      <pre id="resultBox">Nhấn "Tạo bản tóm tắt" sau khi nhập nội dung ở phía trên.</pre>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+
+  
+  <script type="module">
+    import { rootPath, setupSharedShell } from '../../js/modules.js';
+    setupSharedShell(rootPath());
+  </script>
+
+  <script>
+    const fieldSelectors = Array.from(document.querySelectorAll('[data-field-key]'));
+    const resultBox = document.getElementById('resultBox');
+    const buildBtn = document.getElementById('buildBtn');
+    const copyBtn = document.getElementById('copyBtn');
+
+    function buildOutput(){
+      const sections = fieldSelectors.map((el) => {
+        const label = el.dataset.fieldLabel || '';
+        const key = el.dataset.fieldKey || '';
+        const value = el.value.trim();
+        return { label, key, value };
+      });
+      const lines = sections.map((section) => {
+        return section.value
+          ? `## ${section.label}\n${section.value}`
+          : `## ${section.label}\n(chưa nhập)`;
+      });
+      resultBox.textContent = `BẢN GHI NHANH\n\n` + lines.join('\n\n');
+    }
+
+    buildBtn.addEventListener('click', buildOutput);
+    copyBtn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(resultBox.textContent);
+        copyBtn.textContent = 'Đã copy';
+        setTimeout(() => copyBtn.textContent = 'Copy text', 1400);
+      } catch (error) {
+        window.alert('Trình duyệt chưa cho copy tự động.');
+      }
+    });
+  </script>
+</body>
+</html>

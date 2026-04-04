@@ -1,0 +1,10 @@
+/*
+  AI EDIT NOTE:
+  - CSS này chỉ lo portal header/footer trên page con.
+  - Không phá layout page hiện có ngoài shell chung.
+*/
+@import url("../../css/base.css");
+#subpage-header:empty,
+#subpage-footer:empty{display:none}
+body .portal-header{position:sticky;top:0;z-index:40}
+body .portal-footer{margin-top:32px}

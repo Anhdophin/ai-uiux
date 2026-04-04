@@ -1,0 +1,12 @@
+READ BEFORE EDITING:
+1. Read AGENTS.md
+2. Read AI-EDIT-PRECHECK.md
+3. Read the target file before changing it
+
+MANDATORY:
+- Do small targeted edits.
+- Keep compatibility with existing source.
+- Do not hardcode slug/path/category if data already exists.
+- For clone/routing issues, check meta -> generated json -> render js -> href -> folder path.
+- Add short comments only where the owner must edit by hand later.
+- Keep code easy to read, easy to edit manually, easy to clone.

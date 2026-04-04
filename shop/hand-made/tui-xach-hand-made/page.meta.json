@@ -1,0 +1,27 @@
+{
+  "_clone_help": "KHI CLONE SẢN PHẨM: sửa title, short_title, nav_label, summary, price, badge, experience_tags, is_new, updated_at. Không cần khai báo gallery thủ công nếu đã có media/main.* và các ảnh phụ trong media/. Sau đó chạy python shop/scan_shop.py",
+  "_clone_slug_note": "Sản phẩm hiện tại nằm trong nhóm \"hand-made\" với slug sản phẩm \"tui-xach-hand-made\". Nếu đổi nhóm, hãy move cả folder sản phẩm sang đúng folder nhóm mới.",
+  "title": "Túi Xách Hand Made",
+  "short_title": "Túi Xách Hand Made",
+  "nav_label": "Túi Xách Hand Made",
+  "section": "shop",
+  "show_in_nav": false,
+  "template": "shop-product-detail",
+  "category_slug": "hand-made",
+  "price": "Liên hệ",
+  "summary": "Túi xách làm tay theo hướng quà tặng cá tính và sử dụng hằng ngày.",
+  "experience_tags": [
+    "quà tặng",
+    "thủ công"
+  ],
+  "is_new": true,
+  "badge": "Hand Made",
+  "updated_at": "2026-04-02",
+  "main_image": "media/main.svg",
+  "card_image": "media/main.svg",
+  "gallery": [
+    "media/main.svg",
+    "media/detail-1.svg",
+    "media/detail-2.svg"
+  ]
+}

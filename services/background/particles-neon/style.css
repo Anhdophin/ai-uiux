@@ -1,0 +1,4 @@
+[data-background="particles-neon"]{position:relative; overflow:hidden; isolation:isolate; background:radial-gradient(circle at 50% 20%, #0a1a31 0%, #04101d 42%, #020812 100%);} 
+.particles-neon-canvas{position:absolute; inset:0; z-index:0; pointer-events:none;}
+[data-background="particles-neon"]::after{content:""; position:absolute; inset:0; pointer-events:none; z-index:0; background:linear-gradient(to top, rgba(255,0,119,.08), transparent 38%), linear-gradient(to top, rgba(0,210,255,.06), transparent 52%);} 
+[data-background="particles-neon"] > *{position:relative; z-index:1;}

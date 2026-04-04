@@ -1,0 +1,1 @@
+window.ToolExport={exportElementAsPNG:async()=>alert('Hook export PNG here'),exportElementAsPDF:async()=>alert('Hook export PDF here')};

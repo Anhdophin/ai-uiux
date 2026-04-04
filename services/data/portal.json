@@ -1,0 +1,7 @@
+{
+  "brand": "iAppLab",
+  "tagline": "Portal tổng hợp mini app, dịch vụ thiết kế mini app, và shop sản phẩm đi kèm.",
+  "service_route": "services/",
+  "shop_route": "shop/",
+  "about_route": "services/about/"
+}

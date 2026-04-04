@@ -1,0 +1,3 @@
+[data-background="neon-pixels"]{position:relative; overflow:hidden; isolation:isolate; background:#08090c;} 
+.neon-pixels-canvas{position:absolute; inset:0; z-index:0; pointer-events:none;} 
+[data-background="neon-pixels"] > *{position:relative; z-index:1;}

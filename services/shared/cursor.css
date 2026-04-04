@@ -1,0 +1,12 @@
+
+html.cursor-ready, html.cursor-ready * { cursor: none !important; }
+.cursor-layer { position: fixed; inset: 0; pointer-events: none; z-index: 99999; }
+.cursor-dot, .cursor-ring {
+  position: fixed; left: 0; top: 0; transform: translate(-50%, -50%);
+  border-radius: 999px; pointer-events: none; will-change: transform, opacity;
+}
+.cursor-dot { width: 12px; height: 12px; background: rgba(255,255,255,0.95); box-shadow: 0 0 14px rgba(255,255,255,0.45); }
+.cursor-ring { width: 34px; height: 34px; border: 1px solid rgba(255,255,255,0.28); transition: transform .14s ease; }
+html.cursor-hover .cursor-ring { transform: translate(-50%, -50%) scale(1.25); }
+html.cursor-press .cursor-ring { transform: translate(-50%, -50%) scale(0.82); }
+@media (pointer: coarse) { html.cursor-ready, html.cursor-ready * { cursor: auto !important; } .cursor-layer { display:none; } }

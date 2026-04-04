@@ -1,0 +1,19 @@
+{
+  "_clone_help": "KHI CLONE NHÓM: sửa title, short_title, nav_label, description, badge, card_caption, experience_tags. Nếu nhóm mới có ảnh riêng thì thêm file shop/media/<slug-nhom>.(jpg|png|webp) rồi chạy python shop/scan_shop.py",
+  "_clone_slug_note": "Slug nhóm hiện tại là \"hand-made\". Khi clone nhóm mới, slug chính là tên folder. Scanner lấy category_slug của sản phẩm theo folder cha này.",
+  "title": "Hand Made",
+  "short_title": "Hand Made",
+  "nav_label": "Hand Made",
+  "section": "shop",
+  "show_in_nav": false,
+  "template": "shop-category",
+  "description": "Các sản phẩm thủ công, quà tặng cá tính và đồ da nhỏ.",
+  "experience_tags": [
+    "quà tặng",
+    "thủ công",
+    "cá nhân hoá"
+  ],
+  "accent": "#c88a5f",
+  "badge": "Crafted",
+  "card_caption": "Đồ thủ công & quà tặng"
+}

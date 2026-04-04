@@ -1,0 +1,305 @@
+{
+  "generated_at": "2026-04-03 13:19:11",
+  "root_route": "/shop/",
+  "categories": [
+    {
+      "slug": "hand-made",
+      "title": "Hand Made",
+      "route": "/shop/hand-made/",
+      "description": "Các sản phẩm thủ công, quà tặng cá tính và đồ da nhỏ.",
+      "accent": "#c88a5f",
+      "badge": "Crafted",
+      "card_caption": "Đồ thủ công & quà tặng",
+      "experience_tags": [
+        "quà tặng",
+        "thủ công",
+        "cá nhân hoá"
+      ],
+      "image": "/shop/media/hand-made.jpg",
+      "product_count": 2
+    },
+    {
+      "slug": "linh-chi",
+      "title": "Linh Chi",
+      "route": "/shop/linh-chi/",
+      "description": "Nhóm sản phẩm sức khoẻ, thưởng thức và quà biếu từ nấm linh chi.",
+      "accent": "#7aa35a",
+      "badge": "Wellness",
+      "card_caption": "Cafe & rượu linh chi",
+      "experience_tags": [
+        "sức khoẻ",
+        "thưởng thức",
+        "quà biếu"
+      ],
+      "image": "/shop/media/linh-chi.jpg",
+      "product_count": 2
+    },
+    {
+      "slug": "tram-huong",
+      "title": "Trầm Hương",
+      "route": "/shop/tram-huong/",
+      "description": "Nhóm sản phẩm hương liệu, tinh thần và không gian sống từ trầm hương.",
+      "accent": "#9d7a4f",
+      "badge": "Scented",
+      "card_caption": "Nhang, tinh dầu, quách",
+      "experience_tags": [
+        "hương liệu",
+        "thiền",
+        "không gian sống"
+      ],
+      "image": "/shop/media/tram-huong.png",
+      "product_count": 3
+    },
+    {
+      "slug": "trang-suc",
+      "title": "Trang Sức",
+      "route": "/shop/trang-suc/",
+      "description": "Các sản phẩm trang sức",
+      "accent": "#9d7a4f",
+      "badge": "Scented",
+      "card_caption": "trang sức",
+      "experience_tags": [
+        "trang sức",
+        "làm đẹp",
+        "làm điệu"
+      ],
+      "image": "/shop/media/trang-suc.jpg",
+      "product_count": 2
+    }
+  ],
+  "products": [
+    {
+      "slug": "vi-da-handmade",
+      "title": "Ví Da Handmade",
+      "short_title": "Ví Da Handmade",
+      "route": "/shop/hand-made/vi-da-handmade/",
+      "category_slug": "hand-made",
+      "category_title": "Hand Made",
+      "category_route": "/shop/hand-made/",
+      "category_accent": "#c88a5f",
+      "price": "Liên hệ",
+      "summary": "Ví da thủ công nhỏ gọn, có thể phát triển theo hướng quà tặng cá nhân hoá.",
+      "experience_tags": [
+        "quà tặng",
+        "cá nhân hoá",
+        "thủ công"
+      ],
+      "is_new": true,
+      "badge": "Leather",
+      "updated_at": "2026-04-02",
+      "main_image": "/shop/hand-made/vi-da-handmade/media/main.webp",
+      "card_image": "/shop/hand-made/vi-da-handmade/media/main.webp",
+      "gallery": [
+        "/shop/hand-made/vi-da-handmade/media/Vi-nam-da-bo-gia-re-chinh-hang.jpg",
+        "/shop/hand-made/vi-da-handmade/media/Vi-nam-da-bo-sap-1.jpg"
+      ]
+    },
+    {
+      "slug": "tui-xach-hand-made",
+      "title": "Túi Xách Hand Made",
+      "short_title": "Túi Xách Hand Made",
+      "route": "/shop/hand-made/tui-xach-hand-made/",
+      "category_slug": "hand-made",
+      "category_title": "Hand Made",
+      "category_route": "/shop/hand-made/",
+      "category_accent": "#c88a5f",
+      "price": "Liên hệ",
+      "summary": "Túi xách làm tay theo hướng quà tặng cá tính và sử dụng hằng ngày.",
+      "experience_tags": [
+        "quà tặng",
+        "thủ công"
+      ],
+      "is_new": true,
+      "badge": "Hand Made",
+      "updated_at": "2026-04-02",
+      "main_image": "/shop/hand-made/tui-xach-hand-made/media/main.webp",
+      "card_image": "/shop/hand-made/tui-xach-hand-made/media/main.webp",
+      "gallery": [
+        "/shop/hand-made/tui-xach-hand-made/media/1.jpg",
+        "/shop/hand-made/tui-xach-hand-made/media/Tui-xach-da-bo-nu-dep.jpg"
+      ]
+    },
+    {
+      "slug": "tinh-dau-tram-huong",
+      "title": "Tinh Dầu Trầm Hương",
+      "short_title": "Tinh Dầu Trầm Hương",
+      "route": "/shop/tram-huong/tinh-dau-tram-huong/",
+      "category_slug": "tram-huong",
+      "category_title": "Trầm Hương",
+      "category_route": "/shop/tram-huong/",
+      "category_accent": "#9d7a4f",
+      "price": "Liên hệ",
+      "summary": "Tinh dầu trầm cho xông hương, thư giãn và trải nghiệm không gian.",
+      "experience_tags": [
+        "hương liệu",
+        "không gian sống",
+        "thiền"
+      ],
+      "is_new": true,
+      "badge": "Oil",
+      "updated_at": "2026-04-02",
+      "main_image": "/shop/tram-huong/tinh-dau-tram-huong/media/main.jpg",
+      "card_image": "/shop/tram-huong/tinh-dau-tram-huong/media/main.jpg",
+      "gallery": [
+        "/shop/tram-huong/tinh-dau-tram-huong/media/tinhdautramhuong_www.tramhuongvietnam.vn_2.jpg"
+      ]
+    },
+    {
+      "slug": "ruou-nam-linh-chi",
+      "title": "Rượu Nấm Linh Chi",
+      "short_title": "Rượu Nấm Linh Chi",
+      "route": "/shop/linh-chi/ruou-nam-linh-chi/",
+      "category_slug": "linh-chi",
+      "category_title": "Linh Chi",
+      "category_route": "/shop/linh-chi/",
+      "category_accent": "#7aa35a",
+      "price": "Liên hệ",
+      "summary": "Sản phẩm quà biếu và thưởng thức từ nấm linh chi.",
+      "experience_tags": [
+        "quà biếu",
+        "thưởng thức"
+      ],
+      "is_new": false,
+      "badge": "Gift",
+      "updated_at": "2026-04-02",
+      "main_image": "/shop/linh-chi/ruou-nam-linh-chi/media/main.webp",
+      "card_image": "/shop/linh-chi/ruou-nam-linh-chi/media/main.webp",
+      "gallery": [
+        "/shop/linh-chi/ruou-nam-linh-chi/media/bhx-760_202502181621498763.jpg"
+      ]
+    },
+    {
+      "slug": "quach-tram-huong",
+      "title": "Quách Trầm Hương",
+      "short_title": "Quách Trầm Hương",
+      "route": "/shop/tram-huong/quach-tram-huong/",
+      "category_slug": "tram-huong",
+      "category_title": "Trầm Hương",
+      "category_route": "/shop/tram-huong/",
+      "category_accent": "#9d7a4f",
+      "price": "Liên hệ",
+      "summary": "Vật phẩm trầm hương cho bài trí, quà tặng và nghi thức.",
+      "experience_tags": [
+        "không gian sống",
+        "quà tặng"
+      ],
+      "is_new": false,
+      "badge": "Craft",
+      "updated_at": "2026-04-02",
+      "main_image": "/shop/tram-huong/quach-tram-huong/media/main.png",
+      "card_image": "/shop/tram-huong/quach-tram-huong/media/main.png",
+      "gallery": [
+        "/shop/tram-huong/quach-tram-huong/media/ChatGPT Image Feb 28, 2026 at 01_33_10 PM.png"
+      ]
+    },
+    {
+      "slug": "nhan-khac-laser",
+      "title": "Nhẫn Khắc Laser",
+      "short_title": "Nhẫn Khắc Laser",
+      "route": "/shop/trang-suc/nhan-khac-laser/",
+      "category_slug": "trang-suc",
+      "category_title": "Trang Sức",
+      "category_route": "/shop/trang-suc/",
+      "category_accent": "#9d7a4f",
+      "price": "Liên hệ",
+      "summary": "Nhẫn khắc laser cá tính.",
+      "experience_tags": [
+        "trang sức",
+        "làm đẹp"
+      ],
+      "is_new": true,
+      "badge": "Aroma",
+      "updated_at": "2026-04-02",
+      "main_image": "/shop/trang-suc/nhan-khac-laser/media/main.webp",
+      "card_image": "/shop/trang-suc/nhan-khac-laser/media/main.webp",
+      "gallery": []
+    },
+    {
+      "slug": "nhang-tram-huong",
+      "title": "Nhang Trầm Hương",
+      "short_title": "Nhang Trầm Hương",
+      "route": "/shop/tram-huong/nhang-tram-huong/",
+      "category_slug": "tram-huong",
+      "category_title": "Trầm Hương",
+      "category_route": "/shop/tram-huong/",
+      "category_accent": "#9d7a4f",
+      "price": "Liên hệ",
+      "summary": "Nhang trầm cho không gian sống, thư giãn và thiền.",
+      "experience_tags": [
+        "hương liệu",
+        "thiền"
+      ],
+      "is_new": true,
+      "badge": "Aroma",
+      "updated_at": "2026-04-02",
+      "main_image": "/shop/tram-huong/nhang-tram-huong/media/main.jpg",
+      "card_image": "/shop/tram-huong/nhang-tram-huong/media/main.jpg",
+      "gallery": [
+        "/shop/tram-huong/nhang-tram-huong/media/nhang-tram-huong-cao-cap-3_result.jpg",
+        "/shop/tram-huong/nhang-tram-huong/media/nhang-tram-thien-huong-5.jpg"
+      ]
+    },
+    {
+      "slug": "mat-day-khac-laser",
+      "title": "Mặt Day Khắc Laser",
+      "short_title": "Mặt Day Khắc Laser",
+      "route": "/shop/trang-suc/mat-day-khac-laser/",
+      "category_slug": "trang-suc",
+      "category_title": "Trang Sức",
+      "category_route": "/shop/trang-suc/",
+      "category_accent": "#9d7a4f",
+      "price": "Liên hệ",
+      "summary": "Mặt dây khắc laser cá tính.",
+      "experience_tags": [
+        "trang sức",
+        "làm đẹp"
+      ],
+      "is_new": true,
+      "badge": "Aroma",
+      "updated_at": "2026-04-02",
+      "main_image": "/shop/trang-suc/mat-day-khac-laser/media/main.jpg",
+      "card_image": "/shop/trang-suc/mat-day-khac-laser/media/main.jpg",
+      "gallery": [
+        "/shop/trang-suc/mat-day-khac-laser/media/day-chuyen-khac-ten-theo-yeu-cau-10.jpg"
+      ]
+    },
+    {
+      "slug": "cafe-nam-linh-chi",
+      "title": "Cafe Nấm Linh Chi",
+      "short_title": "Cafe Nấm Linh Chi",
+      "route": "/shop/linh-chi/cafe-nam-linh-chi/",
+      "category_slug": "linh-chi",
+      "category_title": "Linh Chi",
+      "category_route": "/shop/linh-chi/",
+      "category_accent": "#7aa35a",
+      "price": "Liên hệ",
+      "summary": "Dòng cafe kết hợp linh chi theo hướng thưởng thức và trải nghiệm sức khoẻ.",
+      "experience_tags": [
+        "sức khoẻ",
+        "thưởng thức"
+      ],
+      "is_new": true,
+      "badge": "Wellness",
+      "updated_at": "2026-04-02",
+      "main_image": "/shop/linh-chi/cafe-nam-linh-chi/media/main.jpg",
+      "card_image": "/shop/linh-chi/cafe-nam-linh-chi/media/main.jpg",
+      "gallery": [
+        "/shop/linh-chi/cafe-nam-linh-chi/media/main.png",
+        "/shop/linh-chi/cafe-nam-linh-chi/media/vn-11134207-7ra0g-m7dawp3eqbx412_tn.jpg"
+      ]
+    }
+  ],
+  "experience_tags": [
+    "cá nhân hoá",
+    "hương liệu",
+    "không gian sống",
+    "làm đẹp",
+    "quà biếu",
+    "quà tặng",
+    "sức khoẻ",
+    "thiền",
+    "thưởng thức",
+    "thủ công",
+    "trang sức"
+  ]
+}

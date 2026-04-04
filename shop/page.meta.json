@@ -1,0 +1,10 @@
+{
+  "title": "Shop Lab",
+  "short_title": "Shop",
+  "nav_label": "Shop",
+  "section": "shop",
+  "order": 5,
+  "nav_order": 5,
+  "show_in_nav": true,
+  "template": "shop-showcase"
+}

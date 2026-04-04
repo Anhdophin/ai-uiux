@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Text Metadata Tool</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <div>
+        <h1>Text Metadata Tool</h1>
+        <p>Tạo metadata từ file text hoặc ebook phổ biến, rồi export metadata JSON và text files sạch cho reader.</p>
+      </div>
+      <div class="hero-actions">
+        <button id="analyzeBtn" class="primary">Phân tích dữ liệu text</button>
+        <button id="exportBtn" class="secondary" disabled>Export gói dữ liệu</button>
+      </div>
+    </header>
+
+    <section class="card grid-2">
+      <div>
+        <label class="label">1. Chọn TXT / MD / HTML / EPUB / MOBI / AZW / AZW3 / FB2 hoặc ZIP chứa các file đó</label>
+        <input type="file" id="epubFile" accept=".txt,.md,.html,.htm,.epub,.mobi,.azw,.azw3,.fb2,.zip">
+        <div id="bookInfo" class="meta-box muted">Chưa có dữ liệu sách.</div>
+      </div>
+      <div>
+        <label class="label">2. Danh sách role có thể dùng</label>
+        <div class="roles-toolbar">
+          <input type="text" id="newRoleInput" placeholder="Ví dụ: topic, section, subtopic">
+          <button id="addRoleBtn">Thêm role</button>
+        </div>
+        <div id="roleList" class="role-list"></div>
+      </div>
+    </section>
+
+    <section class="card grid-2">
+      <div>
+        <label class="label">3. Metadata filter cho reader</label>
+        <div class="form-grid">
+          <div>
+            <label class="mini-label">Tựa sách</label>
+            <input type="text" id="metaTitle" placeholder="Để trống nếu dùng tên app phân tích được">
+          </div>
+          <div>
+            <label class="mini-label">Tên tác giả</label>
+            <input type="text" id="metaAuthor" list="authorList" placeholder="Ví dụ: Tim Smith">
+            <datalist id="authorList"></datalist>
+            <div id="authorHint" class="hint small"></div>
+          </div>
+          <div>
+            <label class="mini-label">Nhóm sách</label>
+            <input type="text" id="metaGroups" list="groupList" placeholder="Ngăn cách bằng dấu phẩy">
+            <datalist id="groupList"></datalist>
+            <div id="groupHint" class="hint small"></div>
+          </div>
+          <div>
+            <label class="mini-label">Chủ đề sách</label>
+            <input type="text" id="metaTopics" list="topicList" placeholder="Ngăn cách bằng dấu phẩy">
+            <datalist id="topicList"></datalist>
+            <div id="topicHint" class="hint small"></div>
+          </div>
+          <div>
+            <label class="mini-label">Series</label>
+            <input type="text" id="metaSeries" list="seriesList" placeholder="Ví dụ: Đào Sâu Vào Dark Soul">
+            <datalist id="seriesList"></datalist>
+            <div id="seriesHint" class="hint small"></div>
+          </div>
+          <div>
+            <label class="mini-label">Ngôn ngữ</label>
+            <input type="text" id="metaLanguage" placeholder="vi / en / ...">
+          </div>
+        </div>
+        <p class="hint">Các field này sẽ đi vào <strong>metadata.json</strong> để reader hiểu filter theo nhóm, chủ đề, tác giả và series. Đồng thời app lưu lại preset trong local storage và xuất thêm file config để lần sau dùng tiếp.</p>
+      </div>
+      <div>
+        <label class="label">4. Paste TOC</label>
+        <textarea id="tocInput" placeholder="Ví dụ:
+Tựa sách
+  Chương 1
+    Header lớn
+      Header vừa
+        Header nhỏ"></textarea>
+        <p class="hint">Mỗi dòng là một mục. Thụt đầu dòng bằng 2 space hoặc tab để tạo cấp. Nếu dòng bắt đầu bằng Chương/Chapter/Phần + số, app sẽ tự nhận diện đó là chapter.</p>
+      </div>
+    </section>
+
+    <section class="card grid-2 tall">
+      <div>
+        <label class="label">5. Apply role hàng loạt trước khi chỉnh lẻ</label>
+        <div class="bulk-tools">
+          <select id="bulkRoleSelect"></select>
+          <div class="bulk-actions">
+            <button id="bulkApplyAllBtn" type="button">Apply cho tất cả</button>
+            <button id="bulkApplyEmptyBtn" type="button">Apply cho ô trống</button>
+          </div>
+          <div class="bulk-actions">
+            <input type="number" id="bulkLevelInput" min="1" value="1" placeholder="Level">
+            <button id="bulkApplyLevelBtn" type="button">Apply theo level</button>
+          </div>
+          <div class="bulk-actions">
+            <button id="bulkApplyChapterBtn" type="button">Apply cho các dòng là chương</button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <label class="label">6. TOC đã parse và gán role</label>
+        <div id="tocRows" class="toc-rows empty">Paste TOC rồi bấm phân tích.</div>
+      </div>
+    </section>
+
+    <section class="card grid-2">
+      <div>
+        <label class="label">TOC đang dùng cho gói export</label>
+        <div id="epubToc" class="simple-list muted">Chưa có dữ liệu.</div>
+      </div>
+      <div>
+        <label class="label">Text files đã nạp vào tool</label>
+        <div id="textFiles" class="simple-list muted">Chưa có dữ liệu.</div>
+      </div>
+    </section>
+
+    <section class="card grid-2">
+      <div>
+        <label class="label">7. Folder xuất file</label>
+        <div class="folder-row">
+          <button id="pickFolderBtn" type="button">Chọn folder xuất</button>
+          <div id="exportFolderLabel" class="meta-box small muted">Chưa chọn folder. Nếu không chọn, app sẽ tải file ZIP như bình thường.</div>
+        </div>
+      </div>
+      <div>
+        <label class="label">File export</label>
+        <div class="meta-box small muted">Gói export sẽ gồm <strong>metadata/metadata.json</strong>, <strong>metadata/filter-presets.json</strong> và <strong>texts/*.txt</strong>. App nhận thêm EPUB, MOBI, AZW, AZW3, FB2 và ZIP chứa các file đó. PDF vẫn bị loại khỏi input để dữ liệu nhẹ.</div>
+      </div>
+    </section>
+
+    <section id="statusBox" class="status muted">Sẵn sàng.</section>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

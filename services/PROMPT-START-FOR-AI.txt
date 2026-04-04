@@ -1,0 +1,15 @@
+Before editing this project, read these files first and follow them as mandatory project rules:
+- AGENTS.md
+- .cursorrules
+- AI-EDIT-PRECHECK.md
+- if available: .cursor/rules/*.mdc
+
+Then summarize briefly:
+1. which file controls the requested feature
+2. where the data comes from
+3. which event triggers the logic
+4. where the style lives
+5. which slug/path/category/media values are clone-sensitive
+
+Only then start editing.
+Keep the fix small, backward-compatible, and easy to maintain by hand.

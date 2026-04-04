@@ -1,0 +1,481 @@
+CHƯƠNG 1NGHỆ THUẬT KHỞI ĐỘNG
+
+Trong khoa học, bình luận thú vị nhất theo sau những khám phá mới không phải là “Eureka!” (Tìm ra rồi!) mà là “That’s funny...” (Thật tức cười...).
+
+– Isaac Asimov
+
+GIST1
+
+1 Great Ideas for Starting Things – Những ý tưởng lớn để bắt đầu.
+
+Sẽ dễ dàng hơn nhiều khi bạn làm mọi thứ một cách chỉn chu ngay từ đầu thay vì sau này phải bỏ công sửa lỗi. Ở giai đoạn thai nghén khởi nghiệp, bạn hãy hình thành những giá trị cốt lõi cho startup của mình, và đó sẽ là những giá trị lâu bền dẫn lối cho bạn về sau. Nhờ việc tập trung vào một số ít giá trị cốt lõi đó, bạn sẽ kiến tạo một nền tảng phù hợp và rảnh rang để đối phó với những thử thách to lớn hơn. Đây chính là những thứ cần thiết để khởi đầu một doanh nghiệp, điều sẽ được đề cập trong chương này.
+
+Trả lời những câu hỏi đơn giản
+
+Có một chuyện thần thoại rằng những công ty thành công bắt đầu với những ý tưởng lớn lao. Điều này ngụ ý là để đạt được thành công, các doanh nhân nên bắt đầu với những mục tiêu hoành tráng.
+
+Ngược hoàn toàn, quan sát của tôi cho thấy rằng những công ty lớn bắt đầu với những câu hỏi đơn giản như sau:
+
+• “THẾ THÌ SAO?”1: Câu hỏi này xuất hiện khi bạn nhận ra hay dự đoán một xu thế và muốn biết về tương lai của nó. Nó sẽ như thế này: “Ai cũng có điện thoại thông minh với camera và kết nối Internet”. “Thế thì sao?”. “Họ có thể sẽ chụp ảnh và chia sẻ”. “Thế thì sao?”. “Chúng ta nên tạo ra một ứng dụng cho phép mọi người đăng ảnh, xếp hạng và đưa ra các bình luận”. Và thế là, a lê hấp, Instagram ra đời.
+
+1 Lấy cảm hứng từ cuốn The Art of Profitability – Nghệ thuật của lợi nhuận của Adrian Slywotzsky.
+
+• “CÁI NÀY THÚ VỊ MÀ, PHẢI KHÔNG?”: Sự tò mò thông minh và những phát hiện tình cờ đã chứng minh cho phương pháp này. Khi Spencer Silver đang cố tạo ra một loại keo mới nhưng ông chỉ chế được chất vừa đủ kết dính các tờ giấy lại với nhau. Thứ vớ vẩn này đã dẫn đường tới Post-it Notes – giấy ghi chú. Ray Kroc, khi là người bán thiết bị, đã chú ý tới một đơn đặt hàng tám máy trộn thức ăn đến từ một cửa hàng nhỏ ở một nơi xa xôi. Vì tò mò, Ray đến thăm cửa hàng và thực sự ấn tượng với sự thành công của nó. Ông trình bày ý tưởng về các nhà hàng tương tự với Dick và Mac McDonald. Đấy là xuất phát điểm nhỏ bé của một gã khổng lồ, và phần còn lại của nó đã đi vào lịch sử.
+
+• “CÓ CÁCH NÀO TỐT HƠN KHÔNG?”: Không hài lòng với thực tại là chỉ dấu cho con đường này. Ferdinand Porsche đã từng ta thán rằng “Ban đầu khi nhìn quanh, không tìm được chiếc xe mơ ước, tôi quyết định tự làm cho mình một chiếc”1. Hay Steve Wozniak tạo ra Apple I vì ông tin rằng có cách tiếp cận máy tính tốt hơn so với phải làm cho chính phủ, trường đại học hay các công ty lớn. Còn Larry Page và Sergey Brin thì nghĩ rằng việc tính toán số lượng liên kết tới website của bạn (inbound links) là một cách tốt hơn để ưu tiên hóa các kết quả tìm kiếm, và Google ra đời.
+
+1 Tạp chí Forbes FYI (Mùa đông, 2003), trang 21.
+
+• “TẠI SAO CÔNG TY CHÚNG TA KHÔNG LÀM ĐIỀU ĐÓ?”: Không hài lòng với sếp là chất xúc tác trong trường hợp này. Bạn đã quen với thị trường và nhu cầu của khách hàng. Bạn đề xuất với sếp rằng công ty nên tạo ra một sản phẩm mà khách hàng cần nó, nhưng sếp lại bỏ ngoài tai. Rốt cuộc, bạn bỏ việc và tự làm lấy.
+
+• “ĐIỀU ĐÓ LÀ CÓ THỂ MÀ, TẠI SAO CHÚNG TA KHÔNG LÀM NHỈ?”: Thị trường dành cho những sáng tạo lớn hiếm khi sớm rõ ràng, thế nên thái độ “cứ làm tới” đặc trưng cho hướng đi này. Ví dụ, quay trở lại những năm 1970, khi mà một chiếc điện thoại di động là thứ không thể hình dung được đối với đa số mọi người thì Motorola phát minh ra nó. Vào lúc đó, điện thoại kết nối địa điểm chứ không phải mọi người với nhau.
+
+Tuy nhiên, Martin Cooper và các kỹ sư ở Motorola dấn tới và làm ra nó, và phần còn lại là của lịch sử. Đừng để bất kỳ ai nói với bạn rằng nguyên lý “Nếu chúng ta tạo ra nó, người ta sẽ đến” không thể áp dụng.
+
+“Cội nguồn của các công ty lớn là trả lời các câu hỏi đơn giản làm thay đổi thế giới, chứ không phải mong muốn trở nên giàu có.”
+
+• “ĐÂU LÀ ĐIỂM YẾU CỦA NGƯỜI DẪN ĐẦU THỊ TRƯỜNG?”: Có ba điều làm cho người dẫn đầu yếu đi: Thứ nhất, họ chăm chăm vào một cách kinh doanh. Ví dụ như IBM phân phối máy tính qua các đại lý, vì thế Dell có thể đổi mới bằng cách bán trực tiếp. Thứ hai là khi khách hàng của họ không còn hài lòng nữa. Một ví dụ là việc phải lái xe tới các cửa hàng của Blockbuster để thuê và trả băng video đã tạo cơ hội cho Netflix. Điều thứ ba chính là khi người dẫn đầu đang tận dụng sản phẩm hái ra tiền của mình và ngừng sáng tạo. Đây là thứ làm cho Microsoft Office thua kém Google Docs.
+
+“Làm sao kiếm được thật nhiều tiền?” không phải là một trong các câu hỏi. Bạn có thể nói tôi là một người theo chủ nghĩa lý tưởng, nhưng cội nguồn của các công ty lớn là trả lời các câu hỏi đơn giản làm thay đổi thế giới, chứ không phải mong muốn trở nên giàu có.
+
+BÀI TẬP
+
+Hoàn thành câu sau:
+
+Nếu không có doanh nghiệp của bạn, thế giới sẽ tệ hơn vì .........................................................................................................
+
+Hãy tìm giao điểm thành công của bạn
+
+Nếu bạn trả lời được câu hỏi đơn giản, bước tiếp theo là tìm một giao điểm thành công khả thi ở thị trường. Mark Coopersmith, đồng tác giả của cuốn The Other “F” Word: Failure – Wise Lessons for Breakthrough Innovation and Growth (Một chữ “F” khác: Sự thất bại – Bài học khôn ngoan cho những sáng tạo và phát triển đột phá) và là quản lý cao cấp tại Haas School of Business, giúp các doanh nhân làm điều này với một lược đồ Venn gồm ba nhân tố:
+
+• SỰ TINH THÔNG: Đây là toàn bộ những gì bạn và đồng sự của bạn có thể làm. Mặc dù có thể bạn chưa có một đội ngũ hoàn chỉnh, nhưng bạn phải có những hiểu biết cốt lõi về các kiến thức cơ bản và có khả năng tạo ra một cái gì đó để khởi sự một startup.
+
+• CƠ HỘI: Có hai loại cơ hội: thị trường hiện tại và thị trường tiềm năng. Một trong hai là đủ, nhưng hãy thực hiện một bài kiểm tra thực tế quy mô của thị trường trong vài năm tới. Có lý do để người ta cướp ngân hàng mà không trộm vặt trong các cửa hàng. Tuy nhiên, đôi khi không có cách nào để chứng minh sự tồn tại của một cơ hội và bạn đành phải tin vào bản thân vậy.
+
+• ĐAM MÊ: Điều này khá rắc rối vì không rõ là đam mê dẫn đến thành công hay thành công tạo ra đam mê. Mọi người đều cho rằng vế đầu là đúng, nhưng hãy trung thực: sự thành công của việc kinh doanh cũng dễ khiến ta phấn khích về nó, vì vậy vế sau có thể cũng đúng. Tuy nhiên, thành công thường cần rất nhiều thời gian, vậy nên ít nhất bạn không nên căm ghét những gì bạn đang làm.
+
+Tuy vậy, đừng cho rằng cả ba yếu tố trên là cần thiết hay thậm chí rõ ràng ngay từ lúc bắt đầu. Nếu bạn có được ít nhất hai yếu tố, bạn thường có thể phát triển được yếu tố thứ ba nếu bạn đủ nỗ lực.
+
+Hãy tìm những tâm hồn đồng điệu
+
+Bước tiếp theo là tìm những tâm hồn đồng điệu để tham gia chuyến phiêu lưu của bạn – như Bilbo Baggins1 trong The Lord of the Rings – The Fellowship of the Ring (Chúa tể của những chiếc nhẫn – Hiệp hội nhẫn thần). Tuy nhiên, người ta thường thích ý nghĩ về một nhà sáng tạo duy nhất: Thomas Edison (bóng đèn điện), Steve Jobs (máy tính Macintosh), Henry Ford (mẫu xe Model T), Anita Roddick (hãng mỹ phẩm The Body Shop) và Richard Branson (hãng hàng không Virgin Airlines). Không phải vậy đâu.
+
+1 Tên một nhân vật trong tiểu thuyết nổi tiếng Chúa tể của những chiếc nhẫn. (BT)
+
+Những công ty thành công luôn được khởi sự và trở nên thành công với nỗ lực của ít nhất hai người. Đằng sau việc mọi người coi người sáng lập như nhà cải cách là cả một đội ngũ nỗ lực để làm cho sự mạo hiểm ấy đạt tới thành công.
+
+“Người theo tham gia đầu tiên là nhân tố biến người khởi xướng, vốn chỉ một mình, thành nhà lãnh đạo.”
+
+Để minh họa cho điều này, tại diễn đàn TED năm 2010, Derek
+
+Sivers, nhà sáng lập CD Baby đã chiếu một đoạn phim bắt đầu với một người đang nhảy một mình trên bãi cỏ. Người thứ hai tham gia, rồi người thứ ba, và dần trở thành quy mô lễ hội với vô số người khác.
+
+Theo Sivers, người theo tham gia đầu tiên đóng vai trò quan trọng vì anh ta mang đến sự đáng tin cậy cho người khởi xướng. Những người tiếp theo cổ vũ cho cả anh ta chứ không chỉ đối với người khởi xướng. Theo ý Sivers, “Người theo tham gia đầu tiên là nhân tố biến người khởi xướng, vốn chỉ một mình, thành nhà lãnh đạo”, và trong một startup thì người đó thường sẽ là nhà đồng sáng lập.
+
+Những tâm hồn đồng điệu cần có những yếu tố giống và khác bạn. Những điểm giống nhau cần nhất là:
+
+• TẦM NHÌN: Mặc dù từ này đã được những người tham vọng hão huyền dùng quá nhiều, nhưng với bối cảnh người đồng hành, nó có nghĩa là các nhà sáng lập có cùng trực giác về một startup và thị trường sẽ tiến triển ra sao. Ví như nếu một nhà sáng lập tin rằng máy tính vẫn sẽ là công cụ hỗ trợ kinh doanh cho các công ty lớn còn người kia lại tin rằng tương lai là của máy tính cá nhân nhỏ, rẻ, dễ sử dụng dành cho tất cả mọi người thì rõ ràng họ không phải là một “cặp đôi hoàn hảo”.
+
+• QUY MÔ: Không phải ai cũng muốn tạo nên một đế chế. Và không phải ai cũng muốn chỉ mãi là một hộ kinh doanh cá thể. Không có những mong muốn đúng hay sai; chỉ có những mong muốn hợp với nhau hay không mà thôi. Điều này không có nghĩa là những người sáng lập có thể biết họ muốn gì ngay từ đầu, nhưng sẽ tốt hơn nếu họ, ít nhất, có cùng một quan điểm.
+
+• SỰ CAM KẾT: Những người sáng lập nên có cùng mức độ cam kết. Cái nào được đặt lên hàng đầu: công ty, gia đình hay một cuộc sống cân bằng? Sẽ rất khó để khởi nghiệp thành công nếu những người sáng lập có những ưu tiên khác nhau. Và nếu một nhà sáng lập chỉ muốn làm trong hai năm rồi bán công ty trong khi người kia lại muốn tạo ra một công ty có thể tồn tại hàng chục năm thì sẽ có rắc rối. Lý tưởng nhất là những người sáng lập nên đồng ý kề vai sát cánh ít nhất trong 10 năm.
+
+Và những khác biệt lý tưởng bao gồm:
+
+• SỰ TINH THÔNG: Ở mức độ tối thiểu thì một startup cần ít nhất một người tạo ra sản phẩm (như Steve Wozniak) và một người lo tiêu thụ nó (như Steve Jobs). Những người sáng lập cần bổ sung lẫn nhau để gây dựng một công ty lớn.
+
+• THIÊN HƯỚNG: Một số người thích đổ mồ hôi cho những chi tiết nhỏ. Những người khác lại muốn bỏ qua các chi tiết và tập trung cho những vấn đề lớn. Một startup cần cả hai kiểu nhà sáng lập như vậy để thành công.
+
+• NHÂN SINH QUAN: Càng nhiều nhân sinh quan càng thú vị.
+
+Có thể bao gồm người trẻ làm việc với người già, người giàu với người nghèo, nam với nữ, người thành thị với người nông thôn, kỹ sư với người bán hàng, thực dụng với lãng mạn, tín đồ Hồi giáo với tín đồ Công giáo, “chuẩn men” với “không chuẩn men”.
+
+Cuối cùng là một vài lời khuyên hữu ích khi tìm người đồng sáng lập:
+
+• KHÔNG VỘI VÃ: Người đồng sáng lập có thể làm việc cùng bạn hàng chục năm, vì thế, hãy chọn họ như chọn bạn đời của mình – hãy đảm bảo rằng, các bạn không phải những người thích “ly hôn hàng loạt”. Càng ít người đồng sáng lập càng tốt vì chia tay họ cũng như chia tay “nửa kia” của mình, sẽ vô cùng khó khăn.
+
+• KHÔNG VÌ MỤC ĐÍCH HUY ĐỘNG VỐN: Lý do duy nhất để bạn tìm kiếm bạn đồng sáng lập – như bất kỳ nhân viên nào khác, nhưng họ đặc biệt hơn – là để cho startup của bạn trở nên vững mạnh và có nhiều khả năng thành công hơn. Hãy tự vấn rằng “Nếu tôi không cần vốn thì chúng tôi có chiêu mộ anh ta không?”. Nếu câu trả lời là “không”, thì bạn bị mất trí rồi.
+
+• MONG MỎI ĐIỀU TỐT NHẤT NHƯNG CŨNG CẦN CHUẨN BỊ CHO ĐIỀU TỆ NHẤT: Nhóm người sáng lập có thể đổ vỡ bất kỳ lúc nào. Công ty bạn có thể là ngoại lệ; nhưng hãy đề phòng, và yêu cầu mọi người (kể cả bạn) chỉ nhận cổ phần theo từng giai đoạn, để ngăn ngừa việc ai đó chỉ sau chưa đầy bốn năm, có thể ra đi cùng số lượng lớn cổ phần.
+
+Tạo ra điều ý nghĩa
+
+Bây giờ bạn đã có câu trả lời cho các câu hỏi đơn giản, điểm thành công, những tâm hồn đồng điệu và niềm tin rằng bạn chắc chắn thành công. Hãy tự làm thêm một bài kiểm tra: Liệu startup của bạn có tạo ra thứ gì có ý nghĩa không? Có ý nghĩa không phải là có tiền, quyền lực hay danh tiếng. Có ý nghĩa cũng không phải là tạo ra nơi làm việc thú vị với đồ ăn miễn phí, bóng bàn, bóng chuyền và thú cưng. Có ý nghĩa là xây dựng một thế giới tốt đẹp hơn.
+
+“Chắc rằng bạn cũng sẽ thu được lợi nhuận nếu bạn tạo ra điều ý nghĩa.”
+
+Đây là một câu hỏi khó khi bạn là hai chàng trai/ cô gái trong một garage đang cố gắng viết một phần mềm hay tự tay làm ra món đồ gì đó, tương tự như việc khó để hiểu được làm thế nào một hạt sồi phát triển thành cây sồi to lớn. Nếu, ngay cả trong giấc mơ hoang dại nhất của mình, bạn không thể tưởng tượng rằng startup của bạn sẽ khiến thế giới trở thành một nơi tốt đẹp hơn, thì có lẽ bạn không phải đang khởi sự một công ty xoay – chuyển – trái đất.
+
+Điều này không sao, vì không có nhiều công ty có thể làm xoay chuyển trái đất. Và trong số những công ty như vậy, có rất ít được xác định để làm điều đó ngay từ đầu. Nhưng dù sao đi nữa, tôi vẫn muốn bạn mơ lớn. Khi những công ty khổng lồ ngày nay mới một tuổi đời, rất ít người dự đoán được sự thành công và ý nghĩa mà chúng tạo ra. Hãy tin tôi, chắc rằng bạn cũng sẽ thu được lợi nhuận nếu bạn tạo ra điều ý nghĩa.
+
+Tạo ra “MANTRA” – Câu thần chú thương hiệu
+
+Bước tiếp theo là tạo ra một câu thần chú thương hiệu gồm ba đến bốn từ để giải thích ý nghĩa mà startup của bạn đang muốn tạo ra. Đối với các startup, định nghĩa “mantra” trong American Heritage Dictionary of the English Language là hoàn hảo:
+
+“Một cụm từ thiêng liêng được lặp đi lặp lại khi cầu nguyện, thiền định, niệm chú, như những lời cầu thánh thần, cầu điều nhiệm mầu, hoặc các câu từ có chứa khả năng huyền diệu.”
+
+Sau đây là 5 ví dụ (một số là giả thuyết) minh họa cho sức mạnh của một thần chú thương hiệu tốt trong việc truyền tải ý nghĩa của doanh nghiệp:
+
+• Authentic athletic performance – Thành tích thể thao đích thực (Nike)1
+
+• Fun family entertainment – Giải trí vui vẻ cùng gia đình (Disney)2
+
+• Rewarding everyday moments – Tận hưởng từng khoảnh khắc mỗi ngày (Starbucks)3
+
+• Democratize commerce – Dân chủ hóa thương mại (eBay)
+
+• Empower craftspeople – Trao quyền lực cho các nghệ nhân (chợ hàng thủ công online Etsy)
+
+1 Scott Bedbury, A New Brand World: Eight Principles for Achieving Brand Leadership in the Twenty-First Century – Một thế giới thương hiệu mới: Tám nguyên tắc tạo lập thương hiệu dẫn đầu trong thế kỷ 21 (New York: Viking, 2002), trang 51.
+
+2 Cùng sách trên, trang 52.
+
+3 Cùng sách trên, trang 53.
+
+Những ví dụ trên minh họa 3 tiêu chí quan trọng nhất của một thần chú thương hiệu:
+
+• SỰ NGẮN GỌN: Các câu thần chú thương hiệu thường ngắn gọn, mềm mại và dễ nhớ (Câu thần chú ngắn nhất là một từ trong tiếng Hindi “Om”). Những tuyên bố về sứ mệnh thường dài, đôi khi khó hiểu, và dễ quên. Từ CEO cho tới nhân viên lễ tân, mọi người đều phải biết nó. Hãy so sánh tính hiệu quả mà câu thần chú thương hiệu của Starbucks mang lại: “Hãy tận hưởng từng khoảnh khắc mỗi ngày”, với tuyên bố sứ mệnh của chính nó: “Thành lập Starbucks như một nhà cung cấp hàng đầu loại cà phê tốt nhất trên thế giới trong khi vẫn duy trì những nguyên tắc không thỏa hiệp trên đà phát triển”. Tôi kết thúc vấn đề ở đây.
+
+Câu “Thành tích thể thao đích thực” tốt hơn nhiều so với câu “Bán rất nhiều giày được sản xuất ở Trung Quốc”.
+
+• TÍNH TÍCH CỰC: Những thần chú thương hiệu thường ấn tượng và giải thích startup của bạn làm thế nào để thế giới tốt đẹp hơn. Câu “Thành tích thể thao đích thực” tốt hơn nhiều so với câu “Bán rất nhiều giày được sản xuất ở Trung Quốc”.
+
+• HƯỚNG NGOẠI: Câu thần chú thương hiệu thể hiện những gì bạn làm cho khách hàng và xã hội. Nó không có tính ích kỷ và phục vụ cho bản thân bạn. “Làm giàu” là phản đề của một câu thần chú thương hiệu. Chắc chắn khách hàng muốn “dân chủ hóa thương mại” (như eBay) nhưng họ không hề quan tâm đến việc làm cho bạn và cổ đông của bạn trở nên giàu có.
+
+BÀI TẬP
+
+Viết ra câu thần chú thương hiệu dành cho startup của bạn:
+
+.....................................................................................................
+
+BÀI TẬP
+
+Hãy nghĩ bạn sẽ phục vụ khách hàng của mình thế nào? Startup của bạn tạo ra ý nghĩa gì?
+
+BÀI TẬP
+
+Ba mẹ bạn hoặc lễ tân công ty sẽ trả lời thế nào nếu ai đó hỏi startup của bạn làm gì?
+
+Lựa chọn mô hình kinh doanh
+
+Có lẽ bạn sẽ thay đổi mô hình kinh doanh của mình một vài lần nữa vì vậy bạn không cần phải đưa ra quyết định chính xác ngay từ ban đầu. Tuy nhiên, bắt đầu thảo luận điều này rất quan trọng vì nó đặt mọi người vào thế phải suy nghĩ để kiếm tiền. Tất cả các thành viên nên hiểu rằng startup hoặc kiếm được tiền hoặc diệt vong.
+
+Một mô hình kinh doanh tốt buộc bạn trả lời 2 câu hỏi sau:
+
+• Thứ nhất: Ai giữ “tiền của bạn” trong “túi của họ”?
+
+• Thứ hai: Làm thế nào để bạn đem nó về “túi của bạn”?
+
+Những câu hỏi này có vẻ thiếu tế nhị nhưng quá trình kiếm tiền cũng đâu tế nhị gì. Nói một cách nhẹ nhàng hơn thì câu hỏi thứ nhất liên quan đến việc xác định khách hàng của bạn và nhu cầu của họ, câu hỏi thứ hai yêu cầu bạn phải tìm ra mô hình kinh doanh để đảm bảo rằng doanh thu cao hơn chi phí.
+
+Những mô hình kinh doanh tốt nhất mà tôi có thể tìm thấy nằm trong The Art of Profitability – Nghệ thuật của khả năng sinh lợi của Adrian Slywotzky. Sau đây là một vài mô hình yêu thích của tôi từ cuốn sách của ông ấy:
+
+• GIẢI PHÁP ĐƯỢC CÁ NHÂN HÓA: Mô hình này đòi hỏi việc đào sâu vào các vấn đề của khách hàng và làm những gì cần thiết khiến cho họ hạnh phúc. Qua thời gian, một startup có thể có những mối quan hệ sâu sắc với các doanh nghiệp khác và đạt được doanh số ấn tượng, nhưng mỗi khách hàng mới vẫn cần sự cạnh tranh gay gắt (Slywotzky gọi đây là “giải pháp khách hàng”).
+
+• ĐA THÀNH PHẦN: Theo Slywotzky, Coca Cola tiêu biểu cho mô hình này. Coca Cola được bày bán ở các siêu thị, cửa hàng tiện lợi, nhà hàng và máy bán hàng tự động. Sản phẩm giống nhau được tiêu thụ ở những môi trường kinh doanh khác nhau với giá khác nhau.
+
+• DẪN ĐẦU THỊ TRƯỜNG: Apple đại diện cho mô hình này. Một doanh nghiệp dẫn đầu thị trường làm ra những sản phẩm sáng tạo tuyệt vời nhất. Việc đạt được vị trí này cho phép một startup kiếm được tối đa từ các sản phẩm của họ, nhưng họ phải nỗ lực cực, cực nhiều để đạt và duy trì được vị trí này.
+
+“Con gái tôi đã từng chi đến 2.000 đô-la cho những vật phẩm trong một trò chơi trên iPhone, vì vậy tôi biết điều này là có thể.”
+
+• THÀNH PHẦN THIẾT YẾU: Intel và Dolby không bán sản phẩm trực tiếp cho khách hàng nhưng các sản phẩm của họ là những thành phần thiết yếu trong những thiết bị mà khách hàng sử dụng. Intel cung cấp chip máy tính cho các công ty phần cứng. Dolby cung cấp công nghệ nén âm thanh và công nghệ giảm tiếng ồn cho các nhà sản xuất âm thanh và video.
+
+• TỔNG ĐÀI: Slywotzky dùng thuật ngữ này để mô tả một công ty như De Beers, khi nó kiểm soát nguồn cung kim cương trên toàn thế giới. Mô hình này có một vài thách thức: Đạt được việc kiểm soát nguồn cung và thuyết phục mọi người rằng việc kiểm soát này là xứng đáng và không trở thành mục tiêu cho những nghi ngờ.
+
+• MÁY IN VÀ HỘP MỰC: Đây là việc bán các sản phẩm mà chúng luôn cần được nạp thêm. Dù cho đó là máy in của HP, máy pha cà phê của Keurig, máy làm soda của SodaStream, thì việc bán hàng không phải là điểm kết thúc mà là một chuỗi doanh thu cho suốt vòng đời sản phẩm. Điều này có thể áp dụng cho các startup kinh doanh phần mềm, sau đó tính phí nâng cấp, dịch vụ và hỗ trợ. Slywotzky gọi đây là mô hình “hậu mãi”.
+
+Ngoài ra cũng có một vài mô hình khác rất thú vị như sau:
+
+• MIỄN PHÍ LÚC ĐẦU: Đây là việc cung cấp miễn phí các dịch vụ trong chừng mực nào đó, như khi khách hàng muốn có thêm các chức năng hoặc muốn bỏ quảng cáo thì họ phải trả tiền. Ví dụ như Evernote cho phép lưu trữ thông tin trên đám mây miễn phí, nhưng nếu chúng ta muốn dung lượng lớn hơn hoặc nhiều chức năng hơn thì phải trả phí 45 đô-la một năm.
+
+• NHÃN CẦU: Đây là việc cung cấp một nền tảng online để tạo ra hay chia sẻ nội dung nhằm thu hút người dùng. Mục tiêu là các nhãn hàng, những người cũng muốn tiếp cận nhóm người dùng này, và bạn có thể bán quảng cáo hoặc thu hút tài trợ từ nền tảng đó. Facebook và Huffington Post là những ví dụ của mô hình kinh doanh này.
+
+• HÀNG ẢO: Hãy tưởng tượng việc thu tiền từ việc bán các mã code mà không phải tốn phí lưu kho hay vận chuyển – những thứ như hoa ảo, kiếm ảo, và các vật dụng khác cho các thành viên của một cộng đồng mạng. Đây là nghề kinh doanh hàng ảo. Con gái tôi đã từng chi đến 2.000 đô-la cho những vật phẩm trong một trò chơi trên iPhone, vì vậy tôi biết điều này là có thể.
+
+• THỢ THỦ CÔNG: Hãng nội thất Thomas Moser là một ví dụ của mô hình này. Đây là một loại startup đặt ưu tiên hàng đầu cho chất lượng và sự khéo tay. Công ty có thể không lớn nhưng là tốt nhất trong lĩnh vực của mình… mặc dù với chợ thủ công rộng lớn như Etsy, bạn có thể không biết đến Thomas Moser.
+
+Có lẽ bạn sẽ thường xuyên điều chỉnh mô hình kinh doanh của mình – và thực sự rất đáng lo nếu bạn không thay đổi hoặc thay đổi quá lớn. Một vài lời khuyên nữa sau đây sẽ giúp bạn trong quá trình xây dựng mô hình kinh doanh:
+
+• XÁC ĐỊNH THỊ TRƯỜNG NGÁCH: Bạn mô tả khách hàng của mình càng cụ thể càng tốt. Nhiều doanh nhân e sợ việc tập trung quá hẹp hoặc quá cụ thể sẽ không mang lại tầm ảnh hưởng rộng lớn. Tuy nhiên những công ty thành công nhất cũng khởi đầu với việc tập trung vào một hoặc hai trị trường rồi trở nên lớn mạnh (thường là bất ngờ) bằng cách tiếp cận những thị trường khác.
+
+• DUY TRÌ SỰ ĐƠN GIẢN: Nếu bạn không thể mô tả mô hình kinh doanh của bạn trong 10 từ hoặc ít hơn thì bạn đang có một mô hình không tốt. Hãy tránh các biệt ngữ kinh tế nhàm chán (chiến lược, sứ mệnh tối thượng, tầm vóc toàn cầu, hợp lực, người tiên phong, có thể vươn cao, hạng thương gia…).1
+
+1 Lấy cảm hứng từ Michael Shermer, Why People Believe Weird Things – Tại sao người ta tin những thứ kỳ quặc (New York: A. W. H. Freeman, 2002), trang 49.
+
+Ngôn ngữ kinh doanh không tạo ra mô hình kinh doanh. Hãy nghĩ về mô hình của eBay: Chỉ mất một khoản phí yết hàng cộng với tiền hoa hồng. Đơn giản thế thôi.
+
+• LÀM THEO NGƯỜI KHÁC: Việc kinh doanh đã có từ lâu rồi, vì vậy cho tới nay người ta đã sáng tạo ra gần như mọi mô hình kinh doanh. Bạn có thể sáng tạo về công nghệ, marketing, phân phối nhưng nỗ lực để đưa ra một mô hình kinh doanh mới thực sự là một sự đánh cược ngu ngốc. Hãy cố gắng liên hệ mô hình của bạn với một mô hình đã thành công và được hiểu rõ. Bạn còn phải đối mặt với vô số trận chiến khác.
+
+• MỞ RỘNG: Mô hình kinh doanh nào tạo ra cái bánh lớn hơn thay vì chiếm phần nhiều trong cái có sẵn sẽ tốt hơn cho startup. Điều này là vì khách hàng mong muốn được khám phá những sản phẩm có tính sáng tạo, ấn tượng và ít bị thu hút bởi những thứ giông giống nhau hay chỉ tốt hơn chút ít từ những startup khác.
+
+BÀI TẬP
+
+Bước 1: Hãy tính toán chi phí vận hành hàng tháng của công ty bạn.
+
+Bước 2: Hãy tính toán tổng lợi nhuận của mỗi đơn vị sản phẩm.
+
+Bước 3: Hãy chia kết quả của bước 1 cho kết quả của bước 2.
+
+Lập sơ đồ MATT (Milestones – Assumptions – Tests – Tasks)
+
+Theo American Heritage Dictionary of the English Language thì mat là “một tấm lưới nặng được làm từ những sợi thừng hoặc cáp để ngăn các mảnh vỡ văng ra trong một vụ nổ”. Ngăn không để sót những điều quan trọng là cần thiết cho những startup vì các doanh nhân cần làm nhiều thứ cùng lúc. Để có thể kiểm soát được, bạn cần tạo ra một sơ đồ MATT, viết tắt của Milestones (các mục tiêu quan trọng) – Assumptions (các giả định) – Tests (các thử nghiệm) – Tasks (các nhiệm vụ).1
+
+1 Lấy cảm hứng từ bài báo “Discovery – Driven Planning” – “Lập kế hoạch có tính khám phá” của Rita Gunther McGrath và Ian C. MacMillan trên tạp chí Harvard Business Review, số tháng 7 – 8 năm 1995.
+
+• CÁC MỤC TIÊU QUAN TRỌNG: Hoàn thành số lượng lớn các mục tiêu là mục đích cho mọi startup. Tuy nhiên, một số mục tiêu sẽ đứng trên các mục tiêu khác vì chúng đánh dấu những bước tiến quan trọng trên con đường dẫn đến thành công. Có 5 mục tiêu quan trọng nhất là:
+
+– Tạo ra sản phẩm mẫu
+
+– Có được nguồn vốn ban đầu
+
+– Có được phiên bản sản phẩm có thể thử nghiệm trên thị trường
+
+– Có khách hàng trả tiền
+
+– Đạt đến điểm hòa vốn
+
+Có một số yếu tố khác ảnh hưởng đến sự sống còn của một doanh nghiệp, nhưng không cái nào quan trọng bằng những mục tiêu trên. Tiến độ của nó thúc đẩy tiến độ của mọi thứ khác, vì thế bạn nên dành 80% nỗ lực cho chúng.
+
+• CÁC GIẢ ĐỊNH: Sau đây là các giả định quan trọng mà bạn cần có cho việc kinh doanh của mình:
+
+– Kích cỡ thị trường
+
+– Tỷ suất lợi nhuận gộp biên
+
+– Số cuộc gọi bán hàng của mỗi nhân viên kinh doanh
+
+– Chi phí tiếp cận khách hàng
+
+– Tỷ lệ khách hàng tiềm năng trở thành khách hàng thực thụ
+
+– Độ dài của chu kỳ bán hàng
+
+– Tỷ lệ lợi nhuận so với chi phí đầu tư cho khách hàng
+
+– Số các cuộc gọi hỗ trợ kỹ thuật cho mỗi đơn hàng được giao
+
+– Chu kỳ thanh toán cho các khoản thu và khoản nợ
+
+Việc thảo luận và ghi lại tất cả những đánh giá trên ngay từ đầu rất quan trọng vì chúng là những kiểm nghiệm thực tế cho khả năng thành công của doanh nghiệp. Ví dụ như bạn ước lượng chu kỳ bán hàng kéo dài khoảng 4 tuần nhưng thực tế bạn thấy nó kéo dài đến một năm thì chắc chắn bạn sẽ gặp khó khăn về dòng tiền mặt.
+
+• CÁC THỬ NGHIỆM: Bạn có thể lập được một danh sách chắc chắn các giả định, nhưng mọi thứ mới chỉ là lý thuyết cho đến khi bạn bắt đầu thử nghiệm chúng:
+
+– Liệu chi phí tiếp cận khách hàng có cho phép hoạt động có lợi nhuận hay không?
+
+– Mọi người sẽ sử dụng sản phẩm của bạn chứ?
+
+– Bạn có đủ tiền để hỗ trợ họ hay không?
+
+– Sản phẩm của bạn có bền bỉ trong thực tế hay không?
+
+• CÁC NHIỆM VỤ: Cuối cùng là những nhiệm vụ cần thiết để đạt được các mục tiêu và kiểm tra lại những đánh giá. Bất kỳ hoạt động nào không góp phần vào việc đạt được mục tiêu đều không thiết yếu và nên ở mức độ ưu tiên thấp. Những nhiệm vụ cần thiết bao gồm:
+
+– Đào tạo nhân viên
+
+– Tìm nhà bán hàng
+
+– Thiết lập hệ thống kế toán và hệ thống trả lương
+
+– Lưu trữ hồ sơ sổ sách
+
+Điểm quan trọng của danh sách này là giúp bạn hiểu và coi trọng tính tổng thể của những việc mà startup của bạn phải hoàn thành, đồng thời ngăn chặn những điều quan trọng có thể bị bỏ qua trong những ngày đầu thường háo hức.
+
+Một khi bạn đã có được sơ đồ MATT, những bước tiếp theo là truyền đạt nó tới toàn công ty, thực hiện những sửa đổi, bắt đầu áp dụng và kiểm soát kết quả. Trong tất cả mọi thứ, sơ đồ MATT của bạn không phải là điều để sáng tạo cho có và không bao giờ tham khảo nó. Đó là bản tóm tắt được đưa vào áp dụng và thay đổi.
+
+Hãy giữ mọi thứ sạch sẽ và đơn giản
+
+Bạn sẽ phải đối mặt hàng trăm quyết định trong quá trình khởi nghiệp, và có những cám dỗ chạy theo chúng, đôi khi bằng cách phá vỡ nền tảng mới. Tuy nhiên, tốt nhất là bạn nên tập trung năng lượng và sự chú tâm vào những mục tiêu của mình. Đối với những thứ khác, hãy để nó trôi đi và đánh dấu lên sơ đồ MATT bằng cách giữ cho mọi thứ sạch sẽ và đơn giản. Kinh nghiệm và sự hiểu biết của tôi là về những công ty Mỹ, nhưng những điều sau đây cũng được chấp nhận trong những hoạt động kinh doanh nói chung:
+
+“Ở Mỹ, nếu mục tiêu của bạn là tạo ra một Google kế tiếp, có nghĩa là bạn muốn tạo ra một doanh nghiệp dạng Delaware C.”
+
+• CẤU TRÚC DOANH NGHIỆP: Mỗi nước có những loại hình doanh nghiệp khác nhau, ví dụ như tập đoàn, công ty hợp danh, công ty trách nhiệm hữu hạn và các hợp tác xã. Bạn nên xây dựng một cấu trúc doanh nghiệp với ba đặc điểm sau: thứ nhất là nó quen thuộc đối với những nhà đầu tư; thứ hai là có thể bán được cho những công ty khác hoặc đưa lên thị trường chứng khoán; thứ ba là có thể đem lại những khuyến khích về tài chính cho nhân viên.
+
+Ở Mỹ, nếu mục tiêu của bạn là tạo ra một Google kế tiếp, có nghĩa là bạn muốn tạo ra một doanh nghiệp dạng Delaware C. Đây là một mô hình công ty trả thuế riêng biệt có nhận sự đầu tư từ bên ngoài và có thể phát hành nhiều dạng cổ phần khác nhau. Những người sở hữu không phải chịu trách nhiệm cá nhân cho các khoản nợ và các vấn đề pháp lý của công ty. Các khoản lỗ không được chuyển qua cho những người sở hữu.1
+
+1 Bang Delaware là thiên đường kinh doanh trong lòng nước Mỹ vì quy định lỏng lẻo về thuế của mình. (ND)
+
+Nếu mục tiêu của bạn là tạo ra một doanh nghiệp nhỏ mà không phải tìm kiếm nguồn vốn mạo hiểm và bạn không muốn phát hành cổ phiếu ra công chúng, hãy xem xét các mô hình như “công ty S”, công ty trách nhiệm hữu hạn, hoặc công ty tư nhân.1
+
+1 Theo luật Mỹ, “công ty S” không phải trả thuế thu nhập mà các khoản thu nhập hoặc lỗ sẽ được chuyển cho các cổ đông và họ sẽ khai với cơ quan thuế như khoản thu nhập hoặc lỗ của riêng họ. (ND)
+
+• TÀI SẢN TRÍ TUỆ: Một startup nên sở hữu các tài sản trí tuệ của nó một cách rõ ràng. Điều này có nghĩa là sẽ không có kiện tụng hoặc các nguy cơ pháp lý với các cựu lãnh đạo trước đó và không phải trả các khoản phạt do vi phạm bằng phát minh của người khác.
+
+Tương tự như thế, các tài sản trí tuệ và giấy phép nên thuộc về công ty chứ không phải là người sáng lập. Điều này sẽ giúp bạn tránh được tình huống người đồng sáng lập bất hòa với bạn, rời khỏi công ty và mang theo bằng phát minh của anh ta – việc này sẽ làm tê liệt công ty.
+
+• CẤU TRÚC VỐN: Điều này nói về sự sở hữu startup. Có 4 dấu hiệu cảnh báo, chúng đều thuộc về kiểu “Nếu tôi biết sẽ như thế này, thì bây giờ tôi đã rất giàu có và nổi tiếng”, như sau:
+
+– Một vài nhà sáng lập sở hữu phần lớn công ty và không muốn mở rộng quyền sở hữu cho các nhân viên khác.
+
+– Một nhóm nhỏ các nhà đầu tư không muốn phân tán sự sở hữu để có được quyền kiểm soát phần lớn công ty.
+
+– Một nhóm nhỏ các nhà đầu tư khiến cho việc quản lý các cổ đông trở thành công việc nặng nề và chậm chạp.
+
+– Việc định giá trị quá cao trước kia không thu hút được các nhà đầu tư mới.
+
+• LÝ LỊCH CỦA CÁC THÀNH VIÊN: Một vài điều cần quan tâm là việc các lãnh đạo cao cấp kết hôn với nhau hoặc có quan hệ họ hàng. Họ cũng có thể là những người bạn ở vị trí cao không còn tin nhau hoặc họ có dính dáng đến pháp luật. Đây là những tín hiệu cho thấy startup của bạn không phải là một nơi bình yên.
+
+• SỰ TUÂN THỦ PHÁP LUẬT: Điều này liên quan đến luật pháp và các quy định, việc không trả thuế, hoặc các vấn đề pháp lý với những nhà đầu tư không đủ năng lực. Những rắc rối liên quan tới pháp luật thường cho thấy việc quản lý không rõ ràng hoặc cố tình lách luật. Cả hai đều không thể chấp nhận được và sẽ cản trở sự phát triển.
+
+Nhiều chuyên gia đã viết không ít sách về 5 chủ đề này, vì vậy đừng đưa ra quyết định nếu chỉ dựa vào những giải thích ngắn gọn của tôi cho những vấn đề phức tạp như vậy. Đây là những lĩnh vực mà bạn cần đọc để biết những thiếu sót của mình, từ đó có thể tìm được những chuyên gia, những người sẽ giúp bạn.
+
+Hãy biết xấu hổ
+
+Nếu bạn không cảm thấy xấu hổ bởi phiên bản đầu tiên của sản phẩm mình tạo, bạn đã tung nó ra quá trễ.
+
+– Reid Hoffman
+
+Khi tôi đọc lại cuốn sách đầu tiên của mình, cuốn The Macintosh Way, tôi thấy xấu hổ vì sự thô sơ của nó. Khi tôi nhớ lại chiếc Macintosh đầu tiên, tôi thấy xấu hổ vì nó không đủ phần mềm, không đủ bộ nhớ đệm (Ram), bộ nhớ quá nhỏ và tốc độ quá chậm. Khi bạn nhìn lại phiên bản đầu tiên của sản phẩm mình tạo, bạn cũng có thể cảm thấy xấu hổ. Điều đó là bình thường. Nó xảy ra với tất cả mọi người. Phiên bản đầu tiên của sản phẩm thì luôn chưa hoàn thiện, nhưng cách nó thay đổi cũng quan trọng như cách nó bắt đầu. Những startup thành công và tồn tại vì cuối cùng họ đã khiến sản phẩm và mô hình kinh doanh ngày càng tốt hơn, vì vậy hãy thả lỏng bản thân.
+
+Phụ trương
+
+Tiểu chương: Làm thế nào để phân biệt người hỗ trợ bạn với người cản trở bạn
+
+Từng có câu chuyện về hai tiến sĩ kỹ thuật, chỉ biết viết code mà chẳng biết gì về khởi nghiệp, khao khát kiếm tiền và mong được hỗ trợ từ người giàu kinh nghiệm đến nỗi khi một doanh nhân bày tỏ sự quan tâm và đề nghị giúp đỡ, họ – theo lời của chính họ – theo ông ta như “cún con”. Tuy nhiên ông này lại không biết nhiều về khởi nghiệp công nghệ và đã khiến cho họ phạm nhiều sai lầm về tài chính và pháp lý. Cuối cùng họ chia tay sau những tranh cãi nặng nề và những chi phí đáng kể để sửa chữa những sai lầm.
+
+“Những lãnh đạo doanh nghiệp giàu kinh nghiệm, thành công và tài ba có thể không biết những điều cơ bản của khởi nghiệp và đầu tư mạo hiểm.”
+
+Đây không phải là một câu chuyện hiếm hoi và là điều có thể hiểu được. Những người khởi nghiệp đang tìm kiếm sự hỗ trợ tích cực, sự ủng hộ và các lời khuyên, vì vậy họ chụp ngay những tín hiệu quan tâm đầu tiên. Nhu cầu được hỗ trợ bởi những người có kinh nghiệm với vai trò là nhà tư vấn, thành viên ban quản trị hoặc các nhà đầu tư, là rất lớn nên bạn khả năng sẽ gặp phải những người có thể chưa được thử thách cho những vị trí này. Điều này tương tự như trong một buổi dạ hội, nếu không có ai khiêu vũ cùng bạn thì bạn sẽ khiêu vũ với người đầu tiên mời bạn.
+
+Những người từng khởi sự công ty riêng của họ hoặc đã làm việc ở một công ty trước khi nó bán cổ phần ra công chúng lần đầu (IPO) có thể đưa ra những lời khuyên tốt, ngược lại là những người chưa bao giờ khởi nghiệp hoặc chỉ tham gia một công ty sau khi nó bán cổ phần ra công chúng. Có những lãnh đạo doanh nghiệp giàu kinh nghiệm, thành công và tài ba nhưng lại không biết những điều cơ bản về khởi nghiệp và đầu tư mạo hiểm.
+
+Ví dụ như, theo bạn, một phó chủ tịch cao cấp của Microsoft, xuất thân từ McKinsey1, biết được bao nhiêu về khởi nghiệp? Sau đây là một bài kiểm về EQ (Entreprenuer’s Quotient – chỉ số doanh nhân) để giúp bạn phân biệt người có thể giúp bạn với người cản trở bạn. Những câu hỏi này sẽ giúp bạn xác định được các nhà tư vấn, các thành viên ban quản trị và các nhà đầu tư tốt (nếu bạn đủ may mắn để có thể được chọn nhà đầu tư).
+
+1 Tập đoàn hàng đầu thế giới về lĩnh vực tư vấn chiến lược kinh doanh. (ND)
+
+Câu 1: Chúng tôi nên thành lập loại doanh nghiệp gì?
+
+Câu trả lời tốt: Công ty kiểu C (nếu mục tiêu là tạo ra một Google mới).
+
+Câu 2: Chúng tôi nên lập công ty ở bang nào?
+
+Câu trả lời tốt: Bang Delaware.
+
+Câu 3: Nhà đầu tư của chúng tôi có cần phải được công nhận không?
+
+Câu trả lời tốt: Có.
+
+Câu trả lời không tốt: Không.
+
+Câu 4: Hai nhà sáng lập có nên chia cổ phần của công ty làm hai không?
+
+Câu trả lời tốt: Không. Bạn nên dành 25% cổ phần cho các nhân viên trong tương lai, 35% cho hai vòng huy động vốn đầu tiên. Và 40% còn lại cho những nhà sáng lập để chia nhau.
+
+Câu 5: Chúng tôi nên bán cổ phiếu đại chúng hay cổ phiếu ưu tiên cho các nhà đầu tư?
+
+Câu trả lời tốt: Cổ phiếu ưu tiên.
+
+Câu 6: Tất cả các thành viên bao gồm cả các nhà sáng lập có nên nhận cổ phần theo giai đoạn?
+
+Câu trả lời tốt: Có. Mọi người nên nhận theo giai đoạn bởi vì bạn hẳn không muốn một nhà sáng lập ra đi với tỷ lệ cổ phần quan trọng chỉ sau vài tháng.
+
+Câu 7: Chúng tôi có nên trả cho những nhà tư vấn bằng cổ phiếu?
+
+Câu trả lời tốt: Không. Cổ phiếu là dành cho những người gắn bó lâu dài chứ không phải những nhà tư vấn ngắn hạn. Nếu bạn không đủ tiền trả cho các nhà tư vấn, hãy tự làm lấy.
+
+Câu 8: Có nên vay ngân hàng để khởi nghiệp hay không?
+
+Câu trả lời tốt: Không. Giả sử đó là một công ty công nghệ. Các công ty công nghệ không có các tài sản dễ chuyển đổi thành tiền mặt để có thể cầm cố được.
+
+Câu 9: Có nên dùng ngân hàng đầu tư, các nhà môi giới, hoặc những người săn lùng để huy động vốn cơ bản không?
+
+Câu trả lời tốt: Không. Những nhà đầu tư chân thành không tin những doanh nhân khởi nghiệp sử dụng ngân hàng, người môi giới hoặc những người săn lùng để huy động vốn cơ bản.
+
+Câu 10: Chúng tôi có cần vẽ ra doanh thu trong 5 năm nữa để thu hút các nhà đầu tư hay không?
+
+Câu trả lời tốt: Không. Không nhà đầu tư nào tin vào những giả thuyết, trừ khi những giả thuyết này dựa trên những thành công thực tế đã được mọi người ghi nhận. Tương tự như vậy, bạn cũng đừng nhận nguồn tiền từ những nhà đầu tư tin vào viễn cảnh bạn vẽ ra, vì họ rất mơ hồ.
+
+Câu 11: Kế hoạch kinh doanh của chúng tôi nên dài bao nhiêu?
+
+Câu trả lời tốt: Bạn đừng viết ra kế hoạch kinh doanh. Hãy tìm kiếm khách hàng.
+
+Câu trả lời không tốt: Không.
+
+Câu 12: Có nhà tư vấn có kinh nghiệm nào khác mà ông/bà có thể giới thiệu cho tôi?
+
+Câu trả lời tốt: Dĩ nhiên khả năng chuyên môn của tôi còn hạn hẹp nhưng hãy để tôi đưa ra cho bạn một danh sách những người tiềm năng.
+
+Câu trả lời không tốt: Bạn không cần ai khác đâu, tôi biết mọi thứ bạn cần.
+
+Câu 13: Chúng tôi có cần một CEO thực thụ không?
+
+Câu trả lời tốt: Có thể, nhưng vào một lúc nào đó chứ không phải ngay bây giờ. Điều bạn thực sự cần bây giờ là một sản phẩm tuyệt vời.
+
+Câu 14: Tôi có cần sử dụng những người “săn đầu người” (headhunter) để đào tạo nhân viên không?
+
+Câu trả lời tốt: Không, ở giai đoạn này, bạn không có tiền và không thể dùng số vốn ít ỏi chi trả cho việc này.
+
+Câu 15: Chúng tôi nên nói gì với các nhà đầu tư khi họ hỏi về giá trị của công ty?
+
+Câu trả lời tốt: Hãy tìm hiểu xem ba hoặc bốn nhà đầu tư nghĩ gì, rồi tìm kiếm thêm sự thu hút thị trường để đẩy nó lên.
+
+Câu trả lời không tốt: “Định giá công ty thật cao rồi đàm phán thấp xuống” hoặc “Định giá thấp rồi đàm phán nâng lên”.
+
+Câu 16: Ông/bà nghĩ gì về KPI (chỉ số đánh giá hiệu quả công việc) cho công ty chúng tôi?
+
+Câu trả lời tốt: Tùy thuộc vào lĩnh vực và loại hình doanh nghiệp của bạn.
+
+Câu trả lời không tốt: KPI là gì?
+
+Câu 17: Làm thế nào tôi có thể tạo ra sự quan tâm?
+
+Câu trả lời tốt: Tạo ra điều gì đó tuyệt vời và sử dụng mạng xã hội.
+
+Câu 18: Ngân quỹ quảng cáo của chúng tôi nên là bao nhiêu?
+
+Câu trả lời tốt: Không đồng nào cả – hãy sử dụng mạng xã hội.
+
+Một lần nữa những câu hỏi này lại liên quan đến các công ty ở Mỹ với những tham vọng kiểu Google, nhưng những câu hỏi tương tự có thể áp dụng cho những môi trường khác. Hãy tránh xa những người muốn khuyên bạn nhưng lại không trả lời được phần lớn các câu hỏi trên.
+
+FAQ1
+
+1 Frequently Avoided Questions – Những câu hỏi nên tránh. (ND)
+
+Câu hỏi: Tôi thừa nhận rằng tôi sợ. Tôi không dám bỏ công việc hiện tại. Đó có phải là dấu hiệu cho thấy tôi không có điều dẫn dắt đến thành công?
+
+Câu trả lời: Điều đó chẳng có ý nghĩa gì. Bạn nên sợ. Sẽ không bình thường nếu bạn không sợ gì cả. Nỗi sợ của bạn không phải là dấu hiệu cho thấy bạn không thể thành công. Khi khởi đầu, mọi doanh nhân đều sợ hãi. Chỉ là một số người tự lừa bản thân còn những người khác thì không mà thôi.
+
+Bạn có thể vượt qua nỗi sợ bằng hai cách. Cách thứ nhất, hãy dùng phương pháp cảm tử để lao vào công việc và mỗi ngày cố gắng tạo ra một chút thành quả. Một ngày kia, khi thức dậy, bạn sẽ thấy mình không còn sợ nữa – hay chí ít cũng là một nỗi sợ hoàn toàn mới.
+
+Thứ hai, bạn có thể bắt đầu bằng cách sáng tạo vào ban đêm, cuối tuần hay trong các ngày nghỉ. Hãy cố gắng hết sức, tìm kiếm những dấu hiệu thành công và rồi tạo ra bước ngoặt. Hãy tự hỏi bản thân rằng điều gì tệ nhất có thể xảy ra. Có lẽ cũng không quá tệ nhỉ?!
+
+Câu hỏi: Tôi có nên chia sẻ những ý tưởng bí mật của tôi với bất kỳ ai ngoài cún cưng không?
+
+Câu trả lời: Điều duy nhất tệ hơn một doanh nhân hoang tưởng là một doanh nhân hoang tưởng nói chuyện với cún cưng của anh ta.
+
+Sự phản hồi, sự kết nối, và các cơ hội bán hàng – bạn sẽ được nhiều hơn là mất khi chia sẻ ý tưởng của mình với nhiều người.
+
+Tương tự vậy, nếu việc thảo luận làm ý tưởng của bạn không còn bí mật nữa, thì hãy nhớ rằng lúc đầu bạn chẳng có gì ngoài ý tưởng. Có ý tưởng thì dễ, thực hiện mới khó. Quan điểm của tôi là một người càng giấu ý tưởng bao nhiêu thì ý tưởng đó càng ít khả năng thành công bấy nhiêu. Sau vài thập kỷ làm việc với những startup ở Thung lũng Silicon, tôi chưa bao giờ nghe thấy công ty nào ăn cắp ý tưởng mà áp dụng nó được thành công.
+
+Câu hỏi: Tôi nên hành động một mình bao lâu trước khi nói với mọi người về những việc tôi đang làm?
+
+Câu trả lời: Hãy nói ngay. Bởi bằng cách đó, bạn sẽ liên tục nghiền ngẫm ý tưởng của mình – cả cho những công việc trước mắt và sau này. Bạn nói với càng nhiều người thì các ý tưởng của bạn càng phong phú hơn. Nói một cách hình tượng là nếu chính bạn nhìn xuống rốn mình, bạn chỉ có thể nhìn thấy một mớ vải áo lòe xòe mà thôi.
+
+Câu hỏi: Tôi nghĩ tôi có một ý tưởng tuyệt vời nhưng tôi không có nền tảng kinh doanh. Tôi nên làm gì bây giờ?
+
+Câu trả lời: Nếu tất cả những gì bạn làm là đưa ra một ý tưởng tuyệt vời – ví dụ như “một hệ điều hành máy tính mới nhanh, đẹp và miễn nhiễm với virus” – nhưng bạn không thể áp dụng được nó thì bạn chẳng có gì. Đây là lý do tại sao bạn cần phải có người đồng sáng lập – cho đến khi bạn thuyết phục được người khác về ý tưởng của mình, thì bạn có lẽ chỉ là kẻ hâm mà thôi.
+
+Câu hỏi: Khi nào tôi nên lo lắng về hình ảnh một doanh nghiệp thực sự với danh thiếp, tiêu đề thư (letterhead) và một văn phòng?
+
+Câu trả lời: Những ưu tiên của bạn là sai lầm. Điều bạn nên lo lắng là tạo ra sản phẩm mẫu. Việc làm ăn thực sự là việc có thể bán cái gì đó – chứ không phải là nơi người ta có danh thiếp và tiêu đề thư.
+
+Câu hỏi: Tôi có cần bằng thạc sĩ quản trị kinh doanh để khởi nghiệp không?
+
+Câu trả lời: Không cần thiết – bản thân tôi cũng có bằng thạc sĩ quản trị kinh doanh. Bạn cần một tấm bằng như vậy để đáp ứng mong đợi của nhà tuyển dụng. Trong trường hợp này, bạn là người tuyển dụng. Vì vậy tốt hơn bạn nên dành 2 năm nỗ lực để tạo ra điều tuyệt vời thay vì chạy theo bằng cấp.
+
+Tìm đọc
+
+Berger, Warren. A More Beautiful Question: The Power of Inquiry to Spark Breakthrough Ideas – Thêm một câu hỏi thú vị: Sức mạnh của sự thẩm vấn để khơi mào những ý tưởng đột phá. New York: Bloomsbury, 2014.
+
+Hargadon, Andrew. How Breakthrough Happen: The Surprising Truth about How Companies Innovate – Sự đột phá xảy ra như thế nào: Sự thật thú vị về việc các công ty sáng tạo như thế nào. Boston: Harvard Business School Press, 2003.
+
+Livingston, Jessica. Founders at Work: Stories of Startups’ Early Days – Các nhà sáng lập làm việc: Các câu chuyện về những ngày đầu của các startup.Berkeley, CA: Apress, 2008.
+
+May, Matthew. In Pursuit of Elegance: Why the Best Ideas Have Something Missing – Theo đuổi sự thanh lịch: Tại sao những ý tưởng hay nhất là bỏ rơi một điều gì đó. New York: Crown Business, 2009.
+
+Shekerjian, Denise. Uncommon Genius: How Great Ideas Are Born – Những thiên tài hiếm có: Những ý tưởng vĩ đại xuất hiện như thế nào. New York: Penguin Books, 1990.
+
+Slywotzky, Andrian. The Art of Profitability – Nghệ thuật của việc tìm kiếm lợi nhuận. New York: Warner Books, 2002.
+
+Ueland, Brenda. If You Want to Write – Nếu bạn muốn viết. St. Paul, MN: Graywolf Press, 1987.
+
+Utterback, James M. Mastering the Dynamics of Innovation: How Companies Can Seize Opportunities in the Face of Technological Change – Làm chủ những động lực của sự sáng tạo: Làm thế nào các công ty có thể chớp lấy các cơ hội khi đối mặt với sự thay đổi công nghệ. Boston: Harvard Business School Press, 1994.

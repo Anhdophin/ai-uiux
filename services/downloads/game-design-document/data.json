@@ -1,0 +1,12 @@
+{
+  "label": 'Service',
+  "title": 'Workflow Audit Service',
+  "subtitle": $'D\341\273\213ch v\341\273\245 m\341\272\253u \304\221\341\273\203 b\303\263c workflow hi\341\273\207n t\341\272\241i c\341\273\247a kh\303\241ch h\303\240ng, nh\303\254n ra ch\341\273\227 ngh\341\272\275n, ch\341\273\227 d\306\260, ch\341\273\227 c\303\263 th\341\273\203 bi\341\272\277n th\303\240nh logic x\341\273\255 l\303\275 v\303\240 ch\341\273\227 c\341\272\247n con ng\306\260\341\273\235i gi\341\273\257 l\341\272\241i.',
+  "cover": '../../assets/project-1.png',
+  "intro": $'<p>Trang n\303\240y l\303\240 sample \304\221\341\273\203 anh \304\221\341\272\267t m\341\273\231t d\341\273\213ch v\341\273\245 c\341\273\245 th\341\273\203. Ph\341\272\247n tr\303\254nh b\303\240y \304\221i theo ki\341\273\203u landing con: \304\221\341\272\247u trang l\303\240 ph\341\272\247n ch\341\273\221t \303\275, b\303\252n d\306\260\341\273\233i l\303\240 c\303\241c section m\303\264 t\341\272\243 r\303\265 d\341\273\213ch v\341\273\245, \304\221\341\272\247u ra v\303\240 c\303\241ch l\303\240m vi\341\273\207c.</p>',
+  "sidebarTitle": $'Khi n\303\240o n\303\252n d\303\271ng',
+  "sidebarBody": $'Khi kh\303\241ch h\303\240ng c\303\263 nhi\341\273\201u b\306\260\341\273\233c l\303\240m b\341\272\261ng tay, hay b\341\273\213 qu\303\252n b\306\260\341\273\233c, nhi\341\273\201u ng\306\260\341\273\235i l\303\240m nhi\341\273\201u ki\341\273\203u, ho\341\272\267c m\341\273\227i l\341\272\247n b\303\240n giao l\303\240 ph\341\272\243i gi\341\272\243i th\303\255ch l\341\272\241i t\341\273\253 \304\221\341\272\247u.',
+  "facts": [ {"label":"Loại","value":"Audit / Consulting"},{"label":"Phù hợp","value":"SME / đội nội bộ"},{"label":"Đầu ra","value":"Flow map + notes"} ],
+  "ctas": [ {"label":"Gửi yêu cầu","href":"../../index.html#request"},{"label":"Quay lại dịch vụ","href":"../"} ],
+  "sections": [ {"title":"Dịch vụ này giải quyết gì","paragraphs":["Không phải tư vấn workflow kiểu lý thuyết dài dòng. Mục tiêu là nhìn thẳng vào công việc đang chạy hằng ngày để bóc nó ra thành các bước có thể nhìn, đọc và sửa được.","Khi đã bóc được workflow, việc thiết kế tool, template, checklist hoặc flow AI phía sau mới bám đúng thực tế."],"list":["Làm rõ bước nào đang lặp nhiều","Nhìn chỗ phụ thuộc trí nhớ cá nhân","Xác định chỗ nào có thể chuẩn hóa"]},{"title":"Đầu ra mẫu","paragraphs":["Một bộ ghi chú đủ rõ để người khác hiểu công việc đang vận hành ra sao và vì sao cần công cụ hỗ trợ."],"list":["Flow tổng quan","Luồng ngoại lệ","Danh sách điểm nghẽn","Gợi ý hướng xử lý tiếp"]} ]
+}

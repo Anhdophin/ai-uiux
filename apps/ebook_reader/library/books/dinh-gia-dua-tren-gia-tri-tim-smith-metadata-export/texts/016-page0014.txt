@@ -1,0 +1,129 @@
+PHỤ LỤC BTHỰC HÀNH ĐỊNH GIÁ VỚI CHUYÊN GIA CAO CẤP ĐỊNH GIÁ
+
+Jesse Finch Gnehm của Tập đoàn GE Oil và Gas, trong lĩnh vực cung cấp thiết bị cho ngành công nghiệp khai thác dầu khí
+
+Từ lâu GE đã nổi tiếng là một doanh nghiệp chú trọng đến quy trình, vậy họ sử dụng những quy trình nào trong định giá? Vì GE là một tập đoàn lớn, nên chúng ta hãy cùng tìm hiểu về một đơn vị kinh doanh của họ: Hệ thống ngầm dưới biển Subsea Systems của GE Oil & Gas.
+
+Những sáng kiến định giá ở GE Oil & Gas Subsea Systems là như thế nào? Ai tham gia các quyết định về giá đó? Bộ phận định giá được thiết kế như thế nào trong tổ chức? Bộ phận định giá trực tiếp tham gia vào các quyết định về giá nào? Những kỹ năng và công cụ nào phát huy hiệu quả cho hoạt động định giá tại GE Oil & Gas Subsea Systems? Và có bất kỳ nguồn lực bên ngoài nào đặc biệt hữu ích cho họ hay không?
+
+Năm 2014, tôi có dịp trao đổi, thảo luận cùng với Jesse Finch Gnehm, lãnh đạo định giá toàn cầu của GE Oil & Gas Subsea Systems, để học hỏi kinh nghiệm. Dưới đây là bản rút gọn nội dung cuộc trao đổi giữa chúng tôi.
+
+Hành trình định giá dựa trên giá trị
+
+TS: Hiện nay GE Subsea Systems đang ở đâu trên hành trình định giá hướng đến định giá dựa trên giá trị?
+
+JFG: Tháng 1 năm 2013, tôi gia nhập GE Oil & Gas Subsea Systems với một sứ mệnh rõ ràng: thiết lập bộ phận định giá trong GE Oil & Gas và đưa nó vào quỹ đạo của hành trình định giá. Khi tôi mới đến, văn hóa ở đây sử dụng mô hình định giá dựa trên chi phí giống như nhiều doanh nghiệp khác trong lĩnh vực công nghiệp. Trong hai năm qua, trọng tâm công việc của tôi xoay quanh việc thực hiện bước quá độ chuyển từ phương thức định giá dựa trên chi phí sang phương thức định giá dựa trên giá trị, xét từ cả góc nhìn về văn hóa doanh nghiệp cũng như về hệ thống và cơ sở hạ tầng.
+
+TS: Chúng ta đều biết rằng hành trình định giá dựa trên giá trị liên quan đến cả văn hóa doanh nghiệp, quy trình và sự điều phối giữa các bộ phận chức năng trong toàn tổ chức. Ông thực hiện sự dịch chuyển này như thế nào?
+
+JFG: Bài toán về văn hóa doanh nghiệp xuất phát từ ba khía cạnh khác nhau. Thứ nhất, nó đến từ ban lãnh đạo cấp cao. Tôi đã nhận được sự hỗ trợ rất tích cực từ CEO Rod Christie [CEO của GE Oil & Gas Subsea Systems], ông ấy đã có nhiều hành động giúp đỡ chúng tôi rất cụ thể trong năm đầu tiên và điều đó đã đặt ra nền móng để chúng tôi làm việc. Thứ hai, chúng tôi tổ chức những buổi rà soát hoạt động định giá ở quy mô toàn bộ tổ chức của Subsea Systems và cả trong các bộ phận chịu trách nhiệm về lỗ lãi (P&L) của doanh nghiệp. Và mảnh ghép thứ ba là đào tạo con người. Chúng tôi đã phát triển một chương trình đào tạo tương đối bài bản với nhiều khóa học trực tuyến kết hợp với các lớp tập huấn, có giảng viên trực tiếp giảng dạy cho đội ngũ thực địa về các vấn đề liên quan đến lý thuyết và thực tiễn trong định giá dành cho toàn bộ GE Oil & Gas cũng như dành riêng cho bộ phận Subsea Systems.
+
+Về quy trình và cơ sở hạ tầng, chúng tôi tiếp cận từng bộ phận P&L và bắt đầu bằng việc khảo sát, hay kiểm tra hoạt động định giá ở đó. Khâu kiểm tra này nhìn vào quy trình và cơ sở hạ tầng, bao gồm một phần phân tích chuyên sâu về các giao dịch đã thực hiện. Quá trình này giúp chúng tôi phát hiện ra những lỗ hổng và xác định giá trị của việc trám các lỗ hổng đó. Ngoài ra, chúng tôi cũng dần dần xây dựng đội ngũ trong từng đơn vị P&L nhằm đưa nguồn lực định giá vào đó để phụ trách và thúc đẩy những thay đổi trong quy trình và cơ sở hạ tầng.
+
+Vậy là chúng ta vừa nói đến văn hóa doanh nghiệp, quy trình và cơ sở hạ tầng, mảnh ghép cuối cùng là đội ngũ nhân lực. Thực ra, chúng tôi là một đội ngũ rất nhỏ làm việc ở trung tâm và cố gắng hỗ trợ các quyết định về giá thực hiện ở các đơn vị P&L cũng như trong các khu vực. Do chúng tôi là một doanh nghiệp toàn cầu với các hoạt động thương mại trải dài từ Singapore đến khắp nơi trên thế giới rồi quay về Houston, nên chúng tôi cố gắng làm sao để đảm bảo rằng mình có thể hỗ trợ các quyết định về giá đó. Các quyết định về giá được thực hiện bởi những người có thể không có hai từ “định giá” trong chức danh của họ, nhưng nhận được sự hỗ trợ trong công việc, có thể là thông qua sự phát triển các quy trình và công cụ mới ở trụ sở hoặc nhận được sự giúp đỡ trực tiếp của một nguồn lực trong bộ phận định giá nhằm giúp họ lập chiến lược định giá, cách định giá và cách giám sát thực tiễn triển khai chiến lược.
+
+Bối cảnh của Subsea Systems trong GE
+
+TS: Bộ phận định giá trong Subsea Systems có vị trí và đóng vai trò như thế nào trong bối cảnh chung của GE?
+
+JFG: Với GE, chúng tôi bắt đầu từ các cấp cao nhất. GE, một tập đoàn đa quốc gia với doanh thu hơn 100 tỷ đô-la, có rất nhiều công ty con trực thuộc, gồm: GE Aviation (hàng không), GE Capital (đầu tư vốn), GE Energy Management (quản lý năng lượng), GE Healthcare (chăm sóc sức khỏe), GE Home & Business Solutions (giải pháp kinh doanh và cung cấp thiết bị điện gia dụng), GE Transportation (vận tải), GE Power & Water (nước và điện), và GE Oil & Gas (dầu khí và dầu mỏ). Trong GE Oil & Gas cũng có nhiều công ty nhỏ hơn hoạt động riêng biệt. Subsea Systems là một trong số sáu công ty lớn của GE Oil & Gas.
+
+TS: Trong GE Oil & Gas, ông làm việc với lãnh đạo định giá của các đơn vị nghiệp vụ khác như thế nào?
+
+JFG: Chúng tôi hợp tác rất chặt chẽ và thường xuyên có những hoạt động chia sẻ kinh nghiệm với nhiều đơn vị trong GE Oil & Gas, và Trung tâm Đặc biệt do Frederic Duhamelle [lãnh đạo định giá, GE Oil & Gas] phụ trách trụ sở và đây là trung tâm đầu não hỗ trợ các hoạt động này.
+
+Trung tâm Đặc biệt về mảng định giá hỗ trợ từng đơn vị trong quá trình đánh giá chất lượng, định giá và các sáng kiến liên quan. Lãnh đạo định giá ở từng đơn vị liên kết với lãnh đạo định giá cấp cao, hình thành nên một ma trận.
+
+Chúng tôi tổ chức và họp giao ban định kỳ để các lãnh đạo và thành viên trong bộ phận định giá trong toàn bộ tổ chức của GE Oil & Gas có cơ hội thường xuyên gặp gỡ, cùng trao đổi về những cách làm sáng tạo, theo dõi và đo lường hiệu quả hoạt động của GE Oil & Gas nói chung, đồng thời giúp đỡ nhau xây dựng và đưa định giá trở thành một bộ phận chức năng trong GE Oil & Gas.
+
+Sau đó, ở cấp độ cao hơn, có rất nhiều sáng kiến khác nhau nhằm huy động các nguồn lực định giá lại, không chỉ trong phạm vi GE Oil & Gas mà có lẽ còn hợp tác với các công ty con khác như GE Transportation và GE Power & Water. Vì vậy, tuy các mối quan hệ chính thức nằm trong nội bộ tổ chức của GE Oil & Gas, nhưng chúng tôi cũng có rất nhiều hoạt động hợp tác và giao lưu chia sẻ kinh nghiệp ở cấp cao hơn – với một số công ty con khác của GE, có thể không có sự liên quan trực tiếp về chuyên môn mà chúng tôi làm ở Oil & Gas.
+
+Xây dựng và nuôi dưỡng nhóm định giá
+
+TS: Xin ông cho biết, nhóm định giá ở Subsea Systems được xây dựng, hoạt động và nuôi dưỡng như thế nào?
+
+JFG: Tôi có một đội ngũ trực tiếp mà tôi đang xây dựng nhờ sự hỗ trợ của các bộ phận nghiệp vụ khác nhau, nhưng bên cạnh đó chúng tôi cũng đang cố gắng hình thành nên nhóm định giá cùng với sự tham gia của đội ngũ thương mại và kinh doanh. Bộ phận thương mại trong tổ chức chúng tôi là những người sát cánh với đội ngũ kinh doanh, hỗ trợ việc đàm phán các điều khoản và điều kiện của hợp đồng cũng như điều chỉnh những kiến thức chuyên môn. Có thể coi đội ngũ kinh doanh là những người sở hữu mối quan hệ. Đội ngũ thương mại hỗ trợ trong quá trình ra các quyết định về giá, họ có thể thiết kế nội dung báo giá, đưa ra và đánh giá các động thái thị trường khác nhau đang tác động đến thị trường.
+
+Chúng tôi cũng phối hợp với các đồng nghiệp ở bộ phận tài chính thương mại và bộ phận marketing cũng là một phần trong những sáng kiến này.
+
+Đó là những người mà chúng tôi đang tiếp cận và cung cấp các khóa học trực tuyến cũng như các chương trình đào tạo trực tiếp. Chúng tôi tạo ra diễn đàn để chia sẻ về các động lực định giá trong từng đơn vị kinh doanh, đồng thời đưa ra những nhận định mang tính định hướng cho họ.
+
+TS: Nghiên cứu chỉ ra rằng các quyết định về giá tốt nhất thường có sự tham gia đóng góp của các bộ phận chức năng kinh doanh, marketing và tài chính. Điều đó có giống với cách ra quyết định ở công ty của ông không?
+
+JFG: Đó cũng là cách thức tiếp cận công việc của chúng tôi. Trong các quyết định về giá, chúng tôi đều lôi kéo sự tham gia của các đội kinh doanh và thương mại để đảm bảo rằng chúng tôi nắm rõ được thông tin và kiến giải về bối cảnh cạnh tranh cũng như những yếu tố tạo nên giá trị cho khách hàng. Chúng tôi cũng đưa cả đội tài chính vào cuộc để có thể yên tâm rằng những quyết định tài chính đưa ra là có lợi cho đơn vị. Đội marketing thì giúp chúng tôi nhận ra các giao dịch nằm ở đâu trong bối cảnh thị trường chung. Và sau đó, do các giải pháp mà chúng tôi cung cấp cần đến nhiều sự điều chỉnh nên chúng tôi cũng hợp tác chặt chẽ với các bộ phận phụ trách sản xuất từng dòng sản phẩm. Thật ra, đội ngũ kinh doanh và đội ngũ thương mại có thể cung cấp kiến thức về các giải pháp, nhưng những nhân viên thật sự tham gia vào quá trình sản xuất, am hiểu tường tận về thiết kế và có khả năng điều chỉnh sản phẩm cũng có thể làm được điều đó. Vì vậy, trong một số giao dịch lớn, chúng tôi bỏ qua các đội kinh doanh, tài chính và marketing và chỉ yêu cầu sự tham gia của các lãnh đạo sản phẩm trong đội kỹ thuật tham gia vào quá trình định giá.
+
+Những đóng góp quan trọng của các chuyên gia định giá
+
+TS: Bộ phận định giá đóng góp vào các quyết định về giá tập thể này như thế nào?
+
+JFG: Bộ phận định giá gồm những người hỗ trợ các đơn vị kinh doanh khác nhau trong tổ chức nội bộ và các đơn vị kinh doanh toàn cầu. Nhưng điều trọng tâm mà chúng tôi đang làm là xây dựng các hệ thống và quy trình giúp các khu vực có thể đưa ra các quyết định về giá mà không cần phải xin ý kiến từ trụ sở. Rõ ràng, bạn phải có quy trình hiệu quả để quản lý các trường hợp định giá đặc biệt [quản lý phương sai giá]. Nhưng lối tiếp cận tổng quan của chúng tôi là (1) điều chỉnh hợp lý các nguồn lực định giá với đơn vị kinh doanh, (2) yêu cầu các khu vực trên toàn thế giới báo cáo lại cho đội ngũ định giá về các giao dịch lớn mà họ thực hiện và (3) phát triển các hệ thống và quy trình cho phép các khu vực có thể tự lực tiến hành công tác định giá và đưa ra quyết định mà không cần có sự phê duyệt từ trụ sở.
+
+TS: Nghe có vẻ ông không nắm vai trò “điều khiển và chỉ huy” mà thiên về vai trò “phát triển và cải tiến” hơn. Ông có thể giải thích rõ hơn về khái niệm này không?
+
+JFG: Vâng, nói tóm gọn thì đúng là như vậy. Chúng tôi không cung cấp cho đội thương mại, kinh doanh – hay đơn vị kinh doanh – mức giá hợp lý là bao nhiêu. Chúng tôi phối hợp để giúp họ tìm ra mức giá phù hợp thông qua quá trình phân tích kỹ lưỡng. Và thường thì chúng tôi đóng vai trò hỗ trợ giúp họ đi đến kết luận cuối cùng. Như anh có lẽ cũng hình dung được, đối với việc định giá cho những giao dịch lớn như chúng tôi đang làm ở Subsea Systems, đó không phải là quyết định mà một cá nhân hay bộ phận chức năng nào có thể tự ý ban hành. Đó phải là một quá trình hợp tác diễn ra trên cơ sở có sự hậu thuẫn của một quy trình hiệu quả và các công cụ đắc lực và phải có người thúc đẩy mọi việc tiến triển. Nói tóm lại, đơn vị kinh doanh ra quyết định về giá với sự hỗ trợ của chúng tôi.
+
+TS: Vậy có thể nói rằng ông là người cùng tham gia quá trình ra quyết định đó không?
+
+JFG: Không. Đối với tôi, đơn vị kinh doanh là bộ phận thật sự ra quyết định về giá. Vai trò của chúng tôi là bảo đảm rằng tất cả nhân viên đều đồng thuận với quyết định và điểm giá đó. Chúng tôi vận hành một quy trình trong đó tất cả nhân viên cùng ủng hộ mức giá đó thay vì để một đội ngũ chức năng hay một cá nhân nào đó tự đưa ra quyết định này.
+
+TS: Có một thuật ngữ tôi hay được nghe nhắc đến trong lĩnh vực định giá là sự điều chỉnh hợp lý có định hướng. Ông nghĩ sao về điều này?
+
+JFG: Khái niệm đó rất phù hợp với văn hóa doanh nghiệp và cách tiếp cận công việc của chúng tôi tại đây.
+
+Khung định giá
+
+TS: Tôi có năm khía cạnh ra quyết định khác nhau. Tôi sẽ bắt đầu ở cấp độ cao nhất là khía cạnh chiến lược cạnh tranh, trong đó ông phải thực hiện định giá trong mối tương quan với chiến lược khách hàng, chiến lược cạnh tranh và chiến lược kinh doanh. Bản thân ông có đóng góp như thế nào vào các quyết định này không?
+
+JFG: Có chứ. Nhiệm vụ của bộ phận định giá là phải nắm rõ khả năng của đối thủ; nắm rõ hiệu quả hoạt động về tài chính và các kế hoạch chiến lược của đối thủ có thể ảnh hưởng ra sao đến hành vi định giá của họ. Chúng tôi được tham gia vào các cuộc trao đổi về các vấn đề này và chúng tôi đã đóng góp những dữ liệu hữu ích để giúp mọi người đưa ra quyết định phù hợp. Thật ra, đội ngũ marketing cũng tham gia tích cực vào quá trình này, vai trò của họ là giúp lý giải khía cạnh mang tính chiến lược hơn, theo đó trả lời cho câu hỏi: “Thị trường đang đi theo hướng nào?”
+
+TS: Chúng ta hãy chuyển sang cấp độ thứ hai là chiến lược định giá, liên quan đến việc thiết lập cấu trúc giá. Ở cấp độ này, ông sẽ quyết định xem nên áp dụng chiến lược định giá hớt váng, trung lập hay thâm nhập, đồng thời xây dựng một kế hoạch phản ứng trước đối thủ cạnh tranh. Nếu đối thủ thay đổi mức giá, ông sẽ thay đổi mức giá của doanh nghiệp tương ứng ra sao và sẽ kiểm soát phương sai giá đó như thế nào? Ông có tham gia vào khía cạnh này không?
+
+JFG: Có, thực ra chúng tôi đóng vai trò rất tích cực trong việc thúc đẩy hoạt động trao đổi với các đơn vị kinh doanh về những vấn đề này. Tôi nghĩ khía cạnh mà chúng tôi ít can dự hơn là phạm vi sản phẩm đề xuất cuối cùng. Trong lĩnh vực ngành nghề của chúng tôi, quy cách đóng gói sản phẩm ra sao chủ yếu phụ thuộc vào yêu cầu của khách hàng. Nếu một khách hàng gửi đề nghị mua sắm, họ sẽ nói: “Tôi muốn có một hệ thống sản xuất Subsea hoàn chỉnh, bao gồm cả cây thông Noel, đường ống và hệ điều khiển”. Nếu như họ đã cho biết chính xác muốn những gì, thì bộ phận định giá sẽ không can thiệp. Chúng tôi sẽ tham gia vào việc hỗ trợ tìm ra cách trả lời những quyết định kiểu như vậy, nhưng phải xét từ khía cạnh hoạch định chiến lược định giá, chúng tôi có tham gia.
+
+TS: Cấp độ thứ ba liên quan đến định giá thị trường. Ông đang làm việc với các bộ phận thương mại để định giá cho các lời đề nghị mua sắm đúng không?
+
+JFG: Đúng.
+
+TS: Vậy còn cấp độ thứ tư, Chính sách phương sai giá, thì sao? Ông có tham gia vào các quyết định này hay không?
+
+JFG: Có, chúng tôi tư vấn về các quyết định kiểu này. Tuy nhiên, xuất phát từ bản chất các giao dịch của chúng tôi, việc giảm giá ở đây sẽ khác với hình dung thông thường của mọi người. Tuy các giao dịch của chúng tôi rất lớn, đôi khi có quy mô bằng cả một doanh nghiệp, nhưng số lượng các giao dịch trên thị trường này lại rất ít. Chúng tôi không phải xử lý hàng nghìn giao dịch diễn ra đồng thời nên không cần phải thiết lập một cấu trúc giảm giá thông thường mà nhiều người làm việc trong lĩnh vực định giá vẫn hình dung. Vấn đề trọng tâm ở đây là đưa ra được mức giá đúng cho giao dịch cụ thể trước mắt sao cho phù hợp với bối cảnh cạnh tranh và các yếu tố thúc đẩy giá trị cho khách hàng xung quanh giao dịch đó.
+
+TS: Cuối cùng, cấp độ thứ năm là thực thi giá, bao gồm đặt hàng, báo giá và lập hóa đơn. Bộ phận định giá có tham gia vào những việc như thế này không? Việc xử lý quá trình định giá thật sự như thế nào?
+
+JFG: Hầu như là không. Cách xử lý vấn đề thực thi giá của chúng tôi hiện nay là cố gắng xây dựng các hệ thống để nếu có người cần công cụ để định giá và làm báo giá, trong khi giao dịch mà họ đang xử lý không đủ lớn để xin sự hỗ trợ trực tiếp của đội ngũ định giá, họ có thể áp dụng hệ thống đó thực hiện các phân tích cần thiết nhằm đưa ra được một quyết định về giá chuẩn xác. Nhưng nói chung, nhân viên bộ phận định giá sẽ không quyết định thông số định giá cụ thể cho một khách hàng cụ thể trong một báo giá cụ thể nào. Bộ phận định giá xử lý khía cạnh này từ góc độ hệ thống và góc độ phân tích để hỗ trợ những người trực tiếp đặt ra mức giá và xây dựng báo giá cụ thể đó.
+
+TS: Ngoại trừ các cấp độ mà tôi vừa mới đề cập, ông và đội ngũ định giá có tham gia vào các cấp độ nào khác nữa hay không?
+
+JFG: Từ góc độ giám sát và xây dựng chỉ số hoạt động chính, chúng tôi có tham gia trong vai trò hỗ trợ. Chúng tôi xác định các chỉ số định giá ở cấp độ tổng quan cho toàn tổ chức và hợp tác với bộ phận tài chính để theo dõi hiệu quả hoạt động của mình và những công việc tương tự, đồng thời tìm cách cải tiến các chỉ số theo dõi hiệu quả hoạt động đó.
+
+Các kỹ thuật phân tích định giá
+
+TS: Trong định giá thị trường, nghiên cứu đã chỉ ra rằng cách tiếp cận tốt nhất thường là sử dụng toán kinh tế, phân tích kết hợp hoặc lập mô hình giá trị trao đổi. Trong số ba cách tiếp cận này, cách tiếp cận nào sát nhất với những gì mà GE Oil & Gas Subsea Systems cần phải làm?
+
+JFG: Nếu anh hoạt động trong các thị trường có ít khách hàng và ít các sản phẩm phức tạp với số lượng biến thể cao, thì những công cụ như phân tích kết hợp sẽ không phát huy được nhiều giá trị bởi vì số lượng các giao dịch trên thị trường là rất ít. Việc cố gắng tạo ra những phương án lựa chọn khả thi để đánh giá sẽ rất khó khăn. Hơn nữa, do số lượng giao dịch là rất ít, và các giao dịch luôn có giá trị cao như vậy, nên anh cũng sẽ khó lòng thuyết phục khách hàng tham gia vào cách tiếp cận đó. Cách làm phù hợp nhất đối với các giao dịch dạng này là lập mô hình giá trị cung cấp cho khách hàng và tìm hiểu sâu về các yếu tố mang lại giá trị cho khách hàng, sau đó, thông qua việc theo dõi các yếu tố này theo thời gian và tìm hiểu cách lập mô hình đánh giá của khách hàng, chúng ta có thể dự đoán về quan điểm của họ đối với những sự đánh đổi khác nhau trong sản phẩm đề xuất của chúng ta.
+
+TS: Vậy đối với vấn đề phương sai giá, ông có tìm thấy lợi ích gì trong các nghiên cứu về thác nước giá, dải giá cả và nghiên cứu về mức giá bán ra trên phân khúc thị trường không?
+
+JFG: Đối với các giao dịch quy mô lớn như của chúng tôi, những cách tiếp cận này không có ý nghĩa vì ở đây chúng tôi phải định giá cho cả một mảng kinh doanh. Đối với mảng kinh doanh lẻ, vốn thường bao gồm những giao dịch có khối lượng lớn, chúng tôi nhìn vào các phân tích giá thuần và độ nhất quán trong định giá để xem xét diễn biến của các yếu tố này theo thời gian và theo từng phân khúc thị trường. Nhưng nhìn chung, phần lớn hoạt động của chúng tôi tập trung vào các giao dịch quy mô lớn.
+
+Tự động hóa giá cả và công cụ phân tích
+
+TS: Ông có thể nói một chút về ứng dụng phần mềm không?
+
+JFG: Hiện tại chúng tôi không sử dụng bất kỳ nhà cung cấp phần mềm định giá truyền thống và phổ biến nào. Chúng tôi đang phát triển một số công cụ phân tích định giá lồng trong các công cụ xây dựng kiến thức doanh nghiệp. Khi phát triển hơn và tiến xa hơn trong lĩnh vực định giá của mình, chúng tôi sẽ tìm cách đưa một số kỹ thuật và công cụ định giá trở thành công cụ kiến thiết, định giá và báo giá của mình.
+
+TS: Nói về hoạt động phân tích, ông có tìm thấy giá trị nào trong những công cụ đơn giản như gói thống kê hay công cụ phân tích đồ họa không?
+
+JFG: Hiện nay với chúng tôi, giá trị nhất là các công cụ trực quan. Xin nói lại, thống kê là phương pháp rất hữu dụng nếu anh có đủ dữ liệu để chạy thống kê. Nhưng anh phải có nhiều vấn đề N cho nó. Nếu N của anh chỉ là một con số nhỏ, thì thống kê lại không phát huy được nhiều giá trị. Vì vậy, trực quan hóa là một yếu tố lớn và quan trọng đối với chúng tôi. Nó giúp cho các phần phân tích trở nên cụ thể và dễ hiểu với mọi người. Họ có thể lĩnh hội thông tin trong đó và hiểu được ý nghĩa của chúng.
+
+Thông điệp chính ở đây là: Khi anh hoạt động trong một lĩnh vực có giá trị lớn nhưng tần suất giao dịch ít, thì cách xử lý các vấn đề định giá của anh sẽ khác so với cách làm của những người hoạt động trong các lĩnh vực có giao dịch theo khối lượng lớn.
+
+Nguồn lực bên ngoài
+
+TS: Có rất nhiều tổ chức được lập ra để phục vụ cộng đồng định giá. Có tổ chức nào trong số đó mà ông thấy là đặc biệt hữu ích không?
+
+JFG: Trong nội bộ GE Oil & Gas, rất nhiều nhân viên trong bộ phận của chúng tôi là thành viên của Hiệp hội Định giá và đã được cấp chứng chỉ chuyên gia định giá CPP. Đây là tổ chức mà chúng tôi cho rằng hoạt động có hiệu quả và đã hỗ trợ chúng tôi khá nhiều thông qua các chương trình đào tạo và học tập trong quá trình cấp chứng chỉ CPP cũng như trong rất nhiều chương trình hội thảo, các diễn đàn. Tính đến thời điểm hiện nay, đây là nơi tham gia và hoạt động của hầu hết các thành viên trong đội ngũ của chúng tôi.
+
+Và chúng tôi cũng đã tham dự nhiều buổi hội thảo Định giá Wiglaf của anh và đọc tạp chí Wiglaf Journal.
+
+TS: Cảm ơn ông, Jesse, đã dành thời gian cho cuộc trò chuyện của chúng ta.

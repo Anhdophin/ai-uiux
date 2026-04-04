@@ -1,0 +1,323 @@
+CHƯƠNG 2ĐỊNH GIÁ DỰA TRÊN GIÁ TRỊ
+
+Vì sao một doanh nghiệp tồn tại được? Đâu là những bên liên quan chính mà họ phục vụ?
+
+Có vẻ như đây là những câu hỏi lạc đề cho một cuốn sách viết về định giá, nhưng câu trả lời cho những câu hỏi này lại là nền tảng cơ bản cho lối tiếp cận về định giá của các doanh nghiệp. Những câu trả lời này cũng có sự vận động biến đổi theo thời gian, theo các khu vực địa lý khác nhau, theo xã hội và theo chính bối cảnh nội tại của từng doanh nghiệp. Khi mục đích cốt lõi của doanh nghiệp thay đổi, khái niệm về định giá của họ cũng thay đổi theo. Vì vậy, nếu bắt đầu tìm hiểu vấn đề từ mục đích cơ bản của doanh nghiệp, chúng ta sẽ hiểu được văn hóa doanh nghiệp và phương châm định giá tại những doanh nghiệp hàng đầu thế giới.
+
+Mục đích của doanh nghiệp:
+
+Đáp ứng các nhu cầu của khách hàng để sinh lời
+
+Trải qua nhiều thập niên, vai trò của từng bên trong nhóm các bên liên quan mà doanh nghiệp phục vụ có sự biến động khác nhau; nhóm này bao gồm cổ đông, nhân viên, khách hàng và những quan hệ xã hội nói chung. Mỗi nhóm đều có những giai đoạn được ưu tiên. Sự thay đổi trong vai trò của các bên liên quan có ảnh hưởng rất lớn đến phương pháp thực hiện định giá, cách thức quản lý định giá, và thậm chí tác động đến văn hóa liên quan đến việc định giá tạo lợi nhuận.
+
+Ở nửa cuối thế kỷ XX, các doanh nghiệp nâng cao vai trò của nhóm cổ đông để làm trọng tâm. Một số người còn đi xa đến mức cho rằng các doanh nghiệp tồn tại chỉ nhằm một mục đích là làm giàu cho cổ đông và mọi quyết định nên xuất phát từ cơ sở là tối đa hóa lợi nhuận cho cổ đông. Suy cho cùng, như các học giả đã chỉ ra một cách chính xác, cổ đông là người sở hữu doanh nghiệp.
+
+Rất logic và dễ hiểu, sự tập trung vào cổ đông như vậy đã tác động đến văn hóa định giá. Để bảo đảm lợi nhuận cho cổ đông, doanh nghiệp thường định giá theo phương thức dựa trên chi phí. Với phương thức này, doanh nghiệp tính toán chi phí phục vụ sau đó cộng thêm một tỷ lệ nhất định nào đó vào khoản chi phí này để tính ra giá thành sản phẩm, giúp bảo đảm lợi nhuận thu về. Đối với định giá dựa trên chi phí, để thực hiện định giá tốt hơn, cần có thông tin tốt hơn hoặc chính xác hơn về chi phí phải bỏ ra. Do vậy, tính toán chi phí phục vụ chuẩn xác hoặc áp dụng cách tính chi phí dựa trên hoạt động đã trở thành một phần việc thiết yếu cần làm nhất trong việc đưa ra quyết định về giá.
+
+Về mặt tích cực, sự tập trung vào mục đích mang lại lợi nhuận cho cổ đông thúc đẩy các doanh nghiệp tích cực tìm cách cắt giảm chi phí, lấy đó là phương tiện gia tăng lợi nhuận và thị phần. Còn mặt tiêu cực, nó ngăn cản việc tách riêng các vấn đề trong định giá với các vấn đề trong việc tính toán chi phí vì định giá không chỉ đơn thuần là tính toán chi phí.
+
+Vị thế của cổ đông đạt tới giai đoạn hoàng kim trong thời gian Jack Welch làm CEO công ty General Electric (GE) và Welch đã đối đãi các cổ đông rất tốt. Trong 20 năm ông ngồi trên chiếc ghế CEO, giá trị định giá của GE đã gia tăng 40 lần.
+
+Lợi nhuận cho cổ đông và tính toán chính xác chi phí đều là việc tốt, nhưng cổ đông không phải là bên liên quan duy nhất và nếu chỉ sử dụng chi phí làm định hướng cho hoạt động định giá là không đầy đủ và thật tai hại. Theo nhiều hình thức khác nhau và ở nhiều lĩnh vực ngành nghề khác nhau, hoạt động định giá giá trị của thị trường chứng khoán và phản ứng của xã hội đều đã cho thấy cần phải có sự điều chỉnh trong lối tiếp cận này.
+
+Vài tháng sau khi nghỉ hưu, chính Welch cũng lên tiếng phê phán việc lấy giá trị cổ đông làm nguyên tắc để xác định mọi hoạt động của doanh nghiệp, ông tuyên bố bản thân “giá trị cổ đông là một kết quả, chứ không phải là một chiến lược” (Guerrera 2009).
+
+Welch không phải là người duy nhất nhận ra những khiếm khuyết của việc tôn cổ đông trở thành bên liên quan chính trong quá trình hoạch định chiến lược kinh doanh hay chiến lược định giá. Gần đây, tầm quan trọng của những lĩnh vực phần mềm, giải trí và y học ngày càng gia tăng khắp nơi trên toàn cầu. Cấu trúc chi phí cận 0 của các ngành này đã làm cho phương thức định giá dựa trên chi phí trở nên vô nghĩa.
+
+Khi vai trò của cổ đông giảm xuống thì vị thế của khách hàng lại được đặt vào vị trí ưu tiên. Và, cũng giống như nhiều cuộc dịch chuyển về văn hóa khác, tầm quan trọng của việc tập trung vào khách hàng cũng có tiền lệ trải qua nhiều thập niên.
+
+Có thể truy nguyên tư tưởng tập trung vào khách hàng từ thời Peter Drucker đến các công trình của Theodore Levitt và đến các nhà tư tưởng hiện đại ngày nay. Peter Drucker (1909-2005), cha đẻ của phương pháp quản lý theo mục tiêu và có lẽ cũng là chuyên gia đầu tiên về quản lý, đã nêu bật tầm quan trọng của khách hàng với lời khẳng định: “Trung tâm lợi nhuận duy nhất là những khách hàng có đủ tiền trong tài khoản” (Drucker 2002). Tương tự, Giáo sư quá cố Theodore Levitt (1925-2006) thuộc trường Kinh doanh Harvard, là người đã giúp các sinh viên suy nghĩ lại về vai trò của kinh doanh khi chỉ ra rằng: “Người ta không muốn mua một mũi khoan dài 6mm, mà người ta muốn có một lỗ khoan sâu 6mm”. Và ngày nay, nhiều chuyên gia cố vấn kêu gọi các doanh nghiệp hãy tự đặt cho mình câu hỏi: “Làm sao để tạo ra một sự khác biệt mà khách hàng quan tâm và sẵn sàng trả tiền để có cơ hội trải nghiệm sự khác biệt đó?” (D. Dalka 2012).
+
+Để làm rõ sự dịch chuyển này, Bill George, cựu CEO của Tập đoàn cung ứng trang thiết bị y tế và liệu pháp y khoa Medtronic và hiện đang là Giáo sư tại trường Kinh doanh Harvard, phát biểu:
+
+Tôi không ủng hộ quan điểm cho rằng các doanh nghiệp tồn tại chỉ để tạo ra giá trị cho các cổ đông của họ. Tôi nghĩ các doanh nghiệp này xuất hiện là để tạo ra giá trị cho khách hàng và đó cũng chính là sứ mệnh của họ. Và cuối cùng, khi làm như vậy, họ sẽ tạo ra được giá trị cho xã hội nói chung.
+
+Nếu quên mất điều đó, họ sẽ mất đi tính hợp pháp của mình, họ sẽ không có quyền tồn tại, bất kể tạo ra những giá trị ngắn hạn nào cho cổ đông. Và khái niệm giá trị cổ đông đang bị hiểu sai. Nó là kết quả đến từ giá trị lớn lao mà bạn tạo ra cho khách hàng, từ đó mở đường cho doanh nghiệp phát triển và nó cũng đến từ đội ngũ nhân viên gắn bó với doanh nghiệp, có tinh thần đổi mới sáng tạo và cung cấp những dịch vụ ưu việt cho khách hàng.
+
+(McKinsey & Company 2013)
+
+Các nhà lãnh đạo này đều kêu gọi các doanh nghiệp hãy tư duy lại về chiến lược từ góc nhìn của khách hàng. Họ sẽ phục vụ khách hàng nào? Họ sẽ giải quyết vấn đề nào cho những khách hàng đó? Và khách hàng đánh giá như thế nào về giá trị của các giải pháp mà doanh nghiệp đưa ra để giải quyết các vấn đề của họ?
+
+Đây là sự thay đổi nhận thức nền tảng trong mục đích tồn tại của doanh nghiệp. Đây là sự dịch chuyển từ chỗ khẳng định rằng doanh nghiệp tồn tại chủ yếu chỉ nhằm phục vụ cổ đông trở thành khẳng định doanh nghiệp tồn tại để phục vụ khách hàng và sinh lời. Sự dịch chuyển này hiện vẫn chưa hoàn tất, nhưng chắc chắn là nó đã và đang diễn ra.
+
+Nói như thế không có nghĩa là cổ đông, nhân viên, hay những quan hệ xã hội nói chung không quan trọng. Cổ đông lấy động lực đầu tư từ những kỳ vọng về lợi nhuận thu về. Nhân viên lấy động lực làm việc từ những kỳ vọng thăng tiến trong sự nghiệp và chế độ lương bổng, kể cả hiện tại cũng như tương lai. Và xã hội nói chung muốn bảo đảm các doanh nghiệp hành động đúng trong khuôn khổ đạo đức, với những tác động ngoại lai tiêu cực về kinh tế ở mức tối thiểu. Tất cả bên liên quan này cùng những mối lo ngại của họ đều quan trọng và cần được quản lý, nhưng đó không phải là yếu tố để quyết định mục đích của doanh nghiệp.
+
+Khi nói rằng mục đích tồn tại của doanh nghiệp là phục vụ khách hàng và sinh lời, chúng ta thậm chí có thể bỏ từ “sinh lời” ra khỏi tuyên bố trên mà vẫn không sợ sai. Khách hàng không mang lại lợi nhuận thì không phải là khách hàng. Họ chỉ là những con đỉa ăn bám vào doanh nghiệp để hút máu, ở đây nghĩa là dòng tiền. Không doanh nghiệp nào có thể phục vụ những con đỉa đó mãi được. Đỉa thì nên né tránh chứ không phải bám đuổi. Do vậy, chúng ta có thể chỉ cần đơn giản nói rằng mục đích của doanh nghiệp là phục vụ khách hàng. Chỉ thế thôi.
+
+Cùng với sự dịch chuyển hướng về khách hàng là sự thay đổi trong việc xác định các hoạt động chính của doanh nghiệp. Yêu cầu đầu tiên khi phục vụ nhu cầu của khách hàng là xác định các mục tiêu thành văn và bất thành văn của khách hàng. Sau khi đã xác định được nhu cầu của khách hàng, yêu cầu chính thứ hai là tìm hiểu xem khách hàng đề cao việc đáp ứng nhu cầu đó ở mức nào. Yêu cầu chính thứ ba là xác định cách đáp ứng nhu cầu của khách hàng với mức chi phí thấp hơn mức giá mà họ sẵn sàng chi trả.
+
+Như vậy, các hoạt động của doanh nghiệp thay đổi từ trình tự (1) thiết kế sản phẩm đề xuất, (2) ước tính chi phí của sản phẩm đề xuất đó, (3) cộng thêm phần lợi nhuận để tính giá thành của sản phẩm đề xuất và (4) quảng bá sản phẩm đề xuất để thu hút khách hàng, sang trình tự mới (1) xác định nhu cầu của khách hàng, (2) tìm hiểu giá trị của việc đáp ứng các nhu cầu đó, (3) xác định mức giá mục tiêu dựa trên giá trị mà khách hàng gắn cho sản phẩm đề xuất, (4) xác định chi phí mục tiêu thấp hơn mức giá mục tiêu để đảm bảo khả năng sinh lợi và (4) điều chỉnh sản phẩm đề xuất để đáp ứng các nhu cầu đó sao cho có doanh thu.
+
+Đây là quy trình đối lập hoàn toàn với quan điểm truyền thống “cứ làm ra sản phẩm, rồi sẽ có khách hàng tìm đến”. Quan điểm tiên tiến như sau: “Điều khiến khách hàng tìm đến là những gì chúng ta sẽ tạo ra”.
+
+Các doanh nghiệp thành công nhất trên thế giới đều tìm hiểu nhu cầu của khách hàng trước, sau đó từ dữ liệu này chuyển thành những sản phẩm và dịch vụ mang lại kết quả tương ứng với mục tiêu của khách hàng. Và, để phân biệt giữa khách hàng tạo ra lợi nhuận với những con đỉa hút máu (nghĩa là những người nhận lấy thành quả công việc của doanh nghiệp nhưng lại không chi trả ở mức vừa đủ để doanh nghiệp tiếp tục hoạt động và phát triển), họ chỉ cung cấp những sản phẩm/dịch vụ được định giá phù hợp với thiện chí chi trả của khách hàng và có mức chi phí ở ngưỡng dưới thiện chí chi trả đó. Như vậy, những doanh nghiệp thành công này lựa chọn một tập hợp những nhu cầu của khách hàng để cung cấp giải pháp – và họ thu về lợi nhuận từ hoạt động đó.
+
+Mục đích rõ ràng mang đến sự thay đổi trong văn hóa định giá, và văn hóa này khác biệt một cách triệt để so với những thông lệ định giá trước đây. Văn hóa này được gọi là điều tiết giá trị và kết quả mà nó mang lại là định giá dựa trên giá trị.
+
+Điều tiết giá trị
+
+Điều tiết giá trị giúp định hướng những quyết định chiến lược về sản phẩm đề xuất như: “Chúng ta có thể làm gì để cung cấp những sản phẩm/dịch vụ mà khách hàng quan tâm và sẵn lòng chi trả ở mức giá cao hơn so với chi phí mà chúng ta đã bỏ ra?”
+
+Các doanh nghiệp chủ trương điều tiết giá trị tập trung vào mọi khía cạnh của sản phẩm đề xuất cho khách hàng, tức là tập trung vào những yếu tố làm tăng giá trị dẫn đến vượt quá mức chi phí bỏ ra để sản xuất.
+
+Nghĩa là, trong điều tiết giá trị, doanh nghiệp làm việc giật lùi từ nhu cầu và giá trị của khách hàng để xác định các phương hướng hành động cho mình. Những doanh nghiệp chủ trương điều tiết giá trị sẽ cố gắng tìm hiểu mức độ sẵn sàng chi trả của khách hàng đối với các lợi ích khác nhau, từ đó xác định mức giá mục tiêu cho sản phẩm đề xuất. Từ mức giá mục tiêu này, họ xác định chi phí mục tiêu sao cho sản phẩm mang lại lợi nhuận cho họ sau khi bán cho khách hàng. Dựa trên chi phí mục tiêu và mục tiêu cần giải quyết, tất cả thuộc tính của sản phẩm đề xuất sẽ được xác định lại để bảo đảm thỏa mãn các mục tiêu về thị trường.
+
+Khi đi sâu vào vấn đề điều tiết giá trị, chúng ta phải đối mặt với một thực tế đơn giản của thị trường tự do cạnh tranh: khách hàng có nhiều lựa chọn thay thế. Khách hàng có thể mua sản phẩm từ doanh nghiệp, từ đối thủ của doanh nghiệp, hoặc không làm gì cả. Do đó, cung cấp giá trị cho khách hàng là chưa đủ: những doanh nghiệp chủ trương điều tiết giá trị tập trung cung cấp giá trị lớn hơn so với đối thủ cho phân khúc khách hàng mục tiêu.
+
+Điều này có nghĩa là phương thức điều tiết giá trị đòi hỏi sự định nghĩa lại về sản phẩm đề xuất để đáp ứng nhóm các mục tiêu của khách hàng mà doanh nghiệp lựa chọn giải quyết và loại bỏ những thuộc tính và đặc điểm tuy có thể là phổ biến nhưng lại không cần thiết trong việc đáp ứng các mục tiêu đó của khách hàng. Một số chức năng trong sản phẩm đề xuất tiêu chuẩn có thể bị loại bỏ vì chúng không cung cấp giá trị vượt quá chi phí bỏ ra. Có những chức năng khác có thể được bổ sung hoặc tăng thêm nếu chúng mang lại giá trị cho một phân khúc khách hàng cụ thể ở ngưỡng vượt quá chi phí phải bỏ ra cho chúng, dù rằng thông thường chúng không xuất hiện trong dòng sản phẩm hay dịch vụ đó.
+
+Khi tính toán giá thành, thay vì tập trung vào các loại chi phí và phần trăm lợi nhuận, doanh nghiệp chủ trương điều tiết giá trị bắt đầu từ việc tìm hiểu thiện chí chi trả của khách hàng. Đây gọi là định giá dựa trên giá trị. Trong định giá dựa trên giá trị, doanh nghiệp xác định những mức giá sát nhất với thiện chí chi trả của khách hàng, không để mình bị rơi vào tình huống bán hớ hay phải thực hiện các giao dịch không mang lại lợi nhuận hoặc không lành mạnh.
+
+Định giá dựa trên giá trị không phải là định giá dựa trên chi phí. Không phải lúc nào nó cũng xuất phát từ các khoản chi phí phải bỏ ra và cộng thêm một tỷ lệ phần trăm lợi nhuận. Đây là đặc điểm khá thú vị của định giá. Định giá dựa trên chi phí thường (1) đặt ra mức giá thấp hơn nhiều so với thiện chí chi trả của khách hàng và do đó khiến doanh nghiệp phải chịu thiệt thòi, hoặc (2) đặt ra mức giá quá cao đến nỗi chỉ có một số khách hàng sẵn sàng mua ở ngưỡng đó.
+
+Khi lấy điểm xuất phát từ sự thấu hiểu về những giá trị mà khách hàng đề cao – từ lăng kính của chính khách hàng, không phải dựa trên những giả định của doanh nghiệp – doanh nghiệp sẽ xây dựng được văn hóa định giá dựa trên giá trị.
+
+Đối với đối thủ và định giá cạnh tranh, điều tiết giá trị coi các sản phẩm đề xuất cạnh tranh là một phương án lựa chọn thay thế cho khách hàng mục tiêu. Nó không phớt lờ các mức giá cả cạnh tranh, mà ngược lại, nó tính đến vai trò của sự cạnh tranh này trong quá trình điều tiết đề xuất giá trị. Nó chỉ ra rằng nếu muốn vượt qua đối thủ, doanh nghiệp phải phục vụ khách hàng tốt hơn đối thủ theo hướng tạo ra được lợi nhuận từ hành động đó.
+
+Hãng Hàng không Southwest Airlines và điều tiết giá trị
+
+Để hiểu rõ hơn về cách thức hoạt động của mô hình điều tiết giá trị, chúng ta hãy cùng xét đến trường hợp của Herb Kelleher, nhà đồng sáng lập kiêm cựu CEO của hãng Hàng không Southwest Airlines (Baker 2006; Klein 1979; Zellner 1999; JP Morgan 1996; Lee 1996; Myerson 1997; Smith 2011). Những chuyến bay đầu tiên của Southwest Airlines được cất cánh vào năm 1971. Kể từ đó đến nay, họ đã vươn lên để trở thành hãng hàng không nội địa lớn nhất nước Mỹ với thành tích 41 năm liên tục kinh doanh có lãi. Kelleher đã làm thế nào để có được thành tích đáng nể này? Như chúng ta sẽ thấy, ông điều tiết giá trị của Southwest Airlines theo hướng tạo ra lợi nhuận và đặt giá bằng cách sử dụng các nguyên tắc của định giá dựa trên giá trị.
+
+Định giá dựa trên giá trị
+
+Định giá dựa trên giá trị là kết quả của điều tiết giá trị. Khái niệm này dựa trên nền tảng giả thiết để phục vụ nhiều nhu cầu của khách hàng và thu được lợi nhuận từ đó, doanh nghiệp phải nắm bắt được những nhu cầu đó là gì và họ sẵn sàng chi trả bao nhiêu để thỏa mãn các nhu cầu đó. Nghĩa là, định giá dựa trên giá trị nhằm xác định giá trị của sản phẩm đề xuất từ lăng kính khách hàng và sau đó tính ra mức giá tương ứng phù hợp.
+
+Trong định giá dựa trên giá trị, các thách thức liên quan đến định giá cần phải được tiếp cận từ sự hiểu biết về giá trị theo góc nhìn của khách hàng. Để làm được điều này, doanh nghiệp phải thu thập những dữ liệu giúp tạo thành các thông tin có ý nghĩa về nhu cầu của khách hàng, tác động của sản phẩm đề xuất đối với nhu cầu đó và giá trị của tác động đó – tất cả đều được phóng chiếu từ lăng kính của khách hàng.
+
+Định giá dựa trên giá trị không phải là một kỹ thuật hay quy trình cụ thể, mà là một mô hình quản lý những sự trao đổi giữa doanh nghiệp với khách hàng. Mô hình này vận hành song song cùng với quy trình ra quyết định trong doanh nghiệp. Nó xác định bối cảnh thực hiện tất cả quyết sách về định giá và định vị cạnh tranh chiến lược.
+
+Nếu như nói định giá dựa trên giá trị phụ thuộc vào việc hiểu giá trị từ lăng kính của khách hàng, vậy giá trị đó là gì? Hay nói cách khác, giá trị nào đáng để ra quyết định về giá?
+
+Tổng giá trị mà khách hàng nhận được từ sản phẩm là hiệu số giữa tổng lợi ích mà sản phẩm/dịch vụ cung cấp và tổng giá mà khách hàng phải trả để nhận được gói lợi ích đó. Chúng ta có thể trình bày như sau:
+
+Giá trị là các lợi ích mà khách hàng nhận được trừ đi giá trị mà doanh nghiệp thu được.
+
+V = B – P
+
+Trong đó V là giá trị, B là lợi ích và P là giá thành.
+
+Định nghĩa này về giá trị cũng là định nghĩa của các nhà kinh tế học về thặng dư tiêu dùng.
+
+Tuy nhiên, từ lâu người ta đã biết rằng tổng giá trị cung cấp cho khách hàng không phù hợp để định giá. Để hiểu rõ hơn, chúng ta có thể hình dung một trường hợp giả định so sánh nước với kim cương. Cả hai đều mang lại giá trị cho khách hàng và hiển nhiên nước uống có giá trị với đời sống con người hơn so với kim cương, nhưng khoản tiền mà khách hàng bỏ ra để mua một viên kim cương lớn hơn gấp nhiều lần so với khoản tiền mà họ bỏ ra để mua nước.
+
+Do đó, giá trị phù hợp cho các quyết định về giá không phải là tổng giá trị được cung cấp. Tổng giá trị cung cấp là một chỉ số quá rộng đối với các quyết định về giá. Chúng ta phải cần đến điều gì đó cụ thể hơn.
+
+Ở phần trên, chúng tôi nói rằng khách hàng đưa ra sự lựa chọn trong số các sản phẩm đề xuất thay thế nhau. Những đề xuất thay thế nhau này thay đổi nhận thức về giá trị của khách hàng từ “Tổng giá trị sản phẩm đề xuất này cung cấp là gì?” thành “Tôi sẽ nhận được lợi ích nào hơn nếu lựa chọn doanh nghiệp này thay vì các doanh nghiệp kia?”. Nghĩa là, ý nghĩa về giá trị đối với khách hàng không phải là khái niệm tổng giá trị mang tính tuyệt đối, mà là khái niệm mang tính tương đối về giá trị khác biệt.
+
+Giá trị khác biệt là sự khác biệt về giá trị cung cấp cho khách hàng bằng cách lựa chọn sản phẩm đề xuất của một doanh nghiệp thay vì lựa chọn sản phẩm đề xuất của những doanh nghiệp khác. Sử dụng định nghĩa trên về giá trị, chúng ta có thể trình bày như sau:
+
+Giá trị khác biệt là lợi ích khác biệt trừ đi sự giá khác biệt.
+
+∆V = ∆B − ∆P
+
+Trong đó ∆ (chữ cái Hy Lạp cho từ Delta) là sự thay đổi hay sự khác biệt về giá trị, lợi ích và giá cả giữa các sản phẩm đề xuất.
+
+Khái niệm giá trị khác biệt, ∆V, bao quát cả những vấn đề cụ thể, có thể tính toán và những vấn đề trừu tượng thuộc về nhận thức. Nó bao gồm cả lợi ích khác biệt và giá khác biệt.
+
+Lợi ích khác biệt, ∆B, nhấn mạnh đến tầm quan trọng của các điểm khác biệt và coi các điểm tương đồng là yếu tố cần thiết để duy trì điểm dương cho giá trị khác biệt. Từ lăng kính của khách hàng, lợi ích bao gồm cả lợi ích hữu hình và vô hình mang lại cho khách hàng. Tất cả ngụ ý rằng tác động của những sự khác biệt về tài chính, kế toán, hay những khác biệt khác có thể tính toán về mặt kinh tế và tác động của những sự khác biệt về tâm lý hành vi, hay nhận thức trong lợi ích giữa các sản phẩm đề xuất khác nhau sẽ định hình nên lợi ích khác biệt trong quá trình ra quyết định của khách hàng.
+
+Tương tự, giá khác biệt, ∆P, từ lăng kính của khách hàng bao gồm sự khác biệt về mức giá xét trên cả khía cạnh thực tế và trong quan niệm của khách hàng. Nghĩa là, giá khác biệt không đơn thuần là sự chênh lệch số học về giá cả mà còn là phương pháp để tính ra những mức giá đó, cách thức mức giá đó được trình bày và truyền đạt, vị trí của nó so với mức giá kỳ vọng đối với sản phẩm đề xuất.
+
+Bằng cách tính đến tất cả khía cạnh về tư duy, hành vi và tâm lý trong quá trình ra quyết định của khách hàng, chúng ta sẽ rút ra được một định nghĩa về sự giá khác biệt có thể sử dụng để dự tính lựa chọn của khách hàng, lấy đó làm định hướng để đưa ra các quyết định về giá.
+
+Tại thời điểm mua hàng, khách hàng sẽ lựa chọn sản phẩm đề xuất mà họ cho rằng có giá trị khác biệt dương so với tất cả phương án thay thế khác trong nhóm những phương án mà họ cân nhắc. Nghĩa là họ tìm kiếm giá trị ∆V dương.
+
+Khách hàng sẽ mua hàng nếu giá trị khác biệt có giá trị dương.
+
+∆V ≥ 0
+
+Khái niệm giá trị khác biệt là hữu ích vì nó cung cấp cấu trúc để thực hiện các quyết định về giá. Nó giúp các nhà lãnh đạo đi từ câu hỏi đơn giản: “Chúng ta nên đặt ra mức giá nào cho sản phẩm đề xuất này?” đến câu hỏi khác đúng hơn: “Khách hàng sẽ nhận được thêm bao nhiêu giá trị nếu chọn sản phẩm đề xuất của chúng ta thay vì tất cả lựa chọn khác của họ – kể cả những lựa chọn không phải do đối thủ trực tiếp của chúng ta cung cấp?” và “Chúng ta nên chia sẻ bao nhiêu phần giá trị đó với khách hàng?”
+
+Lựa chọn cạnh tranh của Southwest Airlines
+
+Quay trở lại với ví dụ ở trên, Southwest Airlines đã phải đối mặt với nhiều thách thức về định giá vào thời điểm mới thành lập. Kelleher đã thiết kế một sản phẩm đề xuất nhằm giải quyết nhu cầu đi lại giữa Dallas và Houston, Houston và San Antonio, hay San Antonio và Dallas. Mọi người có rất nhiều lựa chọn để đạt được mục tiêu đó. Trong quá khứ, họ có thể cân nhắc đến chuyện đi bộ, cưỡi ngựa hay đi thuyền. Vào thập niên 1970, những người có đủ thời gian có thể lựa chọn đi xe đạp, bắt xe bus hay đi tàu hỏa. Nhưng nhìn chung, vào thời kỳ này, hầu hết mọi người đều lái ô tô hoặc mua vé máy bay để đáp ứng các mục tiêu trên.
+
+Đối với Southwest Airlines vào thập niên 1970, lựa chọn thay thế phù hợp nhất trong tâm trí nhiều khách hàng của họ là tự lái ô tô hoặc mua vé của hãng hàng không đối thủ. Do đó, Southwest Airlines phải xác định sản phẩm đề xuất của mình trong mối tương quan với một trong hai phương án thay thế này: lái ô tô hoặc sử dụng hãng hàng không đối thủ. Giữa hai phân khúc khách hàng tiềm năng này – nghĩa là nhóm những người tự lái xe và nhóm những người sử dụng dịch vụ của hãng đối thủ – Southwest Airlines lựa chọn nhắm vào phân khúc ít bị cạnh tranh hơn: những người lái ô tô.
+
+Để thu hút nhóm khách hàng mục tiêu đã xác định – những người tự lái ô tô để đi lại giữa các thành phố lớn ở Texas – Southwest Airlines cần phải thiết kế sản phẩm đề xuất sao cho những khách hàng tiềm năng nhận ra được giá trị khác biệt dương của phương án di chuyển bằng máy bay so với phương án lái xe ô tô.
+
+Những lợi ích khác biệt
+
+Như đã đề cập, lợi ích khác biệt bao gồm tất cả những sự khác biệt về lợi ích mà khách hàng nhận thấy giữa các phương án lựa chọn khác nhau. Nó bao quát mọi hình thức lợi ích mà khách hàng có thể nhận được từ sản phẩm đề xuất: hữu hình và vô hình, hiện tại và tương lai, có thực và theo đánh giá chủ quan.
+
+Có thể nhìn nhận lợi ích như những kết quả có được từ sản phẩm hoặc các đặc điểm của dịch vụ. Những đặc điểm này có thể mang bản chất kỹ thuật, chẳng hạn hệ điều hành trong chiếc iPad hay kỹ thuật làm cánh turbine. Chúng có thể tập trung vào thiết kế như logo Swoosh của Nike hay logo hình tấm khiên của Emerson. Chúng có thể bao gồm những vấn đề liên quan đến phân phối như vị trí trưng bày sản phẩm của sản phẩm tẩy rửa Tide trên kệ hàng hay việc lựa chọn mặt bằng cho McDonald’s và Caterpillar. Chúng có thể là những đặc điểm mang tính thời điểm như vé vui chơi FASTPASS ở công viên Disneyland hay các dịch vụ vận chuyển nhanh của doanh nghiệp kinh doanh vật liệu xây dựng Vulcan Materials.
+
+Vào thời điểm thành lập, Southwest Airlines cung cấp một tập hợp những đặc điểm độc đáo. Một số đặc điểm không được nhiều hãng hàng không đối thủ cung cấp. Một số đặc điểm còn thiếu trong sản phẩm đề xuất của các hãng cạnh tranh. Trong từng nhóm đặc điểm như vậy, Southwest Airlines thực hiện những sự đánh đổi để điều tiết giá trị cho sản phẩm đề xuất của mình. Dưới đây là danh sách tóm lược một số đặc điểm độc đáo mà hãng này cung cấp hoặc từ chối cung cấp:
+
+- Tần suất chuyến bay thường xuyên giữa Dallas, Houston và San Antonio
+
+- Tiếp viên lịch sự và vui vẻ
+
+- Sân bay ít cảnh chen chúc, có thể cách xa trung tâm thành phố
+
+- Không có hệ thống đặt chỗ trước
+
+- Đơn giản trong định giá
+
+- Phục vụ ăn nhẹ là đậu phộng và đồ uống Dr. Pepper, nhưng không phục vụ bữa ăn
+
+- Không xếp chỗ
+
+- Bay thẳng
+
+- Không có dịch vụ hạng nhất
+
+- Không có đại lý bán vẻ – mọi hoạt động mua vé đều được thực hiện trực tiếp với Southwest.
+
+Danh sách những đặc điểm và lợi ích này của Southwest Airlines cho thấy tầm quan trọng của việc cân nhắc về những đặc điểm cần đưa vào sản phẩm đề xuất. Nên lấy thiết kế lợi ích làm định hướng để xây dựng thiết kế đặc điểm. Nghĩa là, khi lựa chọn những đặc điểm cần đưa vào sản phẩm đề xuất, các cấp lãnh đạo nên đặt câu hỏi cho chính mình rằng họ muốn cung cấp những lợi ích gì.
+
+Nếu đứng độc lập, về cơ bản các đặc điểm sản phẩm chỉ là các loại hàng hóa. Chúng không bổ sung giá trị thật sự cho đến khi chúng mang lại lợi ích mà khách hàng quan tâm.
+
+Lợi ích được thiết kế để giúp khách hàng đạt được mục tiêu nào đó – nghĩa là giúp họ làm điều gì đó. Như vậy, doanh nghiệp nên cân nhắc xem khách hàng muốn thực hiện mục tiêu nào và từng lợi ích cụ thể đóng góp vào việc thực hiện mục tiêu đó ra sao. Khi thiết lập mối liên kết toàn diện, các cấp lãnh đạo có thể đặt câu hỏi: Những đặc điểm này có thể giúp khách hàng làm gì? Vì sao chúng lại cần thiết đối với mục tiêu mà khách hàng muốn “thuê” sản phẩm thực hiện?
+
+Để hiểu rõ hơn, trước tiên chúng ta hãy cân nhắc đến những lợi ích mang bản chất kinh tế.
+
+Các sản phẩm đề xuất có thể tạo ra tác động kinh tế trực tiếp, chẳng hạn như những khoản tiết kiệm chi phí từ việc sử dụng một loại máy tiết kiệm công sức lao động hoặc một chương trình tiết kiệm điện năng mang lại. Chúng cũng có thể tạo ra tác động kinh tế gián tiếp như giúp khách hàng đạt được mục tiêu nhanh hơn (ví dụ, các mục tiêu về giáo dục đại học và sự nghiệp) hoặc giúp khách hàng quản lý rủi ro tốt hơn (bảo hiểm y tế và tai nạn).
+
+Giảm chi phí cơ hội cũng có thể mang lại những lợi ích kinh tế hữu hình. Chẳng hạn, bạn hãy thử hình dung về việc tiết kiệm thời gian mà các cửa hàng tiện lợi mang lại so với các nhà bán lẻ giá rẻ và khả năng định giá khác nhau cho những sản phẩm tương đương tại hai điểm bán hàng khác nhau. Sự khác biệt về giá này được rút ra trực tiếp từ sự khác biệt về lợi ích, một sự khác biệt nằm ngay trong chính khái niệm về chi phí cơ hội.
+
+Trong thị trường B2B, lợi ích kinh tế thường là yếu tố tác động chính đối với những quyết định mua hàng. Chúng là động lực thúc đẩy lựa chọn tham gia vào thị trường, tác động đến việc định giá và lựa chọn các sản phẩm đề xuất và định hình trải nghiệm về sản phẩm/dịch vụ rất lâu sau khi đã tiêu thụ chúng hết. Thực tế này dẫn đến việc lập các bước quy trình kinh doanh bao gồm việc tính tổng chi phí sở hữu nhằm định hướng khách hàng lựa chọn một sản phẩm đề xuất có thể có chi phí bỏ ra ban đầu cao nhưng chi phí tính theo vòng đời sản phẩm thấp hơn. Khi xác định các lợi ích kinh tế, các nhà lãnh đạo nên đặt câu hỏi: Sản phẩm đề xuất này tác động ra sao đến tình hình tài chính nói chung của khách hàng?
+
+Ngoài lợi ích kinh tế còn có những lợi ích về hành vi, cảm xúc, giác quan và tâm lý. Tuy việc tính toán tác động của những lợi ích này có thể không dễ dàng, nhưng tác động của chúng đối với lựa chọn của khách hàng thường vượt quá những tranh luận thuần túy của doanh nghiệp về kinh tế.
+
+Những lợi ích về hành vi, chẳng hạn hiệu ứng mỏ neo6, tác động mạnh mẽ đến nhận thức của khách hàng về giá trị. Khách hàng tiếp nhận thông tin một cách tuần tự. Nhìn chung, một khi đã tiếp nhận thông tin, họ sẽ khó rũ bỏ thông tin đó hoặc điều chỉnh để tiếp nhận thông tin mới. Điều này có thể khiến khách hàng đánh giá quá cao một tập hợp lợi ích mà họ đã xác định từ trước trong quá trình lựa chọn, dù rằng những lợi ích đó trên thực tế không liên quan gì đến sản phẩm đề xuất đang được cung cấp hoặc đánh giá quá thấp các lợi ích mới, vốn rất phù hợp với sản phẩm đề xuất đó. Khi hiện tượng này diễn ra trong một giao dịch mua sắm, chúng ta có thể mô tả theo từ ngữ chuyên môn là khách hàng đã “thả neo” cho một tập hợp các niềm tin và sẽ phải trải qua “giai đoạn điều chỉnh” để tiếp nhận thông tin mới.
+
+6 Hiệu ứng mỏ neo: Có thể hiểu là dùng một thứ gì đó để “neo” tư duy con người. Cái “neo” sẽ tác động đến đối tượng thông qua những thông điệp ngầm của người thả neo.
+
+Thả neo chỉ là một trong số nhiều tác động đến hành vi về nhận thức đối với lợi ích của sản phẩm. Ngoài ra còn có những tác động khác như né tránh rủi ro, hiệu ứng sở hữu, hiệu ứng đóng khung và hàng chục loại tác động khác.
+
+Những hiệu ứng về cảm xúc và tâm lý cũng tác động đến nhận thức về lợi ích. Ở thị trường B2C, khách hàng thường bị ảnh hưởng bởi quan điểm của những người đồng trang lứa và khao khát muốn được hòa mình vào xu thế chung. Trong trường hợp này, xây dựng thương hiệu là một đặc điểm mang lại lợi ích xã hội giúp kết nối khách hàng với nhau. Ngay cả trong những thị trường B2B, người ra quyết định tại doanh nghiệp phục vụ khách hàng cũng thường cân nhắc xem quyết định mua sắm của họ sẽ tác động ra sao đến quan điểm của những người như họ, đặc biệt khi có sự cố xảy ra. Và trong tất cả thị trường, khách hàng luôn tìm kiếm những lợi ích mang tính tự xây dựng, tức là những lợi ích giúp họ thể hiện được bản thân và đạt được những mục tiêu liên quan đến việc phát huy hết năng lực của mình.
+
+Quay trở lại với câu chuyện về Southwest Airlines, chúng ta thấy có nhiều lợi ích được thể hiện dưới nhiều hình thức khác nhau. Cách tiếp cận theo hướng giảm thiểu những phiền toái trong việc lựa chọn, đặt mua vé, lên máy bay và hạ cánh của Southwest mang lại sự thuận tiện và đơn giản. Đội ngũ tiếp viên của họ mang lại sự vui vẻ và yêu đời. Và đối với một cư dân ở bang Texas, đậu phộng ăn kèm với chai nước giải khát Dr. Pepper có khác gì món thịt nướng thơm phức trong một chuyến dã ngoại mùa hè đâu. Việc không xếp chỗ hay không có ghế ngồi hạng nhất hầu như không mấy quan trọng vì rằng thời gian bay không bị quá dài. Thay vào đó, khả năng di chuyển hiệu quả, kịp giờ cho một buổi họp trực tiếp rồi về nhà sum vầy với gia đình là những lợi ích lớn hơn nhiều so với bất kỳ đặc điểm nào khác mà đối thủ có thể quảng bá là lợi ích.
+
+Có thể hình dung về lợi ích theo mô hình tháp thứ bậc lợi ích khách hàng (xem Hình 9.1). Tại đáy tháp, sản phẩm đề xuất được thiết kế với nhiều đặc điểm. Nên lựa chọn mỗi đặc điểm dựa theo khả năng mang lại lợi ích của đặc điểm đó – lợi ích ở đây là lợi ích mà khách hàng trong thị trường mục tiêu quan tâm. Doanh nghiệp không cần phải cung cấp tất cả lợi ích khả thi, chỉ cần tập trung vào những lợi ích được thị trường mục tiêu quan tâm hơn.
+
+Khi di chuyển lên phía trên trong tháp thứ bậc lợi ích, những lợi ích có thể được gom thành lợi ích kinh tế hoặc lợi ích hành vi, cảm xúc và tâm lý. Chúng tôi đặt nhóm lợi ích thứ hai lên trên lợi ích kinh tế bởi vì, như nhiều nhà nghiên cứu đã chỉ ra, đối với hầu hết con người, những lợi ích về hành vi, cảm xúc và tâm lý có sức ảnh hưởng lớn hơn so với những lập luận của lý trí về mặt kinh tế.
+
+Tháp thứ bậc này hoạt động tại cả thị trường B2B và B2C. Ngay cả trong thị trường B2B, các quyết định mua sắm vẫn do những con người cụ thể đưa ra chứ không phải do bát kỳ một doanh nghiệp nào. Để khuyến khích khách hàng mua, các khía cạnh về tâm lý cũng cần được điều chỉnh một cách hợp lý. Thật ra, nếu chúng không được điều chỉnh hợp lý, khách hàng thường sẽ cảm nhận được sự thiếu hài hòa nào đó về mặt nhận thức và nếu không được giải quyết, khả năng cao là khách hàng sẽ trì hoãn việc ra quyết định mua hay tệ hơn, họ không đưa ra quyết định cụ thể nào cả.
+
+Khi một sản phẩm đề xuất di chuyển lên trên trong tháp thứ bậc lợi ích, nó sẽ có thêm giá trị, thậm chí bao gồm cả giá trị không thể bắt chước. Việc bắt chước vị thế thương hiệu của một doanh nghiệp thường khó thực hiện hơn so với việc bắt chước giá trị kinh tế trong sản phẩm đề xuất. Ngoài ra, việc đồng thời thỏa mãn các nhu cầu của khách hàng về mặt tâm lý và ngân sách cũng sẽ có ý nghĩa hơn.
+
+Kết hợp lại, điều này dẫn đến sức mạnh định giá, được phản ánh trong khả năng chống chọi trước những biến động nhẹ về giá cả của doanh nghiệp đối thủ bởi khách hàng sẽ không coi những sự khác biệt, đó là quan trọng khiến họ quyết định chuyển sang sử dụng thương hiệu khác. Nó cũng có thể dẫn đến một định nghĩa chặt chẽ hơn về thị trường mục tiêu. Không phải tất cả khách hàng đều coi nhóm lợi ích được chọn là tốt hơn so với nhóm khác, nhưng thị trường mục tiêu thì khác.
+
+Có những thời điểm, các doanh nghiệp sẽ xác định rằng họ cung cấp những lợi ích mà khách hàng không nhận thức được. Có thể gọi đây là các điểm tranh chấp (Anderson, Kumar và Narus 2007). Điểm tranh chấp bao gồm những lợi ích bị đánh giá thấp, nghĩa là những lợi ích mà doanh nghiệp cung cấp nhiều hơn so với đối thủ nhưng khách hàng không hoàn toàn nhận ra điều đó. Điểm tranh chấp cũng bao gồm những lợi ích không được thừa nhận, nghĩa là những lợi ích mà khách hàng cho rằng doanh nghiệp đối thủ cung cấp mà không do doanh nghiệp cung cấp.
+
+Để giải quyết những điểm tranh chấp này, doanh nghiệp phải đưa ra bằng chứng để thay đổi những quan niệm sai lầm nêu trên. Bằng chứng đó được thể hiện theo hình thức những phép tính toán tài chính, nhưng thông thường được thể hiện bằng những trường hợp điển hình, thông số kỹ thuật của sản phẩm đề xuất và tái định vị. Ý nghĩa của việc xử lý những điểm tranh chấp này nhằm giúp khách hàng hiểu rõ về những lợi ích mà doanh nghiệp cung cấp, từ đó thôi thúc họ đưa ra quyết định mua sắm tích cực hơn.
+
+Trong trường hợp của Southwest Airlines, không phải tất cả khách hàng đều hào hứng với sản phẩm đề xuất của hãng hàng không này. Một số hành khách khi đó và bây giờ vẫn vậy, không hài lòng với việc Southwest Airlines không xếp chỗ trước. Một số khác không thích việc hãng này không phục vụ bữa ăn và không có ghế ngồi hạng nhất. Còn đối với những hành khách muốn bay chuyển tiếp với hãng hàng không khác, Southwest Airlines cũng không có sự điều chỉnh nào để phù hợp với mong muốn đó cả. Rõ ràng, sản phẩm đề xuất của Southwest Airlines không phải dành cho tất cả hành khách cần đi công tác. Nhưng với những hành khách không e ngại chuyện đi “xe bus có cánh” thì việc không có những lợi ích trên có thể dễ dàng được bù đắp bằng sự hiệu quả, linh hoạt, đáng tin cậy và thời gian bay vui vẻ với các tiếp viên hài hước.
+
+Lối tư duy trên cùng với chủ trương điều tiết giá trị, sự bổ sung và loại bỏ có chọn lọc các lợi ích đã làm cho Southwest Airlines trở thành một trong những hãng hàng không được yêu thích nhất và kinh doanh có lãi nhất trong lịch sử hàng không thương mại. Những hãng hàng không giá rẻ khác bắt chước mô hình của họ bắt đầu xuất hiện, chẳng hạn như Ryanair hay EasyJet, nhưng khách hàng của những hãng này hiếm khi bày tỏ tình cảm yêu thương gắn bó với họ. Khách hàng của Southwest Airlines thì ngược lại.
+
+Và chúng ta nhận ra dụng ý điều tiết giá trị của họ qua lời phát biểu của Herb Kelleher về việc hãng này chủ trương không đặt mục tiêu cố gắng đáp ứng đầy đủ mọi nhu cầu của tất cả đối tượng khách hàng, thay vào đó họ theo đuổi mục tiêu tập trung làm hài lòng phân khúc thị trường mục tiêu của mình:
+
+Thị phần không có gì liên quan đến khả năng sinh lời. Thị phần thể hiện rằng chúng ta chỉ muốn bành trướng dù kiếm tiền được hay không, không quan trọng. Chính lối tư duy này đã khiến gần như toàn bộ ngành hàng không đi sai đường trong suốt 15 năm sau khi các quy định hạn chế được gỡ bỏ. Để tăng 5٪ thị phần, một số hãng đã phải gia tăng chi phí lên đến 95٪. Đó quả là điều xuẩn ngốc nếu như mục đích của bạn ở đây là kiếm lợi nhuận.
+
+(Freiberg và Jackie 1996)
+
+Giá trị khác biệt của Southwest Airlines
+
+Để thu hút những người có thói quen tự lái ô tô – phân khúc khách hàng mục tiêu của họ – sử dụng dịch vụ, Southwest Airlines đã đưa ra một tuyên bố đơn giản về lợi ích: tiết kiệm thời gian. Tuy Texas là một bang lớn, thậm chí còn lớn hơn so với nhiều quốc gia, nhưng những khách hàng mục tiêu của Southwest Airlines vẫn có thể lái ô tô đi lại giữa các thành phố trong bang. Các tuyến thành phố mà ban đầu Southwest Airlines phục vụ đường bay thường mất 3-5 giờ để di chuyển bằng ô tô. Ngược lại, khi di chuyển bằng máy bay, họ sẽ chỉ mất khoảng 30-45 phút. Nếu lựa chọn máy bay, hành khách có thể sẽ phải cộng thêm thời gian di chuyển đến sân bay và thời gian thực hiện các thủ tục an ninh, nhưng trong thập niên 1970, yêu cầu an ninh vẫn tương đối lỏng lẻo. Hành khách có thể đi tới cửa sân bay, mua vé, rồi lên máy bay – tất cả chỉ gói gọn trong 15 phút. Ngoài ra cũng có thể phải cộng thêm thời gian và chi phí di chuyển trên mặt đất khi họ xuống máy bay tại nơi đến. Nhưng nhìn chung, lượng thời gian tiết kiệm được cùng với lịch trình bay thường xuyên, giúp hành khách đi công tác yên tâm rằng họ có thể đi từ Dallas tới Houston nội trong buổi sáng, tham gia một cuộc họp nào đó rồi ngay buổi chiều đáp máy bay về nhà. Đây là một lợi ích lớn lao đối với những người làm việc trong các doanh nghiệp như Texaco, Texas Instruments và nhiều tổ chức tài chính khác.
+
+Ngoài lợi ích đáng kể về kinh tế, chúng ta cũng có thể tính đến những điểm khác biệt khác khi tính toán giá trị khác biệt. Những khía cạnh về cảm xúc, tâm lý và cảm giác cũng tác động đến nhận thức của thị trường mục tiêu về giá trị. Có thể định lượng giá trị khác biệt của những nhân tố này thông qua nhiều kỹ thuật khác nhau. Để đơn giản hóa việc giải thích, chúng tôi sẽ không định lượng giá trị khác biệt của những nhân tố đó mà thừa nhận luôn rằng giá trị khác biệt tổng thể là lớn hơn so với giá trị như vừa mô tả trong ví dụ trên, do đó giá trị đề xuất có thể hấp dẫn hơn so với những lợi ích được thâu tóm trong bản thân giá cả. Kết quả ở đây là hãy ưu tiên những kỳ vọng ở mức khiêm tốn.
+
+Giá khác biệt
+
+Nửa kia của giá trị khác biệt là giá khác biệt. Tuy trong một số trường hợp, chỉ riêng phần giá cả của sản phẩm đề xuất cũng đủ để loại bỏ nó ra khỏi tiêu chí lựa chọn, nhưng trong các trường hợp liên quan đến các quyết định về giá, thì giá của sản phẩm đề xuất so với giá của đối thủ cạnh tranh là điều quan trọng.
+
+Mức giá trần và giá sàn xét về độ tín nhiệm giá là yếu tố xác định những trường hợp trong đó chỉ cần nhìn vào mức giá, khách hàng có thể yên tâm loại bỏ sản phẩm đề xuất ra khỏi phạm vi cân nhắc của mình. Giá sàn về độ tín nhiệm là mốc ranh giới khi khách hàng không cho rằng một sản phẩm đề xuất ở mức giá thấp như vậy lại có khả năng mang lại những lợi ích như họ mong muốn. Giá trần là khi những hạn chế về ngân sách trở thành rào cản khiến khách hàng không thể tham gia vào thị trường. Giữa hai thái cực này là các mức giá giao dịch khả thi.
+
+Trong khu vực giá tín nhiệm, khách hàng sẽ cân nhắc đến những sự khác biệt về giá và đây là những điểm giá phù hợp cho mô hình định giá dựa trên giá trị.
+
+Doanh nghiệp có thể điều chỉnh giá để cung cấp giá trị khác biệt dương nhằm thu hút khách hàng, nhưng đó không phải là cách duy nhất để chinh phục khách hàng. Doanh nghiệp cũng có thể điều chỉnh những lợi ích khác biệt và đôi khi chỉ cần điều chỉnh nhận thức của khách hàng về lợi ích khác biệt. Cũng có khi chỉ cần điều chỉnh nhận thức về mức giá mà không cần phải thay đổi giá thực tế. Và, như chúng ta sẽ cùng tìm hiểu ở chương sau, việc hạ giá để giành khách hàng trong một thời điểm có thể mang lại những tác động tiêu cực hơn trong giao dịch với những khách hàng khác và thậm chí với cùng một khách hàng đó.
+
+Hơn nữa, nhận thức ở đây không đơn thuần là nhận thức về giá cả liên quan đến sản phẩm đề xuất, mà là nhận thức cách trình bày thông tin về giá cả. Chẳng hạn, một món đồ có giá 400 đô-la với thông báo giảm giá 5% sẽ được nhìn nhận khác đi so với cùng món đồ đó nhưng được giảm 20 đô-la, dù rằng mức giá cuối cùng vẫn như vậy. Đây chỉ là một ví dụ cho thấy cách thể hiện về sản phẩm đề xuất cũng có ảnh hưởng đến nhận thức của khách hàng về mức giá.
+
+Mức giá mục tiêu của Southwest Airlines
+
+Đối với Southwest Airlines, họ xác định mức giá của giải pháp thay thế tương ứng gần nhất với họ trong thị trường mục tiêu dựa trên giá của phương án lái ô tô thay vì đi máy bay. Như vậy, đây là cơ sở phù hợp để đánh giá những điểm khác biệt về giá, từ đó đánh giá các mức giá được đưa ra.
+
+Năm 1971, hiệu suất nhiên liệu cho một chiếc xe trung bình chỉ là 13,7 dặm/lít và giá xăng là 0,30 đô-la/lít, như vậy chi phí trung bình khi lái xe là 0,02 đô-la/lít. Nhưng tiêu chuẩn về số km đi để áp dụng chính sách khấu trừ thuế liên bang liên quan đến việc sử dụng ô tô cho mục đích công việc của Cục Thuế vụ còn cao hơn nhiều: 0,19 đô-la. Giả sử phần chênh lệch này là phần cộng thêm các khoản chi phí mua sắm, bảo dưỡng và đóng bảo hiểm cho xe ngoài phần chi phí nhiên liệu thông thường.
+
+Khoảng cách giữa Dallas và Houston là 242km, như vậy khoản miễn thuế khi lái xe vào năm 1971 là 2.904 đô-la. Tương tự, khoảng cách giữa Dallas và San Antonio là 278km, mức miễn thuế khi lái xe là 33,36 đô-la và khoảng cách giữa San Antonio và Houston là 197km, mức miễn thuế khi lái xe là 23,64 đô-la.
+
+Dù Southwest Airlines chọn mức giá nào, khách hàng mục tiêu của họ vẫn sẽ so sánh nó với mức giá của phương án sử dụng xe cá nhân. Nghĩa là, thị trường mục tiêu sẽ đánh giá mức giá đó tương ứng với mức khấu trừ thuế 20-30 đô-la của Cục Thuế vụ đối với các khoản chi phí cho công việc.
+
+Giá trị trao đổi với khách hàng
+
+Khi kết hợp các khái niệm về giá trị, lợi ích khác biệt và giá khác biệt lại với nhau, chúng ta có thể đưa ra được một định lý hữu ích về định giá dựa trên giá trị: Giá tối đa đạt được để thu hút khách hàng là giá trị trao đổi với khách hàng (EVC) của sản phẩm đề xuất.
+
+Logic ở đây tương đối dễ hiểu. Chúng ta có thể trình bày bằng phương trình như sau:
+
+Giá trị, xét từ lăng kính của khách hàng, là sự khác biệt giữa lợi ích và mức giá mà họ nhận thức được.
+
+V = B – P
+
+Khách hàng sẽ mua nếu như giá trị khác biệt, tức là giá trị trong sản phẩm đề xuất của doanh nghiệp so với giá trị trong sản phẩm đó của doanh nghiệp cạnh tranh, đạt giá trị dương.
+
+∆V ≥ 0
+
+Nếu đặt F là sản phẩm đề xuất của doanh nghiệp, và A là phương án thay thế cạnh tranh gần nhất theo đánh giá của khách hàng và yêu cầu giá trị khác biệt dương:
+
+∆V = ∆B – ∆P = (BF – BA) – (PF – PA) ≥ 0
+
+Sau đó ta kết luận rằng để khách hàng đi đến quyết định mua, mức giá tối đa mà doanh nghiệp thu được là mức giá của sản phẩm cạnh tranh gần nhất được điều chỉnh theo điểm khác biệt.
+
+PF ≤ PA + (BF – BA)
+
+Hãy để ý những gì vừa xảy ra.
+
+Dựa trên khái niệm về giá trị là sự khác biệt giữa những gì nhận về, những gì phải bỏ ra và dựa trên lập trường rằng, khách hàng sẽ lựa chọn sản phẩm đề xuất mang lại giá trị lớn nhất mà họ nhận thức được so với các giải pháp cạnh tranh, chúng tôi rút ra kết luận rằng mức giá tối đa mà doanh nghiệp thu được là mức giá của sản phẩm cạnh tranh gần nhất được điều chỉnh theo sự khác biệt về lợi ích.
+
+Do đó, nếu sản phẩm đề xuất của doanh nghiệp có nhiều lợi ích mà khách hàng quan tâm hơn so với đối thủ, khi đó doanh nghiệp có thể tính mức giá cao hơn. Nếu sản phẩm của bạn tốt hơn, dĩ nhiên bạn có quyền tính mức giá cao hơn.
+
+Ngược lại, nếu sản phẩm đề xuất của doanh nghiệp có lợi ích mà khách hàng không quan tâm hơn so với đối thủ, khi đó doanh nghiệp phải tính mức giá thấp hơn để thu hút được khách hàng. Nếu sản phẩm của bạn kém hơn, bạn phải tính mức giá thấp hơn hoặc rút lui khỏi thị trường.
+
+Định giá dựa trên giá trị không bỏ qua vai trò của giá cả cạnh tranh, theo đó, giá cả cạnh tranh chỉ là điều kiện chưa đủ để xác định mức giá mà doanh nghiệp có thể nắm bắt. Định giá cạnh tranh, theo đó doanh nghiệp chỉ tìm cách đặt mức giá khớp với giá của đối thủ, sẽ không mang lại thành công lâu dài. Định giá cạnh tranh là dữ liệu đầu vào cho định giá dựa trên giá trị, chứ không phải là kết quả. Thay vào đó, phương pháp định giá dựa trên giá trị đòi hỏi doanh nghiệp phải xác định được mức giá của đối thủ và điều chỉnh mức giá đó có tính đến các điểm khác biệt.
+
+Giá trị trao đổi với khách hàng là giá trị trong định lý xác định mức giá tối đa mà doanh nghiệp có thể đạt được như mô tả ở trên. Nghĩa là, giá trị trao đổi với khách hàng là mức giá của sản phẩm cạnh tranh gần nhất cộng với tổng các lợi ích bổ sung mà sản phẩm đề xuất của doanh nghiệp mang lại, trừ đi các lợi ích còn thiếu (so với sản phẩm cạnh tranh) – tất cả đều dựa trên nhận thức của khách hàng về tình hình thực tế.
+
+PF ≤ EVC = PA + (BF – BA)
+
+Giá trị trao đổi với khách hàng thường được hình dung như mô tả ở Hình 2.2. Bước đầu tiên là xác định mức giá của sản phẩm cạnh tranh tương ứng gần nhất. Sau đó, ta cộng tất cả điểm khác biệt dương (các Lợi ích B1, B2, B3 trong sơ đồ) và trừ các điểm khác biệt âm (Lợi ích B4 trong sơ đồ). Kết quả thu về là giá trị trao đổi với khách hàng.
+
+Do giá trị trao đổi với khách hàng phụ thuộc vào nhận thức của khách hàng, nên chúng ta có thể đưa ra một số bổ sung hữu ích về thiện chí chi trả của khách hàng như sau:
+
+Bất kỳ mức giá nào trên ngưỡng giá trị trao đổi với khách hàng đều là lý do xác đáng để khách hàng lựa chọn sản phẩm cạnh tranh tương ứng gần nhất, do đó khách hàng sẽ không sẵn sàng chi trả ở mức giá đó.
+
+Bất kỳ mức giá nào dưới ngưỡng giá trị trao đổi với khách hàng đều là lý do xác đáng để khách hàng lựa chọn sản phẩm đề xuất của doanh nghiệp, do đó khách hàng sẽ sẵn sàng chi trả ở mức giá đó.
+
+Vì vậy, giá trị trao đổi với khách hàng xác định thiện chí chi trả tối đa của khách hàng.
+
+Lồng ghép trong giá trị trao đổi với khách hàng là một thực tế rằng khách hàng có sự lựa chọn. Khách hàng không bắt buộc phải mua sản phẩm của doanh nghiệp. Doanh nghiệp thường phải đối mặt với sự cạnh tranh trên thị trường cũng như với khả năng là khách hàng sẽ không có bất kỳ hành động nào. Nhưng vì khách hàng thực hiện sự đánh đổi giữa các sản phẩm/dịch vụ cạnh tranh và tìm cách tối đa hóa giá trị nhận về hoặc ít nhất là giá trị theo nhận thức của họ, nên doanh nghiệp có thể kiểm soát được khả năng thu hút khách hàng.
+
+Hơn nữa, giá trị trao đổi với khách hàng còn phụ thuộc vào bối cảnh đưa ra sản phẩm đề xuất. Nếu các phương án thay thế cạnh tranh thay đổi thì giá trị của sản phẩm đề xuất cũng thay đổi. Thực tế này càng củng cố thêm vai trò hữu ích của mô hình định giá năng động ở nhiều lĩnh vực, trong đó giá cả của đối thủ và mức độ sẵn có của các sản phẩm đề xuất cạnh tranh thường xuyên thay đổi, đồng thời nó cũng làm nổi bật tầm quan trọng của việc quản lý giá cả trong suốt chu kỳ kinh doanh vì các đối thủ thường xuyên điều chỉnh giá cả, đối thủ mới xuất hiện và đối thủ cũ rời đi tạo ra nhiều biến động trên thị trường.
+
+Việc tính đến nhận thức của khách hàng và bối cảnh đưa ra giá trị trao đổi với khách hàng góp phần lý giải vì sao hai sản phẩm đề xuất khác nhau vẫn cùng tồn tại và tạo lợi nhuận trong cùng một thị trường. Chẳng hạn, chúng ta hãy so sánh những sản phẩm đề xuất có mức giá ban đầu thấp nhưng tuổi thọ sản phẩm ngắn hoặc chi phí bảo dưỡng cao, chẳng hạn đồ nội thất IKEA hay máy ủi đất Doosan, với những sản phẩm đề xuất cạnh tranh có mức giá ban đầu cao hơn nhưng tổng chi phí sở hữu thấp hơn, ví dụ đồ nội thất Ethan Allen hay máy ủi đất Caterpillar. Những khách hàng với ngân sách hạn hẹp có thể cho rằng sản phẩm đề xuất với mức giá ban đầu cao là không phù hợp với nhu cầu tổng thể của họ. Trong khi đó, những khách hàng chiến lược ít gặp phải rào cản về ngân sách có thể chấp nhận sản phẩm đề xuất với tổng chi phí sở hữu thấp hơn là một điểm cộng cho dù mức giá chi trả ban đầu là cao.
+
+Dựa trên giá trị trao đổi với khách hàng, doanh nghiệp phải xác định những lợi ích mà họ mang lại – theo nhận thức của khách hàng – là tốt hơn, kém hơn hay ngang bằng với đối thủ cạnh tranh. Các doanh nghiệp thành công thường thiết kế sản phẩm đề xuất thuộc cả ba trường hợp: tốt hơn, kém hơn và ngang bằng. Khi định giá, doanh nghiệp phải biết sản phẩm đề xuất của họ thuộc trường hợp nào nêu trên, không nhất thiết phải luôn tìm cách cung cấp nhiều lợi ích hơn so với đối thủ. Nhiều doanh nghiệp đã và đang cạnh tranh khá thành công với những sản phẩm đề xuất có loại bỏ một số lợi ích, do đó, cũng không cần thiết phải luôn tìm cách cung cấp sản phẩm có giá rẻ nhất đi đôi với ít tiện ích nhất. Trong khi đó, nhiều doanh nghiệp lại cạnh tranh hiệu quả và thu được nhiều lợi nhuận bằng những sản phẩm đề xuất có nhiều tính năng hữu ích dành cho khách hàng. Nhưng dù trong trường hợp nào, doanh nghiệp cũng phải thuộc như lòng bàn tay giá trị của mình trong mắt khách hàng là gì.
+
+Quyết định giá cả của Southwest Airlines
+
+Chúng ta đã tìm hiểu giá trị trao đổi với khách hàng trong chính sách định giá của Southwest Airlines. Ngay khi mới thành lập, hãng này chủ trương thuyết phục phân khúc hành khách có nhu cầu đi lại giữa các tuyến thành phố thuộc bang Texas để thay đổi thói quen tự lái ô tô chuyển sang đi máy bay. Khi xác định phương tiện ô tô là đối thủ cạnh tranh, họ tính toán được rằng khoảng giá của giải pháp cạnh tranh tương ứng gần nhất nằm trong khoảng 90-30 đô-la. Như đã đề cập ở phần trước trong chương này, phương án đi máy bay của Southwest Airlines mang lại nhiều lợi ích đáng kể, nhưng cũng chứa đựng cản trở lớn, đó là khi máy bay đáp xuống thành phố kia, hành khách sẽ phải tự thu xếp vấn đề đi lại ở đó. Để giúp khách hàng làm quen với ý tưởng bay chặng ngắn và vượt qua sự bất tiện theo hình dung của họ khi không có sẵn ô tô để đi lại tại nơi họ đến công tác, Southwest Airlines đưa ra mức giá dịch vụ ban đầu là 20 đô-la/chuyến. Tuy mức giá 20 đô-la thấp hơn so với ngưỡng chiết khấu thuế của Chính phủ, nhưng vẫn cao hơn đáng kể so với giá mua xăng để đi lại giữa các thành phố. Với mức giá này, Southwest Airlines có lý do hợp lý để tự tin chinh phục được nhiều hành khách đang có thói quen tự lái ô tô. Và thực tế đã chứng minh đúng như vậy.
+
+Chẳng bao lâu sau khi tung ra mức giá 90 đô-la/chuyến bay, Southwest Airlines nâng giá lên 30 đô-la. Mức giá mới phù hợp hơn với giá trị trao đổi thực tế của khách hàng, vì sau thời gian trải nghiệm, nhận thức của họ về sự thiếu hụt tiện ích khi không có sẵn ô tô ở nơi đến đã giảm xuống đáng kể.
+
+Phương pháp để giá cả quyết định chi phí
+
+Phần mô tả về phương thức định giá dựa trên giá trị hầu như bỏ qua khoản chi phí sản xuất. Xuất phát từ lịch sử gắn bó lâu dài và trải nghiệm phổ biến của hầu hết những nhà quản lý với phương thức định giá dựa trên chi phí, có lẽ nên thảo luận về vai trò của chi phí trong định giá. Nhưng chi phí xuất hiện tại khâu nào trong các quyết định về giá?
+
+Chúng ta xác định mục đích của doanh nghiệp là phục vụ khách hàng để thu lợi nhuận. Trong định giá dựa trên giá trị, chúng ta xác định mức giá tối đa mà doanh nghiệp có thể thu được từ khách hàng là mức giá của sản phẩm đề xuất thay thế cạnh tranh tương ứng gần nhất có điều chỉnh theo những điểm khác biệt. Để doanh nghiệp có lãi, mức giá đó phải tính cả chi phí sản xuất.
+
+Do vậy, câu trả lời trực tiếp về mối quan hệ giữa chi phí và giá cả như sau: Nếu khách hàng sẵn sàng trả mức chi phí sản xuất nhiều hơn, doanh nghiệp nên sản xuất và ngược lại, khi khách hàng không chấp nhận, doanh nghiệp không nên sản xuất.
+
+Xin lưu ý, câu trả lời trực tiếp này không ngụ ý chi phí là yếu tố quyết định giá cả. Nó chỉ khẳng định đối với giá cả, chi phí là giới hạn thấp hơn, nghĩa là chi phí đóng vai trò mức giá sàn cố định để định giá sinh lời.
+
+Điều quan trọng ở đây là định giá dựa trên giá trị, không khẳng định vì phải đưa cả chi phí vào giá thành nên buộc phải tăng giá. Thay vào đó, nó khẳng định bạn không nên sản xuất nếu không trang trải mọi khoản chi phí trong dài hạn ở mức giá khách hàng sẵn sàng chi trả. Vận dụng lối nói hình tượng thì: “Không thể lấy sai lầm chiến lược này để bù đắp cho sai lầm chiến lược kia”. Trong định giá, điều này hàm ý rằng không thể vì chi phí sản xuất cao mà cố tình định giá sản phẩm cao tương ứng. Giá cả được quyết định từ quan điểm của khách hàng về giá trị, chứ không dựa vào quan điểm của doanh nghiệp về chi phí.
+
+Đó là lời khuyên không dễ lọt tai với nhiều doanh nghiệp, dù quả thật nó đã giải quyết hiệu quả khá nhiều tư vấn sai về định giá và sản xuất, song các doanh nghiệp lớn hàng đầu lại vận dụng một phiên bản khác hơn một chút và đưa chúng ta quay trở lại khái niệm điều tiết giá trị.
+
+Khi điều tiết giá trị của sản phẩm đề xuất, doanh nghiệp sẽ bổ sung các đặc điểm cụ thể tùy theo thiện chí của khách hàng trong việc chi trả cho lợi ích mà những đặc điểm đó mang lại với điều kiện mức giá mà họ sẵn sàng chi trả phải lớn hơn chi phí bỏ ra để bổ sung các đặc điểm đó. Sản phẩm đề xuất có khả năng điều tiết giá trị cũng sẽ loại bỏ những đặc điểm cụ thể khác nếu mức giá mà khách hàng mục tiêu sẵn sàng chi trả cho lợi ích của những đặc điểm đó thấp hơn chi phí bỏ ra để bổ sung những đặc điểm đó.
+
+Nghĩa là, trong điều tiết giá trị sản phẩm, khách hàng và lợi ích mục tiêu cần thiết của họ sẽ đóng vai trò chính để xác định mức giá mục tiêu và mức giá này định vị các đặc điểm và chi phí mục tiêu. Hãy lưu ý đến trình tự ở đây: Khách hàng và nhu cầu của khách hàng được đặt lên đầu tiên, chúng quyết định tiềm năng giá cả. Giá cả xếp thứ hai, quyết định mức chi phí trần. Thứ ba là chi phí và vận hành, được thiết kế để đạt được các mục tiêu về giá cả cũng như giá trị. Đây là quy trình ngược hẳn với quy trình lấy chi phí xác định giá cả vì phương pháp này để giá cả quyết định chi phí. Nghiên cứu của chúng tôi chỉ ra rằng, các doanh nghiệp lớn thường định giá dựa theo thiện chí chi trả của khách hàng, không dựa theo chi phí sản xuất của doanh nghiệp. Họ coi chi phí là một giới hạn đối với định giá và là ngưỡng giá sàn có thể chấp nhận được. Về định giá, họ coi giá trị là mục tiêu. Nghĩa là họ nhắm đến đích mang lại giá trị cho khách hàng – và thu về lợi nhuận.
+
+Phục vụ khách hàng mà tạo ra doanh thu được cho là phù hợp với phương châm định giá dựa trên giá trị. Nó đặt khách hàng vào vị trí bên liên quan chính trong hoạt động của doanh nghiệp, trong khi các khía cạnh khác như lợi nhuận cổ đông, sự đảm bảo công ăn việc làm hay trách nhiệm xã hội, đều là kết quả của một chiến lược tốt, nhưng bản thân chúng không phải là chiến lược.

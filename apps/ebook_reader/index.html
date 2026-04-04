@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Anhdophin Ebook Reader</title>
+  <meta name="theme-color" content="#edf1ff">
+  <meta name="description" content="PWA ebook reader local cho thư viện metadata + text export từ EPUB">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon-192.png">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/reader-format.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="brand-header">
+      <div class="brand-copy">
+        <div class="brand-mark"><img src="assets/brand-logo.png" alt="PAR logo"></div>
+        <div>
+          <p class="eyebrow">Ebook</p>
+          <h1>Em Mê Đọc</h1>
+          <p class="brand-sub">Thư Viện Sách Public Domain.</p>
+        </div>
+      </div>
+      <div class="brand-header-actions">
+        <button class="icon-button" id="downloadsBtn" aria-label="Mở khu tải về" title="Tải về">↓</button>
+        <button class="icon-button" id="installBtn" aria-label="Cài ứng dụng" hidden>＋</button>
+      </div>
+    </header>
+
+    <main id="app" class="page-stack">
+      <section class="screen screen-home active" data-screen="home">
+        <div class="phone-panel search-panel">
+          <div class="search-stack">
+            <label class="search-box" aria-label="Tìm nội dung trong toàn bộ library">
+              <span class="search-icon">⌕</span>
+              <input id="searchInput" type="search" placeholder="Search nội dung trong toàn bộ library...">
+            </label>
+            <p id="searchMeta" class="search-meta muted small">Tìm theo tên sách, tác giả, mô tả và nội dung bên trong file text.</p>
+            <div class="home-filter-stack" id="homeFilterStack">
+              <div class="home-filter-group">
+                <div class="home-filter-head">
+                  <strong>Nhóm sách</strong>
+                </div>
+                <div id="homeGroupFilters" class="home-filter-row"></div>
+              </div>
+              <div class="home-filter-group">
+                <div class="home-filter-head">
+                  <strong>Loại sách</strong>
+                </div>
+                <div id="homeTopicFilters" class="home-filter-row"></div>
+              </div>
+              <div class="home-filter-group">
+                <div class="home-filter-head home-filter-head-split">
+                  <strong>Tác giả</strong>
+                  <button class="link-button home-filter-clear" id="homeFilterResetBtn" type="button">Reset</button>
+                </div>
+                <div id="homeAuthorFilters" class="home-filter-row"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section class="phone-panel hero-card">
+          <div>
+            <p class="eyebrow">Giới Thiệu</p>
+            <h2 id="libraryCount">0 books</h2>
+            </div>
+          <button class="pill-button" id="refreshBtn">Check sách mới</button>
+        </section>
+
+        <section class="phone-panel new-books-panel">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">New books</p>
+              <h3>Sách mới nạp</h3>
+            </div>
+            <button class="link-button" data-nav="library">See all</button>
+          </div>
+          <div id="newBooks" class="book-strip"></div>
+        </section>
+
+        <section class="phone-panel home-library-panel">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">For you</p>
+              <h3>Toàn thư viện</h3>
+            </div>
+            <button class="link-button" data-nav="library">See all</button>
+          </div>
+          <div id="forYouBooks" class="home-library-grid"></div>
+        </section>
+      </section>
+
+      <section class="screen screen-library" data-screen="library">
+        <div class="phone-panel">
+          <div class="section-head tight">
+            <button class="icon-button back-btn" data-nav="home" aria-label="Về trang chủ">‹</button>
+            <div>
+              <p class="eyebrow">Library</p>
+              <h2>Tất cả ebook</h2>
+            </div>
+          </div>
+          <div class="library-filters">
+            <label class="filter-field">
+              <span>Nhóm</span>
+              <select id="filterGroup"></select>
+            </label>
+            <label class="filter-field">
+              <span>Chủ đề</span>
+              <select id="filterTopic"></select>
+            </label>
+            <label class="filter-field">
+              <span>Series</span>
+              <select id="filterSeries"></select>
+            </label>
+          </div>
+          <div id="filterChips" class="filter-chips"></div>
+          <div class="library-toolbar">
+            <p id="libraryStatus" class="muted small">Hiển thị toàn bộ thư viện.</p>
+            <div class="library-toolbar-actions"><button id="resetFiltersBtn" class="link-button" type="button">Reset filters</button><button id="clearSearchBtn" class="link-button" hidden>Clear search</button></div>
+          </div>
+          <div id="libraryGrid" class="library-grid"></div>
+        </div>
+      </section>
+
+
+      <section class="screen screen-downloads" data-screen="downloads">
+        <div class="phone-panel">
+          <div class="section-head tight">
+            <button class="icon-button back-btn" data-nav="home" aria-label="Về trang chủ">‹</button>
+            <div>
+              <p class="eyebrow">Downloads</p>
+              <h2>Tải về tài liệu</h2>
+            </div>
+            <button class="icon-button" id="rescanDownloadsBtn" aria-label="Quét lại thư mục tải về">↻</button>
+          </div>
+          <p id="downloadsStatus" class="muted small">Đang quét DownloadLibrary...</p>
+          <div class="downloads-grid-wrap"><div id="downloadsGrid" class="downloads-grid"></div></div>
+        </div>
+      </section>
+
+      <section class="screen screen-detail" data-screen="detail">
+        <div class="phone-panel detail-panel">
+          <button class="icon-button back-btn detail-back" data-nav="library" aria-label="Quay lại thư viện">‹</button>
+          <div class="detail-cover-wrap">
+            <div id="detailCover" class="detail-cover placeholder-cover"></div>
+          </div>
+          <div class="detail-content">
+            <h2 id="detailTitle"></h2>
+            <p id="detailAuthor" class="muted"></p>
+            <div class="meta-strip">
+              <span id="detailChapters"></span>
+              <span id="detailFiles"></span>
+            </div>
+            <p id="detailDescription" class="detail-description"></p>
+            <div class="actions-row">
+              <button id="openBookBtn" class="primary-button">Open book</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen screen-reader" data-screen="reader">
+        <div class="phone-panel reader-panel">
+          <div class="reader-hero">
+            <div class="reader-toolbar">
+              <button class="icon-button back-btn" data-nav="detail" aria-label="Quay lại">‹</button>
+              <div class="reader-title-group">
+                <p class="eyebrow">Reader</p>
+                <h2 id="readerBookTitle"></h2>
+                <p id="readerSectionTitle" class="muted"></p>
+              </div>
+              <div class="reader-hero-actions">
+                <button class="icon-button" id="settingsToggle" aria-label="Mở cài đặt đọc">⚙</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="reader-sticky-wrap">
+            <div class="reader-sticky-controls">
+              <div class="reader-sticky-group reader-sticky-group-left">
+                <button class="icon-button" id="prevChapterBtn" aria-label="Chương trước">←</button>
+                <button class="icon-button" id="nextChapterBtn" aria-label="Chương kế">→</button>
+              </div>
+              <div class="reader-sticky-group reader-sticky-group-right">
+                <button class="icon-button toc-toggle" id="tocToggle" aria-label="Mở mục lục">☰</button>
+                <button class="icon-button" id="bookmarkToggle" aria-label="Mở bookmark">🔖</button>
+                <button class="icon-button" id="backToLastBtn" aria-label="Về vị trí trước đó">↺</button>
+              </div>
+            </div>
+
+            <aside class="toc-drawer" id="tocDrawer" hidden>
+              <div class="drawer-head">
+                <p class="eyebrow">Reading tools</p>
+                <h3>Mục lục & bookmark</h3>
+              </div>
+              <div class="drawer-tabs">
+                <button class="drawer-tab active" data-drawer-tab="toc">TOC</button>
+                <button class="drawer-tab" data-drawer-tab="bookmarks">Bookmark</button>
+                <button class="drawer-tab" data-drawer-tab="highlights">Highlight</button>
+              </div>
+              <div class="drawer-panel active" data-panel="toc">
+                <div id="tocList" class="toc-list"></div>
+              </div>
+              <div class="drawer-panel" data-panel="bookmarks">
+                <button class="pill-button small-pill" id="addBookmarkBtn">Lưu bookmark hiện tại</button>
+                <div id="bookmarkList" class="bookmark-list"></div>
+              </div>
+              <div class="drawer-panel" data-panel="highlights">
+                <button class="pill-button small-pill" id="addHighlightBtn">Lưu highlight từ đoạn bôi chọn</button>
+                <div id="highlightList" class="bookmark-list"></div>
+              </div>
+            </aside>
+
+            <aside class="settings-drawer" id="settingsDrawer" hidden>
+              <div class="drawer-head">
+                <p class="eyebrow">Settings</p>
+                <h3>Kiểu xem</h3>
+              </div>
+              <div class="settings-stack">
+                <p class="setting-note">App tự quét font trong <code>library/fonts</code>. Đặt ảnh bìa trong mỗi folder ebook với tên <code>cover.jpg</code>, <code>cover.png</code> hoặc tương tự để app tự lấy làm cover.</p>
+                <label class="setting-block">
+                  <span>Màu nền đọc</span>
+                  <select id="bgSelect"></select>
+                </label>
+                <label class="setting-block">
+                  <span>Font chữ</span>
+                  <select id="fontSelect"></select>
+                </label>
+                <label class="setting-block">
+                  <span>Scale chữ</span>
+                  <input id="scaleRange" type="range" min="85" max="145" step="5" value="100">
+                  <strong id="scaleValue">100%</strong>
+                </label>
+              </div>
+            </aside>
+          </div>
+
+          <div class="reader-layout">
+            <article class="reader-article" id="readerArticle">
+              <div id="readerContent" class="reader-content"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav">
+      <button class="nav-item active" data-nav="home">
+        <span class="nav-icon">⌂</span>
+        <span class="nav-label">Store</span>
+      </button>
+      <button class="nav-item" data-nav="library">
+        <span class="nav-icon">▦</span>
+        <span class="nav-label">Library</span>
+      </button>
+      <button class="nav-item" data-nav="detail">
+        <span class="nav-icon">▣</span>
+        <span class="nav-label">Book</span>
+      </button>
+      <button class="nav-item" data-nav="reader">
+        <span class="nav-icon">☰</span>
+        <span class="nav-label">Reader</span>
+      </button>
+    </nav>
+
+    <footer class="site-footer">
+      <div>
+        <!-- <p class="eyebrow">Chào bạn, tôi là Anhdophin</p>-->
+        <h3>iAppLab</h3>
+        <p>Chuyên trang mini app.</p>
+      </div>
+      <div>
+        <p class="eyebrow">Liên hệ</p>
+        <p class="muted small">Anhdophin · Thiết kế công cụ hỗ trợ công việc.</code>.</p>
+		<p>Email: Anhdophin@gmail.com / Phone: 0918932772</p>
+        <p>Web: <a href="https://ai-uiux.com/" target="_blank" rel="noreferrer">Home Site</a></p>
+        
+      </div>
+    </footer>
+  </div>
+
+  <script src="assets/app.js" type="module"></script>
+</body>
+</html>

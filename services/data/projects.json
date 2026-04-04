@@ -1,0 +1,29 @@
+{
+  "seoTitle": "Dự án sáng tạo của Anhdophin",
+  "hero": {
+    "label": "Projects",
+    "title": "Dự Án Sáng Tạo",
+    "subtitle": "Các dự án sáng tạo của Anhdophin."
+  },
+  "sectionTitle": "Real Case Study",
+  "sectionBody": "",
+
+  "items": [
+    {
+      "title": "Ebook Reader",
+      "excerpt": "Dự án sách tinh hoa.",
+      "tag": "Project",
+      "meta": "Web App",
+      "cover": "../assets/par-logo.png",
+      "href": "par/"
+    },
+    {
+      "title": "GVN",
+      "excerpt": "Dự án game hóa việc nhà.",
+      "tag": "Project",
+      "meta": "Game Web App",
+      "cover": "../assets/gvn.png",
+      "href": "gvn/"
+    }
+  ]
+}

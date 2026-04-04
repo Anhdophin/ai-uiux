@@ -1,0 +1,1 @@
+window.GridPulseBG={init(){document.querySelectorAll('[data-background=grid-pulse]').forEach(el=>el.classList.add('bg-grid-pulse'));}};document.readyState==='loading'?document.addEventListener('DOMContentLoaded',()=>window.GridPulseBG.init(),{once:true}):window.GridPulseBG.init();

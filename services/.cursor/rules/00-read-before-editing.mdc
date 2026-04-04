@@ -1,0 +1,16 @@
+---
+description: Read project rules before making any code edit
+alwaysApply: true
+---
+Before editing code in this project:
+- Read `AGENTS.md`
+- Read `.cursorrules`
+- Read `AI-EDIT-PRECHECK.md`
+- Identify the controlling file, data source, event trigger, style location, and clone-sensitive values.
+
+When the request involves slug/category/path/routing/navigation:
+- Check `page.meta.json`
+- Check generated JSON (`shop/data/shop-catalog.json`, `data/site-map.json`)
+- Check render logic in JS
+- Check href/path/folder mapping
+- Do not hardcode old slug values from cloned folders.

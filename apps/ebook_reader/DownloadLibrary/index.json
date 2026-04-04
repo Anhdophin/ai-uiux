@@ -1,0 +1,164 @@
+{
+  "books": [
+    {
+      "id": "book-a",
+      "title": "Book A",
+      "author": "Tài liệu tải về",
+      "folder": "Book-A",
+      "cover": "cover.jpg",
+      "description": "1 file PDF sẵn tải về",
+      "files": [
+        {
+          "name": "luat-thuong-mai.pdf",
+          "label": "PDF",
+          "size": 867401
+        }
+      ],
+      "updatedAt": 1774864719415
+    },
+    {
+      "id": "book-a-copy",
+      "title": "Book A   Copy",
+      "author": "Tài liệu tải về",
+      "folder": "Book-A - Copy",
+      "cover": "cover.jpg",
+      "description": "1 file PDF sẵn tải về",
+      "files": [
+        {
+          "name": "luat-thuong-mai.pdf",
+          "label": "PDF",
+          "size": 867401
+        }
+      ],
+      "updatedAt": 1774864142365
+    },
+    {
+      "id": "book-a-copy-2",
+      "title": "Book A   Copy (2)",
+      "author": "Tài liệu tải về",
+      "folder": "Book-A - Copy (2)",
+      "cover": "cover.jpg",
+      "description": "1 file PDF sẵn tải về",
+      "files": [
+        {
+          "name": "luat-thuong-mai.pdf",
+          "label": "PDF",
+          "size": 867401
+        }
+      ],
+      "updatedAt": 1774864142312
+    },
+    {
+      "id": "book-a-copy-2-copy",
+      "title": "Book A   Copy (2)   Copy",
+      "author": "Tài liệu tải về",
+      "folder": "Book-A - Copy (2) - Copy",
+      "cover": "cover.jpg",
+      "description": "1 file PDF sẵn tải về",
+      "files": [
+        {
+          "name": "luat-thuong-mai.pdf",
+          "label": "PDF",
+          "size": 867401
+        }
+      ],
+      "updatedAt": 1774864142312
+    },
+    {
+      "id": "book-a-copy-3",
+      "title": "Book A   Copy (3)",
+      "author": "Tài liệu tải về",
+      "folder": "Book-A - Copy (3)",
+      "cover": "cover.jpg",
+      "description": "1 file PDF sẵn tải về",
+      "files": [
+        {
+          "name": "luat-thuong-mai.pdf",
+          "label": "PDF",
+          "size": 867401
+        }
+      ],
+      "updatedAt": 1774864142329
+    },
+    {
+      "id": "book-a-copy-3-copy",
+      "title": "Book A   Copy (3)   Copy",
+      "author": "Tài liệu tải về",
+      "folder": "Book-A - Copy (3) - Copy",
+      "cover": "cover.jpg",
+      "description": "1 file PDF sẵn tải về",
+      "files": [
+        {
+          "name": "luat-thuong-mai.pdf",
+          "label": "PDF",
+          "size": 867401
+        }
+      ],
+      "updatedAt": 1774864142329
+    },
+    {
+      "id": "book-a-copy-4",
+      "title": "Book A   Copy (4)",
+      "author": "Tài liệu tải về",
+      "folder": "Book-A - Copy (4)",
+      "cover": "cover.jpg",
+      "description": "1 file PDF sẵn tải về",
+      "files": [
+        {
+          "name": "luat-thuong-mai.pdf",
+          "label": "PDF",
+          "size": 867401
+        }
+      ],
+      "updatedAt": 1774864142347
+    },
+    {
+      "id": "book-a-copy-4-copy",
+      "title": "Book A   Copy (4)   Copy",
+      "author": "Tài liệu tải về",
+      "folder": "Book-A - Copy (4) - Copy",
+      "cover": "cover.jpg",
+      "description": "1 file PDF sẵn tải về",
+      "files": [
+        {
+          "name": "luat-thuong-mai.pdf",
+          "label": "PDF",
+          "size": 867401
+        }
+      ],
+      "updatedAt": 1774864142347
+    },
+    {
+      "id": "book-a-copy-5",
+      "title": "Book A   Copy (5)",
+      "author": "Tài liệu tải về",
+      "folder": "Book-A - Copy (5)",
+      "cover": "cover.jpg",
+      "description": "1 file PDF sẵn tải về",
+      "files": [
+        {
+          "name": "luat-thuong-mai.pdf",
+          "label": "PDF",
+          "size": 867401
+        }
+      ],
+      "updatedAt": 1774864142383
+    },
+    {
+      "id": "book-a-copy-copy",
+      "title": "Book A   Copy   Copy",
+      "author": "Tài liệu tải về",
+      "folder": "Book-A - Copy - Copy",
+      "cover": "cover.jpg",
+      "description": "1 file PDF sẵn tải về",
+      "files": [
+        {
+          "name": "luat-thuong-mai.pdf",
+          "label": "PDF",
+          "size": 867401
+        }
+      ],
+      "updatedAt": 1774864142365
+    }
+  ]
+}

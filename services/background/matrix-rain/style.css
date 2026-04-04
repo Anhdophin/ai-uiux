@@ -1,0 +1,18 @@
+/* Matrix rain background */
+.bg-matrix-rain{position:relative;isolation:isolate;overflow:hidden;background:#010202;}
+.bg-matrix-rain::before,.bg-matrix-rain::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:0;}
+.bg-matrix-rain::before{
+  background:
+    repeating-linear-gradient(to bottom, rgba(0,255,110,.75) 0 2px, transparent 2px 7px) 6% 0/2px 200px no-repeat,
+    repeating-linear-gradient(to bottom, rgba(0,255,110,.55) 0 2px, transparent 2px 8px) 14% 0/2px 180px no-repeat,
+    repeating-linear-gradient(to bottom, rgba(0,255,110,.7) 0 2px, transparent 2px 7px) 26% 0/2px 220px no-repeat,
+    repeating-linear-gradient(to bottom, rgba(0,255,110,.6) 0 2px, transparent 2px 8px) 38% 0/2px 190px no-repeat,
+    repeating-linear-gradient(to bottom, rgba(0,255,110,.8) 0 2px, transparent 2px 7px) 51% 0/2px 240px no-repeat,
+    repeating-linear-gradient(to bottom, rgba(0,255,110,.58) 0 2px, transparent 2px 8px) 63% 0/2px 170px no-repeat,
+    repeating-linear-gradient(to bottom, rgba(0,255,110,.72) 0 2px, transparent 2px 7px) 75% 0/2px 230px no-repeat,
+    repeating-linear-gradient(to bottom, rgba(0,255,110,.52) 0 2px, transparent 2px 8px) 88% 0/2px 160px no-repeat;
+  filter: drop-shadow(0 0 8px rgba(0,255,110,.18));
+  animation: matrixFall 9s linear infinite;
+}
+.bg-matrix-rain::after{background:radial-gradient(circle at 50% 45%, rgba(0,255,110,.08), transparent 38%);}
+@keyframes matrixFall{from{transform:translateY(-180px)}to{transform:translateY(180px)}}

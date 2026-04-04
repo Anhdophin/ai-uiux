@@ -1,0 +1,447 @@
+CHƯƠNG 9NGHỆ THUẬT SỬ DỤNG MẠNG XÃ HỘI
+
+Phát minh cuối cùng cũng được hoàn thiện. Nhưng thật thất vọng khi chẳng ai quan tâm.
+
+– @JGutenberg, 3/10/1439, Historical Tweets
+
+GIST
+
+Mạng xã hội mang lại ba điều tuyệt vời cho ngành marketing: nhanh chóng, miễn phí, và di động. Ngược lại với điều đó, khi quảng bá máy Macintosh, những công cụ marketing mạnh mẽ nhất tôi có chỉ là điện thoại, máy fax, và máy bay. Việc xúc tiến hình ảnh là sự tập trung hàng trăm người trong một phòng họp ở khách sạn.
+
+Mạng xã hội là điều tuyệt vời nhất đã từng có cho các doanh nhân. Ngày nay, các startup có thể ngay lập tức tiếp cận hàng triệu người ở bất kỳ nơi đâu trên thế giới với chi phí bằng không, nhưng việc sử dụng mạng xã hội lại không thực sự dễ dàng. Chương này nói về cách sử dụng nguồn lực diệu kỳ này.
+
+Lập một kế hoạch
+
+Tôi không phải là một người tin vào việc lập kế hoạch sử dụng mạng xã hội nếu bạn định nghĩa việc “lập kế hoạch” là việc giành 6 tháng suy nghĩ hay thuê một công ty để lên kế hoạch và hoàn thành các mục tiêu chiến lược. Quan điểm của tôi về việc lập kế hoạch là thế này:
+
+• Xác định mô hình kinh doanh của bạn.
+
+• Tìm những người bạn cần để vận hành mô hình này.
+
+• Tìm những gì mà những người này muốn đọc.
+
+• Chia sẻ những điều ấy.
+
+Rất ít người sẽ cho bạn những lời khuyên vui vẻ như vậy, nhưng đừng nhầm lẫn giữa sức hút và kiến thức. Các nhà tư vấn và các công ty dịch vụ sẽ khuyên bạn tạo ra một kế hoạch chiến lược hoặc tuyển họ làm trong ba tháng. Điều này hoàn toàn nhảm nhí. Bạn không có thời gian để đắn đo cũng không nên lãng phí ngân quỹ của mình cho các nhà tư vấn và các công ty dịch vụ. Bạn nên đào sâu vào các mạng xã hội để hiểu cách vận hành của chúng và thay đổi những gì bạn định làm.
+
+Điều quan trọng hơn việc lên kế hoạch là việc “nghiền nát” – có nghĩa là làm việc cật lực và tiến hành những thử nghiệm. Nói cách khác, việc sử dụng mạng xã hội cũng như tất cả các nhiệm vụ khác bạn đang làm.
+
+Tìm hiểu về các mạng xã hội
+
+Trong thời điểm năm 2015, những nền tảng mạng xã hội hàng đầu là Google+, Facebook, Instagram, LinkedIn, Pinterest, và Twitter. Sau đây là sơ lược về mỗi nền tảng:
+
+• FACEBOOK: Đây là McDonald’s của mạng xã hội, với “hơn một tỷ người dùng”. Đây là nền tảng mà phần lớn các công ty sử dụng để tiếp cận khách hàng. Không may là có bàn tay ma thuật gọi là EdgeRank, một thuật toán của Facebook, quyết định người theo dõi sẽ xem được bài đăng nào của bạn. Giả sử chỉ có 10% số người theo dõi bạn xem được những bài bạn chia sẻ – tôi nghĩ con số thực còn thấp hơn thế. Tuy nhiên, bạn có thể trả phí để quảng bá bài đăng của bạn đến nhiều người hơn.
+
+• GOOGLE+: Nhiều “chuyên gia” thích thể hiện sự căm ghét Google+. Họ cho là nó quá bé nhỏ vì chỉ bằng một nửa Facebook nếu dựa trên số liệu thô. Tuy nhiên, vì Google+ không có thuật toán kiểm soát như EdgeRank của Facebook nên những người trong “vòng” của công ty bạn sẽ thấy các bài đăng; điều này bù lại cho quy mô nhỏ bé của nó. Hơn nữa, dù sao đây cũng là một sản phẩm của Google, và sẽ thật ngốc nghếch khi bỏ qua bất kỳ thứ gì Google làm.
+
+• INSTAGRAM: Instagram là mạng xã hội dành cho việc kể chuyện bằng hình ảnh. Các công ty chia sẻ hình ảnh về các sản phẩm của họ hoặc ảnh của người hâm mộ họ. Bạn không thể dẫn link tới trang web của bạn từ một bài đăng trên Instagram, nhưng nhiều thương hiệu đã sử dụng nó một cách xuất sắc bằng việc kết nốt với người hâm mộ và xây dựng những cộng đồng vững chắc bằng nền tảng này.
+
+• LINKEDIN: Đây là người hùng thầm lặng trong thế giới mạng xã hội. Mãi sau này nó mới bổ sung các đặc tính của mạng xã hội vào nền tảng của mình, nhưng sự nghiêm túc trong nội dung và các bình luận làm cho nó trở thành một dụng cụ marketing cực kỳ hữu hiệu. Bạn hãy bỏ ngay ý nghĩ coi LinkedIn như một nơi để tìm việc, vì nó cũng là nền tảng mạng xã hội.
+
+• PINTEREST: Pinterest là một nền tảng trực quan nơi mọi người có thể khám phá và lưu lại những thứ họ thích. Các thương hiệu kết nối với khách hàng qua những chiến dịch và các bảng ghim Pinterest để trưng bày các sản phẩm của họ. Cho đến nay thì đây là nền tảng mạng xã hội đẹp nhất.
+
+• TWITTER: Hãy coi Twitter như một dòng sông: nó có thể đưa bạn đi rất nhanh nhưng cũng có thể nhấn chìm bạn. Twitter là một nền tảng tuyệt vời để quảng bá và hỗ trợ cho sản phẩm của bạn qua các thông điệp dài 140 ký tự. Twitter cũng là một nguồn tài nguyên tiềm năng để kiểm soát khả năng cạnh tranh của bạn và vị trí của sản phẩm hay công ty của bạn trong các cuộc thảo luận trên mạng xã hội.
+
+• YOUTUBE: YouTube của Google là một công cụ mạnh mẽ nếu bạn có thể tạo ra những video thú vị và có tính giáo dục. Ngày nay điều này không quá khó, vì các video trên YouTube của những người nghiệp dư nhiều đam mê thường hiệu quả hơn sản phẩm từ những chuyên gia tài ba. Bạn có thể xây dựng kênh YouTube của riêng bạn, và khách hàng của bạn có thể đăng ký theo dõi nó.
+
+Nếu bạn hỏi “Chúng tôi nên sử dụng nền tảng nào?” thì câu trả lời là “Tất cả”. Nếu tôi bảo bạn tập trung vào một hoặc hai nền tảng thì tôi đang cho bạn một lời khuyên tệ hại.
+
+Hoàn thiện các hồ sơ của bạn
+
+Các mạng xã hội cung cấp cho bạn một trang hồ sơ để mô tả công ty bạn.
+
+Những hồ sơ này cực kỳ quan trọng vì mọi người sẽ dùng chúng để đưa ra một nhận định nhanh gọn về chất lượng của công ty bạn. Sau đây là những cách để tối ưu hóa các hồ sơ chỉ dài một trang cho doanh nghiệp của bạn:
+
+• GÂY ẤN TƯỢNG TRONG NĂM GIÂY: Mọi người sẽ không nghiên cứu các hồ sơ của bạn. Họ chỉ dành vài giây để lướt qua rồi đưa ra một nhận xét. Nếu đây là những cuộc hẹn trên mạng, hãy nghĩ đến Tinder (bấm bên phải để đồng ý, bấm bên trái để từ chối) chứ không phải eHarmony (hoàn thành một bảng câu hỏi về mối quan hệ).
+
+• SỬ DỤNG HÌNH ẢNH HIỆU QUẢ: Một hồ sơ thường có hai bức ảnh mà bạn có thể tối ưu hóa chúng. Bức thứ nhất là ảnh đại diện, là một bức ảnh nhỏ hình vuông hoặc tròn. Đối với các tài khoản cá nhân, nó thường là ảnh chân dung. Đối với tài khoản doanh nghiệp, nó là logo.
+
+Bức thứ hai, lớn hơn, được gọi là ảnh bìa (trên Facebook, Google+ và LinkedIn) hoặc ảnh đầu trang trên Twitter. Đây nên là bức ảnh có thể truyền tải sự đặc trưng của công ty bạn. Những công ty có các hình đại diện hoặc ảnh bìa xuất sắc là:
+
+– Cadbury
+
+– Audi
+
+– Nike
+
+Các mạng xã hội thay đổi độ phân giải tối ưu cho ảnh bìa, vì vậy cần đảm bảo đúng các tiêu chuẩn. Bạn có thể tham khảo một trang blog được gọi là “Quick Tips for Great Social Media Graphics – Những mẹo nhỏ cho những đồ họa mạng xã hội tuyệt vời” mỗi khi bạn muốn kiểm tra kích cỡ tối ưu.
+
+Canva, công ty nơi tôi đứng đầu bộ phận marketing truyền giáo, cũng đã tạo ra hàng trăm ảnh bìa dành cho Google, Facebook, Twitter, Pinterest. Bạn có thể chọn chúng từ trang Canva.com.
+
+• MỘT CÂU THẦN CHÚ THƯƠNG HIỆU NGẮN GỌN: Phần lớn các mạng xã hội cho phép bổ sung một vài chữ vào hồ sơ của bạn. Hãy biến chúng thành câu thần chú thương hiệu: Từ hai đến bốn chữ để giải thích lý do tồn tại của công ty. (Xin xem lại chương 1 “Nghệ thuật khởi đầu” để có thêm thông tin về các câu thần chú thương hiệu.) Sau đây là ba câu thần chú được các công ty sử dụng hiệu quả cho vị trí này:
+
+– Nike: Authentic Athletic Performance – Kết quả thể thao đích thực
+
+– FedEx: Peace of Mind – Sự bình yên của tâm hồn
+
+– Google: Democratizing Information – Dân chủ hóa thông tin
+
+• CUNG CẤP MỌI THÔNG TIN: Hình đại diện, thần chú thương hiệu, và ảnh bìa sẽ quyết định ấn tượng đầu tiên của mọi người đối với công ty bạn. Nếu bạn thu hút được sự chú ý của họ, họ sẽ đọc phần còn lại trong hồ sơ của công ty bạn. Vì vậy hãy cung cấp càng nhiều thông tin càng tốt. Một lần nữa hãy xem hồ sơ này như một CV.
+
+• CÓ MỘT ĐƯỜNG DẪN (URL) RÕ RÀNG: Bạn có thể có được một đường dẫn rõ ràng cho các tài khoản Google+, Facebook, và LinkedIn của mình. Điều này có nghĩa là mọi người sẽ nhìn thấy những đường dẫn như thế này: http://plus.google. com/+canva/posts.
+
+Nếu bạn không có một đường dẫn rõ ràng, mọi người sẽ thấy một đường dẫn thế này, có nghĩa là sẽ khó hơn để nhớ, copy và chia sẻ nó: http://plus.google.com/112374836634096795698/ posts.
+
+Google+, Facebook và LinkedIn đều hướng dẫn cách làm việc này. Tương tự như với các tên miền, nhiều đường dẫn dễ nhớ không có sẵn nữa, nhưng dù thế nào thì bất kỳ cái gì cũng thú vị hơn 21 chữ số ngẫu nhiên. Việc tìm ra đường dẫn rõ ràng cũng là một bài kiểm tra sự thông minh của bạn.
+
+• XEM ẨN DANH: Khi bạn hài lòng với hồ sơ công ty bạn, hãy xem nó trong một cửa sổ ẩn danh. Đây là cửa sổ trình duyệt cho phép bạn xem hồ sơ của mình theo cách người khác xem.
+
+Để vào cửa sổ ẩn danh trong Google Chrome, hãy mở “Cửa sổ ẩn danh mới” từ Menu. Mọi trình duyệt đều có thể làm điều này. Hãy tìm trên Google cụm từ ẩn danh cùng với tên trình duyệt của bạn để biết cách mở cửa sổ này.
+
+Vượt qua được bài kiểm tra chia sẻ lại (Reshare Test)
+
+Bài kiểm tra reshare là khái niệm quan trọng nhất trong marketing qua mạng xã hội. Rất tuyệt khi mọi người “like” và “+1” các bài đăng của bạn. Nó còn tuyệt hơn khi mọi người đưa ra những bình luận. Những hành động này giống việc thưởng tiền cho người phục vụ bạn.
+
+Tuy nhiên việc chia sẻ lại các bài đăng của bạn là một sự khen ngợi tuyệt nhất vì điều đó có nghĩa là mọi người đang đánh cược danh tiếng của họ vào những gì bạn đã chia sẻ. Điều này giống việc giới thiệu bạn bè đến ăn ở một nhà hàng. Việc chia sẻ lại chính là sự quan tâm! Vì vậy bài kiểm tra quan trọng nhất bạn cần làm trong các mạng xã hội là:
+
+Mọi người có chia sẻ những bài đăng của bạn không?
+
+Mọi bài đăng cần vượt qua bài kiểm tra này. Để làm điều này, chúng cần mang lại các giá trị cho cuộc sống của mọi người. Có bốn loại nội dung có thể làm được điều này:
+
+• CUNG CẤP THÔNG TIN: “Điều gì đã xảy ra?”. Ví dụ như Bộ trưởng Quốc phòng Chuck Hagel nói ông ấy sẵn sàng xem xét lại vai trò của những người chuyển giới trong quân đội.
+
+• ĐƯA RA CÁC PHÂN TÍCH: “Điều đấy có nghĩa là gì?”. Ví dụ như tạp chí Mother Jones giải thích tại sao việc cắn người của ngôi sao bóng đá người Uruguay Luis Suárez là vấn đề nghiêm trọng về vệ sinh.
+
+• CUNG CẤP SỰ HỖ TRỢ: “Tôi có thể làm điều này như thế nào?”. Ví dụ như trang CNET giải thích việc nhắn tin đến 911 hoạt động thế nào.
+
+• MANG LẠI SỰ GIẢI TRÍ: “Cái quái gì thế?!!!”. Ví dụ, mỗi năm hai nhà thờ ở Vrontados, Hy Lạp tổ chức “một cuộc chiến tranh rocket” để mừng ngày Phục sinh.
+
+Hãy cố làm theo cái mà tôi gọi là mô hình NPR1. Đài NPR cung cấp những nội dung tuyệt vời suốt 365 ngày/năm. Vài tháng một lần NPR lại tiến hành một đợt vận động gây quỹ. Cơ sở để NPR có thể làm điều này là vì nó mang lại các giá trị to lớn cho mọi người.
+
+1 National Public Radio: một đài phát thanh tư nhân ở Mỹ. (ND)
+
+Khi vượt qua được bài kiểm tra chia sẻ lại, bạn sẽ có được đặc quyền để tự tổ chức các cuộc quyên góp, trong đó các nội dung của bạn sẽ mang tính quảng bá cho sản phẩm của bạn.
+
+Làm thỏa mãn quái vật nội dung
+
+Thách thức lớn nhất xảy ra hàng ngày của các mạng xã hội là có thông tin để chia sẻ. Điều này được gọi là thỏa mãn “quái vật nội dung” (content monster). Có hai cách để làm điều này: sáng tạo ra nội dung và biên tập lại nội dung của người khác.
+
+Sáng tạo ra nội dung bao gồm việc viết những bài đăng dài, chụp ảnh hay làm các video. Rất khó để sáng tạo ra nhiều hơn hai nội dung mỗi tuần một cách lâu dài và số lượng này là không đủ vì mức độ cạnh tranh khốc liệt để thu hút sự chú ý. Không may là mục tiêu giúp bạn thành thạo việc sáng tạo nội dung nằm ngoài phạm vi của cuốn sách này.
+
+“Phần lớn các công ty xác định quá hẹp những gì họ tin là có liên quan và thú vị với những người theo dõi họ.”
+
+Việc biên tập lại nội dung chính là việc tìm những bài đăng hay của mọi người, tóm tắt và chia sẻ nó. Việc chỉnh sửa mang lại lợi ích cho cả ba bên: bạn cần nội dung để chia sẻ, các blog và website muốn có thêm lưu lượng truy cập (traffic), và mọi người muốn có người lọc lại các nội dung để giảm khối lượng thông tin thừa. Những kỹ thuật sau có thể giúp bạn lọc lại thông tin để nuôi “quái vật nội dung”:
+
+• XÂY DỰNG NGÂN HÀNG NỘI DUNG: Tôi đã từng đồng sáng lập một website được gọi là Alltop để giúp tôi biên tập lại nội dung. Nó là một ngân hàng của các bài đăng từ A (adoption) cho đến Z (zoology), được tổ chức thành hơn 1000 chủ đề. Ví dụ như có các chủ đề về thực phẩm, nhiếp ảnh, Macintosh, du lịch và việc nhận con nuôi.
+
+• CHIA SẺ NHỮNG GÌ ĐÃ TỪNG THU HÚT MỌI NGƯỜI: Bạn có thể nói điều này là gian lận và bạn nói đúng, nhưng không có gì sai với những nội dung đã từng được nhiều người quan tâm. Dù cho có bao nhiêu người đã xem cũng không có nghĩa là tất cả mọi người đã xem. Tôi đã từng chia sẻ những video trên YouTube mà nó đã một vài năm tuổi rất thành công.
+
+Hãy kiểm tra mục “Explore” của Google+ để tìm những câu chuyện hay.
+
+• SỬ DỤNG DANH SÁCH, VÒNG TRÒN, CỘNG ĐỒNG VÀ CÁC NHÓM: Người dùng và các nhãn hàng chia sẻ một mối quan tâm chung tạo ra các danh sách “lists” (trên Twitter và Facebook), vòng tròn “circles” (Google+), cộng đồng “communities” (Google+), và các nhóm “groups” (Facebook và LinkedIn). Những nhóm này là những nơi rất tốt để tìm kiếm những nội dung thú vị.
+
+• CHIA SẺ NỘI DUNG DO NGƯỜI DÙNG TẠO RA: Bạn nên chia sẻ những bức ảnh mà mọi người sáng tạo từ sản phẩm của bạn. Cách làm này tốt cho tất cả mọi người: Bạn có các bằng chứng xã hội khi mọi người chụp một bức ảnh có liên quan đến sản phẩm của bạn và người chụp cũng nhận được sự công nhận và quan tâm chân thành.
+
+Phần lớn các công ty xác định quá hẹp những gì họ tin là có liên quan và thú vị với những người theo dõi họ. Điều này ngăn cản khả năng nuôi dưỡng con quỷ nội dung. Những ví dụ sau cho thấy các bài đăng vẫn có tính đặc trưng thương hiệu và và thú vị hơn, đồng thời – tạo thêm các lần chia sẻ lại.
+
+Sử dụng một lịch biên tập
+
+Tôi không tin vào việc lên lịch vì tôi ưa thích cách tiếp cận mạng xã hội theo kiểu “spray and pray” (gởi thông điệp cho tất cả danh sách khách hàng tiềm năng thay vì phân loại họ và cá nhân hóa thông điệp). Tuy nhiên nếu bạn muốn có một phương pháp ổn định hơn, có một vài công cụ có thể giúp bạn quản lý lịch biên tập:
+
+• EXCEL: Bạn có thể sử dụng sản phẩm quá sức quen thuộc này để lưu trữ những bản thảo bài đăng theo ngày đăng.
+
+• GOOGLE DOCS: Sức mạnh của Google Docs trong việc lên kế hoạch đăng bài cho các mạng xã hội là bạn có thể hợp tác với các thành viên trong nhóm theo thời gian thực và bất kỳ ai cũng có thể tiếp cận kế hoạch từ nhiều thiết bị khác nhau. Điều này giúp tránh việc phải gửi email qua lại và giảm nguy cơ mất những thay đổi trong bài đăng.
+
+• HUBSPOT EDITORIAL CALENDAR: Lịch biên tập của HubSpot có chức năng như một hướng dẫn để động não các ý tưởng cho blog của bạn, kiểm soát nội dung, theo dõi sự tiến bộ của các biên tập viên. Đây là một ứng dụng trên nền Excel được thiết kế cho một nhóm để lên lịch cho các hoạt động liên quan đến mạng xã hội. Bạn có thể bổ sung các từ khóa, chủ đề, và các cuộc gọi để kích hoạt mỗi bài đăng.
+
+• BUFFER, SPROUT SOCIAL VÀ HOOTSUITE: Cả ba ứng dụng này đều cung cấp các chức năng biên tập và tập trung vào việc chia sẻ các bài đăng. Buffer là một nền tảng chuyên về việc lên kế hoạch, vì vậy bạn không thể dùng nó để phản hồi các bình luận. Sprout Social và Hootsuite cho phép bạn lên kế hoạch và kiểm soát các trang mạng xã hội của bạn cũng như các bình luận và các phản hồi (Nói thêm là tôi khuyên bạn sử dụng Buffer).
+
+• SỬ DỤNG STRESSLIMIT DESIGN WORDPRESS PLUG-IN: Đây là một lịch biên tập mà bạn có thể cài vào trang blog WordPress của bạn. Plug-in này cho phép bạn lên kế hoạch cho nội dung của blog và xem lại những gì được lên kế hoạch cho tương lai.
+
+Chia sẻ như một người chuyên nghiệp
+
+Một nhà văn thận trọng, trong mọi câu anh ta viết, sẽ luôn tự hỏi bản thân ít nhất 4 câu hỏi sau: 1. Tôi đang cố gắng nói điều gì? 2. Từ ngữ nào sẽ diễn đạt được điều đó? 3. Những hình ảnh hoặc thành ngữ nào sẽ làm cho nó rõ ràng hơn? 4. Liệu hình ảnh ấy có đủ tươi mới để tạo ra một ảnh hưởng?
+
+– George Orwell
+
+Sau khi bạn đã sáng tạo hoặc biên tập các tài liệu, đây là lúc bạn chia sẻ nó qua các tài khoản mạng xã hội của công ty. Sau đây là những điều cơ bản của việc chia sẻ mà chúng được chấp nhận như những cách làm tốt nhất (trong phần tiếp theo tôi sẽ đưa ra những cách làm mà nói chung không được chấp nhận).
+
+• NGẮN GỌN: Trên mạng xã hội sự ngắn gọn đánh bại sự rườm rà. Bạn đang cạnh tranh với hàng triệu triệu bài đăng mỗi ngày. Mọi người chỉ đưa ra những nhận định nhanh gọn và sẽ không quan tâm nếu bạn không thu hút được sự chú ý của họ chỉ trong một cái nhìn. Theo kinh nghiệm của tôi, độ dài tối ưu của các nội dung được biên tập lại là khoảng hai tới ba dòng nếu đăng trên Google+ và Facebook, 100 chữ trên Twitter. Độ dài tối ưu của nội dung sáng tạo ra, ví dụ như trên các bài đăng ở blog, là từ 500 đến 1000 từ.
+
+• SỬ DỤNG HÌNH ẢNH, ĐỒ HỌA: Mọi bài đăng – thực sự đúng như vậy – nên có một cái gì đấy hút mắt, như hình ảnh, đồ họa, hoặc video. Theo một nghiên cứu từ Skyword thì “Trung bình, tổng số lượt xem sẽ tăng 94% nếu một bài báo được xuất bản có chứa những hình ảnh hoặc các đồ họa liên quan khi so sánh với những bài báo cùng loại nhưng không có hình ảnh”.
+
+• ĐĂNG BÀI SỚM: Thời điểm tốt nhất tôi đăng bài là vào buổi sáng theo giờ Thái Bình Dương vì đó là lúc phần lớn những độc giả của tôi đã thức dậy và đang sử dụng máy tính. Hãy thực hiện một vài thử nghiệm xem liệu buổi sáng có tốt cho các bài đăng của bạn không. Trong phần tiếp theo, bạn sẽ học cách đăng bài tự động, vì vậy việc lên kế hoạch sẽ dễ dàng hơn.
+
+• BÀY TỎ LÒNG BIẾT ƠN: Các bài đăng với những nội dung được biên tập lại nên dẫn link tới bài gốc. Sau đây là những gì mà những đường dẫn này có thể làm được:
+
+- Cho phép người đọc biết được nhiều hơn từ các bài gốc.
+
+- Tạo thêm nhiều lượt truy cập cho bài gốc như một hành động để tỏ lòng biết ơn.
+
+- Tăng khả năng tiếp cận và tiếng tăm của bạn đối với các blogger và các website.
+
+Khi bạn tìm thấy một nội dung trong bài đăng của ai đó, hãy sử dụng cách này: Biên tập và chia sẻ bài với đường link dẫn đến bài nguồn và bổ sung hai chữ “hat tip” hay “h/t”1 cho người đã đăng bài.
+
+1 Ngã mũ cảm ơn. (ND)
+
+• SỬ DỤNG CÁC BULLET: Nếu bài đăng của bạn trên Google+, Facebook và LinkedIn dài hơn 4 đoạn văn, hãy sử dụng các bullet. Điều này giúp người dễ đọc hơn vì thông tin được sắp xếp thành những phần nhỏ, vì vậy sẽ giảm hiệu ứng TLDR2.
+
+2 Too long, didn’t read – quá dài nên không đọc. (ND)
+
+Có lẽ tôi là người duy nhất trên thế giới làm điều này, nhưng khi thấy hết đoạn văn này đến đoạn văn làm tôi mất hứng. Nếu muốn đọc một cuốn tiểu thuyết, tôi sẽ mua một cuốn sách điện tử Kindle. Ngược lại, khi có các gạch đầu dòng, tôi sẽ có thể đọc hết bài đăng.
+
+• HÃY KHÉO LÉO: Các bài đăng có tiêu đề như “Làm thế nào để…”, “Hàng đầu…”, “Tuyệt đối…” rất khó bị bỏ qua. Có điều gì đó trong những từ này nói rằng (ít nhất là với tôi) “Cái này sẽ hữu dụng đây”. Những người tại TwelveSkip đã liệt kê một danh sách hơn 100 tiêu đề tuyệt vời, vì vậy hãy khéo léo sử dụng nó.
+
+Những tiêu đề ưa thích nhất của tôi từ danh sách này là:
+
+– Làm thế nào để gây ấn tượng…
+
+– Hướng dẫn nhanh…
+
+– Một hướng dẫn hoàn chỉnh để…
+
+– Các câu hỏi bạn nên hỏi trước khi…
+
+– Các quy luật để…
+
+– Những bước quan trọng để…
+
+– Những cách phổ biến nhất để…
+
+– Những mẹo hay cho người bận rộn…
+
+– Các chiến thuật để…
+
+– Điều mà chưa có ai nói với bạn về…
+
+• HÃY LÀM CHO MỌI NGƯỜI TÌM BẠN DỄ DÀNG: Hashtag là một điều tuyệt vời. Chúng kết nối các bài đăng từ tất cả mọi người trên thế giới và bổ sung sự trật tự vào một hệ sinh thái hỗn độn. Khi bạn bổ sung hashtag vào một bài đăng, bạn đang nói với mọi người rằng bài đăng của bạn có liên quan đến một chủ đề đã được chia sẻ.
+
+Ví dụ như, hashtag #socialmediatips trên Google+ sẽ kết nối toàn bộ các bài đăng về mạng xã hội. Twitter, Instagram, Facebook, Google+ đều hỗ trợ hashtag, vậy đây là cách làm phổ biến và được chấp nhận rộng rãi.
+
+Hãy sử dụng hai hoặc ba hashtag cho bài đăng của bạn. Tuy nhiên nếu bạn sử dụng nhiều hơn, bạn trông như một kẻ ngu ngốc thích gắn thẻ đang chơi trò này lên toàn hệ thống. Tương tự như vậy, đừng sử dụng hashtag trên Pinterest vì mọi người ghét thấy chúng ở đấy – có lẽ vì hashtag ảnh hưởng xấu lên tính nhạy cảm của số lượng từ rất ít trong các bài đăng trên Pinterest.
+
+• TRẢ TIỀN QUẢNG BÁ: Tôi hiếm khi làm điều này vì lòng tự trọng và do nguyên tắc, nhưng việc trả tiền để quảng bá các bài đăng của bạn trên Facebook và Twitter có thể có hiệu quả tốt. Điều này đảm bảo rằng sẽ có nhiều người hơn nhìn thấy các bài đăng của bạn. Đặc biệt khi Facebook đang dần trở thành một nền tảng trả tiền-để-chơi.
+
+Quyết định chi tiền hay không phụ thuộc vào việc tính toán liệu doanh thu có xứng đáng với chi phí cho những lượt xem mới. Ví dụ như bạn có thể chi tiền quảng bá một bài đăng với một cuộc gọi để kích hoạt việc mua sản phẩm của bạn. Sau đó là xem xét doanh số bổ sung (và có lẽ là cả nhận diện thương hiệu) có đáng với các chi phí này hay không. Nếu bạn không quảng bá các bài đăng của bạn (tôi sẽ ngưỡng mộ bạn nếu đây là quyết định của bạn), bạn có thể ghim bài của mình lên đầu trang Facebook hoặc Twitter của bạn. Điều này có nghĩa là bài đăng sẽ nằm ngay đầu dòng thời gian của bạn. Điều này không hiệu quả như việc trả tiền cho quảng bá nhưng nó miễn phí.
+
+• BIẾT PHÂN TÍCH: Bạn có thể cải thiện tính liên kết của các nội dung bằng cách phân tích các đặc điểm của những người theo dõi bạn. Ví dụ như dữ liệu phân tích của Facebook (Facebook’s analytics) là một nguồn phong phú để xác định người theo dõi bạn và là cơ sở tuyệt vời để lên kế hoạch cho các nội dung sẽ đăng lên Facebook.
+
+– LikeAlyzer là một công cụ hữu hiệu để kiểm tra các trang Facebook của bạn và để điều chỉnh các nội dung, các bài đăng, và thời điểm đăng bài.
+
+– Với Twitter bạn có thể sử dụng một dịch vụ được gọi là SocialBro để có được các báo cáo về những người theo dõi bạn, để phát hiện ra những người mới theo dõi, và để xác định xem nội dung của bạn đang hoạt động như thế nào. Bạn cũng có thể những báo cáo tương tự trên Sprout Social và Hootsuite.
+
+Đăng bài tự động
+
+Sử dụng các công cụ để tự động đăng theo kế hoạch không phải là hành động gian dối. Đó là những điều mà các công ty thông minh thực hiện để tối ưu hóa việc chia sẻ. Bất kỳ ai nói rằng bạn phải trực tiếp đăng bài đều rất ngốc nghếch. Phần lớn những người theo dõi không thể biết được bài đăng được chia sẻ như thế nào và vì bạn còn có những nhiệm vụ khác ngoài mạng xã hội nên bạn không thể đăng bài thủ công suốt cả ngày.
+
+Đây là một danh sách các công cụ giúp bạn đăng bài tự động. Trong vòng 30 phút bạn có thể lên kế hoạch cho những bài đăng có giá trị trong suốt cả ngày bằng cách sử dụng bất kỳ công cụ nào trong số chúng:
+
+• BUFFER: Công cụ này cho phép lên kế hoạch các bài đăng cho các trang Google+, Facebook, LinkedIn và Twitter. Nó cho phép bạn đăng bài vào một thời điểm cụ thể và xếp chúng theo hàng đợi. Việc quản lý và phân tích nhóm cũng có sẵn trong “Buffer for business”. Buffer cũng gợi các câu chuyện để chia sẻ, và nó là dịch vụ tuyệt nhất.
+
+• DO SHARE: Nếu bạn không có một trang Google+, đây là công cụ duy nhất, có thể giúp bạn lên kế hoạch đăng bài trên một hồ sơ cá nhân. Nó là một phần mở rộng của Chrome và Chrome phải hoạt động để bạn dùng được nó. Do Share rất tuyệt vời nhưng cũng có những hạn chế vì yêu cầu trên. Ví dụ như nếu bạn đang di chuyển và máy tính của bạn không hoạt động, Do Share sẽ không chia sẻ bài đăng của bạn. Tài khoản của công ty có lẽ là một trang chứ không phải là một hồ sơ cá nhân vì vậy Do Share có thể không áp dụng được cho các nhu cầu của bạn.
+
+• FRIENDS+ME: Sản phẩm này cho phép bạn chia sẻ các bài đăng trên Google+ lên các nền tảng khác. Hiện nó hỗ trợ Facebook (nhóm, hồ sơ cá nhân, và các trang), Twitter, LinkedIn (các hồ sơ cá nhân, các nhóm, và các trang công ty) và Tumblr. Khả năng tweet với hình ảnh từ bài trên Google+ cũng rất hữu ích. Sử dụng hashtag, bạn có thể kiểm soát mỗi bài đăng được chia sẻ ở đâu, như thế nào hoặc nếu bạn muốn chỉ đăng lên Google+.
+
+• HOOTSUITE: Bạn có thể lên kế hoạch cho các nội dung, kiểm soát các bình luận, và phản hồi chúng bằng Hootsuite. Bạn có thể chia sẻ lên hồ sơ cá nhân và trang Facebook, Google+, hồ sơ LinkedIn và Twitter. Sử dụng ứng dụng ViralTag, Bạn có thể lên kế hoạch để đăng bài cho Pinterest. Những chức năng hữu ích bao gồm các bài đăng được lên kế hoạch từ một bảng tính, kéo thả từ một lịch đăng, và liên kết với vô số người dùng khác.
+
+• POST PLANNER: Mặc dù Post Planner chỉ hoạt động được với Facebook, nó cũng cung cấp các câu chuyện để chia sẻ và đề xuất thời điểm chia sẻ chúng. Nhờ vào tiếp cận dễ dàng một ứng dụng bên trong Facebook, bạn cũng có thể tìm thấy các bức ảnh, các chủ đề đang “hot” làm ý tưởng cho các câu chuyện của bạn. Bạn cũng có thể bổ sung các bài đăng cho các blog mà bạn thích và chia sẻ chúng từ Post Planner. Đây là một dịch vụ hữu hiệu cho những người quản lý các trang Facebook.
+
+• SPROUT SOCIAL: Đây là một sản phẩm mạnh mẽ tương thích với các trang và hồ sơ Facebook, các trang trên Google+, Twitter và các hồ sơ của LinkedIn. Ứng dụng này có chức năng quản lý nhóm và kết nối với Zendesk. Khả năng đăng lại cùng một tweet với hình ảnh và lên lịch hoạt động cho nhóm rất mạnh mẽ. Mỗi tháng, bạn cần chi một khoản tối thiểu 59 đô-la cho ứng dụng này.
+
+• TAILWIND: Bạn có thể lên kế hoạch và kiểm soát các bài đăng dành riêng cho Pinterest với Tailwind. Dữ liệu dồi dào các bài đăng, các bảng xu hướng và nội dung phổ biến của những người khác là một đặc điểm cực kỳ mạnh mẽ. Tailwind có quyền truy cập vào API của Pinterest, vì vậy chắc chắn sẽ có nhiều tính năng trong tương lai gần.
+
+• TWEETDECK: Đây là một ứng dụng độc lập cho phép quản lý các hoạt động và lên kế hoạch đăng bài trên Twitter. Nó thể hiện các kết quả tìm theo dạng cột. Ví dụ bạn có thể tạo cột “@mentions” (@mention được dùng khi mọi người đăng bài với ký hiệu @ và tên của bạn) và một cột khác cho những gì được nhắc đến về đối thủ. Lần tới khi bạn tham dự một hội nghị công nghệ, hãy để ý cách mọi người kiểm soát Twitter của họ, bạn sẽ thấy phần lớn đang sử dụng TweetDeck.
+
+Đăng lại các bài đăng của bạn
+
+Bây giờ chúng ta xem xét những điều thường không được chấp nhận. Tôi chia sẻ tổng cộng 50 bài mỗi ngày qua các tài khoản của tôi trên Google+, Facebook, Twitter, LinkedIn và Ello. Đa số những bài này là đăng lại chính những bài trước.
+
+“Đây là một bài kiểm tra IQ: Bạn muốn có 1.300 hay 7.600 lượt xem?”
+
+Rất ít người hoặc công ty áp dụng cách làm này, nhưng kinh nghiệm của tôi cho thấy chừng nào các bài đăng còn thú vị, bạn có thể chia sẻ bao nhiêu lần cũng được. Tôi đã kiểm tra và thấy rằng có ngày càng nhiều lượt xem khi đăng 4 bài giống y nhau trong 2 ngày. Mỗi bài có một link khác nhau cho cùng một câu chuyện gốc. Và sau đây là kết quả:
+
+Đây là một bài kiểm tra IQ: Bạn muốn có 1.300 hay 7.600 lượt xem? Bạn có sẵn sàng chấp nhận những lời phàn nàn về những bài đăng giống nhau và nguy cơ bị ngừng theo dõi hay đạt được số lượng người xem gấp 5,8 lần. Tôi làm theo lựa chọn thứ hai mỗi ngày trong năm.
+
+Một số người sẽ phàn nàn về số lượng lớn, nhưng đừng lo lắng. Họ sẽ hoặc phải quen với việc tăng lên hoặc bị mọi người không theo dõi nữa. Vấn đề là ở hiệu ứng của mạng xã hội: bạn hoặc là đang tạo ra một thương hiệu bằng cách thu hút những người theo dõi và tăng những lượt chia sẻ lại, hoặc là không. Nếu bạn không làm cho ai đó bỏ theo dõi, bạn cũng đang không sử dụng mạng xã hội một cách xông xáo.
+
+Phản hồi các bình luận
+
+Đừng đánh giá mọi thứ một cách chủ quan. Chẳng ai làm bất cứ điều gì vì bạn. Những gì mọi người nói và làm là sự bảo vệ hiện trạng, ước mơ của chính họ. Khi bạn không lo lắng về ý kiến và hành động của người khác, bạn sẽ không trở thành nạn nhân của những nỗi đau không đáng.
+
+– Don Miguel Ruiz
+
+Bạn sẽ đối mặt với những bình luận sâu sắc, hài hước và thẳng thắn, và bạn cũng gặp phải những bình luận ngu ngốc, ích kỷ và sỉ nhục.
+
+Sự rắc rối sẽ xuất hiện khi bạn đăng những điều thú vị, nhưng mọi người lại có những bình luận tiêu cực.
+
+Việc phản hồi các bình luận cần tới sự bền bỉ và nỗ lực. Đặc biệt những bình luận tiêu cực cần tới nỗ lực, kiên nhẫn và thông hiểu. Sau đây là cách làm thế nào để biến những phản hồi tiêu cực thành một cách để nuôi dưỡng sự quan tâm, tạo dựng danh tiếng và thậm chí là có được những niềm vui:
+
+• SỬ DỤNG CÁC CÔNG CỤ PHÙ HỢP: Bước đầu tiên là tìm những bình luận mà bạn cần xử lý. Có hai tình huống xảy ra: đầu tiên, việc kiểm soát những bình luận về bài đăng của bạn trên Google+, Facebook, Pinterest, LinkedIn và Instagram. Điều này khá dễ vì những nền tảng này đã sắp xếp hoặc “dệt” theo mô hình thảo luận, vì vậy bạn có thể đăng bài rồi quay lại xem có các bình luận không.
+
+Tình huống thứ hai là kiểm soát các bình luận trên Twitter. Vì Twitter không hỗ trợ mô hình theo tuyến, bạn cần tiến hành tìm kiếm tên công ty của bạn để kiểm soát các bình luận và các phản hồi. Bạn có thể lưu những tìm kiếm này để không phải nhập vào lần nữa.
+
+Twitter cũng cung cấp các khả năng tìm kiếm nâng cao (advanced search capabilities) để làm cho việc tìm kiếm các bình luận hiệu quả hơn. Ví dụ như tôi có thể sử dụng một tìm kiếm đã lưu về các bài đăng có nhắc tới Guy Kawasaki hoặc Canva chứ không phải các bài đăng lại những bài đăng của chúng tôi. (Bạn không cần trả lời những bài chia sẻ lại, và thực tế là sẽ có nhiều bài đăng đến nỗi bạn không thể phản hồi hết được ngay cả bạn muốn làm vậy.)
+
+“Bạn có thể không bao giờ đi nhầm khi theo đường cao tốc, vì việc giành chiến thắng trong cuộc chiến để giành vị thế và sự tin cậy quan trọng hơn chiến thắng những cuộc tranh cãi với một người bình luận.”
+
+Mọi người cũng sẽ có những bình luận về startup của bạn mà chẳng liên quan gì tới các bài đăng của bạn. Bạn cũng cần kiểm soát những bình luận này. Trong một thế giới lý tưởng, mỗi khi mọi người nhắc đến công ty của bạn, họ sẽ sử dụng ký hiệu “@” (Twitter và Facebook) hoặc “+” (Google+) trước tên của công ty. Khi họ làm vậy, các nền tảng sẽ thông báo cho bạn qua email hoặc khi bạn đăng nhập trang của mình. Tuy nhiên phần lớn mọi người không để ý đến chức năng này.
+
+Tuy nhiên có nhiều dịch vụ như Commun.it, Google Alerts, Hootsuite, Social Mention, SocialBro, Sprout Social và Viralheat có thể kiểm soát các bình luận và giúp bạn phản hồi. Và như được đề cập ở trên, TweetDeck là một ứng dụng tuyệt vời để kiểm soát các đề cập và các thuật ngữ tìm kiếm.
+
+• LƯU TÂM ĐẾN TOÀN BỘ NGƯỜI XEM: Người đọc các phản hồi của bạn là bất kỳ ai sẽ xem nó – chứ không chỉ người đưa ra bình luận. Điều này khác với email, nơi chỉ người nhận và người được nhận chuyển tiếp là những gì bạn cần chú ý.
+
+Đối với mạng xã hội, nhiều người đang ẩn danh đọc và đưa ra các nhận xét dựa trên cách bạn phản hồi. Những người này có thể quan trọng hơn bản thân người đưa ra bình luận đầu tiên vì họ có thể có nhiều người theo dõi hơn những người hay chọc ghẹo trên mạng – những người đang tìm cách gây sự như sự bù đắp cho “nỗi đau thầm kín về kích cỡ” hay một cuộc sống chán nản – những người đang cố lôi bạn vào một cuộc chiến. Cách bạn phản hồi sẽ giống như cách một chính trị gia trả lời trong một hội trường lớn: mọi thứ sẽ được ghi lại.
+
+• HÃY TỎ RA TÍCH CỰC: Vì có người theo dõi nên bạn cần tỏ ra tích cực và nhẹ nhàng dù các bình luận có khó chịu, khiêu khích thế nào đi nữa. Bạn có thể không bao giờ đi nhầm khi theo đường cao tốc, vì việc giành chiến thắng trong cuộc chiến để giành vị thế và sự tin cậy quan trọng hơn chiến thắng những cuộc tranh cãi với một người bình luận. Nói thật là thỉnh thoảng tôi cũng không làm theo lời khuyên này, vì vậy hãy làm như tôi viết, đừng giống tôi làm.
+
+• HÃY LUÔN NGHĨ RẰNG MỌI NGƯỜI ĐỀU TỐT CHO ĐẾN KHI CÓ BẰNG CHỨNG VỀ ĐIỀU XẤU: Tương tự như email, rất dễ để hiểu nhầm những bình luận trên mạng xã hội. Những gì bạn cho là sự chỉ trích hay tấn công có thể chỉ là một lời nói đùa hoặc lời chọc ghẹo vô hại. Mọi người xứng đáng được hưởng quyền tạm tin.
+
+• ĐỒNG Ý VỚI NHỮNG BẤT BÌNH: Nếu bạn không thể tỏ ra tích cực, thì ít nhất bạn có thể đồng ý với bất bình. Cuộc đời quá ngắn để tranh cãi liên miên, và phần lớn các cuộc chiến thế này không đáng để quan tâm. Vì vậy việc đồng ý với những bất bình sẽ giải quyết những kẻ thích chọc phá.
+
+• HỎI NHỮNG CÂU SẮC SẢO: Khi ai đó thể hiện một quan điểm tiêu cực quá mức, hãy hỏi họ liệu đã có kinh nghiệm gì với vấn đề này chưa. Ví dụ như nếu bạn chia sẻ một câu chuyện về Android và một người hâm mộ iOS khiêu khích bạn, hãy hỏi xem liệu anh ta đã từng sử dụng hay sở hữu một chiếc điện thoại Android chưa. Điều tốt là anh ta không có và chỉ nói lại những gì nghe người khác nói. Trên mạng xã hội, sự kết hợp giữa chắc chắn và không hiểu biết là rất phổ biến, vì vậy hãy làm quen với điều đó. Thực ra, thường thì một người càng chắc chắn bao nhiêu lại càng ít hiểu biết bấy nhiêu.
+
+• ĐÁNH TRONG BA HIỆP: Những phản ứng tốt nhất (và tệ nhất) thường xảy ra giữa những người bình luận. Thật thú vị khi xem những người không quen biết nhau phát triển các mối quan hệ và nhìn nhận các bài đăng theo hướng may mắn bất ngờ và sâu sắc hơn. Đó là tin tốt. Tin xấu là những người bình luận đôi khi tranh cãi dữ dội và đưa ra những bình luận cay nghiệt mà họ sẽ không bao giờ sử dụng ngoài đời thực.
+
+Đề xuất của tôi là hãy áp dụng luật đấm bốc nghiệp dư và chỉ đánh trong ba hiệp. Tiếng chuông bắt đầu là khi bạn chia sẻ một bài đăng. Ding – Ding. Hiệp 1: người xem bình luận. Hiệp 2: bạn phản hồi. Hiệp 3: người bình luận phản hồi lại phản hồi của bạn. Và kết thúc trận đấu ở đây.
+
+• XÓA, CHẶN VÀ BÁO CÁO: Nếu tất cả những biện pháp khác đều thất bại, hãy lờ đi, xóa, chặn hoặc báo cáo những kẻ phá rối hoặc người đăng tin rác (spammers). Bạn không phải có nghĩa vụ đạo đức để tương tác với bọn họ và có rất ít điều tốt đẹp để hạ mình xuống ngang tầm của họ. Nếu bạn cần sự giúp đỡ để phân biệt kẻ phá rối với người đam mê, hãy đọc Top 12 Signs You’re Dealing with Trolls – 12 Dấu hiệu bạn đang gặp kẻ phá rối.
+
+Tôi có quy tắc một-lỗi-lầm, vì thế tôi sẽ xóa ngay những bình luận không hợp lý (sự báng bổ, phân biệt chủng tộc, và những thứ vớ vẩn, nằm ngoài chủ đề) và gắn cờ những kẻ phá rối và đăng tin rác không một chút lưỡng lự. Cuộc sống quá ngắn để đối phó với “miệng đời”.
+
+Thu hút nhiều người theo dõi hơn
+
+Đừng mong được ưa thích, hãy chân thành, đừng mong được nổi tiếng, hãy được yêu thương. Đừng tự hào khi được đợi chờ, hãy gần gũi; và bạn sẽ không mắc sai lầm.
+
+– C. JoyBell C.
+
+Chỉ có hai dạng người và tổ chức trên mạng xã hội: những người muốn có nhiều người theo dõi và những người đang nói dối. Vào năm 2014, một tìm kiếm của Google dành cho cụm từ “Làm thế nào để có thêm nhiều người theo dõi?” đã cho 284 triệu kết quả, việc này nói với bạn đôi điều. Và cũng chỉ có 2 điều mà bạn cần làm để thu hút thêm nhiều người theo dõi, đó là:
+
+1. Thứ nhất, hãy chia sẻ những điều thú vị. Đây là cách để có được thêm nhiều người theo dõi. Và không cần thảo luận thêm gì nữa.
+
+2. Thứ hai, hãy sử dụng những mạng xã hội mới. Sẽ dễ hơn nhiều để có được rất nhiều người theo dõi khi một nền tảng còn non trẻ vì có ít người theo dõi và cũng có ít sự ồn ào hơn.
+
+Tôi có 6,4 triệu người theo dõi trên Google+ vào tháng 7 năm 2014 – Tôi sử dụng Google+ chỉ vài tuần sau khi nó ra mắt. Nếu bây giờ tôi mới bắt đầu với Google+ hay bất kỳ nền tảng nào hiện nay, tôi không thể theo kịp những người đã sử dụng sớm hơn.
+
+Mỗi nền tảng mới tạo ra một loạt các ngôi sao mới. Tôi không thể đuổi kịp Joy Cho trên Pinterest vì bây giờ bà ấy đã có hơn 13 triệu người theo dõi. Nhưng bà cũng sẽ khó có thể theo kịp tôi trên Google+, nơi bà chỉ có vài trăm người theo dõi.
+
+Bài học rút ra cho thấy một mạng xã hội mới là một cuộc chiến giành đất. Nếu bạn muốn có nhiều người theo dõi, bạn phải tham gia trước khi có dấu hiệu rằng nền tảng ấy sẽ thành công.
+
+Hãy tránh những việc ngu ngốc
+
+Vấn đề duy nhất với thế giới này là những kẻ ngu ngốc và những người cuồng tín luôn tin vào bản thân họ, còn những người thông minh thì đầy nghi ngờ.
+
+– Bertrand Russell
+
+Các mạng xã hội có những nhu cầu và sai lầm riêng của nó, và mọi người theo dõi các công ty để quan sát từng điều nhỏ nhặt nhất của chúng. Phần này sẽ giúp cho bạn giả vờ khôn ngoan cho đến khi bạn không thể nữa.
+
+• ĐỪNG MUA NGƯỜI THEO DÕI BẠN: Chỉ những người thua cuộc và những kẻ lừa đảo mới mua giữ người theo dõi (Tôi có thể nói với bạn tôi thực sự cảm thấy thế nào không?). Tôi không phủ nhận rằng mọi người sẽ nhìn nhận việc có số lượng lớn những người theo dõi là một bằng chứng xã hội cho một điều gì đấy tốt đẹp nhưng việc mua chuộc những người theo dõi thì thật ngu ngốc. Đây là cách những công ty lớn có thể vướng vào việc này:
+
+– Giám đốc điều hành tham gia một hội nghị và quyết định rằng công ty phải sử dụng các mạng xã hội nhiều hơn nữa.
+
+“Bạn có thể không bao giờ bị bắt gặp mua chuộc con đường tiến thân của mình, nhưng làm vậy là đang hủy hoại nghiệp (karma) của bạn, mà nghiệp là một con quỷ.”
+
+– Bà nói với CMO (Chief Marketing Officer – giám đốc marketing) rằng bà muốn thấy một vài kết quả nào đó, mà kết quả là số người theo dõi tăng lên.
+
+– CMO nhận ra rằng trong công ty không ai am hiểu về mạng xã hội (Điều này là không đúng, nhưng tôi hơi lạc đề) vì vậy lựa chọn an toàn, dễ dàng và logic nhất là thuê ai đó từ các nhà cung cấp dịch vụ cho công ty, vì họ có rất nhiều chuyên gia.
+
+– Điều đầu tiên giám đốc của công ty được thuê làm là thuê công ty cũ của ông ấy xử lý các nhiệm vụ CMO đã giao cho ông.
+
+– Công ty thứ cấp yêu cầu và nhận được một ngân quỹ lớn đủ để mua người theo dõi, người bấm like hay bấm +1 (trong Google+) để đạt được các mục tiêu đã định ra.
+
+– Nhà cung cấp dịch vụ tiêu hết số tiền, và thật ngạc nhiên, đã đạt được các con số đặt ra. Chiến thắng được tung hô, và tất cả mọi người đều hạnh phúc.
+
+Những người theo dõi bị mua chuộc có rất ít lợi ích bền lâu với công ty, vì họ không tương tác với các nội dung của bạn và không quan tâm đến chúng. Bạn có thể không bao giờ bị bắt gặp mua chuộc con đường tiến thân của mình, nhưng làm vậy là đang hủy hoại nghiệp (karma) của bạn, mà nghiệp là một con quỷ.
+
+Có một ngoại lệ duy nhất cho việc này là khi bạn trả tiền để quảng bá các bài đăng trên Facebook. Đây là cách Facebook hoạt động – nó tương tự như việc mua quảng cáo trên các phương tiện truyền thông khác.
+
+• ĐỪNG NHỜ MỌI NGƯỜI THEO DÕI CÔNG TY BẠN: Nếu bạn muốn có nhiều người theo dõi, hãy thu hút họ bằng chất lượng của các bài đăng. Nếu Groucho Marx còn sống đến ngày nay, ông ấy sẽ sửa câu nói nổi tiếng của mình và nói rằng những người yêu cầu bạn theo dõi họ không đáng để được theo dõi. Hãy gìn giữ phẩm giá của mình, đừng quỳ gối trước người theo dõi, và hãy chia sẻ những điều thú vị với số lượng lớn.
+
+• ĐỪNG NHỜ NGƯỜI KHÁC CHIA SẺ NHỮNG BÀI ĐĂNG CỦA BẠN: Nếu các bài đăng của bạn thú vị thì điều này sẽ xảy ra một cách tự nhiên. Với tất cả các kỹ thuật chúng ta đã nghiên cứu, mọi người sẽ đọc bài đăng của bạn, và nếu chúng thú vị họ sẽ chia sẻ. Điều đó rất đơn giản. Ngoại trừ duy nhất có thể chấp nhận được khi yêu cầu người khác chia sẻ là các bài đăng với mục đích nhân đạo.
+
+• ĐỪNG TRỞ THÀNH MỘT KẺ MỐI LÁI: Mạng xã hội là cách tuyệt vời để quảng bá sản phẩm, dịch vụ, hoặc website của bạn – đó là lý do tại sao chúng ta đang nỗ lực làm điều này. Tuy nhiên bạn sẽ trở nên ngu ngốc nếu có hơn 5% những bài đăng của bạn là với mục đích quảng cáo. Nếu bạn quen thuộc với các kênh truyền thông của Mỹ, bạn sẽ muốn trở thành một NPR, chứ không phải QVC (kênh TV chuyên về bán hàng ở Mỹ). Hãy tưởng tượng nếu NPR tiến hành kêu gọi đóng góp mỗi ngày trong năm.
+
+• ĐỪNG GIAO PHÓ CHO MỘT CÔNG TY DỊCH VỤ: Nếu bạn tuyển một công ty kỹ thuật số mà nó sẽ đưa 10 người vào một “war room” (“phòng chiến”) để đo lường cảm xúc thương hiệu của bạn, rồi cần 45 ngày để viết một bài đăng lên Twitter, tôi sẽ sa thải bạn. Đừng giao mạng xã hội cho các chuyên gia, những người có 100 người theo dõi, đăng bài một lần mỗi tháng, và lấy của bạn nhiều hơn GDP của một nước nhỏ cho các dịch vụ của họ. Cách làm tốt nhất là đừng bao giờ xin lời khuyên từ những người có ít người theo dõi hơn bạn. Nếu bạn làm theo những lời khuyên trong chương này, bạn sẽ không cần đến một công ty dịch vụ. Nếu bạn làm theo lời khuyên trong chương này và bạn là một công ty dịch vụ, có lẽ bây giờ bạn nên xem lại vị thế của mình.
+
+• ĐỪNG GIAO PHÓ CHO MỘT THỰC TẬP SINH: Việc bạn thấy một anh chàng trẻ tuổi biết sử dụng Facebook, là nhân viên một cửa hàng fast food, không có nghĩa anh ta hoặc cô ta có thể quản lý các trang mạng xã hội của bạn. Điều này giống như việc nói rằng sở hữu một chiếc xe sẽ làm cho người ta trở thành một thợ máy.
+
+Đừng hiểu nhầm tôi: Tôi yêu thích những thực tập sinh. Họ mang lại những quan điểm tươi mới và sự tinh tế cho các mạng xã hội. Tôi chỉ muốn bạn coi trọng các mạng xã hội và dùng những người giỏi cho nó, vì đối với nhiều người, công ty của bạn chính là những gì bạn chia sẻ. Ít nhất hãy yêu cầu các thực tập sinh của bạn đọc chương này và kiểm soát từng bài đăng và các bình luận họ đưa ra trong vài tuần.
+
+Phụ trương
+
+Tiểu chương: Làm thế nào để đưa các sự kiện lên mạng xã hội
+
+Tôi thích những bữa tiệc lớn. Chúng thật là thân mật. Ở những bữa tiệc nhỏ, chẳng có chút riêng tư nào cả.
+
+– F. Scott Fitzgerald, Gatsby vĩ đại
+
+Các sự kiện là những công cụ quan trọng trong marketing, và các mạng xã hội có thể làm gia tăng ảnh hưởng của chúng. Tôi diễn thuyết tại hơn 50 sự kiện mỗi năm, và tôi nhận thấy rằng phần lớn các công ty không sử dụng các mạng xã hội của họ để tăng các giá trị của chúng. Thay vào đấy các công ty thường tập trung vào việc quảng bá trước khi sự kiện xảy ra để thu hút người tham gia và rất ít sử dụng, nếu có, mạng xã hội tại chính các sự kiện.
+
+Vào năm 2013, Peg Fitzpatrick và tôi thực hiện các sự kiện cho Motorola để giới thiệu điện thoại Moto X ở Mexico, Argentina, Brazil, Peru, Colombia, và Chile. Tôi là diễn giả chính và Peg đảm trách mạng xã hội. Trong loạt sự kiện này, chúng tôi đã học cách làm thế nào để gây ấn tượng với một sự kiện bằng các mạng xã hội.
+
+• SỬ DỤNG MỘT HASHTAG LÂU DÀI (EVERGREEN HASHTAG): Chúng tôi có thể đã sử dụng các thẻ hashtag như “#MotoXBrasil2013”, “#MotoXMexico2013”, “#MotoXPeru2013”, nhưng những thẻ này chỉ có thể kéo dài ba ngày, đấy là trong trường hợp tốt nhất. Thay vì thế, chúng tôi chọn một hashtag ngắn gọn, thú vị và lâu dài “#MotoX”.
+
+“Sự bạo gan mang lại thành công trên mạng xã hội.”
+
+Mục tiêu của hashtag này là nó sẽ định hướng và gây tác động lên mọi người dù cho nó nhắc đến sự kiện ở Brazil, Mexico, hay Peru, hay một sản phẩm mới. Trong trường hợp cụ thể của chúng tôi, sự độc nhất là mối lo khi sử dụng hashtag “#MotoX” vì nó cũng được sử dụng cho các sự kiện dành cho xe mô-tô. Nhưng nếu tôi phải lựa chọn giữa sự ngắn gọn và độc nhất, tôi sẽ (và đã) chọn sự ngắn gọn và giải quyết sự hiểu nhầm.
+
+• KẾT NỐI THẺ GẮN VÀO MỌI THỨ: Sử dụng thẻ gắn ngay từ thời điểm bắt đầu quảng bá cho sự kiện. Điều này có nghĩa là nó nên xuất hiện trên website, trên các quảng cáo và trong cả chữ ký email của bạn. Các tài liệu in nên sử dụng nó ngay trên trang bìa. Những slide giới thiệu nên quảng bá nó ở kiểu chữ 60, mọi slide tiếp nó đều xuất hiện ở chân trang – footer. Tất cả nhân viên, người phát ngôn, bán hàng và khách hàng nên biết về nó.
+
+• YÊU CẦU TẤT CẢ MỌI NGƯỜI SỬ DỤNG HASHTAG: Việc bạn loan truyền thẻ gắn là chưa đủ; bạn cũng cần khuyến khích mọi người sử dụng nó. Cả người dẫn chương trình trong hội nghị và người đứng đầu sự kiện nên yêu cầu mọi người chia sẻ các bài viết với thẻ gắn này. Vào cuối chuyến quảng bá cho MotoX, tôi bắt đầu những bài thuyết trình của tôi với một yêu cầu rằng mọi người hãy đăng lên Twitter là họ đang tham gia sự kiện với thẻ gắn, và tôi đợi cho đến khi họ làm xong.
+
+Sự bạo gan mang lại thành công trên mạng xã hội.
+
+• VƯỢT RA KHỎI SỰ KIỆN: Khán giả của một sự kiện là bất kỳ ai trên thế giới này quan tâm đến sản phẩm của bạn, chứ không chỉ những người tham gia sự kiện. Một tweet như “Không ở Brazil à? Hãy xem Mashable nghĩ gì về #MotoX: http:// mashable.com/2013/08/01/moto-x-hands-on/ sẽ rất hiệu quả, và nhiều người sẽ chia sẻ lại tweet này.
+
+• GIAO CHO MỘT NGƯỜI CHUYÊN TRÁCH: Ít nhất cần có một người tại sự kiện chịu trách nhiệm về các mạng xã hội:
+
+– Trước sự kiện: Chia sẻ các bài đăng quảng bá để thu hút sự chú ý của người tham dự.
+
+– Trong sự kiện: Đăng tải những gì đang xảy ra, chụp hình các diễn giả và khách hàng. Đăng những bức hình trong giờ giải lao và chia sẻ lại bài đăng của người khác.
+
+– Sau sự kiện: Chia sẻ các bài báo về sự kiện cũng như bổ sung thêm các bức hình và video. Khuyến khích người tham dự chia sẻ các hình ảnh của họ.
+
+Katie Clark, một nhà nghiên cứu về thị trường từ Portland, Maine, cho rằng việc tuyển một người chuyên về mạng xã hội để đảm trách vị trí này nếu bạn không có một chuyên gia. Người này sẽ làm những gì cần làm, khuếch trương thông tin với các tài khoản riêng của họ, và kêu gọi sự yêu thích từ những người có nhiều người theo dõi. Đây chính là vai trò mà Peg đã đảm nhận cho Motorola ở Nam Mỹ.
+
+• LIVESTREAM SỰ KIỆN: Hãy nghĩ về những gì bạn đã bỏ ra để tổ chức một sự kiện. Tại sao bạn không phát trực tiếp toàn bộ sự kiện lên mạng? Bạn có e ngại rằng có quá nhiều người sẽ biết về sản phẩm của bạn? Hãy thực tế. Nếu bạn đang công bố một sản phẩm ở Bogota, bạn cũng muốn một blogger ở Moscow viết về nó. Tương tự như vậy bạn có lẽ cũng sẽ ghi lại toàn bộ hoạt động và giúp cho mọi người có thể xem lại.
+
+Đừng lo lắng rằng việc phát sóng sẽ làm giảm số lượng người dự sự kiện – nếu việc xem trực tiếp cũng tốt như việc trực tiếp tham dự, có lẽ vấn đề lớn là sự thu hút của sự kiện bạn tổ chức.
+
+• CUNG CẤP NHỮNG CẬP NHẬT THEO THỜI GIAN THỰC: Nếu bạn không phát trực tiếp, hãy yêu cầu người phụ trách mạng xã hội cập nhật liên tục. Bạn có thể sử dụng Twitter, Instagram, hay blog của bạn để làm việc này. Những tạp chí như Verge có những bài phát sóng trực tiếp xuất sắc lên blog về các sự kiện, như của Apple, vì vậy hãy học hỏi những gì họ đã làm.
+
+• CHIẾU TRỰC TIẾP CÁC TWEET: Hãy sử dụng các dịch vụ giúp bạn chiếu trực tiếp các tweet có chứa thẻ gắn của bạn tại hội nghị. Việc này khuyến khích nhiều sự tương tác hơn và sử dụng thẻ gắn của bạn hơn. Đối với nhiều người, việc thấy các tweet của họ xuất hiện trên màn hình cũng giống như việc thấy các bức hình của họ được chiếu ở quảng trường Thời đại. Tôi đã dùng Twubs hay Tchat để làm điều này.
+
+• CUNG CẤP ĐƯỜNG TRUYỀN KHÔNG DÂY: Hãy cho phép tôi nói thẳng điều này: bạn đang tiêu tốn hàng ngàn đô-la cho sự kiện. Bạn đang gắn thẻ vào tất cả mọi người yêu cầu họ sử dụng nó. Nhưng bạn lại hạn chế đường truyền không dây. Bạn có bị mất trí không vậy?
+
+Khi bạn tiến hành lựa chọn địa điểm tổ chức sự kiện, hãy mang theo máy tính và điện thoại để chạy Speedtest để kiểm tra tốc độ đường truyền. Yêu cầu người phụ trách bán hàng đảm bảo đường truyền cho địa điểm mà bạn sẽ tiếp đón vài trăm khách hàng. Và bạn sẽ chuyển sang địa điểm nếu đường truyền Internet không tốt. Để đề phòng, hãy mang theo vài cổng truy cập di động và biến một vài điện thoại thông minh thành tethering hotspots.
+
+• KHÔNG DÙNG PASSWORD: Các đường truyền có mật khẩu là kẻ thù của đám đông yêu thích mạng xã hội. Nếu bạn phải sử dụng mật khẩu cho hệ thống, hãy công bố mật khẩu ở khắp mọi nơi – dĩ nhiên điều đó có nghĩa là sự an toàn sẽ không được đảm bảo, tuy vậy bạn cũng không nên sử dụng mật khẩu.
+
+“Hãy nói các giám đốc điều hành dũng cảm lên.”
+
+• BỐ TRÍ NƠI CHỤP HÌNH: Chúng tôi bố trí một khu vực để chụp hình tại các sự kiện MotoX. Tất cả những gì cần thiết là ánh sáng tốt và một tấm phông với nhiều chữ “MotoX”. Mọi người thấy tấm phông và nghĩ đó là khoảnh khắc của mười-lăm-phút- danh vọng: “Hãy giả vờ làm các ngôi sao Hollywood nào.”
+
+Mọi người sẽ đăng gần như tất cả các bức hình này – lý tưởng hơn nữa là với hashtag của bạn.
+
+• CHỤP VÀ CHIA SẺ NHỮNG BỨC ẢNH ĐẸP: Hãy tuyển nhiếp ảnh gia để có những bức ảnh đẹp tại sự kiện của bạn. Việc này sẽ ít tốn kém hơn so với việc bạn chi tiêu cho những chiếc USB làm quà có in logo của bạn, thứ mọi người không thích.
+
+Tại sự kiện MotoX, tôi tạo dáng với bất kỳ ai yêu cầu (và yêu cầu bất kỳ ai không yêu cầu) trước tấm phông “MotoX”. Sau sự kiện, chúng tôi gửi email cho các khách hàng nói với họ nơi họ có thể tìm thấy bộ sưu tập các bức hình, và chúng tôi khuyến khích họ tải và chia sẻ chúng với MotoX hashtag.
+
+• LÀM VIỆC VỚI CÁC GIÁM ĐỐC CỦA BẠN: Tại nhiều sự kiện, các giám đốc điều hành phát biểu rồi vội vã tham gia những cuộc họp báo có rất ít người tham dự hoặc thực hiện các cuộc phỏng vấn. Sau đấy họ xuất hiện trước công chúng trong chốc lát nhưng lại bị vây quanh bởi đội bảo vệ để giúp họ tránh những-gì-tôi-không-biết.
+
+Hãy yêu cầu họ dũng cảm lên. Họ nên làm nhiều hơn việc sẵn lòng chụp vài tấm hình bằng việc mời mọi người cùng chụp với họ. Không ai có thể từ chối một lời mời như vậy và 100% các bức hình này cũng sẽ được chia sẻ.
+
+• BAO PHỦ TOÀN THẾ GIỚI: Một khi bạn có các bức hình và video, hãy chia sẻ chúng lên tất cả các mạng xã hội. Đối với Motorola, chúng tôi chia sẻ các bức ảnh lên Google+, Twitter, Facebook và Instagram. Mục tiêu là để làm cho mọi người đã tham gia sự kiện thấy các bức ảnh và video có hình họ và chia sẻ chúng. Chỉ cần một chút nỗ lực và sự kỳ diệu, bạn có thể làm cho sự kiện của bạn trở thành một nơi để chứng tỏ bản thân.
+
+FAQ
+
+Câu hỏi: Chúng tôi chỉ là một công ty nhỏ, vì vậy chúng tôi nên sử dụng tài khoản của công ty hay tài khoản của cá nhân?
+
+Câu trả lời: Bạn nên sử dụng tài khoản công ty vì trên Google+, và Facebook, các tài khoản công ty có nhiều ưu điểm hơn so với tài khoản cá nhân. Và cũng để khi sa thải nhân viên, bạn sẽ không muốn xử lý những rắc rối về việc quyết định ai sẽ sở hữu tài khoản.
+
+Câu hỏi: Chúng tôi có nên biên tập lại các bài đăng của nhân viên? Câu trả lời: Tôi cho rằng có một tài khoản công ty cho việc kinh doanh, và bạn đang nói đến những tài khoản cá nhân của mọi người.
+
+Nói chung, những gì nhân viên làm với tài khoản riêng của họ trong thời gian riêng của họ không phải là việc của bạn.
+
+Tuy nhiên nó sẽ trở thành việc của công ty khi mọi người định vị bản thân họ như nhân viên hoặc người đại diện cho công ty và làm những việc tổn hại đến hình ảnh của công ty. Nhưng vào lúc đó, giải pháp cần là xử lý gốc rễ của vấn đề hơn là xác định sự tồn tại của vấn đề.
+
+Câu hỏi: Chúng tôi nên có những nội dung khác nhau cho các mạng xã hội khác nhau không?
+
+Câu trả lời: Đây là những gì tôi đã làm: Google+ và Facebook: nội dung giống nhau mà tôi nhận thấy mình yêu thích, ba hoặc bốn câu với một đường dẫn đến nguồn. Pinterest: những bức hình đẹp từ các website. Instagram: những bức hình đẹp mà tôi tự chụp. Twitter: những đường link dẫn đến những gì tôi thích.
+
+Câu hỏi: Tôi đang bỏ lỡ điều gì? Tại sao ông thích Google+ nhiều đến thế?
+
+Câu trả lời: Tôi thích Google+ bởi vì thiết kế đẹp của nó, vì không có thuật toán EdgeRank quyết định ai sẽ thấy các bài đăng của tôi, và vì chất lượng của các bình luận. Một phần nữa là vì nó đến từ Google, mà có bị điên mới không cược vào Google.
+
+Tìm đọc
+
+Kawasaki, Guy và Peg Fitzpatrick. The Art of Social Media: Power Tips for Power Users – Nghệ thuật sử dụng mạng xã hội: Bí quyết cho những người dùng tài ba. New York: Portfolio, 2014.

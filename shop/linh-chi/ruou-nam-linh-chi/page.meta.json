@@ -1,0 +1,27 @@
+{
+  "_clone_help": "KHI CLONE SẢN PHẨM: sửa title, short_title, nav_label, summary, price, badge, experience_tags, is_new, updated_at. Không cần khai báo gallery thủ công nếu đã có media/main.* và các ảnh phụ trong media/. Sau đó chạy python shop/scan_shop.py",
+  "_clone_slug_note": "Sản phẩm hiện tại nằm trong nhóm \"linh-chi\" với slug sản phẩm \"ruou-nam-linh-chi\". Nếu đổi nhóm, hãy move cả folder sản phẩm sang đúng folder nhóm mới.",
+  "title": "Rượu Nấm Linh Chi",
+  "short_title": "Rượu Nấm Linh Chi",
+  "nav_label": "Rượu Nấm Linh Chi",
+  "section": "shop",
+  "show_in_nav": false,
+  "template": "shop-product-detail",
+  "category_slug": "linh-chi",
+  "price": "Liên hệ",
+  "summary": "Sản phẩm quà biếu và thưởng thức từ nấm linh chi.",
+  "experience_tags": [
+    "quà biếu",
+    "thưởng thức"
+  ],
+  "is_new": false,
+  "badge": "Gift",
+  "updated_at": "2026-04-02",
+  "main_image": "media/main.jpg",
+  "card_image": "media/main.jpg",
+  "gallery": [
+    "media/main.jpg",
+    "media/detail-1.jpg",
+    "media/detail-2.jpg"
+  ]
+}

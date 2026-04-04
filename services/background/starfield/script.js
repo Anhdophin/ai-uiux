@@ -1,0 +1,1 @@
+window.StarfieldBG={init(){document.querySelectorAll('[data-background=starfield]').forEach(el=>el.classList.add('bg-starfield'));}};document.readyState==='loading'?document.addEventListener('DOMContentLoaded',()=>window.StarfieldBG.init(),{once:true}):window.StarfieldBG.init();

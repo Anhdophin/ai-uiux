@@ -1,0 +1,12 @@
+PATCH INSTALL
+
+1. Giải nén file patch này vào đúng root source hiện tại của anh.
+2. Chọn overwrite/replace file cũ.
+3. Giữ nguyên cấu trúc folder hiện tại.
+4. Sau khi ghi đè, khi dùng AI sửa code hãy paste nội dung trong PROMPT-START-FOR-AI.txt hoặc để AI đọc AGENTS.md trước.
+
+Mục tiêu patch này:
+- thêm bộ rule ở root project
+- thêm rule cho Cursor trong .cursor/rules/
+- gắn note ngay trong các file shop dễ clone/sửa tay
+- chuẩn hóa flow để AI luôn đọc rule trước khi sửa

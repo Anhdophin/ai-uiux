@@ -1,0 +1,1 @@
+Before editing, read AGENTS.md and AI-EDIT-PRECHECK.md. Preserve current architecture: root portal + services + apps + shop. Do not hardcode old legacy paths. Keep header/footer partials shared across pages. Fix the smallest possible surface.

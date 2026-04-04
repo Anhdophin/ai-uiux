@@ -1,0 +1,46 @@
+{
+  "seoTitle": "Danh sách dịch vụ thiết kế Mini tools",
+  "hero": {
+    "label": "Services",
+    "title": "Dịch Vụ Khác",
+    "subtitle": "Ngoài dịch vụ thiết kế mini app, tôi cung cấp các giải pháp sáng tạo khác."
+  },
+  "sectionTitle": "Danh mục:",
+  "sectionBody": "Mời các bạn xem, thêm những dịch vụ sáng tạo khác của iLabApp.",
+
+  "items": [
+    {
+      "title": "Đóng Gói Workflow & Thiết Kế Công Cụ Hỗ Trợ",
+      "excerpt": "Chuyển hóa quy trình làm việc thành thông tin, hình ảnh & công cụ hỗ trợ.",
+      "tag": "Service",
+      "meta": "Audit / Strategy",
+      "cover": "../assets/Workflow-based-Tools.png",
+      "href": "workflow-audit-service/"
+    },
+    {
+      "title": "Thiết Kế Trang Web Marketing",
+      "excerpt": "Thiết kế trang web có nội dung marketing có chiều sâu.",
+      "tag": "Service",
+      "meta": "Web - Content",
+      "cover": "../assets/website.png",
+      "href": "thiet-ke-web/"
+    },
+    {
+      "title": "Thiết Kế Trải Nghiệm Game Cho Công Việc",
+      "excerpt": "Làm công việc thú vị hơn bằng hệ thống phần thưởng và trải nghiệm tiến bộ mỗi ngày.",
+      "tag": "Service",
+      "meta": "Creative Design",
+      "cover": "../assets/gamify.png",
+      "href": "game-hoa-workflow/"
+    }
+    ,
+    {
+      "title": "Thiết Kế Câu Chuyện Doanh Nghiệp",
+      "excerpt": "Làm công việc thú vị hơn bằng hệ thống phần thưởng và trải nghiệm tiến bộ mỗi ngày.",
+      "tag": "Service",
+      "meta": "Creative Content Design",
+      "cover": "../assets/gamify.png",
+      "href": "update-soon/"
+    }
+  ]
+}

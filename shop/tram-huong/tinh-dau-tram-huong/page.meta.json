@@ -1,0 +1,28 @@
+{
+  "_clone_help": "KHI CLONE SẢN PHẨM: sửa title, short_title, nav_label, summary, price, badge, experience_tags, is_new, updated_at. Không cần khai báo gallery thủ công nếu đã có media/main.* và các ảnh phụ trong media/. Sau đó chạy python shop/scan_shop.py",
+  "_clone_slug_note": "Sản phẩm hiện tại nằm trong nhóm \"tram-huong\" với slug sản phẩm \"tinh-dau-tram-huong\". Nếu đổi nhóm, hãy move cả folder sản phẩm sang đúng folder nhóm mới.",
+  "title": "Tinh Dầu Trầm Hương",
+  "short_title": "Tinh Dầu Trầm Hương",
+  "nav_label": "Tinh Dầu Trầm Hương",
+  "section": "shop",
+  "show_in_nav": false,
+  "template": "shop-product-detail",
+  "category_slug": "tram-huong",
+  "price": "Liên hệ",
+  "summary": "Tinh dầu trầm cho xông hương, thư giãn và trải nghiệm không gian.",
+  "experience_tags": [
+    "hương liệu",
+    "không gian sống",
+    "thiền"
+  ],
+  "is_new": true,
+  "badge": "Oil",
+  "updated_at": "2026-04-02",
+  "main_image": "media/main.svg",
+  "card_image": "media/main.svg",
+  "gallery": [
+    "media/main.svg",
+    "media/detail-1.svg",
+    "media/detail-2.svg"
+  ]
+}
