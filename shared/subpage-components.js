@@ -10,7 +10,7 @@
     if (currentScript && currentScript.src) {
       try {
         const scriptUrl = new URL(currentScript.src, window.location.href);
-        let root = scriptUrl.pathname.replace(/\/shared\/subpage-components\.js$/, '');
+        let root = scriptUrl.pathname.replace(/\/(?:services\/)?shared\/subpage-components\.js$/, '');
         if (!root.endsWith('/')) root += '/';
         return root;
       } catch (error) {
