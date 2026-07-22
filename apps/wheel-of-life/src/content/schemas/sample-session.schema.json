@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SampleSessionSeedBundle",
+  "type": "object",
+  "required": ["version", "updated_at", "sample_session"],
+  "properties": {
+    "version": {"type": "string"},
+    "updated_at": {"type": "string"},
+    "sample_session": {
+      "type": "object",
+      "required": ["context_profile", "selected_feeling_id", "selected_keyword_ids"],
+      "properties": {
+        "context_profile": {"type": "object"},
+        "selected_feeling_id": {"type": "string"},
+        "selected_keyword_ids": {"type": "array", "items": {"type": "string"}},
+        "reflection_snippet": {"type": "string"}
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

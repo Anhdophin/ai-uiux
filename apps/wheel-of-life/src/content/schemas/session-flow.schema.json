@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "steps",
+    "trail_event_types"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "order",
+          "event_type"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer"
+          },
+          "event_type": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "trail_event_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

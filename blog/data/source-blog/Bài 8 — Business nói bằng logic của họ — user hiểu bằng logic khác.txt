@@ -1,0 +1,172 @@
+Bài 8 — Business nói bằng logic của họ — user hiểu bằng logic khác
+🧠 Một khoảng lệch rất khó nhận ra
+
+Có những cuộc trao đổi mà mọi thứ đều rất rõ.
+
+Người làm business nói rất logic:
+
+Sản phẩm có gì
+Vì sao tốt
+Khác biệt nằm ở đâu
+Giá trị được xây dựng như thế nào
+
+Nghe hoàn toàn hợp lý.
+Không có gì sai.
+
+Nhưng khi đưa lên web…
+
+Người dùng lại không hiểu.
+
+Không phải vì họ thiếu thông tin.
+Mà vì:
+
+họ đang dùng một hệ logic khác
+
+🔍 Hai hệ logic song song
+
+Thông tin không chỉ là nội dung.
+Nó còn phụ thuộc vào hệ logic mà người tiếp nhận đang dùng.
+
+🧱 Logic của business (nội bộ)
+Đi từ bên trong ra
+Bắt đầu từ sản phẩm
+Tập trung vào cấu trúc, tính năng, quy trình
+Dùng ngôn ngữ quen trong ngành
+
+Ví dụ:
+
+“Tối ưu quy trình vận hành”
+“Giải pháp toàn diện”
+“Khác biệt về công nghệ”
+👤 Logic của user (bên ngoài)
+Đi từ trải nghiệm cá nhân
+Bắt đầu từ vấn đề
+Tìm kiếm kết quả cụ thể
+Hiểu qua tình huống quen thuộc
+
+Ví dụ:
+
+“Đỡ mất thời gian xử lý đơn”
+“Không bị sót việc”
+“Biết phải làm gì mỗi ngày”
+
+👉 Hai hệ này không sai.
+Nhưng không giống nhau.
+
+📌 [Chỗ này nên có hình minh họa: 2 cột – business logic vs user logic, đi từ 2 hướng khác nhau]
+
+🧠 Khi giữ nguyên logic nội bộ
+
+Một lỗi thường gặp khi làm web:
+
+Lấy nguyên cách nói của business
+Đưa lên website
+Chỉnh sửa nhẹ câu chữ
+
+Về mặt nội dung, không sai.
+
+Nhưng về trải nghiệm,
+nó tạo ra một khoảng cách.
+
+Người dùng khi đọc sẽ:
+
+Không thấy mình trong đó
+Không hình dung được tình huống
+Không biết nên hiểu theo hướng nào
+
+Và khi không hiểu nhanh,
+họ sẽ không đi tiếp.
+
+🔄 Khi chuyển sang logic của user
+
+Điều cần làm không phải là thay đổi nội dung.
+
+Mà là đổi cách nhìn.
+
+Thay vì bắt đầu từ:
+
+“Sản phẩm này có gì?”
+
+Bắt đầu từ:
+
+“Người dùng đang gặp gì?”
+
+Từ đó, thông tin được sắp xếp lại:
+
+Vấn đề → Giải pháp → Giá trị → Chứng minh
+
+Cùng một nội dung,
+nhưng đi theo logic khác → trải nghiệm khác hoàn toàn.
+
+📌 [Chỗ này nên có hình minh họa: cùng nội dung nhưng flow đảo chiều – product-first vs user-first]
+
+🧩 So sánh trực tiếp
+❌ Cách nói nội bộ
+“Giải pháp tối ưu quy trình vận hành”
+“Nền tảng tích hợp đa chức năng”
+“Hệ thống quản lý toàn diện”
+✅ Cách nói ra ngoài
+“Giúp bạn không bị sót việc mỗi ngày”
+“Gom tất cả công việc vào một chỗ dễ theo dõi”
+“Biết rõ hôm nay cần làm gì, không cần nhớ”
+
+Không phải viết “hay hơn”.
+
+Mà là:
+
+cụ thể hơn
+gần hơn
+dễ hình dung hơn
+⚠️ Vì sao dễ bị nhầm?
+
+Vì khi ở trong hệ thống,
+người làm sẽ quen với cách nói của mình.
+
+Ngôn ngữ nội bộ trở thành “mặc định”.
+
+Và khi viết nội dung,
+logic đó được giữ nguyên mà không nhận ra.
+
+👉 Đây không phải lỗi kỹ năng.
+👉 Đây là lỗi context.
+
+🧠 Góc nhìn UX
+
+Một website không chỉ truyền tải thông tin.
+
+Nó là nơi:
+
+dịch từ một hệ logic sang một hệ logic khác
+
+Nếu giữ nguyên logic ban đầu,
+thông tin vẫn đúng —
+nhưng không kết nối được.
+
+🔚 Kết lại
+
+Business nói rất hợp lý.
+
+User không hiểu.
+
+👉 Không phải vì sai.
+
+Mà vì sai context
+
+🚀 Call to Action
+
+Nếu anh đang:
+
+Có nội dung rõ ràng nhưng user không phản hồi
+Viết đúng nhưng không “chạm”
+Không biết nên giữ hay đổi cách diễn đạt
+
+→ Có thể vấn đề nằm ở logic truyền tải
+
+👉 iAppLab hỗ trợ:
+
+Chuyển ngôn ngữ nội bộ thành ngôn ngữ người dùng
+Thiết kế flow nội dung theo logic user-first
+Xây dựng website giúp người dùng hiểu nhanh và hành động
+
+Xem dịch vụ thiết kế web & cấu trúc nội dung tại iAppLab →
+(link đặt tại đây)

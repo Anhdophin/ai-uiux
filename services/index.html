@@ -1,241 +1,160 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Human AI Agent — Supabase Reader Demo</title>
-  <meta name="description" content="Sulution Artchitector." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/base.css" />
-  <link rel="stylesheet" href="styles.css" />
-  <style>
-    .legacy-service-header, body > footer.site-footer.reveal{display:none !important;}
-    #site-header:empty,#site-footer:empty{display:none}
-    main{padding-top:24px;}
-    .about-card-actions{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px}
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Services - Anhdophin</title>
+  <meta name="description" content="Dich vu thiet ke va truyen thong sang tao voi cau truc ro rang, de so sanh va de chon theo ngan sach.">
+  <link rel="stylesheet" href="../css/base.css">
 </head>
 <body data-root="..">
   <div id="site-header"></div>
-  <div class="page-bg">
-    <span class="bg-orb orb-a" data-parallax="0.03"></span>
-    <span class="bg-orb orb-b" data-parallax="0.06"></span>
-    <span class="bg-orb orb-c" data-parallax="0.04"></span>
-    <span class="shape dots dots-a"></span>
-    <span class="shape dots dots-b"></span>
-    <span class="shape curve curve-a"></span>
-    <span class="shape curve curve-b"></span>
-  </div>
 
-  <header class="site-header shell reveal legacy-service-header">
-    <a class="brand" href="#hero">
-      <span class="brand-mark"><img  class="" src="assets/iAppLap-logo-color.png" alt="Chân dung đại diện"></span>
-      <span class="brand-name" id="brandName">Human AI Agent</span>
-    </a>
-    <nav class="desktop-nav" id="mainNav"></nav>
-    <div class="header-actions">
-      <a class="btn btn-primary " href="https://tally.so/r/RGRE2P" target="_blank">Let's talk 30 mins via Google Meet</a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Mở menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
-
-  <div class="mobile-nav-panel" id="mobileNavPanel">
-    <nav id="mobileNav"></nav>
-  </div>
-
-  <main>
-    <section class="hero shell card reveal" id="hero">
-      <div class="hero-visual" data-parallax="0.05">
-        <div class="hero-portrait-wrap">
-          <img id="heroImage" class="hero-portrait" src="assets/portrait-1.png" alt="Chân dung đại diện" />
-        </div>
-        <span class="accent-circle accent-1"></span>
-        <span class="accent-circle accent-2"></span>
-        <span class="accent-angle accent-3"></span>
-        <span class="accent-angle accent-4"></span>
-      </div>
-      <div class="hero-copy">
-        <p class="eyebrow" id="heroEyebrow">Hello, I’m Anhdophin</p>
-        <h1 id="heroTitle">Human AI Agent</h1>
-        <p class="hero-subtitle" id="heroSubtitle">Workflow Automation for Repetitive  Scalable Tasks</p>
-        <p class="hero-body" id="heroBody">Tôi thiết kế các công cụ digital giúp giải quyết những việc lặp lại hoặc cần làm số lượng lớn.</p>
-        <div class="hero-cta-row">
-          <a class="btn btn-secondary" id="heroSecondaryCta" href="workflow/">Workflow</a>
-          <a class="btn btn-ghost" href="service-detail/">Service Detail</a>
-        </div>
-        <div class="social-row" id="socialRow"></div>
+  <main class="services-page">
+    <section class="services-hero container-content" aria-label="Hero dich vu">
+      <p class="services-hero__eyebrow">CREATIVE SERVICES</p>
+      <h1>Dich vu thiet ke va truyen thong sang tao</h1>
+      <p class="services-hero__lead">Giai phap danh cho doanh nghiep, chuyen gia va doi ngu sang tao can trinh bay y tuong ro rang, chuyen nghiep va de thuyet phuc hon.</p>
+      <p class="services-hero__direction">Chon dich vu phu hop voi muc tieu, ngan sach va giai doan phat trien cua ban.</p>
+      <div class="services-hero__actions">
+        <a class="portal-cta" href="#service-menu">Xem menu dich vu</a>
+        <a class="portal-chip" href="../contact/">Nhan tu van</a>
       </div>
     </section>
 
-<!-- Business Model Visualize Tools -->
-<section id="bm-tools" class="shell section">
-  <h2 class="section-title">Công Cụ Self Help</h2>
-  <div class="bm-slider" id="bmSlider">
-    <button class="bm-nav prev" id="bmPrev">‹</button>
-    <div class="bm-track" id="bmTrack"></div>
-    <button class="bm-nav next" id="bmNext">›</button>
-  </div>
-</section>
-
-    <section class="shell section services reveal" id="services">
-      <div class="section-head section-split">
-        <div>
-          <p class="eyebrow">Services</p>
-          <h2 id="servicesTitle">Tôi cung cấp cho doanh nghiệp nhỏ và start-up sáng tạo.</h2>
-        </div>
-      </div>
-      <div class="service-grid" id="serviceGrid"></div>
+    <section class="services-core container-content" id="core-services" aria-label="Ba nhom dich vu chinh">
+      <header class="services-section-head">
+        <p class="works-kicker">3 Nhom chinh</p>
+        <h2>Bat dau tu nhom dich vu gan voi muc tieu hien tai cua ban</h2>
+      </header>
+      <div class="services-core__grid" id="coreServicesGrid"></div>
     </section>
 
-    <section class="shell section about reveal" id="about">
-      <div class="about-copy">
-        <p class="eyebrow">About</p>
-        <h2 id="aboutTitle">You Can Imagine I Can Do</h2>
-        <div class="skill-line">
-          <span id="aboutSkillLabel">Workflow Design with AI</span>
-          <span class="skill-meter"><i id="aboutSkillMeter"></i></span>
-          <span class="skill-tag" id="aboutSkillTag">80%</span>
-        </div>
-        <div class="about-card glass-card">
-          <h3 id="aboutCardTitle">About Me</h3>
-          <p id="aboutBody">Anh không làm phần mềm, anh làm cách để công việc tự chạy. Dùng AI để chuyển hóa workflow, tri thức và xử lý nội bộ thành flow chạy ổn định, dễ lặp lại và dễ mở rộng.</p>
-          <div class="about-card-actions">
-            <a class="btn btn-secondary" href="about/">About Me</a>
-          </div>
-        </div>
-      </div>
-      <div class="about-visual" data-parallax="0.03">
-        <img id="aboutImage" src="assets/portrait-2.png" alt="Ảnh giới thiệu" />
-        <span class="tri tri-1"></span>
-        <span class="tri tri-2"></span>
-        <span class="tri tri-3"></span>
+    <section class="services-workshops container-content" id="workshops" aria-label="Workshop va chuong trinh dang mo">
+      <header class="services-section-head">
+        <p class="works-kicker">Workshops</p>
+        <h2>Workshop va chuong trinh dang mo</h2>
+        <p>Cac buoi hoc thuc hanh tap trung vao tu duy, quy trinh va kha nang ung dung thuc te.</p>
+      </header>
+      <div class="services-workshops__grid" id="workshopsGrid"></div>
+    </section>
+
+    <section class="services-banner" aria-label="Banner explore services">
+      <div class="container-content services-banner__inner">
+        <h2>Explore All Services</h2>
+        <p>Moi hang muc duoc thiet ke theo muc tieu, doi tuong va boi canh su dung rieng.</p>
       </div>
     </section>
 
-    <section class="shell section portfolio reveal" id="portfolio">
-      <div class="section-head center">
-        <p class="eyebrow">Working Process</p>
-        <h2 id="portfolioTitle">My Creative Workflow</h2>
-        <div class="about-card-actions" style="justify-content:center;margin-top:16px;">
-          <a class="btn btn-secondary" href="workflow/">Xem workflow chi tiết</a>
-        </div>
-      </div>
-      <div class="portfolio-grid" id="portfolioGrid"></div>
+    <section class="services-menu container-content" id="service-menu" aria-label="Menu dich vu chi tiet">
+      <header class="services-section-head">
+        <p class="works-kicker">Service Menu</p>
+        <h2>Menu dich vu chi tiet</h2>
+        <p>Moi goi duoc trinh bay de ban de dang so sanh: phu hop voi ai, bao gom gi, thoi gian va muc chi phi tham khao.</p>
+      </header>
+      <div id="servicesMenuGroups"></div>
+      <p class="services-price-note">Chi phi tren la muc tham khao. Bao gia chinh thuc duoc xac dinh sau khi trao doi ve pham vi, noi dung va thoi gian thuc hien.</p>
     </section>
 
-    <section class="shell section testimonials reveal section-hidden" id="testimonials">
-      <div class="section-head center">
-        <p class="eyebrow">Testimonials</p>
-        <h2 id="testimonialTitle">Clients are satisfied for our work, view feedback</h2>
-      </div>
-      <div class="testimonial-grid" id="testimonialGrid"></div>
-    </section>
-
-
-
-    <section class="shell section contact-cta reveal" id="contact">
-      <div class="contact-card">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2 id="contactTitle">Can’t find your desired service?</h2>
-          <p class="contact-hotline" id="contactSubtitle">Let us know 24/7 in 123456</p>
+    <section class="services-contact-cta" aria-label="Lien he tu van">
+      <div class="container-reading services-contact-cta__inner">
+        <h2>Co mot y tuong can duoc trinh bay ro rang hon?</h2>
+        <p>Hay cung chuyen hoa no thanh mot san pham truyen thong ma khach hang co the hieu, tin tuong va ghi nho.</p>
+        <div class="services-contact-cta__actions">
+          <a class="portal-cta" href="../contact/">Bat dau du an</a>
+          <a class="portal-chip" href="../contact/">Lien he tu van</a>
         </div>
-        <div class="contact-actions">
-          <a class="btn btn-primary" id="contactPrimary" href="https://tally.so/r/RGRE2P">Hire Me</a>
-          <!--<a class="btn btn-secondary" id="contactSecondary" href=".//#service-detail/">Xem Việc Cá Nhân</a>-->
-        </div>
-      </div>
-    </section>
-
-    <section class="shell section utilities reveal section-hidden" id="downloads">
-      <div class="utility-card">
-        <div class="section-head section-split compact">
-          <div>
-            <p class="eyebrow">More</p>
-            <h2>Xem Thêm</h2>
-          </div>
-        </div>
-        <div class="download-list" id="downloadList"></div>
-      </div>
-      <div class="utility-card" id="request">
-        <div class="section-head section-split compact">
-          <div>
-            <p class="eyebrow">Request</p>
-            <h2>Gửi yêu cầu dịch vụ</h2>
-          </div>
-        </div>
-        <form class="request-form" id="requestForm">
-          <label>
-            <span>Họ tên</span>
-            <input type="text" name="name" placeholder="Tên của anh/chị" required>
-          </label>
-          <label>
-            <span>Email</span>
-            <input type="email" name="email" placeholder="email@example.com" required>
-          </label>
-          <label>
-            <span>Loại nhu cầu</span>
-            <select name="service_type">
-              <option value="Workflow Audit">Workflow Audit</option>
-              <option value="Tool Setup">Tool Setup</option>
-              <option value="Content Packaging">Content Packaging</option>
-              <option value="Khác">Khác</option>
-            </select>
-          </label>
-          <label>
-            <span>Mô tả công việc</span>
-            <textarea name="message" rows="5" placeholder="Mô tả việc lặp lại hoặc khối lượng lớn cần xử lý" required></textarea>
-          </label>
-          <div class="request-actions">
-            <button class="btn btn-primary" type="submit">Gửi</button>
-            <a class="btn btn-secondary" href="workflow/">Xem workflow làm việc</a>
-          </div>
-          <p class="form-note">Phần này nên dùng như form brief ngắn. Giai đoạn đầu có thể nối với Formspree, Tally hoặc Google Forms; hiện bản demo vẫn lưu giả lập ở localStorage để anh test giao diện.</p>
-          <p class="form-success" id="requestSuccess" hidden>Đã lưu demo request trên trình duyệt của anh.</p>
-        </form>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer reveal">
-    <div class="shell footer-grid">
-      <div>
-        <a class="brand" href="#hero">
-          <span class="brand-mark"><img  class="" src="assets/iAppLap-logo-white.png" alt="Chân dung đại diện"></span>
-          <span class="brand-name" id="footerBrandName">Human AI Agent</span>
-        </a>
-        <p class="footer-copy" id="footerCopy">Tôi thiết kế các công cụ digital giúp giải quyết những việc lặp lại hoặc cần làm số lượng lớn.</p>
-      </div>
-      <div>
-        <h4>Company</h4>
-        <div class="footer-links" id="footerNav"></div>
-      </div>
-      <div>
-        <h4>Support</h4>
-        <div class="footer-links footer-buttons">
-          <a class="btn btn-primary" href="downloads/">Downloads</a>
-          <a class="btn btn-primary" href="services/">Services</a>
-          <a class="btn btn-primary" href="service-detail/">Service Detail</a><a class="btn btn-primary" href="portfolio/">Portfolio</a>
-        </div>
-      </div>
-      <div>
-        <h4>Social</h4>
-        <div class="footer-social" id="footerSocial"></div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="supabase-config.js"></script>
-  <script src="script.js"></script>
   <div id="site-footer"></div>
+
   <script type="module">
-    import { setupSharedShell } from "../js/modules.js";
-    setupSharedShell("..");
+    import { rootPath, setupSharedShell } from '../js/modules.js';
+    import { coreServiceGroups, workshops, serviceMenuGroups } from './data/services-menu.js';
+
+    function renderCoreGroup(item) {
+      return `
+        <article class="services-core-group">
+          <p class="services-core-group__number">${item.number}</p>
+          <p class="works-kicker">${item.group}</p>
+          <h3>${item.title}</h3>
+          <p>${item.description}</p>
+          <p class="services-core-group__price">${item.priceFrom}</p>
+          <ul>
+            ${item.highlights.map((entry) => `<li>${entry}</li>`).join('')}
+          </ul>
+          <a class="works-inline-link" href="${item.href}">${item.cta}</a>
+        </article>
+      `;
+    }
+
+    function renderWorkshop(item) {
+      return `
+        <article class="services-workshop-item">
+          <a class="services-workshop-item__media" href="${item.href}">
+            <img src="${item.image}" alt="${item.alt}" loading="lazy">
+          </a>
+          <div class="services-workshop-item__body">
+            <p class="works-kicker">${item.status}</p>
+            <h3>${item.title}</h3>
+            <p>${item.description}</p>
+            <p class="services-workshop-item__meta">${item.format} / ${item.duration}</p>
+            <p class="services-workshop-item__meta">${item.capacity}</p>
+            <p class="services-workshop-item__price">${item.price}</p>
+            <a class="works-inline-link" href="${item.href}">${item.cta}</a>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderServiceRow(item) {
+      return `
+        <article class="services-menu-row">
+          <div class="services-menu-row__main">
+            <h4>${item.title}</h4>
+            <p>${item.description}</p>
+            <p class="services-menu-row__fit">Phu hop voi: ${item.suitableFor}</p>
+          </div>
+          <div class="services-menu-row__deliverables">
+            <p class="services-menu-row__label">Bao gom</p>
+            <ul>
+              ${item.deliverables.map((entry) => `<li>${entry}</li>`).join('')}
+            </ul>
+          </div>
+          <div class="services-menu-row__duration">
+            <p class="services-menu-row__label">Thoi gian</p>
+            <p>${item.duration}</p>
+          </div>
+          <div class="services-menu-row__price">
+            <p class="services-menu-row__label">Chi phi</p>
+            <p class="services-menu-row__price-value">${item.priceFrom}</p>
+            <a class="works-inline-link" href="${item.href}">${item.cta}</a>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderMenuGroup(group) {
+      return `
+        <section class="services-menu-group" aria-label="${group.title}">
+          <header class="services-menu-group__head">
+            <h3>${group.title}</h3>
+            <p>${group.description}</p>
+          </header>
+          <div class="services-menu-rows">
+            ${group.items.map((item) => renderServiceRow(item)).join('')}
+          </div>
+        </section>
+      `;
+    }
+
+    document.getElementById('coreServicesGrid').innerHTML = coreServiceGroups.map(renderCoreGroup).join('');
+    document.getElementById('workshopsGrid').innerHTML = workshops.map(renderWorkshop).join('');
+    document.getElementById('servicesMenuGroups').innerHTML = serviceMenuGroups.map(renderMenuGroup).join('');
+
+    setupSharedShell(rootPath());
   </script>
 </body>
 </html>

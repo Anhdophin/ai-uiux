@@ -1,0 +1,45 @@
+{
+  "sessions": [
+    {
+      "session_id": "s01",
+      "entry_context": "work stress",
+      "emotional_hint": "overloaded",
+      "steps": [
+        {
+          "step_id": "st1",
+          "options_shown": [
+            "push through",
+            "avoid and distract",
+            "talk to someone"
+          ],
+          "option_chosen": "avoid and distract"
+        },
+        {
+          "step_id": "st2",
+          "options_shown": [
+            "rest",
+            "doom scroll",
+            "make a plan"
+          ],
+          "option_chosen": "doom scroll"
+        }
+      ]
+    },
+    {
+      "session_id": "s02",
+      "entry_context": "work stress",
+      "emotional_hint": "tired",
+      "steps": [
+        {
+          "step_id": "st1",
+          "options_shown": [
+            "push through",
+            "avoid and distract",
+            "talk to someone"
+          ],
+          "option_chosen": "avoid and distract"
+        }
+      ]
+    }
+  ]
+}

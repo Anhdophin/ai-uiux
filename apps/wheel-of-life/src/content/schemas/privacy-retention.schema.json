@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "session_retention",
+    "memory_retention",
+    "identity_linking"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "session_retention": {
+      "type": "object"
+    },
+    "memory_retention": {
+      "type": "object"
+    },
+    "identity_linking": {
+      "type": "object"
+    }
+  }
+}

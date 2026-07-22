@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Post Title - Blog Anhdophin</title>
+  <link rel="stylesheet" href="../../styles.css" />
+  <link rel="stylesheet" href="../../shared/subpage-components.css" />
+  <link rel="stylesheet" href="../blog-shared/blog-catalog.css" />
+  <style>
+    :root {
+      --blog-bg: #f5f7fa;
+      --blog-card: #ffffff;
+      --blog-ink: #111315;
+      --blog-muted: #6d747c;
+      --blog-line: #d9dee6;
+      --blog-dark: #0d1117;
+      --blog-radius: 28px;
+      --blog-shadow: 0 28px 80px rgba(16, 23, 34, 0.09);
+      --blog-shell: 900px;
+      --blog-soft: #f7f8fa;
+      --blog-accent: #7cb6de;
+    }
+
+    .blog-post-detail {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+
+    .blog-post-detail-header {
+      margin-bottom: 40px;
+    }
+
+    .blog-post-detail-meta {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+      font-size: 14px;
+      color: var(--blog-muted);
+    }
+
+    .blog-post-detail-title {
+      margin: 0 0 16px;
+      font-size: clamp(32px, 7vw, 56px);
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+      font-weight: 900;
+      color: var(--blog-ink);
+    }
+
+    .blog-post-detail-excerpt {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.6;
+      color: var(--blog-muted);
+    }
+
+    .blog-post-detail-image {
+      width: 100%;
+      max-height: 480px;
+      object-fit: cover;
+      border-radius: 20px;
+      margin: 40px 0;
+    }
+
+    .blog-post-detail-content {
+      font-size: 16px;
+      line-height: 1.8;
+      color: var(--blog-ink);
+    }
+
+    .blog-post-detail-content h2 {
+      margin: 40px 0 20px;
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--blog-ink);
+    }
+
+    .blog-post-detail-content h3 {
+      margin: 32px 0 16px;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--blog-ink);
+    }
+
+    .blog-post-detail-content p {
+      margin: 0 0 20px;
+    }
+
+    .blog-post-detail-content ul,
+    .blog-post-detail-content ol {
+      margin: 0 0 20px;
+      padding-left: 24px;
+    }
+
+    .blog-post-detail-content li {
+      margin-bottom: 10px;
+    }
+
+    .blog-post-detail-content a {
+      color: var(--blog-accent);
+      text-decoration: none;
+      border-bottom: 1px solid var(--blog-accent);
+    }
+
+    .blog-post-detail-content a:hover {
+      color: var(--blog-dark);
+      border-bottom-color: var(--blog-dark);
+    }
+
+    .blog-post-detail-footer {
+      margin-top: 60px;
+      padding-top: 40px;
+      border-top: 2px solid var(--blog-line);
+      text-align: center;
+    }
+
+    .blog-post-detail-footer a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      background: var(--blog-dark);
+      color: #fff;
+      border: none;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      transition: 0.2s ease;
+      text-decoration: none;
+    }
+
+    .blog-post-detail-footer a:hover {
+      background: var(--blog-accent);
+    }
+
+    @media (max-width: 640px) {
+      .blog-post-detail {
+        padding: 24px 16px;
+      }
+
+      .blog-post-detail-title {
+        font-size: clamp(24px, 6vw, 40px);
+      }
+
+      .blog-post-detail-content h2 {
+        font-size: 22px;
+      }
+
+      .blog-post-detail-image {
+        margin: 32px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header: injected by subpage-components.js -->
+  <div id="subpage-header"></div>
+
+  <main class="blog-main">
+    <article class="blog-post-detail">
+      <header class="blog-post-detail-header">
+        <div class="blog-post-detail-meta">
+          <span>📅 April 7, 2026</span>
+          <span>⏱️ 8 min read</span>
+          <span>✍️ Anhdophin</span>
+        </div>
+        <h1 class="blog-post-detail-title">Post Title Goes Here</h1>
+        <p class="blog-post-detail-excerpt">
+          Brief summary or introduction paragraph for your post.
+        </p>
+      </header>
+
+      <img
+        src="./media/featured.jpg"
+        alt="Featured image"
+        class="blog-post-detail-image"
+      />
+
+      <div class="blog-post-detail-content">
+        <h2>First Section</h2>
+        <p>
+          Write your post content here. This is a sample template to get you started.
+        </p>
+
+        <h3>Subsection</h3>
+        <p>
+          Add as many sections and images as needed. The styling will adapt automatically.
+        </p>
+
+        <ul>
+          <li>Point one</li>
+          <li>Point two</li>
+          <li>Point three</li>
+        </ul>
+
+        <h2>Second Section</h2>
+        <p>Continue your content here.</p>
+      </div>
+
+      <footer class="blog-post-detail-footer">
+        <a href="../../">← Back to Blog</a>
+      </footer>
+    </article>
+  </main>
+
+  <!-- Footer: injected by subpage-components.js -->
+  <div id="subpage-footer"></div>
+
+  <script src="../../shared/subpage-components.js"></script>
+</body>
+</html>

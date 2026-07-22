@@ -1,0 +1,42 @@
+[
+  {
+    "id": "role-focus",
+    "title": "Vai trò cốt lõi",
+    "caption": "Anh chịu trách nhiệm làm rõ phần nào của công việc",
+    "layout_type": "bars",
+    "style_variant": "default",
+    "order": 1
+  },
+  {
+    "id": "problems",
+    "title": "Vấn đề chuyên xử lý",
+    "caption": "Những tình huống thực tế anh xử lý hiệu quả",
+    "layout_type": "bars",
+    "style_variant": "problem",
+    "order": 2
+  },
+  {
+    "id": "methods",
+    "title": "Cách triển khai",
+    "caption": "Cách anh đọc và xử lý công việc",
+    "layout_type": "bars",
+    "style_variant": "method",
+    "order": 3
+  },
+  {
+    "id": "outputs",
+    "title": "Đầu ra bàn giao",
+    "caption": "Các tài sản có thể dùng ngay cho team hoặc khách hàng",
+    "layout_type": "bars",
+    "style_variant": "output",
+    "order": 4
+  },
+  {
+    "id": "skills",
+    "title": "Năng lực nền",
+    "caption": "Những năng lực giúp anh xử lý ổn định ở nhiều bối cảnh",
+    "layout_type": "bars",
+    "style_variant": "skill",
+    "order": 5
+  }
+]

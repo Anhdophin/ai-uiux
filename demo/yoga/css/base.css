@@ -1,0 +1,90 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #161616;
+  --color-text: #2c2c2c;
+  --color-text-soft: #575757;
+  --color-surface: #ffffff;
+  --color-surface-soft: #f5f5f5;
+  --color-surface-muted: #efefef;
+  --color-border: rgba(0, 0, 0, 0.08);
+
+  --color-purple: #ba8fdf;
+  --color-purple-deep: #a86bd9;
+  --color-teal: #43d0d1;
+  --color-teal-deep: #27b9bb;
+  --color-orange: #f7a12f;
+  --color-orange-deep: #e48618;
+
+  --gradient-purple: linear-gradient(135deg, rgba(186, 143, 223, 0.98), rgba(195, 155, 230, 0.96));
+  --gradient-teal: linear-gradient(135deg, rgba(67, 208, 209, 0.98), rgba(93, 217, 211, 0.95));
+
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --shadow-button: 0 8px 20px rgba(0, 0, 0, 0.12);
+
+  --radius-sm: 12px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+  --radius-xl: 36px;
+  --radius-pill: 999px;
+
+  --container-width: 1100px;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+
+  --font-family-base: 'Poppins', sans-serif;
+  --font-size-body: 1rem;
+  --font-size-sm: 0.875rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: clamp(2rem, 6vw, 4rem);
+  --font-size-h2: clamp(1.6rem, 4vw, 2.6rem);
+
+  --transition-fast: 180ms ease;
+  --transition-base: 260ms ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-body);
+  line-height: 1.6;
+  color: var(--color-text);
+  background: #dcdcdc;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+a.button {
+  font: inherit;
+}
+
+main,
+header,
+footer,
+section,
+article,
+nav {
+  display: block;
+}

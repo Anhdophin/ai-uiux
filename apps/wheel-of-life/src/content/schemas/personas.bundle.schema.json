@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PersonasSeedBundle",
+  "type": "object",
+  "required": ["version", "updated_at", "source_note", "personas"],
+  "properties": {
+    "version": {"type": "string"},
+    "updated_at": {"type": "string"},
+    "source_note": {"type": "string"},
+    "personas": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id", "age_range", "gender", "life_stage", "career_stage",
+          "focus_tags", "default_risks", "common_pressures", "likely_goals",
+          "blind_spots", "priority_life_areas", "recommended_entry_keywords"
+        ],
+        "properties": {
+          "id": {"type": "string"},
+          "age_range": {"type": "string"},
+          "gender": {"type": "string"},
+          "life_stage": {"type": "array", "items": {"type": "string"}},
+          "career_stage": {"type": "array", "items": {"type": "string"}},
+          "focus_tags": {"type": "array", "items": {"type": "string"}},
+          "default_risks": {"type": "array", "items": {"type": "string"}},
+          "common_pressures": {"type": "array", "items": {"type": "string"}},
+          "likely_goals": {"type": "array", "items": {"type": "string"}},
+          "blind_spots": {"type": "array", "items": {"type": "string"}},
+          "priority_life_areas": {"type": "array", "items": {"type": "string"}},
+          "recommended_entry_keywords": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

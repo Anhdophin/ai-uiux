@@ -1,0 +1,21 @@
+{
+  "version": "v1",
+  "default_locale": "vi",
+  "fallback_locale": "en",
+  "locales": [
+    {
+      "id": "en",
+      "label": "English",
+      "direction": "ltr",
+      "status": "ready",
+      "is_primary_semantic_reference": true
+    },
+    {
+      "id": "vi",
+      "label": "Tiếng Việt",
+      "direction": "ltr",
+      "status": "ready",
+      "is_primary_semantic_reference": false
+    }
+  ]
+}

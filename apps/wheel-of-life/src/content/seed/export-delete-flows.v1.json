@@ -1,0 +1,21 @@
+{
+  "version": "v1",
+  "export": {
+    "allow_preview": true,
+    "include_sections": [
+      "sessions",
+      "memory_profiles",
+      "identity_links",
+      "audit_events"
+    ]
+  },
+  "delete": {
+    "allow_preview": true,
+    "delete_sections": [
+      "sessions",
+      "memory_profiles",
+      "identity_links"
+    ],
+    "keep_audit_events": true
+  }
+}

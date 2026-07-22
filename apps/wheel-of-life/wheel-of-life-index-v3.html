@@ -1,0 +1,2211 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Wheel of Life - iAppLab</title>
+  <meta name="description" content="Bánh xe cuộc sống đa chủ đề theo kiểu filter của SWOT, mở rộng sang đời sống số, làm việc thời AI, tâm lý, tiền bạc, builder, năng lượng và quan hệ xã hội.">
+  <link rel="stylesheet" href="../../css/base.css">
+  <style>
+    .tool-page{padding:32px 0 64px}
+    .tool-hero{display:grid;gap:18px}
+    .tool-card,.tool-output,.tool-panel{background:rgba(255,255,255,.95);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:24px}
+    .tool-card,.tool-output,.tool-panel{padding:24px}
+    .tool-kicker{margin:0 0 8px;color:var(--muted);font-size:.8rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    .tool-title{margin:0;font-size:clamp(2rem,4vw,3.4rem);line-height:.95;letter-spacing:-.05em}
+    .tool-lead{margin:14px 0 0;color:var(--muted);max-width:64ch}
+    .tool-actions{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:18px}
+    .tool-actions-left,.tool-actions-right{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+
+    .theme-filter-wrapper{margin-top:24px;padding:16px;background:rgba(17,24,39,.02);border-radius:16px;border:1px solid var(--line)}
+    .theme-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+    .theme-tab{padding:10px 16px;border:2px solid var(--line);background:white;border-radius:12px;cursor:pointer;font-weight:600;transition:all .2s;font-size:.9rem}
+    .theme-tab:hover{border-color:var(--text);background:rgba(17,24,39,.04)}
+    .theme-tab.active{background:var(--text);color:white;border-color:var(--text)}
+    .theme-templates{display:grid;gap:14px;align-items:flex-start}
+    .template-group{margin:0}
+    .template-group-header{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-weight:700;font-size:.9rem;padding-bottom:8px;border-bottom:2px solid}
+    .template-group-label{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:6px;color:white;font-weight:800;font-size:.85rem}
+    .template-group.life-core .template-group-header{border-bottom-color:#22c55e;color:#22c55e}
+    .template-group.life-core .template-group-label{background:#22c55e}
+    .template-group.life-work .template-group-header{border-bottom-color:#3b82f6;color:#3b82f6}
+    .template-group.life-work .template-group-label{background:#3b82f6}
+    .template-group.life-growth .template-group-header{border-bottom-color:#8b5cf6;color:#8b5cf6}
+    .template-group.life-growth .template-group-label{background:#8b5cf6}
+    .template-group.life-relationship .template-group-header{border-bottom-color:#ec4899;color:#ec4899}
+    .template-group.life-relationship .template-group-label{background:#ec4899}
+    .template-group.life-build .template-group-header{border-bottom-color:#f97316;color:#f97316}
+    .template-group.life-build .template-group-label{background:#f97316}
+    .template-items-row{display:flex;flex-wrap:wrap;gap:8px;padding:10px;border-radius:12px;border:1px solid}
+    .template-group.life-core .template-items-row{border-color:#22c55e;background:rgba(34,197,94,.04)}
+    .template-group.life-work .template-items-row{border-color:#3b82f6;background:rgba(59,130,246,.04)}
+    .template-group.life-growth .template-items-row{border-color:#8b5cf6;background:rgba(139,92,246,.04)}
+    .template-group.life-relationship .template-items-row{border-color:#ec4899;background:rgba(236,72,153,.04)}
+    .template-group.life-build .template-items-row{border-color:#f97316;background:rgba(249,115,22,.04)}
+    .template-item{display:inline-flex;align-items:center;gap:6px;padding:8px 12px;border-radius:8px;background:white;border:1px solid var(--line);cursor:pointer;font-size:.84rem;transition:all .2s;white-space:nowrap;font-weight:600}
+    .template-item:hover{background:rgba(17,24,39,.08);border-color:var(--text)}
+    .template-item.active{background:var(--text);color:white;border-color:var(--text)}
+    .template-note{font-size:.82rem;color:var(--muted);line-height:1.6;margin-top:8px}
+    .wheel-mobile-filter{display:none;margin-top:12px;padding:12px;border-top:1px solid var(--line)}
+
+    .wheel-layout{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(320px,.92fr);gap:18px;margin-top:18px}
+    .wheel-canvas-card{padding:18px;background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(255,255,255,.92));border:1px solid var(--line);border-radius:22px}
+    .wheel-stage{display:grid;place-items:center;padding:10px;border-radius:18px;background:radial-gradient(circle at center, rgba(17,24,39,.03), rgba(17,24,39,.01));border:1px dashed rgba(17,24,39,.12)}
+    .wheel-canvas{width:min(100%,640px);height:auto;display:block}
+    .wheel-caption{margin-top:12px;font-size:.9rem;line-height:1.65;color:var(--muted)}
+    .preset-meta{display:grid;gap:10px;margin-bottom:16px}
+    .preset-name{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+    .preset-badge{display:inline-flex;align-items:center;gap:8px;min-height:36px;padding:0 14px;border-radius:999px;background:rgba(17,24,39,.04);border:1px solid var(--line);font-weight:700}
+
+    .tool-panel{display:grid;gap:14px}
+    .tool-row{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center;padding:12px;border:1px solid var(--line);border-radius:16px;background:rgba(17,24,39,.02)}
+    .tool-row.is-low{border-color:rgba(239,68,68,.32);background:rgba(239,68,68,.04)}
+    .tool-row.is-high{border-color:rgba(34,197,94,.28);background:rgba(34,197,94,.05)}
+    .tool-row-main{display:grid;gap:6px}
+    .tool-row label{font-weight:700}
+    .tool-row small{color:var(--muted);line-height:1.5}
+    .wheel-range{width:100%;cursor:pointer}
+    .wheel-score{min-width:54px;text-align:right;font-weight:800;font-size:1.05rem}
+    .tool-chip{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:999px;background:rgba(17,24,39,.06);font-size:.8rem;font-weight:800}
+
+    .focus-box{padding:16px;border:1px solid var(--line);border-radius:18px;background:rgba(17,24,39,.02)}
+    .focus-title{margin:0 0 10px;font-size:.9rem;text-transform:uppercase;letter-spacing:.08em}
+    .focus-tags{display:flex;flex-wrap:wrap;gap:8px}
+    .focus-tag{padding:9px 12px;border-radius:999px;border:1px solid var(--line);background:rgba(17,24,39,.04);font-weight:700;font-size:.85rem}
+
+    .reflection-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px}
+    .reflection-grid article{padding:18px;border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.96)}
+    .reflection-grid h3{margin:0 0 8px;font-size:1rem}
+    .reflection-grid p{margin:0 0 14px;color:var(--muted);line-height:1.65}
+    .reflection-grid textarea{width:100%;min-height:140px;resize:vertical;border:1px solid var(--line);border-radius:14px;padding:12px;font:inherit;background:white}
+
+    .summary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}
+    .summary-stat{padding:16px;border-radius:18px;border:1px solid var(--line);background:rgba(17,24,39,.03)}
+    .summary-stat strong{display:block;font-size:1.5rem;line-height:1;margin-bottom:6px}
+    .summary-stat span{color:var(--muted);font-size:.9rem;line-height:1.5}
+
+    .tool-output pre{white-space:pre-wrap;word-break:break-word;margin:0;padding:16px;border-radius:18px;background:rgba(17,24,39,.04);border:1px solid var(--line);font-family:inherit;line-height:1.65}
+
+    @media (max-width: 1080px){
+      .wheel-layout{grid-template-columns:1fr}
+    }
+    @media (max-width: 900px){
+      .theme-filter-wrapper{display:none}
+      .wheel-mobile-filter{display:block}
+      .reflection-grid,.summary-grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body data-root="../.." class="mini-shell">
+  <div id="site-header"></div>
+  <main class="tool-page container">
+    <section class="tool-hero">
+      <div class="tool-card" id="wheelExportSource">
+        <p class="tool-kicker">iAppLab / Personal Growth App</p>
+        <h1 class="tool-title">The Wheel of Life</h1>
+        <p class="tool-lead">Bản mở rộng theo nhiều chủ đề cần cho thời đại hôm nay. Ngoài life chung, anh có thể đổi sang đời sống số, làm việc thời AI, tâm lý &amp; định hướng, tiền &amp; tài sản, builder &amp; hệ thống, năng lượng sống, quan hệ xã hội, rồi chấm điểm đúng theo bộ trục của từng bối cảnh.</p>
+        <div class="tool-actions">
+          <div class="tool-actions-left">
+            <a class="portal-cta" href="../">Quay lại Apps</a>
+            <button class="portal-chip" type="button" id="resetBtn">Reset</button>
+          </div>
+          <div class="tool-actions-right">
+            <button class="portal-chip" type="button" id="copyInsightBtn">Copy insight</button>
+            <button class="portal-cta" type="button" id="exportJpgBtn">Xuất JPG</button>
+          </div>
+        </div>
+
+        <div class="theme-filter-wrapper">
+          <div style="margin-bottom:12px">
+            <div style="font-size:.85rem;color:var(--muted);line-height:1.6">
+              <strong>💡 Hướng dẫn:</strong> Chọn <em>chủ đề</em> trước, rồi chọn <em>mẫu bánh xe</em> tương ứng. Cách này bám theo logic filter của SWOT: đổi ngữ cảnh trước, rồi mới nạp đúng bộ trục để chấm điểm.
+            </div>
+          </div>
+          <div class="theme-tabs" id="domainTabs"></div>
+          <div style="margin-bottom:8px;font-size:.85rem;color:var(--muted)">Nhấn vào mẫu để đổi toàn bộ hệ trục của bánh xe</div>
+          <div id="templateContainer" class="theme-templates"></div>
+        </div>
+
+        <div class="wheel-layout">
+          <div class="wheel-canvas-card">
+            <div class="preset-meta">
+              <div class="preset-name">
+                <span class="preset-badge" id="activeDomainBadge">Chủ đề: Cuộc sống chung</span>
+                <span class="preset-badge" id="activePresetBadge">Mẫu: Cân bằng chuẩn</span>
+              </div>
+              <div class="wheel-mobile-filter" id="wheelMobileFilter"></div>
+            </div>
+            <div class="wheel-stage">
+              <canvas id="wheelCanvas" class="wheel-canvas" width="720" height="720" aria-label="Wheel of Life"></canvas>
+            </div>
+            <p class="wheel-caption" id="wheelCaption">Bánh xe càng tròn, nhịp sống càng cân bằng. Bánh xe méo không có nghĩa là xấu, mà cho thấy nơi nào đang hút nhiều năng lượng hơn nơi khác.</p>
+            <div class="summary-grid" id="summaryGrid"></div>
+          </div>
+
+          <aside class="tool-panel">
+            <div class="focus-box">
+              <p class="focus-title">Vùng cần chú ý</p>
+              <div class="focus-tags" id="focusTags"></div>
+            </div>
+            <div id="wheelControls"></div>
+          </aside>
+        </div>
+
+        <section class="reflection-grid">
+          <article>
+            <h3>Điều đang nâng đỡ hệ này</h3>
+            <p>Ghi các yếu tố đang giúp hệ này đứng vững. Ví dụ: nền kỹ năng, người đồng hành, quy trình tốt, thói quen lành mạnh, dòng tiền, sự tin tưởng.</p>
+            <textarea id="supportText" placeholder="Ví dụ: Có nội lực nghề, có thói quen làm việc đều, có đối tác ổn, có kỷ luật chăm sức khỏe..."></textarea>
+          </article>
+          <article>
+            <h3>Điều đang làm bánh xe méo</h3>
+            <p>Ghi các điểm nghẽn kéo lệch hệ này, để bản đọc cuối không chỉ đẹp mà còn chỉ đúng chỗ cần xử lý.</p>
+            <textarea id="blockText" placeholder="Ví dụ: thiếu đầu ra, ngủ chưa đều, giao tiếp chưa rõ, quy trình yếu, chưa có tích lũy tiền mặt..."></textarea>
+          </article>
+        </section>
+      </div>
+    </section>
+
+    <section class="tool-output">
+      <div style="display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap">
+        <div>
+          <p class="tool-kicker">Kết quả</p>
+          <h2 style="margin:0">Bản đọc nhanh + hướng ưu tiên</h2>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <button class="portal-chip" type="button" id="copyBtn">Copy text</button>
+          <button class="portal-cta" type="button" id="buildBtn">Tạo bản tóm tắt</button>
+        </div>
+      </div>
+      <pre id="resultBox">Nhấn "Tạo bản tóm tắt" để sinh bản đọc nhanh từ bánh xe đang chọn.</pre>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+
+  <script type="module">
+    import { rootPath, setupSharedShell } from '../../js/modules.js';
+    setupSharedShell(rootPath());
+  </script>
+
+  <script>
+    const domainData = {
+      life: {
+        label: "Cuộc sống chung",
+        colorClass: "life-core",
+        groups: [
+          {
+            key: "life-core",
+            label: "Nhìn tổng thể",
+            icon: "L",
+            items: ["balance", "deep-life"]
+          },
+          {
+            key: "life-work",
+            label: "Người làm sáng tạo",
+            icon: "C",
+            items: ["creator-life"]
+          }
+        ]
+      },
+      career: {
+        label: "Con đường sự nghiệp",
+        colorClass: "life-work",
+        groups: [
+          {
+            key: "life-work",
+            label: "Sự nghiệp",
+            icon: "S",
+            items: ["career-path", "designer-career"]
+          }
+        ]
+      },
+      self: {
+        label: "Phát triển bản thân",
+        colorClass: "life-growth",
+        groups: [
+          {
+            key: "life-growth",
+            label: "Nâng cấp nội lực",
+            icon: "P",
+            items: ["self-growth", "self-discipline"]
+          }
+        ]
+      },
+      marriage: {
+        label: "Cuộc sống hôn nhân",
+        colorClass: "life-relationship",
+        groups: [
+          {
+            key: "life-relationship",
+            label: "Quan hệ đôi lứa",
+            icon: "H",
+            items: ["marriage-core", "family-partnership"]
+          }
+        ]
+      },
+      startup: {
+        label: "Việc khởi nghiệp",
+        colorClass: "life-build",
+        groups: [
+          {
+            key: "life-build",
+            label: "Founder / Startup",
+            icon: "K",
+            items: ["startup-core", "founder-readiness"]
+          }
+        ]
+      },
+      business: {
+        label: "Làm kinh doanh",
+        colorClass: "life-build",
+        groups: [
+          {
+            key: "life-build",
+            label: "Business System",
+            icon: "B",
+            items: ["business-core", "brand-business"]
+          }
+        ]
+      },
+      digital: {
+        label: "Đời sống số",
+        colorClass: "life-work",
+        groups: [
+          {
+            key: "life-work",
+            label: "Digital Life",
+            icon: "D",
+            items: ["digital-life", "life-infrastructure"]
+          }
+        ]
+      },
+      aiwork: {
+        label: "Làm việc thời AI",
+        colorClass: "life-work",
+        groups: [
+          {
+            key: "life-work",
+            label: "AI & Creator Economy",
+            icon: "A",
+            items: ["ai-professional", "creator-economy"]
+          }
+        ]
+      },
+      inner: {
+        label: "Tâm lý & định hướng",
+        colorClass: "life-growth",
+        groups: [
+          {
+            key: "life-growth",
+            label: "Inner System",
+            icon: "T",
+            items: ["emotional-system", "identity-direction"]
+          }
+        ]
+      },
+      money: {
+        label: "Tiền & tài sản",
+        colorClass: "life-build",
+        groups: [
+          {
+            key: "life-build",
+            label: "Money System",
+            icon: "M",
+            items: ["personal-finance", "wealth-building"]
+          }
+        ]
+      },
+      builder: {
+        label: "Builder & hệ thống",
+        colorClass: "life-build",
+        groups: [
+          {
+            key: "life-build",
+            label: "Build Systems",
+            icon: "X",
+            items: ["solo-builder", "system-builder"]
+          }
+        ]
+      },
+      energy: {
+        label: "Năng lượng & sức khỏe",
+        colorClass: "life-core",
+        groups: [
+          {
+            key: "life-core",
+            label: "Energy System",
+            icon: "E",
+            items: ["energy-system", "recovery-rhythm"]
+          }
+        ]
+      },
+      social: {
+        label: "Quan hệ xã hội",
+        colorClass: "life-relationship",
+        groups: [
+          {
+            key: "life-relationship",
+            label: "Social System",
+            icon: "Q",
+            items: ["social-system", "support-ecosystem"]
+          }
+        ]
+      }
+    };
+
+    const presetLibrary = {
+      balance: {
+        domain: "life",
+        label: "Cân bằng chuẩn",
+        short: "Mẫu chung để nhìn toàn cảnh đời sống cá nhân.",
+        description: "Dùng bộ 8 mảng phổ biến để nhìn nhanh toàn cảnh cuộc sống cá nhân.",
+        areas: [
+          {
+            key: "health",
+            label: "Sức khỏe",
+            hint: "Năng lượng, ngủ nghỉ, vận động, thể trạng nền."
+          },
+          {
+            key: "mind",
+            label: "Tinh thần",
+            hint: "Độ ổn định nội tâm, bình tĩnh, rõ đầu óc."
+          },
+          {
+            key: "work",
+            label: "Công việc",
+            hint: "Hiệu suất, chất lượng việc, cảm giác tiến lên."
+          },
+          {
+            key: "finance",
+            label: "Tài chính",
+            hint: "Dòng tiền, độ an toàn, khả năng chủ động."
+          },
+          {
+            key: "relationship",
+            label: "Quan hệ",
+            hint: "Gia đình, người thân, cộng sự, bạn bè."
+          },
+          {
+            key: "learning",
+            label: "Học hỏi",
+            hint: "Nâng cấp kỹ năng, hiểu biết, mở rộng năng lực."
+          },
+          {
+            key: "environment",
+            label: "Môi trường sống",
+            hint: "Không gian sống, nhịp sinh hoạt, sự gọn gàng."
+          },
+          {
+            key: "joy",
+            label: "Niềm vui",
+            hint: "Chơi, nghỉ, sáng tạo, cảm giác được sống."
+          }
+        ]
+      },
+      "deep-life": {
+        domain: "life",
+        label: "Nhịp sống sâu",
+        short: "Nhìn cuộc sống theo hướng năng lượng, ý nghĩa và độ bền.",
+        description: "Phù hợp khi muốn nhìn cuộc sống không chỉ bằng việc đang chạy được, mà bằng nền lực, ý nghĩa và độ ổn lâu dài.",
+        areas: [
+          {
+            key: "energy",
+            label: "Năng lượng nền",
+            hint: "Sức bật, sức bền, độ tỉnh của cơ thể và đầu óc."
+          },
+          {
+            key: "clarity",
+            label: "Độ rõ hướng",
+            hint: "Biết mình đang đi đâu, vì sao và ưu tiên cái gì."
+          },
+          {
+            key: "meaning",
+            label: "Ý nghĩa sống",
+            hint: "Cảm giác việc mình làm có hồn, có giá trị."
+          },
+          {
+            key: "security",
+            label: "Độ an toàn",
+            hint: "Tài chính, chỗ ở, nền ổn định để không bị kéo tụt."
+          },
+          {
+            key: "connection",
+            label: "Kết nối người",
+            hint: "Sự gắn kết thật với người thân, cộng sự, bạn đồng hành."
+          },
+          {
+            key: "growth",
+            label: "Độ lớn lên",
+            hint: "Mỗi tháng có đang trưởng thành hơn hay không."
+          },
+          {
+            key: "recovery",
+            label: "Phục hồi",
+            hint: "Khả năng nghỉ sâu, dừng đúng lúc, tránh mòn máy."
+          },
+          {
+            key: "freedom",
+            label: "Tự do sống",
+            hint: "Quyền chọn nhịp sống, việc làm và cách mình tồn tại."
+          }
+        ]
+      },
+      "creator-life": {
+        domain: "life",
+        label: "Người làm sáng tạo",
+        short: "Nhìn cuộc sống theo nhịp của người tạo chất liệu, thiết kế và xây hệ thống.",
+        description: "Nhìn cuộc sống theo nhịp của người tạo chất liệu, làm nội dung, thiết kế và xây hệ thống.",
+        areas: [
+          {
+            key: "body",
+            label: "Thể lực",
+            hint: "Năng lượng để giữ cường độ làm việc dài hơi."
+          },
+          {
+            key: "focus",
+            label: "Tập trung",
+            hint: "Độ sâu chú ý, ít bị vỡ nhịp, làm được việc khó."
+          },
+          {
+            key: "craft",
+            label: "Tay nghề",
+            hint: "Chất lượng chuyên môn, độ sắc trong output."
+          },
+          {
+            key: "income",
+            label: "Thu nhập",
+            hint: "Khả năng biến năng lực thành dòng tiền."
+          },
+          {
+            key: "library",
+            label: "Kho tri thức",
+            hint: "Tài liệu, note, hệ thống chất liệu đang tích lũy."
+          },
+          {
+            key: "brand",
+            label: "Hiện diện cá nhân",
+            hint: "Dấu ấn, thương hiệu, độ nhận biết của mình."
+          },
+          {
+            key: "network",
+            label: "Liên kết",
+            hint: "Người hợp tác, cộng đồng, đầu mối hữu ích."
+          },
+          {
+            key: "recovery",
+            label: "Phục hồi",
+            hint: "Nghỉ, chơi, reset để không bị cháy máy."
+          }
+        ]
+      },
+      "career-path": {
+        domain: "career",
+        label: "Con đường sự nghiệp",
+        short: "Dùng để xem đường nghề có đang mạnh đều hay bị lệch.",
+        description: "Phù hợp khi muốn nhìn độ ổn định và khả năng đi đường dài trong sự nghiệp.",
+        areas: [
+          {
+            key: "skill",
+            label: "Kỹ năng lõi",
+            hint: "Nội lực nghề chính, thứ kiếm cơm được."
+          },
+          {
+            key: "position",
+            label: "Vị thế",
+            hint: "Chỗ đứng hiện tại, độ tin cậy của mình."
+          },
+          {
+            key: "pipeline",
+            label: "Nguồn việc",
+            hint: "Lead, khách hàng, đầu ra công việc."
+          },
+          {
+            key: "money",
+            label: "Tiền nghề",
+            hint: "Thu nhập nghề, biên lợi nhuận, tích lũy."
+          },
+          {
+            key: "system",
+            label: "Hệ thống làm việc",
+            hint: "Tool, SOP, quy trình, automation."
+          },
+          {
+            key: "upgrade",
+            label: "Nâng cấp",
+            hint: "Đầu tư học tiếp, mở nhánh mới, phát triển."
+          },
+          {
+            key: "reputation",
+            label: "Uy tín",
+            hint: "Danh tiếng, phản hồi, độ an tâm người khác đặt vào mình."
+          },
+          {
+            key: "freedom",
+            label: "Độ tự chủ",
+            hint: "Khả năng chọn việc, chọn nhịp sống, chọn hướng đi."
+          }
+        ]
+      },
+      "designer-career": {
+        domain: "career",
+        label: "Sự nghiệp designer / creator",
+        short: "Nhìn đường nghề của người làm thiết kế và sáng tạo số.",
+        description: "Dùng khi muốn đọc đường nghề theo logic của người làm thiết kế, nội dung, AI và hệ thống sáng tạo.",
+        areas: [
+          {
+            key: "designCraft",
+            label: "Tay nghề thiết kế",
+            hint: "Độ chắc của bố cục, thị giác, xử lý chất liệu."
+          },
+          {
+            key: "strategyThinking",
+            label: "Tư duy chiến lược",
+            hint: "Khả năng hiểu vấn đề và biến brief thành giải pháp."
+          },
+          {
+            key: "deliveryPower",
+            label: "Sản lượng",
+            hint: "Khả năng đẩy việc đều, giao đúng, ra hàng được."
+          },
+          {
+            key: "techAi",
+            label: "AI / Tech",
+            hint: "Mức độ dùng công cụ mới để mở rộng năng lực."
+          },
+          {
+            key: "portfolio",
+            label: "Portfolio",
+            hint: "Mức độ sắc và thuyết phục của các case mình có."
+          },
+          {
+            key: "marketFit",
+            label: "Phù hợp thị trường",
+            hint: "Cái mình giỏi có đang khớp với nhu cầu thật không."
+          },
+          {
+            key: "clientTrust",
+            label: "Niềm tin khách hàng",
+            hint: "Độ yên tâm khi người khác giao việc cho mình."
+          },
+          {
+            key: "personalDirection",
+            label: "Định hướng cá nhân",
+            hint: "Đường dài mình muốn trở thành ai trong nghề."
+          }
+        ]
+      },
+      "self-growth": {
+        domain: "self",
+        label: "Phát triển bản thân",
+        short: "Đọc nội lực con người theo hướng nâng cấp tổng thể.",
+        description: "Dùng để nhìn xem quá trình lớn lên của bản thân có đang lệch giữa hiểu biết, hành động và nền sống hay không.",
+        areas: [
+          {
+            key: "bodyHealth",
+            label: "Thể chất",
+            hint: "Sức khỏe cơ thể, vận động, giấc ngủ, độ bền."
+          },
+          {
+            key: "mental",
+            label: "Tâm trí",
+            hint: "Độ vững, bình tĩnh, ít hoảng loạn trước áp lực."
+          },
+          {
+            key: "selfAware",
+            label: "Tự nhận thức",
+            hint: "Mức độ hiểu bản thân, điểm mạnh, điểm mù."
+          },
+          {
+            key: "discipline",
+            label: "Kỷ luật",
+            hint: "Khả năng giữ nhịp trước những việc cần làm lâu dài."
+          },
+          {
+            key: "learningPower",
+            label: "Khả năng học",
+            hint: "Tốc độ hấp thụ, liên kết và dùng tri thức."
+          },
+          {
+            key: "adaptability",
+            label: "Thích nghi",
+            hint: "Khả năng đổi cách làm khi hoàn cảnh đổi."
+          },
+          {
+            key: "emotion",
+            label: "Quản trị cảm xúc",
+            hint: "Không bị cảm xúc kéo đi quá xa khỏi mục tiêu."
+          },
+          {
+            key: "integrity",
+            label: "Độ nhất quán",
+            hint: "Nói - nghĩ - làm có gần nhau hay không."
+          }
+        ]
+      },
+      "self-discipline": {
+        domain: "self",
+        label: "Kỷ luật & thói quen",
+        short: "Dùng khi muốn nhìn hệ tự quản trị bản thân.",
+        description: "Phù hợp nếu muốn nhìn phần phát triển bản thân ở tầng thực hành: ngủ, ăn, làm, học, tập, ghi chép, duy trì.",
+        areas: [
+          {
+            key: "sleep",
+            label: "Ngủ nghỉ",
+            hint: "Giờ ngủ, chất lượng ngủ, hồi phục sau ngủ."
+          },
+          {
+            key: "movement",
+            label: "Vận động",
+            hint: "Mức độ vận động và chăm cơ thể đều đặn."
+          },
+          {
+            key: "food",
+            label: "Ăn uống",
+            hint: "Sự ổn định và lành mạnh trong ăn uống."
+          },
+          {
+            key: "deepWork",
+            label: "Làm sâu",
+            hint: "Khả năng vào việc khó và giữ tập trung."
+          },
+          {
+            key: "review",
+            label: "Tự rà soát",
+            hint: "Có nhìn lại, ghi chú và điều chỉnh đều không."
+          },
+          {
+            key: "consistency",
+            label: "Độ đều",
+            hint: "Nhịp duy trì nhỏ nhưng bền qua nhiều ngày."
+          },
+          {
+            key: "triggerControl",
+            label: "Kiểm soát xao nhãng",
+            hint: "Khả năng chặn thứ phá nhịp như điện thoại, mạng xã hội, cảm hứng nhất thời."
+          },
+          {
+            key: "commitment",
+            label: "Giữ cam kết",
+            hint: "Mức độ làm đến cùng những gì đã chọn."
+          }
+        ]
+      },
+      "marriage-core": {
+        domain: "marriage",
+        label: "Cuộc sống hôn nhân",
+        short: "Dùng để nhìn độ cân bằng của một mối quan hệ đi đường dài.",
+        description: "Phù hợp khi cần xem hôn nhân đang lệch ở giao tiếp, niềm tin, tài chính hay tầm nhìn chung.",
+        areas: [
+          {
+            key: "communication",
+            label: "Giao tiếp",
+            hint: "Có nói đủ thật, đủ rõ và đủ an toàn không."
+          },
+          {
+            key: "trust",
+            label: "Niềm tin",
+            hint: "Độ tin cậy, an tâm, bớt nghi ngờ trong quan hệ."
+          },
+          {
+            key: "respect",
+            label: "Tôn trọng",
+            hint: "Cách đối xử, lời nói, ranh giới và sự công nhận nhau."
+          },
+          {
+            key: "qualityTime",
+            label: "Thời gian chất lượng",
+            hint: "Sự hiện diện thật dành cho nhau thay vì chỉ sống cạnh nhau."
+          },
+          {
+            key: "financeShared",
+            label: "Tài chính chung",
+            hint: "Mức độ minh bạch, phối hợp và an toàn tài chính."
+          },
+          {
+            key: "emotionBond",
+            label: "Gắn kết cảm xúc",
+            hint: "Cảm giác được hiểu, được nâng đỡ, được thuộc về."
+          },
+          {
+            key: "intimacy",
+            label: "Đời sống thân mật",
+            hint: "Sự gần gũi, kết nối thân mật và quan tâm qua hành động."
+          },
+          {
+            key: "sharedVision",
+            label: "Tầm nhìn chung",
+            hint: "Có cùng hướng về cách sống, nuôi con, xây gia đình hay không."
+          }
+        ]
+      },
+      "family-partnership": {
+        domain: "marriage",
+        label: "Hôn nhân như partnership",
+        short: "Nhìn hôn nhân như một hệ hợp tác sống chung.",
+        description: "Dùng khi muốn nhìn hôn nhân như một hệ vận hành gồm vai trò, phối hợp, tài sản và sức bền cảm xúc.",
+        areas: [
+          {
+            key: "roleClarity",
+            label: "Rõ vai trò",
+            hint: "Ai lo phần nào, phần nào chia sẻ, phần nào thay phiên."
+          },
+          {
+            key: "decisionMaking",
+            label: "Ra quyết định",
+            hint: "Có cơ chế bàn bạc và thống nhất hay không."
+          },
+          {
+            key: "conflictRepair",
+            label: "Sửa sau xung đột",
+            hint: "Khả năng quay lại bình ổn sau va chạm."
+          },
+          {
+            key: "householdSystem",
+            label: "Hệ sinh hoạt",
+            hint: "Nhịp nhà, việc nhà, con cái, lịch sống có trơn tru không."
+          },
+          {
+            key: "moneyPlan",
+            label: "Kế hoạch tiền",
+            hint: "Có kế hoạch ngắn hạn và dài hạn cho gia đình không."
+          },
+          {
+            key: "careWork",
+            label: "Chăm sóc lẫn nhau",
+            hint: "Mức độ quan tâm thực tế trong những lúc cần."
+          },
+          {
+            key: "growthTogether",
+            label: "Lớn lên cùng nhau",
+            hint: "Hai người có cùng tiến hóa hay một người đang bị bỏ lại."
+          },
+          {
+            key: "familyResilience",
+            label: "Độ bền gia đình",
+            hint: "Khả năng chịu áp lực và đi qua biến cố cùng nhau."
+          }
+        ]
+      },
+      "startup-core": {
+        domain: "startup",
+        label: "Khởi nghiệp nền tảng",
+        short: "Dùng để đọc startup theo các trục sống còn.",
+        description: "Giúp nhìn xem startup đang thiếu ở vấn đề, sản phẩm, đội ngũ, doanh thu hay tốc độ thực thi.",
+        areas: [
+          {
+            key: "problem",
+            label: "Đúng vấn đề",
+            hint: "Có chạm nỗi đau thật của thị trường không."
+          },
+          {
+            key: "product",
+            label: "Giá trị sản phẩm",
+            hint: "Sản phẩm có đủ tốt để người ta thật sự dùng không."
+          },
+          {
+            key: "market",
+            label: "Thị trường",
+            hint: "Quy mô, nhu cầu, độ chín của thị trường."
+          },
+          {
+            key: "timing",
+            label: "Thời điểm",
+            hint: "Ra đúng lúc hay đang quá sớm / quá muộn."
+          },
+          {
+            key: "team",
+            label: "Đội ngũ",
+            hint: "Độ mạnh của founder và người đồng hành."
+          },
+          {
+            key: "businessModel",
+            label: "Mô hình tiền",
+            hint: "Có cơ chế kiếm tiền rõ và bền không."
+          },
+          {
+            key: "execution",
+            label: "Thực thi",
+            hint: "Tốc độ làm, sửa, thử, giao tiếp với thị trường."
+          },
+          {
+            key: "runway",
+            label: "Đường băng tiền",
+            hint: "Thời gian sống còn trước khi cần thêm vốn hoặc doanh thu."
+          }
+        ]
+      },
+      "founder-readiness": {
+        domain: "startup",
+        label: "Founder readiness",
+        short: "Đọc độ sẵn sàng thật của người sáng lập.",
+        description: "Phù hợp khi muốn đánh giá founder ở tầng con người chứ không chỉ tầng ý tưởng.",
+        areas: [
+          {
+            key: "vision",
+            label: "Tầm nhìn",
+            hint: "Biết rõ mình đang xây gì và vì sao không."
+          },
+          {
+            key: "conviction",
+            label: "Độ tin vào hướng đi",
+            hint: "Có đủ niềm tin để đi qua giai đoạn mù mờ không."
+          },
+          {
+            key: "resilienceFounder",
+            label: "Sức chịu đòn",
+            hint: "Khả năng chịu áp lực, phản hồi, thất bại."
+          },
+          {
+            key: "salesFounder",
+            label: "Khả năng bán",
+            hint: "Bán ý tưởng, bán sản phẩm, bán niềm tin."
+          },
+          {
+            key: "leadershipFounder",
+            label: "Dẫn người",
+            hint: "Khả năng kéo đội và giữ nhịp chung."
+          },
+          {
+            key: "learningFounder",
+            label: "Học từ thị trường",
+            hint: "Biết nghe, sửa, bỏ cái sai đúng lúc."
+          },
+          {
+            key: "cashDiscipline",
+            label: "Kỷ luật tiền",
+            hint: "Không đốt tiền theo cảm hứng."
+          },
+          {
+            key: "focusFounder",
+            label: "Giữ tập trung",
+            hint: "Có tránh được việc nhảy ý tưởng liên tục không."
+          }
+        ]
+      },
+      "business-core": {
+        domain: "business",
+        label: "Làm kinh doanh",
+        short: "Đọc doanh nghiệp theo các trục vận hành sống còn.",
+        description: "Dùng để nhìn doanh nghiệp như một hệ gồm sản phẩm, marketing, sales, delivery, tài chính và con người.",
+        areas: [
+          {
+            key: "offer",
+            label: "Sản phẩm / dịch vụ",
+            hint: "Giá trị cốt lõi đang bán có đủ rõ và đủ tốt không."
+          },
+          {
+            key: "marketing",
+            label: "Marketing",
+            hint: "Khả năng thu hút và nuôi dưỡng khách hàng."
+          },
+          {
+            key: "sales",
+            label: "Bán hàng",
+            hint: "Tốc độ chuyển từ quan tâm sang doanh thu."
+          },
+          {
+            key: "delivery",
+            label: "Vận hành giao hàng",
+            hint: "Chất lượng giao việc, giao hàng, phục vụ thực tế."
+          },
+          {
+            key: "financeOps",
+            label: "Tài chính",
+            hint: "Tiền mặt, biên lợi nhuận, kiểm soát chi phí."
+          },
+          {
+            key: "people",
+            label: "Nhân sự",
+            hint: "Đội ngũ có gánh được nhịp phát triển không."
+          },
+          {
+            key: "systemBusiness",
+            label: "Hệ thống",
+            hint: "Quy trình, dashboard, dữ liệu, tự động hóa."
+          },
+          {
+            key: "brandBusiness",
+            label: "Thương hiệu",
+            hint: "Mức độ được nhớ, được tin và được chọn."
+          }
+        ]
+      },
+      "brand-business": {
+        domain: "business",
+        label: "Kinh doanh thiên về thương hiệu",
+        short: "Đọc business ở góc nhìn brand-led growth.",
+        description: "Dùng cho mô hình mà thương hiệu, trải nghiệm và nội dung là một phần lớn của tăng trưởng.",
+        areas: [
+          {
+            key: "positionBrand",
+            label: "Định vị",
+            hint: "Có đứng rõ một vị trí nào trong đầu khách chưa."
+          },
+          {
+            key: "story",
+            label: "Câu chuyện",
+            hint: "Brand có câu chuyện đủ thật và đủ nhớ không."
+          },
+          {
+            key: "experience",
+            label: "Trải nghiệm",
+            hint: "Khách chạm vào brand có thấy khác biệt không."
+          },
+          {
+            key: "contentEngine",
+            label: "Content engine",
+            hint: "Khả năng tạo nội dung đều, có chất, có định hướng."
+          },
+          {
+            key: "community",
+            label: "Cộng đồng",
+            hint: "Mức độ có người theo, yêu, tương tác và ở lại."
+          },
+          {
+            key: "conversion",
+            label: "Chuyển đổi",
+            hint: "Khả năng biến brand interest thành doanh thu."
+          },
+          {
+            key: "consistencyBrand",
+            label: "Độ đồng nhất",
+            hint: "Hình ảnh, giọng nói, sản phẩm có ăn nhau không."
+          },
+          {
+            key: "expansion",
+            label: "Mở rộng",
+            hint: "Khả năng phát triển thêm dòng sản phẩm hoặc hệ sinh thái."
+          }
+        ]
+      },
+      "digital-life": {
+        domain: "digital",
+        label: "Digital Life",
+        short: "Nhìn đời sống trong thời đại số: tiêu thụ, tập trung, hiện diện và bảo mật.",
+        description: "Dùng khi muốn đọc xem mình đang sống chủ động trong không gian số hay đang bị không gian số nuốt mất nhịp.",
+        areas: [
+          {
+            key: "onlineOffline",
+            label: "Online / Offline",
+            hint: "Tỷ lệ sống trên màn hình và sống ngoài đời có đang lệch quá không."
+          },
+          {
+            key: "infoDiet",
+            label: "Chế độ thông tin",
+            hint: "Thứ mình nạp vào mỗi ngày có sạch, sâu và hữu ích không."
+          },
+          {
+            key: "focusDigital",
+            label: "Tập trung",
+            hint: "Khả năng giữ đầu óc khỏi bị phân mảnh bởi notification và feed."
+          },
+          {
+            key: "aiUsage",
+            label: "Dùng AI / Tech",
+            hint: "Mức độ dùng công nghệ để nâng năng lực thay vì chỉ giải trí."
+          },
+          {
+            key: "digitalIdentity",
+            label: "Hiện diện số",
+            hint: "Dấu ấn online có đúng với con người và hướng đi của mình không."
+          },
+          {
+            key: "privacy",
+            label: "Bảo mật cá nhân",
+            hint: "Ý thức bảo vệ tài khoản, dữ liệu, quyền riêng tư."
+          },
+          {
+            key: "bodyImpact",
+            label: "Tác động lên cơ thể",
+            hint: "Mắt, cổ, lưng, giấc ngủ và thần kinh bị ảnh hưởng ra sao."
+          },
+          {
+            key: "dopamine",
+            label: "Dopamine kỹ thuật số",
+            hint: "Mức độ phụ thuộc vào sự kích thích nhanh từ mạng xã hội, video ngắn, game, feed."
+          }
+        ]
+      },
+      "life-infrastructure": {
+        domain: "digital",
+        label: "Life Infrastructure",
+        short: "Nhìn đời sống như một hệ hạ tầng nền.",
+        description: "Phù hợp khi muốn đọc xem cái nền hỗ trợ cuộc sống đang mạnh hay yếu: nhà ở, công cụ, tiền, thời gian và hệ hỗ trợ.",
+        areas: [
+          {
+            key: "housing",
+            label: "Nhà ở",
+            hint: "Nơi ở có đủ ổn và hỗ trợ nhịp sống hiện tại không."
+          },
+          {
+            key: "mobility",
+            label: "Di chuyển",
+            hint: "Khả năng đi lại và kết nối với công việc / đời sống có thuận không."
+          },
+          {
+            key: "personalFinanceInfra",
+            label: "Tài chính nền",
+            hint: "Mức độ có nền tài chính đủ đỡ những chi phí thiết yếu."
+          },
+          {
+            key: "tooling",
+            label: "Công cụ làm việc",
+            hint: "Máy móc, phần mềm, thiết bị và workflow có đủ dùng không."
+          },
+          {
+            key: "livingEnvironment",
+            label: "Môi trường sống",
+            hint: "Không gian có yên, sạch, thuận cho nghỉ và làm không."
+          },
+          {
+            key: "supportInfra",
+            label: "Hệ hỗ trợ",
+            hint: "Gia đình, bạn bè, cộng sự, người giúp mình khi cần."
+          },
+          {
+            key: "healthInfra",
+            label: "Nền sức khỏe",
+            hint: "Tình trạng sức khỏe cơ bản và khả năng tiếp cận chăm sóc."
+          },
+          {
+            key: "timeSlack",
+            label: "Độ thoáng thời gian",
+            hint: "Lịch sống có khoảng thở hay luôn nghẹt."
+          }
+        ]
+      },
+      "ai-professional": {
+        domain: "aiwork",
+        label: "AI-era Professional",
+        short: "Đọc người làm việc trong thời đại AI.",
+        description: "Dùng để nhìn xem người làm nghề hôm nay có đang đủ sức tồn tại và tiến lên trong bối cảnh AI thay đổi rất nhanh hay không.",
+        areas: [
+          {
+            key: "coreSkillAi",
+            label: "Kỹ năng chuyên môn",
+            hint: "Nền nghề thật, thứ mà AI không tự thay thế hoàn toàn được."
+          },
+          {
+            key: "aiFluency",
+            label: "Độ thành thạo AI",
+            hint: "Biết dùng AI như đòn bẩy công việc đến đâu."
+          },
+          {
+            key: "systemsThinkingAi",
+            label: "Tư duy hệ thống",
+            hint: "Biết ghép công cụ, quy trình và mục tiêu thành hệ làm việc."
+          },
+          {
+            key: "fastLearning",
+            label: "Học nhanh",
+            hint: "Tốc độ cập nhật, thử nghiệm và hấp thụ cái mới."
+          },
+          {
+            key: "outputReality",
+            label: "Output thực tế",
+            hint: "Khả năng tạo ra kết quả dùng được chứ không chỉ hiểu lý thuyết."
+          },
+          {
+            key: "adaptAi",
+            label: "Thích nghi",
+            hint: "Độ linh hoạt khi nghề, tool và thị trường đổi."
+          },
+          {
+            key: "networkAi",
+            label: "Network",
+            hint: "Liên kết với người, cộng đồng và cơ hội trong nghề."
+          },
+          {
+            key: "personalBrandAi",
+            label: "Personal brand",
+            hint: "Có dấu ấn đủ rõ để không chìm trong biển người dùng AI."
+          }
+        ]
+      },
+      "creator-economy": {
+        domain: "aiwork",
+        label: "Creator Economy",
+        short: "Đọc nghề creator như một hệ kiếm sống hiện đại.",
+        description: "Dùng để nhìn nghề làm nội dung, làm media, làm tri thức như một hệ có sản xuất, phân phối, khán giả và tiền.",
+        areas: [
+          {
+            key: "contentCreation",
+            label: "Tạo nội dung",
+            hint: "Khả năng sản xuất nội dung đủ chất và đủ đều."
+          },
+          {
+            key: "distribution",
+            label: "Phân phối",
+            hint: "Cách đưa nội dung ra đúng nơi, đúng người, đúng nhịp."
+          },
+          {
+            key: "audience",
+            label: "Audience",
+            hint: "Quy mô và độ gắn kết của người theo dõi."
+          },
+          {
+            key: "monetization",
+            label: "Monetization",
+            hint: "Khả năng biến attention thành tiền."
+          },
+          {
+            key: "consistencyCreator",
+            label: "Độ đều",
+            hint: "Có giữ được nhịp xuất bản và phát triển nội dung không."
+          },
+          {
+            key: "creativeIdentity",
+            label: "Creative identity",
+            hint: "Màu riêng và góc nhìn riêng có đủ rõ chưa."
+          },
+          {
+            key: "toolStack",
+            label: "Tool stack",
+            hint: "Hệ công cụ sản xuất có mạnh và hợp bản thân không."
+          },
+          {
+            key: "platformRisk",
+            label: "Rủi ro nền tảng",
+            hint: "Mức độ phụ thuộc vào một nền tảng duy nhất."
+          }
+        ]
+      },
+      "emotional-system": {
+        domain: "inner",
+        label: "Emotional System",
+        short: "Nhìn phần tâm lý và điều tiết nội tâm.",
+        description: "Dùng khi cần đọc hệ cảm xúc chứ không chỉ đọc hiệu suất bề mặt.",
+        areas: [
+          {
+            key: "feelRecognize",
+            label: "Nhận diện cảm xúc",
+            hint: "Có biết mình đang thấy gì và vì sao không."
+          },
+          {
+            key: "feelRegulate",
+            label: "Điều tiết cảm xúc",
+            hint: "Khả năng giữ mình không bị cuốn đi quá xa."
+          },
+          {
+            key: "stability",
+            label: "Độ ổn định",
+            hint: "Mức độ ít rơi vào cực đoan hoặc quá thất thường."
+          },
+          {
+            key: "stressTolerance",
+            label: "Chịu stress",
+            hint: "Khả năng đi qua áp lực mà không gãy."
+          },
+          {
+            key: "healing",
+            label: "Healing",
+            hint: "Mức độ nhận diện và xử lý các vết thương cũ."
+          },
+          {
+            key: "bonding",
+            label: "Gắn kết",
+            hint: "Khả năng kết nối thật với người khác thay vì co cụm."
+          },
+          {
+            key: "selfAcceptance",
+            label: "Tự chấp nhận",
+            hint: "Có đang đối xử với chính mình quá khắc nghiệt không."
+          },
+          {
+            key: "lifeMeaningInner",
+            label: "Ý nghĩa",
+            hint: "Cảm giác mình đang sống có lý do và không rỗng."
+          }
+        ]
+      },
+      "identity-direction": {
+        domain: "inner",
+        label: "Identity & Direction",
+        short: "Đọc bản thân theo hướng tôi là ai và tôi đang đi đâu.",
+        description: "Phù hợp khi muốn nhìn tầng định nghĩa bản thân, giá trị sống và đường dài.",
+        areas: [
+          {
+            key: "whoAmI",
+            label: "Tôi là ai",
+            hint: "Mức độ rõ về căn tính và bản đồ nội tâm của mình."
+          },
+          {
+            key: "whatWant",
+            label: "Tôi muốn gì",
+            hint: "Mức độ rõ về điều thực sự muốn theo đuổi."
+          },
+          {
+            key: "values",
+            label: "Giá trị sống",
+            hint: "Những nguyên tắc lõi đang dẫn hướng cho quyết định."
+          },
+          {
+            key: "beliefs",
+            label: "Niềm tin",
+            hint: "Niềm tin nào đang nâng mình lên hoặc kéo mình xuống."
+          },
+          {
+            key: "longTermDirection",
+            label: "Định hướng dài hạn",
+            hint: "Có nhìn ra đường dài hay vẫn chỉ xoay theo việc ngắn hạn."
+          },
+          {
+            key: "lifeExperiments",
+            label: "Thử nghiệm sống",
+            hint: "Mức độ dám thử và học từ trải nghiệm mới."
+          },
+          {
+            key: "flexibility",
+            label: "Linh hoạt",
+            hint: "Có biết đổi hướng khi nhận ra điều gì đó không còn đúng."
+          },
+          {
+            key: "clarityIdentity",
+            label: "Độ rõ tổng thể",
+            hint: "Cảm giác trong mình có một bản đồ khá rõ hay chưa."
+          }
+        ]
+      },
+      "personal-finance": {
+        domain: "money",
+        label: "Personal Finance Reality",
+        short: "Đọc thực trạng tài chính cá nhân.",
+        description: "Dùng để nhìn tài chính cá nhân ở tầng nền chứ không chỉ nhìn có bao nhiêu tiền.",
+        areas: [
+          {
+            key: "incomePersonal",
+            label: "Thu nhập",
+            hint: "Dòng tiền vào có đủ khỏe và ổn định không."
+          },
+          {
+            key: "spending",
+            label: "Chi tiêu",
+            hint: "Khả năng kiểm soát và dùng tiền có ý thức."
+          },
+          {
+            key: "saving",
+            label: "Tiết kiệm",
+            hint: "Có giữ lại được tiền hay luôn chảy hết."
+          },
+          {
+            key: "investing",
+            label: "Đầu tư",
+            hint: "Hiểu và thực hành đầu tư đến đâu."
+          },
+          {
+            key: "cashflowPersonal",
+            label: "Dòng tiền",
+            hint: "Tiền vào ra có nhịp và có dự báo được không."
+          },
+          {
+            key: "debt",
+            label: "Nợ",
+            hint: "Mức độ nợ và áp lực nợ đang đè lên hệ."
+          },
+          {
+            key: "riskFinance",
+            label: "Rủi ro",
+            hint: "Mức độ có quỹ dự phòng và khả năng chịu biến cố."
+          },
+          {
+            key: "financialLiteracy",
+            label: "Hiểu biết tài chính",
+            hint: "Mức độ hiểu tiền, lãi, nợ, đầu tư và rủi ro."
+          }
+        ]
+      },
+      "wealth-building": {
+        domain: "money",
+        label: "Wealth Building",
+        short: "Nhìn việc xây tài sản dài hạn.",
+        description: "Dùng để đọc chuyện làm giàu một cách hệ thống thay vì chỉ nhìn lương hoặc thu nhập tháng.",
+        areas: [
+          {
+            key: "activeIncome",
+            label: "Thu nhập chủ động",
+            hint: "Tiền kiếm từ công việc chính và năng lực trực tiếp."
+          },
+          {
+            key: "passiveIncome",
+            label: "Thu nhập thụ động",
+            hint: "Dòng tiền không phụ thuộc hoàn toàn vào sức lao động hiện tại."
+          },
+          {
+            key: "assets",
+            label: "Tài sản",
+            hint: "Mức độ sở hữu thứ có giá trị và có thể tăng giá."
+          },
+          {
+            key: "leverage",
+            label: "Đòn bẩy",
+            hint: "Biết dùng công cụ, vốn, người, hệ thống để tăng quy mô hay chưa."
+          },
+          {
+            key: "financialNetwork",
+            label: "Network tài chính",
+            hint: "Mối liên kết với người, cơ hội, cộng đồng liên quan đến tiền và tài sản."
+          },
+          {
+            key: "riskManagement",
+            label: "Quản trị rủi ro",
+            hint: "Biết bảo vệ phần đã xây và tránh sập hệ không."
+          },
+          {
+            key: "longTermStrategyWealth",
+            label: "Chiến lược dài hạn",
+            hint: "Có kế hoạch tài sản cho 3-5-10 năm không."
+          },
+          {
+            key: "capitalGrowth",
+            label: "Tăng trưởng vốn",
+            hint: "Khả năng làm cho vốn lớn dần theo thời gian."
+          }
+        ]
+      },
+      "solo-builder": {
+        domain: "builder",
+        label: "Solo Builder / Indie Maker",
+        short: "Đọc người tự xây sản phẩm và hệ riêng.",
+        description: "Phù hợp cho người vừa nghĩ, vừa làm, vừa bán, vừa tối ưu như một studio một người hoặc team rất nhỏ.",
+        areas: [
+          {
+            key: "ideaClarity",
+            label: "Độ rõ ý tưởng",
+            hint: "Biết mình đang xây cái gì và cho ai."
+          },
+          {
+            key: "executionSpeed",
+            label: "Tốc độ thực thi",
+            hint: "Khả năng biến ý tưởng thành bản chạy được."
+          },
+          {
+            key: "productSkill",
+            label: "Năng lực sản phẩm",
+            hint: "Hiểu UX, logic, giá trị và cách đóng gói sản phẩm."
+          },
+          {
+            key: "marketingBuilder",
+            label: "Marketing",
+            hint: "Biết cách để người khác nhìn thấy thứ mình xây."
+          },
+          {
+            key: "distributionBuilder",
+            label: "Phân phối",
+            hint: "Có đường đưa sản phẩm đến tay người dùng không."
+          },
+          {
+            key: "revenueBuilder",
+            label: "Doanh thu",
+            hint: "Sản phẩm có đang tạo ra tiền hay mới chỉ là thử nghiệm."
+          },
+          {
+            key: "automationBuilder",
+            label: "Tự động hóa",
+            hint: "Biết làm hệ để đỡ tốn sức lặp lại."
+          },
+          {
+            key: "energyBuilder",
+            label: "Năng lượng cá nhân",
+            hint: "Có đủ sức giữ game dài hạn không."
+          }
+        ]
+      },
+      "system-builder": {
+        domain: "builder",
+        label: "System Builder",
+        short: "Đọc người xây hệ ở tầng cao hơn sản phẩm đơn lẻ.",
+        description: "Dùng để nhìn năng lực kiến trúc, chuẩn hóa và mở rộng hệ thống dài hạn.",
+        areas: [
+          {
+            key: "architecture",
+            label: "Kiến trúc tư duy",
+            hint: "Khả năng nhìn hệ như một cấu trúc nhiều lớp."
+          },
+          {
+            key: "standardization",
+            label: "Chuẩn hóa",
+            hint: "Biết biến thứ làm được thành thứ người khác dùng lại được."
+          },
+          {
+            key: "scale",
+            label: "Khả năng scale",
+            hint: "Hệ có thể lớn lên mà không vỡ không."
+          },
+          {
+            key: "automationSystem",
+            label: "Automation",
+            hint: "Mức độ tự động hóa trong quy trình và vận hành."
+          },
+          {
+            key: "dataUsage",
+            label: "Dùng dữ liệu",
+            hint: "Biết biến dữ liệu thành insight và điều khiển hệ hay chưa."
+          },
+          {
+            key: "teamLeverage",
+            label: "Đòn bẩy đội ngũ",
+            hint: "Biết phân vai và dùng sức người đúng chỗ không."
+          },
+          {
+            key: "ecosystem",
+            label: "Hệ sinh thái sản phẩm",
+            hint: "Có nhiều node kết nối nhau thành một mạng giá trị không."
+          },
+          {
+            key: "longVisionSystem",
+            label: "Tầm nhìn dài hạn",
+            hint: "Hệ đang đi về một kiến trúc lớn hay chỉ vá từng chỗ."
+          }
+        ]
+      },
+      "energy-system": {
+        domain: "energy",
+        label: "Energy System",
+        short: "Đọc sức khỏe theo góc nhìn năng lượng sống.",
+        description: "Dùng khi muốn nhìn sức khỏe không chỉ bằng bệnh - không bệnh, mà bằng năng lượng để sống, nghĩ và làm.",
+        areas: [
+          {
+            key: "physicalEnergy",
+            label: "Năng lượng thể chất",
+            hint: "Sức bật, độ dẻo, độ bền của cơ thể."
+          },
+          {
+            key: "mentalEnergy",
+            label: "Năng lượng tinh thần",
+            hint: "Độ tỉnh táo, sáng đầu và ít mịt mù."
+          },
+          {
+            key: "emotionalEnergy",
+            label: "Năng lượng cảm xúc",
+            hint: "Mức độ nhẹ lòng, ít bị hao mòn bởi cảm xúc tiêu cực."
+          },
+          {
+            key: "creativeEnergy",
+            label: "Năng lượng sáng tạo",
+            hint: "Khả năng sinh ý, thấy hứng và tạo ra cái mới."
+          },
+          {
+            key: "circadian",
+            label: "Nhịp sinh học",
+            hint: "Nhịp ngủ - thức - làm có hợp cơ thể không."
+          },
+          {
+            key: "restQuality",
+            label: "Chất lượng nghỉ",
+            hint: "Nghỉ có giúp nạp lại thật không."
+          },
+          {
+            key: "burnout",
+            label: "Burnout level",
+            hint: "Mức độ cạn năng lượng và dấu hiệu cháy máy."
+          },
+          {
+            key: "flowState",
+            label: "Flow state",
+            hint: "Khả năng vào nhịp sâu khi làm việc hoặc sáng tạo."
+          }
+        ]
+      },
+      "recovery-rhythm": {
+        domain: "energy",
+        label: "Nhịp hồi phục",
+        short: "Đọc khả năng phục hồi sau giai đoạn căng.",
+        description: "Phù hợp khi hệ đang bị kéo căng và cần đọc lại nhịp nghỉ, nhịp hồi, nhịp quay lại.",
+        areas: [
+          {
+            key: "sleepDepth",
+            label: "Ngủ sâu",
+            hint: "Ngủ có thật sự giúp hồi phục hay chỉ nằm mệt."
+          },
+          {
+            key: "nervousSystem",
+            label: "Thần kinh",
+            hint: "Cơ thể có đang ở trạng thái căng kéo kéo dài không."
+          },
+          {
+            key: "stressRelease",
+            label: "Xả stress",
+            hint: "Có cơ chế xả áp đều hay đang dồn nén."
+          },
+          {
+            key: "gentleMovement",
+            label: "Vận động hồi phục",
+            hint: "Đi bộ, giãn cơ, thở, chuyển động nhẹ hỗ trợ hồi phục."
+          },
+          {
+            key: "mentalQuiet",
+            label: "Yên đầu óc",
+            hint: "Mức độ có khoảng im để não nghỉ."
+          },
+          {
+            key: "joyRecovery",
+            label: "Niềm vui nạp lại",
+            hint: "Có thứ gì làm mình vui theo cách lành mạnh không."
+          },
+          {
+            key: "boundary",
+            label: "Ranh giới",
+            hint: "Biết nói không với thứ làm mình cạn thêm không."
+          },
+          {
+            key: "returnPower",
+            label: "Sức quay lại",
+            hint: "Sau nghỉ có quay lại được nhịp làm việc ổn hay không."
+          }
+        ]
+      },
+      "social-system": {
+        domain: "social",
+        label: "Social System",
+        short: "Đọc chất lượng hệ quan hệ xã hội.",
+        description: "Dùng để nhìn vòng người xung quanh đang nâng mình lên hay kéo mình lệch đi.",
+        areas: [
+          {
+            key: "family",
+            label: "Gia đình",
+            hint: "Độ kết nối, hỗ trợ và lành mạnh trong quan hệ gia đình."
+          },
+          {
+            key: "friends",
+            label: "Bạn bè",
+            hint: "Có bạn thật, bạn sâu, bạn giữ nhịp sống lành không."
+          },
+          {
+            key: "colleagues",
+            label: "Đồng nghiệp",
+            hint: "Chất lượng phối hợp và sự dễ thở trong làm việc."
+          },
+          {
+            key: "networkSocial",
+            label: "Network",
+            hint: "Độ rộng và chất lượng của mạng lưới xã hội / nghề nghiệp."
+          },
+          {
+            key: "mentor",
+            label: "Mentor",
+            hint: "Có ai đi trước nâng đỡ, phản biện và chỉ hướng không."
+          },
+          {
+            key: "supporters",
+            label: "Người hỗ trợ",
+            hint: "Có ai giúp mình khi gặp khó hay không."
+          },
+          {
+            key: "influence",
+            label: "Ảnh hưởng qua lại",
+            hint: "Mình đang ở gần những người làm mình tốt lên hay tệ đi."
+          },
+          {
+            key: "relationQuality",
+            label: "Chất lượng quan hệ",
+            hint: "Tổng thể các mối quan hệ có làm đời sống mình ấm hơn không."
+          }
+        ]
+      },
+      "support-ecosystem": {
+        domain: "social",
+        label: "Support Ecosystem",
+        short: "Đọc hệ người nâng đỡ mình trong cuộc sống và công việc.",
+        description: "Phù hợp khi muốn nhìn xem mình có đang một mình quá mức hay có một hệ hỗ trợ đủ khỏe quanh mình.",
+        areas: [
+          {
+            key: "innerCircle",
+            label: "Vòng thân",
+            hint: "Những người gần nhất có thật sự hiểu và đứng cùng không."
+          },
+          {
+            key: "practicalHelp",
+            label: "Hỗ trợ thực tế",
+            hint: "Có người giúp được việc khi cần hay chỉ là lời nói."
+          },
+          {
+            key: "adviceQuality",
+            label: "Chất lượng lời khuyên",
+            hint: "Người xung quanh có giúp mình nhìn rõ hơn không."
+          },
+          {
+            key: "collabPotential",
+            label: "Khả năng hợp tác",
+            hint: "Mạng lưới có thể cùng làm cái gì đó thật không."
+          },
+          {
+            key: "trustCircle",
+            label: "Vòng tin cậy",
+            hint: "Có bao nhiêu người đủ tin để chia sẻ việc quan trọng."
+          },
+          {
+            key: "resourceAccess",
+            label: "Tiếp cận nguồn lực",
+            hint: "Người xung quanh có mở cho mình cơ hội, tài nguyên, kết nối không."
+          },
+          {
+            key: "careReciprocity",
+            label: "Chăm sóc hai chiều",
+            hint: "Quan hệ có qua lại cân bằng hay một chiều."
+          },
+          {
+            key: "belonging",
+            label: "Cảm giác thuộc về",
+            hint: "Mình có cảm giác có nơi, có người, có cộng đồng để thuộc về không."
+          }
+        ]
+      }
+    };
+
+
+    const domainTabs = document.getElementById('domainTabs');
+    const templateContainer = document.getElementById('templateContainer');
+    const wheelMobileFilter = document.getElementById('wheelMobileFilter');
+    const activeDomainBadge = document.getElementById('activeDomainBadge');
+    const activePresetBadge = document.getElementById('activePresetBadge');
+    const wheelControls = document.getElementById('wheelControls');
+    const wheelCanvas = document.getElementById('wheelCanvas');
+    const wheelCaption = document.getElementById('wheelCaption');
+    const summaryGrid = document.getElementById('summaryGrid');
+    const focusTags = document.getElementById('focusTags');
+    const resultBox = document.getElementById('resultBox');
+    const buildBtn = document.getElementById('buildBtn');
+    const copyBtn = document.getElementById('copyBtn');
+    const copyInsightBtn = document.getElementById('copyInsightBtn');
+    const exportJpgBtn = document.getElementById('exportJpgBtn');
+    const resetBtn = document.getElementById('resetBtn');
+    const supportText = document.getElementById('supportText');
+    const blockText = document.getElementById('blockText');
+
+    let activeDomain = 'life';
+    let activePreset = 'balance';
+    let state = {};
+
+    function getActivePreset() {
+      return presetLibrary[activePreset];
+    }
+
+    function initDomainTabs() {
+      domainTabs.innerHTML = '';
+      Object.entries(domainData).forEach(([key, domain]) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = `theme-tab${key === activeDomain ? ' active' : ''}`;
+        btn.textContent = domain.label;
+        btn.dataset.domain = key;
+        btn.addEventListener('click', () => {
+          activeDomain = key;
+          const firstPreset = domain.groups.find(group => group.items.length)?.items[0];
+          if (firstPreset) {
+            activePreset = firstPreset;
+          }
+          seedPresetState();
+          renderDomainTabs();
+          renderTemplates();
+          renderControls();
+          drawWheel();
+          buildQuickInsights();
+        });
+        domainTabs.appendChild(btn);
+      });
+    }
+
+    function renderDomainTabs() {
+      Array.from(domainTabs.children).forEach((btn) => {
+        btn.classList.toggle('active', btn.dataset.domain === activeDomain);
+      });
+    }
+
+    function seedPresetState() {
+      const preset = getActivePreset();
+      state = {};
+      preset.areas.forEach((area) => {
+        state[area.key] = 6;
+      });
+      updatePresetBadges();
+      wheelCaption.textContent = preset.description;
+    }
+
+    function updatePresetBadges() {
+      const domain = domainData[activeDomain];
+      const preset = getActivePreset();
+      activeDomainBadge.textContent = `Chủ đề: ${domain.label}`;
+      activePresetBadge.textContent = `Mẫu: ${preset.label}`;
+    }
+
+    function renderTemplates() {
+      const domain = domainData[activeDomain];
+      renderTemplateGroups(domain, templateContainer, false);
+      renderTemplateGroups(domain, wheelMobileFilter, true);
+    }
+
+    function renderTemplateGroups(domain, container, compact) {
+      container.innerHTML = '';
+      domain.groups.forEach((group) => {
+        const wrapper = document.createElement('div');
+        wrapper.className = `template-group ${group.key}`;
+
+        const header = document.createElement('div');
+        header.className = 'template-group-header';
+        header.style.marginBottom = compact ? '8px' : '10px';
+
+        const label = document.createElement('div');
+        label.className = 'template-group-label';
+        label.textContent = group.icon;
+
+        const title = document.createElement('span');
+        title.textContent = compact ? `${group.label}` : group.label;
+
+        header.appendChild(label);
+        header.appendChild(title);
+
+        const row = document.createElement('div');
+        row.className = 'template-items-row';
+
+        group.items.forEach((presetKey) => {
+          const preset = presetLibrary[presetKey];
+          if (!preset) return;
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = `template-item${presetKey === activePreset ? ' active' : ''}`;
+          btn.textContent = preset.label;
+          btn.addEventListener('click', () => applyPreset(presetKey));
+          row.appendChild(btn);
+        });
+
+        wrapper.appendChild(header);
+        wrapper.appendChild(row);
+
+        if (!compact) {
+          const note = document.createElement('div');
+          note.className = 'template-note';
+          note.textContent = group.items.map((presetKey) => presetLibrary[presetKey]?.short).filter(Boolean).join(' • ');
+          wrapper.appendChild(note);
+        }
+
+        container.appendChild(wrapper);
+      });
+    }
+
+    function applyPreset(presetKey) {
+      const preset = presetLibrary[presetKey];
+      if (!preset) return;
+      activePreset = presetKey;
+      activeDomain = preset.domain;
+      seedPresetState();
+      renderDomainTabs();
+      renderTemplates();
+      renderControls();
+      drawWheel();
+      buildQuickInsights();
+    }
+
+    function getPresetAreas() {
+      return getActivePreset().areas;
+    }
+
+    function getScores() {
+      return getPresetAreas().map((area) => ({ ...area, value: Number(state[area.key] || 0) }));
+    }
+
+    function renderControls() {
+      wheelControls.innerHTML = '';
+      getScores().forEach((area, index) => {
+        const row = document.createElement('div');
+        const stateClass = area.value <= 4 ? ' is-low' : area.value >= 8 ? ' is-high' : '';
+        row.className = `tool-row${stateClass}`;
+        row.innerHTML = `
+          <div class="tool-chip">${index + 1}</div>
+          <div class="tool-row-main">
+            <label for="wheel-${area.key}">${area.label}</label>
+            <small>${area.hint}</small>
+            <input id="wheel-${area.key}" class="wheel-range" type="range" min="1" max="10" step="1" value="${area.value}">
+          </div>
+          <div class="wheel-score">${area.value}/10</div>
+        `;
+        const input = row.querySelector('input');
+        const score = row.querySelector('.wheel-score');
+        input.addEventListener('input', () => {
+          state[area.key] = Number(input.value);
+          score.textContent = `${input.value}/10`;
+          row.classList.toggle('is-low', Number(input.value) <= 4);
+          row.classList.toggle('is-high', Number(input.value) >= 8);
+          drawWheel();
+          buildQuickInsights();
+        });
+        wheelControls.appendChild(row);
+      });
+    }
+
+    function drawWheel() {
+      const canvas = wheelCanvas;
+      const ctx = canvas.getContext('2d');
+      const width = canvas.width;
+      const height = canvas.height;
+      const cx = width / 2;
+      const cy = height / 2;
+      const radius = Math.min(width, height) * 0.35;
+      const areas = getScores();
+      const segments = areas.length;
+      const step = (Math.PI * 2) / segments;
+
+      ctx.clearRect(0, 0, width, height);
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, width, height);
+
+      ctx.save();
+      ctx.translate(cx, cy);
+
+      for (let ring = 1; ring <= 10; ring++) {
+        ctx.beginPath();
+        ctx.arc(0, 0, radius * (ring / 10), 0, Math.PI * 2);
+        ctx.strokeStyle = ring === 10 ? 'rgba(17,24,39,.22)' : 'rgba(17,24,39,.08)';
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+
+      areas.forEach((area, index) => {
+        const angle = -Math.PI / 2 + index * step;
+        const nextAngle = angle + step;
+
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.arc(0, 0, radius, angle, nextAngle);
+        ctx.closePath();
+        ctx.fillStyle = index % 2 === 0 ? 'rgba(17,24,39,.03)' : 'rgba(17,24,39,.015)';
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.lineTo(Math.cos(angle) * radius, Math.sin(angle) * radius);
+        ctx.strokeStyle = 'rgba(17,24,39,.12)';
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      });
+
+      ctx.beginPath();
+      areas.forEach((area, index) => {
+        const angle = -Math.PI / 2 + index * step + step / 2;
+        const r = radius * (area.value / 10);
+        const x = Math.cos(angle) * r;
+        const y = Math.sin(angle) * r;
+        if (index === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+      });
+      ctx.closePath();
+      ctx.fillStyle = 'rgba(17,24,39,.16)';
+      ctx.strokeStyle = 'rgba(17,24,39,.82)';
+      ctx.lineWidth = 3;
+      ctx.fill();
+      ctx.stroke();
+
+      areas.forEach((area, index) => {
+        const angle = -Math.PI / 2 + index * step + step / 2;
+        const r = radius * (area.value / 10);
+        const x = Math.cos(angle) * r;
+        const y = Math.sin(angle) * r;
+        ctx.beginPath();
+        ctx.arc(x, y, 5, 0, Math.PI * 2);
+        ctx.fillStyle = '#111827';
+        ctx.fill();
+      });
+
+      areas.forEach((area, index) => {
+        const angle = -Math.PI / 2 + index * step + step / 2;
+        const labelRadius = radius + 56;
+        const x = Math.cos(angle) * labelRadius;
+        const y = Math.sin(angle) * labelRadius;
+        ctx.save();
+        ctx.translate(x, y);
+        ctx.fillStyle = '#111827';
+        ctx.font = '700 20px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+        ctx.textAlign = Math.cos(angle) > 0.25 ? 'left' : Math.cos(angle) < -0.25 ? 'right' : 'center';
+        ctx.textBaseline = 'middle';
+        wrapCanvasText(ctx, area.label, 0, 0, 140, 24);
+        ctx.restore();
+      });
+
+      for (let mark = 1; mark <= 10; mark++) {
+        ctx.save();
+        ctx.fillStyle = 'rgba(17,24,39,.45)';
+        ctx.font = '600 12px system-ui, sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText(String(mark), 0, -radius * (mark / 10) + 12);
+        ctx.restore();
+      }
+
+      ctx.restore();
+    }
+
+    function wrapCanvasText(ctx, text, x, y, maxWidth, lineHeight) {
+      const words = text.split(' ');
+      const lines = [];
+      let current = '';
+      words.forEach((word) => {
+        const test = current ? `${current} ${word}` : word;
+        if (ctx.measureText(test).width > maxWidth && current) {
+          lines.push(current);
+          current = word;
+        } else {
+          current = test;
+        }
+      });
+      if (current) lines.push(current);
+      const startY = y - ((lines.length - 1) * lineHeight) / 2;
+      lines.forEach((line, index) => {
+        ctx.fillText(line, x, startY + index * lineHeight);
+      });
+    }
+
+    function calculateMetrics() {
+      const scores = getScores();
+      const values = scores.map(item => item.value);
+      const average = values.reduce((sum, value) => sum + value, 0) / values.length;
+      const min = Math.min(...values);
+      const max = Math.max(...values);
+      const balanceGap = max - min;
+      const lows = scores.filter(item => item.value <= 4).sort((a, b) => a.value - b.value);
+      const highs = scores.filter(item => item.value >= 8).sort((a, b) => b.value - a.value);
+      const lowest = [...scores].sort((a, b) => a.value - b.value).slice(0, 3);
+      const highest = [...scores].sort((a, b) => b.value - a.value).slice(0, 3);
+      return { scores, average, min, max, balanceGap, lows, highs, lowest, highest };
+    }
+
+    function buildQuickInsights() {
+      const metrics = calculateMetrics();
+      const preset = getActivePreset();
+
+      focusTags.innerHTML = '';
+      const focusItems = metrics.lowest.slice(0, 3);
+      focusItems.forEach((item) => {
+        const tag = document.createElement('div');
+        tag.className = 'focus-tag';
+        tag.textContent = `${item.label}: ${item.value}/10`;
+        focusTags.appendChild(tag);
+      });
+      if (!focusItems.length) {
+        const tag = document.createElement('div');
+        tag.className = 'focus-tag';
+        tag.textContent = 'Chưa có dữ liệu';
+        focusTags.appendChild(tag);
+      }
+
+      summaryGrid.innerHTML = '';
+      const summaryItems = [
+        { value: metrics.average.toFixed(1), label: 'Điểm trung bình toàn bánh xe' },
+        { value: `${metrics.balanceGap}`, label: 'Độ lệch giữa vùng cao nhất và thấp nhất' },
+        { value: metrics.lows.length ? `${metrics.lows.length}` : '0', label: 'Số vùng đang ở mức cần cứu trước' }
+      ];
+      summaryItems.forEach((item) => {
+        const box = document.createElement('div');
+        box.className = 'summary-stat';
+        box.innerHTML = `<strong>${item.value}</strong><span>${item.label}</span>`;
+        summaryGrid.appendChild(box);
+      });
+
+      const captionParts = [];
+      if (metrics.average >= 7.5) captionParts.push('Nhịp tổng thể đang khá đầy và có nền tốt.');
+      else if (metrics.average >= 5.5) captionParts.push('Tổng thể đang ở mức dùng được nhưng còn chỗ méo rõ.');
+      else captionParts.push('Hệ này đang khá hụt, nên ưu tiên cứu nền trước rồi mới tăng tốc.');
+
+      if (metrics.balanceGap <= 2) captionParts.push('Độ lệch thấp, bánh xe khá tròn.');
+      else if (metrics.balanceGap <= 4) captionParts.push('Có lệch vừa phải giữa các vùng.');
+      else captionParts.push('Độ lệch lớn, có vùng đang kéo cả hệ xuống.');
+
+      wheelCaption.textContent = `${preset.description} ${captionParts.join(' ')}`;
+      updatePresetBadges();
+    }
+
+    function buildOutput() {
+      const metrics = calculateMetrics();
+      const preset = getActivePreset();
+      const domain = domainData[activeDomain];
+      const strengths = metrics.highest.map(item => `- ${item.label}: ${item.value}/10`).join('\n') || '- Chưa có vùng nổi trội.';
+      const weakZones = metrics.lowest.map(item => `- ${item.label}: ${item.value}/10`).join('\n') || '- Chưa có vùng yếu nổi bật.';
+
+      const priorityLines = metrics.lowest.map((item, index) => {
+        const from = item.value;
+        const to = Math.min(10, from + 2);
+        return `${index + 1}. Ưu tiên nâng ${item.label} từ ${from}/10 lên tối thiểu ${to}/10 bằng 1 hành động nhỏ nhưng đều.`;
+      }).join('\n') || '1. Chọn 1 vùng quan trọng nhất và giữ nhịp cải thiện đều trong 2 tuần.';
+
+      const support = supportText.value.trim() || '(chưa ghi)';
+      const block = blockText.value.trim() || '(chưa ghi)';
+      const rawScores = metrics.scores.map(item => `- ${item.label}: ${item.value}/10`).join('\n');
+
+      resultBox.textContent =
+`THE WHEEL OF LIFE\n\nChủ đề đang dùng: ${domain.label}\nMẫu đang dùng: ${preset.label}\nĐiểm trung bình: ${metrics.average.toFixed(1)}/10\nĐộ lệch cao-thấp: ${metrics.balanceGap}\n\n1) TOÀN CẢNH\n- ${metrics.average >= 7.5 ? 'Tổng thể đang tốt và có nền ổn.' : metrics.average >= 5.5 ? 'Tổng thể ở mức trung bình, cần chỉnh vài vùng lệch.' : 'Tổng thể đang hụt nền, nên cứu phần cơ bản trước.'}\n- ${metrics.balanceGap <= 2 ? 'Các vùng khá cân bằng với nhau.' : metrics.balanceGap <= 4 ? 'Bánh xe có lệch nhưng vẫn kéo lại được.' : 'Bánh xe lệch mạnh, cần chọn đúng điểm nghẽn để xử lý.'}\n\n2) VÙNG ĐANG NÂNG ĐỠ\n${strengths}\n\n3) VÙNG ĐANG CẦN ƯU TIÊN\n${weakZones}\n\n4) ĐIỀU ĐANG NÂNG ĐỠ HỆ NÀY\n${support}\n\n5) ĐIỀU ĐANG LÀM BÁNH XE MÉO\n${block}\n\n6) HƯỚNG ƯU TIÊN 14 NGÀY\n${priorityLines}\n\n7) ĐIỂM SỐ CHI TIẾT\n${rawScores}`;
+    }
+
+    function resetCurrentPreset() {
+      seedPresetState();
+      supportText.value = '';
+      blockText.value = '';
+      renderControls();
+      drawWheel();
+      buildQuickInsights();
+      resultBox.textContent = 'Nhấn "Tạo bản tóm tắt" để sinh bản đọc nhanh từ bánh xe đang chọn.';
+    }
+
+    buildBtn.addEventListener('click', buildOutput);
+    copyBtn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(resultBox.textContent);
+        copyBtn.textContent = 'Đã copy';
+        setTimeout(() => copyBtn.textContent = 'Copy text', 1400);
+      } catch (error) {
+        window.alert('Trình duyệt chưa cho copy tự động.');
+      }
+    });
+
+    copyInsightBtn.addEventListener('click', async () => {
+      const metrics = calculateMetrics();
+      const quickText = [
+        `Chủ đề: ${domainData[activeDomain].label}`,
+        `Mẫu: ${getActivePreset().label}`,
+        `Điểm trung bình: ${metrics.average.toFixed(1)}/10`,
+        `Cần ưu tiên: ${metrics.lowest.map(item => `${item.label} ${item.value}/10`).join(' | ')}`
+      ].join('\n');
+      try {
+        await navigator.clipboard.writeText(quickText);
+        copyInsightBtn.textContent = 'Đã copy';
+        setTimeout(() => copyInsightBtn.textContent = 'Copy insight', 1400);
+      } catch (error) {
+        window.alert('Trình duyệt chưa cho copy tự động.');
+      }
+    });
+
+    resetBtn.addEventListener('click', resetCurrentPreset);
+
+    function loadHtml2canvas(){
+      if (window.html2canvas) return Promise.resolve(window.html2canvas);
+      return new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js';
+        script.onload = () => resolve(window.html2canvas);
+        script.onerror = () => reject(new Error('Không tải được html2canvas.'));
+        document.body.appendChild(script);
+      });
+    }
+
+    function downloadBlob(blob, filename){
+      const link = document.createElement('a');
+      link.style.display = 'none';
+      link.href = URL.createObjectURL(blob);
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(link.href);
+    }
+
+    function downloadDataUrl(dataUrl, filename){
+      const link = document.createElement('a');
+      link.style.display = 'none';
+      link.href = dataUrl;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    function createExportClone(source){
+      const clone = source.cloneNode(true);
+      clone.style.width = source.offsetWidth + 'px';
+      clone.style.boxSizing = 'border-box';
+      clone.style.paddingBottom = '32px';
+      clone.style.background = 'white';
+      clone.querySelectorAll('button, .portal-cta, .portal-chip').forEach(el => el.remove());
+      const controls = clone.querySelectorAll('.wheel-range');
+      controls.forEach((range) => {
+        const row = range.closest('.tool-row');
+        if (row) range.remove();
+      });
+      const footer = document.createElement('div');
+      footer.style.marginTop = '24px';
+      footer.style.paddingTop = '16px';
+      footer.style.borderTop = '1px solid rgba(17,24,39,.12)';
+      footer.style.fontSize = '.8rem';
+      footer.style.color = 'rgba(17,24,39,.64)';
+      footer.textContent = 'Được làm tại iAppLab - Made by Anhdophin - Email: anhdophin@gmail.com';
+      clone.appendChild(footer);
+      return clone;
+    }
+
+    async function exportPageAsJpg(){
+      const source = document.getElementById('wheelExportSource');
+      if (!source) return;
+
+      const exportWrapper = createExportClone(source);
+      const tempContainer = document.createElement('div');
+      tempContainer.style.position = 'fixed';
+      tempContainer.style.top = '-9999px';
+      tempContainer.style.left = '-9999px';
+      tempContainer.style.zIndex = '-1';
+      tempContainer.appendChild(exportWrapper);
+      document.body.appendChild(tempContainer);
+
+      exportJpgBtn.disabled = true;
+      const originalText = exportJpgBtn.textContent;
+      exportJpgBtn.textContent = 'Đang xuất...';
+
+      let html2canvasLib;
+      try {
+        html2canvasLib = await loadHtml2canvas();
+      } catch (error) {
+        window.alert('Không tải được công cụ xuất ảnh. Vui lòng thử lại.');
+        tempContainer.remove();
+        exportJpgBtn.disabled = false;
+        exportJpgBtn.textContent = originalText;
+        return;
+      }
+
+      try {
+        const contentCanvas = await html2canvasLib(exportWrapper, {
+          backgroundColor: '#ffffff',
+          scale: 2,
+          useCORS: true,
+          allowTaint: true,
+        });
+
+        const a4Width = 2480;
+        const a4Height = 3508;
+        const scale = Math.min(a4Width / contentCanvas.width, a4Height / contentCanvas.height);
+        const finalCanvas = document.createElement('canvas');
+        finalCanvas.width = a4Width;
+        finalCanvas.height = a4Height;
+        const ctx = finalCanvas.getContext('2d');
+        ctx.fillStyle = '#ffffff';
+        ctx.fillRect(0, 0, a4Width, a4Height);
+        const targetWidth = Math.round(contentCanvas.width * scale);
+        const targetHeight = Math.round(contentCanvas.height * scale);
+        const offsetX = Math.round((a4Width - targetWidth) / 2);
+        const offsetY = Math.round((a4Height - targetHeight) / 2);
+        ctx.drawImage(contentCanvas, 0, 0, contentCanvas.width, contentCanvas.height, offsetX, offsetY, targetWidth, targetHeight);
+
+        if (finalCanvas.toBlob) {
+          finalCanvas.toBlob((blob) => {
+            if (!blob) {
+              throw new Error('Không tạo được blob ảnh.');
+            }
+            downloadBlob(blob, 'wheel-of-life.jpg');
+          }, 'image/jpeg', 0.95);
+        } else {
+          const dataUrl = finalCanvas.toDataURL('image/jpeg', 0.95);
+          downloadDataUrl(dataUrl, 'wheel-of-life.jpg');
+        }
+      } catch (error) {
+        window.alert('Xuất JPG không thành công. Hãy thử lại sau.');
+        console.error(error);
+      } finally {
+        tempContainer.remove();
+        exportJpgBtn.disabled = false;
+        exportJpgBtn.textContent = originalText;
+      }
+    }
+
+    exportJpgBtn.addEventListener('click', exportPageAsJpg);
+
+    seedPresetState();
+    initDomainTabs();
+    renderTemplates();
+    renderControls();
+    drawWheel();
+    buildQuickInsights();
+  </script>
+</body>
+</html>

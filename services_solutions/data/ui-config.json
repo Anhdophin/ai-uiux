@@ -1,0 +1,20 @@
+{
+  "animation": {
+    "group_stagger_ms": 140,
+    "item_stagger_ms": 70,
+    "group_translate_y_min": 24,
+    "group_translate_y_max": 48,
+    "item_translate_y_min": 16,
+    "item_translate_y_max": 36,
+    "allow_controlled_random": true
+  },
+  "detail_panel": {
+    "mode": "side-panel",
+    "close_on_backdrop": true,
+    "close_on_escape": true
+  },
+  "layout": {
+    "desktop_group_columns": 3,
+    "mobile_role_cards_scroll": true
+  }
+}

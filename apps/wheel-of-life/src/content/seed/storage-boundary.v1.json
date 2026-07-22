@@ -1,0 +1,37 @@
+{
+  "version": "v1",
+  "zones": [
+    {
+      "id": "session_store",
+      "label_key": "storage.zone.session_store",
+      "contains": [
+        "working_session_state",
+        "trail",
+        "resume_checkpoint"
+      ]
+    },
+    {
+      "id": "memory_store",
+      "label_key": "storage.zone.memory_store",
+      "contains": [
+        "memory_snapshots",
+        "wheel_history",
+        "pattern_summaries"
+      ]
+    },
+    {
+      "id": "identity_store",
+      "label_key": "storage.zone.identity_store",
+      "contains": [
+        "identity_links",
+        "unlink_events",
+        "retention_events"
+      ]
+    }
+  ],
+  "boundaries": [
+    "sessions_do_not_store_raw_external_identity",
+    "memory_store_uses_profile_and_pseudonymous_keys_only",
+    "identity_store_is_the_only_local_join_layer"
+  ]
+}

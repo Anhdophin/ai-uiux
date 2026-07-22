@@ -1,6 +1,0 @@
-(function(){
-function mount(){ document.querySelectorAll('[data-background="wave-lines"]').forEach(host=>{ if(host.querySelector(':scope > .wave-lines-canvas')) return; const c=document.createElement('canvas'); c.className='wave-lines-canvas'; host.prepend(c); const ctx=c.getContext('2d'); let w=0,h=0,dpr=Math.min(window.devicePixelRatio||1,2), t=0;
-function resize(){ const r=host.getBoundingClientRect(); w=Math.max(1,Math.floor(r.width)); h=Math.max(1,Math.floor(r.height)); c.width=w*dpr; c.height=h*dpr; c.style.width=w+'px'; c.style.height=h+'px'; ctx.setTransform(dpr,0,0,dpr,0,0);} 
-function draw(){ t+=0.02; ctx.clearRect(0,0,w,h); const n=6; for(let i=0;i<n;i++){ const amp=28+i*4, freq=.012+i*.002; const y0=h*(.45 + i*.08); const grad=ctx.createLinearGradient(0,0,w,0); grad.addColorStop(0,'rgba(0,255,255,.1)'); grad.addColorStop(.5,'rgba(0,255,255,.92)'); grad.addColorStop(1,'rgba(255,0,255,.7)'); ctx.strokeStyle=grad; ctx.lineWidth=2; ctx.beginPath(); for(let x=0;x<=w;x+=4){ const y=y0 + Math.sin(x*freq + t*(1+i*.25))*amp; if(x===0) ctx.moveTo(x,y); else ctx.lineTo(x,y); } ctx.stroke(); } requestAnimationFrame(draw);} resize(); window.addEventListener('resize',resize,{passive:true}); requestAnimationFrame(draw); }); }
-if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',mount,{once:true}); else mount();
-})();

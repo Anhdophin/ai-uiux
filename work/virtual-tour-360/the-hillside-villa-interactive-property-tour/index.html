@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>THE HILLSIDE VILLA - Interactive Property Tour - Work</title>
+  <meta name="description" content="Demo case study for The Hillside Villa interactive 360 virtual tour.">
+  <link rel="stylesheet" href="../../../css/base.css">
+</head>
+<body>
+  <div id="subpage-header"></div>
+
+  <div id="project-case-root"></div>
+
+  <div id="subpage-footer"></div>
+  <script src="../../../shared/subpage-components.js"></script>
+  <script type="module">
+    import { renderProjectCase } from '../../shared/project-case-template.js';
+    import { hillsideVillaVirtualTourProject } from '../../data/projects/the-hillside-villa-interactive-property-tour.js';
+
+    const mount = document.getElementById('project-case-root');
+    if (mount) {
+      mount.innerHTML = renderProjectCase(hillsideVillaVirtualTourProject);
+    }
+  </script>
+</body>
+</html>

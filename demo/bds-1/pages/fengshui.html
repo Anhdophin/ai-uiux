@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tư vấn phong thủy — Thổ Kim Realty</title>
+  <meta name="description" content="Trang tư vấn phong thủy với công cụ tra cứu nhanh, gói giải pháp và các hướng tư vấn chuyên sâu.">
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/utilities.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+  <script defer src="../data/site-content.js"></script>
+  <script defer src="../assets/js/component-loader.js"></script>
+  <script defer src="../assets/js/navigation.js"></script>
+  <script defer src="../assets/js/interactions.js"></script>
+  <script defer src="../assets/js/main.js"></script>
+</head>
+<body data-page="fengshui">
+  <header class="site-header" data-include="../components/site-header.html"></header>
+  <main>
+    <section class="page-hero section section--compact">
+      <div class="container">
+        <div class="page-hero__card split-layout">
+          <div class="stack">
+            <p class="section__eyebrow">Tư vấn phong thủy</p>
+            <h1>Xem nhanh cung mệnh, nhóm hướng hợp và cách bố trí không gian.</h1>
+            <p>Trang này được thiết kế như landing trọng điểm để thể hiện khác biệt dịch vụ. Có thể nối thêm API, data logic chuyên sâu hoặc chatbot tư vấn ở bước phát triển sau.</p>
+          </div>
+          <div class="surface-card surface-card--padded lookup-panel">
+            <form class="lookup-panel__form" data-lookup-form>
+              <div>
+                <label for="birthdate">Ngày sinh</label>
+                <input id="birthdate" name="birthdate" type="date" required>
+              </div>
+              <div>
+                <label for="gender">Giới tính</label>
+                <select id="gender" name="gender" required>
+                  <option value="">Chọn</option>
+                  <option value="male">Nam</option>
+                  <option value="female">Nữ</option>
+                </select>
+              </div>
+              <div>
+                <label for="goal">Nhu cầu</label>
+                <select id="goal" name="goal">
+                  <option>Mua nhà</option>
+                  <option>Xây nhà</option>
+                  <option>Cải tạo</option>
+                </select>
+              </div>
+              <div class="cluster" style="align-items:end;">
+                <button class="button button--primary" type="submit">Xem kết quả</button>
+              </div>
+            </form>
+            <div class="lookup-result" data-lookup-result></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container card-grid">
+        <article class="service-card stack">
+          <p class="card__eyebrow">Giải pháp 01</p>
+          <h3>Xem hướng nhà hợp tuổi</h3>
+          <p>Phù hợp khách hàng đang cân nhắc nhiều dự án cùng lúc và cần sàng lọc nhanh trước khi đi xem thực tế.</p>
+        </article>
+        <article class="service-card stack">
+          <p class="card__eyebrow">Giải pháp 02</p>
+          <h3>Bố trí nội thất theo mệnh</h3>
+          <p>Dùng cho giai đoạn sau mua nhà: phân khu phòng khách, bếp, phòng ngủ và hướng đặt bàn làm việc.</p>
+        </article>
+        <article class="service-card stack">
+          <p class="card__eyebrow">Giải pháp 03</p>
+          <h3>Hóa giải thế xấu mềm</h3>
+          <p>Đề xuất vật phẩm, cây xanh, gương hoặc điều chỉnh công năng để cải thiện trường hợp không thể sửa cấu trúc lớn.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section parallax-section" data-parallax>
+      <div class="parallax-layer parallax-layer--base" data-depth="0.24"></div>
+      <div class="parallax-layer parallax-layer--glow" data-depth="0.16"></div>
+      <div class="parallax-layer parallax-layer--pattern" data-depth="0.06"></div>
+      <div class="container">
+        <div class="parallax-panel stack">
+          <p class="section__eyebrow">Phong thủy ứng dụng</p>
+          <h2>Tư vấn theo ngữ cảnh sống thật, thay vì chỉ đưa khái niệm chung chung.</h2>
+          <p>Đây là vùng visual kể chuyện để nhấn mạnh tone thương hiệu: điềm tĩnh, sang, có chuyên môn và không huyền bí hóa quá mức.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--compact">
+      <div class="container">
+        <div class="contact-panel">
+          <div class="contact-details">
+            <div class="contact-item"><strong>Gói tư vấn cá nhân</strong><p>Phù hợp khách mua để ở, cần xem tuổi và hướng nhà trước khi chốt cọc.</p></div>
+            <div class="contact-item"><strong>Gói bố trí nội thất</strong><p>Cho căn hộ, nhà phố, biệt thự đang chuẩn bị nhận bàn giao hoặc sửa chữa.</p></div>
+            <div class="contact-item"><strong>Gói khảo sát thế đất</strong><p>Dành cho khách mua đất nền và khách hàng muốn xây nhà mới.</p></div>
+          </div>
+          <div class="surface-card surface-card--padded">
+            <form class="contact-form">
+              <div class="contact-form__grid">
+                <div><label for="name">Họ tên</label><input id="name" type="text" placeholder="Tên của anh/chị"></div>
+                <div><label for="phone">Số điện thoại</label><input id="phone" type="tel" placeholder="0909..."></div>
+              </div>
+              <div class="contact-form__grid">
+                <div><label for="property-type">Loại hình</label><select id="property-type"><option>Căn hộ</option><option>Nhà phố</option><option>Đất nền</option><option>Biệt thự</option></select></div>
+                <div><label for="need-time">Thời điểm cần tư vấn</label><select id="need-time"><option>Trong 24h</option><option>Trong tuần này</option><option>Đang tìm hiểu</option></select></div>
+              </div>
+              <div><label for="note">Nhu cầu cụ thể</label><textarea id="note" placeholder="Ví dụ: cần xem hướng căn hộ, bố cục bếp, ngày phù hợp ký hợp đồng..."></textarea></div>
+              <button class="button button--primary" type="submit">Gửi yêu cầu tư vấn</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" data-include="../components/site-footer.html"></footer>
+</body>
+</html>

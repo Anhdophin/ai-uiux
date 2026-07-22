@@ -1,0 +1,922 @@
+{
+  "profile_key": "en-25-29-male-working-early-working_few_years",
+  "snapshots": [
+    {
+      "snapshot_id": "mem_b8d0b0402383",
+      "source_session_id": "sess_a0df3ee4c7f7",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:11:27.117832Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career"
+      ],
+      "trail_event_ids": [
+        "evt_feb3d26607d8",
+        "evt_7e494b90d17c",
+        "evt_35b790b7bb58"
+      ]
+    },
+    {
+      "snapshot_id": "mem_024f14bb8a92",
+      "source_session_id": "sess_12763b51af5c",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:11:27.135239Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future",
+        "ud_roadmap"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career",
+        "life_system"
+      ],
+      "trail_event_ids": [
+        "evt_e61b1c1fa1d2",
+        "evt_804a6586ab74",
+        "evt_df722f4c564c",
+        "evt_f329a3c7a9e7"
+      ]
+    },
+    {
+      "snapshot_id": "mem_aa955b076dca",
+      "source_session_id": "sess_3127d8ef35ee",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:11:27.138434Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future",
+        "ud_roadmap"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career",
+        "life_system"
+      ],
+      "trail_event_ids": [
+        "evt_6fe2c41c8f94",
+        "evt_866f1bcd5456",
+        "evt_02ee0ee3a10c",
+        "evt_9c8049b38ff4"
+      ]
+    },
+    {
+      "snapshot_id": "mem_f0d4d4a9362f",
+      "source_session_id": "sess_de79994e0d23",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:11:27.140206Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future",
+        "ud_roadmap"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career",
+        "life_system"
+      ],
+      "trail_event_ids": [
+        "evt_f90954d5dc91",
+        "evt_3c0b3d09498c",
+        "evt_74c32b5f70c8",
+        "evt_be60a5681e3b"
+      ]
+    },
+    {
+      "snapshot_id": "mem_af5b1bb984d5",
+      "source_session_id": "sess_623cbb133a90",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:15:56.429177Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career"
+      ],
+      "trail_event_ids": [
+        "evt_770231b1ac27",
+        "evt_c80152d2878a",
+        "evt_d68c9ff0b06e"
+      ]
+    },
+    {
+      "snapshot_id": "mem_23e665902db5",
+      "source_session_id": "sess_f4fad5e3271f",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:15:56.460690Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future",
+        "ud_roadmap"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career",
+        "life_system"
+      ],
+      "trail_event_ids": [
+        "evt_9ed4e90cb716",
+        "evt_c562d9932e79",
+        "evt_411e7d1ca1a1",
+        "evt_719e3d02f94b"
+      ]
+    },
+    {
+      "snapshot_id": "mem_03d239d3f55c",
+      "source_session_id": "sess_218c58e22b3f",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:15:56.464150Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future",
+        "ud_roadmap"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career",
+        "life_system"
+      ],
+      "trail_event_ids": [
+        "evt_950b23ad86f8",
+        "evt_3a2697487025",
+        "evt_3d8434f572ac",
+        "evt_398b28c49670"
+      ]
+    },
+    {
+      "snapshot_id": "mem_16bd900d397e",
+      "source_session_id": "sess_2153f0b782da",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:15:56.466174Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future",
+        "ud_roadmap"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career",
+        "life_system"
+      ],
+      "trail_event_ids": [
+        "evt_81b256e93d8c",
+        "evt_bf1b1185d171",
+        "evt_9a4590fecb6d",
+        "evt_199fb3cf82c8"
+      ]
+    },
+    {
+      "snapshot_id": "mem_9b6bdf33cba2",
+      "source_session_id": "sess_2b3de1b11ab1",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:16:34.237195Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career"
+      ],
+      "trail_event_ids": [
+        "evt_f5cbfe4152e0",
+        "evt_67b21cb662d4",
+        "evt_3ca5d4da44d9"
+      ]
+    },
+    {
+      "snapshot_id": "mem_bc05a7d16bb9",
+      "source_session_id": "sess_3c3bbe4e4a7b",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:16:34.271660Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future",
+        "ud_roadmap"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career",
+        "life_system"
+      ],
+      "trail_event_ids": [
+        "evt_3de45ffc74cb",
+        "evt_9cfdaeef531a",
+        "evt_af718540a86d",
+        "evt_7e8bb6a533b2"
+      ]
+    },
+    {
+      "snapshot_id": "mem_b30d87886d15",
+      "source_session_id": "sess_826b492f09dc",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:16:34.275574Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future",
+        "ud_roadmap"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career",
+        "life_system"
+      ],
+      "trail_event_ids": [
+        "evt_de62fa7d54a5",
+        "evt_837aaadf6468",
+        "evt_5920213a5d6e",
+        "evt_9c4a338c0b77"
+      ]
+    },
+    {
+      "snapshot_id": "mem_e70db3a97258",
+      "source_session_id": "sess_28bd750fb7f2",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:16:34.279794Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future",
+        "ud_roadmap"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career",
+        "life_system"
+      ],
+      "trail_event_ids": [
+        "evt_ceec11a8b2c2",
+        "evt_38fa75e68474",
+        "evt_eb48886634c7",
+        "evt_16663308b4bf"
+      ]
+    },
+    {
+      "snapshot_id": "mem_c504e24cfda4",
+      "source_session_id": "sess_eb857fcd364b",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:27:01.411592Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career"
+      ],
+      "trail_event_ids": [
+        "evt_285f10cf9de2",
+        "evt_f7f92194e5ab",
+        "evt_37cf8415534d"
+      ]
+    },
+    {
+      "snapshot_id": "mem_6623b1e8e668",
+      "source_session_id": "sess_c54edb3b4de3",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:27:01.474512Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future",
+        "ud_roadmap"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career",
+        "life_system"
+      ],
+      "trail_event_ids": [
+        "evt_68b9e432e152",
+        "evt_9859575b1536",
+        "evt_049efa13196f",
+        "evt_a892d1cde900"
+      ]
+    },
+    {
+      "snapshot_id": "mem_42db1177abb9",
+      "source_session_id": "sess_139602b5dee0",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:27:01.478169Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future",
+        "ud_roadmap"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career",
+        "life_system"
+      ],
+      "trail_event_ids": [
+        "evt_c4df0a6dce9d",
+        "evt_0a436b045a11",
+        "evt_accf5e6b606f",
+        "evt_a136f5613f12"
+      ]
+    },
+    {
+      "snapshot_id": "mem_9b7d3889c422",
+      "source_session_id": "sess_5f5c49390a2f",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:27:01.482742Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future",
+        "ud_roadmap"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career",
+        "life_system"
+      ],
+      "trail_event_ids": [
+        "evt_a6b1a414b52b",
+        "evt_f9686f83d3f5",
+        "evt_ca9832b99f17",
+        "evt_a0fc5f6297d0"
+      ]
+    },
+    {
+      "snapshot_id": "mem_8f40c1b03277",
+      "source_session_id": "sess_be57f2f35d6b",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:27:33.424555Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career"
+      ],
+      "trail_event_ids": [
+        "evt_9ed79acf7389",
+        "evt_d2c7dc70a2e4",
+        "evt_a3a09c9a68f7"
+      ]
+    },
+    {
+      "snapshot_id": "mem_dedfb94fa1de",
+      "source_session_id": "sess_97f51e5a4d00",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:27:33.489889Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future",
+        "ud_roadmap"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career",
+        "life_system"
+      ],
+      "trail_event_ids": [
+        "evt_2e32353f41a6",
+        "evt_3d9f07af26d4",
+        "evt_36ec4b606a95",
+        "evt_280b6062006d"
+      ]
+    },
+    {
+      "snapshot_id": "mem_21647867a3b6",
+      "source_session_id": "sess_f69fc274c228",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:27:33.494068Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future",
+        "ud_roadmap"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career",
+        "life_system"
+      ],
+      "trail_event_ids": [
+        "evt_641f7bd5cfdc",
+        "evt_5c9f86ad9d07",
+        "evt_db15d106b74d",
+        "evt_ec7130e26dc1"
+      ]
+    },
+    {
+      "snapshot_id": "mem_d692f59a64ae",
+      "source_session_id": "sess_f0aaf993cfaa",
+      "profile_key": "en-25-29-male-working-early-working_few_years",
+      "captured_at": "2026-04-04T23:27:33.496845Z",
+      "selected_feeling": "unclear_direction",
+      "keyword_ids": [
+        "unclear_direction",
+        "ud_future",
+        "ud_roadmap"
+      ],
+      "top_life_area_ids": [
+        "direction",
+        "career",
+        "life_system"
+      ],
+      "trail_event_ids": [
+        "evt_ea1b32498304",
+        "evt_e5c986450d05",
+        "evt_0a4e50d12f36",
+        "evt_22536e841d6b"
+      ]
+    }
+  ],
+  "wheel_history": [
+    {
+      "snapshot_id": "mem_b8d0b0402383",
+      "source_session_id": "sess_a0df3ee4c7f7",
+      "captured_at": "2026-04-04T23:11:27.117832Z",
+      "life_area_scores": {
+        "direction": 11.0,
+        "career": 9.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_024f14bb8a92",
+      "source_session_id": "sess_12763b51af5c",
+      "captured_at": "2026-04-04T23:11:27.135239Z",
+      "life_area_scores": {
+        "direction": 15.0,
+        "career": 12.0,
+        "life_system": 3.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "life_system": [
+          "ud_roadmap"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_aa955b076dca",
+      "source_session_id": "sess_3127d8ef35ee",
+      "captured_at": "2026-04-04T23:11:27.138434Z",
+      "life_area_scores": {
+        "direction": 15.0,
+        "career": 12.0,
+        "life_system": 3.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "life_system": [
+          "ud_roadmap"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_f0d4d4a9362f",
+      "source_session_id": "sess_de79994e0d23",
+      "captured_at": "2026-04-04T23:11:27.140206Z",
+      "life_area_scores": {
+        "direction": 15.0,
+        "career": 12.0,
+        "life_system": 3.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "life_system": [
+          "ud_roadmap"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_af5b1bb984d5",
+      "source_session_id": "sess_623cbb133a90",
+      "captured_at": "2026-04-04T23:15:56.429177Z",
+      "life_area_scores": {
+        "direction": 11.0,
+        "career": 9.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_23e665902db5",
+      "source_session_id": "sess_f4fad5e3271f",
+      "captured_at": "2026-04-04T23:15:56.460690Z",
+      "life_area_scores": {
+        "direction": 15.0,
+        "career": 12.0,
+        "life_system": 3.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "life_system": [
+          "ud_roadmap"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_03d239d3f55c",
+      "source_session_id": "sess_218c58e22b3f",
+      "captured_at": "2026-04-04T23:15:56.464150Z",
+      "life_area_scores": {
+        "direction": 15.0,
+        "career": 12.0,
+        "life_system": 3.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "life_system": [
+          "ud_roadmap"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_16bd900d397e",
+      "source_session_id": "sess_2153f0b782da",
+      "captured_at": "2026-04-04T23:15:56.466174Z",
+      "life_area_scores": {
+        "direction": 15.0,
+        "career": 12.0,
+        "life_system": 3.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "life_system": [
+          "ud_roadmap"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_9b6bdf33cba2",
+      "source_session_id": "sess_2b3de1b11ab1",
+      "captured_at": "2026-04-04T23:16:34.237195Z",
+      "life_area_scores": {
+        "direction": 11.0,
+        "career": 9.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_bc05a7d16bb9",
+      "source_session_id": "sess_3c3bbe4e4a7b",
+      "captured_at": "2026-04-04T23:16:34.271660Z",
+      "life_area_scores": {
+        "direction": 15.0,
+        "career": 12.0,
+        "life_system": 3.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "life_system": [
+          "ud_roadmap"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_b30d87886d15",
+      "source_session_id": "sess_826b492f09dc",
+      "captured_at": "2026-04-04T23:16:34.275574Z",
+      "life_area_scores": {
+        "direction": 15.0,
+        "career": 12.0,
+        "life_system": 3.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "life_system": [
+          "ud_roadmap"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_e70db3a97258",
+      "source_session_id": "sess_28bd750fb7f2",
+      "captured_at": "2026-04-04T23:16:34.279794Z",
+      "life_area_scores": {
+        "direction": 15.0,
+        "career": 12.0,
+        "life_system": 3.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "life_system": [
+          "ud_roadmap"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_c504e24cfda4",
+      "source_session_id": "sess_eb857fcd364b",
+      "captured_at": "2026-04-04T23:27:01.411592Z",
+      "life_area_scores": {
+        "direction": 11.0,
+        "career": 9.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_6623b1e8e668",
+      "source_session_id": "sess_c54edb3b4de3",
+      "captured_at": "2026-04-04T23:27:01.474512Z",
+      "life_area_scores": {
+        "direction": 15.0,
+        "career": 12.0,
+        "life_system": 3.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "life_system": [
+          "ud_roadmap"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_42db1177abb9",
+      "source_session_id": "sess_139602b5dee0",
+      "captured_at": "2026-04-04T23:27:01.478169Z",
+      "life_area_scores": {
+        "direction": 15.0,
+        "career": 12.0,
+        "life_system": 3.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "life_system": [
+          "ud_roadmap"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_9b7d3889c422",
+      "source_session_id": "sess_5f5c49390a2f",
+      "captured_at": "2026-04-04T23:27:01.482742Z",
+      "life_area_scores": {
+        "direction": 15.0,
+        "career": 12.0,
+        "life_system": 3.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "life_system": [
+          "ud_roadmap"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_8f40c1b03277",
+      "source_session_id": "sess_be57f2f35d6b",
+      "captured_at": "2026-04-04T23:27:33.424555Z",
+      "life_area_scores": {
+        "direction": 11.0,
+        "career": 9.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_dedfb94fa1de",
+      "source_session_id": "sess_97f51e5a4d00",
+      "captured_at": "2026-04-04T23:27:33.489889Z",
+      "life_area_scores": {
+        "direction": 15.0,
+        "career": 12.0,
+        "life_system": 3.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "life_system": [
+          "ud_roadmap"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_21647867a3b6",
+      "source_session_id": "sess_f69fc274c228",
+      "captured_at": "2026-04-04T23:27:33.494068Z",
+      "life_area_scores": {
+        "direction": 15.0,
+        "career": 12.0,
+        "life_system": 3.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "life_system": [
+          "ud_roadmap"
+        ]
+      }
+    },
+    {
+      "snapshot_id": "mem_d692f59a64ae",
+      "source_session_id": "sess_f0aaf993cfaa",
+      "captured_at": "2026-04-04T23:27:33.496845Z",
+      "life_area_scores": {
+        "direction": 15.0,
+        "career": 12.0,
+        "life_system": 3.0
+      },
+      "evidence_keyword_ids": {
+        "direction": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "career": [
+          "unclear_direction",
+          "ud_future",
+          "ud_roadmap"
+        ],
+        "life_system": [
+          "ud_roadmap"
+        ]
+      }
+    }
+  ]
+}

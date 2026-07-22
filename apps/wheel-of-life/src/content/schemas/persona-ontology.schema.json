@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PersonaOntology",
+  "type": "object",
+  "required": [
+    "version",
+    "updated_at",
+    "age_bands",
+    "genders",
+    "life_stages",
+    "career_stages",
+    "goal_tags",
+    "pressure_tags",
+    "blind_spot_tags",
+    "ai_tone_hints"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "age_bands": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "genders": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "life_stages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "career_stages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "goal_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pressure_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "blind_spot_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ai_tone_hints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

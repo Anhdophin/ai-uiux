@@ -55,6 +55,61 @@ function floatingIcons(apps) {
   }).join('');
 }
 
+function resetFloatingIcons(icons) {
+  icons.forEach((icon) => {
+    icon.style.transform = '';
+  });
+}
+
+function initFloatingIconMotion() {
+  const hero = document.querySelector('.apps-hub-hero');
+  if (!hero) return;
+
+  const icons = Array.from(hero.querySelectorAll('.floating-icon'));
+  if (!icons.length) return;
+
+  const searchRegion = hero.querySelector('.apps-hub-search');
+  const motionMap = [
+    { x: -12, y: -10, rotate: -4 },
+    { x: -10, y: 12, rotate: 5 },
+    { x: 12, y: -8, rotate: -5 },
+    { x: 10, y: 10, rotate: 4 },
+    { x: -8, y: -6, rotate: 3 },
+    { x: 8, y: -6, rotate: -3 },
+  ];
+
+  function shouldSuspendMotion() {
+    return !!(searchRegion && searchRegion.contains(document.activeElement));
+  }
+
+  hero.addEventListener('pointermove', (event) => {
+    if (shouldSuspendMotion()) {
+      resetFloatingIcons(icons);
+      return;
+    }
+
+    const rect = hero.getBoundingClientRect();
+    const offsetX = ((event.clientX - rect.left) / rect.width - 0.5) * 2;
+    const offsetY = ((event.clientY - rect.top) / rect.height - 0.5) * 2;
+
+    icons.forEach((icon, index) => {
+      const motion = motionMap[index] || motionMap[motionMap.length - 1];
+      const moveX = (motion.x * offsetX).toFixed(2);
+      const moveY = (motion.y * offsetY).toFixed(2);
+      const rotate = (motion.rotate * offsetX).toFixed(2);
+      icon.style.transform = `translate3d(${moveX}px, ${moveY}px, 0) rotate(${rotate}deg)`;
+    });
+  });
+
+  hero.addEventListener('pointerleave', () => {
+    resetFloatingIcons(icons);
+  });
+
+  searchRegion?.addEventListener('focusin', () => {
+    resetFloatingIcons(icons);
+  });
+}
+
 function groupShelves(apps) {
   const map = new Map();
   apps.forEach((app) => {
@@ -77,11 +132,11 @@ function renderShelves(apps) {
   `).join('');
 }
 
-function renderPage(apps) {
+function renderPage(apps, floatingApps = apps) {
   return `
     <main class="page-home apps-hub-page">
       <section class="hero container apps-hub-hero">
-        <div class="hero-floating">${floatingIcons(apps)}</div>
+        <div class="hero-floating">${floatingIcons(floatingApps)}</div>
         <div class="hero-inner apps-hub-hero__inner">
           <p class="apps-hub-kicker">Mini Apps / Micro Tools</p>
           <h1>Nhỏ và Nhàn</h1>
@@ -104,42 +159,46 @@ function renderPage(apps) {
   `;
 }
 
+function filterApps(allApps, query) {
+  const q = normalize(query);
+  if (!q) return allApps;
+  return allApps.filter((app) => normalize(`${app.title} ${app.subtitle || ''} ${app.slug} ${app.group || ''}`).includes(q));
+}
+
+function updateResults(apps) {
+  const shelvesWrap = document.querySelector('#shelves-wrap');
+  if (shelvesWrap) {
+    shelvesWrap.innerHTML = renderShelves(apps);
+  }
+  const count = document.querySelector('[data-app-count]');
+  if (count) {
+    count.textContent = String(apps.length);
+  }
+}
+
 export async function initAppsHub(root = '..') {
   const mount = document.querySelector('#page-root');
   if (!mount) return;
   const response = await fetch(`${root}/data/apps.json`, { cache: 'no-store' });
   if (!response.ok) throw new Error('Không tải được data/apps.json');
   const allApps = await response.json();
+  const heroFloatingApps = allApps.slice(0, 6);
 
-  const paint = (apps) => {
-    mount.innerHTML = renderPage(apps);
-    const input = document.querySelector('#app-search');
-    input?.focus({ preventScroll: true });
-    input?.addEventListener('input', (event) => {
-      const q = normalize(event.target.value);
-      const filtered = !q ? allApps : allApps.filter((app) => normalize(`${app.title} ${app.subtitle || ''} ${app.slug} ${app.group || ''}`).includes(q));
-      paintFiltered(filtered, event.target.value);
-    }, { once: true });
-  };
+  mount.innerHTML = renderPage(allApps, heroFloatingApps);
+  initFloatingIconMotion();
 
-  const paintFiltered = (apps, value = '') => {
-    mount.innerHTML = renderPage(apps);
-    const input = document.querySelector('#app-search');
-    if (input) {
-      input.value = value;
-      input.addEventListener('input', (event) => {
-        const q = normalize(event.target.value);
-        const filtered = !q ? allApps : allApps.filter((app) => normalize(`${app.title} ${app.subtitle || ''} ${app.slug} ${app.group || ''}`).includes(q));
-        paintFiltered(filtered, event.target.value);
-      });
+  const input = document.querySelector('#app-search');
+  input?.focus({ preventScroll: true });
+
+  input?.addEventListener('input', (event) => {
+    const filtered = filterApps(allApps, event.target.value);
+    updateResults(filtered);
+  });
+
+  window.addEventListener('keydown', (event) => {
+    if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') {
+      event.preventDefault();
+      input?.focus();
     }
-    window.addEventListener('keydown', (event) => {
-      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') {
-        event.preventDefault();
-        input?.focus();
-      }
-    }, { once: true });
-  };
-
-  paintFiltered(allApps);
+  });
 }

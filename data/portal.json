@@ -3,5 +3,6 @@
   "tagline": "Chuyên trang các ứng dụng hữu ích cho doanh nghiệp và cá nhân.",
   "service_route": "services/",
   "shop_route": "shop/",
+  "blog_route": "blog/blog.html",
   "about_route": "services/about/"
 }

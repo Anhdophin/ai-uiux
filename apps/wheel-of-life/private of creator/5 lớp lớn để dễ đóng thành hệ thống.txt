@@ -1,0 +1,288 @@
+5 lớp lớn để dễ “đóng thành hệ thống”:
+
+1. LỚP NỀN: “BẢN ĐỒ ĐỜI NGƯỜI THỜI ĐẠI 2026”
+
+Đây là lớp context gốc, không phụ thuộc giới tính hay độ tuổi.
+
+1.1. Trục thực tại (Reality Axes)
+
+Người dùng hiện đại luôn bị kéo bởi 5 lực:
+
+Tốc độ (Speed) → AI, công nghệ, update liên tục
+Áp lực cạnh tranh (Competition) → global, remote, freelance
+Sự bất định (Uncertainty) → nghề biến mất, thị trường đổi
+Đa vai trò (Multi-role) → làm nhiều thứ cùng lúc
+So sánh xã hội (Social mirror) → mạng xã hội, FOMO
+
+👉 Đây là “lực nền” chi phối mọi quyết định.
+
+1.2. Trục nhu cầu (Core Needs Evolution)
+
+Không còn chỉ là Maslow cơ bản, mà biến thành:
+
+Sinh tồn nâng cao (income + stability + optionality)
+Năng lực thích nghi (learn – unlearn – relearn)
+Danh tính cá nhân (identity / personal brand)
+Ý nghĩa sống (purpose / direction)
+Hệ sinh thái hỗ trợ (network / family / environment)
+1.3. Trục rủi ro thời đại
+Sai nghề → mất 5–10 năm
+Không update → tụt hậu vĩnh viễn
+Burnout → mất khả năng phục hồi
+Quyết định sai lớn → khó quay đầu
+Lệch nhận thức → sống “tưởng là đúng”
+
+👉 Kết luận lớp 1:
+
+Đây là “gravity system” → mọi user đều nằm trong đó
+
+2. LỚP PHÂN TẦNG PERSONA (AGE × GENDER × STAGE)
+
+Đây là lớp quan trọng để tạo filter mở từ khóa
+
+2.1. Chia theo độ tuổi (core mindset shift)
+20–25 (Exploration Phase)
+Chưa rõ mình là ai
+Bị nhiễu thông tin mạnh
+Tìm direction
+25–30 (Foundation Phase)
+Bắt đầu xây nền
+So sánh với người khác
+Áp lực “chậm hay nhanh”
+30–35 (Stability vs Crisis Phase)
+Có nền → nhưng bắt đầu nghi ngờ
+Burnout / stuck / plateau
+35–40+ (Reconstruction Phase)
+Muốn reset / nâng cấp / ổn định lâu dài
+Quan tâm gia đình + tài chính sâu
+2.2. Chia theo trạng thái nghề (Stage)
+Đang học
+Sắp ra trường
+Mới đi làm
+Đi làm vài năm
+Senior / Manager
+Muốn đổi nghề
+Muốn kinh doanh
+Đang kinh doanh
+Muốn mở rộng / scale
+2.3. Chia theo giới tính (để refine insight)
+Nam (tendency)
+Áp lực tài chính cao hơn
+Bản ngã gắn với thành tựu
+Khó chia sẻ yếu điểm
+Nữ (tendency)
+Cân bằng nhiều vai (gia đình – công việc)
+Nhạy cảm với môi trường
+Áp lực timeline (tuổi – gia đình)
+
+👉 Khi combine:
+
+AGE × STAGE × GENDER = PERSONA NODE
+
+Ví dụ:
+
+Nam 27 – mới đi làm → “áp lực chứng minh bản thân”
+Nữ 32 – muốn đổi nghề → “sợ reset + lo tài chính”
+3. LỚP “ENTRY POINT” – BẮT ĐẦU TỪ CẢM NHẬN
+
+Đây là phần cực quan trọng cho app của anh.
+
+Không bắt đầu từ logic → mà bắt đầu từ cảm nhận thực tế
+
+3.1. Nhóm cảm nhận cấp 1 (user chọn đầu tiên)
+Mơ hồ / không rõ hướng
+Áp lực / stress
+Chán / mất động lực
+So sánh / tự ti
+Ổn nhưng không phát triển
+Muốn nhiều hơn nhưng không biết làm gì
+Muốn đổi nhưng sợ
+Đang tốt nhưng lo tương lai
+Muốn xây cái gì đó riêng
+3.2. Mapping sang “vấn đề thật”
+
+Ví dụ:
+
+“Chán” → có thể là:
+Sai môi trường
+Không có growth
+Burnout nhẹ
+“Mơ hồ” →
+Thiếu exposure
+Thiếu framework ra quyết định
+
+👉 Đây là nơi AI cần tham gia để “dịch cảm xúc → vấn đề”
+
+4. LỚP ĐÀO SÂU – HỆ TỪ KHÓA PHÂN NHÁNH
+
+Đây là phần anh cần để build tool dạng card + flow.
+
+4.1. Các trục chính (Wheel of Life nâng cấp)
+
+Không dùng bản cũ chung chung → mà refine lại:
+
+1. Sự nghiệp (Career Reality)
+Skill thật vs skill ảo
+Giá trị trên thị trường
+Đường đi nghề
+2. Tài chính (Financial System)
+Income
+Cashflow
+Risk
+Asset
+3. Năng lực cá nhân (Capability Stack)
+Learning ability
+Thinking system
+Execution
+4. Tâm lý – nội lực (Inner System)
+Self-worth
+Emotional control
+Stress handling
+5. Quan hệ – môi trường (Environment)
+Network
+Gia đình
+Bạn bè
+Workplace
+6. Sức khỏe (Energy System)
+Physical
+Mental
+Lifestyle
+7. Định hướng – ý nghĩa (Direction)
+Purpose
+Identity
+Long-term vision
+8. Hệ thống sống (Life Architecture)
+Routine
+System cá nhân
+Productivity setup
+4.2. Từ khóa cấp 2 (cụ thể hóa)
+
+Ví dụ:
+
+Career
+“không tăng lương”
+“không học được gì”
+“công việc lặp lại”
+“không thấy tương lai”
+Finance
+“không tiết kiệm được”
+“không hiểu đầu tư”
+“thu nhập bấp bênh”
+4.3. Từ khóa cấp 3 (rất cụ thể – dùng để chấm điểm)
+
+Ví dụ:
+
+“Làm 2 năm nhưng không tăng skill”
+“Không biết mình mạnh gì”
+“Sợ apply job mới”
+“Không dám đòi lương”
+
+👉 Đây chính là nơi:
+
+từ khóa = nhận diện bản thân
+
+5. LỚP MA TRẬN LIÊN KẾT (QUAN TRỌNG NHẤT)
+
+Đây là thứ giúp hệ thống không bị rời rạc.
+
+5.1. Cross-link giữa các trục
+
+Ví dụ:
+
+Career yếu → Finance yếu
+Finance yếu → Stress tăng
+Stress → mất năng lượng
+Mất năng lượng → không học được
+Không học → Career tiếp tục yếu
+
+👉 tạo thành vòng lặp
+
+5.2. Mapping dạng graph
+[Feeling]
+   ↓
+[Problem Cluster]
+   ↓
+[Life Area]
+   ↓
+[Sub Issue]
+   ↓
+[Root Cause]
+   ↓
+[Suggested Direction]
+5.3. Ví dụ flow thực tế
+
+User chọn:
+
+→ “Chán công việc”
+
+Hệ thống mở:
+
+Có phải do:
+Không học được gì
+Không thấy tương lai
+Lặp lại
+Môi trường toxic
+
+User chọn:
+
+→ “Không thấy tương lai”
+
+Mở tiếp:
+
+Vì:
+Không có lộ trình
+Không hiểu ngành
+Không có mentor
+
+👉 Đây chính là “coaching flow bằng từ khóa”
+
+6. KẾT NỐI VỚI AI (TẦM CAO ANH MUỐN)
+
+Khi user đi đến 1 node cụ thể:
+
+AI sẽ:
+
+6.1. Phân tích
+Đây là vấn đề phổ biến hay hiếm
+Mức độ nghiêm trọng
+6.2. So sánh
+Người cùng persona thường gặp gì
+6.3. Gợi ý
+Hướng đi
+Lựa chọn
+Trade-off
+6.4. Khai vấn tiếp
+Đặt câu hỏi ngược lại
+7. TỔNG KẾT – KHUNG ĐỂ BUILD APP
+
+Anh có thể convert thành:
+
+STRUCTURE
+LAYER 1: Reality Context
+LAYER 2: Persona Filter
+LAYER 3: Feeling Entry
+LAYER 4: Keyword Tree
+LAYER 5: Wheel of Life Mapping
+LAYER 6: AI Expansion
+CORE LOGIC
+Không bắt đầu từ “lý thuyết”
+Bắt đầu từ “cảm nhận thật”
+Đi dần vào “nhận diện”
+Sau đó mới tới “phân tích”
+Cuối cùng mới “định hướng”
+8. GỢI Ý CHO DESIGN TOOL (RẤT HỢP VỚI ANH)
+UI dạng:
+Card
+Icon-first
+Chọn → mở layer tiếp
+Không show toàn bộ
+→ buộc user “khám phá”
+Có:
+breadcrumb (để quay lại)
+history (để lưu hành trình nhận thức)
+9. ĐIỂM QUAN TRỌNG NHẤT (EM NHẤN MẠNH)
+
+Cái này anh đang đi đúng hướng:
+
+Người dùng KHÔNG cần câu trả lời ngay
+→ họ cần được dẫn tới đúng câu hỏi

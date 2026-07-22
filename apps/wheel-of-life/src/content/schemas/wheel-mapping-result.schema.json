@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WheelMappingResult",
+  "description": "Foundation schema placeholder for explainable wheel results.",
+  "type": "object",
+  "required": ["life_area_id", "score", "evidence"],
+  "properties": {
+    "life_area_id": {"type": "string"},
+    "score": {"type": "number"},
+    "confidence": {"type": "number"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["node_id", "weight"],
+        "properties": {
+          "node_id": {"type": "string"},
+          "weight": {"type": "number"},
+          "rule_id": {"type": "string"}
+        }
+      }
+    }
+  }
+}

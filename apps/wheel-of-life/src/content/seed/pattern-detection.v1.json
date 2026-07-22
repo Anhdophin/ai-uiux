@@ -1,0 +1,21 @@
+{
+  "version": "v1",
+  "pattern_types": [
+    {
+      "id": "recurring_focus",
+      "label_key": "pattern.type.recurring_focus"
+    },
+    {
+      "id": "persistent_wheel_pressure",
+      "label_key": "pattern.type.persistent_wheel_pressure"
+    },
+    {
+      "id": "stability_signal",
+      "label_key": "pattern.type.stability_signal"
+    },
+    {
+      "id": "oscillation_signal",
+      "label_key": "pattern.type.oscillation_signal"
+    }
+  ]
+}

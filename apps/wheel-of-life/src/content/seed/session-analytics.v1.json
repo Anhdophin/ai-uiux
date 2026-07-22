@@ -1,0 +1,25 @@
+{
+  "version": "v1",
+  "compact_after_events": 8,
+  "keep_recent_events": 5,
+  "resume_max_recent_events": 4,
+  "engagement_stage_thresholds": {
+    "early_max_events": 4,
+    "active_max_events": 9,
+    "deep_min_events": 10
+  },
+  "resume_actions": [
+    {
+      "id": "continue_keyword_exploration",
+      "label_key": "resume.action.continue_keywords"
+    },
+    {
+      "id": "refresh_ai_prompt",
+      "label_key": "resume.action.refresh_prompt"
+    },
+    {
+      "id": "review_wheel_preview",
+      "label_key": "resume.action.review_wheel"
+    }
+  ]
+}

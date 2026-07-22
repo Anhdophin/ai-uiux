@@ -1,0 +1,170 @@
+[
+  {
+    "id": "mnrkytzn",
+    "type": "blocked_form_payload",
+    "details": {
+      "valuePreview": "<img src=\"x\" onerror=\"alert(1)\">",
+      "field": "content"
+    },
+    "level": "warn",
+    "page": "http://127.0.0.1:8787/function_kit/security_kit/examples/demo-security.html",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.19041.6328",
+    "createdAt": "2026-04-09T14:36:48.083Z"
+  },
+  {
+    "id": "mnrkytzl",
+    "type": "blocked_form_payload",
+    "details": {
+      "valuePreview": "<img src=\"x\" onerror=\"alert(1)\">",
+      "field": "content"
+    },
+    "level": "warn",
+    "page": "http://127.0.0.1:8787/function_kit/security_kit/examples/demo-security.html",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.19041.6328",
+    "createdAt": "2026-04-09T14:36:48.081Z"
+  },
+  {
+    "id": "mnrkytzj",
+    "type": "blocked_form_payload",
+    "details": {
+      "valuePreview": "<img src=\"x\" onerror=\"alert(1)\">",
+      "field": "content"
+    },
+    "level": "warn",
+    "page": "http://127.0.0.1:8787/function_kit/security_kit/examples/demo-security.html",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.19041.6328",
+    "createdAt": "2026-04-09T14:36:48.079Z"
+  },
+  {
+    "id": "mnrkytzi",
+    "type": "blocked_form_payload",
+    "details": {
+      "valuePreview": "<img src=\"x\" onerror=\"alert(1)\">",
+      "field": "content"
+    },
+    "level": "warn",
+    "page": "http://127.0.0.1:8787/function_kit/security_kit/examples/demo-security.html",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.19041.6328",
+    "createdAt": "2026-04-09T14:36:48.078Z"
+  },
+  {
+    "id": "mnrkytzg",
+    "type": "blocked_form_payload",
+    "details": {
+      "valuePreview": "<img src=\"x\" onerror=\"alert(1)\">",
+      "field": "content"
+    },
+    "level": "warn",
+    "page": "http://127.0.0.1:8787/function_kit/security_kit/examples/demo-security.html",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.19041.6328",
+    "createdAt": "2026-04-09T14:36:48.076Z"
+  },
+  {
+    "id": "mnrkytze",
+    "type": "blocked_form_payload",
+    "details": {
+      "valuePreview": "<img src=\"x\" onerror=\"alert(1)\">",
+      "field": "content"
+    },
+    "level": "warn",
+    "page": "http://127.0.0.1:8787/function_kit/security_kit/examples/demo-security.html",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.19041.6328",
+    "createdAt": "2026-04-09T14:36:48.074Z"
+  },
+  {
+    "id": "mnrkytzc",
+    "type": "blocked_form_payload",
+    "details": {
+      "valuePreview": "<img src=\"x\" onerror=\"alert(1)\">",
+      "field": "content"
+    },
+    "level": "warn",
+    "page": "http://127.0.0.1:8787/function_kit/security_kit/examples/demo-security.html",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.19041.6328",
+    "createdAt": "2026-04-09T14:36:48.072Z"
+  },
+  {
+    "id": "mnrkytz8",
+    "type": "blocked_form_payload",
+    "details": {
+      "valuePreview": "<img src=\"x\" onerror=\"alert(1)\">",
+      "field": "content"
+    },
+    "level": "warn",
+    "page": "http://127.0.0.1:8787/function_kit/security_kit/examples/demo-security.html",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.19041.6328",
+    "createdAt": "2026-04-09T14:36:48.068Z"
+  },
+  {
+    "id": "mnrkhjlc",
+    "type": "blocked_form_payload",
+    "details": {
+      "field": "title",
+      "valuePreview": "<img src=\"x\" onerror=\"alert(1)\">"
+    },
+    "level": "warn",
+    "page": "http://127.0.0.1:8787/function_kit/security_kit/examples/demo-security.html",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "createdAt": "2026-04-09T14:23:21.456Z"
+  },
+  {
+    "id": "mnrkhilw",
+    "type": "blocked_form_payload",
+    "details": {
+      "field": "content",
+      "valuePreview": "<img src=\"x\" onerror=\"alert(1)\">"
+    },
+    "level": "warn",
+    "page": "http://127.0.0.1:8787/function_kit/security_kit/examples/demo-security.html",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "createdAt": "2026-04-09T14:23:20.180Z"
+  },
+  {
+    "id": "mnrkhgpy",
+    "type": "blocked_form_payload",
+    "details": {
+      "field": "content",
+      "valuePreview": "<img src=\"x\" onerror=\"alert(1)\">"
+    },
+    "level": "warn",
+    "page": "http://127.0.0.1:8787/function_kit/security_kit/examples/demo-security.html",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "createdAt": "2026-04-09T14:23:17.734Z"
+  },
+  {
+    "id": "mnrkheyc",
+    "type": "blocked_form_payload",
+    "details": {
+      "field": "content",
+      "valuePreview": "<img src=\"x\" onerror=\"alert(1)\">"
+    },
+    "level": "warn",
+    "page": "http://127.0.0.1:8787/function_kit/security_kit/examples/demo-security.html",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "createdAt": "2026-04-09T14:23:15.444Z"
+  },
+  {
+    "id": "mnrjk43u",
+    "type": "manual_test_event",
+    "details": {
+      "source": "terminal"
+    },
+    "level": "info",
+    "page": "local-test",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.19041.6328",
+    "createdAt": "2026-04-09T13:57:21.739Z"
+  }
+]

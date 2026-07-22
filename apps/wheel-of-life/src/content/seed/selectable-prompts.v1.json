@@ -1,0 +1,83 @@
+{
+  "version": "v1",
+  "prompt_packs": [
+    {
+      "id": "deepen_direction_blocked",
+      "mode": "deepen_selection",
+      "when": {
+        "selected_feelings": [
+          "unclear_direction",
+          "stuck"
+        ],
+        "selected_keywords_any": [
+          "ud_future",
+          "ud_roadmap",
+          "ud_strengths"
+        ]
+      },
+      "context_filters": {
+        "life_stages": [
+          "working",
+          "career_change",
+          "building_business"
+        ],
+        "pressures_any": [
+          "direction_pressure",
+          "career_pressure"
+        ]
+      },
+      "question_key": "prompt.deepen_selection.direction_blocked.question",
+      "option_keys": [
+        "prompt.deepen_selection.direction_blocked.option_1",
+        "prompt.deepen_selection.direction_blocked.option_2",
+        "prompt.deepen_selection.direction_blocked.option_3"
+      ],
+      "suggested_keyword_ids": [
+        "ud_future",
+        "ud_strengths",
+        "ud_roadmap"
+      ],
+      "priority": 90
+    },
+    {
+      "id": "deepen_pressure_focus",
+      "mode": "deepen_selection",
+      "when": {
+        "selected_feelings": [
+          "pressure",
+          "want_change"
+        ],
+        "selected_keywords_any": [
+          "pressure",
+          "pressure_money",
+          "pressure_expectation",
+          "pressure_roles"
+        ]
+      },
+      "context_filters": {
+        "life_stages": [
+          "working",
+          "career_change",
+          "building_business"
+        ],
+        "pressures_any": [
+          "money_pressure",
+          "career_pressure",
+          "family_pressure"
+        ]
+      },
+      "question_key": "prompt.deepen_selection.pressure_focus.question",
+      "option_keys": [
+        "prompt.deepen_selection.pressure_focus.option_1",
+        "prompt.deepen_selection.pressure_focus.option_2",
+        "prompt.deepen_selection.pressure_focus.option_3"
+      ],
+      "suggested_keyword_ids": [
+        "pressure_money",
+        "pressure_expectation",
+        "pressure_roles"
+      ],
+      "priority": 80
+    }
+  ]
+}

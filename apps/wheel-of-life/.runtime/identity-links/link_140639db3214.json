@@ -1,0 +1,13 @@
+{
+  "link_id": "link_140639db3214",
+  "pseudonymous_user_key": "usr_ed939137954cffcfe2e0",
+  "link_scope": "account_ready",
+  "source_system": "local_demo",
+  "created_at": "2026-04-04T23:27:01.436463Z",
+  "session_ids": [
+    "sess_demo"
+  ],
+  "memory_profile_keys": [
+    "en-25-29-male-working-early-working_few_years"
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "session_id": "sess_d3799c9f6b25",
+  "locale": "vi",
+  "context_profile": {
+    "age_range": "25-29",
+    "gender": "male",
+    "life_stage": "working",
+    "career_stage": "early",
+    "goals": [],
+    "concerns": []
+  },
+  "user_reality_context": {
+    "locale": "vi",
+    "life_setup": "working_few_years",
+    "current_pressures": [
+      "direction_pressure"
+    ],
+    "current_goals": [
+      "find_direction"
+    ],
+    "constraints": [
+      "low_time"
+    ],
+    "readiness_level": "want_direction_suggestions",
+    "custom_keywords": [],
+    "note_fragment": null
+  },
+  "selected_feeling": "unclear_direction",
+  "selected_keyword_ids": [
+    "unclear_direction",
+    "ud_future"
+  ],
+  "reflection_snippet": null,
+  "latest_mode": "deepen_selection",
+  "latest_selectable_prompt": {
+    "id": "deepen_direction_blocked",
+    "question": "Lúc này anh thấy bị chặn nhất ở điểm nào?",
+    "options": [
+      "Tôi không nhìn ra con đường nào đủ thực tế để đi tiếp.",
+      "Tôi không biết mình thật sự mạnh ở đâu.",
+      "Tôi nghĩ rất nhiều nhưng vẫn không chốt được."
+    ],
+    "option_items": [
+      {
+        "option_key": "prompt.deepen_selection.direction_blocked.option_1",
+        "label": "Tôi không nhìn ra con đường nào đủ thực tế để đi tiếp.",
+        "suggested_keyword_ids": [
+          "ud_future",
+          "ud_strengths",
+          "ud_roadmap"
+        ]
+      },
+      {
+        "option_key": "prompt.deepen_selection.direction_blocked.option_2",
+        "label": "Tôi không biết mình thật sự mạnh ở đâu.",
+        "suggested_keyword_ids": [
+          "ud_future",
+          "ud_strengths",
+          "ud_roadmap"
+        ]
+      },
+      {
+        "option_key": "prompt.deepen_selection.direction_blocked.option_3",
+        "label": "Tôi nghĩ rất nhiều nhưng vẫn không chốt được.",
+        "suggested_keyword_ids": [
+          "ud_future",
+          "ud_strengths",
+          "ud_roadmap"
+        ]
+      }
+    ],
+    "suggested_keyword_ids": [
+      "ud_future",
+      "ud_strengths",
+      "ud_roadmap"
+    ],
+    "question_key": "prompt.deepen_selection.direction_blocked.question",
+    "option_keys": [
+      "prompt.deepen_selection.direction_blocked.option_1",
+      "prompt.deepen_selection.direction_blocked.option_2",
+      "prompt.deepen_selection.direction_blocked.option_3"
+    ]
+  },
+  "wheel_preview": {
+    "coverage_count": 2,
+    "life_area_scores": [
+      {
+        "life_area_id": "direction",
+        "life_area_label": "Định hướng",
+        "score": 11.0,
+        "evidence": [
+          {
+            "node_id": "unclear_direction",
+            "label": "Mơ hồ hướng đi",
+            "weight": 0.6
+          },
+          {
+            "node_id": "ud_future",
+            "label": "Không thấy tương lai",
+            "weight": 0.5
+          }
+        ]
+      },
+      {
+        "life_area_id": "career",
+        "life_area_label": "Sự nghiệp",
+        "score": 9.0,
+        "evidence": [
+          {
+            "node_id": "unclear_direction",
+            "label": "Mơ hồ hướng đi",
+            "weight": 0.4
+          },
+          {
+            "node_id": "ud_future",
+            "label": "Không thấy tương lai",
+            "weight": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "trail": [
+    {
+      "event_id": "evt_4296f4859ada",
+      "event_type": "context_initialized",
+      "label": "Đã khóa context",
+      "created_at": "2026-04-04T23:09:53.144785Z",
+      "metadata": {
+        "age_range": "25-29",
+        "life_stage": "working",
+        "life_setup": "working_few_years"
+      }
+    },
+    {
+      "event_id": "evt_0d72b3822e83",
+      "event_type": "feeling_selected",
+      "label": "Đã chọn cảm nhận",
+      "created_at": "2026-04-04T23:09:53.145194Z",
+      "metadata": {
+        "selected_id": "unclear_direction"
+      }
+    },
+    {
+      "event_id": "evt_b41a4bf15b64",
+      "event_type": "keyword_selected",
+      "label": "Đã chọn keyword",
+      "created_at": "2026-04-04T23:09:53.145597Z",
+      "metadata": {
+        "selected_id": "ud_future"
+      }
+    },
+    {
+      "event_id": "evt_a1daca26748b",
+      "event_type": "ai_prompt_generated",
+      "label": "Đã tạo prompt chọn",
+      "created_at": "2026-04-04T23:09:53.146067Z",
+      "metadata": {
+        "prompt_id": "deepen_direction_blocked"
+      }
+    }
+  ],
+  "trail_compactions": [],
+  "resume_checkpoint": {
+    "checkpoint_id": "res_d2adcb32856e",
+    "created_at": "2026-04-04T23:09:53.148112Z",
+    "summary_key": "resume.summary.ready_to_continue",
+    "summary_label": "Có thể tiếp tục từ ngữ cảnh trước.",
+    "recent_event_ids": [
+      "evt_4296f4859ada",
+      "evt_0d72b3822e83",
+      "evt_b41a4bf15b64",
+      "evt_a1daca26748b"
+    ],
+    "suggested_keyword_ids": [
+      "unclear_direction",
+      "ud_future"
+    ]
+  }
+}

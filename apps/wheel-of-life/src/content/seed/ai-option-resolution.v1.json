@@ -1,0 +1,80 @@
+{
+  "version": "v1",
+  "resolutions": [
+    {
+      "prompt_pack_id": "deepen_direction_blocked",
+      "option_key": "prompt.deepen_selection.direction_blocked.option_1",
+      "append_keyword_ids": [
+        "ud_roadmap"
+      ],
+      "focus_tags": [
+        "roadmap",
+        "direction"
+      ],
+      "next_mode": "deepen_selection",
+      "trail_label_key": "trail.ai_option.direction.option_1"
+    },
+    {
+      "prompt_pack_id": "deepen_direction_blocked",
+      "option_key": "prompt.deepen_selection.direction_blocked.option_2",
+      "append_keyword_ids": [
+        "ud_strengths"
+      ],
+      "focus_tags": [
+        "strengths",
+        "self-knowledge"
+      ],
+      "next_mode": "deepen_selection",
+      "trail_label_key": "trail.ai_option.direction.option_2"
+    },
+    {
+      "prompt_pack_id": "deepen_direction_blocked",
+      "option_key": "prompt.deepen_selection.direction_blocked.option_3",
+      "append_keyword_ids": [
+        "ud_future"
+      ],
+      "focus_tags": [
+        "future",
+        "direction"
+      ],
+      "next_mode": "map_pattern",
+      "trail_label_key": "trail.ai_option.direction.option_3"
+    },
+    {
+      "prompt_pack_id": "deepen_pressure_focus",
+      "option_key": "prompt.deepen_selection.pressure_focus.option_1",
+      "append_keyword_ids": [
+        "pressure_money"
+      ],
+      "focus_tags": [
+        "money_pressure"
+      ],
+      "next_mode": "deepen_selection",
+      "trail_label_key": "trail.ai_option.pressure.option_1"
+    },
+    {
+      "prompt_pack_id": "deepen_pressure_focus",
+      "option_key": "prompt.deepen_selection.pressure_focus.option_2",
+      "append_keyword_ids": [
+        "pressure_expectation"
+      ],
+      "focus_tags": [
+        "expectation_pressure"
+      ],
+      "next_mode": "deepen_selection",
+      "trail_label_key": "trail.ai_option.pressure.option_2"
+    },
+    {
+      "prompt_pack_id": "deepen_pressure_focus",
+      "option_key": "prompt.deepen_selection.pressure_focus.option_3",
+      "append_keyword_ids": [
+        "pressure_roles"
+      ],
+      "focus_tags": [
+        "role_pressure"
+      ],
+      "next_mode": "map_pattern",
+      "trail_label_key": "trail.ai_option.pressure.option_3"
+    }
+  ]
+}

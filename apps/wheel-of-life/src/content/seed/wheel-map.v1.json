@@ -1,0 +1,167 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-04-05",
+  "source_note": "Starter wheel of life map tuned for career-era development.",
+  "life_areas": [
+    {
+      "id": "career",
+      "label": "Sự nghiệp",
+      "description": "Giá trị nghề, đường đi, cơ hội phát triển.",
+      "sub_areas": [
+        {
+          "id": "progression",
+          "label": "progression"
+        },
+        {
+          "id": "market_value",
+          "label": "market value"
+        },
+        {
+          "id": "role_fit",
+          "label": "role fit"
+        }
+      ],
+      "evidence_rule_note": "Không nên cho điểm area này nếu chưa có evidence từ selected keyword ids hoặc reflection liên quan."
+    },
+    {
+      "id": "finance",
+      "label": "Tài chính",
+      "description": "Thu nhập, vùng đệm, khả năng chịu rủi ro.",
+      "sub_areas": [
+        {
+          "id": "income_stability",
+          "label": "income stability"
+        },
+        {
+          "id": "buffer",
+          "label": "buffer"
+        },
+        {
+          "id": "risk_management",
+          "label": "risk management"
+        }
+      ],
+      "evidence_rule_note": "Không nên cho điểm area này nếu chưa có evidence từ selected keyword ids hoặc reflection liên quan."
+    },
+    {
+      "id": "capability",
+      "label": "Năng lực",
+      "description": "Hệ học, thực chiến, đóng gói năng lực.",
+      "sub_areas": [
+        {
+          "id": "learning_system",
+          "label": "learning system"
+        },
+        {
+          "id": "execution",
+          "label": "execution"
+        },
+        {
+          "id": "skill_packaging",
+          "label": "skill packaging"
+        }
+      ],
+      "evidence_rule_note": "Không nên cho điểm area này nếu chưa có evidence từ selected keyword ids hoặc reflection liên quan."
+    },
+    {
+      "id": "inner_system",
+      "label": "Nội lực",
+      "description": "Tự trọng, stress, tâm thế, độ vững.",
+      "sub_areas": [
+        {
+          "id": "self_trust",
+          "label": "self trust"
+        },
+        {
+          "id": "emotional_load",
+          "label": "emotional load"
+        },
+        {
+          "id": "resilience",
+          "label": "resilience"
+        }
+      ],
+      "evidence_rule_note": "Không nên cho điểm area này nếu chưa có evidence từ selected keyword ids hoặc reflection liên quan."
+    },
+    {
+      "id": "environment",
+      "label": "Môi trường",
+      "description": "Gia đình, network, team, vòng ảnh hưởng.",
+      "sub_areas": [
+        {
+          "id": "support_system",
+          "label": "support system"
+        },
+        {
+          "id": "team_fit",
+          "label": "team fit"
+        },
+        {
+          "id": "network_quality",
+          "label": "network quality"
+        }
+      ],
+      "evidence_rule_note": "Không nên cho điểm area này nếu chưa có evidence từ selected keyword ids hoặc reflection liên quan."
+    },
+    {
+      "id": "health",
+      "label": "Sức khỏe",
+      "description": "Năng lượng, phục hồi, nhịp sống.",
+      "sub_areas": [
+        {
+          "id": "energy",
+          "label": "energy"
+        },
+        {
+          "id": "recovery",
+          "label": "recovery"
+        },
+        {
+          "id": "life_rhythm",
+          "label": "life rhythm"
+        }
+      ],
+      "evidence_rule_note": "Không nên cho điểm area này nếu chưa có evidence từ selected keyword ids hoặc reflection liên quan."
+    },
+    {
+      "id": "direction",
+      "label": "Định hướng",
+      "description": "Tầm nhìn, ý nghĩa, đường dài.",
+      "sub_areas": [
+        {
+          "id": "future_clarity",
+          "label": "future clarity"
+        },
+        {
+          "id": "meaning",
+          "label": "meaning"
+        },
+        {
+          "id": "decision_path",
+          "label": "decision path"
+        }
+      ],
+      "evidence_rule_note": "Không nên cho điểm area này nếu chưa có evidence từ selected keyword ids hoặc reflection liên quan."
+    },
+    {
+      "id": "life_system",
+      "label": "Hệ thống sống",
+      "description": "Routine, cấu trúc ngày, độ ổn định vận hành.",
+      "sub_areas": [
+        {
+          "id": "routine",
+          "label": "routine"
+        },
+        {
+          "id": "planning_system",
+          "label": "planning system"
+        },
+        {
+          "id": "operational_stability",
+          "label": "operational stability"
+        }
+      ],
+      "evidence_rule_note": "Không nên cho điểm area này nếu chưa có evidence từ selected keyword ids hoặc reflection liên quan."
+    }
+  ]
+}

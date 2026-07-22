@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Price | Lotus Yoga</title>
+  <meta name="description" content="Trang price và detail cho Lotus Yoga, dùng chung CSS và JS với bộ giao diện chính.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/page-price.css">
+</head>
+<body data-base-path="../">
+  <div id="site-header" data-include="partials/header.html"></div>
+
+  <main class="price-page">
+    <section class="price-hero section-block">
+      <div class="container price-hero__layout">
+        <div class="price-hero__content">
+          <p class="eyebrow">Biểu phí luyện tập</p>
+          <h1 class="price-hero__title">Price</h1>
+
+          <div class="price-list">
+            <article class="price-group">
+              <h2 class="price-group__title">Single Class &amp; Drop-In Rates</h2>
+              <div class="price-row">
+                <span>Single Class Drop-In</span>
+                <strong>$25</strong>
+              </div>
+              <div class="price-row">
+                <span>First-Time Visitor Class</span>
+                <strong>$10</strong>
+              </div>
+            </article>
+
+            <article class="price-group">
+              <h2 class="price-group__title">Class Packages</h2>
+              <div class="price-row">
+                <span>5-Class Package</span>
+                <strong>$110</strong>
+              </div>
+              <div class="price-row">
+                <span>10-Class Package</span>
+                <strong>$200</strong>
+              </div>
+              <div class="price-row">
+                <span>20-Class Package</span>
+                <strong>$360</strong>
+              </div>
+            </article>
+
+            <article class="price-group">
+              <h2 class="price-group__title">Private Sessions</h2>
+              <div class="price-row">
+                <span>Single Private Session</span>
+                <strong>$90</strong>
+              </div>
+              <div class="price-row">
+                <span>5 Private Sessions Package</span>
+                <strong>$425</strong>
+              </div>
+              <div class="price-row">
+                <span>10 Private Sessions Package</span>
+                <strong>$800</strong>
+              </div>
+            </article>
+
+            <article class="price-group">
+              <h2 class="price-group__title">Monthly Memberships</h2>
+              <div class="price-row">
+                <span>Unlimited Monthly Membership</span>
+                <strong>$150</strong>
+              </div>
+              <div class="price-row">
+                <span>6-Month Unlimited Membership</span>
+                <strong>$800</strong>
+              </div>
+              <div class="price-row">
+                <span>Annual Unlimited Membership</span>
+                <strong>$1,500</strong>
+              </div>
+            </article>
+          </div>
+
+          <div class="button-group">
+            <a href="#detail" class="button button--rounded button--teal">See Detail</a>
+            <a href="../index.html#classes" class="button button--rounded button--ghost button--purple">Book a Class</a>
+          </div>
+        </div>
+
+        <div class="price-hero__media">
+          <div class="price-figure-wrap">
+            <img src="../assets/images/about-coach-main.png" alt="Yoga model" class="price-figure image-cover">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="detail" class="detail section-block section-block--soft">
+      <div class="container">
+        <div class="detail__header">
+          <p class="eyebrow">Certification Detail</p>
+          <h2 class="section-title section-title--center">Yoga Teacher Instructor Training Certification</h2>
+          <p class="section-text detail__lead">Bên dưới là các yếu tố chính ảnh hưởng đến chương trình đào tạo, giá trị học tập và cảm nhận thực tế của học viên khi chọn một lớp hoặc một khóa huấn luyện chuyên sâu.</p>
+        </div>
+
+        <div class="detail-centerpiece">
+          <div class="detail-centerpiece__halo"></div>
+          <div class="detail-centerpiece__badge">Training Certification</div>
+          <img src="../assets/images/hero-yoga.png" alt="Yoga instructor" class="detail-centerpiece__image image-cover">
+        </div>
+
+        <div class="factor-grid">
+          <article class="factor-card">
+            <div class="factor-card__icon">💻</div>
+            <span class="factor-card__tag">Factor 1</span>
+            <h3 class="factor-card__title">Training Format and Live Contact Hours</h3>
+            <ul class="factor-card__list">
+              <li>So sánh giữa live training và nội dung quay sẵn.</li>
+              <li>Số giờ tương tác trực tiếp ảnh hưởng tới mức giá và độ sâu hướng dẫn.</li>
+            </ul>
+          </article>
+
+          <article class="factor-card">
+            <div class="factor-card__icon">⭐</div>
+            <span class="factor-card__tag">Factor 2</span>
+            <h3 class="factor-card__title">Expertise, Experience, and Reputation of Instructors</h3>
+            <ul class="factor-card__list">
+              <li>Uy tín và kinh nghiệm của giảng viên tác động mạnh tới giá trị khóa học.</li>
+              <li>Người hướng dẫn càng dày kinh nghiệm thì chi phí thường càng cao.</li>
+            </ul>
+          </article>
+
+          <article class="factor-card">
+            <div class="factor-card__icon">👥</div>
+            <span class="factor-card__tag">Factor 3</span>
+            <h3 class="factor-card__title">Number of Instructors on the Faculty</h3>
+            <ul class="factor-card__list">
+              <li>Nhiều giảng viên giúp mở rộng góc nhìn và cách tiếp cận khác nhau.</li>
+              <li>Đội ngũ lớn thường kéo theo cấu trúc tổ chức và chi phí vận hành cao hơn.</li>
+            </ul>
+          </article>
+
+          <article class="factor-card">
+            <div class="factor-card__icon">🧘</div>
+            <span class="factor-card__tag">Factor 4</span>
+            <h3 class="factor-card__title">Training Format Flexibility</h3>
+            <ul class="factor-card__list">
+              <li>Khả năng linh hoạt lịch học giúp người học duy trì hành trình tốt hơn.</li>
+              <li>Nhiều định dạng thường đồng nghĩa với thiết kế chương trình phức tạp hơn.</li>
+            </ul>
+          </article>
+
+          <article class="factor-card">
+            <div class="factor-card__icon">💰</div>
+            <span class="factor-card__tag">Factor 5</span>
+            <h3 class="factor-card__title">Inclusive or Additional Charges for In-person Training Amenities</h3>
+            <ul class="factor-card__list">
+              <li>Ăn ở, tài liệu, không gian tập và tiện ích đi kèm có thể nằm trong hoặc ngoài giá gói.</li>
+              <li>Cần nhìn tổng chi phí thật thay vì chỉ nhìn học phí niêm yết.</li>
+            </ul>
+          </article>
+
+          <article class="factor-card">
+            <div class="factor-card__icon">📍</div>
+            <span class="factor-card__tag">Factor 6</span>
+            <h3 class="factor-card__title">Location and Quality of Training Facility</h3>
+            <ul class="factor-card__list">
+              <li>Vị trí tốt và không gian chất lượng nâng trải nghiệm học viên.</li>
+              <li>Chi phí mặt bằng và cơ sở vật chất thường phản ánh vào giá cuối.</li>
+            </ul>
+          </article>
+
+          <article class="factor-card">
+            <div class="factor-card__icon">📘</div>
+            <span class="factor-card__tag">Factor 7</span>
+            <h3 class="factor-card__title">Additional Content Available</h3>
+            <ul class="factor-card__list">
+              <li>Tài liệu mở rộng giúp tăng chiều sâu kiến thức và tính ứng dụng.</li>
+              <li>Nội dung bổ sung tốt làm tăng giá trị tổng thể của khóa học.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer" data-include="partials/footer.html"></div>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

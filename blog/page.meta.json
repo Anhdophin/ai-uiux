@@ -1,0 +1,10 @@
+{
+  "title": "Blog Anhdophin",
+  "short_title": "Blog",
+  "nav_label": "Blog",
+  "section": "blog",
+  "order": 6,
+  "nav_order": 6,
+  "show_in_nav": true,
+  "template": "blog-showcase"
+}

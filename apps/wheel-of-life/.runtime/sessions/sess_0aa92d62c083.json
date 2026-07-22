@@ -1,0 +1,61 @@
+{
+  "session_id": "sess_0aa92d62c083",
+  "locale": "vi",
+  "context_profile": {
+    "age_range": "25-29",
+    "gender": "male",
+    "life_stage": "working",
+    "career_stage": "early",
+    "goals": [],
+    "concerns": []
+  },
+  "user_reality_context": {
+    "locale": "vi",
+    "life_setup": "working_few_years",
+    "current_pressures": [
+      "direction_pressure"
+    ],
+    "current_goals": [
+      "find_direction"
+    ],
+    "constraints": [
+      "low_time"
+    ],
+    "readiness_level": "want_direction_suggestions",
+    "custom_keywords": [],
+    "note_fragment": null
+  },
+  "selected_feeling": null,
+  "selected_keyword_ids": [],
+  "reflection_snippet": null,
+  "latest_mode": "deepen_selection",
+  "latest_selectable_prompt": null,
+  "wheel_preview": {
+    "coverage_count": 0,
+    "life_area_scores": []
+  },
+  "trail": [
+    {
+      "event_id": "evt_dc50fd510b09",
+      "event_type": "context_initialized",
+      "label": "Đã khóa context",
+      "created_at": "2026-04-04T22:58:22.819699Z",
+      "metadata": {
+        "age_range": "25-29",
+        "life_stage": "working",
+        "life_setup": "working_few_years"
+      }
+    }
+  ],
+  "trail_compactions": [],
+  "resume_checkpoint": {
+    "checkpoint_id": "res_ea3ac16d1d7c",
+    "created_at": "2026-04-04T22:58:22.826571Z",
+    "summary_key": "resume.summary.need_more_structure",
+    "summary_label": "Nên tiếp tục bằng một bước có cấu trúc.",
+    "recent_event_ids": [
+      "evt_dc50fd510b09"
+    ],
+    "suggested_keyword_ids": []
+  }
+}

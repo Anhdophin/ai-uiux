@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mnrkh1qx",
+    "fullName": "Demo User",
+    "email": "demo.user@example.com",
+    "phone": "",
+    "message": "http://127.0.0.1:5500/function_kit/security_kit/examples/demo-security.html",
+    "source": "security-demo",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "createdAt": "2026-04-09T14:22:58.329Z"
+  },
+  {
+    "id": "mnrka5gy",
+    "fullName": "Browser Test",
+    "email": "browser.test@example.com",
+    "phone": "",
+    "message": "ok",
+    "source": "live-server",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.19041.6328",
+    "createdAt": "2026-04-09T14:17:36.562Z"
+  },
+  {
+    "id": "mnrjk7m1",
+    "fullName": "Local Tester",
+    "email": "local.tester@example.com",
+    "phone": "",
+    "message": "Lead from terminal test",
+    "source": "terminal",
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.19041.6328",
+    "createdAt": "2026-04-09T13:57:26.281Z"
+  }
+]

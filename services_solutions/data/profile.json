@@ -1,0 +1,14 @@
+{
+  "site_title": "Dynamic CV | Anhdophin",
+  "owner_name": "Anhdophin",
+  "hero_title": "dịch ngôn ngữ business thành sản phẩm thông tin",
+  "hero_subtitle": "Biến ý tưởng, cách làm việc và tri thức thành flow, tài liệu, trải nghiệm và mini app có thể dùng tiếp.",
+  "primary_cta": {
+    "label": "Xem Workflow",
+    "href": "mini-app-design/workflow/workflow.html"
+  },
+  "secondary_cta": {
+    "label": "Tải Portfolio PDF",
+    "href": "assets/files/Anhdophin_Portfolio.pdf"
+  }
+}

@@ -1,0 +1,675 @@
+luật nền + kiến trúc nền” phải khóa trước, nếu không càng làm càng loãng, AI càng dễ kéo code đi lệch ngữ cảnh.
+
+Em sẽ dựng cho anh một bộ khung chuẩn bị trước khi build, theo đúng tinh thần: chặt, scale được, audit được, dễ cho AI bám, và không tự mâu thuẫn khi mở rộng.
+
+1. THỨ TỰ ƯU TIÊN PHẢI KHÓA TRƯỚC
+
+Đừng build UI hay tính năng trước. Nên khóa theo thứ tự này:
+
+Tầng 1 — Product Truth
+App này là gì
+Không phải là gì
+User vào để làm gì
+Kết quả cuối cùng user nhận được là gì
+AI đóng vai gì và không được vượt vai gì
+Tầng 2 — Domain Model
+Các domain chính của app
+Ranh giới mỗi domain
+Quan hệ giữa các domain
+Cái gì là dữ liệu gốc, cái gì là dữ liệu sinh ra
+Tầng 3 — Interaction Logic
+User đi từ đâu tới đâu
+AI được phép can thiệp đoạn nào
+Khi nào cho chọn từ khóa, khi nào cho AI hỏi tiếp
+Khi nào ghi dữ liệu, khi nào chỉ tạm suy nghĩ
+Tầng 4 — Data Structure
+Lưu gì
+Lưu ở cấp nào
+Quan hệ giữa node, flow, answer, reflection, audit, AI output
+Tầng 5 — UI + Scaffold
+UI chỉ là lớp trình bày
+Component nào là generic
+Component nào là domain-specific
+Quy tắc layout và state
+Tầng 6 — Cursor Rules + AI Rules
+AI được sửa gì
+Không được phá gì
+Khi thêm mới phải theo khuôn nào
+Khi audit phải check gì
+2. PRODUCT TRUTH — PHẢI VIẾT THÀNH FILE GỐC
+
+Cần có 1 file gốc, ví dụ:
+
+/docs/product/PRODUCT_TRUTH.md
+
+Nội dung phải khóa 7 thứ:
+
+2.1 App này là gì
+
+Ví dụ:
+
+Công cụ coaching/self-reflection dạng guided keyword exploration
+Dẫn người dùng từ cảm nhận hiện tại tới nhận diện vấn đề, sau đó map vào wheel of life nâng cấp
+2.2 App này không phải là gì
+Không phải app chữa trị tâm lý
+Không phải app bói
+Không phải chatbot nói chuyện lan man
+Không phải app AI trả lời thay người dùng toàn bộ
+Không phải quiz đơn thuần
+2.3 Giá trị cốt lõi
+Giúp user tự nhận diện đúng hơn
+Giúp user thấy mối liên kết giữa các vấn đề
+Giúp user lưu lại tiến trình hiểu bản thân
+Giúp AI tiếp tục khai vấn trên đúng ngữ cảnh đã mở
+2.4 Đầu ra chính
+Một bản đồ tự nhận diện
+Một trạng thái wheel of life theo ngữ cảnh thật
+Một lịch sử reflection
+Một chuỗi node vấn đề đã đi qua
+Một bộ dữ liệu cá nhân để tiếp tục phát triển
+2.5 Vai trò của AI
+AI là người dẫn mở nghĩa
+AI giúp diễn giải, nhóm vấn đề, đặt câu hỏi tiếp
+AI không được kết luận tuyệt đối về con người
+AI không được áp đặt phán xét
+2.6 Đơn vị tương tác chính
+Keyword node
+Reflection prompt
+Life area
+Context branch
+AI assist session
+2.7 Nguyên tắc cốt lõi
+Start from felt reality
+Expand gradually
+Preserve context chain
+Never flatten nuance
+Every conclusion must trace back to chosen context
+3. DOMAIN FUNCTION — PHẢI CHIA NGAY TỪ ĐẦU
+
+App này không nên để một cục. Nên chia domain.
+
+3.1 Các domain chính
+A. Identity Context Domain
+
+Chứa:
+
+tuổi
+giới tính
+giai đoạn sống
+giai đoạn nghề
+mục tiêu lớn
+bối cảnh hiện tại
+
+Đây là domain tạo persona context.
+
+B. Feeling Entry Domain
+
+Chứa:
+
+trạng thái cảm nhận ban đầu
+mức độ intensity
+cảm nhận nào đang nổi bật
+tần suất xuất hiện
+
+Đây là domain mở cửa vào app.
+
+C. Keyword Exploration Domain
+
+Chứa:
+
+keyword tree
+keyword node
+parent-child relation
+cross-links
+ambiguity markers
+keyword depth
+
+Đây là lõi của tool.
+
+D. Reflection Domain
+
+Chứa:
+
+câu trả lời tự suy ngẫm
+note
+self-rating
+personal tags
+journal snippets
+E. Wheel of Life Domain
+
+Chứa:
+
+life areas
+sub-areas
+scores
+evidence
+imbalance detection
+temporal comparison
+F. AI Coaching Domain
+
+Chứa:
+
+prompt context builder
+AI turn history
+AI suggestion
+AI follow-up question
+safety modes
+response boundaries
+G. Audit Domain
+
+Chứa:
+
+node coverage
+unused branches
+contradictory mappings
+missing links
+stale content
+AI traceability
+H. UI System Domain
+
+Chứa:
+
+card
+chips
+node viewer
+progress trail
+wheel visualization
+journal panel
+AI conversation panel
+4. CẤU TRÚC FILE/FOLDER — PHẢI SCALE TỪ ĐẦU
+
+Nếu làm web app hiện đại, em đề xuất kiểu này:
+
+/app
+  /src
+    /core
+      /config
+      /constants
+      /types
+      /utils
+      /guards
+      /errors
+      /events
+      /stores
+
+    /domains
+      /identity-context
+        /models
+        /services
+        /mappers
+        /validators
+        /types
+      /feeling-entry
+      /keyword-exploration
+      /reflection
+      /wheel-of-life
+      /ai-coaching
+      /audit
+
+    /features
+      /onboarding
+      /context-selection
+      /keyword-journey
+      /reflection-capture
+      /wheel-review
+      /ai-deepening
+      /history-review
+      /audit-dashboard
+
+    /ui
+      /components
+        /base
+        /composite
+        /domain
+      /layouts
+      /patterns
+      /tokens
+      /themes
+
+    /engine
+      /flow-engine
+      /context-engine
+      /mapping-engine
+      /ai-engine
+      /audit-engine
+
+    /data
+      /seed
+      /schemas
+      /migrations
+      /static
+        /keyword-trees
+        /life-areas
+        /prompts
+        /personas
+
+    /integrations
+      /ai-provider
+      /storage
+      /analytics
+
+    /pages
+    /routes
+
+  /docs
+    /product
+    /architecture
+    /rules
+    /data-model
+    /ux
+    /ai
+    /audit
+
+  /tests
+    /unit
+    /integration
+    /flow
+    /audit
+5. SCAFFOLD RULES — PHẢI CÓ TRƯỚC KHI AI CODE
+
+Anh nên có ít nhất 4 file rules.
+
+5.1 AI_AGENT_ENFORCER.md
+
+File này ở gốc project.
+
+Nó nói cho AI biết:
+
+không được tạo code ngoài cấu trúc
+không được trộn domain
+không được viết logic business trong UI
+không được sửa schema tùy tiện
+mọi thay đổi lớn phải cập nhật docs tương ứng
+5.2 MANDATORY_APP_SCAFFOLD_RULES.md
+
+File này cũng ở gốc project.
+
+Chứa rule cứng:
+
+domain-first
+feature compose from domain
+engine separate from UI
+all AI prompts centralized
+all schemas versioned
+every node type must be typed
+every mapping must be traceable
+5.3 UI_SYSTEM_RULES.md
+component naming
+spacing scale
+icon usage
+card behavior
+responsive logic
+empty states
+state visibility rules
+5.4 DATA_AND_AI_RULES.md
+schema versioning
+prompt versioning
+AI output cannot overwrite raw user data
+derived data must be marked
+every AI insight needs source context references
+6. CURSOR RULES — NÊN VIẾT THEO NHÓM
+
+Không nên viết 1 file rule dài hỗn hợp. Nên tách.
+
+Nhóm A — Architectural Rules
+Domain separation
+No cross-domain hidden coupling
+No business logic inside presentational components
+Engine layer mandatory for flow logic
+Nhóm B — Data Rules
+All persistent structures must use schema
+No ad hoc JSON blobs in random files
+Every stored record must include source, timestamp, version
+Nhóm C — UI Rules
+UI must reveal gradually
+Never overload first screen
+All steps should feel discoverable
+Each card/action must represent a real domain entity
+Nhóm D — AI Rules
+AI responses must be context-bounded
+AI cannot jump to deep advice without enough context
+AI must reference selected nodes / user reflections
+AI should prefer questions before conclusions
+Nhóm E — Audit Rules
+Every new branch must be auditable
+Every mapping must have reverse lookup
+Orphan nodes are forbidden
+Contradictory node linkage must be flagged
+7. UI STYLE SYSTEM — PHẢI ĐỊNH HÌNH NGAY
+
+App này hợp kiểu:
+
+icon-first
+card-driven
+reveal progressively
+breadcrumb visible
+trail/history visible
+calm, structured, exploratory
+7.1 UI primitives
+Button
+Chip
+Keyword Pill
+Card
+Stack
+Section
+Panel
+Drawer
+Stepper
+Trail
+Tag
+Meter
+Wheel Segment
+Prompt Box
+7.2 UI patterns
+Entry Selection Grid
+Expandable Keyword Tree
+Context Trail
+Reflection Capture Sheet
+Wheel Snapshot Board
+AI Deepen Panel
+Cross-link Insight Card
+7.3 Style principles
+Không gamify lố
+Không làm giống chatbot thuần
+Không làm như form khảo sát cứng
+Cảm giác phải là “đi từng lớp, thấy dần bản đồ”
+8. USER FLOW — PHẢI KHÓA LOGIC TƯƠNG TÁC
+Flow tổng thể
+Phase 1 — Context Setup
+
+User chọn:
+
+tuổi
+giới tính
+giai đoạn sống
+giai đoạn nghề
+mục tiêu quan tâm
+Phase 2 — Feeling Entry
+
+User chọn:
+
+cảm nhận hiện tại
+mức độ
+lĩnh vực thấy nặng nhất
+Phase 3 — Keyword Exploration
+hệ thống mở keyword layer 1
+user chọn
+mở layer tiếp
+có thể chọn nhiều nhánh
+có cross-link suggestion
+Phase 4 — Reflection Capture
+user ghi chú
+chọn câu nào đúng với mình
+tự chấm mức ảnh hưởng
+Phase 5 — Wheel Mapping
+system map các lựa chọn vào life areas
+hiển thị tương quan
+cho user chỉnh lại nếu map chưa sát
+Phase 6 — AI Deepening
+AI nhìn trên context đã chọn
+AI hỏi sâu
+AI gợi ý góc nhìn
+AI giúp thấy vòng lặp / root causes
+Phase 7 — Save + Continue Later
+lưu trail
+lưu wheel state
+lưu reflection state
+mở tiếp ở đúng ngữ cảnh cũ
+9. CẤU TRÚC DỮ LIỆU — PHẢI PHÂN RÕ RAW / DERIVED / AI
+9.1 Raw Data
+
+Dữ liệu gốc do user tạo:
+
+profile context
+selected feelings
+chosen keywords
+reflection text
+self-ratings
+9.2 Derived Data
+
+Dữ liệu do engine tính:
+
+mapped life areas
+score aggregations
+imbalance patterns
+likely clusters
+journey progress
+9.3 AI Data
+
+Dữ liệu do AI sinh:
+
+questions
+interpretations
+suggestion threads
+insight summaries
+
+Tuyệt đối không trộn 3 loại này thành một.
+
+9.4 Entity gợi ý
+UserContextProfile
+ageRange
+gender
+lifeStage
+careerStage
+goals
+concerns
+FeelingState
+feelingId
+intensity
+frequency
+note
+KeywordNode
+id
+label
+description
+depth
+domain
+parentId
+childIds
+relatedNodeIds
+lifeAreaMappings
+personaWeights
+aiHints
+ReflectionEntry
+id
+linkedNodeIds
+text
+selfRating
+timestamp
+WheelState
+lifeAreaId
+score
+evidenceNodeIds
+updatedAt
+AISessionTurn
+id
+contextSnapshotId
+promptVersion
+userMessage
+aiMessage
+referencedNodeIds
+10. APP ENGINE — NÊN CHIA THÀNH 5 ENGINE
+10.1 Context Engine
+
+Xây ngữ cảnh hiện tại của user từ:
+
+persona
+stage
+selected feelings
+previous journey
+10.2 Flow Engine
+
+Quyết định:
+
+bước tiếp theo là gì
+hiện keyword nào
+có nên mở AI chưa
+có nên map sang wheel chưa
+10.3 Mapping Engine
+
+Chịu trách nhiệm:
+
+keyword → life area
+feeling → probable clusters
+reflection → weighted impact
+multi-node → pattern
+10.4 AI Engine
+
+Không tự chạy lung tung.
+Nó chỉ nhận:
+
+context snapshot đã chuẩn hóa
+allowed prompt mode
+boundary rules
+expected output schema
+10.5 Audit Engine
+
+Check:
+
+node nào đang mồ côi
+mapping nào chồng chéo
+prompt nào cho output lệch
+UI flow nào đang dẫn sai ngữ cảnh
+11. CÁCH APP ENGINE TƯƠNG TÁC VỚI AI
+
+Phần này rất quan trọng.
+
+Không làm kiểu:
+user nói gì gửi thẳng AI
+AI trả gì show luôn
+
+Kiểu đó sẽ mất kiểm soát.
+
+Nên làm kiểu:
+
+User Input → Context Engine → Prompt Builder → AI → Output Validator → UI
+
+11.1 Prompt Builder phải tự ghép:
+persona summary
+current feeling summary
+selected keywords
+relevant life areas
+reflection history
+current mode
+11.2 Mode của AI phải có phân vai rõ
+
+Ví dụ:
+
+clarify_mode
+deepen_mode
+pattern_mode
+reframe_mode
+suggest_direction_mode
+wheel_interpretation_mode
+11.3 Output của AI phải có schema
+
+Ví dụ:
+
+summary
+3 possible interpretations
+3 follow-up questions
+2 suggested next keyword paths
+confidence note
+12. CÁCH AI TƯƠNG TÁC VỚI USER
+
+AI trong app này nên có hành vi riêng.
+
+12.1 AI không nên nói quá nhiều
+
+Vai trò:
+
+gợi mở
+phản chiếu
+nhóm nghĩa
+hỏi đúng tiếp điểm
+12.2 AI phải ưu tiên:
+xác nhận hiểu đúng context
+nhắc lại ngắn gọn điều user vừa đi qua
+mở tiếp 2–4 hướng, không quá nhiều
+12.3 AI không được:
+chẩn đoán
+kết luận bản chất con người
+ép user theo một hướng
+advice mạnh khi context còn mỏng
+12.4 AI response pattern chuẩn
+phản chiếu ngắn
+gọi tên pattern đang thấy
+đưa vài khả năng
+hỏi tiếp hoặc mở node tiếp
+13. AUDITABILITY — PHẢI CÓ TỪ ĐẦU
+
+Muốn scale chuẩn thì sau này phải audit được.
+
+Phải audit được:
+một keyword node đang map vào đâu
+vì sao AI hỏi câu đó
+một wheel score đến từ các evidence nào
+nhánh nào đang ít coverage
+nhánh nào đè nghĩa lên nhau
+Vì vậy mọi thứ nên có:
+id rõ ràng
+schema rõ ràng
+version
+trace source
+reverse lookup
+14. THỨ TỰ LÀM THỰC TẾ EM ĐỀ XUẤT
+Bước 1
+
+Khóa 4 file docs gốc:
+
+PRODUCT_TRUTH.md
+DOMAIN_MODEL.md
+USER_FLOW.md
+AI_BOUNDARY.md
+Bước 2
+
+Khóa rules:
+
+AI_AGENT_ENFORCER.md
+MANDATORY_APP_SCAFFOLD_RULES.md
+UI_SYSTEM_RULES.md
+DATA_AND_AI_RULES.md
+Bước 3
+
+Khóa data model:
+
+keyword schema
+life area schema
+user session schema
+AI session schema
+Bước 4
+
+Khóa folder structure + naming convention
+
+Bước 5
+
+Làm seed data nhỏ:
+
+1 nhóm tuổi
+1 giới tính
+1 số feeling entry
+1 nhánh keyword tree
+1 mapping wheel demo
+Bước 6
+
+Build app shell + flow engine trước
+Chưa cần AI full.
+
+Bước 7
+
+Gắn AI sau, thông qua prompt builder + output schema
+
+15. KẾT LUẬN NGẮN GỌN
+
+Nếu muốn làm chuẩn ngay từ đầu, thì anh cần khóa 8 thứ:
+
+product truth
+domain boundaries
+scaffold rules
+cursor rules
+UI system
+user flow
+data schema
+AI interaction contract
+
+Đây là bộ xương sống. Có nó rồi thì mới build code mà không bị trôi.

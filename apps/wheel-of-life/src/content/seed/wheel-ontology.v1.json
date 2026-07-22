@@ -1,0 +1,81 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-04-05",
+  "life_areas": [
+    {
+      "id": "career",
+      "sub_areas": [
+        "progression",
+        "market_value",
+        "role_fit"
+      ]
+    },
+    {
+      "id": "finance",
+      "sub_areas": [
+        "income_stability",
+        "buffer",
+        "risk_management"
+      ]
+    },
+    {
+      "id": "capability",
+      "sub_areas": [
+        "learning_system",
+        "execution",
+        "skill_packaging"
+      ]
+    },
+    {
+      "id": "inner_system",
+      "sub_areas": [
+        "self_trust",
+        "emotional_load",
+        "resilience"
+      ]
+    },
+    {
+      "id": "environment",
+      "sub_areas": [
+        "support_system",
+        "team_fit",
+        "network_quality"
+      ]
+    },
+    {
+      "id": "health",
+      "sub_areas": [
+        "energy",
+        "recovery",
+        "life_rhythm"
+      ]
+    },
+    {
+      "id": "direction",
+      "sub_areas": [
+        "future_clarity",
+        "meaning",
+        "decision_path"
+      ]
+    },
+    {
+      "id": "life_system",
+      "sub_areas": [
+        "routine",
+        "planning_system",
+        "operational_stability"
+      ]
+    }
+  ],
+  "evidence_categories": [
+    "keyword_evidence",
+    "reflection_evidence",
+    "persona_adjustment",
+    "session_frequency_signal"
+  ],
+  "confidence_levels": [
+    "low",
+    "medium",
+    "high"
+  ]
+}

@@ -2,6 +2,8 @@ READ BEFORE EDITING:
 1. Read AGENTS.md
 2. Read AI-EDIT-PRECHECK.md
 3. Read the target file before changing it
+4. If writing/editing content copy, read ../CONTENT-CORE-RULES.md first
+5. Never expose internal labels as UI headings; convert them into direct user-facing messages
 
 MANDATORY:
 - Do small targeted edits.

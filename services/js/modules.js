@@ -1,3 +1,5 @@
+import { initFooterBackground } from '../../js/footer-background.js';
+
 export async function injectPartial(targetSelector, partialPath) {
   const el = document.querySelector(targetSelector);
   if (!el) return;
@@ -21,11 +23,21 @@ export function buildPortalRoutes(root = '.') {
   const prefix = root === '.' ? './' : root.replace(/\/$/, '') + '/';
   return {
     home: `${prefix}`,
+    work: `${prefix}work/`,
     services: `${prefix}services/`,
     apps: `${prefix}apps/`,
+    resources: `${prefix}resources/`,
+    about: `${prefix}about/`,
+    contact: `${prefix}contact/`,
+    insights: `${prefix}insights/`,
     shop: `${prefix}shop/`,
-    about: `${prefix}services/about/`,
+    blog: `${prefix}blog/blog.html`,
+    solutions: `${prefix}services_solutions/services_solutions.html`,
   };
+}
+
+function resolvePortalRoot(root = '.') {
+  return root === '.' ? '..' : `${root}/..`;
 }
 
 export function hydratePortalLinks(root = rootPath()) {
@@ -39,6 +51,20 @@ export function hydratePortalLinks(root = rootPath()) {
     const isActive = key === 'home' ? current === linkPath : current === linkPath || current.startsWith(linkPath);
     link.classList.toggle('is-active', isActive);
   });
+}
+
+export function scrollBelowTopNavigation(root = rootPath(), headerSelector = '#site-header .portal-header') {
+  if (window.location.hash) return;
+  window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+}
+
+function scheduleBelowNavigationScroll(root = rootPath(), headerSelector = '#site-header .portal-header') {
+  if ('scrollRestoration' in window.history) {
+    window.history.scrollRestoration = 'manual';
+  }
+  scrollBelowTopNavigation(root, headerSelector);
+  requestAnimationFrame(() => scrollBelowTopNavigation(root, headerSelector));
+  window.addEventListener('load', () => scrollBelowTopNavigation(root, headerSelector), { once: true });
 }
 
 const THEME_KEY = 'iapplab-theme';
@@ -119,9 +145,12 @@ export function initSharedUI(root = rootPath()) {
 }
 
 export async function setupSharedShell(root = rootPath()) {
+  const portalRoot = resolvePortalRoot(root);
   await Promise.all([
-    injectPartial('#site-header', `${root}/partials/header.html`),
-    injectPartial('#site-footer', `${root}/partials/footer.html`),
+    injectPartial('#site-header', `${portalRoot}/partials/header.html`),
+    injectPartial('#site-footer', `${portalRoot}/partials/footer.html`),
   ]);
+  initFooterBackground(portalRoot);
   initSharedUI(root);
+  scheduleBelowNavigationScroll(root);
 }

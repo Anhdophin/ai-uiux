@@ -1,0 +1,175 @@
+{
+  "version": "v1",
+  "context_groups": [
+    {
+      "id": "life_setup",
+      "selection_mode": "single",
+      "options": [
+        {
+          "id": "studying",
+          "label_key": "context.life_setup.studying"
+        },
+        {
+          "id": "graduating_soon",
+          "label_key": "context.life_setup.graduating_soon"
+        },
+        {
+          "id": "first_job",
+          "label_key": "context.life_setup.first_job"
+        },
+        {
+          "id": "working_few_years",
+          "label_key": "context.life_setup.working_few_years"
+        },
+        {
+          "id": "paused_or_interrupted",
+          "label_key": "context.life_setup.paused_or_interrupted"
+        },
+        {
+          "id": "changing_career",
+          "label_key": "context.life_setup.changing_career"
+        },
+        {
+          "id": "small_business",
+          "label_key": "context.life_setup.small_business"
+        },
+        {
+          "id": "planning_startup",
+          "label_key": "context.life_setup.planning_startup"
+        }
+      ]
+    },
+    {
+      "id": "current_pressures",
+      "selection_mode": "multi",
+      "options": [
+        {
+          "id": "money_pressure",
+          "label_key": "context.current_pressures.money_pressure"
+        },
+        {
+          "id": "career_pressure",
+          "label_key": "context.current_pressures.career_pressure"
+        },
+        {
+          "id": "direction_pressure",
+          "label_key": "context.current_pressures.direction_pressure"
+        },
+        {
+          "id": "family_pressure",
+          "label_key": "context.current_pressures.family_pressure"
+        },
+        {
+          "id": "health_pressure",
+          "label_key": "context.current_pressures.health_pressure"
+        },
+        {
+          "id": "time_pressure",
+          "label_key": "context.current_pressures.time_pressure"
+        },
+        {
+          "id": "confidence_drop",
+          "label_key": "context.current_pressures.confidence_drop"
+        },
+        {
+          "id": "falling_behind",
+          "label_key": "context.current_pressures.falling_behind"
+        }
+      ]
+    },
+    {
+      "id": "current_goals",
+      "selection_mode": "multi",
+      "options": [
+        {
+          "id": "find_direction",
+          "label_key": "context.current_goals.find_direction"
+        },
+        {
+          "id": "stabilize",
+          "label_key": "context.current_goals.stabilize"
+        },
+        {
+          "id": "increase_income",
+          "label_key": "context.current_goals.increase_income"
+        },
+        {
+          "id": "change_career",
+          "label_key": "context.current_goals.change_career"
+        },
+        {
+          "id": "grow_capability",
+          "label_key": "context.current_goals.grow_capability"
+        },
+        {
+          "id": "build_long_term_foundation",
+          "label_key": "context.current_goals.build_long_term_foundation"
+        },
+        {
+          "id": "catch_up_with_the_times",
+          "label_key": "context.current_goals.catch_up_with_the_times"
+        },
+        {
+          "id": "build_something_own",
+          "label_key": "context.current_goals.build_something_own"
+        }
+      ]
+    },
+    {
+      "id": "constraints",
+      "selection_mode": "multi",
+      "options": [
+        {
+          "id": "low_time",
+          "label_key": "context.constraints.low_time"
+        },
+        {
+          "id": "low_money",
+          "label_key": "context.constraints.low_money"
+        },
+        {
+          "id": "no_mentor",
+          "label_key": "context.constraints.no_mentor"
+        },
+        {
+          "id": "family_responsibility",
+          "label_key": "context.constraints.family_responsibility"
+        },
+        {
+          "id": "skill_gap_after_pause",
+          "label_key": "context.constraints.skill_gap_after_pause"
+        },
+        {
+          "id": "low_focus",
+          "label_key": "context.constraints.low_focus"
+        },
+        {
+          "id": "unsupportive_environment",
+          "label_key": "context.constraints.unsupportive_environment"
+        }
+      ]
+    },
+    {
+      "id": "readiness_level",
+      "selection_mode": "single",
+      "options": [
+        {
+          "id": "just_want_clarity",
+          "label_key": "context.readiness.just_want_clarity"
+        },
+        {
+          "id": "want_direction_suggestions",
+          "label_key": "context.readiness.want_direction_suggestions"
+        },
+        {
+          "id": "ready_to_start_change",
+          "label_key": "context.readiness.ready_to_start_change"
+        },
+        {
+          "id": "ready_to_plan",
+          "label_key": "context.readiness.ready_to_plan"
+        }
+      ]
+    }
+  ]
+}

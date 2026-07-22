@@ -1,0 +1,24 @@
+{
+  "version": "v1",
+  "session_retention": {
+    "default_ttl_days": 14,
+    "trail_compaction_after_events": 24,
+    "allow_manual_delete": true,
+    "allow_export_before_delete": true
+  },
+  "memory_retention": {
+    "default_ttl_days": 180,
+    "snapshot_requires_min_keywords": 1,
+    "keep_pattern_summaries_after_compaction": true
+  },
+  "identity_linking": {
+    "allowed_scopes": [
+      "anonymous_local",
+      "device_linked",
+      "account_ready"
+    ],
+    "default_scope": "anonymous_local",
+    "store_raw_external_refs": false,
+    "hash_algorithm": "sha256"
+  }
+}

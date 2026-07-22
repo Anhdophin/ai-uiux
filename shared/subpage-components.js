@@ -30,10 +30,16 @@
   function buildRoutes(prefix){
     return {
       home: `${prefix}`,
+      work: `${prefix}work/`,
       services: `${prefix}services/`,
       apps: `${prefix}apps/`,
+      resources: `${prefix}resources/`,
+      about: `${prefix}about/`,
+      contact: `${prefix}contact/`,
+      insights: `${prefix}insights/`,
       shop: `${prefix}shop/`,
-      about: `${prefix}services/about/`,
+      blog: `${prefix}blog/blog.html`,
+      solutions: `${prefix}services_solutions/services_solutions.html`,
     };
   }
   async function inject(selector, url){
@@ -55,10 +61,62 @@
       link.classList.toggle('is-active', isActive);
     });
   }
+
+  function scrollBelowTopNavigation(prefix){
+    if (window.location.hash) return;
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+  }
+
+  function scheduleBelowNavigationScroll(prefix){
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+    scrollBelowTopNavigation(prefix);
+    requestAnimationFrame(() => scrollBelowTopNavigation(prefix));
+    window.addEventListener('load', () => scrollBelowTopNavigation(prefix), { once: true });
+  }
+
   const prefix = getPortalRootPrefix();
+  const shouldUseAutoPageBackground = document.body.dataset.pageBg === 'auto';
+  if (shouldUseAutoPageBackground) {
+    try {
+      const module = await import(`${prefix}js/page-background.js`);
+      if (module && typeof module.initPageBackground === 'function') {
+        await module.initPageBackground(prefix);
+      }
+    } catch (error) {
+      // continue without page background if module is unavailable
+    }
+  }
+
+  async function initSharedFooterModule() {
+    try {
+      const footerModule = await import(`${prefix}js/footer-background.js`);
+      if (footerModule && typeof footerModule.initFooterBackground === 'function') {
+        await footerModule.initFooterBackground(prefix);
+      }
+    } catch (error) {
+      // continue without footer background if module is unavailable
+    }
+  }
+
+  async function initSharedUiModule() {
+    try {
+      const sharedModule = await import(`${prefix}js/modules.js`);
+      if (sharedModule && typeof sharedModule.initSharedUI === 'function') {
+        sharedModule.initSharedUI(prefix);
+      }
+    } catch (error) {
+      // continue with local hydrate if shared module is unavailable
+    }
+  }
+
   await Promise.all([
-    inject('#subpage-header', `${prefix}partials/header.html`),
-    inject('#subpage-footer', `${prefix}partials/footer.html`),
+    inject('#site-header, #subpage-header', `${prefix}partials/header.html`),
+    inject('#site-footer, #subpage-footer', `${prefix}partials/footer.html`),
   ]);
+  await initSharedFooterModule();
+  await initSharedUiModule();
   hydrate(prefix);
+  scheduleBelowNavigationScroll(prefix);
 })();

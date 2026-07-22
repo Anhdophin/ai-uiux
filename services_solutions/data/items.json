@@ -1,0 +1,1420 @@
+[
+  {
+    "id": "item-flowaudit-see-whole",
+    "role_ids": [
+      "flow-audit"
+    ],
+    "group_id": "role-focus",
+    "label": "Làm rõ cách công việc đang chạy",
+    "short_note": "Nhìn tổng thể thay vì chỉ nhìn từng bước rời.",
+    "has_detail": true,
+    "detail_id": "detail-flow-audit-core",
+    "weight": 1,
+    "style_variant": "focus"
+  },
+  {
+    "id": "item-flowaudit-find-bottleneck",
+    "role_ids": [
+      "flow-audit"
+    ],
+    "group_id": "role-focus",
+    "label": "Nhìn ra chỗ rối và chỗ nghẽn",
+    "short_note": "Tìm đúng chỗ khiến công việc chậm hoặc sai.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "focus"
+  },
+  {
+    "id": "item-flowaudit-structure-handoff",
+    "role_ids": [
+      "flow-audit"
+    ],
+    "group_id": "role-focus",
+    "label": "Sắp xếp để người khác làm tiếp được",
+    "short_note": "Ưu tiên khả năng bàn giao chứ không chỉ mô tả.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "focus"
+  },
+  {
+    "id": "item-flowaudit-chaotic-flow",
+    "role_ids": [
+      "flow-audit"
+    ],
+    "group_id": "problems",
+    "label": "Flow rối / khó vận hành",
+    "short_note": "Quy trình nhiều bước nhưng thiếu logic rõ ràng.",
+    "has_detail": true,
+    "detail_id": "detail-flow-chaotic",
+    "weight": 1,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-flowaudit-no-owner",
+    "role_ids": [
+      "flow-audit"
+    ],
+    "group_id": "problems",
+    "label": "Không rõ ai làm bước nào",
+    "short_note": "Công việc trôi nhưng trách nhiệm không rõ.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-flowaudit-handoff-loss",
+    "role_ids": [
+      "flow-audit"
+    ],
+    "group_id": "problems",
+    "label": "Bàn giao xong là rơi mất ý",
+    "short_note": "Người nhận không thấy đủ bối cảnh để làm tiếp.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-flowaudit-memory-dependent",
+    "role_ids": [
+      "flow-audit"
+    ],
+    "group_id": "problems",
+    "label": "Phụ thuộc vào người nhớ việc",
+    "short_note": "Không có cấu trúc nên ai nhớ được thì việc mới chạy.",
+    "has_detail": false,
+    "weight": 4,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-flowaudit-observe-reality",
+    "role_ids": [
+      "flow-audit"
+    ],
+    "group_id": "methods",
+    "label": "Nhìn lại cách công việc diễn ra thật",
+    "short_note": "Bắt đầu từ thực tế đang làm, không từ sơ đồ tưởng tượng.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-flowaudit-break-steps",
+    "role_ids": [
+      "flow-audit"
+    ],
+    "group_id": "methods",
+    "label": "Tách từng bước nhỏ theo hành động thật",
+    "short_note": "Mỗi bước đều gắn với hành động và điểm chuyển rõ.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-flowaudit-actor-state-output",
+    "role_ids": [
+      "flow-audit"
+    ],
+    "group_id": "methods",
+    "label": "Làm rõ ai làm – khi nào – chuyển gì",
+    "short_note": "Rõ người, rõ thời điểm, rõ đầu ra.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-flowaudit-redraw-flow",
+    "role_ids": [
+      "flow-audit"
+    ],
+    "group_id": "methods",
+    "label": "Vẽ lại flow theo cách ai cũng đọc được",
+    "short_note": "Đưa công việc về biểu diễn trực quan, dễ theo dõi.",
+    "has_detail": false,
+    "weight": 4,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-flowaudit-workflow-map",
+    "role_ids": [
+      "flow-audit"
+    ],
+    "group_id": "outputs",
+    "label": "Workflow map",
+    "short_note": "Sơ đồ luồng tổng thể để nhìn được cả quá trình.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-flowaudit-checklist",
+    "role_ids": [
+      "flow-audit"
+    ],
+    "group_id": "outputs",
+    "label": "Checklist theo bước",
+    "short_note": "Danh sách hành động rõ cho từng chặng.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-flowaudit-handoff-doc",
+    "role_ids": [
+      "flow-audit"
+    ],
+    "group_id": "outputs",
+    "label": "Tài liệu bàn giao",
+    "short_note": "Tài liệu đủ rõ để người khác cầm và làm tiếp.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-flowaudit-logic-brief",
+    "role_ids": [
+      "flow-audit"
+    ],
+    "group_id": "outputs",
+    "label": "Brief tái cấu trúc",
+    "short_note": "Bản ngắn gọn nêu vấn đề, cách sửa và điểm ưu tiên.",
+    "has_detail": false,
+    "weight": 4,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-flowaudit-idea-structure",
+    "role_ids": [
+      "flow-audit"
+    ],
+    "group_id": "skills",
+    "label": "Từ ý tưởng mơ hồ thành cấu trúc",
+    "short_note": "Năng lực nền để bắt đầu từ đầu vào chưa rõ.",
+    "has_detail": true,
+    "detail_id": "detail-turn-idea-structure",
+    "weight": 1,
+    "style_variant": "skill"
+  },
+  {
+    "id": "item-problem-structuring",
+    "role_ids": [
+      "flow-audit",
+      "web-design",
+      "mini-app-design",
+      "story-design",
+      "gamification-design",
+      "business-assets"
+    ],
+    "group_id": "skills",
+    "label": "Nhìn bài toán theo cấu trúc",
+    "short_note": "Không nhìn mảnh rời mà gom lại thành khối rõ ràng.",
+    "has_detail": false,
+    "weight": 10,
+    "style_variant": "skill"
+  },
+  {
+    "id": "item-information-organization",
+    "role_ids": [
+      "flow-audit",
+      "web-design",
+      "mini-app-design",
+      "story-design",
+      "business-assets"
+    ],
+    "group_id": "skills",
+    "label": "Tổ chức thông tin theo lớp",
+    "short_note": "Sắp xếp nội dung để người khác đọc và dùng được.",
+    "has_detail": false,
+    "weight": 11,
+    "style_variant": "skill"
+  },
+  {
+    "id": "item-prioritization-thinking",
+    "role_ids": [
+      "flow-audit",
+      "web-design",
+      "mini-app-design",
+      "gamification-design",
+      "business-assets"
+    ],
+    "group_id": "skills",
+    "label": "Ưu tiên phần cần làm trước",
+    "short_note": "Giữ đúng trọng tâm thay vì dàn trải.",
+    "has_detail": false,
+    "weight": 12,
+    "style_variant": "skill"
+  },
+  {
+    "id": "item-rapid-prototyping",
+    "role_ids": [
+      "flow-audit",
+      "mini-app-design",
+      "gamification-design"
+    ],
+    "group_id": "skills",
+    "label": "Dựng nhanh bản kiểm thử",
+    "short_note": "Dùng AI và scaffold để thử giá trị trước.",
+    "has_detail": true,
+    "detail_id": "detail-rapid-prototyping",
+    "weight": 13,
+    "style_variant": "skill"
+  },
+  {
+    "id": "item-documentation-clarity",
+    "role_ids": [
+      "flow-audit",
+      "web-design",
+      "mini-app-design",
+      "story-design",
+      "business-assets"
+    ],
+    "group_id": "skills",
+    "label": "Diễn đạt rõ để người khác làm tiếp",
+    "short_note": "Từ brief, flow đến tài liệu đều hướng tới bàn giao dễ hiểu.",
+    "has_detail": false,
+    "weight": 14,
+    "style_variant": "skill"
+  },
+  {
+    "id": "item-web-clarify-message",
+    "role_ids": [
+      "web-design"
+    ],
+    "group_id": "role-focus",
+    "label": "Làm web để người xem hiểu nhanh",
+    "short_note": "Ưu tiên hiểu đúng trước khi đẹp.",
+    "has_detail": true,
+    "detail_id": "detail-web-logic",
+    "weight": 1,
+    "style_variant": "focus"
+  },
+  {
+    "id": "item-web-turn-content-flow",
+    "role_ids": [
+      "web-design"
+    ],
+    "group_id": "role-focus",
+    "label": "Biến nội dung thành luồng đọc",
+    "short_note": "Sắp thứ tự để người xem đi qua đúng mạch.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "focus"
+  },
+  {
+    "id": "item-web-connect-message-action",
+    "role_ids": [
+      "web-design"
+    ],
+    "group_id": "role-focus",
+    "label": "Kết nối thông điệp với hành động",
+    "short_note": "Message và CTA không đứng tách nhau.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "focus"
+  },
+  {
+    "id": "item-web-many-content",
+    "role_ids": [
+      "web-design"
+    ],
+    "group_id": "problems",
+    "label": "Web nhiều nội dung nhưng không biết đọc từ đâu",
+    "short_note": "Người xem không có mốc để hiểu thứ tự ưu tiên.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-web-unclear-offer",
+    "role_ids": [
+      "web-design"
+    ],
+    "group_id": "problems",
+    "label": "Người xem vào mà chưa hiểu đang làm gì",
+    "short_note": "Thông điệp chưa đủ rõ ngay từ đầu.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-web-no-action",
+    "role_ids": [
+      "web-design"
+    ],
+    "group_id": "problems",
+    "label": "Nội dung hay nhưng không dẫn đến hành động",
+    "short_note": "Đọc xong mà không biết bước tiếp theo.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-web-pretty-no-guidance",
+    "role_ids": [
+      "web-design"
+    ],
+    "group_id": "problems",
+    "label": "Web đẹp nhưng không dẫn người dùng",
+    "short_note": "Có thẩm mỹ nhưng thiếu logic trải nghiệm.",
+    "has_detail": false,
+    "weight": 4,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-web-prioritize-understanding",
+    "role_ids": [
+      "web-design"
+    ],
+    "group_id": "methods",
+    "label": "Xác định người xem cần hiểu gì trước",
+    "short_note": "Bắt đầu từ câu hỏi của người xem, không từ mong muốn trình bày.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-web-section-purpose",
+    "role_ids": [
+      "web-design"
+    ],
+    "group_id": "methods",
+    "label": "Làm rõ mục đích của từng section",
+    "short_note": "Mỗi khối đều phải có vai trò cụ thể.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-web-order-awareness",
+    "role_ids": [
+      "web-design"
+    ],
+    "group_id": "methods",
+    "label": "Sắp xếp nội dung theo thứ tự nhận thức",
+    "short_note": "Thông tin vào đúng lúc, đúng mức.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-web-cta-placement",
+    "role_ids": [
+      "web-design"
+    ],
+    "group_id": "methods",
+    "label": "Đặt CTA đúng chỗ, đúng thời điểm",
+    "short_note": "CTA xuất hiện khi người xem đã đủ hiểu để bấm.",
+    "has_detail": false,
+    "weight": 4,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-web-sitemap",
+    "role_ids": [
+      "web-design"
+    ],
+    "group_id": "outputs",
+    "label": "Cấu trúc trang rõ ràng",
+    "short_note": "Xem được các phần chính và cách đi qua chúng.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-web-content-hierarchy",
+    "role_ids": [
+      "web-design"
+    ],
+    "group_id": "outputs",
+    "label": "Luồng đọc hợp lý",
+    "short_note": "Thứ tự section giúp người xem hiểu nhanh hơn.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-web-section-layout",
+    "role_ids": [
+      "web-design"
+    ],
+    "group_id": "outputs",
+    "label": "Section layout",
+    "short_note": "Khung trình bày cho từng phần nội dung.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-web-cta-logic",
+    "role_ids": [
+      "web-design"
+    ],
+    "group_id": "outputs",
+    "label": "CTA logic",
+    "short_note": "Hệ điểm bấm được gắn đúng mục đích.",
+    "has_detail": false,
+    "weight": 4,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-web-message-hierarchy",
+    "role_ids": [
+      "web-design"
+    ],
+    "group_id": "skills",
+    "label": "Sắp xếp thông điệp theo thứ tự hiểu",
+    "short_note": "Ưu tiên thứ người xem cần hiểu trước.",
+    "has_detail": true,
+    "detail_id": "detail-web-message-hierarchy",
+    "weight": 1,
+    "style_variant": "skill"
+  },
+  {
+    "id": "item-miniapp-turn-work-into-app",
+    "role_ids": [
+      "mini-app-design"
+    ],
+    "group_id": "role-focus",
+    "label": "Biến cách làm việc thành app dùng được",
+    "short_note": "Chuyển quy trình thật thành tương tác rõ ràng.",
+    "has_detail": true,
+    "detail_id": "detail-miniapp-logic",
+    "weight": 1,
+    "style_variant": "focus"
+  },
+  {
+    "id": "item-miniapp-separate-roles",
+    "role_ids": [
+      "mini-app-design"
+    ],
+    "group_id": "role-focus",
+    "label": "Tách rõ ai dùng, dùng lúc nào",
+    "short_note": "Không để user, admin, master trộn vào nhau.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "focus"
+  },
+  {
+    "id": "item-miniapp-keep-core",
+    "role_ids": [
+      "mini-app-design"
+    ],
+    "group_id": "role-focus",
+    "label": "Làm app nhỏ nhưng đúng trọng tâm",
+    "short_note": "Giữ phần thiết yếu để test nhanh và mở rộng sau.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "focus"
+  },
+  {
+    "id": "item-miniapp-starting-point",
+    "role_ids": [
+      "mini-app-design"
+    ],
+    "group_id": "problems",
+    "label": "Có ý tưởng app nhưng không biết bắt đầu từ đâu",
+    "short_note": "Tính năng nhiều nhưng không có trục chính.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-miniapp-feature-chaos",
+    "role_ids": [
+      "mini-app-design"
+    ],
+    "group_id": "problems",
+    "label": "App bị rối vì đi theo tính năng",
+    "short_note": "Có nhiều chức năng nhưng không ra luồng dùng thật.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-miniapp-no-next-step",
+    "role_ids": [
+      "mini-app-design"
+    ],
+    "group_id": "problems",
+    "label": "Người dùng không biết bước tiếp theo",
+    "short_note": "Mỗi màn hình không nói rõ nên làm gì tiếp.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-miniapp-role-mixed",
+    "role_ids": [
+      "mini-app-design"
+    ],
+    "group_id": "problems",
+    "label": "Logic user và admin bị trộn",
+    "short_note": "Cùng một nơi nhưng phục vụ nhiều mục đích khác nhau.",
+    "has_detail": false,
+    "weight": 4,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-miniapp-split-actors",
+    "role_ids": [
+      "mini-app-design"
+    ],
+    "group_id": "methods",
+    "label": "Tách nhóm người dùng",
+    "short_note": "User, admin, master hoặc các vai trò riêng đều được tách rõ.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-miniapp-state-clarity",
+    "role_ids": [
+      "mini-app-design"
+    ],
+    "group_id": "methods",
+    "label": "Làm rõ trạng thái đang diễn ra",
+    "short_note": "Biết đang làm gì, xong chưa, chờ ai.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-miniapp-main-sub-flows",
+    "role_ids": [
+      "mini-app-design"
+    ],
+    "group_id": "methods",
+    "label": "Dựng flow chính và flow phụ",
+    "short_note": "Ưu tiên đường đi chính, sau đó mới nhánh phụ.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-miniapp-ai-scaffold",
+    "role_ids": [
+      "mini-app-design"
+    ],
+    "group_id": "methods",
+    "label": "Dựng demo nhanh bằng AI",
+    "short_note": "Tạo scaffold để nhìn thấy sản phẩm sớm.",
+    "has_detail": false,
+    "weight": 4,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-miniapp-user-flow",
+    "role_ids": [
+      "mini-app-design"
+    ],
+    "group_id": "outputs",
+    "label": "User flow",
+    "short_note": "Luồng hành động chính của người dùng.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-miniapp-screen-map",
+    "role_ids": [
+      "mini-app-design"
+    ],
+    "group_id": "outputs",
+    "label": "Screen map",
+    "short_note": "Bản đồ màn hình và mối liên hệ giữa chúng.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-miniapp-state-map",
+    "role_ids": [
+      "mini-app-design"
+    ],
+    "group_id": "outputs",
+    "label": "Logic trạng thái",
+    "short_note": "Cấu trúc các trạng thái chính của app.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-miniapp-prototype",
+    "role_ids": [
+      "mini-app-design"
+    ],
+    "group_id": "outputs",
+    "label": "Prototype nhanh",
+    "short_note": "Bản kiểm thử dùng để xem logic và trải nghiệm.",
+    "has_detail": false,
+    "weight": 4,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-miniapp-service-state",
+    "role_ids": [
+      "mini-app-design"
+    ],
+    "group_id": "skills",
+    "label": "Làm rõ trạng thái dịch vụ",
+    "short_note": "Giúp app không bị rối ở các bước chuyển.",
+    "has_detail": true,
+    "detail_id": "detail-service-state-mapping",
+    "weight": 1,
+    "style_variant": "skill"
+  },
+  {
+    "id": "item-story-turn-info-into-story",
+    "role_ids": [
+      "story-design"
+    ],
+    "group_id": "role-focus",
+    "label": "Biến thông tin thành câu chuyện dễ hiểu",
+    "short_note": "Nội dung có mạch, có nhịp và dễ đi vào hơn.",
+    "has_detail": true,
+    "detail_id": "detail-story-core",
+    "weight": 1,
+    "style_variant": "focus"
+  },
+  {
+    "id": "item-story-keep-tone",
+    "role_ids": [
+      "story-design"
+    ],
+    "group_id": "role-focus",
+    "label": "Giữ được chất mà vẫn dễ tiếp nhận",
+    "short_note": "Không làm mất tinh thần gốc khi sắp lại nội dung.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "focus"
+  },
+  {
+    "id": "item-story-connect-text-image",
+    "role_ids": [
+      "story-design"
+    ],
+    "group_id": "role-focus",
+    "label": "Kết nối text với hình và cảm nhận",
+    "short_note": "Story không đứng riêng khỏi visual.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "focus"
+  },
+  {
+    "id": "item-story-disconnected-content",
+    "role_ids": [
+      "story-design"
+    ],
+    "group_id": "problems",
+    "label": "Nội dung nhiều nhưng đọc không vào",
+    "short_note": "Có chất liệu nhưng thiếu mạch dẫn.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-story-mixed-voices",
+    "role_ids": [
+      "story-design"
+    ],
+    "group_id": "problems",
+    "label": "Mỗi chỗ nói một kiểu",
+    "short_note": "Giọng điệu không thống nhất làm loãng cảm nhận.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-story-hard-to-tell",
+    "role_ids": [
+      "story-design"
+    ],
+    "group_id": "problems",
+    "label": "Có ý nhưng không biết kể thế nào",
+    "short_note": "Biết điều muốn nói nhưng chưa có khung kể.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-story-depth-hard",
+    "role_ids": [
+      "story-design"
+    ],
+    "group_id": "problems",
+    "label": "Khó truyền tải chiều sâu",
+    "short_note": "Nội dung thật nhưng chưa thành trải nghiệm đọc phù hợp.",
+    "has_detail": false,
+    "weight": 4,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-story-find-theme",
+    "role_ids": [
+      "story-design"
+    ],
+    "group_id": "methods",
+    "label": "Tìm chủ đề chính",
+    "short_note": "Chốt trục tinh thần trước khi triển khai chi tiết.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-story-sequence",
+    "role_ids": [
+      "story-design"
+    ],
+    "group_id": "methods",
+    "label": "Sắp xếp lại theo mạch kể",
+    "short_note": "Tổ chức nhịp đi từ mở đến sâu hơn.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-story-reader-feeling",
+    "role_ids": [
+      "story-design"
+    ],
+    "group_id": "methods",
+    "label": "Đặt theo cảm nhận người đọc",
+    "short_note": "Không chỉ đúng thông tin mà còn đúng nhịp tiếp nhận.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-story-visual-sync",
+    "role_ids": [
+      "story-design"
+    ],
+    "group_id": "methods",
+    "label": "Kết nối narrative với hình ảnh",
+    "short_note": "Giữ text và visual cùng nói một ngôn ngữ.",
+    "has_detail": false,
+    "weight": 4,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-story-framework",
+    "role_ids": [
+      "story-design"
+    ],
+    "group_id": "outputs",
+    "label": "Khung câu chuyện",
+    "short_note": "Bộ xương mạch kể để triển khai đồng nhất.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-story-script",
+    "role_ids": [
+      "story-design"
+    ],
+    "group_id": "outputs",
+    "label": "Script / bài viết",
+    "short_note": "Phiên bản nội dung đã có nhịp và hướng rõ.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-story-message-layers",
+    "role_ids": [
+      "story-design"
+    ],
+    "group_id": "outputs",
+    "label": "Lớp thông điệp",
+    "short_note": "Tách được phần cảm xúc, lý trí và bằng chứng.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-story-content-sequence",
+    "role_ids": [
+      "story-design"
+    ],
+    "group_id": "outputs",
+    "label": "Structure content",
+    "short_note": "Chuỗi nội dung có logic để dùng trên nhiều format.",
+    "has_detail": false,
+    "weight": 4,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-story-narrative-framing",
+    "role_ids": [
+      "story-design"
+    ],
+    "group_id": "skills",
+    "label": "Dựng khung kể chuyện",
+    "short_note": "Tạo bộ xương để story có mạch và giữ chất.",
+    "has_detail": true,
+    "detail_id": "detail-story-narrative-framing",
+    "weight": 1,
+    "style_variant": "skill"
+  },
+  {
+    "id": "item-biz-pack-solution",
+    "role_ids": [
+      "business-assets"
+    ],
+    "group_id": "role-focus",
+    "label": "Đóng gói giải pháp thành tài sản dùng được",
+    "short_note": "Không để output nằm rời rạc sau khi làm xong.",
+    "has_detail": true,
+    "detail_id": "detail-bizassets-core",
+    "weight": 1,
+    "style_variant": "focus"
+  },
+  {
+    "id": "item-biz-sales-training",
+    "role_ids": [
+      "business-assets"
+    ],
+    "group_id": "role-focus",
+    "label": "Phục vụ bán hàng, giới thiệu, đào tạo",
+    "short_note": "Một lớp asset hỗ trợ nhiều mục đích rõ ràng.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "focus"
+  },
+  {
+    "id": "item-biz-turn-knowledge",
+    "role_ids": [
+      "business-assets"
+    ],
+    "group_id": "role-focus",
+    "label": "Biến tri thức thành sản phẩm thông tin",
+    "short_note": "Chất liệu thô được tổ chức lại thành gói rõ ràng.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "focus"
+  },
+  {
+    "id": "item-biz-no-doc-system",
+    "role_ids": [
+      "business-assets"
+    ],
+    "group_id": "problems",
+    "label": "Có nhiều thông tin nhưng không thành tài liệu",
+    "short_note": "Thiếu khung để đóng gói lại thông tin.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-biz-unused-doc",
+    "role_ids": [
+      "business-assets"
+    ],
+    "group_id": "problems",
+    "label": "Tài liệu đọc xong nhưng không dùng được",
+    "short_note": "Đẹp hoặc nhiều chữ nhưng không phục vụ hành động.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-biz-no-sales-assets",
+    "role_ids": [
+      "business-assets"
+    ],
+    "group_id": "problems",
+    "label": "Thiếu bộ tài sản hỗ trợ bán hàng",
+    "short_note": "Không có thứ rõ ràng để giới thiệu hoặc thuyết phục.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-biz-knowledge-in-head",
+    "role_ids": [
+      "business-assets"
+    ],
+    "group_id": "problems",
+    "label": "Tri thức nằm trong đầu người",
+    "short_note": "Chưa được trích ra thành tài sản của tổ chức.",
+    "has_detail": false,
+    "weight": 4,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-biz-define-purpose",
+    "role_ids": [
+      "business-assets"
+    ],
+    "group_id": "methods",
+    "label": "Xác định mục đích của từng asset",
+    "short_note": "Mỗi tài sản phải phục vụ một việc rõ ràng.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-biz-extract-core",
+    "role_ids": [
+      "business-assets"
+    ],
+    "group_id": "methods",
+    "label": "Tách thông tin cốt lõi",
+    "short_note": "Lấy ra phần thật sự cần cho người dùng của tài liệu.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-biz-repackage",
+    "role_ids": [
+      "business-assets"
+    ],
+    "group_id": "methods",
+    "label": "Đóng gói lại theo form phù hợp",
+    "short_note": "Chọn format đúng cho bán hàng, training hay hướng dẫn.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-biz-cross-format",
+    "role_ids": [
+      "business-assets"
+    ],
+    "group_id": "methods",
+    "label": "Chuyển một nguồn chất liệu thành nhiều dạng",
+    "short_note": "Một nguồn gốc có thể đẻ ra deck, doc, bài viết hoặc handout.",
+    "has_detail": false,
+    "weight": 4,
+    "style_variant": "method"
+  },
+  {
+    "id": "item-biz-sales-doc",
+    "role_ids": [
+      "business-assets"
+    ],
+    "group_id": "outputs",
+    "label": "Sales document",
+    "short_note": "Tài liệu dùng để giới thiệu và thuyết phục.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-biz-training-doc",
+    "role_ids": [
+      "business-assets"
+    ],
+    "group_id": "outputs",
+    "label": "Training document",
+    "short_note": "Tài liệu giúp người khác học và làm theo.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-biz-knowledge-pack",
+    "role_ids": [
+      "business-assets"
+    ],
+    "group_id": "outputs",
+    "label": "Knowledge pack",
+    "short_note": "Bộ nội dung được tổ chức để tra cứu và dùng lại.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-biz-brand-assets",
+    "role_ids": [
+      "business-assets"
+    ],
+    "group_id": "outputs",
+    "label": "Printable / digital assets",
+    "short_note": "Tài sản truyền thông và trình bày theo nhiều format.",
+    "has_detail": false,
+    "weight": 4,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-biz-knowledge-packaging",
+    "role_ids": [
+      "business-assets"
+    ],
+    "group_id": "skills",
+    "label": "Đóng gói tri thức thành tài sản",
+    "short_note": "Chuyển chất liệu thô thành bộ dùng được.",
+    "has_detail": true,
+    "detail_id": "detail-biz-knowledge-packaging",
+    "weight": 1,
+    "style_variant": "skill"
+  },
+  {
+    "id": "item-gam-core",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "role-focus",
+    "label": "Thiết kế hành vi bằng cơ chế game",
+    "short_note": "Không chỉ thêm yếu tố vui, mà thiết kế lý do để người dùng làm tiếp.",
+    "has_detail": true,
+    "weight": 1,
+    "style_variant": "focus",
+    "detail_id": "detail-gamification-core"
+  },
+  {
+    "id": "item-gam-reward-loop",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "role-focus",
+    "label": "Thiết kế vòng lặp phần thưởng",
+    "short_note": "Biến hành động thành phản hồi và lý do quay lại.",
+    "has_detail": true,
+    "weight": 2,
+    "style_variant": "focus",
+    "detail_id": "detail-reward-loop"
+  },
+  {
+    "id": "item-gam-quest-journey",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "role-focus",
+    "label": "Biến hành trình thành chuỗi nhiệm vụ",
+    "short_note": "Chia trải nghiệm thành các bước có mục tiêu rõ.",
+    "has_detail": true,
+    "weight": 3,
+    "style_variant": "focus",
+    "detail_id": "detail-quest-system"
+  },
+  {
+    "id": "item-gam-progression-feel",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "role-focus",
+    "label": "Tạo cảm giác tiến triển",
+    "short_note": "Người dùng thấy mình đang đi lên chứ không đứng yên.",
+    "has_detail": true,
+    "weight": 4,
+    "style_variant": "focus",
+    "detail_id": "detail-progression-design"
+  },
+  {
+    "id": "item-gam-one-time-use",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "problems",
+    "label": "Dùng một lần rồi bỏ",
+    "short_note": "Dịch vụ có mở đầu nhưng không có lý do quay lại.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-gam-low-motivation",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "problems",
+    "label": "Thiếu động lực để làm tiếp",
+    "short_note": "Người dùng biết phải làm gì nhưng không muốn làm.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-gam-dry-service",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "problems",
+    "label": "Trải nghiệm khô và thiếu thú vị",
+    "short_note": "Dịch vụ đúng chức năng nhưng không có cảm giác hành trình.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-gam-no-progress",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "problems",
+    "label": "Không thấy mình tiến bộ",
+    "short_note": "Làm nhiều nhưng không có dấu hiệu cho thấy đang tiến lên.",
+    "has_detail": true,
+    "weight": 4,
+    "style_variant": "problem",
+    "detail_id": "detail-progression-design"
+  },
+  {
+    "id": "item-gam-no-return-reason",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "problems",
+    "label": "Không có lý do để quay lại",
+    "short_note": "Không có mốc, không có phần thưởng, không có bước chờ tiếp theo.",
+    "has_detail": true,
+    "weight": 5,
+    "style_variant": "problem",
+    "detail_id": "detail-engagement-flow"
+  },
+  {
+    "id": "item-gam-drop-off",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "problems",
+    "label": "Bỏ giữa chừng ở hành trình dài",
+    "short_note": "Hành trình quá lớn hoặc phần thưởng quá xa nên dễ nản.",
+    "has_detail": false,
+    "weight": 6,
+    "style_variant": "problem"
+  },
+  {
+    "id": "item-gam-map-motivation",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "methods",
+    "label": "Đọc động lực trước khi gắn cơ chế",
+    "short_note": "Không phải mọi người đều thích cùng một kiểu phần thưởng.",
+    "has_detail": true,
+    "weight": 1,
+    "style_variant": "method",
+    "detail_id": "detail-motivation-mapping"
+  },
+  {
+    "id": "item-gam-design-loop",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "methods",
+    "label": "Thiết kế loop làm → được ghi nhận → muốn quay lại",
+    "short_note": "Mỗi hành động cần có phản hồi và đích tiếp theo.",
+    "has_detail": true,
+    "weight": 2,
+    "style_variant": "method",
+    "detail_id": "detail-reward-loop"
+  },
+  {
+    "id": "item-gam-split-quests",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "methods",
+    "label": "Chia hành trình thành nhiệm vụ nhỏ",
+    "short_note": "Giảm cảm giác nặng và tăng khả năng bắt đầu.",
+    "has_detail": true,
+    "weight": 3,
+    "style_variant": "method",
+    "detail_id": "detail-quest-system"
+  },
+  {
+    "id": "item-gam-balance-rewards",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "methods",
+    "label": "Cân bằng phần thưởng theo công sức",
+    "short_note": "Tránh thưởng quá dễ hoặc quá khó.",
+    "has_detail": true,
+    "weight": 4,
+    "style_variant": "method",
+    "detail_id": "detail-reward-balancing"
+  },
+  {
+    "id": "item-gam-feedback-timing",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "methods",
+    "label": "Thiết kế phản hồi ngay sau hành động",
+    "short_note": "Người dùng cần biết việc mình làm có hiệu lực.",
+    "has_detail": true,
+    "weight": 5,
+    "style_variant": "method",
+    "detail_id": "detail-feedback-loop"
+  },
+  {
+    "id": "item-gam-return-hooks",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "methods",
+    "label": "Gắn lý do quay lại vào nhịp sử dụng",
+    "short_note": "Daily, streak, mốc chờ hoặc nhiệm vụ tiếp nối.",
+    "has_detail": true,
+    "weight": 6,
+    "style_variant": "method",
+    "detail_id": "detail-engagement-flow"
+  },
+  {
+    "id": "item-gam-service-fit",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "methods",
+    "label": "Chọn cơ chế hợp với từng loại dịch vụ",
+    "short_note": "Game hóa phải hợp bối cảnh, không làm lố trải nghiệm.",
+    "has_detail": true,
+    "weight": 7,
+    "style_variant": "method",
+    "detail_id": "detail-service-gamification"
+  },
+  {
+    "id": "item-gam-output-loop-blueprint",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "outputs",
+    "label": "Reward loop blueprint",
+    "short_note": "Sơ đồ loop hành vi, phản hồi và lý do quay lại.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-gam-output-quest-board",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "outputs",
+    "label": "Quest / task structure",
+    "short_note": "Khung nhiệm vụ và cách chia hành trình thành bước nhỏ.",
+    "has_detail": false,
+    "weight": 2,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-gam-output-progression-map",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "outputs",
+    "label": "Progression map",
+    "short_note": "Các mốc tiến độ, level, unlock và achievement.",
+    "has_detail": false,
+    "weight": 3,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-gam-output-engagement-flow",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "outputs",
+    "label": "Engagement flow",
+    "short_note": "Luồng giữ người dùng quay lại theo nhịp hợp lý.",
+    "has_detail": false,
+    "weight": 4,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-gam-output-reward-matrix",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "outputs",
+    "label": "Reward matrix",
+    "short_note": "Ma trận phần thưởng gắn với hành vi và cột mốc.",
+    "has_detail": false,
+    "weight": 5,
+    "style_variant": "output"
+  },
+  {
+    "id": "item-gam-output-service-concept",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "outputs",
+    "label": "Gamified service concept",
+    "short_note": "Bản mô tả cách đưa game hóa vào dịch vụ hoặc trải nghiệm khách hàng.",
+    "has_detail": true,
+    "weight": 6,
+    "style_variant": "output",
+    "detail_id": "detail-service-gamification"
+  },
+  {
+    "id": "item-gam-skill-behavior-design",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "skills",
+    "label": "Thiết kế hành vi người dùng",
+    "short_note": "Nhìn trải nghiệm từ góc hành vi thay vì chỉ từ giao diện.",
+    "has_detail": false,
+    "weight": 1,
+    "style_variant": "skill"
+  },
+  {
+    "id": "item-gam-skill-motivation",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "skills",
+    "label": "Đọc động lực người dùng",
+    "short_note": "Hiểu người dùng bị kéo bởi điều gì để chọn cơ chế phù hợp.",
+    "has_detail": true,
+    "weight": 2,
+    "style_variant": "skill",
+    "detail_id": "detail-motivation-mapping"
+  },
+  {
+    "id": "item-gam-skill-reward-balance",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "skills",
+    "label": "Cân bằng phần thưởng",
+    "short_note": "Giữ giá trị phần thưởng và tránh hệ bị nhạt nhanh.",
+    "has_detail": true,
+    "weight": 3,
+    "style_variant": "skill",
+    "detail_id": "detail-reward-balancing"
+  },
+  {
+    "id": "item-gam-skill-progression",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "skills",
+    "label": "Thiết kế cảm giác tiến triển",
+    "short_note": "Tạo mốc, level và tín hiệu cho thấy người dùng đang đi lên.",
+    "has_detail": true,
+    "weight": 4,
+    "style_variant": "skill",
+    "detail_id": "detail-progression-design"
+  },
+  {
+    "id": "item-gam-skill-feedback",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "skills",
+    "label": "Thiết kế phản hồi đúng lúc",
+    "short_note": "Cho người dùng biết điều gì vừa xảy ra và bước tiếp theo là gì.",
+    "has_detail": true,
+    "weight": 5,
+    "style_variant": "skill",
+    "detail_id": "detail-feedback-loop"
+  },
+  {
+    "id": "item-gam-skill-retention",
+    "role_ids": [
+      "gamification-design"
+    ],
+    "group_id": "skills",
+    "label": "Nhìn trải nghiệm theo khả năng quay lại",
+    "short_note": "Không chỉ hoàn thành một lần, mà còn giữ nhịp dùng lâu hơn.",
+    "has_detail": true,
+    "weight": 6,
+    "style_variant": "skill",
+    "detail_id": "detail-engagement-flow"
+  }
+]

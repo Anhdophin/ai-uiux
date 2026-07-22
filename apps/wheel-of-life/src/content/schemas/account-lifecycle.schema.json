@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "states",
+    "allowed_transitions"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "states": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "allowed_transitions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "from",
+          "to"
+        ],
+        "properties": {
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

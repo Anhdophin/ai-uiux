@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security Shield Demo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #151515;
+      background: #f5f6f8;
+    }
+
+    .container {
+      width: min(900px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 28px 0 60px;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+      font-size: clamp(30px, 5vw, 44px);
+    }
+
+    .note {
+      color: #4b5563;
+      margin-top: 0;
+    }
+
+    .card {
+      padding: 18px;
+      border: 1px solid #d9dde5;
+      border-radius: 14px;
+      background: #fff;
+      margin-top: 16px;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    button {
+      height: 40px;
+      padding: 0 14px;
+      border: 1px solid #c5ccd8;
+      border-radius: 999px;
+      background: #fff;
+      cursor: pointer;
+    }
+
+    button.primary {
+      background: #111827;
+      border-color: #111827;
+      color: #fff;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      margin-top: 8px;
+      padding: 10px 12px;
+      border: 1px solid #d6dae2;
+      border-radius: 10px;
+      font: inherit;
+    }
+
+    textarea {
+      min-height: 96px;
+      resize: vertical;
+    }
+
+    .is-security-blocked {
+      border-color: #b91c1c !important;
+      background: #fff1f2;
+    }
+
+    #target {
+      min-height: 80px;
+    }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border: 1px solid #d6dae2;
+      border-radius: 999px;
+      background: #fff;
+      font-size: 14px;
+    }
+
+    .status-pill__dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #9ca3af;
+    }
+
+    .status-pill.is-online .status-pill__dot {
+      background: #16a34a;
+    }
+
+    .status-pill.is-offline .status-pill__dot {
+      background: #dc2626;
+    }
+  </style>
+
+  <script>
+    window.SecurityShieldConfig = {
+      autoStart: true,
+      scanDocumentOnStart: false,
+      monitorMutations: true,
+      scanForms: true,
+      quietEventTypes: ['shield_started', 'shield_stopped'],
+      dedupeReports: true,
+      dedupeWindowMs: 1500,
+      backendUrl: 'http://127.0.0.1:8787',
+      allowedIframeHosts: ['www.youtube.com'],
+      allowedScriptHosts: [window.location.hostname],
+      allowedImageHosts: [window.location.hostname],
+      onThreatDetected: function (event) {
+        var visibleEvents = [
+          'blocked_open_unsafe_url',
+          'blocked_navigate_unsafe_url',
+          'blocked_form_payload',
+          'removed_unsafe_url_attribute',
+          'blocked_iframe_host',
+          'blocked_script_host',
+          'blocked_image_host',
+          'blocked_image_url'
+        ];
+
+        if (visibleEvents.indexOf(event.type) === -1) {
+          return;
+        }
+
+        if (this.backendUrl) {
+          fetch(this.backendUrl + '/api/security-events', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              type: event.type,
+              details: event.details,
+              page: window.location.href,
+              level: 'warn'
+            })
+          }).catch(function () {
+            // Ignore backend log error in demo.
+          });
+        }
+
+        var log = document.getElementById('threat-log');
+        if (log) {
+          var item = document.createElement('li');
+          item.textContent = event.type + ' - ' + (event.details.tag || event.details.field || event.details.src || 'n/a');
+          log.prepend(item);
+        }
+      }
+    };
+  </script>
+  <script defer src="../js/security-shield.js"></script>
+</head>
+<body>
+  <main class="container">
+    <h1>Security Shield Demo</h1>
+    <p class="note">Demo cho thấy cách kit chặn payload nguy hiểm ở HTML injection, form và URL.</p>
+    <div id="backend-status" class="status-pill">
+      <span class="status-pill__dot"></span>
+      <span>Dang kiem tra backend...</span>
+    </div>
+
+    <section class="card">
+      <h2>1. Sanitize HTML trước khi render</h2>
+      <div class="row">
+        <button id="inject-clean" class="primary" type="button">Inject nội dung sạch</button>
+        <button id="inject-unsafe" type="button">Inject nội dung nguy hiểm</button>
+      </div>
+      <div id="target" class="card" style="margin-top:12px"></div>
+    </section>
+
+    <section class="card">
+      <h2>2. Form payload scanning</h2>
+      <form id="lead-form" action="#" method="post">
+        <label>
+          Tieu de
+          <input type="text" name="title" placeholder="Nhap tieu de binh thuong">
+        </label>
+        <label>
+          Noi dung
+          <textarea name="content" placeholder="Thu paste payload xss, vd: <script>alert(1)</script>"></textarea>
+        </label>
+        <div class="row">
+          <button class="primary" type="submit">Submit</button>
+        </div>
+      </form>
+      <p class="note">Neu payload bi nghi ngo, form se bi chan submit.</p>
+    </section>
+
+    <section class="card">
+      <h2>3. Safe URL open</h2>
+      <div class="row">
+        <button id="open-safe" class="primary" type="button">Mo URL hop le</button>
+        <button id="open-bad" type="button">Mo URL javascript:</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Threat events</h2>
+      <p class="note">Che do it nhieu: chi hien thi cac event co y nghia nghiep vu test.</p>
+      <ul id="threat-log"></ul>
+    </section>
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var shield = window.__securityShieldInstance || window.SecurityShieldKit.create(window.SecurityShieldConfig || {});
+      if (!window.__securityShieldInstance) shield.start();
+      var backendBaseUrl = window.SecurityShieldConfig.backendUrl || 'http://127.0.0.1:8787';
+
+      var target = document.getElementById('target');
+      var injectClean = document.getElementById('inject-clean');
+      var injectUnsafe = document.getElementById('inject-unsafe');
+      var openSafe = document.getElementById('open-safe');
+      var openBad = document.getElementById('open-bad');
+      var form = document.getElementById('lead-form');
+      var backendStatus = document.getElementById('backend-status');
+
+      function setBackendStatus(isOnline, message) {
+        if (!backendStatus) return;
+        backendStatus.classList.toggle('is-online', Boolean(isOnline));
+        backendStatus.classList.toggle('is-offline', !isOnline);
+        backendStatus.querySelector('span:last-child').textContent = message;
+      }
+
+      function checkBackendHealth() {
+        return fetch(backendBaseUrl + '/api/health', { cache: 'no-store' })
+          .then(function (response) {
+            if (!response.ok) {
+              throw new Error('Health check failed with status ' + response.status);
+            }
+
+            return response.json();
+          })
+          .then(function () {
+            setBackendStatus(true, 'Backend dang online: ' + backendBaseUrl);
+            return true;
+          })
+          .catch(function () {
+            setBackendStatus(false, 'Backend offline hoac sai URL: ' + backendBaseUrl);
+            return false;
+          });
+      }
+
+      checkBackendHealth();
+
+      injectClean.addEventListener('click', function () {
+        shield.setSafeHtml(target, '<h3>Noi dung hop le</h3><p>Khong co script hoac event nguy hiem.</p>');
+      });
+
+      injectUnsafe.addEventListener('click', function () {
+        var payload = '<img src="x" onerror="alert(1)"><script>alert(99)<\\/script><a href="javascript:alert(5)">click</a>';
+        shield.setSafeHtml(target, payload);
+      });
+
+      openSafe.addEventListener('click', function () {
+        shield.openSafe('https://example.com');
+      });
+
+      openBad.addEventListener('click', function () {
+        shield.openSafe('javascript:alert(1)');
+      });
+
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        var contentField = form.querySelector('textarea[name="content"]');
+        var contentValue = contentField ? contentField.value : '';
+
+        // If security shield marked input as suspicious, do not call backend.
+        if (contentField && contentField.classList.contains('is-security-blocked')) {
+          alert('Noi dung bi chan boi Security Shield. Khong gui du lieu len backend.');
+          return;
+        }
+
+        if (window.SecurityShieldKit && window.SecurityShieldKit.hasSuspiciousPayload(contentValue)) {
+          if (contentField) contentField.classList.add('is-security-blocked');
+          alert('Noi dung co dau hieu nguy hiem. Vui long sua truoc khi submit.');
+          return;
+        }
+
+        var payload = {
+          fullName: 'Demo User',
+          email: 'demo.user@example.com',
+          message: contentValue,
+          source: 'security-demo'
+        };
+
+        checkBackendHealth().then(function (isBackendOnline) {
+          if (!isBackendOnline) {
+            alert('Khong ket noi duoc backend. Kiem tra server tai ' + backendBaseUrl + ' va nhan Ctrl+F5 de tai lai trang.');
+            return;
+          }
+
+          fetch(backendBaseUrl + '/api/leads', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+          })
+            .then(function (response) {
+              if (!response.ok) {
+                return response.json().then(function (result) {
+                  throw new Error(result.error || 'HTTP ' + response.status);
+                });
+              }
+
+              return response.json();
+            })
+            .then(function (result) {
+              alert('Da gui lead vao backend. ID: ' + result.id);
+              form.reset();
+              if (contentField) contentField.classList.remove('is-security-blocked');
+            })
+            .catch(function (error) {
+              alert('Gui lead that bai: ' + error.message);
+            });
+        });
+      });
+    });
+  </script>
+</body>
+</html>

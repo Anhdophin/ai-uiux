@@ -1,0 +1,15 @@
+{
+  "slug": "post-url-slug",
+  "title": "Post Title Goes Here",
+  "short_title": "Short Title",
+  "category": "design",
+  "excerpt": "Brief summary of the post shown in list view. Keep this 150-300 characters.",
+  "tags": ["tag1", "tag2", "tag3"],
+  "author": "Anhdophin",
+  "publish_date": "2026-04-07",
+  "updated_date": "2026-04-07",
+  "featured_image": "./media/featured.jpg",
+  "read_time": 8,
+  "is_featured": false,
+  "status": "published"
+}

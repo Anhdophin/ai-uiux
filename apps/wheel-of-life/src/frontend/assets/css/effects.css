@@ -1,0 +1,19 @@
+/* Shared effect utilities. */
+.ui-panel-surface {
+  background: linear-gradient(180deg, rgba(244,247,252,0.92), rgba(229,236,246,0.86));
+  border: 1px solid rgba(255,255,255,0.38);
+  box-shadow: var(--ui-shadow-panel);
+  backdrop-filter: blur(18px);
+}
+.ui-soft-surface {
+  background: linear-gradient(180deg, rgba(244,248,253,0.95), rgba(227,235,246,0.9));
+  box-shadow: var(--ui-shadow-soft);
+}
+.ui-pressed-surface {
+  background: linear-gradient(180deg, rgba(227,235,245,0.96), rgba(239,244,250,0.9));
+  box-shadow: var(--ui-shadow-pressed);
+}
+.ui-accent-glow-blue { box-shadow: 0 0 0 1px rgba(91,132,255,.16), 0 16px 34px rgba(91,132,255,.28); }
+.ui-accent-glow-violet { box-shadow: 0 0 0 1px rgba(145,132,255,.18), 0 16px 34px rgba(145,132,255,.24); }
+.ui-accent-glow-orange { box-shadow: 0 0 0 1px rgba(245,161,74,.16), 0 16px 34px rgba(245,161,74,.24); }
+.ui-accent-glow-pink { box-shadow: 0 0 0 1px rgba(240,111,177,.16), 0 16px 34px rgba(240,111,177,.24); }

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KeywordTreeSeedBundle",
+  "type": "object",
+  "required": ["version", "updated_at", "source_note", "nodes"],
+  "properties": {
+    "version": {"type": "string"},
+    "updated_at": {"type": "string"},
+    "source_note": {"type": "string"},
+    "nodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id", "label", "short_meaning", "long_meaning", "depth", "kind",
+          "parent_ids", "child_ids", "related_node_ids", "life_area_weights",
+          "persona_tags", "reflection_prompts", "clarifying_prompts", "ai_hints",
+          "audit_tags", "status", "version"
+        ],
+        "properties": {
+          "id": {"type": "string"},
+          "label": {"type": "string"},
+          "short_meaning": {"type": "string"},
+          "long_meaning": {"type": "string"},
+          "depth": {"type": "integer", "minimum": 0},
+          "kind": {"type": "string"},
+          "parent_ids": {"type": "array", "items": {"type": "string"}},
+          "child_ids": {"type": "array", "items": {"type": "string"}},
+          "related_node_ids": {"type": "array", "items": {"type": "string"}},
+          "life_area_weights": {"type": "object", "additionalProperties": {"type": "number"}},
+          "persona_tags": {"type": "array", "items": {"type": "string"}},
+          "reflection_prompts": {"type": "array", "items": {"type": "string"}},
+          "clarifying_prompts": {"type": "array", "items": {"type": "string"}},
+          "ai_hints": {"type": "array", "items": {"type": "string"}},
+          "audit_tags": {"type": "array", "items": {"type": "string"}},
+          "status": {"type": "string"},
+          "version": {"type": "string"}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

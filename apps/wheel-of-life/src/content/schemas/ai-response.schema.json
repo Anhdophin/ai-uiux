@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "locale",
+    "summary",
+    "possible_patterns",
+    "follow_up_questions",
+    "next_keyword_paths",
+    "confidence_note"
+  ],
+  "properties": {
+    "locale": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "possible_patterns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "follow_up_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "next_keyword_paths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "selectable_options": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence_note": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,1 +1,0 @@
-window.MatrixRainBG={init(){document.querySelectorAll('[data-background=matrix-rain]').forEach(el=>el.classList.add('bg-matrix-rain'));}};document.readyState==='loading'?document.addEventListener('DOMContentLoaded',()=>window.MatrixRainBG.init(),{once:true}):window.MatrixRainBG.init();

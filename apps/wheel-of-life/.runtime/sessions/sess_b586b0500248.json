@@ -1,0 +1,127 @@
+{
+  "session_id": "sess_b586b0500248",
+  "locale": "vi",
+  "context_profile": {
+    "age_range": "25_30",
+    "gender": "male",
+    "life_stage": "working",
+    "career_stage": "early_career",
+    "goals": [],
+    "concerns": []
+  },
+  "user_reality_context": {
+    "locale": "vi",
+    "life_setup": "working_few_years",
+    "current_pressures": [
+      "direction_pressure"
+    ],
+    "current_goals": [
+      "find_direction"
+    ],
+    "constraints": [
+      "low_time"
+    ],
+    "readiness_level": "want_direction_suggestions",
+    "custom_keywords": [],
+    "note_fragment": null
+  },
+  "selected_feeling": "feeling.unclear_direction",
+  "selected_keyword_ids": [
+    "feeling.unclear_direction",
+    "career.direction.unclear"
+  ],
+  "reflection_snippet": "note 7",
+  "latest_mode": "deepen_selection",
+  "latest_selectable_prompt": null,
+  "wheel_preview": {
+    "coverage_count": 0,
+    "life_area_scores": []
+  },
+  "trail": [
+    {
+      "event_id": "evt_4fe82f35e14a",
+      "event_type": "trail_compacted",
+      "label": "Đã nén trail",
+      "created_at": "2026-04-04T22:57:34.042342Z",
+      "metadata": {
+        "compaction_id": "cmp_1b49880c69f0",
+        "compressed_event_count": 6,
+        "event_type_counts": {
+          "context_initialized": 1,
+          "feeling_selected": 1,
+          "keyword_selected": 1,
+          "reflection_updated": 3
+        }
+      }
+    },
+    {
+      "event_id": "evt_940d3991ccc3",
+      "event_type": "reflection_updated",
+      "label": "Đã cập nhật reflection",
+      "created_at": "2026-04-04T22:57:34.039879Z",
+      "metadata": {
+        "has_note_fragment": true
+      }
+    },
+    {
+      "event_id": "evt_d9791224fa9e",
+      "event_type": "reflection_updated",
+      "label": "Đã cập nhật reflection",
+      "created_at": "2026-04-04T22:57:34.040261Z",
+      "metadata": {
+        "has_note_fragment": true
+      }
+    },
+    {
+      "event_id": "evt_16f4d826b508",
+      "event_type": "reflection_updated",
+      "label": "Đã cập nhật reflection",
+      "created_at": "2026-04-04T22:57:34.040640Z",
+      "metadata": {
+        "has_note_fragment": true
+      }
+    },
+    {
+      "event_id": "evt_0e1912c9ab70",
+      "event_type": "reflection_updated",
+      "label": "Đã cập nhật reflection",
+      "created_at": "2026-04-04T22:57:34.041031Z",
+      "metadata": {
+        "has_note_fragment": true
+      }
+    },
+    {
+      "event_id": "evt_ab1319a7feee",
+      "event_type": "reflection_updated",
+      "label": "Đã cập nhật reflection",
+      "created_at": "2026-04-04T22:57:34.041676Z",
+      "metadata": {
+        "has_note_fragment": true
+      }
+    }
+  ],
+  "trail_compactions": [
+    {
+      "compaction_id": "cmp_1b49880c69f0",
+      "created_at": "2026-04-04T22:57:34.042301Z",
+      "from_event_count": 6,
+      "to_event_count": 1,
+      "compressed_event_ids": [
+        "evt_0904aed7491d",
+        "evt_9bad0942e480",
+        "evt_dd895e17f93b",
+        "evt_0d072d2645a9",
+        "evt_266a3d9e94f0",
+        "evt_e802ac4bc0d6"
+      ],
+      "event_type_counts": {
+        "context_initialized": 1,
+        "feeling_selected": 1,
+        "keyword_selected": 1,
+        "reflection_updated": 3
+      },
+      "summary_label": "Đã nén trail"
+    }
+  ],
+  "resume_checkpoint": null
+}

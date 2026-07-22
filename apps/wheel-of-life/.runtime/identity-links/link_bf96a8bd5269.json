@@ -1,0 +1,13 @@
+{
+  "link_id": "link_bf96a8bd5269",
+  "pseudonymous_user_key": "usr_594933cad2d045c31767",
+  "link_scope": "account_ready",
+  "source_system": "local_demo",
+  "created_at": "2026-04-04T23:27:01.467995Z",
+  "session_ids": [
+    "sess_unit_1"
+  ],
+  "memory_profile_keys": [
+    "memory_unit_1"
+  ]
+}

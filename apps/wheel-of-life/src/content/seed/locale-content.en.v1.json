@@ -1,0 +1,397 @@
+{
+  "version": "v1",
+  "locale": "en",
+  "fallback_locale": "en",
+  "entries": [
+    {
+      "key": "feeling.unclear_direction.label",
+      "label": "Unclear direction",
+      "short": "You are unsure where to go next.",
+      "long": "This feeling entry is used when direction is still blurry."
+    },
+    {
+      "key": "feeling.unclear_direction.subtitle",
+      "label": "Not sure which path to take.",
+      "short": "Direction feels blurry.",
+      "long": "A short subtitle for the unclear direction card."
+    },
+    {
+      "key": "feeling.pressure.label",
+      "label": "Pressure",
+      "short": "Too many forces are pressing at once.",
+      "long": "Used when the user feels compressed by multiple demands."
+    },
+    {
+      "key": "feeling.pressure.subtitle",
+      "label": "Feeling compressed from many sides.",
+      "short": "Pressure is active.",
+      "long": "Subtitle for the pressure card."
+    },
+    {
+      "key": "feeling.stuck.label",
+      "label": "Stuck",
+      "short": "You are trying, but not moving.",
+      "long": "Used when motion feels blocked despite effort."
+    },
+    {
+      "key": "feeling.stuck.subtitle",
+      "label": "Trying but not moving forward.",
+      "short": "Progress feels blocked.",
+      "long": "Subtitle for the stuck card."
+    },
+    {
+      "key": "feeling.want_change.label",
+      "label": "Want change",
+      "short": "You want a shift, but fear is present.",
+      "long": "Used when change is wanted but resisted."
+    },
+    {
+      "key": "feeling.want_change.subtitle",
+      "label": "Wanting change but still hesitant.",
+      "short": "Change is desired.",
+      "long": "Subtitle for the change card."
+    },
+    {
+      "key": "context.life_setup.working_few_years.label",
+      "label": "Working for a few years",
+      "short": "Already in the workforce.",
+      "long": "Life setup option."
+    },
+    {
+      "key": "context.life_setup.changing_career.label",
+      "label": "Changing career",
+      "short": "In a career transition.",
+      "long": "Life setup option."
+    },
+    {
+      "key": "context.current_pressures.money_pressure.label",
+      "label": "Money pressure",
+      "short": "Money is the loudest pressure.",
+      "long": "Pressure option."
+    },
+    {
+      "key": "context.current_pressures.career_pressure.label",
+      "label": "Career pressure",
+      "short": "Work is the loudest pressure.",
+      "long": "Pressure option."
+    },
+    {
+      "key": "context.current_pressures.direction_pressure.label",
+      "label": "Direction pressure",
+      "short": "Not knowing where to go feels heavy.",
+      "long": "Pressure option."
+    },
+    {
+      "key": "context.current_goals.find_direction.label",
+      "label": "Find direction",
+      "short": "You want clearer direction.",
+      "long": "Goal option."
+    },
+    {
+      "key": "context.current_goals.change_career.label",
+      "label": "Change career",
+      "short": "You want to move to another track.",
+      "long": "Goal option."
+    },
+    {
+      "key": "context.readiness.want_direction_suggestions.label",
+      "label": "Want direction suggestions",
+      "short": "Open to guided suggestions.",
+      "long": "Readiness option."
+    },
+    {
+      "key": "prompt.deepen_selection.direction_blocked.question",
+      "label": "Which part feels more blocked right now?",
+      "short": "Direction-blocked question.",
+      "long": "Question used when direction looks blocked."
+    },
+    {
+      "key": "prompt.deepen_selection.direction_blocked.option_1",
+      "label": "I cannot see a realistic path forward.",
+      "short": "Option 1",
+      "long": "Prompt option."
+    },
+    {
+      "key": "prompt.deepen_selection.direction_blocked.option_2",
+      "label": "I do not know what I am actually good at.",
+      "short": "Option 2",
+      "long": "Prompt option."
+    },
+    {
+      "key": "prompt.deepen_selection.direction_blocked.option_3",
+      "label": "I keep thinking, but still cannot decide.",
+      "short": "Option 3",
+      "long": "Prompt option."
+    },
+    {
+      "key": "prompt.deepen_selection.pressure_focus.question",
+      "label": "Which pressure is biting hardest at the moment?",
+      "short": "Pressure-focus question.",
+      "long": "Question used when pressure is dominant."
+    },
+    {
+      "key": "prompt.deepen_selection.pressure_focus.option_1",
+      "label": "Income feels too unstable.",
+      "short": "Option 1",
+      "long": "Prompt option."
+    },
+    {
+      "key": "prompt.deepen_selection.pressure_focus.option_2",
+      "label": "Expectations from others feel too heavy.",
+      "short": "Option 2",
+      "long": "Prompt option."
+    },
+    {
+      "key": "prompt.deepen_selection.pressure_focus.option_3",
+      "label": "Too many roles are stacking at once.",
+      "short": "Option 3",
+      "long": "Prompt option."
+    },
+    {
+      "key": "ui.selection_first.note",
+      "label": "Selection first, typing second.",
+      "short": "UI note.",
+      "long": "Explains the selection-first approach."
+    },
+    {
+      "key": "trail.event.context_initialized",
+      "label": "Context locked",
+      "short": "A session context was initialized.",
+      "long": "The user locked persona + reality context for this session.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.event.feeling_selected",
+      "label": "Feeling selected",
+      "short": "A starting feeling was selected.",
+      "long": "The user chose a feeling entry point for exploration.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.event.keyword_selected",
+      "label": "Keyword selected",
+      "short": "A keyword node was added to the trail.",
+      "long": "The user selected a keyword node and it became evidence for later mapping.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.event.reflection_updated",
+      "label": "Reflection updated",
+      "short": "A short reflection fragment was saved.",
+      "long": "The user updated a short optional reflection fragment.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.event.ai_prompt_generated",
+      "label": "AI prompt generated",
+      "short": "A selectable AI prompt was generated.",
+      "long": "The system generated a selectable AI prompt from the current snapshot.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.event.ai_option_resolved",
+      "label": "AI option resolved",
+      "short": "An AI option was resolved into structured state.",
+      "long": "The system converted an AI option into keyword additions and next-state hints.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.ai_option.direction.option_1",
+      "label": "Needs a roadmap first",
+      "short": "The user wants a roadmap first.",
+      "long": "This option indicates the user wants structure, sequencing, and clearer next steps.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.ai_option.direction.option_2",
+      "label": "Needs clearer strengths",
+      "short": "The user wants clearer strengths first.",
+      "long": "This option indicates self-knowledge and strengths recognition should be explored first.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.ai_option.direction.option_3",
+      "label": "Needs a clearer future picture",
+      "short": "The user wants a clearer future picture first.",
+      "long": "This option indicates longer-range direction ambiguity is dominant.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.ai_option.pressure.option_1",
+      "label": "Money pressure is strongest",
+      "short": "Money pressure feels strongest right now.",
+      "long": "This option points to financial pressure as the current dominant load.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.ai_option.pressure.option_2",
+      "label": "Expectation pressure is strongest",
+      "short": "Expectation pressure feels strongest right now.",
+      "long": "This option points to external/internal expectations as the dominant load.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.ai_option.pressure.option_3",
+      "label": "Role overload is strongest",
+      "short": "Too many roles feel strongest right now.",
+      "long": "This option points to multi-role overload as the dominant load.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.event.trail_compacted",
+      "label": "Trail compacted",
+      "short": "Older trail events were compacted.",
+      "long": "A compaction summary replaced older trail details while preserving audit metadata.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "resume.action.continue_keywords",
+      "label": "Continue keyword exploration",
+      "short": "Keep narrowing the issue by selection.",
+      "long": "Recommended when there are selected signals but exploration can go deeper.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "resume.action.refresh_prompt",
+      "label": "Refresh AI prompt",
+      "short": "Generate a new selectable prompt.",
+      "long": "Recommended when the state is ready for another guided selection question.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "resume.action.review_wheel",
+      "label": "Review wheel preview",
+      "short": "Look at how current evidence maps.",
+      "long": "Recommended when the user has enough selected evidence to inspect the wheel.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "resume.summary.ready_to_continue",
+      "label": "Ready to continue from the last context.",
+      "short": "The session has enough structure to resume directly.",
+      "long": "Used when the latest state is coherent and recent.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "resume.summary.need_more_structure",
+      "label": "Resume with structure first.",
+      "short": "A guided prompt is recommended before going deeper.",
+      "long": "Used when the session needs another guided selection step.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "identity.scope.anonymous_local",
+      "label": "Anonymous local link",
+      "short": "Anonymous local link",
+      "long": "Anonymous local link"
+    },
+    {
+      "key": "identity.scope.device_linked",
+      "label": "Device-linked pseudonymous profile",
+      "short": "Device-linked pseudonymous profile",
+      "long": "Device-linked pseudonymous profile"
+    },
+    {
+      "key": "identity.scope.account_ready",
+      "label": "Account-ready pseudonymous profile",
+      "short": "Account-ready pseudonymous profile",
+      "long": "Account-ready pseudonymous profile"
+    },
+    {
+      "key": "storage.zone.session_store",
+      "label": "Session working store",
+      "short": "Session working store",
+      "long": "Session working store"
+    },
+    {
+      "key": "storage.zone.memory_store",
+      "label": "Cross-session memory store",
+      "short": "Cross-session memory store",
+      "long": "Cross-session memory store"
+    },
+    {
+      "key": "storage.zone.identity_store",
+      "label": "Identity link store",
+      "short": "Identity link store",
+      "long": "Identity link store"
+    },
+    {
+      "key": "privacy.retention.session",
+      "label": "Session retention policy",
+      "short": "Session retention policy",
+      "long": "Session retention policy"
+    },
+    {
+      "key": "privacy.retention.memory",
+      "label": "Memory retention policy",
+      "short": "Memory retention policy",
+      "long": "Memory retention policy"
+    },
+    {
+      "key": "privacy.identity.preview_ready",
+      "label": "Identity link preview is ready",
+      "short": "Identity link preview is ready",
+      "long": "Identity link preview is ready"
+    },
+    {
+      "key": "account.lifecycle.state",
+      "label": "Account lifecycle state",
+      "short": "Account lifecycle state",
+      "long": "Account lifecycle state"
+    },
+    {
+      "key": "account.export.preview_ready",
+      "label": "Export preview ready",
+      "short": "Export preview ready",
+      "long": "Export preview ready"
+    },
+    {
+      "key": "account.delete.preview_ready",
+      "label": "Delete preview ready",
+      "short": "Delete preview ready",
+      "long": "Delete preview ready"
+    },
+    {
+      "key": "account.delete.completed",
+      "label": "Local delete completed",
+      "short": "Local delete completed",
+      "long": "Local delete completed"
+    },
+    {
+      "key": "audit.event.consent_granted",
+      "label": "Consent granted",
+      "short": "Consent granted",
+      "long": "Consent granted"
+    },
+    {
+      "key": "audit.event.export_generated",
+      "label": "Export generated",
+      "short": "Export generated",
+      "long": "Export generated"
+    },
+    {
+      "key": "audit.event.delete_completed",
+      "label": "Delete completed",
+      "short": "Delete completed",
+      "long": "Delete completed"
+    }
+  ]
+}

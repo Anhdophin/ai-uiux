@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên hệ | Anhdophin Profile Design</title>
+  <meta name="description" content="Gửi brief cho dịch vụ thiết kế profile và website giới thiệu của Anhdophin.">
+  <meta property="og:title" content="Liên hệ | Anhdophin Profile Design">
+  <meta property="og:description" content="Gửi brief cho dịch vụ thiết kế profile và website giới thiệu của Anhdophin.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/hero_img.webp">
+  <meta name="theme-color" content="#243f9b">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body data-page="contact" data-depth=".">
+  <div class="site-shell">
+    <div data-include="header"></div>
+    
+<main id="main-content">
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs"><a href="index.html">Trang chủ</a><span>/</span><span>Liên hệ</span></div>
+      <h1>Gửi brief dự án để bắt đầu từ đúng cấu trúc ngay từ đầu.</h1>
+      <p class="lead">Anh có thể dùng form demo này để hình dung luồng trao đổi ban đầu cho một dự án profile hoặc website giới thiệu.</p>
+    </div>
+  </section>
+  <section class="section compact">
+    <div class="container contact-panel">
+      <div class="contact-grid">
+        <div class="contact-copy">
+          <h2 style="margin-top:0; font-size:clamp(2rem,4vw,3rem); line-height:1.08; letter-spacing:-.03em;">Thông tin nên có trong brief</h2>
+          <ul class="check-list">
+            <li>Doanh nghiệp đang làm gì và đang bán cho ai</li>
+            <li>Profile dùng để gửi khách hàng, đối tác hay nhà đầu tư</li>
+            <li>Tài sản hiện có: logo, màu thương hiệu, hình ảnh, nội dung cũ</li>
+            <li>Kết quả mong muốn sau khi hoàn thiện</li>
+          </ul>
+        </div>
+        <div class="contact-form">
+          <form data-contact-form novalidate>
+            <div class="form-grid">
+              <div class="field"><label for="name-contact">Tên của anh</label><input id="name-contact" name="name" type="text" required></div>
+              <div class="field"><label for="email-contact">Email</label><input id="email-contact" name="email" type="email" required></div>
+              <div class="field full"><label for="message-contact">Mô tả dự án</label><textarea id="message-contact" name="message"></textarea></div>
+            </div>
+            <button class="button primary" type="submit">Gửi brief mẫu</button>
+            <div class="form-status" data-form-status aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+    <div data-include="footer"></div>
+  </div>
+  <script src="./js/include.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

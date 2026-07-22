@@ -1,0 +1,41 @@
+{
+  "version": "v1",
+  "states": [
+    "anonymous_session",
+    "pseudonymous_linked",
+    "account_ready",
+    "export_requested",
+    "delete_requested",
+    "deleted_local"
+  ],
+  "allowed_transitions": [
+    {
+      "from": "anonymous_session",
+      "to": "pseudonymous_linked"
+    },
+    {
+      "from": "pseudonymous_linked",
+      "to": "account_ready"
+    },
+    {
+      "from": "pseudonymous_linked",
+      "to": "export_requested"
+    },
+    {
+      "from": "account_ready",
+      "to": "export_requested"
+    },
+    {
+      "from": "pseudonymous_linked",
+      "to": "delete_requested"
+    },
+    {
+      "from": "account_ready",
+      "to": "delete_requested"
+    },
+    {
+      "from": "delete_requested",
+      "to": "deleted_local"
+    }
+  ]
+}

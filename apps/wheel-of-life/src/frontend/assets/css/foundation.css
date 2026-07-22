@@ -1,0 +1,17 @@
+/* Reset + page foundation. */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; height: 100%; }
+body {
+  font-family: var(--ui-font-sans);
+  background:
+    radial-gradient(circle at 14% 12%, rgba(255,255,255,0.96), transparent 28%),
+    radial-gradient(circle at 86% 16%, rgba(255,255,255,0.42), transparent 28%),
+    linear-gradient(180deg, var(--ui-bg) 0%, var(--ui-bg-soft) 100%);
+  color: var(--ui-text);
+  overflow: hidden;
+}
+button, input, select, textarea { font: inherit; color: inherit; }
+button { border: 0; background: none; cursor: pointer; padding: 0; }
+svg, img { display: block; max-width: 100%; }
+strong { font-weight: 800; }
+a { color: inherit; text-decoration: none; }

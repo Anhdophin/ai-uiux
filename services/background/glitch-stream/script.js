@@ -1,7 +1,0 @@
-(function(){
-function mount(){ document.querySelectorAll('[data-background="glitch-stream"]').forEach(host=>{ if(host.querySelector(':scope > .glitch-stream-canvas')) return; const c=document.createElement('canvas'); c.className='glitch-stream-canvas'; host.prepend(c); const ctx=c.getContext('2d'); let w=0,h=0,dpr=Math.min(window.devicePixelRatio||1,2), bars=[];
-function resetBar(){ return {x:Math.random()*w,y:Math.random()*h,wid:1+Math.random()*10,hei:14+Math.random()*120,vy:1+Math.random()*4,a:.08+Math.random()*.3}; }
-function resize(){ const r=host.getBoundingClientRect(); w=Math.max(1,Math.floor(r.width)); h=Math.max(1,Math.floor(r.height)); c.width=w*dpr; c.height=h*dpr; c.style.width=w+'px'; c.style.height=h+'px'; ctx.setTransform(dpr,0,0,dpr,0,0); bars=Array.from({length:Math.max(50,Math.floor(w/18))},resetBar);} 
-function draw(){ ctx.clearRect(0,0,w,h); for(const b of bars){ b.y += b.vy; if(b.y > h+40) Object.assign(b, resetBar(), {y:-b.hei}); ctx.fillStyle=`rgba(255,255,255,${b.a})`; ctx.fillRect(b.x,b.y,b.wid,b.hei); if(Math.random()<.02){ ctx.fillStyle='rgba(255,255,255,.7)'; ctx.fillRect(b.x, b.y + Math.random()*b.hei, b.wid*2, 2+Math.random()*3);} } requestAnimationFrame(draw);} resize(); window.addEventListener('resize',resize,{passive:true}); requestAnimationFrame(draw); }); }
-if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',mount,{once:true}); else mount();
-})();

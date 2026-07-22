@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-04-05",
+  "source_note": "AI mode registry.",
+  "modes": [
+    {
+      "id": "clarify_mode",
+      "purpose": "Làm rõ user đang nói điều gì",
+      "allowed_actions": ["restate", "ask_clarifying_question", "offer_small_branches"],
+      "disallowed_actions": ["diagnose", "force_solution"]
+    },
+    {
+      "id": "deepen_mode",
+      "purpose": "Đào sâu một nhánh đã được chọn",
+      "allowed_actions": ["pattern_hint", "follow_up_questions", "next_keyword_paths"],
+      "disallowed_actions": ["big_life_advice_without_context"]
+    },
+    {
+      "id": "pattern_mode",
+      "purpose": "Nhận diện vòng lặp hoặc tương quan giữa nhiều node",
+      "allowed_actions": ["cluster", "show_cross_link", "confidence_note"],
+      "disallowed_actions": ["certainty_language"]
+    },
+    {
+      "id": "wheel_interpretation_mode",
+      "purpose": "Diễn giải wheel preview dựa trên evidence đã có",
+      "allowed_actions": ["summarize_imbalance", "show_evidence", "suggest_next_area"],
+      "disallowed_actions": ["score_without_evidence"]
+    }
+  ]
+}

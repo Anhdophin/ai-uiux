@@ -1,0 +1,213 @@
+{
+  "session_id": "sess_a3082e4dc4f1",
+  "locale": "vi",
+  "context_profile": {
+    "age_range": "25-29",
+    "gender": "male",
+    "life_stage": "working",
+    "career_stage": "early",
+    "goals": [],
+    "concerns": []
+  },
+  "user_reality_context": {
+    "locale": "vi",
+    "life_setup": "working_few_years",
+    "current_pressures": [
+      "direction_pressure"
+    ],
+    "current_goals": [
+      "find_direction"
+    ],
+    "constraints": [
+      "low_time"
+    ],
+    "readiness_level": "want_direction_suggestions",
+    "custom_keywords": [],
+    "note_fragment": null
+  },
+  "selected_feeling": "unclear_direction",
+  "selected_keyword_ids": [
+    "unclear_direction",
+    "ud_future"
+  ],
+  "reflection_snippet": "note 7",
+  "latest_mode": "deepen_selection",
+  "latest_selectable_prompt": {
+    "id": "deepen_direction_blocked",
+    "question": "Lúc này anh thấy bị chặn nhất ở điểm nào?",
+    "options": [
+      "Tôi không nhìn ra con đường nào đủ thực tế để đi tiếp.",
+      "Tôi không biết mình thật sự mạnh ở đâu.",
+      "Tôi nghĩ rất nhiều nhưng vẫn không chốt được."
+    ],
+    "option_items": [
+      {
+        "option_key": "prompt.deepen_selection.direction_blocked.option_1",
+        "label": "Tôi không nhìn ra con đường nào đủ thực tế để đi tiếp.",
+        "suggested_keyword_ids": [
+          "ud_future",
+          "ud_strengths",
+          "ud_roadmap"
+        ]
+      },
+      {
+        "option_key": "prompt.deepen_selection.direction_blocked.option_2",
+        "label": "Tôi không biết mình thật sự mạnh ở đâu.",
+        "suggested_keyword_ids": [
+          "ud_future",
+          "ud_strengths",
+          "ud_roadmap"
+        ]
+      },
+      {
+        "option_key": "prompt.deepen_selection.direction_blocked.option_3",
+        "label": "Tôi nghĩ rất nhiều nhưng vẫn không chốt được.",
+        "suggested_keyword_ids": [
+          "ud_future",
+          "ud_strengths",
+          "ud_roadmap"
+        ]
+      }
+    ],
+    "suggested_keyword_ids": [
+      "ud_future",
+      "ud_strengths",
+      "ud_roadmap"
+    ],
+    "question_key": "prompt.deepen_selection.direction_blocked.question",
+    "option_keys": [
+      "prompt.deepen_selection.direction_blocked.option_1",
+      "prompt.deepen_selection.direction_blocked.option_2",
+      "prompt.deepen_selection.direction_blocked.option_3"
+    ]
+  },
+  "wheel_preview": {
+    "coverage_count": 2,
+    "life_area_scores": [
+      {
+        "life_area_id": "direction",
+        "life_area_label": "Định hướng",
+        "score": 11.0,
+        "evidence": [
+          {
+            "node_id": "unclear_direction",
+            "label": "Mơ hồ hướng đi",
+            "weight": 0.6
+          },
+          {
+            "node_id": "ud_future",
+            "label": "Không thấy tương lai",
+            "weight": 0.5
+          }
+        ]
+      },
+      {
+        "life_area_id": "career",
+        "life_area_label": "Sự nghiệp",
+        "score": 9.0,
+        "evidence": [
+          {
+            "node_id": "unclear_direction",
+            "label": "Mơ hồ hướng đi",
+            "weight": 0.4
+          },
+          {
+            "node_id": "ud_future",
+            "label": "Không thấy tương lai",
+            "weight": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "trail": [
+    {
+      "event_id": "evt_616702ea5abf",
+      "event_type": "trail_compacted",
+      "label": "Đã nén trail",
+      "created_at": "2026-04-04T23:16:34.328622Z",
+      "metadata": {
+        "compaction_id": "cmp_7f293ff52e84",
+        "compressed_event_count": 7,
+        "event_type_counts": {
+          "context_initialized": 1,
+          "feeling_selected": 1,
+          "keyword_selected": 1,
+          "ai_prompt_generated": 1,
+          "reflection_updated": 3
+        }
+      }
+    },
+    {
+      "event_id": "evt_802794eb7937",
+      "event_type": "reflection_updated",
+      "label": "Đã cập nhật reflection",
+      "created_at": "2026-04-04T23:16:34.325679Z",
+      "metadata": {
+        "has_note_fragment": true
+      }
+    },
+    {
+      "event_id": "evt_d8940887e158",
+      "event_type": "reflection_updated",
+      "label": "Đã cập nhật reflection",
+      "created_at": "2026-04-04T23:16:34.326187Z",
+      "metadata": {
+        "has_note_fragment": true
+      }
+    },
+    {
+      "event_id": "evt_bfffaa588316",
+      "event_type": "reflection_updated",
+      "label": "Đã cập nhật reflection",
+      "created_at": "2026-04-04T23:16:34.326756Z",
+      "metadata": {
+        "has_note_fragment": true
+      }
+    },
+    {
+      "event_id": "evt_162150c2c597",
+      "event_type": "reflection_updated",
+      "label": "Đã cập nhật reflection",
+      "created_at": "2026-04-04T23:16:34.327287Z",
+      "metadata": {
+        "has_note_fragment": true
+      }
+    },
+    {
+      "event_id": "evt_3105094487d0",
+      "event_type": "reflection_updated",
+      "label": "Đã cập nhật reflection",
+      "created_at": "2026-04-04T23:16:34.327880Z",
+      "metadata": {
+        "has_note_fragment": true
+      }
+    }
+  ],
+  "trail_compactions": [
+    {
+      "compaction_id": "cmp_7f293ff52e84",
+      "created_at": "2026-04-04T23:16:34.328583Z",
+      "from_event_count": 7,
+      "to_event_count": 1,
+      "compressed_event_ids": [
+        "evt_ef2a01f80705",
+        "evt_b78dd23f93d5",
+        "evt_aecca204a67f",
+        "evt_33d534b838f5",
+        "evt_2cf38acff281",
+        "evt_dd66dcb22682",
+        "evt_bebb821b406e"
+      ],
+      "event_type_counts": {
+        "context_initialized": 1,
+        "feeling_selected": 1,
+        "keyword_selected": 1,
+        "ai_prompt_generated": 1,
+        "reflection_updated": 3
+      },
+      "summary_label": "Đã nén trail"
+    }
+  ],
+  "resume_checkpoint": null
+}

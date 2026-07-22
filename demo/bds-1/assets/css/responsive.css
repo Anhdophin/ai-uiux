@@ -1,0 +1,121 @@
+@media (max-width: 1080px) {
+  .hero-banner__content,
+  .split-layout,
+  .feature-grid,
+  .contact-panel,
+  .cta-panel,
+  .site-footer__grid,
+  .page-hero__card,
+  .lookup-panel__form,
+  .filter-panel,
+  .metrics-band,
+  .blog-grid,
+  .testimonial-grid,
+  .team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero-banner__title {
+    max-width: 14ch;
+  }
+}
+
+@media (max-width: 860px) {
+  :root {
+    --header-height: 74px;
+  }
+
+  .site-nav {
+    position: fixed;
+    inset: var(--header-height) 1rem auto 1rem;
+    padding: 1rem;
+    border-radius: 24px;
+    background: rgba(255, 251, 243, 0.96);
+    box-shadow: var(--shadow-hover);
+    border: 1px solid rgba(80, 57, 28, 0.08);
+    display: none;
+  }
+
+  .site-nav.is-open {
+    display: block;
+  }
+
+  .site-nav__list {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .site-nav__list .button {
+    width: 100%;
+  }
+
+  .nav-toggle {
+    display: grid;
+  }
+
+  .hero-banner__content,
+  .hero-kpis,
+  .split-layout,
+  .feature-grid,
+  .lookup-panel__form,
+  .lookup-result,
+  .filter-panel,
+  .metrics-band,
+  .blog-grid,
+  .testimonial-grid,
+  .team-grid,
+  .contact-panel,
+  .contact-form__grid,
+  .cta-panel,
+  .site-footer__grid,
+  .page-hero__card {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-property__panel {
+    position: static;
+    max-width: none;
+    margin-top: 1rem;
+  }
+
+  .gallery-track {
+    grid-auto-columns: minmax(260px, 78vw);
+  }
+}
+
+@media (max-width: 560px) {
+  .container {
+    width: min(100% - 1.25rem, var(--container));
+  }
+
+  .section {
+    padding-block: var(--space-3xl);
+  }
+
+  .hero-banner {
+    padding-top: var(--space-xl);
+  }
+
+  .button,
+  .button-link {
+    width: 100%;
+  }
+
+  .badge-row,
+  .cluster,
+  .property-card__footer,
+  .footer-bottom {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-banner__frame,
+  .page-hero__card,
+  .cta-panel {
+    border-radius: 24px;
+  }
+
+  .parallax-section {
+    min-height: 440px;
+  }
+}

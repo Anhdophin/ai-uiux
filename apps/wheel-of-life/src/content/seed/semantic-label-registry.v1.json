@@ -1,0 +1,387 @@
+{
+  "version": "v1",
+  "namespaces": [
+    "feeling",
+    "context",
+    "prompt",
+    "ui"
+  ],
+  "keys": [
+    {
+      "key": "feeling.unclear_direction.label",
+      "entity_type": "feeling",
+      "entity_id": "unclear_direction",
+      "field": "label"
+    },
+    {
+      "key": "feeling.unclear_direction.subtitle",
+      "entity_type": "feeling",
+      "entity_id": "unclear_direction",
+      "field": "subtitle"
+    },
+    {
+      "key": "feeling.pressure.label",
+      "entity_type": "feeling",
+      "entity_id": "pressure",
+      "field": "label"
+    },
+    {
+      "key": "feeling.pressure.subtitle",
+      "entity_type": "feeling",
+      "entity_id": "pressure",
+      "field": "subtitle"
+    },
+    {
+      "key": "feeling.stuck.label",
+      "entity_type": "feeling",
+      "entity_id": "stuck",
+      "field": "label"
+    },
+    {
+      "key": "feeling.stuck.subtitle",
+      "entity_type": "feeling",
+      "entity_id": "stuck",
+      "field": "subtitle"
+    },
+    {
+      "key": "feeling.want_change.label",
+      "entity_type": "feeling",
+      "entity_id": "want_change",
+      "field": "label"
+    },
+    {
+      "key": "feeling.want_change.subtitle",
+      "entity_type": "feeling",
+      "entity_id": "want_change",
+      "field": "subtitle"
+    },
+    {
+      "key": "context.life_setup.working_few_years.label",
+      "entity_type": "context_option",
+      "entity_id": "working_few_years",
+      "field": "label"
+    },
+    {
+      "key": "context.life_setup.changing_career.label",
+      "entity_type": "context_option",
+      "entity_id": "changing_career",
+      "field": "label"
+    },
+    {
+      "key": "context.current_pressures.money_pressure.label",
+      "entity_type": "context_option",
+      "entity_id": "money_pressure",
+      "field": "label"
+    },
+    {
+      "key": "context.current_pressures.career_pressure.label",
+      "entity_type": "context_option",
+      "entity_id": "career_pressure",
+      "field": "label"
+    },
+    {
+      "key": "context.current_pressures.direction_pressure.label",
+      "entity_type": "context_option",
+      "entity_id": "direction_pressure",
+      "field": "label"
+    },
+    {
+      "key": "context.current_goals.find_direction.label",
+      "entity_type": "context_option",
+      "entity_id": "find_direction",
+      "field": "label"
+    },
+    {
+      "key": "context.current_goals.change_career.label",
+      "entity_type": "context_option",
+      "entity_id": "change_career",
+      "field": "label"
+    },
+    {
+      "key": "context.readiness.want_direction_suggestions.label",
+      "entity_type": "context_option",
+      "entity_id": "want_direction_suggestions",
+      "field": "label"
+    },
+    {
+      "key": "prompt.deepen_selection.direction_blocked.question",
+      "entity_type": "prompt",
+      "entity_id": "direction_blocked",
+      "field": "question"
+    },
+    {
+      "key": "prompt.deepen_selection.direction_blocked.option_1",
+      "entity_type": "prompt",
+      "entity_id": "direction_blocked",
+      "field": "option_1"
+    },
+    {
+      "key": "prompt.deepen_selection.direction_blocked.option_2",
+      "entity_type": "prompt",
+      "entity_id": "direction_blocked",
+      "field": "option_2"
+    },
+    {
+      "key": "prompt.deepen_selection.direction_blocked.option_3",
+      "entity_type": "prompt",
+      "entity_id": "direction_blocked",
+      "field": "option_3"
+    },
+    {
+      "key": "prompt.deepen_selection.pressure_focus.question",
+      "entity_type": "prompt",
+      "entity_id": "pressure_focus",
+      "field": "question"
+    },
+    {
+      "key": "prompt.deepen_selection.pressure_focus.option_1",
+      "entity_type": "prompt",
+      "entity_id": "pressure_focus",
+      "field": "option_1"
+    },
+    {
+      "key": "prompt.deepen_selection.pressure_focus.option_2",
+      "entity_type": "prompt",
+      "entity_id": "pressure_focus",
+      "field": "option_2"
+    },
+    {
+      "key": "prompt.deepen_selection.pressure_focus.option_3",
+      "entity_type": "prompt",
+      "entity_id": "pressure_focus",
+      "field": "option_3"
+    },
+    {
+      "key": "ui.selection_first.note",
+      "entity_type": "ui",
+      "entity_id": "selection_first",
+      "field": "note"
+    },
+    {
+      "key": "trail.event.context_initialized",
+      "entity_type": "trail",
+      "entity_id": "context_initialized",
+      "field": "label"
+    },
+    {
+      "key": "trail.event.feeling_selected",
+      "entity_type": "trail",
+      "entity_id": "feeling_selected",
+      "field": "label"
+    },
+    {
+      "key": "trail.event.keyword_selected",
+      "entity_type": "trail",
+      "entity_id": "keyword_selected",
+      "field": "label"
+    },
+    {
+      "key": "trail.event.reflection_updated",
+      "entity_type": "trail",
+      "entity_id": "reflection_updated",
+      "field": "label"
+    },
+    {
+      "key": "trail.event.ai_prompt_generated",
+      "entity_type": "trail",
+      "entity_id": "ai_prompt_generated",
+      "field": "label"
+    },
+    {
+      "key": "trail.event.ai_option_resolved",
+      "entity_type": "trail",
+      "entity_id": "ai_option_resolved",
+      "field": "label"
+    },
+    {
+      "key": "trail.ai_option.direction.option_1",
+      "entity_type": "trail",
+      "entity_id": "direction_option_1",
+      "field": "label"
+    },
+    {
+      "key": "trail.ai_option.direction.option_2",
+      "entity_type": "trail",
+      "entity_id": "direction_option_2",
+      "field": "label"
+    },
+    {
+      "key": "trail.ai_option.direction.option_3",
+      "entity_type": "trail",
+      "entity_id": "direction_option_3",
+      "field": "label"
+    },
+    {
+      "key": "trail.ai_option.pressure.option_1",
+      "entity_type": "trail",
+      "entity_id": "pressure_option_1",
+      "field": "label"
+    },
+    {
+      "key": "trail.ai_option.pressure.option_2",
+      "entity_type": "trail",
+      "entity_id": "pressure_option_2",
+      "field": "label"
+    },
+    {
+      "key": "trail.ai_option.pressure.option_3",
+      "entity_type": "trail",
+      "entity_id": "pressure_option_3",
+      "field": "label"
+    },
+    {
+      "key": "trail.event.trail_compacted",
+      "group": "resume",
+      "entity_type": "system",
+      "entity_id": "trail.event.trail_compacted",
+      "field": "label"
+    },
+    {
+      "key": "resume.action.continue_keywords",
+      "group": "resume",
+      "entity_type": "system",
+      "entity_id": "resume.action.continue_keywords",
+      "field": "label"
+    },
+    {
+      "key": "resume.action.refresh_prompt",
+      "group": "resume",
+      "entity_type": "system",
+      "entity_id": "resume.action.refresh_prompt",
+      "field": "label"
+    },
+    {
+      "key": "resume.action.review_wheel",
+      "group": "resume",
+      "entity_type": "system",
+      "entity_id": "resume.action.review_wheel",
+      "field": "label"
+    },
+    {
+      "key": "resume.summary.ready_to_continue",
+      "group": "resume",
+      "entity_type": "system",
+      "entity_id": "resume.summary.ready_to_continue",
+      "field": "label"
+    },
+    {
+      "key": "resume.summary.need_more_structure",
+      "group": "resume",
+      "entity_type": "system",
+      "entity_id": "resume.summary.need_more_structure",
+      "field": "label"
+    },
+    {
+      "key": "identity.scope.anonymous_local",
+      "group": "privacy_identity",
+      "entity_type": "identity_scope",
+      "entity_id": "anonymous_local",
+      "field": "label"
+    },
+    {
+      "key": "identity.scope.device_linked",
+      "group": "privacy_identity",
+      "entity_type": "identity_scope",
+      "entity_id": "device_linked",
+      "field": "label"
+    },
+    {
+      "key": "identity.scope.account_ready",
+      "group": "privacy_identity",
+      "entity_type": "identity_scope",
+      "entity_id": "account_ready",
+      "field": "label"
+    },
+    {
+      "key": "storage.zone.session_store",
+      "group": "privacy_identity",
+      "entity_type": "storage_zone",
+      "entity_id": "session_store",
+      "field": "label"
+    },
+    {
+      "key": "storage.zone.memory_store",
+      "group": "privacy_identity",
+      "entity_type": "storage_zone",
+      "entity_id": "memory_store",
+      "field": "label"
+    },
+    {
+      "key": "storage.zone.identity_store",
+      "group": "privacy_identity",
+      "entity_type": "storage_zone",
+      "entity_id": "identity_store",
+      "field": "label"
+    },
+    {
+      "key": "privacy.retention.session",
+      "group": "privacy_identity",
+      "entity_type": "retention_policy",
+      "entity_id": "session",
+      "field": "label"
+    },
+    {
+      "key": "privacy.retention.memory",
+      "group": "privacy_identity",
+      "entity_type": "retention_policy",
+      "entity_id": "memory",
+      "field": "label"
+    },
+    {
+      "key": "privacy.identity.preview_ready",
+      "group": "privacy_identity",
+      "entity_type": "identity_linking",
+      "entity_id": "preview",
+      "field": "label"
+    },
+    {
+      "key": "account.lifecycle.state",
+      "description": "Account lifecycle state",
+      "entity_type": "account",
+      "entity_id": "lifecycle",
+      "field": "state"
+    },
+    {
+      "key": "account.export.preview_ready",
+      "description": "Export preview ready",
+      "entity_type": "account",
+      "entity_id": "export",
+      "field": "preview_ready"
+    },
+    {
+      "key": "account.delete.preview_ready",
+      "description": "Delete preview ready",
+      "entity_type": "account",
+      "entity_id": "delete",
+      "field": "preview_ready"
+    },
+    {
+      "key": "account.delete.completed",
+      "description": "Local delete completed",
+      "entity_type": "account",
+      "entity_id": "delete",
+      "field": "completed"
+    },
+    {
+      "key": "audit.event.consent_granted",
+      "description": "Consent granted",
+      "entity_type": "audit",
+      "entity_id": "event",
+      "field": "consent_granted"
+    },
+    {
+      "key": "audit.event.export_generated",
+      "description": "Export generated",
+      "entity_type": "audit",
+      "entity_id": "event",
+      "field": "export_generated"
+    },
+    {
+      "key": "audit.event.delete_completed",
+      "description": "Delete completed",
+      "entity_type": "audit",
+      "entity_id": "event",
+      "field": "delete_completed"
+    }
+  ]
+}

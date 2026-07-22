@@ -1,0 +1,73 @@
+{
+  "session_id": "sess_2b3d1610dcb9",
+  "locale": "vi",
+  "context_profile": {
+    "age_range": "25_30",
+    "gender": "male",
+    "life_stage": "working",
+    "career_stage": "early_career",
+    "goals": [],
+    "concerns": []
+  },
+  "user_reality_context": {
+    "locale": "vi",
+    "life_setup": "working_few_years",
+    "current_pressures": [
+      "direction_pressure"
+    ],
+    "current_goals": [
+      "find_direction"
+    ],
+    "constraints": [
+      "low_time"
+    ],
+    "readiness_level": "want_direction_suggestions",
+    "custom_keywords": [],
+    "note_fragment": null
+  },
+  "selected_feeling": "feeling.unclear_direction",
+  "selected_keyword_ids": [
+    "feeling.unclear_direction",
+    "career.direction.unclear"
+  ],
+  "reflection_snippet": null,
+  "latest_mode": "deepen_selection",
+  "latest_selectable_prompt": null,
+  "wheel_preview": {
+    "coverage_count": 0,
+    "life_area_scores": []
+  },
+  "trail": [
+    {
+      "event_id": "evt_157df673f5a1",
+      "event_type": "context_initialized",
+      "label": "Đã khóa context",
+      "created_at": "2026-04-04T22:57:34.031122Z",
+      "metadata": {
+        "age_range": "25_30",
+        "life_stage": "working",
+        "life_setup": "working_few_years"
+      }
+    },
+    {
+      "event_id": "evt_0e2e76d6b480",
+      "event_type": "feeling_selected",
+      "label": "Đã chọn cảm nhận",
+      "created_at": "2026-04-04T22:57:34.031764Z",
+      "metadata": {
+        "selected_id": "feeling.unclear_direction"
+      }
+    },
+    {
+      "event_id": "evt_2630967fdda4",
+      "event_type": "keyword_selected",
+      "label": "Đã chọn keyword",
+      "created_at": "2026-04-04T22:57:34.032379Z",
+      "metadata": {
+        "selected_id": "career.direction.unclear"
+      }
+    }
+  ],
+  "trail_compactions": [],
+  "resume_checkpoint": null
+}

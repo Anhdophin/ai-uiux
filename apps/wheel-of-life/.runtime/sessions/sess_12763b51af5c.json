@@ -1,0 +1,140 @@
+{
+  "session_id": "sess_12763b51af5c",
+  "locale": "en",
+  "context_profile": {
+    "age_range": "25-29",
+    "gender": "male",
+    "life_stage": "working",
+    "career_stage": "early",
+    "goals": [],
+    "concerns": []
+  },
+  "user_reality_context": {
+    "locale": "en",
+    "life_setup": "working_few_years",
+    "current_pressures": [
+      "direction_pressure"
+    ],
+    "current_goals": [
+      "find_direction"
+    ],
+    "constraints": [
+      "low_time"
+    ],
+    "readiness_level": "want_direction_suggestions",
+    "custom_keywords": [],
+    "note_fragment": null
+  },
+  "selected_feeling": "unclear_direction",
+  "selected_keyword_ids": [
+    "unclear_direction",
+    "ud_future",
+    "ud_roadmap"
+  ],
+  "reflection_snippet": null,
+  "latest_mode": "deepen_selection",
+  "latest_selectable_prompt": null,
+  "wheel_preview": {
+    "coverage_count": 3,
+    "life_area_scores": [
+      {
+        "life_area_id": "direction",
+        "life_area_label": "Định hướng",
+        "score": 15.0,
+        "evidence": [
+          {
+            "node_id": "unclear_direction",
+            "label": "Mơ hồ hướng đi",
+            "weight": 0.6
+          },
+          {
+            "node_id": "ud_future",
+            "label": "Không thấy tương lai",
+            "weight": 0.5
+          },
+          {
+            "node_id": "ud_roadmap",
+            "label": "Không có roadmap",
+            "weight": 0.4
+          }
+        ]
+      },
+      {
+        "life_area_id": "career",
+        "life_area_label": "Sự nghiệp",
+        "score": 12.0,
+        "evidence": [
+          {
+            "node_id": "unclear_direction",
+            "label": "Mơ hồ hướng đi",
+            "weight": 0.4
+          },
+          {
+            "node_id": "ud_future",
+            "label": "Không thấy tương lai",
+            "weight": 0.5
+          },
+          {
+            "node_id": "ud_roadmap",
+            "label": "Không có roadmap",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "life_area_id": "life_system",
+        "life_area_label": "Hệ thống sống",
+        "score": 3.0,
+        "evidence": [
+          {
+            "node_id": "ud_roadmap",
+            "label": "Không có roadmap",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  "trail": [
+    {
+      "event_id": "evt_e61b1c1fa1d2",
+      "event_type": "context_initialized",
+      "label": "Context locked",
+      "created_at": "2026-04-04T23:11:27.133557Z",
+      "metadata": {
+        "age_range": "25-29",
+        "life_stage": "working",
+        "life_setup": "working_few_years"
+      }
+    },
+    {
+      "event_id": "evt_804a6586ab74",
+      "event_type": "feeling_selected",
+      "label": "Feeling selected",
+      "created_at": "2026-04-04T23:11:27.133936Z",
+      "metadata": {
+        "selected_id": "unclear_direction"
+      }
+    },
+    {
+      "event_id": "evt_df722f4c564c",
+      "event_type": "keyword_selected",
+      "label": "Keyword selected",
+      "created_at": "2026-04-04T23:11:27.134331Z",
+      "metadata": {
+        "selected_id": "ud_future"
+      }
+    },
+    {
+      "event_id": "evt_f329a3c7a9e7",
+      "event_type": "keyword_selected",
+      "label": "Keyword selected",
+      "created_at": "2026-04-04T23:11:27.134748Z",
+      "metadata": {
+        "selected_id": "ud_roadmap"
+      }
+    }
+  ],
+  "trail_compactions": [],
+  "resume_checkpoint": null
+}

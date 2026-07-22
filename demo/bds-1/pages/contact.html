@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên hệ — Thổ Kim Realty</title>
+  <meta name="description" content="Trang liên hệ và nhận tư vấn báo giá bất động sản phong thủy.">
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/utilities.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+  <script defer src="../data/site-content.js"></script>
+  <script defer src="../assets/js/component-loader.js"></script>
+  <script defer src="../assets/js/navigation.js"></script>
+  <script defer src="../assets/js/interactions.js"></script>
+  <script defer src="../assets/js/main.js"></script>
+</head>
+<body data-page="contact">
+  <header class="site-header" data-include="../components/site-header.html"></header>
+  <main>
+    <section class="page-hero section section--compact">
+      <div class="container">
+        <div class="page-hero__card stack">
+          <p class="section__eyebrow">Liên hệ & chuyển đổi</p>
+          <h1>Để lại yêu cầu tư vấn bất động sản và phong thủy theo đúng nhu cầu của anh/chị.</h1>
+          <p>Form này đang ở mức front-end static. Có thể nối Tally, Formspree, Supabase hoặc backend riêng mà không cần thay đổi layout lớn.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-panel">
+        <div class="contact-details">
+          <div class="contact-item"><strong>Hotline</strong><p>0909 000 000</p></div>
+          <div class="contact-item"><strong>Email</strong><p>hello@thokimrealty.vn</p></div>
+          <div class="contact-item"><strong>Văn phòng</strong><p>Nguyễn Huệ, Quận 1, TP.HCM</p></div>
+          <div class="map-frame">
+            <iframe loading="lazy" allowfullscreen src="https://www.google.com/maps?q=Nguyen%20Hue%20District%201%20Ho%20Chi%20Minh%20City&output=embed"></iframe>
+          </div>
+        </div>
+
+        <div class="surface-card surface-card--padded" id="contact-form">
+          <form class="contact-form">
+            <div class="contact-form__grid">
+              <div><label for="fullname">Họ tên</label><input id="fullname" type="text" placeholder="Nguyễn Văn A"></div>
+              <div><label for="email">Email</label><input id="email" type="email" placeholder="email@domain.com"></div>
+            </div>
+            <div class="contact-form__grid">
+              <div><label for="phone-contact">Số điện thoại</label><input id="phone-contact" type="tel" placeholder="0909..."></div>
+              <div><label for="interest">Quan tâm</label><select id="interest"><option>Mua ở</option><option>Đầu tư</option><option>Tư vấn phong thủy</option><option>Khảo sát dự án</option></select></div>
+            </div>
+            <div class="contact-form__grid">
+              <div><label for="budget">Ngân sách dự kiến</label><select id="budget"><option>Dưới 4 tỷ</option><option>4–7 tỷ</option><option>7–12 tỷ</option><option>Trên 12 tỷ</option></select></div>
+              <div><label for="direction-group">Nhóm hướng mong muốn</label><select id="direction-group"><option>Đông tứ trạch</option><option>Tây tứ trạch</option><option>Cần tư vấn thêm</option></select></div>
+            </div>
+            <div><label for="request">Yêu cầu cụ thể</label><textarea id="request" placeholder="Mô tả loại bất động sản, khu vực, nhu cầu xem hướng, nhu cầu bố trí nội thất..."></textarea></div>
+            <button class="button button--primary" type="submit">Gửi form nhận tư vấn</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--compact">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__eyebrow">Câu hỏi thường gặp</p>
+          <h2>Những khối nhỏ để tăng niềm tin trước khi khách gửi form.</h2>
+        </div>
+        <div class="faq-grid" data-faq-grid></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" data-include="../components/site-footer.html"></footer>
+</body>
+</html>

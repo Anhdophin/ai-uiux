@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-04-07 00:00:00",
+  "root_route": "/blog/",
+  "categories": [
+    {
+      "slug": "design",
+      "title": "Design & UX",
+      "description": "Các bài viết về design, UX/UI, và trải nghiệm người dùng.",
+      "accent": "#7cb6de",
+      "icon": "🎨"
+    },
+    {
+      "slug": "technology",
+      "title": "Technology",
+      "description": "Các bài viết về công nghệ, lập trình, và phát triển web.",
+      "accent": "#5fa3d0",
+      "icon": "⚙️"
+    },
+    {
+      "slug": "business",
+      "title": "Business",
+      "description": "Các bài viết về kinh doanh, khởi nghiệp, và chiến lược.",
+      "accent": "#4a8fb5",
+      "icon": "💼"
+    },
+    {
+      "slug": "lifestyle",
+      "title": "Lifestyle",
+      "description": "Các bài viết về cuộc sống, suy ngẫm, và trải nghiệm cá nhân.",
+      "accent": "#9d7a4f",
+      "icon": "✨"
+    }
+  ],
+  "tags": [
+    "design thinking", "ux/ui", "web design", "mobile", "accessibility",
+    "javascript", "python", "web development", "frontend", "backend",
+    "startup", "marketing", "strategy", "productivity", "mindset",
+    "travel", "reflection", "culture", "learning", "creativity"
+  ],
+  "posts": []
+}

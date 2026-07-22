@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "supported_source_systems",
+    "link_scope_labels",
+    "preview_rules"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "supported_source_systems": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "link_scope_labels": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "preview_rules": {
+      "type": "object"
+    }
+  }
+}

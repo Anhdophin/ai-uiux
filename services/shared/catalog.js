@@ -4,6 +4,14 @@ async function fetchJson(path){
   return res.json();
 }
 
+function loadInlineJson(scriptId){
+  const script = document.getElementById(scriptId);
+  if(!script) return null;
+  const raw = script.textContent ? script.textContent.trim() : '';
+  if(!raw) return null;
+  return JSON.parse(raw);
+}
+
 function renderCatalogCards(items, root){
   if(!root) return;
   if(!Array.isArray(items) || !items.length){
@@ -32,7 +40,8 @@ function renderCatalogCards(items, root){
 async function initCatalogPage(){
   const page = document.querySelector('[data-catalog-json]');
   if(!page) return;
-  const data = await fetchJson(page.dataset.catalogJson);
+  const inlineData = loadInlineJson('inline-catalog-json');
+  const data = inlineData || await fetchJson(page.dataset.catalogJson);
   document.title = data.seoTitle || data.hero.title;
   const set = (id, value)=>{ const el = document.getElementById(id); if(el && value != null) el.textContent = value; };
   set('catalogLabel', data.hero.label);
@@ -48,7 +57,8 @@ async function initCatalogPage(){
 async function initDetailPage(){
   const page = document.querySelector('[data-detail-json]');
   if(!page) return;
-  const data = await fetchJson(page.dataset.detailJson);
+  const inlineData = loadInlineJson('inline-detail-json');
+  const data = inlineData || await fetchJson(page.dataset.detailJson);
   document.title = data.seoTitle || data.title;
   const setHtml = (id, value)=>{ const el = document.getElementById(id); if(el && value != null) el.innerHTML = value; };
   const setTxt = (id, value)=>{ const el = document.getElementById(id); if(el && value != null) el.textContent = value; };

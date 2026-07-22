@@ -1,0 +1,108 @@
+{
+  "session_id": "sess_623cbb133a90",
+  "locale": "en",
+  "context_profile": {
+    "age_range": "25-29",
+    "gender": "male",
+    "life_stage": "working",
+    "career_stage": "early",
+    "goals": [],
+    "concerns": []
+  },
+  "user_reality_context": {
+    "locale": "en",
+    "life_setup": "working_few_years",
+    "current_pressures": [
+      "direction_pressure"
+    ],
+    "current_goals": [
+      "find_direction"
+    ],
+    "constraints": [
+      "low_time"
+    ],
+    "readiness_level": "want_direction_suggestions",
+    "custom_keywords": [],
+    "note_fragment": null
+  },
+  "selected_feeling": "unclear_direction",
+  "selected_keyword_ids": [
+    "unclear_direction",
+    "ud_future"
+  ],
+  "reflection_snippet": null,
+  "latest_mode": "deepen_selection",
+  "latest_selectable_prompt": null,
+  "wheel_preview": {
+    "coverage_count": 2,
+    "life_area_scores": [
+      {
+        "life_area_id": "direction",
+        "life_area_label": "Định hướng",
+        "score": 11.0,
+        "evidence": [
+          {
+            "node_id": "unclear_direction",
+            "label": "Mơ hồ hướng đi",
+            "weight": 0.6
+          },
+          {
+            "node_id": "ud_future",
+            "label": "Không thấy tương lai",
+            "weight": 0.5
+          }
+        ]
+      },
+      {
+        "life_area_id": "career",
+        "life_area_label": "Sự nghiệp",
+        "score": 9.0,
+        "evidence": [
+          {
+            "node_id": "unclear_direction",
+            "label": "Mơ hồ hướng đi",
+            "weight": 0.4
+          },
+          {
+            "node_id": "ud_future",
+            "label": "Không thấy tương lai",
+            "weight": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "trail": [
+    {
+      "event_id": "evt_770231b1ac27",
+      "event_type": "context_initialized",
+      "label": "Context locked",
+      "created_at": "2026-04-04T23:15:56.418011Z",
+      "metadata": {
+        "age_range": "25-29",
+        "life_stage": "working",
+        "life_setup": "working_few_years"
+      }
+    },
+    {
+      "event_id": "evt_c80152d2878a",
+      "event_type": "feeling_selected",
+      "label": "Feeling selected",
+      "created_at": "2026-04-04T23:15:56.421691Z",
+      "metadata": {
+        "selected_id": "unclear_direction"
+      }
+    },
+    {
+      "event_id": "evt_d68c9ff0b06e",
+      "event_type": "keyword_selected",
+      "label": "Keyword selected",
+      "created_at": "2026-04-04T23:15:56.425274Z",
+      "metadata": {
+        "selected_id": "ud_future"
+      }
+    }
+  ],
+  "trail_compactions": [],
+  "resume_checkpoint": null
+}

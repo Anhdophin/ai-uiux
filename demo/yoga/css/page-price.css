@@ -1,0 +1,253 @@
+
+.price-page {
+  overflow: clip;
+}
+
+.price-hero {
+  position: relative;
+  background: #efefef;
+}
+
+.price-hero__layout {
+  display: grid;
+  gap: 2rem;
+  padding: 2.5rem 0 0;
+}
+
+.price-hero__title {
+  margin: 0 0 1.5rem;
+  font-size: clamp(2.4rem, 9vw, 5rem);
+  line-height: 0.95;
+  font-weight: 800;
+  color: #208f03;
+}
+
+.price-list {
+  display: grid;
+  gap: 1.75rem;
+}
+
+.price-group {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.price-group__title {
+  margin: 0;
+  font-size: clamp(1.25rem, 3.6vw, 2rem);
+  line-height: 1.2;
+  color: #15431a;
+}
+
+.price-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: end;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(21, 67, 26, 0.08);
+  font-size: clamp(1rem, 2.8vw, 1.25rem);
+  color: #2d4f2b;
+}
+
+.price-row strong {
+  font-size: clamp(1.1rem, 3vw, 1.35rem);
+  color: #2f5f29;
+}
+
+.price-hero .button-group {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.price-hero__media {
+  position: relative;
+  min-height: 22rem;
+}
+
+.price-figure-wrap {
+  position: relative;
+  min-height: 22rem;
+  height: 100%;
+}
+
+.price-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 2rem solid #49a900;
+  opacity: 1;
+}
+
+.price-ring--top {
+  top: 1rem;
+  right: -7rem;
+  width: 16rem;
+  height: 16rem;
+  border-color: #4cad05;
+  box-shadow: inset 0 0 0 1rem #7fc63b;
+}
+
+.price-ring--bottom {
+  left: -8rem;
+  bottom: -1rem;
+  width: 18rem;
+  height: 18rem;
+  border-color: #4cad05;
+  box-shadow: inset 0 0 0 1rem #7fc63b;
+}
+
+.price-figure {
+  position: relative;
+  z-index: 2;
+  width: min(100%, 30rem);
+  margin: 2rem auto 0;
+  object-fit: contain;
+  object-position: center bottom;
+  max-height: 36rem;
+}
+
+.detail {
+  padding: 4rem 0;
+}
+
+.detail__header {
+  max-width: 50rem;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+.detail__lead {
+  margin-top: 1rem;
+}
+
+.detail-centerpiece {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  margin: 0 auto 2.5rem;
+  padding-top: 2rem;
+}
+
+.detail-centerpiece__halo {
+  position: absolute;
+  top: 5.5rem;
+  width: min(80vw, 22rem);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.detail-centerpiece__badge {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--radius-pill);
+  background: rgba(67, 208, 209, 0.9);
+  color: var(--color-white);
+  font-size: clamp(1rem, 3vw, 1.6rem);
+  font-weight: 800;
+  text-align: center;
+}
+
+.detail-centerpiece__image {
+  position: relative;
+  z-index: 2;
+  width: min(100%, 20rem);
+  object-fit: contain;
+}
+
+.factor-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.factor-card {
+  padding: 1.25rem;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: var(--shadow-soft);
+}
+
+.factor-card__icon {
+  display: grid;
+  place-items: center;
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto 0.9rem;
+  border-radius: 50%;
+  background: rgba(67, 208, 209, 0.15);
+  font-size: 1.9rem;
+}
+
+.factor-card__tag {
+  display: inline-flex;
+  margin-bottom: 0.9rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: var(--radius-pill);
+  background: rgba(67, 208, 209, 0.9);
+  color: var(--color-white);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.factor-card__title {
+  margin: 0 0 0.9rem;
+  font-size: 1.3rem;
+  line-height: 1.25;
+  color: #23373a;
+}
+
+.factor-card__list {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--color-text-soft);
+}
+
+.factor-card__list li + li {
+  margin-top: 0.65rem;
+}
+
+@media (min-width: 768px) {
+  .price-hero__layout {
+    grid-template-columns: minmax(0, 1.1fr) minmax(19rem, 0.9fr);
+    align-items: end;
+    gap: 2.5rem;
+    padding: 4rem 0 0;
+  }
+
+  .price-hero__media {
+    min-height: 34rem;
+  }
+
+  .price-figure-wrap {
+    min-height: 34rem;
+  }
+
+  .price-figure {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: min(100%, 32rem);
+    margin: 0;
+  }
+
+  .factor-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+}
+
+@media (min-width: 1080px) {
+  .factor-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .factor-card:nth-child(4) {
+    grid-column: 2;
+  }
+
+  .factor-card:nth-child(7) {
+    grid-column: 3;
+  }
+}

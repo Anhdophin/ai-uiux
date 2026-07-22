@@ -1,0 +1,44 @@
+{
+  "version": "v1",
+  "steps": [
+    {
+      "id": "context_lock",
+      "order": 1,
+      "event_type": "context_initialized"
+    },
+    {
+      "id": "feeling_lock",
+      "order": 2,
+      "event_type": "feeling_selected"
+    },
+    {
+      "id": "keyword_exploration",
+      "order": 3,
+      "event_type": "keyword_selected"
+    },
+    {
+      "id": "reflection_capture",
+      "order": 4,
+      "event_type": "reflection_updated"
+    },
+    {
+      "id": "ai_prompt",
+      "order": 5,
+      "event_type": "ai_prompt_generated"
+    },
+    {
+      "id": "ai_resolution",
+      "order": 6,
+      "event_type": "ai_option_resolved"
+    }
+  ],
+  "trail_event_types": [
+    "context_initialized",
+    "feeling_selected",
+    "keyword_selected",
+    "keyword_deselected",
+    "reflection_updated",
+    "ai_prompt_generated",
+    "ai_option_resolved"
+  ]
+}

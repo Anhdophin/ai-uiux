@@ -311,7 +311,7 @@
       "parent": "/services/"
     },
     {
-      "route": "/shop/all/",
+      "route": "/shop/all/all.html",
       "title": "All Products",
       "short_title": "All",
       "nav_label": "All",
@@ -325,7 +325,7 @@
       "parent": "/shop/"
     },
     {
-      "route": "/shop/hand-made/",
+      "route": "/shop/hand-made/hand-made.html",
       "title": "Hand Made",
       "short_title": "Hand Made",
       "nav_label": "Hand Made",
@@ -339,7 +339,7 @@
       "parent": "/shop/"
     },
     {
-      "route": "/shop/linh-chi/",
+      "route": "/shop/linh-chi/linh-chi.html",
       "title": "Linh Chi",
       "short_title": "Linh Chi",
       "nav_label": "Linh Chi",
@@ -353,7 +353,7 @@
       "parent": "/shop/"
     },
     {
-      "route": "/shop/tram-huong/",
+      "route": "/shop/tram-huong/tram-huong.html",
       "title": "Trầm Hương",
       "short_title": "Trầm Hương",
       "nav_label": "Trầm Hương",
@@ -423,7 +423,7 @@
       "parent": "/"
     },
     {
-      "route": "/shop/hand-made/tui-xach-hand-made/",
+      "route": "/shop/hand-made/tui-xach-hand-made/tui-xach-hand-made.html",
       "title": "Túi Xách Hand Made",
       "short_title": "Túi Xách Hand Made",
       "nav_label": "Túi Xách Hand Made",
@@ -434,10 +434,10 @@
       "template": "shop-product-detail",
       "source": "shop/hand-made/tui-xach-hand-made/index.html",
       "depth": 3,
-      "parent": "/shop/hand-made/"
+      "parent": "/shop/hand-made/hand-made.html"
     },
     {
-      "route": "/shop/hand-made/vi-da-handmade/",
+      "route": "/shop/hand-made/vi-da-handmade/vi-da-handmade.html",
       "title": "Ví Da Handmade",
       "short_title": "Ví Da Handmade",
       "nav_label": "Ví Da Handmade",
@@ -448,7 +448,7 @@
       "template": "shop-product-detail",
       "source": "shop/hand-made/vi-da-handmade/index.html",
       "depth": 3,
-      "parent": "/shop/hand-made/"
+      "parent": "/shop/hand-made/hand-made.html"
     },
     {
       "route": "/shop/hand-made/v├¡-da-handmade/",
@@ -462,10 +462,10 @@
       "template": "shop-product-detail",
       "source": "shop/hand-made/v├¡-da-handmade/index.html",
       "depth": 3,
-      "parent": "/shop/hand-made/"
+      "parent": "/shop/hand-made/hand-made.html"
     },
     {
-      "route": "/shop/linh-chi/cafe-nam-linh-chi/",
+      "route": "/shop/linh-chi/cafe-nam-linh-chi/cafe-nam-linh-chi.html",
       "title": "Cafe Nấm Linh Chi",
       "short_title": "Cafe Nấm Linh Chi",
       "nav_label": "Cafe Nấm Linh Chi",
@@ -476,10 +476,10 @@
       "template": "shop-product-detail",
       "source": "shop/linh-chi/cafe-nam-linh-chi/index.html",
       "depth": 3,
-      "parent": "/shop/linh-chi/"
+      "parent": "/shop/linh-chi/linh-chi.html"
     },
     {
-      "route": "/shop/linh-chi/ruou-nam-linh-chi/",
+      "route": "/shop/linh-chi/ruou-nam-linh-chi/ruou-nam-linh-chi.html",
       "title": "Rượu Nấm Linh Chi",
       "short_title": "Rượu Nấm Linh Chi",
       "nav_label": "Rượu Nấm Linh Chi",
@@ -490,10 +490,10 @@
       "template": "shop-product-detail",
       "source": "shop/linh-chi/ruou-nam-linh-chi/index.html",
       "depth": 3,
-      "parent": "/shop/linh-chi/"
+      "parent": "/shop/linh-chi/linh-chi.html"
     },
     {
-      "route": "/shop/tram-huong/nhang-tram-huong/",
+      "route": "/shop/tram-huong/nhang-tram-huong/nhang-tram-huong.html",
       "title": "Nhang Trầm Hương",
       "short_title": "Nhang Trầm Hương",
       "nav_label": "Nhang Trầm Hương",
@@ -504,10 +504,10 @@
       "template": "shop-product-detail",
       "source": "shop/tram-huong/nhang-tram-huong/index.html",
       "depth": 3,
-      "parent": "/shop/tram-huong/"
+      "parent": "/shop/tram-huong/tram-huong.html"
     },
     {
-      "route": "/shop/tram-huong/quach-tram-huong/",
+      "route": "/shop/tram-huong/quach-tram-huong/quach-tram-huong.html",
       "title": "Quách Trầm Hương",
       "short_title": "Quách Trầm Hương",
       "nav_label": "Quách Trầm Hương",
@@ -518,10 +518,10 @@
       "template": "shop-product-detail",
       "source": "shop/tram-huong/quach-tram-huong/index.html",
       "depth": 3,
-      "parent": "/shop/tram-huong/"
+      "parent": "/shop/tram-huong/tram-huong.html"
     },
     {
-      "route": "/shop/tram-huong/tinh-dau-tram-huong/",
+      "route": "/shop/tram-huong/tinh-dau-tram-huong/tinh-dau-tram-huong.html",
       "title": "Tinh Dầu Trầm Hương",
       "short_title": "Tinh Dầu Trầm Hương",
       "nav_label": "Tinh Dầu Trầm Hương",
@@ -532,7 +532,7 @@
       "template": "shop-product-detail",
       "source": "shop/tram-huong/tinh-dau-tram-huong/index.html",
       "depth": 3,
-      "parent": "/shop/tram-huong/"
+      "parent": "/shop/tram-huong/tram-huong.html"
     }
   ]
 }

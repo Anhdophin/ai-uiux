@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Start Your Tickera</title>
+  <meta name="description" content="Send a brief to start your Tickera service.">
+  <meta property="og:title" content="Start Your Tickera">
+  <meta property="og:description" content="Send a brief and start with a better small tick.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/contact.webp">
+  <meta name="theme-color" content="#0e0626">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body data-page="contact" data-depth=".">
+  <div class="site-shell">
+    <div data-include="header"></div>
+    <main id="main-content">
+      <section class="page-hero page-hero-dark">
+        <div class="container narrow">
+          <span class="eyebrow">Start</span>
+          <h1>Start Your Tickera</h1>
+          <p class="lead">Gửi brief ngắn để chốt xem anh đang cần profile, web, mini app hay business assets. Bản demo này mô phỏng đúng luồng bắt đầu thật nhẹ.</p>
+        </div>
+      </section>
+
+      <section class="section compact">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <span class="eyebrow" style="color:var(--primary)">What to include</span>
+            <h2>Brief càng gọn càng tốt. Chỉ cần đúng trọng tâm.</h2>
+            <div class="mini-panel-grid two">
+              <article class="mini-panel"><h3>Need</h3><p>Anh đang cần cải thiện thứ gì: profile, website, mini app hay business asset?</p></article>
+              <article class="mini-panel"><h3>Goal</h3><p>Kết quả mong muốn là gì: rõ hơn, đẹp hơn, chuyên nghiệp hơn hay nhanh hơn?</p></article>
+              <article class="mini-panel"><h3>Current state</h3><p>Hiện anh đã có gì sẵn: nội dung, hình ảnh, file cũ, website cũ hay flow cũ?</p></article>
+              <article class="mini-panel"><h3>Priority</h3><p>Điểm nào nên được sửa trước vì ảnh hưởng mạnh nhất tới kết quả?</p></article>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" data-contact-form>
+            <div class="field-grid two">
+              <label><span>Name</span><input type="text" name="name" placeholder="Tên của anh"></label>
+              <label><span>Email</span><input type="email" name="email" placeholder="email@example.com"></label>
+            </div>
+            <div class="field-grid two">
+              <label><span>Service</span>
+                <select name="service">
+                  <option>Better Profile</option>
+                  <option>Smarter Website</option>
+                  <option>Useful Mini App</option>
+                  <option>Business Assets</option>
+                </select>
+              </label>
+              <label><span>Priority</span><input type="text" name="priority" placeholder="Điểm muốn cải thiện trước"></label>
+            </div>
+            <label><span>Brief</span><textarea name="brief" rows="7" placeholder="Mô tả ngắn về điều anh muốn làm tốt hơn."></textarea></label>
+            <div class="form-actions">
+              <button class="button primary button-glass button--blue" type="submit">Send Brief</button>
+              <a class="button button-glass button--orange" href="index.html#services">Back to Services</a>
+            </div>
+            <p class="form-status" data-form-status></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <div data-include="footer"></div>
+  </div>
+  <script src="./js/include.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

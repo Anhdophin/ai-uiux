@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KeywordOntology",
+  "type": "object",
+  "required": [
+    "version",
+    "updated_at",
+    "depth_taxonomy",
+    "kind_taxonomy",
+    "status_taxonomy",
+    "audit_tag_taxonomy",
+    "relation_taxonomy"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "depth_taxonomy": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "allowed_kinds"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "label": {
+            "type": "string"
+          },
+          "allowed_kinds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "kind_taxonomy": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status_taxonomy": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "audit_tag_taxonomy": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "relation_taxonomy": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

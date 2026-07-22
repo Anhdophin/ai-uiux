@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thổ Kim Realty — Bất động sản phong thủy</title>
+  <meta name="description" content="Website corporate bất động sản phong thủy với dự án chọn lọc, tư vấn chuyên gia và công cụ tra cứu nhanh.">
+  <link rel="stylesheet" href="./assets/css/tokens.css">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/layout.css">
+  <link rel="stylesheet" href="./assets/css/components.css">
+  <link rel="stylesheet" href="./assets/css/utilities.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <script defer src="./data/site-content.js"></script>
+  <script defer src="./assets/js/component-loader.js"></script>
+  <script defer src="./assets/js/navigation.js"></script>
+  <script defer src="./assets/js/interactions.js"></script>
+  <script defer src="./assets/js/main.js"></script>
+</head>
+<body data-page="home">
+  <div class="site-shell">
+    <header class="site-header" data-include="./components/site-header.html"></header>
+
+    <main>
+      <section class="hero-banner section section--compact">
+        <div class="container hero-banner__frame">
+          <div class="hero-banner__content">
+            <div class="stack">
+              <p class="hero-banner__eyebrow">Corporate website · bất động sản phong thủy</p>
+              <h1 class="hero-banner__title text-balance">An cư hợp mệnh, chọn nhà có nền tảng thịnh vượng.</h1>
+              <p class="hero-banner__text">Website này được dựng theo hướng sáng, sang, thoáng, dùng palette hành Thổ và Kim, đồng thời tích hợp ngay các lớp chuyển đổi quan trọng: dự án nổi bật, tư vấn phong thủy, lọc sản phẩm theo hướng nhà và form kết nối nhanh.</p>
+              <div class="badge-row">
+                <span class="badge">Dự án chọn lọc</span>
+                <span class="badge">Tư vấn chuyên gia</span>
+                <span class="badge">Tra cứu nhanh hướng hợp</span>
+              </div>
+              <div class="cluster">
+                <a class="button button--primary" href="./pages/properties.html">Khám phá dự án</a>
+                <a class="button button--secondary" href="./pages/fengshui.html">Xem tư vấn phong thủy</a>
+              </div>
+              <div class="hero-kpis" data-hero-stats></div>
+            </div>
+
+            <div class="hero-highlight">
+              <article class="hero-property">
+                <div class="hero-property__image">
+                  <img src="./assets/images/hero-property.svg" alt="Mô phỏng dự án bất động sản phong thủy">
+                </div>
+                <div class="hero-property__panel stack">
+                  <p class="card__eyebrow">Dự án nổi bật</p>
+                  <h3>An Viên Riverside Villa</h3>
+                  <p>Biệt thự ven công viên nước, thế đất rõ, hướng phù hợp nhóm Tây tứ trạch.</p>
+                  <a class="button-link button--dark" href="./pages/properties.html">Xem dự án</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--compact">
+        <div class="container">
+          <div class="surface-card surface-card--padded lookup-panel">
+            <div class="section__head">
+              <p class="section__eyebrow">Công cụ tra cứu nhanh</p>
+              <h2>Nhập ngày sinh để xem nhóm hướng phù hợp.</h2>
+              <p>Bản tra cứu này giúp khách truy cập nhận thông tin tham khảo ngay trên trang chủ, sau đó có thể để lại yêu cầu để nhận tư vấn sâu hơn.</p>
+            </div>
+            <form class="lookup-panel__form" data-lookup-form>
+              <div>
+                <label for="birthdate">Ngày sinh</label>
+                <input id="birthdate" name="birthdate" type="date" required>
+              </div>
+              <div>
+                <label for="gender">Giới tính</label>
+                <select id="gender" name="gender" required>
+                  <option value="">Chọn</option>
+                  <option value="male">Nam</option>
+                  <option value="female">Nữ</option>
+                </select>
+              </div>
+              <div>
+                <label for="property-goal">Mục đích</label>
+                <select id="property-goal" name="goal">
+                  <option>Mua ở</option>
+                  <option>Đầu tư</option>
+                  <option>Xây mới</option>
+                </select>
+              </div>
+              <div class="cluster" style="align-items:end;">
+                <button class="button button--primary" type="submit">Tra cứu ngay</button>
+              </div>
+            </form>
+            <div class="lookup-result" data-lookup-result></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split-layout">
+          <div class="section__head">
+            <p class="section__eyebrow">Giải pháp lõi</p>
+            <h2>Không chỉ giới thiệu nhà đất, mà còn xây một hành trình ra quyết định an tâm.</h2>
+            <p>Dự án web này gom ba lớp giá trị thành một hệ thống giao diện liền mạch: phân phối bất động sản chọn lọc, tư vấn phong thủy ứng dụng và hỗ trợ giao dịch minh bạch.</p>
+          </div>
+          <div class="card-grid">
+            <article class="service-card stack">
+              <h3>Chọn đúng dự án</h3>
+              <p>Trình bày dự án theo loại hình, khu vực, giá, diện tích và nhóm hướng nhà.</p>
+            </article>
+            <article class="service-card stack">
+              <h3>Hiểu đúng phong thủy</h3>
+              <p>Cho khách hàng thấy phong thủy như một lớp tư vấn rõ ràng, không mơ hồ và không phô trương quá mức.</p>
+            </article>
+            <article class="service-card stack">
+              <h3>Kết nối đúng nhu cầu</h3>
+              <p>Form tư vấn, map dự án và CTA được đặt theo đúng mạch chuyển đổi để tăng khả năng để lại lead.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__head">
+            <p class="section__eyebrow">Dự án nổi bật</p>
+            <h2>Bộ sưu tập bất động sản đang được giới thiệu ưu tiên.</h2>
+            <p>Card dự án được dựng sẵn theo hướng dễ tái sử dụng, chỉ cần đổi dữ liệu trong file site-content.js là có thể mở rộng số lượng.</p>
+          </div>
+          <div class="card-grid" data-properties-grid></div>
+        </div>
+      </section>
+
+      <section class="section parallax-section" data-parallax>
+        <div class="parallax-layer parallax-layer--base" data-depth="0.28"></div>
+        <div class="parallax-layer parallax-layer--glow" data-depth="0.12"></div>
+        <div class="parallax-layer parallax-layer--pattern" data-depth="0.08"></div>
+        <div class="container">
+          <div class="parallax-panel stack">
+            <p class="section__eyebrow">Background parallax</p>
+            <h2>Giữ cảm giác sang và có chiều sâu mà không làm rối trải nghiệm xem nội dung.</h2>
+            <p>Khối này mô phỏng vùng kể chuyện thương hiệu và dùng parallax nền nhẹ. Sau này có thể thay bằng ảnh thực tế dự án hoặc video cover nếu cần.</p>
+            <a class="button button--primary" href="./pages/about.html">Xem câu chuyện thương hiệu</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__head">
+            <p class="section__eyebrow">Gallery scroll</p>
+            <h2>Cuộn chuột để xem nhanh các không gian và ngữ cảnh sử dụng.</h2>
+            <p>Track này dùng horizontal scroll bằng chuột để tạo cảm giác gallery chuyển động nhẹ, đúng tinh thần brief.</p>
+          </div>
+          <div class="gallery-shell">
+            <div class="gallery-track" data-gallery-track>
+              <article class="gallery-track__item"><img src="./assets/images/gallery-01.svg" alt="Không gian biệt thự"><div class="gallery-track__caption"><h3>Biệt thự ven hồ</h3><p>Minh đường thoáng, cảnh quan ổn định.</p></div></article>
+              <article class="gallery-track__item"><img src="./assets/images/gallery-02.svg" alt="Căn hộ ánh sáng dịu"><div class="gallery-track__caption"><h3>Căn hộ hướng sáng</h3><p>Phù hợp nhóm khách hàng mua ở lâu dài.</p></div></article>
+              <article class="gallery-track__item"><img src="./assets/images/gallery-03.svg" alt="Nhà phố thương mại"><div class="gallery-track__caption"><h3>Nhà phố thương mại</h3><p>Dễ kết hợp nhu cầu ở và vận hành kinh doanh nhỏ.</p></div></article>
+              <article class="gallery-track__item"><img src="./assets/images/gallery-04.svg" alt="Đất nền quy hoạch"><div class="gallery-track__caption"><h3>Đất nền quy hoạch rõ</h3><p>Phù hợp người mua ưu tiên nền tảng dài hạn.</p></div></article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__head">
+            <p class="section__eyebrow">Kiến thức mới</p>
+            <h2>Nội dung blog giúp khách hàng hiểu nhà ở từ nhiều góc nhìn hơn.</h2>
+            <p>Blog được dựng theo hướng dễ chuyển thành landing cụm nội dung về căn hộ, đất nền, văn phòng và phong thủy ứng dụng.</p>
+          </div>
+          <div class="blog-grid" data-blog-grid></div>
+        </div>
+      </section>
+
+      <section class="section section--compact">
+        <div class="container">
+          <div class="cta-panel">
+            <div class="stack">
+              <p class="section__eyebrow">Tăng chuyển đổi</p>
+              <h2>Nhận tư vấn bất động sản hợp tuổi và bối cảnh sử dụng thực tế.</h2>
+              <p>CTA này có thể gắn về form nội bộ, CRM, Tally hoặc API nhận lead ở bước phát triển tiếp theo.</p>
+            </div>
+            <div class="cluster">
+              <a class="button button--primary" href="./pages/contact.html">Đặt lịch tư vấn</a>
+              <a class="button button--secondary" href="./pages/properties.html">Lọc dự án ngay</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" data-include="./components/site-footer.html"></footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me - Anhdophin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="../shared/subpage-components.css" />
+  <style>
+    :root{
+      --page-accent:#ff4f7a;
+      --page-accent-2:#83d8ff;
+      --page-accent-3:#ffd24a;
+      --page-ink:#163d73;
+      --page-bg:#ffffff;
+      --page-soft:#f7fbff;
+      --page-line:rgba(22,61,115,.14);
+      --page-shadow:0 24px 60px rgba(22,61,115,.12);
+      --page-radius:32px;
+      --shell:1200px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0}
+    body{
+      font-family:'Inter',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(255,79,122,.08) 0, transparent 24%),
+        linear-gradient(180deg, #fff 0%, #fbfdff 100%);
+      color:var(--page-ink);
+    }
+    a{text-decoration:none;color:inherit}
+    .shell{width:min(calc(100% - 32px), var(--shell)); margin:0 auto}
+
+    .site-header{
+      width:min(calc(100% - 32px), var(--shell));
+      margin:18px auto 0;
+      padding:14px 18px;
+      border:1px solid var(--page-line);
+      border-radius:22px;
+      background:rgba(255,255,255,.88);
+      backdrop-filter:blur(14px);
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:18px;
+      position:sticky;
+      top:14px;
+      z-index:20;
+    }
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800}
+    .brand-mark{
+      width:14px;height:14px;border-radius:50%;
+      background:linear-gradient(135deg,var(--page-accent),var(--page-accent-3));
+      box-shadow:0 0 0 8px rgba(255,79,122,.12);
+      flex:0 0 auto;
+    }
+    .brand-name{font-size:15px;letter-spacing:.02em}
+    .desktop-nav{display:flex;gap:16px;flex-wrap:wrap}
+    .desktop-nav a{font-size:14px;color:rgba(22,61,115,.76)}
+    .desktop-nav a:hover{color:var(--page-ink)}
+
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      min-height:44px;padding:0 18px;border-radius:999px;font-weight:700;font-size:14px;
+      transition:.2s ease;
+    }
+    .btn:hover{transform:translateY(-1px)}
+    .btn-primary{
+      color:#fff;
+      background:linear-gradient(135deg,var(--page-accent),color-mix(in srgb, var(--page-accent) 65%, var(--page-accent-3)));
+      box-shadow:0 16px 30px rgba(255,79,122,.22);
+    }
+    .btn-ghost{
+      background:#fff;
+      color:var(--page-ink);
+      border:1px solid var(--page-line);
+    }
+
+    .detail-main{padding:28px 0 52px}
+    .detail-wrap{
+      background:var(--page-bg);
+      border:1px solid var(--page-line);
+      border-radius:40px;
+      box-shadow:var(--page-shadow);
+      overflow:hidden;
+      padding:clamp(24px,4vw,52px);
+    }
+
+    .service-hero-block,
+    .service-split-block,
+    .about-story-grid{
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:clamp(24px,4vw,56px);
+      align-items:center;
+    }
+
+    .service-kicker,
+    .section-label,
+    .about-mini-label{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      font-size:12px;
+      font-weight:800;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      color:var(--page-accent);
+    }
+    .service-kicker::before,
+    .section-label::before,
+    .about-mini-label::before{
+      content:"";
+      width:38px;
+      height:2px;
+      background:linear-gradient(90deg,var(--page-accent),transparent);
+    }
+    .service-title{
+      margin:16px 0 14px;
+      font-size:clamp(30px,4.2vw,58px);
+      line-height:1.04;
+      letter-spacing:-.04em;
+      color:var(--page-ink);
+    }
+    .service-summary,
+    .service-copy-lines p,
+    .section-heading p,
+    .feature-pill-card p,
+    .split-copy-group p,
+    .service-intro-band p,
+    .about-card p,
+    .about-story-copy p,
+    .timeline-copy p{
+      color:color-mix(in srgb, var(--page-ink) 72%, white);
+      line-height:1.78;
+      font-size:15px;
+    }
+    .service-copy-lines{display:grid;gap:10px;margin-top:18px}
+    .service-cta-row,.about-card-buttons{display:flex;flex-wrap:wrap;gap:14px;margin-top:24px}
+
+    .service-hero-visual,.service-split-visual,.about-story-visual{display:flex;justify-content:center}
+    .illustration-card,.illustration-hand-card,.about-portrait-card{position:relative;width:min(100%,420px);aspect-ratio:1/1}
+    .illustration-card::before,.illustration-hand-card::before,.about-portrait-card::before{
+      content:"";position:absolute;inset:10% 8% 12% 8%;
+      border-radius:38% 62% 56% 44% / 40% 40% 60% 60%;
+      background:linear-gradient(180deg, color-mix(in srgb, var(--page-accent-2) 48%, white), color-mix(in srgb, var(--page-accent) 12%, white));
+    }
+    .screen{position:absolute;background:#fff;border-radius:26px;box-shadow:0 24px 60px rgba(22,61,115,.16);border:1px solid rgba(255,255,255,.6)}
+    .screen-large{inset:18% 14% 18% 14%;overflow:hidden}
+    .screen-large::before{
+      content:"";position:absolute;inset:0;
+      background:
+        radial-gradient(circle at 22% 28%, color-mix(in srgb, var(--page-accent) 36%, white), transparent 24%),
+        radial-gradient(circle at 72% 65%, color-mix(in srgb, var(--page-accent-2) 48%, white), transparent 26%),
+        linear-gradient(135deg, color-mix(in srgb, var(--page-accent) 12%, white), #fff 62%);
+    }
+    .screen-large {
+  position: relative;
+  overflow: hidden;
+}
+
+.screen-large img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.screen-large::before {
+  z-index: 0;
+}
+
+.screen-large::after {
+  z-index: 2;
+}
+
+.dot,
+.screen-bars {
+  z-index: 3;
+}
+.screen-large::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+
+background: linear-gradient(
+  120deg,
+  transparent 0%,
+  rgba(255,255,255,0.08) 35%,
+  rgba(255,255,255,0.25) 50%,
+  rgba(255,255,255,0.08) 65%,
+  transparent 100%
+);
+animation: shineMove 6s ease-in-out infinite;
+  transform: translateX(-100%);
+  animation: shineMove 4s ease-in-out infinite;
+}
+@keyframes shineMove {
+  0% {
+    transform: translateX(-120%);
+  }
+  50% {
+    transform: translateX(120%);
+  }
+  100% {
+    transform: translateX(120%);
+  }
+}
+    .dot{position:absolute;top:18px;width:10px;height:10px;border-radius:50%;z-index:2}
+    .dot-a{left:18px;background:var(--page-accent)}
+    .dot-b{left:34px;background:var(--page-accent-3)}
+    .dot-c{left:50px;background:var(--page-accent-2)}
+    .screen-bars{position:absolute;inset:auto 18px 22px 18px;display:grid;gap:10px;z-index:2}
+    .screen-bars span{display:block;height:12px;border-radius:999px;background:rgba(22,61,115,.08)}
+    .screen-bars span:nth-child(1){width:84%}
+    .screen-bars span:nth-child(2){width:72%}
+    .screen-bars span:nth-child(3){width:92%}
+    .screen-bars span:nth-child(4){width:56%}
+    .floating-card,.floating-orb,.target-board,.speech-dot,.heart-chip,.portrait-chip{position:absolute;box-shadow:0 20px 42px rgba(22,61,115,.14)}
+    .floating-card{border-radius:18px;background:#fff}
+    .floating-a{width:92px;height:92px;right:2%;top:10%;background:linear-gradient(145deg, var(--page-accent-3), color-mix(in srgb, var(--page-accent-3) 40%, white))}
+    .floating-b{width:82px;height:82px;left:4%;bottom:14%;background:linear-gradient(145deg, color-mix(in srgb, var(--page-accent-2) 70%, white), #fff)}
+    .floating-orb{width:34px;height:34px;border-radius:50%;right:16%;bottom:10%;background:var(--page-accent)}
+
+    .service-intro-band{margin:38px 0 6px;padding:20px 24px;border:1px solid var(--page-line);border-radius:24px;background:linear-gradient(180deg, color-mix(in srgb, var(--page-accent) 6%, white), white)}
+    .about-card{
+      margin:28px 0 8px;
+      padding:32px;
+      border:1px solid var(--page-line);
+      border-radius:32px;
+      background:linear-gradient(180deg, rgba(255,255,255,.96), color-mix(in srgb, var(--page-accent-2) 8%, white));
+      box-shadow:0 14px 34px rgba(22,61,115,.07);
+    }
+    .about-card h2,.section-heading.center h2{margin:12px 0 12px;font-size:clamp(28px,3.4vw,44px);line-height:1.1;color:var(--page-ink)}
+    .about-card-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:start}
+    .about-badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+    .about-badge{padding:10px 14px;border-radius:999px;background:#fff;border:1px solid var(--page-line);font-size:13px;font-weight:700;color:rgba(22,61,115,.86)}
+
+    .service-stats-block{padding:44px 0 18px}
+    .section-heading.center{max-width:780px;margin:0 auto;text-align:center}
+    .section-heading.center .section-label::before{display:none}
+    .stats-grid-five{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px;margin-top:30px;padding-top:22px;border-top:1px solid var(--page-line)}
+    .stat-box{text-align:center;padding:14px 8px}
+    .stat-box strong{display:block;font-size:clamp(26px,3vw,40px);line-height:1;color:var(--page-ink)}
+    .stat-box span{display:block;margin-top:8px;font-size:13px;line-height:1.5;color:color-mix(in srgb, var(--page-ink) 62%, white)}
+
+    .curve-feature-zone{position:relative;margin:28px -52px 12px;padding:88px 52px 80px;overflow:hidden}
+    .curve-bg{position:absolute;inset:0;background:
+      radial-gradient(120% 100% at 0% 60%, color-mix(in srgb, var(--page-accent-2) 42%, white) 0%, color-mix(in srgb, var(--page-accent-2) 14%, white) 34%, transparent 35%),
+      radial-gradient(80% 90% at 100% 0%, color-mix(in srgb, var(--page-accent) 18%, white), transparent 45%);
+      pointer-events:none}
+    .feature-triplet{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+    .feature-pill-card{padding:28px 20px 22px;background:rgba(255,255,255,.8);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.9);border-radius:28px;text-align:center;box-shadow:0 16px 36px rgba(22,61,115,.08)}
+    .feature-icon.bubble{width:84px;height:84px;margin:0 auto 18px;border-radius:24px;background:linear-gradient(145deg,var(--page-accent),color-mix(in srgb, var(--page-accent) 58%, var(--page-accent-3)));position:relative;transform:rotate(45deg)}
+    .feature-icon.bubble::before,.feature-icon.bubble::after{content:"";position:absolute;inset:50% auto auto 50%;transform:translate(-50%,-50%) rotate(-45deg);background:#fff}
+    .icon-map::before{width:32px;height:20px;border-radius:6px}
+    .icon-map::after{width:14px;height:14px;border-radius:50%;box-shadow:0 0 0 4px rgba(255,255,255,.22)}
+    .icon-tool::before{width:30px;height:4px;border-radius:999px;top:58%}
+    .icon-tool::after{width:24px;height:24px;clip-path:polygon(0 100%,0 86%,22% 62%,42% 72%,68% 30%,82% 40%,100% 0,100% 100%);border-radius:0}
+    .icon-layer::before{width:30px;height:30px;border-radius:50%}
+    .icon-layer::after{width:10px;height:26px;border-radius:999px}
+    .feature-pill-card h3,.split-copy-group h3,.about-story-copy h3{margin:0 0 10px;font-size:22px;line-height:1.2;color:var(--page-ink)}
+
+    .about-portrait-card::before{inset:16% 10% 18% 10%;border-radius:48% 52% 40% 60% / 56% 40% 60% 44%}
+    .portrait-core{
+      position:absolute;inset:20% 18% 16% 18%;border-radius:30px;
+      background:linear-gradient(145deg,#fff,color-mix(in srgb, var(--page-accent-2) 12%, white));
+      border:1px solid rgba(255,255,255,.9);
+      box-shadow:0 24px 60px rgba(22,61,115,.14);
+      overflow:hidden;
+    }
+    .portrait-core::before{
+      content:"";position:absolute;inset:18px 18px auto 18px;height:64%;border-radius:24px;
+      background:radial-gradient(circle at 50% 24%, rgba(255,79,122,.22), transparent 32%),linear-gradient(180deg, rgba(15,168,184,.14), rgba(255,255,255,0));
+    }
+    .portrait-avatar{
+      position:absolute;left:50%;top:42%;transform:translate(-50%,-50%);
+      width:116px;height:116px;border-radius:50%;background:linear-gradient(180deg,#f4f8ff,#fff);
+      border:1px solid rgba(22,61,115,.08);box-shadow:0 18px 30px rgba(22,61,115,.08);
+    }
+    .portrait-avatar::before{content:"";position:absolute;left:50%;top:20px;transform:translateX(-50%);width:54px;height:54px;border-radius:50%;background:color-mix(in srgb, var(--page-accent) 18%, white)}
+    .portrait-avatar::after{content:"";position:absolute;left:50%;bottom:14px;transform:translateX(-50%);width:70px;height:34px;border-radius:34px 34px 22px 22px;background:color-mix(in srgb, var(--page-accent-2) 18%, white)}
+    .portrait-lines{position:absolute;left:18px;right:18px;bottom:18px;display:grid;gap:10px}
+    .portrait-lines span{display:block;height:10px;border-radius:999px;background:rgba(22,61,115,.08)}
+    .portrait-lines span:nth-child(1){width:78%}
+    .portrait-lines span:nth-child(2){width:100%}
+    .portrait-lines span:nth-child(3){width:64%}
+    .portrait-chip{border-radius:20px;background:#fff;padding:14px 16px;font-size:13px;font-weight:800;color:var(--page-ink)}
+    .chip-a{left:0;top:20%}
+    .chip-b{right:0;bottom:18%}
+
+    .target-board{width:220px;height:150px;left:18%;top:22%;border-radius:28px;background:radial-gradient(circle at 50% 50%, #fff 0 14%, var(--page-accent) 15% 30%, #fff 31% 46%, var(--page-accent-3) 47% 62%, #fff 63% 100%)}
+    .speech-dot{width:72px;height:72px;border-radius:22px;background:linear-gradient(145deg, var(--page-accent-2), #fff);right:12%;top:18%}
+    .heart-chip{width:84px;height:84px;border-radius:24px;background:linear-gradient(145deg, var(--page-accent), color-mix(in srgb, var(--page-accent) 60%, white));right:14%;bottom:18%}
+
+    .service-split-block{padding-top:24px}
+    .service-split-copy{display:grid;gap:18px}
+    .split-copy-group{padding-bottom:18px;border-bottom:1px solid var(--page-line)}
+    .detail-service-page .legacy-site-footer{padding:8px 0 36px}
+    .detail-service-page .legacy-footer-grid{padding:20px 0;display:flex;justify-content:center}
+    .social-pill{display:inline-flex;width:44px;height:44px;border-radius:999px;align-items:center;justify-content:center;background:#fff;border:1px solid var(--page-line)}
+
+    @media (max-width: 1080px){
+      .stats-grid-five,.feature-triplet{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .stats-grid-five .stat-box:last-child,.feature-triplet .feature-pill-card:last-child{grid-column:1 / -1}
+    }
+    @media (max-width: 900px){
+      .about-card-grid,.service-hero-block,.service-split-block,.about-story-grid{grid-template-columns:1fr}
+    }
+    @media (max-width: 840px){
+      .site-header{padding:14px 16px}
+      .desktop-nav{display:none}
+      .detail-wrap{padding:24px}
+      .feature-triplet,.stats-grid-five{grid-template-columns:1fr}
+      .curve-feature-zone{margin:24px -24px 8px;padding:56px 24px}
+      .illustration-card,.illustration-hand-card,.about-portrait-card{max-width:360px}
+    }
+    @media (max-width: 540px){
+      .service-title{font-size:34px}
+      .feature-pill-card,.service-intro-band,.about-card{border-radius:22px}
+      .feature-icon.bubble{width:72px;height:72px}
+      .service-cta-row .btn,.about-card-buttons .btn{width:100%}
+    }
+  </style>
+
+
+</head>
+<body class="detail-service-page">
+<div id="subpage-header"></div>
+
+  <main class="detail-main shell">
+    <article class="detail-wrap">
+      <section class="service-hero-block">
+        <div class="service-hero-copy">
+          <span class="service-kicker">ABOUT / ANHDOPHIN</span>
+          <h1 class="service-title">Tôi không bắt đầu dự án ngay từ thiết kế.</h1>
+          <p class="service-summary"><strong>Phần lớn mọi người nghĩ rằng thiết kế bắt đầu từ giao diện.</strong></p>
+          <div class="service-copy-lines">
+            <p>Nhưng trong thực tế, mỗi lần bắt đầu một dự án, thứ đầu tiên xuất hiện không phải là layout, mà là một mớ thông tin rời rạc.</p>
+            <p>Mỗi người trong doanh nghiệp hiểu dịch vụ một kiểu.<br>
+            Có những thứ làm rất nhiều nhưng không ai nói ra được.<br>
+            Có những thứ viết rất dài nhưng người ngoài đọc vẫn không hiểu.<br></p>
+            <p>Và nếu bắt đầu thiết kế ngay từ đó,<br>
+            kết quả thường chỉ là một website đẹp… nhưng không dùng được.</p>
+          </div>
+          <div class="service-cta-row">
+           <!-- <a class="btn btn-primary" href="../services/">Services</a>-->
+            <a class="btn btn-primary" href="../workflow/workflow.htmlworkflow.html">Workflow</a>
+          </div>
+        </div>
+
+        <div class="service-hero-visual">
+          <div class="illustration-card illustration-main">
+            <div class="screen screen-large">
+                <img src="../assets/portrait-1.png" alt="About">
+              <span class="dot dot-a"></span>
+              <span class="dot dot-b"></span>
+              <span class="dot dot-c"></span>
+              <div class="screen-bars">
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="floating-card floating-a"></div>
+            <div class="floating-card floating-b"></div>
+            <div class="floating-orb"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="service-intro-band">
+        <p>Tôi thường làm việc theo hướng: đọc cách vận hành thật → bóc tách logic → sắp xếp lại thành cấu trúc → thiết kế chất liệu phù hợp để người khác có thể dùng, hiểu và triển khai tiếp.</p>
+      </section>
+
+      <section class="about-card-section">
+        <article class="about-card">
+          <div class="about-card-grid">
+            <div>
+              <span class="about-mini-label">Tôi làm gì</span>
+              <h2>Cách tôi bắt đầu một dự án.</h2>
+              <p>Tôi sẽ không thiết kế ngay.<br>
+                Tôi bắt đầu bằng việc ngồi xuống, xem toàn bộ những gì đang có.<br>
+                Không chỉnh sửa, không tối ưu, chỉ để hiểu:</p>
+                <p>...</p>
+                <p>Công việc thực sự đang diễn ra như thế nào<br>
+                Dịch vụ đang được làm theo thói quen hay có hệ thống<br>
+                Người trong hiểu khác người ngoài ở chỗ nào</p>
+                <p>...</p>
+                <p>Ở giai đoạn này, thứ quan trọng nhất không phải là ý tưởng,<br>
+                mà là hiểu đúng thực tế.</p>
+              </p>
+              <div class="about-card-buttons">
+                <a class="btn btn-primary" href="../services/">View Services</a>
+                <a class="btn btn-ghost" href="../service-detail/service-detail.htmlservice-detail.html">Service Detail</a>
+              </div>
+            </div>
+            <div>
+              <div class="about-badges">
+                <span class="about-badge">Web Design</span>
+                <span class="about-badge">Print & Digital Files</span>
+                <span class="about-badge">Workflow Thinking</span>
+                <span class="about-badge">Micro Tools</span>
+                <span class="about-badge">Knowledge Packaging</span>
+                <span class="about-badge">Structured Content</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="service-stats-block">
+        <div class="section-heading center">
+          <span class="section-label">How Iy Work</span>
+          <h2>Khi mọi thứ bắt đầu rõ ra</h2>
+          <p>Tôi định hình và định dạng mọi thứ cần thiết cho mục tiêu thiết kế.</p>
+        </div>
+        <div class="stats-grid-five">
+          <div class="stat-box"><strong>01</strong><span>Quan sát cách làm hiện tại.<br>Có những bước bị lặp lại.</span></div>
+          <div class="stat-box"><strong>02</strong><span>Bóc tách điểm nghẽn và logic ẩn. <br>Có những phần bị thiếu</span></div>
+          <div class="stat-box"><strong>03</strong><span>Sắp xếp lại thành cấu trúc rõ ràng. <br>Có những chỗ khiến người khác hiểu sai</span></div>
+          <div class="stat-box"><strong>04</strong><span>Lúc này, tôi bắt đầu sắp xếp lại.<br>Thiết kế chất liệu phù hợp</span></div>
+          <div class="stat-box"><strong>05</strong><span>Không phải để viết cho đẹp. <br>Để tạo ra một dòng chảy</span></div>
+        </div>
+      </section>
+
+      <section class="curve-feature-zone">
+        <div class="curve-bg"></div>
+        <div class="feature-triplet">
+          <article class="feature-pill-card">
+            <div class="feature-icon bubble icon-map"></div>
+            <h3>Đọc cách vận hành thực tế</h3>
+            <p>Tôi nhìn vào cách một công việc đang chạy trong đời thực, không chỉ vào cách nó được mô tả trên giấy.</p>
+          </article>
+          <article class="feature-pill-card">
+            <div class="feature-icon bubble icon-tool"></div>
+            <h3>Thiết kế chất liệu phù hợp</h3>
+            <p>Mỗi vấn đề cần đúng chất liệu của nó: tài liệu, dashboard, workflow map, micro tool hay giao diện.</p>
+          </article>
+          <article class="feature-pill-card">
+            <div class="feature-icon bubble icon-layer"></div>
+            <h3>Làm để người khác dùng tiếp</h3>
+            <p>Mục tiêu cuối cùng không phải là một bản đẹp, mà là thứ có thể hiểu, chuyển giao và tiếp tục phát triển.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="about-story-grid">
+        <div class="about-story-visual">
+          <div class="about-portrait-card">
+            <div class="portrait-core">
+              <div class="portrait-avatar"></div>
+              <div class="portrait-lines">
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="portrait-chip chip-a">Thiết kế + logic</div>
+            <div class="portrait-chip chip-b">Thông tin + công cụ</div>
+          </div>
+        </div>
+        <div class="about-story-copy">
+          <span class="about-mini-label">Selected Direction</span>
+          <h3>Viết lại - nhưng không phải để <br>“trông hay hơn”.</h3>
+          <p>Phần lớn nội dung ban đầu không sai.
+          <br>Nó chỉ khó hiểu.</p>
+          <p>Tôi viết lại để:</p>
+
+          <p>mỗi đoạn có một mục đích rõ ràng<br>
+          mỗi phần nối được với phần sau<br>
+          người đọc không phải dừng lại để “nghĩ xem đang nói gì”</p>
+
+          <p>Khi làm đúng, nội dung không cần cố gắng thuyết phục,<br>
+          nó tự giải thích được.</p>
+        </div>
+      </section>
+
+      <section class="service-split-block">
+        <div class="service-split-visual">
+          <div class="illustration-hand-card">
+            <div class="target-board"></div>
+            <div class="speech-dot"></div>
+            <div class="heart-chip"></div>
+          </div>
+        </div>
+
+        <div class="service-split-copy">
+          <div class="split-copy-group">
+            <h3>Lúc đó mới bắt đầu thiết kế</h3>
+            <p>Giao diện chỉ xuất hiện khi cấu trúc đã ổn định.</p>
+
+              <p>Vì nếu thông tin chưa rõ,<br>
+              thiết kế chỉ là che đi sự rối.</p>
+
+              <p><strong>Khi đã có flow:</strong></p>
+
+              <p>việc thiết kế trở nên đơn giản hơn<br>
+              thứ tự hiển thị tự nhiên hơn<br>
+              người dùng không cần “học cách dùng web”</p>
+          </div>
+          <div class="split-copy-group">
+            <h3>Đóng gói tri thức & tài liệu</h3>
+            <p>Chuyển những nội dung rời rạc hoặc phức tạp thành các gói thông tin dễ đọc, dễ dùng và có thể nhân rộng.</p>
+          </div>
+          <div class="split-copy-group">
+            <h3>Kết quả cuối cùng</h3>
+            <p>Thứ được tạo ra không chỉ là một hình ảnh,<br>
+              mà là một giải pháp thực sự hữu ích.</p>
+          </div>
+          <div class="service-cta-row split-bottom-cta">
+            <a class="btn btn-primary" href="https://tally.so/r/RGRE2P">Liên hệ tư vấn</a>
+            <a class="btn btn-ghost" href="../downloads/downloads.htmldownloads.html">Downloads</a>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <div id="subpage-footer"></div>
+  <script src="../shared/subpage-components.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SeedManifest",
+  "type": "object",
+  "required": ["version", "bundles"],
+  "properties": {
+    "version": {"type": "string"},
+    "bundles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "file", "schema"],
+        "properties": {
+          "id": {"type": "string"},
+          "file": {"type": "string"},
+          "schema": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

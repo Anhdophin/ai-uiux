@@ -1,1 +1,3 @@
 Before editing, read AGENTS.md and AI-EDIT-PRECHECK.md. Preserve current architecture: root portal + services + apps + shop. Do not hardcode old legacy paths. Keep header/footer partials shared across pages. Fix the smallest possible surface.
+If the task includes writing or rewriting copy, read CONTENT-CORE-RULES.md first and follow it as mandatory.
+Do not expose internal labels (module/field/schema words) in user-facing headings; rewrite them into direct conversational messages.

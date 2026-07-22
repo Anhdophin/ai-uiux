@@ -1,0 +1,221 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-04-05",
+  "source_note": "Curated starter personas for coaching tool scaffold.",
+  "personas": [
+    {
+      "id": "male_20s_early_career",
+      "age_range": "25-29",
+      "gender": "male",
+      "life_stage": [
+        "working",
+        "graduating_soon"
+      ],
+      "career_stage": [
+        "newbie",
+        "early"
+      ],
+      "focus_tags": [
+        "chứng minh bản thân",
+        "tăng thu nhập",
+        "xác định hướng đi"
+      ],
+      "default_risks": [
+        "so sánh xã hội",
+        "chọn sai nghề",
+        "burnout sớm"
+      ],
+      "common_pressures": [
+        "so sánh xã hội",
+        "chọn sai nghề",
+        "burnout sớm"
+      ],
+      "likely_goals": [
+        "chứng minh bản thân",
+        "tăng thu nhập",
+        "xác định hướng đi"
+      ],
+      "blind_spots": [
+        "overfocus_on_speed",
+        "weak_long_term_view"
+      ],
+      "priority_life_areas": [
+        "career",
+        "direction",
+        "inner_system"
+      ],
+      "recommended_entry_keywords": [
+        "pressure",
+        "unclear_direction"
+      ],
+      "age_band": "20s_late",
+      "life_stage_key": "new_to_work",
+      "career_stage_key": "foundation",
+      "ai_tone_hints": [
+        "grounded",
+        "non_patronizing"
+      ]
+    },
+    {
+      "id": "female_20s_transition",
+      "age_range": "25-29",
+      "gender": "female",
+      "life_stage": [
+        "working",
+        "career_change"
+      ],
+      "career_stage": [
+        "early",
+        "transition"
+      ],
+      "focus_tags": [
+        "môi trường phù hợp",
+        "nội lực",
+        "cân bằng cuộc sống"
+      ],
+      "default_risks": [
+        "tự nghi ngờ",
+        "thiếu mạng lưới hỗ trợ",
+        "reset không có kế hoạch"
+      ],
+      "common_pressures": [
+        "tự nghi ngờ",
+        "thiếu mạng lưới hỗ trợ",
+        "reset không có kế hoạch"
+      ],
+      "likely_goals": [
+        "môi trường phù hợp",
+        "nội lực",
+        "cân bằng cuộc sống"
+      ],
+      "blind_spots": [
+        "underpricing_self",
+        "avoidance_loop"
+      ],
+      "priority_life_areas": [
+        "career",
+        "direction",
+        "inner_system"
+      ],
+      "recommended_entry_keywords": [
+        "want_change",
+        "stuck"
+      ],
+      "age_band": "20s_late",
+      "life_stage_key": "transitioning",
+      "career_stage_key": "pivot",
+      "ai_tone_hints": [
+        "warm",
+        "structured"
+      ]
+    },
+    {
+      "id": "male_30s_rebuild",
+      "age_range": "35-44",
+      "gender": "male",
+      "life_stage": [
+        "working",
+        "career_change",
+        "building_business"
+      ],
+      "career_stage": [
+        "mid",
+        "transition",
+        "builder"
+      ],
+      "focus_tags": [
+        "bền vững",
+        "trách nhiệm gia đình",
+        "đổi hướng có tính toán"
+      ],
+      "default_risks": [
+        "kẹt ở vùng quen",
+        "áp lực tài chính",
+        "đổi nghề muộn thiếu nền"
+      ],
+      "common_pressures": [
+        "kẹt ở vùng quen",
+        "áp lực tài chính",
+        "đổi nghề muộn thiếu nền"
+      ],
+      "likely_goals": [
+        "bền vững",
+        "trách nhiệm gia đình",
+        "đổi hướng có tính toán"
+      ],
+      "blind_spots": [
+        "system_gap",
+        "weak_long_term_view"
+      ],
+      "priority_life_areas": [
+        "career",
+        "direction",
+        "inner_system"
+      ],
+      "recommended_entry_keywords": [
+        "want_change",
+        "pressure"
+      ],
+      "age_band": "40s_plus",
+      "life_stage_key": "rebuilding",
+      "career_stage_key": "builder",
+      "ai_tone_hints": [
+        "grounded",
+        "direct_but_gentle"
+      ]
+    },
+    {
+      "id": "female_30s_builder",
+      "age_range": "30-34",
+      "gender": "female",
+      "life_stage": [
+        "working",
+        "building_business"
+      ],
+      "career_stage": [
+        "mid",
+        "builder"
+      ],
+      "focus_tags": [
+        "xây nền riêng",
+        "tự chủ thời gian",
+        "đa vai trò"
+      ],
+      "default_risks": [
+        "quá tải",
+        "thiếu hệ thống",
+        "bị kéo giữa nhiều vai"
+      ],
+      "common_pressures": [
+        "quá tải",
+        "thiếu hệ thống",
+        "bị kéo giữa nhiều vai"
+      ],
+      "likely_goals": [
+        "xây nền riêng",
+        "tự chủ thời gian",
+        "đa vai trò"
+      ],
+      "blind_spots": [
+        "system_gap",
+        "underpricing_self"
+      ],
+      "priority_life_areas": [
+        "career",
+        "direction",
+        "inner_system"
+      ],
+      "recommended_entry_keywords": [
+        "pressure_roles",
+        "want_business"
+      ],
+      "age_band": "30s_early",
+      "life_stage_key": "building_business",
+      "career_stage_key": "builder",
+      "ai_tone_hints": [
+        "structured",
+        "warm"
+      ]
+    }
+  ]
+}

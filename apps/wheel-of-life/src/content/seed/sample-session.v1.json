@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-04-05",
+  "sample_session": {
+    "context_profile": {
+      "age_range": "25-29",
+      "gender": "male",
+      "life_stage": "working",
+      "career_stage": "early"
+    },
+    "selected_feeling_id": "unclear_direction",
+    "selected_keyword_ids": ["ud_future", "ud_roadmap_decision", "ud_roadmap_decision_fear"],
+    "reflection_snippet": "Em biết mình nên chọn đường nào đó nhưng cứ kéo dài vì sợ chọn sai rồi mất vài năm."
+  }
+}

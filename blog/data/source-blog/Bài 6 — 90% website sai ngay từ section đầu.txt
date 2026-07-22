@@ -1,0 +1,167 @@
+Bài 6 — 90% website sai ngay từ section đầu
+🧠 Một sai lệch rất nhỏ… nhưng ảnh hưởng toàn bộ
+
+Có những website được làm rất kỹ.
+
+Nhiều section
+Nội dung đầy đủ
+Có hình ảnh, có flow, có cả review
+
+Nhìn tổng thể, không có gì “thiếu”.
+
+Nhưng khi nhìn kỹ hơn…
+
+Phần quan trọng nhất lại đang sai.
+
+Section đầu tiên.
+
+Và khi section này không đúng,
+mọi thứ phía dưới — gần như không còn ý nghĩa.
+
+🎯 Khoảnh khắc quyết định
+
+Người dùng không bắt đầu bằng việc đọc.
+
+Họ bắt đầu bằng việc:
+
+Nhìn lướt
+Cảm nhận
+Quyết định
+
+Tất cả diễn ra rất nhanh.
+
+Không phải 10 giây.
+Cũng không phải 5 giây.
+
+Khoảng 3 giây đầu tiên.
+
+Trong 3 giây đó, chỉ có một câu hỏi:
+
+“Cái này có liên quan đến mình không?”
+
+Nếu câu trả lời không rõ,
+người dùng sẽ không đi tiếp.
+
+📌 [Chỗ này nên có hình minh họa: 3s decision – scan → stay / leave]
+
+🔍 Khi section đầu không làm được việc của nó
+
+Một section đầu đúng không cần dài.
+
+Nhưng nó phải làm được 3 việc:
+
+Định nghĩa rõ sản phẩm là gì
+Nói rõ dành cho ai
+Cho thấy lợi ích chính
+
+Nếu thiếu một trong ba,
+section đầu sẽ mất chức năng.
+
+Và đây là lúc nhiều website gặp vấn đề.
+
+⚠️ Những kiểu sai thường gặp
+❌ 1. Nói lan man
+Dùng nhiều câu
+Nhiều từ
+Nhưng không có một định nghĩa rõ ràng
+
+Người đọc phải tự ghép lại để hiểu.
+Và đa số sẽ không làm việc đó.
+
+❌ 2. Không rõ đối tượng
+Không biết đang nói cho ai
+Ai cũng có thể đọc
+→ đồng nghĩa với không ai cảm thấy dành cho mình
+❌ 3. Không rõ lợi ích
+Có nói về sản phẩm
+Nhưng không thấy “giúp được gì”
+
+Khi đó, thông tin trở nên trung tính.
+Không tạo được lý do để ở lại.
+
+📌 [Chỗ này nên có hình minh họa: 3 lỗi phổ biến đặt cạnh nhau – lan man / không target / không benefit]
+
+🧠 Vì sao lỗi này xảy ra nhiều?
+
+Vì section đầu thường bị viết theo cách:
+
+Giới thiệu
+Trình bày
+“Mở bài” theo kiểu quen thuộc
+
+Trong khi thực tế,
+section đầu không phải để giới thiệu.
+
+Nó là:
+
+Entry point — điểm vào của toàn bộ trải nghiệm
+
+Nếu điểm vào sai,
+toàn bộ flow phía sau sẽ không được kích hoạt.
+
+🔄 Khi section đầu đúng
+
+Một section đầu đúng sẽ tạo ra một hiệu ứng rất rõ:
+
+Người đọc hiểu ngay mình đang nhìn cái gì
+Không cần đọc lại
+Không cần suy nghĩ thêm
+Có lý do để kéo xuống
+
+Khi đó, các section phía dưới mới bắt đầu có giá trị.
+
+Ngược lại,
+nếu section đầu không rõ:
+
+Người dùng không hiểu
+Không tin
+Không tiếp tục
+
+Và toàn bộ phần phía dưới —
+dù viết tốt đến đâu —
+cũng không được đọc.
+
+📌 [Chỗ này nên có hình minh họa: flow bị cắt ở section đầu vs flow đi tiếp]
+
+🧠 Góc nhìn UX
+
+Section đầu không phải là phần mở đầu.
+
+Nó là:
+
+bộ lọc
+
+Lọc người phù hợp
+Loại bỏ người không liên quan
+Giữ lại người có khả năng chuyển đổi
+
+Nếu bộ lọc này không rõ,
+toàn bộ hệ thống phía sau sẽ bị nhiễu.
+
+🔚 Kết lại
+
+Website không thất bại ở cuối trang.
+
+👉 Nó thất bại ngay từ đầu.
+
+Và chỉ cần section đầu sai,
+mọi thứ phía dưới đều mất ý nghĩa.
+
+🚀 Call to Action
+
+Nếu anh đang:
+
+Có website nhưng người dùng rời đi rất sớm
+Có nội dung tốt nhưng không được đọc
+Không chắc section đầu đã “đúng” hay chưa
+
+→ Có thể vấn đề nằm ở entry point
+
+👉 iAppLab hỗ trợ:
+
+Phân tích section đầu theo góc nhìn UX
+Viết lại entry layer rõ ràng, đúng đối tượng
+Thiết kế landing page giúp giữ người dùng ngay từ 3 giây đầu
+
+Xem dịch vụ thiết kế web & tối ưu nội dung tại iAppLab →
+(link đặt tại đây)

@@ -1,0 +1,397 @@
+{
+  "version": "v1",
+  "locale": "vi",
+  "fallback_locale": "en",
+  "entries": [
+    {
+      "key": "feeling.unclear_direction.label",
+      "label": "Mơ hồ hướng đi",
+      "short": "Anh chưa rõ nên đi tiếp hướng nào.",
+      "long": "Nhóm cảm nhận dùng khi hướng đi còn mờ."
+    },
+    {
+      "key": "feeling.unclear_direction.subtitle",
+      "label": "Không rõ mình nên đi theo hướng nào tiếp.",
+      "short": "Hướng đi còn mờ.",
+      "long": "Phụ đề cho thẻ mơ hồ hướng đi."
+    },
+    {
+      "key": "feeling.pressure.label",
+      "label": "Áp lực",
+      "short": "Có nhiều lực ép cùng lúc.",
+      "long": "Dùng khi người dùng thấy bị nén bởi nhiều thứ."
+    },
+    {
+      "key": "feeling.pressure.subtitle",
+      "label": "Cảm giác bị nén từ nhiều phía.",
+      "short": "Áp lực đang nổi bật.",
+      "long": "Phụ đề cho thẻ áp lực."
+    },
+    {
+      "key": "feeling.stuck.label",
+      "label": "Bị kẹt",
+      "short": "Vẫn đang cố nhưng không nhúc nhích được.",
+      "long": "Dùng khi có cố gắng nhưng chuyển động bị nghẽn."
+    },
+    {
+      "key": "feeling.stuck.subtitle",
+      "label": "Cố gắng nhưng vẫn không tiến lên.",
+      "short": "Đang bị nghẽn.",
+      "long": "Phụ đề cho thẻ bị kẹt."
+    },
+    {
+      "key": "feeling.want_change.label",
+      "label": "Muốn đổi",
+      "short": "Muốn đổi nhưng vẫn còn sợ.",
+      "long": "Dùng khi người dùng muốn rẽ hướng nhưng còn ngại."
+    },
+    {
+      "key": "feeling.want_change.subtitle",
+      "label": "Muốn thay đổi nhưng còn chần chừ.",
+      "short": "Đang muốn chuyển hướng.",
+      "long": "Phụ đề cho thẻ muốn đổi."
+    },
+    {
+      "key": "context.life_setup.working_few_years.label",
+      "label": "Đã đi làm vài năm",
+      "short": "Đã có trải nghiệm đi làm.",
+      "long": "Lựa chọn bối cảnh sống hiện tại."
+    },
+    {
+      "key": "context.life_setup.changing_career.label",
+      "label": "Đang đổi nghề",
+      "short": "Đang trong giai đoạn chuyển hướng nghề.",
+      "long": "Lựa chọn bối cảnh sống hiện tại."
+    },
+    {
+      "key": "context.current_pressures.money_pressure.label",
+      "label": "Áp lực tiền bạc",
+      "short": "Tiền đang là áp lực lớn nhất.",
+      "long": "Lựa chọn áp lực hiện tại."
+    },
+    {
+      "key": "context.current_pressures.career_pressure.label",
+      "label": "Áp lực công việc",
+      "short": "Công việc đang đè nặng nhất.",
+      "long": "Lựa chọn áp lực hiện tại."
+    },
+    {
+      "key": "context.current_pressures.direction_pressure.label",
+      "label": "Áp lực định hướng",
+      "short": "Không rõ hướng đi đang gây nặng đầu.",
+      "long": "Lựa chọn áp lực hiện tại."
+    },
+    {
+      "key": "context.current_goals.find_direction.label",
+      "label": "Tìm hướng",
+      "short": "Muốn rõ hướng hơn.",
+      "long": "Lựa chọn mục tiêu hiện tại."
+    },
+    {
+      "key": "context.current_goals.change_career.label",
+      "label": "Đổi nghề",
+      "short": "Muốn chuyển sang hướng nghề khác.",
+      "long": "Lựa chọn mục tiêu hiện tại."
+    },
+    {
+      "key": "context.readiness.want_direction_suggestions.label",
+      "label": "Muốn được gợi ý hướng đi",
+      "short": "Sẵn sàng nhận gợi ý có cấu trúc.",
+      "long": "Lựa chọn mức sẵn sàng."
+    },
+    {
+      "key": "prompt.deepen_selection.direction_blocked.question",
+      "label": "Lúc này anh thấy bị chặn nhất ở điểm nào?",
+      "short": "Câu hỏi làm rõ hướng đi bị chặn.",
+      "long": "Dùng khi hệ thấy hướng đi đang bị nghẽn."
+    },
+    {
+      "key": "prompt.deepen_selection.direction_blocked.option_1",
+      "label": "Tôi không nhìn ra con đường nào đủ thực tế để đi tiếp.",
+      "short": "Phương án 1",
+      "long": "Lựa chọn prompt."
+    },
+    {
+      "key": "prompt.deepen_selection.direction_blocked.option_2",
+      "label": "Tôi không biết mình thật sự mạnh ở đâu.",
+      "short": "Phương án 2",
+      "long": "Lựa chọn prompt."
+    },
+    {
+      "key": "prompt.deepen_selection.direction_blocked.option_3",
+      "label": "Tôi nghĩ rất nhiều nhưng vẫn không chốt được.",
+      "short": "Phương án 3",
+      "long": "Lựa chọn prompt."
+    },
+    {
+      "key": "prompt.deepen_selection.pressure_focus.question",
+      "label": "Áp lực nào đang cắn mạnh nhất lúc này?",
+      "short": "Câu hỏi làm rõ áp lực chính.",
+      "long": "Dùng khi áp lực là nhánh nổi bật."
+    },
+    {
+      "key": "prompt.deepen_selection.pressure_focus.option_1",
+      "label": "Thu nhập đang quá bấp bênh.",
+      "short": "Phương án 1",
+      "long": "Lựa chọn prompt."
+    },
+    {
+      "key": "prompt.deepen_selection.pressure_focus.option_2",
+      "label": "Kỳ vọng từ người khác đang quá nặng.",
+      "short": "Phương án 2",
+      "long": "Lựa chọn prompt."
+    },
+    {
+      "key": "prompt.deepen_selection.pressure_focus.option_3",
+      "label": "Tôi đang gánh quá nhiều vai cùng lúc.",
+      "short": "Phương án 3",
+      "long": "Lựa chọn prompt."
+    },
+    {
+      "key": "ui.selection_first.note",
+      "label": "Ưu tiên chọn trước, gõ sau.",
+      "short": "Ghi chú UI.",
+      "long": "Giải thích cách tương tác selection-first."
+    },
+    {
+      "key": "trail.event.context_initialized",
+      "label": "Đã khóa context",
+      "short": "Context cho session đã được khóa.",
+      "long": "User đã khóa persona context và bối cảnh thực tế cho session hiện tại.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.event.feeling_selected",
+      "label": "Đã chọn cảm nhận",
+      "short": "Một cảm nhận mở đầu đã được chọn.",
+      "long": "User đã chọn cảm nhận khởi đầu để mở hành trình khám phá.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.event.keyword_selected",
+      "label": "Đã chọn keyword",
+      "short": "Một keyword đã được thêm vào trail.",
+      "long": "User đã chọn một keyword node và nó trở thành evidence cho mapping sau đó.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.event.reflection_updated",
+      "label": "Đã cập nhật reflection",
+      "short": "Một ghi chú ngắn đã được lưu.",
+      "long": "User đã lưu một mảnh reflection ngắn, có cấu trúc nhẹ.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.event.ai_prompt_generated",
+      "label": "Đã tạo prompt chọn",
+      "short": "Hệ thống đã tạo câu hỏi AI dạng chọn.",
+      "long": "Hệ thống tạo ra prompt AI dạng chọn từ snapshot hiện tại.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.event.ai_option_resolved",
+      "label": "Đã xử lý lựa chọn AI",
+      "short": "Lựa chọn AI đã được đổi thành trạng thái có cấu trúc.",
+      "long": "Hệ thống đã chuyển lựa chọn AI thành keyword và gợi ý bước tiếp theo.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.ai_option.direction.option_1",
+      "label": "Cần roadmap trước",
+      "short": "User muốn có roadmap trước.",
+      "long": "Lựa chọn này cho thấy user cần cấu trúc, thứ tự, và bước đi rõ hơn.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.ai_option.direction.option_2",
+      "label": "Cần rõ điểm mạnh hơn",
+      "short": "User muốn rõ điểm mạnh trước.",
+      "long": "Lựa chọn này cho thấy hệ nên đi vào tự nhận diện năng lực và thế mạnh.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.ai_option.direction.option_3",
+      "label": "Cần thấy tương lai rõ hơn",
+      "short": "User muốn thấy tương lai rõ hơn trước.",
+      "long": "Lựa chọn này cho thấy sự mơ hồ dài hạn đang nổi bật hơn.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.ai_option.pressure.option_1",
+      "label": "Tiền là áp lực mạnh nhất",
+      "short": "Áp lực tiền đang nổi bật nhất.",
+      "long": "Lựa chọn này cho thấy tiền bạc đang là gánh nặng chính.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.ai_option.pressure.option_2",
+      "label": "Kỳ vọng là áp lực mạnh nhất",
+      "short": "Áp lực kỳ vọng đang nổi bật nhất.",
+      "long": "Lựa chọn này cho thấy kỳ vọng bên ngoài hoặc bên trong đang đè nặng.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.ai_option.pressure.option_3",
+      "label": "Quá nhiều vai trò là áp lực mạnh nhất",
+      "short": "Áp lực gánh nhiều vai đang nổi bật nhất.",
+      "long": "Lựa chọn này cho thấy overload vai trò đang là cụm vấn đề chính.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "trail.event.trail_compacted",
+      "label": "Đã nén trail",
+      "short": "Các sự kiện cũ đã được nén lại.",
+      "long": "Một bản tóm tắt đã thay thế phần trail cũ nhưng vẫn giữ metadata để audit.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "resume.action.continue_keywords",
+      "label": "Tiếp tục chọn keyword",
+      "short": "Tiếp tục thu hẹp vấn đề bằng cách chọn.",
+      "long": "Phù hợp khi session đã có tín hiệu nhưng vẫn nên đào sâu thêm.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "resume.action.refresh_prompt",
+      "label": "Tạo lại prompt chọn",
+      "short": "Sinh một prompt chọn mới.",
+      "long": "Phù hợp khi trạng thái hiện tại đã sẵn sàng cho câu hỏi chọn tiếp theo.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "resume.action.review_wheel",
+      "label": "Xem lại wheel preview",
+      "short": "Xem current evidence đang map thế nào.",
+      "long": "Phù hợp khi user đã có đủ evidence để nhìn nhanh wheel.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "resume.summary.ready_to_continue",
+      "label": "Có thể tiếp tục từ ngữ cảnh trước.",
+      "short": "Session đã đủ cấu trúc để đi tiếp ngay.",
+      "long": "Dùng khi trạng thái hiện tại còn rõ và liền mạch.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "resume.summary.need_more_structure",
+      "label": "Nên tiếp tục bằng một bước có cấu trúc.",
+      "short": "Nên dùng prompt chọn trước khi đi sâu thêm.",
+      "long": "Dùng khi session cần thêm một bước dẫn dắt dạng chọn.",
+      "tone": "neutral",
+      "aliases": []
+    },
+    {
+      "key": "identity.scope.anonymous_local",
+      "label": "Liên kết cục bộ ẩn danh",
+      "short": "Liên kết cục bộ ẩn danh",
+      "long": "Liên kết cục bộ ẩn danh"
+    },
+    {
+      "key": "identity.scope.device_linked",
+      "label": "Hồ sơ ẩn danh gắn thiết bị",
+      "short": "Hồ sơ ẩn danh gắn thiết bị",
+      "long": "Hồ sơ ẩn danh gắn thiết bị"
+    },
+    {
+      "key": "identity.scope.account_ready",
+      "label": "Hồ sơ ẩn danh sẵn cho tài khoản",
+      "short": "Hồ sơ ẩn danh sẵn cho tài khoản",
+      "long": "Hồ sơ ẩn danh sẵn cho tài khoản"
+    },
+    {
+      "key": "storage.zone.session_store",
+      "label": "Kho phiên làm việc",
+      "short": "Kho phiên làm việc",
+      "long": "Kho phiên làm việc"
+    },
+    {
+      "key": "storage.zone.memory_store",
+      "label": "Kho ghi nhớ liên phiên",
+      "short": "Kho ghi nhớ liên phiên",
+      "long": "Kho ghi nhớ liên phiên"
+    },
+    {
+      "key": "storage.zone.identity_store",
+      "label": "Kho liên kết định danh",
+      "short": "Kho liên kết định danh",
+      "long": "Kho liên kết định danh"
+    },
+    {
+      "key": "privacy.retention.session",
+      "label": "Chính sách lưu giữ phiên",
+      "short": "Chính sách lưu giữ phiên",
+      "long": "Chính sách lưu giữ phiên"
+    },
+    {
+      "key": "privacy.retention.memory",
+      "label": "Chính sách lưu giữ ghi nhớ",
+      "short": "Chính sách lưu giữ ghi nhớ",
+      "long": "Chính sách lưu giữ ghi nhớ"
+    },
+    {
+      "key": "privacy.identity.preview_ready",
+      "label": "Bản xem trước liên kết định danh đã sẵn sàng",
+      "short": "Bản xem trước liên kết định danh đã sẵn sàng",
+      "long": "Bản xem trước liên kết định danh đã sẵn sàng"
+    },
+    {
+      "key": "account.lifecycle.state",
+      "label": "Trạng thái vòng đời tài khoản",
+      "short": "Trạng thái vòng đời tài khoản",
+      "long": "Trạng thái vòng đời tài khoản"
+    },
+    {
+      "key": "account.export.preview_ready",
+      "label": "Bản xem trước xuất dữ liệu đã sẵn sàng",
+      "short": "Bản xem trước xuất dữ liệu đã sẵn sàng",
+      "long": "Bản xem trước xuất dữ liệu đã sẵn sàng"
+    },
+    {
+      "key": "account.delete.preview_ready",
+      "label": "Bản xem trước xóa dữ liệu đã sẵn sàng",
+      "short": "Bản xem trước xóa dữ liệu đã sẵn sàng",
+      "long": "Bản xem trước xóa dữ liệu đã sẵn sàng"
+    },
+    {
+      "key": "account.delete.completed",
+      "label": "Đã hoàn tất xóa dữ liệu cục bộ",
+      "short": "Đã hoàn tất xóa dữ liệu cục bộ",
+      "long": "Đã hoàn tất xóa dữ liệu cục bộ"
+    },
+    {
+      "key": "audit.event.consent_granted",
+      "label": "Đã cấp đồng ý",
+      "short": "Đã cấp đồng ý",
+      "long": "Đã cấp đồng ý"
+    },
+    {
+      "key": "audit.event.export_generated",
+      "label": "Đã tạo gói xuất dữ liệu",
+      "short": "Đã tạo gói xuất dữ liệu",
+      "long": "Đã tạo gói xuất dữ liệu"
+    },
+    {
+      "key": "audit.event.delete_completed",
+      "label": "Đã hoàn tất xóa dữ liệu",
+      "short": "Đã hoàn tất xóa dữ liệu",
+      "long": "Đã hoàn tất xóa dữ liệu"
+    }
+  ]
+}

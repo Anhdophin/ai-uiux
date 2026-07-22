@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Lotus Yoga</title>
+  <meta name="description" content="Trang about me cho huấn luyện viên yoga, dùng chung CSS và JS với bộ giao diện Lotus Yoga.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/page-about.css">
+</head>
+<body data-base-path="../">
+  <div id="site-header" data-include="partials/header.html"></div>
+
+  <main class="about-page">
+    <section class="about-hero section-block">
+      <div class="container">
+        <div class="status-chip">
+          <span class="status-chip__dot"></span>
+          <span>Active</span>
+        </div>
+
+        <div class="about-hero__layout">
+          <div class="about-hero__content">
+            <p class="eyebrow">About Me</p>
+            <h1 class="about-hero__title">I'm here to help you get yoga fit</h1>
+            <p class="about-script">Hello friend</p>
+            <p class="section-text">Em xây lớp học theo hướng vừa đủ nhẹ để người mới bắt đầu, nhưng vẫn đủ sâu để người tập lâu năm cảm nhận rõ sự thay đổi ở hơi thở, độ mở cơ thể và sự ổn định bên trong.</p>
+            <p class="section-text">Phong cách hướng dẫn ưu tiên rõ ràng, bình tĩnh và thực tế. Mục tiêu không phải tập cho thật khó, mà là tập đúng nhịp, đúng khả năng và duy trì được lâu dài trong đời sống thường ngày.</p>
+
+            <div class="button-group">
+              <a href="#work-together" class="button button--rounded button--teal">Secure Your Fitness Consultation</a>
+              <a href="../index.html" class="button button--rounded button--ghost button--purple">Back Home</a>
+            </div>
+          </div>
+
+          <div class="about-hero__media">
+            <div class="about-photo-frame">
+              <img src="../assets/images/about-coach-main.png" alt="Yoga coach portrait" class="about-photo-frame__image image-cover">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work-together" class="expect section-block section-block--soft">
+      <div class="container">
+        <h2 class="section-title section-title--center">What you can expect when we work together</h2>
+
+        <div class="expect-grid">
+          <article class="expect-card">
+            <div class="expect-card__number">1</div>
+            <p class="expect-card__text">Đánh giá nền tảng vận động, nhịp thở và mục tiêu tập luyện trước khi vào bài.</p>
+          </article>
+
+          <article class="expect-card">
+            <div class="expect-card__number">2</div>
+            <p class="expect-card__text">Thiết kế buổi tập vừa sức, có lộ trình rõ ràng và tăng dần theo tiến độ thật.</p>
+          </article>
+
+          <article class="expect-card">
+            <div class="expect-card__number">3</div>
+            <p class="expect-card__text">Theo dõi cảm giác cơ thể sau buổi tập để điều chỉnh động tác và nhịp độ phù hợp.</p>
+          </article>
+
+          <article class="expect-card">
+            <div class="expect-card__number">4</div>
+            <p class="expect-card__text">Giữ trải nghiệm học tập nhẹ áp lực, dễ duy trì và có chiều sâu thư giãn thật.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="service section-block">
+      <div class="container service__layout">
+        <div class="service__content">
+          <p class="eyebrow">Coaching Support</p>
+          <h2 class="section-title section-title--left">What I Can Do For You...</h2>
+          <h3 class="service__title">Service or benefit #1</h3>
+          <p class="section-text">Em hỗ trợ người tập xây lại sự kết nối với cơ thể thông qua các buổi tập có chủ đích: mở khớp, cải thiện biên độ chuyển động, tăng sự ổn định vùng lõi và thư giãn hệ thần kinh sau những ngày làm việc căng.</p>
+          <p class="section-text">Ngoài lớp học, phần đồng hành còn có thể mở rộng thành hướng dẫn nền tảng thói quen, nhịp thở cơ bản và cách tự quan sát phản ứng của cơ thể để việc tập không bị đứt quãng sau giai đoạn đầu.</p>
+          <div class="button-group">
+            <a href="#site-footer" class="button button--rounded button--orange">Contact Me</a>
+          </div>
+        </div>
+
+        <aside class="service__aside">
+          <div class="service-avatar">
+            <img src="../assets/images/about-coach-side.png" alt="Yoga coach thumbnail" class="service-avatar__image image-cover">
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer" data-include="partials/footer.html"></div>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

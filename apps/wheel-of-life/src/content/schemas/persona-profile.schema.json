@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PersonaProfile",
+  "description": "Foundation schema placeholder for persona matrix records.",
+  "type": "object",
+  "required": [
+    "id",
+    "age_band",
+    "gender",
+    "life_stage",
+    "career_stage",
+    "dominant_goals",
+    "dominant_pressures",
+    "likely_blind_spots",
+    "priority_life_areas",
+    "suggested_entry_keyword_ids"
+  ],
+  "properties": {
+    "id": {"type": "string"},
+    "age_band": {"type": "string"},
+    "gender": {"type": "string"},
+    "life_stage": {"type": "string"},
+    "career_stage": {"type": "string"},
+    "dominant_goals": {"type": "array", "items": {"type": "string"}},
+    "dominant_pressures": {"type": "array", "items": {"type": "string"}},
+    "likely_blind_spots": {"type": "array", "items": {"type": "string"}},
+    "priority_life_areas": {"type": "array", "items": {"type": "string"}},
+    "suggested_entry_keyword_ids": {"type": "array", "items": {"type": "string"}},
+    "ai_tone_hints": {"type": "array", "items": {"type": "string"}},
+    "version": {"type": "string"}
+  }
+}

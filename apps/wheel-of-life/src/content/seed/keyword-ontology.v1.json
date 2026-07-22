@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-04-05",
+  "depth_taxonomy": [
+    {
+      "id": 0,
+      "label": "feeling_entry",
+      "allowed_kinds": [
+        "feeling"
+      ]
+    },
+    {
+      "id": 1,
+      "label": "problem_cluster",
+      "allowed_kinds": [
+        "problem"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "sub_issue",
+      "allowed_kinds": [
+        "sub_issue"
+      ]
+    },
+    {
+      "id": 3,
+      "label": "root_cause",
+      "allowed_kinds": [
+        "root_cause"
+      ]
+    }
+  ],
+  "kind_taxonomy": [
+    "feeling",
+    "problem",
+    "sub_issue",
+    "root_cause"
+  ],
+  "status_taxonomy": [
+    "active",
+    "draft",
+    "deprecated",
+    "experimental"
+  ],
+  "audit_tag_taxonomy": [
+    "core",
+    "entry",
+    "bridge",
+    "structural",
+    "persona_sensitive",
+    "low_confidence"
+  ],
+  "relation_taxonomy": [
+    "parent_child",
+    "related",
+    "evidence_to_wheel",
+    "persona_priority"
+  ]
+}

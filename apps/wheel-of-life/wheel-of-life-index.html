@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Wheel of Life - iAppLab</title>
+  <meta name="description" content="Bánh xe cuộc sống giúp đánh giá mức độ cân bằng các lĩnh vực quan trọng và tạo ghi chú hành động.">
+  <link rel="stylesheet" href="../../css/base.css">
+  <style>
+    .tool-page{padding:32px 0 64px}
+    .tool-hero{display:grid;gap:18px}
+    .tool-card,.tool-output,.tool-panel{background:rgba(255,255,255,.95);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:24px}
+    .tool-card,.tool-output,.tool-panel{padding:24px}
+    .tool-kicker{margin:0 0 8px;color:var(--muted);font-size:.8rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    .tool-title{margin:0;font-size:clamp(2rem,4vw,3.4rem);line-height:.95;letter-spacing:-.05em}
+    .tool-lead{margin:14px 0 0;color:var(--muted);max-width:62ch}
+    .tool-actions{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:18px}
+    .tool-actions-left,.tool-actions-right{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+
+    .wheel-layout{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(320px,.92fr);gap:18px;margin-top:18px}
+    .wheel-canvas-card{padding:18px;background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(255,255,255,.92));border:1px solid var(--line);border-radius:22px}
+    .wheel-stage{display:grid;place-items:center;padding:10px;border-radius:18px;background:radial-gradient(circle at center, rgba(17,24,39,.03), rgba(17,24,39,.01));border:1px dashed rgba(17,24,39,.12)}
+    .wheel-canvas{width:min(100%,640px);height:auto;display:block}
+    .wheel-caption{margin-top:12px;font-size:.9rem;line-height:1.65;color:var(--muted)}
+
+    .tool-panel{display:grid;gap:14px}
+    .tool-row{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center;padding:12px;border:1px solid var(--line);border-radius:16px;background:rgba(17,24,39,.02)}
+    .tool-row.is-low{border-color:rgba(239,68,68,.32);background:rgba(239,68,68,.04)}
+    .tool-row.is-high{border-color:rgba(34,197,94,.28);background:rgba(34,197,94,.05)}
+    .tool-row-main{display:grid;gap:6px}
+    .tool-row label{font-weight:700}
+    .tool-row small{color:var(--muted);line-height:1.5}
+    .wheel-range{width:100%;cursor:pointer}
+    .wheel-score{min-width:54px;text-align:right;font-weight:800;font-size:1.05rem}
+    .tool-chip{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:999px;background:rgba(17,24,39,.06);font-size:.8rem;font-weight:800}
+
+    .preset-box,.focus-box{padding:16px;border:1px solid var(--line);border-radius:18px;background:rgba(17,24,39,.02)}
+    .preset-title{margin:0 0 10px;font-size:.9rem;text-transform:uppercase;letter-spacing:.08em}
+    .preset-tabs,.focus-tags{display:flex;flex-wrap:wrap;gap:8px}
+    .preset-tab,.focus-tag{padding:9px 12px;border-radius:999px;border:1px solid var(--line);background:white;font-weight:700;font-size:.85rem;cursor:pointer;transition:all .2s}
+    .preset-tab.active{background:var(--text);color:white;border-color:var(--text)}
+    .focus-tag{cursor:default;background:rgba(17,24,39,.04)}
+
+    .reflection-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px}
+    .reflection-grid article{padding:18px;border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.96)}
+    .reflection-grid h3{margin:0 0 8px;font-size:1rem}
+    .reflection-grid p{margin:0 0 14px;color:var(--muted);line-height:1.65}
+    .reflection-grid textarea{width:100%;min-height:140px;resize:vertical;border:1px solid var(--line);border-radius:14px;padding:12px;font:inherit;background:white}
+
+    .summary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}
+    .summary-stat{padding:16px;border-radius:18px;border:1px solid var(--line);background:rgba(17,24,39,.03)}
+    .summary-stat strong{display:block;font-size:1.5rem;line-height:1;margin-bottom:6px}
+    .summary-stat span{color:var(--muted);font-size:.9rem;line-height:1.5}
+
+    .tool-output pre{white-space:pre-wrap;word-break:break-word;margin:0;padding:16px;border-radius:18px;background:rgba(17,24,39,.04);border:1px solid var(--line);font-family:inherit;line-height:1.65}
+
+    @media (max-width: 1080px){
+      .wheel-layout{grid-template-columns:1fr}
+    }
+    @media (max-width: 900px){
+      .reflection-grid,.summary-grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body data-root="../.." class="mini-shell">
+  <div id="site-header"></div>
+  <main class="tool-page container">
+    <section class="tool-hero">
+      <div class="tool-card" id="wheelExportSource">
+        <p class="tool-kicker">iAppLab / Personal Growth App</p>
+        <h1 class="tool-title">The Wheel of Life</h1>
+        <p class="tool-lead">Một công cụ nhìn nhanh độ cân bằng cuộc sống. Anh chấm điểm từng lĩnh vực từ 1–10, nhìn hình bánh xe để thấy phần nào đang méo, rồi ghi ra 1–3 hướng ưu tiên để chỉnh.</p>
+        <div class="tool-actions">
+          <div class="tool-actions-left">
+            <a class="portal-cta" href="../">Quay lại Apps</a>
+            <button class="portal-chip" type="button" id="resetBtn">Reset</button>
+          </div>
+          <div class="tool-actions-right">
+            <button class="portal-chip" type="button" id="copyInsightBtn">Copy insight</button>
+            <button class="portal-cta" type="button" id="exportJpgBtn">Xuất JPG</button>
+          </div>
+        </div>
+
+        <div class="wheel-layout">
+          <div class="wheel-canvas-card">
+            <div class="preset-box" style="margin-bottom:16px">
+              <p class="preset-title">Preset góc nhìn</p>
+              <div class="preset-tabs" id="presetTabs"></div>
+            </div>
+            <div class="wheel-stage">
+              <canvas id="wheelCanvas" class="wheel-canvas" width="720" height="720" aria-label="Wheel of Life"></canvas>
+            </div>
+            <p class="wheel-caption" id="wheelCaption">Bánh xe càng tròn, nhịp sống càng cân bằng. Bánh xe méo không có nghĩa là xấu, mà cho thấy nơi nào đang hút nhiều năng lượng hơn nơi khác.</p>
+            <div class="summary-grid" id="summaryGrid"></div>
+          </div>
+
+          <aside class="tool-panel">
+            <div class="focus-box">
+              <p class="preset-title">Vùng cần chú ý</p>
+              <div class="focus-tags" id="focusTags"></div>
+            </div>
+            <div id="wheelControls"></div>
+          </aside>
+        </div>
+
+        <section class="reflection-grid">
+          <article>
+            <h3>Điều đang nâng đỡ cuộc sống</h3>
+            <p>Ghi những thứ đang thực sự giữ cho anh ổn định, có thể là kỹ năng, mối quan hệ, thói quen, tài chính, môi trường sống.</p>
+            <textarea id="supportText" placeholder="Ví dụ: Kỷ luật làm việc đều, có nền kỹ năng, có người hỗ trợ, sức khỏe cơ bản ổn..."></textarea>
+          </article>
+          <article>
+            <h3>Điều đang làm bánh xe méo</h3>
+            <p>Ghi phần đang kéo tụt nhịp sống hoặc làm anh thấy nghẽn, để bản tóm tắt cuối không chỉ đẹp mà còn thật.</p>
+            <textarea id="blockText" placeholder="Ví dụ: ngủ chưa đều, tiền về chưa ổn định, ít vận động, thiếu thời gian nghỉ sâu..."></textarea>
+          </article>
+        </section>
+      </div>
+    </section>
+
+    <section class="tool-output">
+      <div style="display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap">
+        <div>
+          <p class="tool-kicker">Kết quả</p>
+          <h2 style="margin:0">Bản đọc nhanh + hướng ưu tiên</h2>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <button class="portal-chip" type="button" id="copyBtn">Copy text</button>
+          <button class="portal-cta" type="button" id="buildBtn">Tạo bản tóm tắt</button>
+        </div>
+      </div>
+      <pre id="resultBox">Nhấn "Tạo bản tóm tắt" để sinh bản đọc nhanh từ bánh xe cuộc sống.</pre>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+
+  <script type="module">
+    import { rootPath, setupSharedShell } from '../../js/modules.js';
+    setupSharedShell(rootPath());
+  </script>
+
+  <script>
+    const presets = {
+      balance: {
+        label: 'Cân bằng chuẩn',
+        description: 'Dùng bộ 8 mảng phổ biến để nhìn nhanh toàn cảnh cuộc sống cá nhân.',
+        areas: [
+          { key: 'health', label: 'Sức khỏe', hint: 'Năng lượng, ngủ nghỉ, vận động, thể trạng nền.' },
+          { key: 'mind', label: 'Tinh thần', hint: 'Độ ổn định nội tâm, bình tĩnh, rõ đầu óc.' },
+          { key: 'work', label: 'Công việc', hint: 'Hiệu suất, chất lượng việc, cảm giác tiến lên.' },
+          { key: 'finance', label: 'Tài chính', hint: 'Dòng tiền, độ an toàn, khả năng chủ động.' },
+          { key: 'relationship', label: 'Quan hệ', hint: 'Gia đình, người thân, cộng sự, bạn bè.' },
+          { key: 'learning', label: 'Học hỏi', hint: 'Nâng cấp kỹ năng, hiểu biết, mở rộng năng lực.' },
+          { key: 'environment', label: 'Môi trường sống', hint: 'Không gian sống, nhịp sinh hoạt, sự gọn gàng.' },
+          { key: 'joy', label: 'Niềm vui', hint: 'Chơi, nghỉ, sáng tạo, cảm giác được sống.' }
+        ]
+      },
+      creator: {
+        label: 'Người làm sáng tạo',
+        description: 'Nhìn cuộc sống theo nhịp của người tạo chất liệu, làm nội dung, thiết kế và xây hệ thống.',
+        areas: [
+          { key: 'body', label: 'Thể lực', hint: 'Năng lượng để giữ cường độ làm việc dài hơi.' },
+          { key: 'focus', label: 'Tập trung', hint: 'Độ sâu chú ý, ít bị vỡ nhịp, làm được việc khó.' },
+          { key: 'craft', label: 'Tay nghề', hint: 'Chất lượng chuyên môn, độ sắc trong output.' },
+          { key: 'income', label: 'Thu nhập', hint: 'Khả năng biến năng lực thành dòng tiền.' },
+          { key: 'library', label: 'Kho tri thức', hint: 'Tài liệu, note, hệ thống chất liệu đang tích lũy.' },
+          { key: 'brand', label: 'Hiện diện cá nhân', hint: 'Dấu ấn, thương hiệu, độ nhận biết của mình.' },
+          { key: 'network', label: 'Liên kết', hint: 'Người hợp tác, cộng đồng, đầu mối hữu ích.' },
+          { key: 'recovery', label: 'Phục hồi', hint: 'Nghỉ, chơi, reset để không bị cháy máy.' }
+        ]
+      },
+      career: {
+        label: 'Nghề nghiệp',
+        description: 'Phù hợp khi anh muốn nhìn độ ổn định và khả năng đi đường dài trong công việc.',
+        areas: [
+          { key: 'skill', label: 'Kỹ năng lõi', hint: 'Nội lực nghề chính, thứ kiếm cơm được.' },
+          { key: 'position', label: 'Vị thế', hint: 'Chỗ đứng hiện tại, độ tin cậy của mình.' },
+          { key: 'pipeline', label: 'Nguồn việc', hint: 'Lead, khách hàng, đầu ra công việc.' },
+          { key: 'money', label: 'Tiền nghề', hint: 'Thu nhập nghề, biên lợi nhuận, tích lũy.' },
+          { key: 'system', label: 'Hệ thống làm việc', hint: 'Tool, SOP, quy trình, automation.' },
+          { key: 'upgrade', label: 'Nâng cấp', hint: 'Đầu tư học tiếp, mở nhánh mới, phát triển.' },
+          { key: 'reputation', label: 'Uy tín', hint: 'Danh tiếng, phản hồi, độ an tâm người khác đặt vào mình.' },
+          { key: 'freedom', label: 'Độ tự chủ', hint: 'Khả năng chọn việc, chọn nhịp sống, chọn hướng đi.' }
+        ]
+      }
+    };
+
+    const presetTabs = document.getElementById('presetTabs');
+    const wheelControls = document.getElementById('wheelControls');
+    const wheelCanvas = document.getElementById('wheelCanvas');
+    const wheelCaption = document.getElementById('wheelCaption');
+    const summaryGrid = document.getElementById('summaryGrid');
+    const focusTags = document.getElementById('focusTags');
+    const resultBox = document.getElementById('resultBox');
+    const buildBtn = document.getElementById('buildBtn');
+    const copyBtn = document.getElementById('copyBtn');
+    const copyInsightBtn = document.getElementById('copyInsightBtn');
+    const exportJpgBtn = document.getElementById('exportJpgBtn');
+    const resetBtn = document.getElementById('resetBtn');
+    const supportText = document.getElementById('supportText');
+    const blockText = document.getElementById('blockText');
+
+    let activePreset = 'balance';
+    let state = {};
+
+    function initPresetTabs() {
+      presetTabs.innerHTML = '';
+      Object.entries(presets).forEach(([key, preset]) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = `preset-tab${key === activePreset ? ' active' : ''}`;
+        btn.textContent = preset.label;
+        btn.addEventListener('click', () => {
+          activePreset = key;
+          seedPresetState();
+          renderPresetTabs();
+          renderControls();
+          drawWheel();
+          buildQuickInsights();
+        });
+        presetTabs.appendChild(btn);
+      });
+    }
+
+    function renderPresetTabs() {
+      Array.from(presetTabs.children).forEach((btn, index) => {
+        const key = Object.keys(presets)[index];
+        btn.classList.toggle('active', key === activePreset);
+      });
+    }
+
+    function seedPresetState() {
+      const preset = presets[activePreset];
+      state = {};
+      preset.areas.forEach((area) => {
+        state[area.key] = 6;
+      });
+      wheelCaption.textContent = preset.description;
+    }
+
+    function getPresetAreas() {
+      return presets[activePreset].areas;
+    }
+
+    function getScores() {
+      return getPresetAreas().map((area) => ({ ...area, value: Number(state[area.key] || 0) }));
+    }
+
+    function renderControls() {
+      wheelControls.innerHTML = '';
+      getScores().forEach((area, index) => {
+        const row = document.createElement('div');
+        const stateClass = area.value <= 4 ? ' is-low' : area.value >= 8 ? ' is-high' : '';
+        row.className = `tool-row${stateClass}`;
+        row.innerHTML = `
+          <div class="tool-chip">${index + 1}</div>
+          <div class="tool-row-main">
+            <label for="wheel-${area.key}">${area.label}</label>
+            <small>${area.hint}</small>
+            <input id="wheel-${area.key}" class="wheel-range" type="range" min="1" max="10" step="1" value="${area.value}">
+          </div>
+          <div class="wheel-score">${area.value}/10</div>
+        `;
+        const input = row.querySelector('input');
+        const score = row.querySelector('.wheel-score');
+        input.addEventListener('input', () => {
+          state[area.key] = Number(input.value);
+          score.textContent = `${input.value}/10`;
+          row.classList.toggle('is-low', Number(input.value) <= 4);
+          row.classList.toggle('is-high', Number(input.value) >= 8);
+          drawWheel();
+          buildQuickInsights();
+        });
+        wheelControls.appendChild(row);
+      });
+    }
+
+    function drawWheel() {
+      const canvas = wheelCanvas;
+      const ctx = canvas.getContext('2d');
+      const width = canvas.width;
+      const height = canvas.height;
+      const cx = width / 2;
+      const cy = height / 2;
+      const radius = Math.min(width, height) * 0.35;
+      const areas = getScores();
+      const segments = areas.length;
+      const step = (Math.PI * 2) / segments;
+
+      ctx.clearRect(0, 0, width, height);
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, width, height);
+
+      ctx.save();
+      ctx.translate(cx, cy);
+
+      for (let ring = 1; ring <= 10; ring++) {
+        ctx.beginPath();
+        ctx.arc(0, 0, radius * (ring / 10), 0, Math.PI * 2);
+        ctx.strokeStyle = ring === 10 ? 'rgba(17,24,39,.22)' : 'rgba(17,24,39,.08)';
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+
+      areas.forEach((area, index) => {
+        const angle = -Math.PI / 2 + index * step;
+        const nextAngle = angle + step;
+
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.arc(0, 0, radius, angle, nextAngle);
+        ctx.closePath();
+        ctx.fillStyle = index % 2 === 0 ? 'rgba(17,24,39,.03)' : 'rgba(17,24,39,.015)';
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.lineTo(Math.cos(angle) * radius, Math.sin(angle) * radius);
+        ctx.strokeStyle = 'rgba(17,24,39,.12)';
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      });
+
+      ctx.beginPath();
+      areas.forEach((area, index) => {
+        const angle = -Math.PI / 2 + index * step + step / 2;
+        const r = radius * (area.value / 10);
+        const x = Math.cos(angle) * r;
+        const y = Math.sin(angle) * r;
+        if (index === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+      });
+      ctx.closePath();
+      ctx.fillStyle = 'rgba(17,24,39,.16)';
+      ctx.strokeStyle = 'rgba(17,24,39,.82)';
+      ctx.lineWidth = 3;
+      ctx.fill();
+      ctx.stroke();
+
+      areas.forEach((area, index) => {
+        const angle = -Math.PI / 2 + index * step + step / 2;
+        const r = radius * (area.value / 10);
+        const x = Math.cos(angle) * r;
+        const y = Math.sin(angle) * r;
+        ctx.beginPath();
+        ctx.arc(x, y, 5, 0, Math.PI * 2);
+        ctx.fillStyle = '#111827';
+        ctx.fill();
+      });
+
+      areas.forEach((area, index) => {
+        const angle = -Math.PI / 2 + index * step + step / 2;
+        const labelRadius = radius + 56;
+        const x = Math.cos(angle) * labelRadius;
+        const y = Math.sin(angle) * labelRadius;
+        ctx.save();
+        ctx.translate(x, y);
+        ctx.fillStyle = '#111827';
+        ctx.font = '700 20px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+        ctx.textAlign = Math.cos(angle) > 0.25 ? 'left' : Math.cos(angle) < -0.25 ? 'right' : 'center';
+        ctx.textBaseline = 'middle';
+        wrapCanvasText(ctx, area.label, 0, 0, 140, 24);
+        ctx.restore();
+      });
+
+      for (let mark = 1; mark <= 10; mark++) {
+        ctx.save();
+        ctx.fillStyle = 'rgba(17,24,39,.45)';
+        ctx.font = '600 12px system-ui, sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText(String(mark), 0, -radius * (mark / 10) + 12);
+        ctx.restore();
+      }
+
+      ctx.restore();
+    }
+
+    function wrapCanvasText(ctx, text, x, y, maxWidth, lineHeight) {
+      const words = text.split(' ');
+      const lines = [];
+      let current = '';
+      words.forEach((word) => {
+        const test = current ? `${current} ${word}` : word;
+        if (ctx.measureText(test).width > maxWidth && current) {
+          lines.push(current);
+          current = word;
+        } else {
+          current = test;
+        }
+      });
+      if (current) lines.push(current);
+      const startY = y - ((lines.length - 1) * lineHeight) / 2;
+      lines.forEach((line, index) => {
+        ctx.fillText(line, x, startY + index * lineHeight);
+      });
+    }
+
+    function calculateMetrics() {
+      const scores = getScores();
+      const values = scores.map(item => item.value);
+      const average = values.reduce((sum, value) => sum + value, 0) / values.length;
+      const min = Math.min(...values);
+      const max = Math.max(...values);
+      const balanceGap = max - min;
+      const lows = scores.filter(item => item.value <= 4).sort((a, b) => a.value - b.value);
+      const highs = scores.filter(item => item.value >= 8).sort((a, b) => b.value - a.value);
+      const lowest = [...scores].sort((a, b) => a.value - b.value).slice(0, 3);
+      const highest = [...scores].sort((a, b) => b.value - a.value).slice(0, 3);
+      return { scores, average, min, max, balanceGap, lows, highs, lowest, highest };
+    }
+
+    function buildQuickInsights() {
+      const metrics = calculateMetrics();
+      focusTags.innerHTML = '';
+      const focusItems = metrics.lowest.slice(0, 3);
+      focusItems.forEach((item) => {
+        const tag = document.createElement('div');
+        tag.className = 'focus-tag';
+        tag.textContent = `${item.label}: ${item.value}/10`;
+        focusTags.appendChild(tag);
+      });
+      if (!focusItems.length) {
+        const tag = document.createElement('div');
+        tag.className = 'focus-tag';
+        tag.textContent = 'Chưa có dữ liệu';
+        focusTags.appendChild(tag);
+      }
+
+      summaryGrid.innerHTML = '';
+      const summaryItems = [
+        { value: metrics.average.toFixed(1), label: 'Điểm trung bình toàn bánh xe' },
+        { value: `${metrics.balanceGap}`, label: 'Độ lệch giữa vùng cao nhất và thấp nhất' },
+        { value: metrics.lows.length ? `${metrics.lows.length}` : '0', label: 'Số vùng đang ở mức cần cứu trước' }
+      ];
+      summaryItems.forEach((item) => {
+        const box = document.createElement('div');
+        box.className = 'summary-stat';
+        box.innerHTML = `<strong>${item.value}</strong><span>${item.label}</span>`;
+        summaryGrid.appendChild(box);
+      });
+
+      const captionParts = [];
+      if (metrics.average >= 7.5) captionParts.push('Nhịp sống đang khá đầy và có nền tốt.');
+      else if (metrics.average >= 5.5) captionParts.push('Tổng thể đang ở mức dùng được nhưng còn chỗ méo rõ.');
+      else captionParts.push('Bánh xe đang khá hụt, nên ưu tiên cứu nền trước rồi mới tăng tốc.');
+
+      if (metrics.balanceGap <= 2) captionParts.push('Độ lệch thấp, bánh xe khá tròn.');
+      else if (metrics.balanceGap <= 4) captionParts.push('Có lệch vừa phải giữa các vùng.');
+      else captionParts.push('Độ lệch lớn, có vùng đang kéo cả hệ xuống.');
+
+      wheelCaption.textContent = `${presets[activePreset].description} ${captionParts.join(' ')}`;
+    }
+
+    function buildOutput() {
+      const metrics = calculateMetrics();
+      const preset = presets[activePreset];
+      const strengths = metrics.highest.map(item => `- ${item.label}: ${item.value}/10`).join('\n') || '- Chưa có vùng nổi trội.';
+      const weakZones = metrics.lowest.map(item => `- ${item.label}: ${item.value}/10`).join('\n') || '- Chưa có vùng yếu nổi bật.';
+
+      const priorityLines = metrics.lowest.map((item, index) => {
+        const from = item.value;
+        const to = Math.min(10, from + 2);
+        return `${index + 1}. Ưu tiên nâng ${item.label} từ ${from}/10 lên tối thiểu ${to}/10 bằng 1 hành động nhỏ nhưng đều.`;
+      }).join('\n') || '1. Chọn 1 vùng quan trọng nhất và giữ nhịp cải thiện đều trong 2 tuần.';
+
+      const support = supportText.value.trim() || '(chưa ghi)';
+      const block = blockText.value.trim() || '(chưa ghi)';
+      const rawScores = metrics.scores.map(item => `- ${item.label}: ${item.value}/10`).join('\n');
+
+      resultBox.textContent =
+`THE WHEEL OF LIFE\n\nPreset đang dùng: ${preset.label}\nĐiểm trung bình: ${metrics.average.toFixed(1)}/10\nĐộ lệch cao-thấp: ${metrics.balanceGap}\n\n1) TOÀN CẢNH\n- ${metrics.average >= 7.5 ? 'Tổng thể đang tốt và có nền ổn.' : metrics.average >= 5.5 ? 'Tổng thể ở mức trung bình, cần chỉnh vài vùng lệch.' : 'Tổng thể đang hụt nền, nên cứu phần cơ bản trước.'}\n- ${metrics.balanceGap <= 2 ? 'Các vùng khá cân bằng với nhau.' : metrics.balanceGap <= 4 ? 'Bánh xe có lệch nhưng vẫn kéo lại được.' : 'Bánh xe lệch mạnh, cần chọn đúng điểm nghẽn để xử lý.'}\n\n2) VÙNG ĐANG NÂNG ĐỠ\n${strengths}\n\n3) VÙNG ĐANG CẦN ƯU TIÊN\n${weakZones}\n\n4) ĐIỀU ĐANG NÂNG ĐỠ CUỘC SỐNG\n${support}\n\n5) ĐIỀU ĐANG LÀM BÁNH XE MÉO\n${block}\n\n6) HƯỚNG ƯU TIÊN 14 NGÀY\n${priorityLines}\n\n7) ĐIỂM SỐ CHI TIẾT\n${rawScores}`;
+    }
+
+    function resetCurrentPreset() {
+      seedPresetState();
+      supportText.value = '';
+      blockText.value = '';
+      renderControls();
+      drawWheel();
+      buildQuickInsights();
+      resultBox.textContent = 'Nhấn "Tạo bản tóm tắt" để sinh bản đọc nhanh từ bánh xe cuộc sống.';
+    }
+
+    buildBtn.addEventListener('click', buildOutput);
+    copyBtn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(resultBox.textContent);
+        copyBtn.textContent = 'Đã copy';
+        setTimeout(() => copyBtn.textContent = 'Copy text', 1400);
+      } catch (error) {
+        window.alert('Trình duyệt chưa cho copy tự động.');
+      }
+    });
+
+    copyInsightBtn.addEventListener('click', async () => {
+      const metrics = calculateMetrics();
+      const quickText = [
+        `Preset: ${presets[activePreset].label}`,
+        `Điểm trung bình: ${metrics.average.toFixed(1)}/10`,
+        `Cần ưu tiên: ${metrics.lowest.map(item => `${item.label} ${item.value}/10`).join(' | ')}`
+      ].join('\n');
+      try {
+        await navigator.clipboard.writeText(quickText);
+        copyInsightBtn.textContent = 'Đã copy';
+        setTimeout(() => copyInsightBtn.textContent = 'Copy insight', 1400);
+      } catch (error) {
+        window.alert('Trình duyệt chưa cho copy tự động.');
+      }
+    });
+
+    resetBtn.addEventListener('click', resetCurrentPreset);
+
+    function loadHtml2canvas(){
+      if (window.html2canvas) return Promise.resolve(window.html2canvas);
+      return new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js';
+        script.onload = () => resolve(window.html2canvas);
+        script.onerror = () => reject(new Error('Không tải được html2canvas.'));
+        document.body.appendChild(script);
+      });
+    }
+
+    function downloadBlob(blob, filename){
+      const link = document.createElement('a');
+      link.style.display = 'none';
+      link.href = URL.createObjectURL(blob);
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(link.href);
+    }
+
+    function downloadDataUrl(dataUrl, filename){
+      const link = document.createElement('a');
+      link.style.display = 'none';
+      link.href = dataUrl;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    function createExportClone(source){
+      const clone = source.cloneNode(true);
+      clone.style.width = source.offsetWidth + 'px';
+      clone.style.boxSizing = 'border-box';
+      clone.style.paddingBottom = '32px';
+      clone.style.background = 'white';
+      clone.querySelectorAll('button, .portal-cta, .portal-chip').forEach(el => el.remove());
+      const controls = clone.querySelectorAll('.wheel-range');
+      controls.forEach((range) => {
+        const row = range.closest('.tool-row');
+        if (row) range.remove();
+      });
+      const footer = document.createElement('div');
+      footer.style.marginTop = '24px';
+      footer.style.paddingTop = '16px';
+      footer.style.borderTop = '1px solid rgba(17,24,39,.12)';
+      footer.style.fontSize = '.8rem';
+      footer.style.color = 'rgba(17,24,39,.64)';
+      footer.textContent = 'Được làm tại iAppLab - Made by Anhdophin - Email: anhdophin@gmail.com';
+      clone.appendChild(footer);
+      return clone;
+    }
+
+    async function exportPageAsJpg(){
+      const source = document.getElementById('wheelExportSource');
+      if (!source) return;
+
+      const exportWrapper = createExportClone(source);
+      const tempContainer = document.createElement('div');
+      tempContainer.style.position = 'fixed';
+      tempContainer.style.top = '-9999px';
+      tempContainer.style.left = '-9999px';
+      tempContainer.style.zIndex = '-1';
+      tempContainer.appendChild(exportWrapper);
+      document.body.appendChild(tempContainer);
+
+      exportJpgBtn.disabled = true;
+      const originalText = exportJpgBtn.textContent;
+      exportJpgBtn.textContent = 'Đang xuất...';
+
+      let html2canvasLib;
+      try {
+        html2canvasLib = await loadHtml2canvas();
+      } catch (error) {
+        window.alert('Không tải được công cụ xuất ảnh. Vui lòng thử lại.');
+        tempContainer.remove();
+        exportJpgBtn.disabled = false;
+        exportJpgBtn.textContent = originalText;
+        return;
+      }
+
+      try {
+        const contentCanvas = await html2canvasLib(exportWrapper, {
+          backgroundColor: '#ffffff',
+          scale: 2,
+          useCORS: true,
+          allowTaint: true,
+        });
+
+        const a4Width = 2480;
+        const a4Height = 3508;
+        const scale = Math.min(a4Width / contentCanvas.width, a4Height / contentCanvas.height);
+        const finalCanvas = document.createElement('canvas');
+        finalCanvas.width = a4Width;
+        finalCanvas.height = a4Height;
+        const ctx = finalCanvas.getContext('2d');
+        ctx.fillStyle = '#ffffff';
+        ctx.fillRect(0, 0, a4Width, a4Height);
+        const targetWidth = Math.round(contentCanvas.width * scale);
+        const targetHeight = Math.round(contentCanvas.height * scale);
+        const offsetX = Math.round((a4Width - targetWidth) / 2);
+        const offsetY = Math.round((a4Height - targetHeight) / 2);
+        ctx.drawImage(contentCanvas, 0, 0, contentCanvas.width, contentCanvas.height, offsetX, offsetY, targetWidth, targetHeight);
+
+        if (finalCanvas.toBlob) {
+          finalCanvas.toBlob((blob) => {
+            if (!blob) {
+              throw new Error('Không tạo được blob ảnh.');
+            }
+            downloadBlob(blob, 'wheel-of-life.jpg');
+          }, 'image/jpeg', 0.95);
+        } else {
+          const dataUrl = finalCanvas.toDataURL('image/jpeg', 0.95);
+          downloadDataUrl(dataUrl, 'wheel-of-life.jpg');
+        }
+      } catch (error) {
+        window.alert('Xuất JPG không thành công. Hãy thử lại sau.');
+        console.error(error);
+      } finally {
+        tempContainer.remove();
+        exportJpgBtn.disabled = false;
+        exportJpgBtn.textContent = originalText;
+      }
+    }
+
+    exportJpgBtn.addEventListener('click', exportPageAsJpg);
+
+    seedPresetState();
+    initPresetTabs();
+    renderControls();
+    drawWheel();
+    buildQuickInsights();
+  </script>
+</body>
+</html>

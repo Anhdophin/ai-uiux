@@ -1,0 +1,51 @@
+.group-block,
+.info-bar {
+  opacity: 0;
+  transform: translateY(28px);
+}
+.group-block.is-entering,
+.info-bar.is-entering {
+  animation: rise-in var(--duration-slow) var(--ease-standard) forwards;
+}
+.info-bar.is-exiting,
+.group-block.is-exiting {
+  animation: fade-down var(--duration-base) var(--ease-standard) forwards;
+}
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(var(--enter-offset, 28px));
+    filter: blur(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+@keyframes fade-down {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(12px);
+    filter: blur(3px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .group-block,
+  .info-bar {
+    opacity: 1;
+    transform: none;
+    animation: none !important;
+  }
+  .detail-panel-root,
+  .backdrop-root,
+  .role-card,
+  .button {
+    transition: none !important;
+  }
+}

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yoga Tool | Lotus Yoga</title>
+  <meta name="description" content="Công cụ tham khảo nhu cầu luyện tập yoga, dùng để xác định mục tiêu, nền tảng thể lực, thói quen và môi trường tập phù hợp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/page-tool.css">
+</head>
+<body data-base-path="../">
+  <div id="site-header" data-include="partials/header.html"></div>
+
+  <main class="tool-page">
+    <section class="tool-hero section-block">
+      <div class="container tool-hero__layout">
+        <div class="tool-hero__content">
+          <p class="eyebrow">Training Discovery Tool</p>
+          <h1 class="tool-hero__title">Khảo sát nhu cầu luyện tập yoga</h1>
+          <p class="section-text tool-hero__text">
+            Công cụ này giúp giáo viên hiểu rõ mục tiêu, thể trạng, thói quen và môi trường tập mà học viên mong muốn.
+            Sau khi gửi, hệ thống sẽ lưu dữ liệu về Google Sheet để chủ landing page theo dõi và tư vấn phù hợp hơn.
+          </p>
+
+          <div class="tool-hero__chips">
+            <span class="tool-chip">Mục tiêu &amp; động lực</span>
+            <span class="tool-chip">Nền tảng thể lực</span>
+            <span class="tool-chip">Thói quen &amp; rào cản</span>
+            <span class="tool-chip">Môi trường tập</span>
+          </div>
+        </div>
+
+        <div class="tool-hero__side">
+          <div class="tool-score-card">
+            <p class="tool-score-card__label">Phù hợp để tư vấn</p>
+            <strong class="tool-score-card__title">Lộ trình tập cá nhân hóa</strong>
+            <p class="tool-score-card__text">Form này không thay thế tư vấn y khoa. Nếu đang có chấn thương hoặc bệnh nền, nên trao đổi trực tiếp trước khi tập.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tool-form-section section-block section-block--soft">
+      <div class="container">
+        <div class="tool-form-wrap">
+          <div class="tool-form-intro">
+            <h2 class="section-title section-title--left">Form tham khảo nhu cầu học viên</h2>
+            <p class="section-text">Điền ngắn gọn nhưng đủ thật. Thông tin này giúp giáo viên chọn lớp, cường độ và cách đồng hành phù hợp hơn.</p>
+          </div>
+
+          <form id="yoga-tool-form" class="tool-form" novalidate>
+            <input type="hidden" name="submitted_from" value="Lotus Yoga Landing Page">
+            <input type="hidden" name="page_url" id="page-url-field">
+            <input type="hidden" name="submitted_at" id="submitted-at-field">
+
+            <section class="form-card">
+              <div class="form-card__header">
+                <span class="form-card__step">01</span>
+                <div>
+                  <h3 class="form-card__title">Thông tin cơ bản</h3>
+                  <p class="form-card__desc">Dùng để chủ landing page liên hệ và gắn đúng hồ sơ tư vấn.</p>
+                </div>
+              </div>
+
+              <div class="field-grid">
+                <label class="field">
+                  <span class="field__label">Họ và tên</span>
+                  <input class="field__control" type="text" name="full_name" placeholder="Nguyễn Văn A" required>
+                </label>
+
+                <label class="field">
+                  <span class="field__label">Email</span>
+                  <input class="field__control" type="email" name="email" placeholder="you@example.com" required>
+                </label>
+
+                <label class="field">
+                  <span class="field__label">Số điện thoại</span>
+                  <input class="field__control" type="tel" name="phone" placeholder="09xx xxx xxx">
+                </label>
+
+                <label class="field">
+                  <span class="field__label">Tuổi</span>
+                  <input class="field__control" type="number" name="age" min="10" max="99" placeholder="28">
+                </label>
+              </div>
+            </section>
+
+            <section class="form-card">
+              <div class="form-card__header">
+                <span class="form-card__step">02</span>
+                <div>
+                  <h3 class="form-card__title">Mục tiêu và động lực</h3>
+                  <p class="form-card__desc">Đây là nhóm quan trọng nhất để xác định hướng tập và cách giữ động lực lâu dài.</p>
+                </div>
+              </div>
+
+              <div class="field-group">
+                <span class="field-group__label">Bạn đang ưu tiên mục tiêu nào?</span>
+                <div class="option-grid">
+                  <label class="choice choice--checkbox"><input type="checkbox" name="goal_physical" value="Giảm cân"> <span>Giảm cân</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="goal_physical" value="Tăng độ dẻo dai"> <span>Tăng độ dẻo dai</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="goal_physical" value="Giảm đau lưng/cổ vai gáy"> <span>Giảm đau lưng / cổ vai gáy</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="goal_physical" value="Tăng sức mạnh cơ bắp"> <span>Tăng sức mạnh cơ bắp</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="goal_mental" value="Giảm stress"> <span>Giảm stress</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="goal_mental" value="Cải thiện giấc ngủ"> <span>Cải thiện giấc ngủ</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="goal_mental" value="Tìm kiếm sự tĩnh lặng / thiền"> <span>Tìm sự tĩnh lặng / thiền</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="goal_therapy" value="Phục hồi sau chấn thương"> <span>Phục hồi sau chấn thương</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="goal_therapy" value="Hỗ trợ bệnh lý mãn tính"> <span>Hỗ trợ bệnh lý mãn tính</span></label>
+                </div>
+              </div>
+
+              <label class="field">
+                <span class="field__label">Điều gì khiến bạn muốn bắt đầu hoặc quay lại tập yoga lúc này?</span>
+                <textarea class="field__control field__control--textarea" name="motivation_note" rows="4" placeholder="Ví dụ: gần đây làm việc căng, ngủ không sâu, cơ thể cứng và muốn có một nhịp sống cân bằng hơn."></textarea>
+              </label>
+            </section>
+
+            <section class="form-card">
+              <div class="form-card__header">
+                <span class="form-card__step">03</span>
+                <div>
+                  <h3 class="form-card__title">Kinh nghiệm và nền tảng thể lực</h3>
+                  <p class="form-card__desc">Giúp xếp lớp, điều chỉnh giáo án và tránh chọn sai cường độ.</p>
+                </div>
+              </div>
+
+              <div class="field-group">
+                <span class="field-group__label">Bạn đã từng tập yoga chưa?</span>
+                <div class="option-row">
+                  <label class="choice"><input type="radio" name="yoga_experience" value="Chưa từng tập" required> <span>Chưa từng tập</span></label>
+                  <label class="choice"><input type="radio" name="yoga_experience" value="Đã tập cơ bản"> <span>Đã tập cơ bản</span></label>
+                  <label class="choice"><input type="radio" name="yoga_experience" value="Đã tập thường xuyên"> <span>Đã tập thường xuyên</span></label>
+                </div>
+              </div>
+
+              <div class="field-grid">
+                <label class="field">
+                  <span class="field__label">Nếu đã tập, thời gian khoảng bao lâu?</span>
+                  <input class="field__control" type="text" name="experience_duration" placeholder="Ví dụ: 6 tháng, 2 năm...">
+                </label>
+
+                <label class="field">
+                  <span class="field__label">Đã từng tập loại hình nào?</span>
+                  <input class="field__control" type="text" name="yoga_types" placeholder="Hatha, Vinyasa, Yin, trị liệu...">
+                </label>
+              </div>
+
+              <div class="field-group">
+                <span class="field-group__label">Mức độ vận động hiện tại</span>
+                <div class="option-grid">
+                  <label class="choice"><input type="radio" name="activity_level" value="Ngồi nhiều / làm văn phòng" required> <span>Ngồi nhiều / làm văn phòng</span></label>
+                  <label class="choice"><input type="radio" name="activity_level" value="Vận động vừa phải"> <span>Vận động vừa phải</span></label>
+                  <label class="choice"><input type="radio" name="activity_level" value="Thường xuyên chơi thể thao"> <span>Thường xuyên chơi thể thao</span></label>
+                </div>
+              </div>
+
+              <div class="field-group">
+                <span class="field-group__label">Bạn có chống chỉ định hoặc tình trạng cần lưu ý không?</span>
+                <div class="option-grid">
+                  <label class="choice choice--checkbox"><input type="checkbox" name="health_notice" value="Chấn thương hiện tại"> <span>Chấn thương hiện tại</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="health_notice" value="Vừa phẫu thuật"> <span>Vừa phẫu thuật</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="health_notice" value="Tim mạch"> <span>Tim mạch</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="health_notice" value="Huyết áp"> <span>Huyết áp</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="health_notice" value="Xương khớp"> <span>Xương khớp</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="health_notice" value="Không có"> <span>Không có</span></label>
+                </div>
+              </div>
+
+              <label class="field">
+                <span class="field__label">Ghi chú thêm về cơ thể hoặc bệnh lý</span>
+                <textarea class="field__control field__control--textarea" name="health_note" rows="4" placeholder="Viết ngắn gọn những điều giáo viên cần biết trước khi hướng dẫn."></textarea>
+              </label>
+            </section>
+
+            <section class="form-card">
+              <div class="form-card__header">
+                <span class="form-card__step">04</span>
+                <div>
+                  <h3 class="form-card__title">Thói quen và rào cản</h3>
+                  <p class="form-card__desc">Dùng để thiết kế lịch học thực tế và giảm khả năng bỏ cuộc sớm.</p>
+                </div>
+              </div>
+
+              <div class="field-group">
+                <span class="field-group__label">Khung giờ bạn rảnh nhất</span>
+                <div class="option-grid">
+                  <label class="choice choice--checkbox"><input type="checkbox" name="free_time" value="Sáng sớm"> <span>Sáng sớm</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="free_time" value="Giờ nghỉ trưa"> <span>Giờ nghỉ trưa</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="free_time" value="Chiều"> <span>Chiều</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="free_time" value="Tối muộn"> <span>Tối muộn</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="free_time" value="Cuối tuần"> <span>Cuối tuần</span></label>
+                </div>
+              </div>
+
+              <div class="field-grid">
+                <label class="field">
+                  <span class="field__label">Tần suất kỳ vọng</span>
+                  <select class="field__control" name="weekly_commitment" required>
+                    <option value="">Chọn số buổi / tuần</option>
+                    <option value="1 buổi / tuần">1 buổi / tuần</option>
+                    <option value="2 buổi / tuần">2 buổi / tuần</option>
+                    <option value="3 buổi / tuần">3 buổi / tuần</option>
+                    <option value="4 buổi / tuần trở lên">4 buổi / tuần trở lên</option>
+                  </select>
+                </label>
+
+                <label class="field">
+                  <span class="field__label">Bạn muốn bắt đầu khi nào?</span>
+                  <select class="field__control" name="start_time_expectation">
+                    <option value="">Chọn mốc thời gian</option>
+                    <option value="Ngay tuần này">Ngay tuần này</option>
+                    <option value="Trong 2 tuần tới">Trong 2 tuần tới</option>
+                    <option value="Trong tháng này">Trong tháng này</option>
+                    <option value="Chưa chắc, muốn tìm hiểu trước">Chưa chắc, muốn tìm hiểu trước</option>
+                  </select>
+                </label>
+              </div>
+
+              <div class="field-group">
+                <span class="field-group__label">Điều gì khiến bạn dễ bỏ cuộc nhất?</span>
+                <div class="option-grid">
+                  <label class="choice choice--checkbox"><input type="checkbox" name="barrier" value="Lười / thiếu động lực"> <span>Lười / thiếu động lực</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="barrier" value="Việc đột xuất / lịch không ổn định"> <span>Việc đột xuất / lịch không ổn định</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="barrier" value="Đau người / mệt"> <span>Đau người / mệt</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="barrier" value="Khoảng cách địa lý"> <span>Khoảng cách địa lý</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="barrier" value="Ngại vào lớp đông"> <span>Ngại vào lớp đông</span></label>
+                </div>
+              </div>
+            </section>
+
+            <section class="form-card">
+              <div class="form-card__header">
+                <span class="form-card__step">05</span>
+                <div>
+                  <h3 class="form-card__title">Sở thích về môi trường tập luyện</h3>
+                  <p class="form-card__desc">Giúp chọn đúng kiểu lớp, đúng giáo viên và đúng bối cảnh trải nghiệm.</p>
+                </div>
+              </div>
+
+              <div class="field-group">
+                <span class="field-group__label">Hình thức bạn thấy phù hợp hơn</span>
+                <div class="option-row">
+                  <label class="choice"><input type="radio" name="class_format" value="Lớp đông / cộng đồng" required> <span>Lớp đông / cộng đồng</span></label>
+                  <label class="choice"><input type="radio" name="class_format" value="Kèm riêng / PT yoga"> <span>Kèm riêng / PT yoga</span></label>
+                </div>
+              </div>
+
+              <div class="field-group">
+                <span class="field-group__label">Phong cách giáo viên bạn thích</span>
+                <div class="option-row">
+                  <label class="choice"><input type="radio" name="teacher_style" value="Truyền cảm hứng" required> <span>Truyền cảm hứng</span></label>
+                  <label class="choice"><input type="radio" name="teacher_style" value="Nhẹ nhàng"> <span>Nhẹ nhàng</span></label>
+                  <label class="choice"><input type="radio" name="teacher_style" value="Kỷ luật / mạnh mẽ"> <span>Kỷ luật / mạnh mẽ</span></label>
+                </div>
+              </div>
+
+              <div class="field-group">
+                <span class="field-group__label">Yếu tố phụ trợ bạn quan tâm</span>
+                <div class="option-grid">
+                  <label class="choice choice--checkbox"><input type="checkbox" name="environment_pref" value="Tinh dầu"> <span>Tinh dầu</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="environment_pref" value="Nhạc thiền"> <span>Nhạc thiền</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="environment_pref" value="Không gian mở"> <span>Không gian mở</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="environment_pref" value="Phòng kín yên tĩnh"> <span>Phòng kín yên tĩnh</span></label>
+                  <label class="choice choice--checkbox"><input type="checkbox" name="environment_pref" value="Ít người"> <span>Ít người</span></label>
+                </div>
+              </div>
+
+              <label class="field">
+                <span class="field__label">Ghi chú thêm</span>
+                <textarea class="field__control field__control--textarea" name="final_note" rows="4" placeholder="Có thể viết thêm mong muốn, bối cảnh cá nhân hoặc điều bạn muốn giáo viên lưu ý."></textarea>
+              </label>
+            </section>
+
+            <section class="form-card form-card--summary">
+              <div class="form-card__header">
+                <span class="form-card__step">06</span>
+                <div>
+                  <h3 class="form-card__title">Xác nhận và gửi</h3>
+                  <p class="form-card__desc">Sau khi gửi thành công, dữ liệu sẽ chuyển tới Google Sheet của chủ landing page.</p>
+                </div>
+              </div>
+
+              <div class="form-summary">
+                <div class="form-summary__item">
+                  <strong>Bảo mật mức cơ bản</strong>
+                  <p>Form chỉ lưu các trường mà học viên tự nhập. Không có xác thực y tế.</p>
+                </div>
+
+                <div class="form-summary__item">
+                  <strong>Khuyến nghị</strong>
+                  <p>Nếu có bệnh nền hoặc đang hồi phục, nên trao đổi trực tiếp trước khi nhận lộ trình tập.</p>
+                </div>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="button button--rounded button--orange" id="tool-submit-button">Submit to Google Sheet</button>
+                <a href="../price/index.html" class="button button--rounded button--ghost button--teal">Xem giá</a>
+              </div>
+
+              <p class="form-status" id="form-status" aria-live="polite"></p>
+            </section>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer" data-include="partials/footer.html"></div>
+
+  <script src="../js/site-config.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/tool-form.js"></script>
+</body>
+</html>

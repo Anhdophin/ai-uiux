@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Service Solutions | iAppLab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../shared/subpage-components.css" />
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="backend/css/tokens.css" />
+  <link rel="stylesheet" href="backend/css/base.css" />
+  <link rel="stylesheet" href="backend/css/layout.css" />
+  <link rel="stylesheet" href="backend/css/components.css" />
+  <link rel="stylesheet" href="backend/css/animations.css" />
+  <link rel="stylesheet" href="backend/css/pages.css" />
+</head>
+<body>
+  <div id="subpage-header"></div>
+
+  <div class="site-shell">
+    <header class="hero-region container">
+      <div class="hero-copy">
+        <p class="eyebrow">Service Solutions</p>
+        <h1 id="hero-title">Loading...</h1>
+        <p id="hero-subtitle" class="hero-subtitle"></p>
+      </div>
+      <div class="hero-actions">
+        <a id="primary-cta" class="button button-primary" href="#">Liên hệ</a>
+        <a id="secondary-cta" class="button button-secondary" href="#">Tải CV PDF</a>
+      </div>
+    </header>
+
+    <main class="container page-main">
+      <section class="panel panel-role-selector">
+        <div id="role-cards-region" class="role-cards-grid" aria-label="Danh sách vị trí công việc"></div>
+      </section>
+
+      <section class="info-stage-shell">
+        <div class="stage-topbar">
+          <div>
+            <h2 id="selected-role-heading">Chọn một vị trí ở trên</h2>
+          </div>
+          <p id="selected-role-summary" class="stage-summary">Khi chọn card, các block và bar sẽ lắp ráp vào sân khấu thông tin.</p>
+        </div>
+        <div id="info-stage-region" class="info-stage-region" aria-live="polite"></div>
+      </section>
+    </main>
+  </div>
+
+  <div id="backdrop-root" class="backdrop-root" hidden></div>
+  <aside id="detail-panel-root" class="detail-panel-root" hidden aria-hidden="true"></aside>
+  <div id="subpage-footer"></div>
+
+  <script src="../shared/subpage-components.js"></script>
+  <script type="module" src="backend/js/app.js"></script>
+</body>
+</html>

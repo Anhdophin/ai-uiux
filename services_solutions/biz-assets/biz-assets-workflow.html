@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biz Assets Workflow</title>
+  <meta name="description" content="Workflow thiết kế website: từ dữ liệu rời rạc đến một cấu trúc vận hành rõ ràng." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/base.css" />
+  <link rel="stylesheet" href="../../shared/subpage-components.css" />
+  <style>
+    :root{
+      --wd-accent:#1f7aec;
+      --wd-accent-2:#3fd0b7;
+      --wd-soft:rgba(31,122,236,.08);
+      --wd-line:rgba(19,38,60,.10);
+      --wd-text:#18324c;
+      --wd-text-soft:#62707e;
+      --wd-card:rgba(255,255,255,.84);
+    }
+    .workflow-detail-main{padding:24px 0 84px}
+    .wd-hero,.wd-card,.wd-step,.wd-summary{position:relative;overflow:hidden;background:var(--wd-card);backdrop-filter:blur(18px);border:1px solid var(--wd-line);border-radius:28px;box-shadow:0 18px 50px rgba(17,30,45,.08)}
+    .wd-hero,.wd-card,.wd-step,.wd-summary{padding:28px}
+    .wd-hero::before,.wd-card::before,.wd-step::before,.wd-summary::before{content:'';position:absolute;right:-90px;bottom:-90px;width:240px;height:240px;border-radius:42% 58% 58% 42%/45% 55% 45% 55%;background:linear-gradient(135deg,var(--wd-soft),transparent 72%);pointer-events:none}
+    .wd-hero{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center}
+    .wd-label{display:inline-flex;align-items:center;gap:10px;padding:8px 14px;border-radius:999px;background:#fff;border:1px solid var(--wd-line);font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--wd-accent)}
+    .wd-title{margin:16px 0 14px;font-size:clamp(34px,5vw,58px);line-height:1.04}
+    .wd-subtitle,.wd-copy,.wd-step p,.wd-card p,.wd-summary p{margin:0;color:var(--wd-text-soft);line-height:1.82}
+    .wd-pill-list{display:grid;gap:12px}
+    .wd-pill{background:#fff;border:1px solid var(--wd-line);border-radius:18px;padding:16px 18px;color:var(--wd-text-soft);line-height:1.72}
+    .wd-pill b{color:var(--wd-text)}
+    .wd-section{margin-top:26px}
+    .wd-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+    .wd-step-stack{display:grid;gap:16px}
+    .wd-step-head{display:grid;grid-template-columns:66px 1fr;gap:14px;align-items:start}
+    .wd-step-num{display:grid;place-items:center;width:58px;height:58px;border-radius:18px;background:linear-gradient(135deg,var(--wd-accent),var(--wd-accent-2));color:#fff;font-size:18px;font-weight:900}
+    .wd-step h3,.wd-card h3,.wd-summary h3{margin:0 0 10px;font-size:22px;line-height:1.3;color:var(--wd-text)}
+    .wd-list{margin:14px 0 0;padding-left:18px;color:var(--wd-text-soft);line-height:1.8}
+    .wd-list li+li{margin-top:6px}
+    .wd-result-grid{display:grid;gap:14px}
+    .wd-result{background:#fff;border:1px solid var(--wd-line);border-radius:20px;padding:18px 20px}
+    .wd-result strong{display:block;font-size:15px;color:var(--wd-text);text-transform:uppercase;letter-spacing:.06em}
+    .wd-result span{display:block;margin-top:8px;color:var(--wd-text-soft);line-height:1.72}
+    .wd-arrow{font-weight:800;color:var(--wd-accent)}
+    @media (max-width:1040px){.wd-hero,.wd-grid{grid-template-columns:1fr}}
+    @media (max-width:640px){.workflow-detail-main{padding:18px 0 72px}.wd-hero,.wd-card,.wd-step,.wd-summary{padding:18px}.wd-title{font-size:34px}}
+  </style>
+</head>
+<body>
+  <div id="subpage-header"></div>
+
+  <main class="workflow-detail-main shell">
+    <div class="workflow-tabbar reveal" data-workflow-root="../"></div>
+
+    <section class="wd-hero reveal">
+      <div>
+        <span class="wd-label">iAppLab Workflow</span>
+        <h1 class="wd-title">BIZ ASSETS WORKFLOW</h1>
+        <p class="wd-subtitle">Cách một hệ thống website được hình thành – từ dữ liệu rời rạc đến một cấu trúc vận hành rõ ràng</p>
+        <p class="wd-copy" style="margin-top:18px;">Một website không bắt đầu từ giao diện. Nó bắt đầu từ cách thông tin được hiểu, được sắp xếp và được chuyển hóa thành một hệ thống có thể sử dụng.</p>
+        <p class="wd-copy" style="margin-top:12px;">Quy trình này không chỉ tạo ra một trang web, mà tạo ra một bộ khung thể hiện dịch vụ, tư duy và cách vận hành của doanh nghiệp trên môi trường số.</p>
+        <div class="wf-actions" style="margin-top:18px;">
+          <a class="btn btn-primary" href="#" data-back-link>Quay lại</a>
+        </div>
+      </div>
+      <div class="wd-result-grid">
+        <div class="wd-result"><strong>Trọng tâm 01</strong><span>Sắp xếp lại cấu trúc thông tin để website có flow rõ ràng, dễ hiểu và không bị dàn trải.</span></div>
+        <div class="wd-result"><strong>Trọng tâm 02</strong><span>Chuyển nội dung sang ngôn ngữ doanh nghiệp để người xem hiểu đúng giá trị và kết quả công việc.</span></div>
+        <div class="wd-result"><strong>Trọng tâm 03</strong><span>Đưa website vào trạng thái có thể dùng thực tế: mobile tốt, có form, email, tracking, deploy, domain và SEO cơ bản.</span></div>
+      </div>
+    </section>
+
+    <section class="wd-section wd-grid reveal">
+      <div class="wd-card">
+        <div class="section-head section-split compact">
+          <div>
+            <p class="eyebrow">01</p>
+            <h2>TIẾP NHẬN &amp; ĐỌC NGỮ CẢNH</h2>
+          </div>
+        </div>
+        <p class="wd-copy">Trước khi thiết kế, toàn bộ thông tin hiện có được đưa vào để đọc:</p>
+        <ul class="wd-list">
+          <li>Mô tả dịch vụ</li>
+          <li>Cách doanh nghiệp đang làm việc</li>
+          <li>Tài liệu cũ (nếu có)</li>
+          <li>Cách khách hàng đang hiểu (hoặc chưa hiểu)</li>
+        </ul>
+        <p class="wd-copy" style="margin-top:14px;">Kết quả của bước này không phải là thiết kế, mà là một bản hiểu đúng về bối cảnh thực tế:</p>
+        <ul class="wd-list">
+          <li>Dịch vụ đang bị rối ở đâu</li>
+          <li>Thông tin đang bị thiếu hay trùng lặp</li>
+          <li>Người ngoài sẽ hiểu sai ở điểm nào</li>
+        </ul>
+      </div>
+
+      <aside class="wd-card">
+        <div class="section-head section-split compact">
+          <div>
+            <p class="eyebrow">02</p>
+            <h2>SẮP XẾP LẠI CẤU TRÚC THÔNG TIN</h2>
+          </div>
+        </div>
+        <p class="wd-copy">Từ dữ liệu ban đầu, hệ thống thông tin được tổ chức lại thành các lớp rõ ràng:</p>
+        <ul class="wd-list">
+          <li>Trang nào dùng để làm gì</li>
+          <li>Nội dung nào nên đứng ở đâu</li>
+          <li>Luồng đọc của người xem sẽ đi như thế nào</li>
+        </ul>
+        <p class="wd-copy" style="margin-top:14px;">Kết quả:</p>
+        <ul class="wd-list">
+          <li>Một sitemap rõ ràng</li>
+          <li>Một flow đọc thông tin mạch lạc</li>
+          <li>Loại bỏ tình trạng “viết nhiều nhưng không hiểu”</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="wd-section reveal">
+      <div class="wd-step-stack">
+        <article class="wd-step">
+          <div class="wd-step-head">
+            <div class="wd-step-num">03</div>
+            <div>
+              <h3>VIẾT LẠI NỘI DUNG THEO NGÔN NGỮ DOANH NGHIỆP</h3>
+              <p>Thông tin thô hoặc mang tính cá nhân sẽ được chuyển hóa thành:</p>
+              <ul class="wd-list">
+                <li>Nội dung có cấu trúc</li>
+                <li>Diễn đạt rõ ràng, dễ hiểu</li>
+                <li>Mang tính hệ thống, không lan man</li>
+              </ul>
+              <p class="wd-copy" style="margin-top:14px;">Không phải viết cho hay, mà là:</p>
+              <ul class="wd-list">
+                <li>Người đọc hiểu được dịch vụ đang làm gì</li>
+                <li>Hiểu đúng giá trị</li>
+                <li>Không cần hỏi lại những câu cơ bản</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="wd-step">
+          <div class="wd-step-head">
+            <div class="wd-step-num">04</div>
+            <div>
+              <h3>CHỈNH THÔNG ĐIỆP BÁN DỊCH VỤ</h3>
+              <p>Nội dung sau khi được viết lại sẽ được tinh chỉnh để:</p>
+              <ul class="wd-list">
+                <li>Làm rõ vấn đề mà dịch vụ đang giải quyết</li>
+                <li>Thể hiện đúng giá trị mang lại</li>
+                <li>Giữ sự rõ ràng, không dùng chiêu trò</li>
+              </ul>
+              <p class="wd-copy" style="margin-top:14px;">Kết quả là:</p>
+              <ul class="wd-list">
+                <li>Website không chỉ “giới thiệu”</li>
+                <li>Mà có khả năng giải thích và thuyết phục bằng chính cấu trúc nội dung</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="wd-step">
+          <div class="wd-step-head">
+            <div class="wd-step-num">05</div>
+            <div>
+              <h3>THIẾT KẾ LAYOUT &amp; HỆ GIAO DIỆN</h3>
+              <p>Dựa trên cấu trúc đã rõ, giao diện được xây dựng:</p>
+              <ul class="wd-list">
+                <li>Layout đồng bộ giữa các trang</li>
+                <li>Phân cấp thông tin rõ ràng</li>
+                <li>Khoảng cách, typography, màu sắc có hệ thống</li>
+              </ul>
+              <p class="wd-copy" style="margin-top:14px;">Không phải thiết kế để đẹp riêng lẻ, mà là để:</p>
+              <ul class="wd-list">
+                <li>Người dùng đọc nhanh</li>
+                <li>Hiểu nhanh</li>
+                <li>Không bị rối</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="wd-step">
+          <div class="wd-step-head">
+            <div class="wd-step-num">06</div>
+            <div>
+              <h3>TỐI ƯU TRẢI NGHIỆM MOBILE</h3>
+              <p>Website được kiểm tra và tối ưu trên mobile:</p>
+              <ul class="wd-list">
+                <li>Nội dung không bị vỡ layout</li>
+                <li>Các block được sắp xếp lại hợp lý</li>
+                <li>Nút bấm, khoảng cách, thao tác phù hợp với tay người dùng</li>
+              </ul>
+              <p class="wd-copy" style="margin-top:14px;">Kết quả:</p>
+              <ul class="wd-list">
+                <li>Website có thể sử dụng thực tế trên điện thoại</li>
+                <li>Không phải phiên bản “co lại” của desktop</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="wd-step">
+          <div class="wd-step-head">
+            <div class="wd-step-num">07</div>
+            <div>
+              <h3>GẮN FORM, EMAIL &amp; TRACKING CƠ BẢN</h3>
+              <p>Các điểm tương tác được thiết lập:</p>
+              <ul class="wd-list">
+                <li>Form gửi yêu cầu</li>
+                <li>Kết nối email nhận thông tin</li>
+                <li>Tracking cơ bản (lượt truy cập, hành vi)</li>
+              </ul>
+              <p class="wd-copy" style="margin-top:14px;">Giúp website không chỉ hiển thị, mà có thể:</p>
+              <ul class="wd-list">
+                <li>Nhận dữ liệu từ người dùng</li>
+                <li>Theo dõi hiệu quả sử dụng</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="wd-step">
+          <div class="wd-step-head">
+            <div class="wd-step-num">08</div>
+            <div>
+              <h3>TRIỂN KHAI &amp; HOÀN THIỆN KỸ THUẬT</h3>
+              <p>Website được đưa vào trạng thái hoạt động:</p>
+              <ul class="wd-list">
+                <li>Deploy lên hosting / GitHub Pages / server</li>
+                <li>Kết nối domain</li>
+                <li>Kiểm tra lỗi hiển thị</li>
+                <li>Tối ưu cơ bản cho SEO</li>
+              </ul>
+              <p class="wd-copy" style="margin-top:14px;">Kết quả:</p>
+              <ul class="wd-list">
+                <li>Website có thể truy cập ổn định</li>
+                <li>Sẵn sàng sử dụng thực tế</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="wd-step">
+          <div class="wd-step-head">
+            <div class="wd-step-num">09</div>
+            <div>
+              <h3>TẠO NỀN TẢNG ĐỂ MỞ RỘNG SAU NÀY</h3>
+              <p>Cấu trúc website được xây theo hướng:</p>
+              <ul class="wd-list">
+                <li>Dễ thêm trang mới (services, projects…)</li>
+                <li>Có thể gắn thêm công cụ (tools, app mini)</li>
+                <li>Không cần làm lại từ đầu khi mở rộng</li>
+              </ul>
+              <p class="wd-copy" style="margin-top:14px;">Website lúc này không chỉ là một sản phẩm, mà là một hệ nền để phát triển tiếp.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="wd-section wd-grid reveal">
+      <div class="wd-summary">
+        <div class="section-head section-split compact">
+          <div>
+            <p class="eyebrow">Final Result</p>
+            <h2>KẾT QUẢ CUỐI CÙNG</h2>
+          </div>
+        </div>
+        <p class="wd-copy">Sau toàn bộ quy trình, thứ được tạo ra không chỉ là giao diện:</p>
+        <div class="wd-pill-list" style="margin-top:16px;">
+          <div class="wd-pill">Một hệ thống thông tin rõ ràng</div>
+          <div class="wd-pill">Một cách trình bày dịch vụ có cấu trúc</div>
+          <div class="wd-pill">Một website có thể sử dụng thực tế</div>
+          <div class="wd-pill">Một nền tảng có thể tiếp tục mở rộng</div>
+        </div>
+      </div>
+
+      <aside class="wd-summary">
+        <div class="section-head section-split compact">
+          <div>
+            <p class="eyebrow">Summary</p>
+            <h2>TÓM TẮT</h2>
+          </div>
+        </div>
+        <p class="wd-copy">Quy trình này chuyển hóa:</p>
+        <div class="wd-pill-list" style="margin-top:16px;">
+          <div class="wd-pill"><b>Từ dữ liệu rời rạc</b><br><span class="wd-arrow">→</span> thành hệ thống thông tin</div>
+          <div class="wd-pill"><b>Từ cách nói cá nhân</b><br><span class="wd-arrow">→</span> thành ngôn ngữ doanh nghiệp</div>
+          <div class="wd-pill"><b>Từ một trang web đơn lẻ</b><br><span class="wd-arrow">→</span> thành một nền tảng có thể phát triển lâu dài</div>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <div id="subpage-footer"></div>
+  <script src="../../shared/subpage-components.js"></script>
+  <script>
+    document.querySelectorAll('.reveal').forEach((el, index) => {
+      requestAnimationFrame(() => {
+        setTimeout(() => el.classList.add('in-view'), index * 40);
+      });
+    });
+  </script>
+  <script>
+    document.querySelectorAll('[data-back-link]').forEach((link) => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+        window.history.back();
+      });
+    });
+  </script>
+</body>
+</html>

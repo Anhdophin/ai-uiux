@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "default_locale",
+    "fallback_locale",
+    "locales"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "default_locale": {
+      "type": "string"
+    },
+    "fallback_locale": {
+      "type": "string"
+    },
+    "locales": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "direction",
+          "status",
+          "is_primary_semantic_reference"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "direction": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "is_primary_semantic_reference": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

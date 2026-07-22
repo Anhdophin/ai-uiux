@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "pattern_types"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "pattern_types": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label_key"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label_key": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

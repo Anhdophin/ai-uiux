@@ -1,0 +1,163 @@
+[
+  {
+    "id": "flow-audit",
+    "title": "Workflow Images & Document Design",
+    "card_title": "Flow Audit",
+    "card_image": "assets/images/creative-solution-designer.png",
+    "detail_label": "Detail",
+    "detail_href": "flow-audit/flow-audit.html",
+    "summary": "Làm rõ cách công việc đang chạy, nhìn ra chỗ rối và sắp xếp lại thành flow, tài liệu hoặc cấu trúc bàn giao dễ dùng.",
+    "tags": [
+      "workflow",
+      "audit",
+      "delivery"
+    ],
+    "group_ids": [
+      "role-focus",
+      "problems",
+      "methods",
+      "outputs",
+      "skills"
+    ],
+    "order": 1,
+    "featured": true
+  },
+  {
+    "id": "web-design",
+    "title": "Thiết Kế Web Có Cá Tính & Truyền Tải Được Thông Điệp Thương Hiệu",
+    "card_title": "Web Design",
+    "card_image": "assets/images/workflow-domain-translator.png",
+    "detail_label": "Detail",
+    "detail_href": "website-ai/website-ai.html",
+    "summary": "Biến nội dung, thông điệp và cách khách hàng hiểu công việc thành luồng web rõ ràng, dễ đọc và có hành động đúng chỗ.",
+    "tags": [
+      "web",
+      "message",
+      "ux"
+    ],
+    "group_ids": [
+      "role-focus",
+      "problems",
+      "methods",
+      "outputs",
+      "skills"
+    ],
+    "order": 2,
+    "featured": true
+  },
+  {
+    "id": "mini-app-design",
+    "title": "Thiết Kế Ứng Dụng Dịch Vụ",
+    "card_title": "Mini App Design",
+    "card_image": "assets/images/service-application-designer.png",
+    "detail_label": "Detail",
+    "detail_href": "mini-app-design/mini-app-design.html",
+    "summary": "Biến cách làm việc thành mini app đúng logic, dễ dùng và có thể kiểm thử nhanh bằng prototype trước khi mở rộng.",
+    "tags": [
+      "service",
+      "app",
+      "prototype"
+    ],
+    "group_ids": [
+      "role-focus",
+      "problems",
+      "methods",
+      "outputs",
+      "skills"
+    ],
+    "order": 3,
+    "featured": true
+  },
+  {
+    "id": "story-design",
+    "title": "Thiết Kế Câu Chuyện Thương Hiệu",
+    "card_title": "Story Design",
+    "card_image": "assets/images/operation-flow-architect.png",
+    "detail_label": "Detail",
+    "detail_href": "corporate-story-design/corporate-story-design.html",
+    "summary": "Biến thông tin và chất liệu gốc thành câu chuyện có mạch, có chất và dễ tiếp nhận hơn trên web, tài liệu hoặc nội dung trình bày.",
+    "tags": [
+      "story",
+      "brand",
+      "content"
+    ],
+    "group_ids": [
+      "role-focus",
+      "problems",
+      "methods",
+      "outputs",
+      "skills"
+    ],
+    "order": 4,
+    "featured": true
+  },
+  {
+    "id": "educate",
+    "title": "Educational Design Support",
+    "card_title": "Educate",
+    "card_image": "assets/images/operation-flow-architect.png",
+    "detail_label": "Detail",
+    "detail_href": "educate/teaching-design.html",
+    "summary": "Xây dựng trang dạy thiết kế thực tế để trẻ có thể hỗ trợ phụ huynh trong marketing và kinh doanh gia đình.",
+    "tags": [
+      "training",
+      "education",
+      "support"
+    ],
+    "group_ids": [
+      "role-focus",
+      "problems",
+      "methods",
+      "outputs",
+      "skills"
+    ],
+    "order": 5,
+    "featured": true
+  },
+  {
+    "id": "gamification-design",
+    "title": "Tư Vấn Thiết Kế Trải Nghiệm Game Hóa",
+    "card_title": "Gamification",
+    "card_image": "assets/images/gamification-design.png",
+    "detail_label": "Detail",
+    "detail_href": "gamification/gamification.html",
+    "summary": "Thiết kế hành vi người dùng bằng cơ chế game để tăng động lực, giữ tương tác và tạo lý do quay lại trong dịch vụ hoặc trải nghiệm khách hàng.",
+    "tags": [
+      "gamification",
+      "behavior",
+      "engagement"
+    ],
+    "group_ids": [
+      "role-focus",
+      "problems",
+      "methods",
+      "outputs",
+      "skills"
+    ],
+    "order": 6,
+    "featured": true
+  },
+  {
+    "id": "business-assets",
+    "title": "Thiết Kế Tài Liệu Doanh Nghiệp",
+    "card_title": "Biz Assets",
+    "card_image": "assets/images/ai-service-prototyper.png",
+    "detail_label": "Detail",
+    "detail_href": "biz-assets/biz-assets.html",
+    "summary": "Đóng gói giải pháp, tri thức và nội dung thành tài sản dùng được cho bán hàng, giới thiệu, đào tạo hoặc bàn giao nội bộ.",
+    "tags": [
+      "assets",
+      "documents",
+      "packaging"
+    ],
+    "group_ids": [
+      "role-focus",
+      "problems",
+      "methods",
+      "outputs",
+      "skills"
+    ],
+    "order": 7,
+    "featured": true
+  }
+]

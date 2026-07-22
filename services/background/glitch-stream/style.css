@@ -1,4 +1,0 @@
-[data-background="glitch-stream"]{position:relative; overflow:hidden; isolation:isolate; background:#030507;} 
-.glitch-stream-canvas{position:absolute; inset:0; z-index:0; pointer-events:none; opacity:.9;} 
-[data-background="glitch-stream"]::after{content:""; position:absolute; inset:0; pointer-events:none; z-index:0; background:linear-gradient(to bottom, transparent, rgba(255,255,255,.03) 50%, transparent), repeating-linear-gradient(to bottom, transparent 0 3px, rgba(255,255,255,.015) 3px 4px);} 
-[data-background="glitch-stream"] > *{position:relative; z-index:1;}

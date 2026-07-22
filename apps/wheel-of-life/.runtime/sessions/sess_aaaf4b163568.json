@@ -1,0 +1,203 @@
+{
+  "session_id": "sess_aaaf4b163568",
+  "locale": "en",
+  "context_profile": {
+    "age_range": "25-29",
+    "gender": "male",
+    "life_stage": "working",
+    "career_stage": "early",
+    "goals": [],
+    "concerns": []
+  },
+  "user_reality_context": {
+    "locale": "en",
+    "life_setup": "working_few_years",
+    "current_pressures": [
+      "direction_pressure"
+    ],
+    "current_goals": [
+      "find_direction"
+    ],
+    "constraints": [],
+    "readiness_level": "want_direction_suggestions",
+    "custom_keywords": [],
+    "note_fragment": null
+  },
+  "selected_feeling": "unclear_direction",
+  "selected_keyword_ids": [
+    "unclear_direction",
+    "ud_future",
+    "ud_roadmap"
+  ],
+  "reflection_snippet": null,
+  "latest_mode": "deepen_selection",
+  "latest_selectable_prompt": {
+    "id": "deepen_direction_blocked",
+    "question": "Which part feels more blocked right now?",
+    "options": [
+      "I cannot see a realistic path forward.",
+      "I do not know what I am actually good at.",
+      "I keep thinking, but still cannot decide."
+    ],
+    "option_items": [
+      {
+        "option_key": "prompt.deepen_selection.direction_blocked.option_1",
+        "label": "I cannot see a realistic path forward.",
+        "suggested_keyword_ids": [
+          "ud_future",
+          "ud_strengths",
+          "ud_roadmap"
+        ]
+      },
+      {
+        "option_key": "prompt.deepen_selection.direction_blocked.option_2",
+        "label": "I do not know what I am actually good at.",
+        "suggested_keyword_ids": [
+          "ud_future",
+          "ud_strengths",
+          "ud_roadmap"
+        ]
+      },
+      {
+        "option_key": "prompt.deepen_selection.direction_blocked.option_3",
+        "label": "I keep thinking, but still cannot decide.",
+        "suggested_keyword_ids": [
+          "ud_future",
+          "ud_strengths",
+          "ud_roadmap"
+        ]
+      }
+    ],
+    "suggested_keyword_ids": [
+      "ud_future",
+      "ud_strengths",
+      "ud_roadmap"
+    ],
+    "question_key": "prompt.deepen_selection.direction_blocked.question",
+    "option_keys": [
+      "prompt.deepen_selection.direction_blocked.option_1",
+      "prompt.deepen_selection.direction_blocked.option_2",
+      "prompt.deepen_selection.direction_blocked.option_3"
+    ]
+  },
+  "wheel_preview": {
+    "coverage_count": 3,
+    "life_area_scores": [
+      {
+        "life_area_id": "direction",
+        "life_area_label": "Định hướng",
+        "score": 15.0,
+        "evidence": [
+          {
+            "node_id": "unclear_direction",
+            "label": "Mơ hồ hướng đi",
+            "weight": 0.6
+          },
+          {
+            "node_id": "ud_future",
+            "label": "Không thấy tương lai",
+            "weight": 0.5
+          },
+          {
+            "node_id": "ud_roadmap",
+            "label": "Không có roadmap",
+            "weight": 0.4
+          }
+        ]
+      },
+      {
+        "life_area_id": "career",
+        "life_area_label": "Sự nghiệp",
+        "score": 12.0,
+        "evidence": [
+          {
+            "node_id": "unclear_direction",
+            "label": "Mơ hồ hướng đi",
+            "weight": 0.4
+          },
+          {
+            "node_id": "ud_future",
+            "label": "Không thấy tương lai",
+            "weight": 0.5
+          },
+          {
+            "node_id": "ud_roadmap",
+            "label": "Không có roadmap",
+            "weight": 0.3
+          }
+        ]
+      },
+      {
+        "life_area_id": "life_system",
+        "life_area_label": "Hệ thống sống",
+        "score": 3.0,
+        "evidence": [
+          {
+            "node_id": "ud_roadmap",
+            "label": "Không có roadmap",
+            "weight": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  "trail": [
+    {
+      "event_id": "evt_65eb6b8b7dfa",
+      "event_type": "context_initialized",
+      "label": "Context locked",
+      "created_at": "2026-04-04T22:58:22.799787Z",
+      "metadata": {
+        "age_range": "25-29",
+        "life_stage": "working",
+        "life_setup": "working_few_years"
+      }
+    },
+    {
+      "event_id": "evt_e36741c4796b",
+      "event_type": "feeling_selected",
+      "label": "Feeling selected",
+      "created_at": "2026-04-04T22:58:22.803830Z",
+      "metadata": {
+        "selected_id": "unclear_direction"
+      }
+    },
+    {
+      "event_id": "evt_1eec8b3733e0",
+      "event_type": "keyword_selected",
+      "label": "Keyword selected",
+      "created_at": "2026-04-04T22:58:22.807819Z",
+      "metadata": {
+        "selected_id": "ud_future"
+      }
+    },
+    {
+      "event_id": "evt_2733886603a0",
+      "event_type": "ai_prompt_generated",
+      "label": "AI prompt generated",
+      "created_at": "2026-04-04T22:58:22.811388Z",
+      "metadata": {
+        "prompt_id": "deepen_direction_blocked"
+      }
+    },
+    {
+      "event_id": "evt_a9e285a8b82b",
+      "event_type": "ai_option_resolved",
+      "label": "Needs a roadmap first",
+      "created_at": "2026-04-04T22:58:22.815194Z",
+      "metadata": {
+        "prompt_pack_id": "deepen_direction_blocked",
+        "option_key": "prompt.deepen_selection.direction_blocked.option_1",
+        "added_keyword_ids": [
+          "ud_roadmap"
+        ],
+        "focus_tags": [
+          "roadmap",
+          "direction"
+        ]
+      }
+    }
+  ],
+  "trail_compactions": [],
+  "resume_checkpoint": null
+}

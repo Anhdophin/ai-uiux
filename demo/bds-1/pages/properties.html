@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dự án & Bất động sản — Thổ Kim Realty</title>
+  <meta name="description" content="Danh mục dự án và bất động sản có bộ lọc theo loại hình, giá và nhóm hướng nhà.">
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/utilities.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+  <script defer src="../data/site-content.js"></script>
+  <script defer src="../assets/js/component-loader.js"></script>
+  <script defer src="../assets/js/navigation.js"></script>
+  <script defer src="../assets/js/interactions.js"></script>
+  <script defer src="../assets/js/main.js"></script>
+</head>
+<body data-page="properties">
+  <header class="site-header" data-include="../components/site-header.html"></header>
+  <main>
+    <section class="page-hero section section--compact">
+      <div class="container">
+        <div class="page-hero__card stack">
+          <p class="section__eyebrow">Danh mục dự án</p>
+          <h1>Chọn bất động sản theo loại hình, ngân sách và nhóm hướng phù hợp.</h1>
+          <p>Mỗi card dự án có sẵn vùng thông tin vị trí, diện tích, giá, nhóm hướng nhà và ghi chú phong thủy để khách hàng so sánh nhanh ngay trên web.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--compact">
+      <div class="container">
+        <form class="surface-card surface-card--padded" data-filter-form>
+          <div class="filter-panel">
+            <div>
+              <label for="filter-keyword">Từ khóa</label>
+              <input id="filter-keyword" type="text" name="keyword" placeholder="Khu vực, tên dự án...">
+            </div>
+            <div>
+              <label for="filter-type">Loại hình</label>
+              <select id="filter-type" name="type">
+                <option value="">Tất cả</option>
+                <option>Căn hộ</option>
+                <option>Biệt thự</option>
+                <option>Văn phòng</option>
+                <option>Đất nền</option>
+                <option>Nhà phố</option>
+              </select>
+            </div>
+            <div>
+              <label for="filter-direction">Nhóm hướng</label>
+              <select id="filter-direction" name="direction">
+                <option value="">Tất cả</option>
+                <option>Đông tứ trạch</option>
+                <option>Tây tứ trạch</option>
+              </select>
+            </div>
+            <div>
+              <label for="filter-budget">Ngân sách tối đa (tỷ)</label>
+              <select id="filter-budget" name="budget">
+                <option value="999">Không giới hạn</option>
+                <option value="4">Dưới 4 tỷ</option>
+                <option value="7">Dưới 7 tỷ</option>
+                <option value="10">Dưới 10 tỷ</option>
+                <option value="20">Dưới 20 tỷ</option>
+              </select>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="card-grid" data-properties-grid></div>
+      </div>
+    </section>
+
+    <section class="section section--compact">
+      <div class="container">
+        <div class="cta-panel">
+          <div class="stack">
+            <p class="section__eyebrow">So sánh sâu hơn</p>
+            <h2>Cần lọc theo tuổi, nhu cầu ở hay đầu tư?</h2>
+            <p>Có thể gắn thêm workflow tư vấn nhiều bước hoặc CRM intake form để phân loại lead.</p>
+          </div>
+          <div class="cluster">
+            <a class="button button--primary" href="./fengshui.html">Tra cứu phong thủy</a>
+            <a class="button button--secondary" href="./contact.html">Nhận báo giá</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" data-include="../components/site-footer.html"></footer>
+</body>
+</html>

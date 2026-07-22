@@ -1,0 +1,54 @@
+SECURITY SHIELD KIT - QUICK USAGE
+
+1) Copy folder security_kit into your project.
+
+2) Run backend API (in this repository):
+- Open terminal in /backend
+- Install packages: npm install
+- Start server: npm start
+- Default API URL: http://127.0.0.1:8787
+- Recommended demo URL: http://127.0.0.1:8787/function_kit/security_kit/examples/demo-security.html
+
+3) Add scripts to your page (head or end of body):
+
+<script src="/path/to/security_kit/js/security-shield-config.sample.js"></script>
+<script defer src="/path/to/security_kit/js/security-shield.js"></script>
+
+4) Customize config:
+- allowedIframeHosts
+- allowedScriptHosts
+- allowedImageHosts
+- onThreatDetected callback
+
+5) Manual API usage (optional):
+
+var shield = SecurityShieldKit.create({
+  monitorMutations: true,
+  scanForms: true
+});
+shield.start();
+
+shield.setSafeHtml(targetElement, rawHtml);
+shield.openSafe('https://example.com');
+
+6) Optional backend endpoints:
+- GET /api/health
+- POST /api/security-events
+- POST /api/leads
+- GET /api/security-events?limit=50
+- GET /api/leads?limit=50
+
+7) Important notes:
+- This kit reduces front-end injection risk, but cannot replace backend validation.
+- Always keep server-side validation, output escaping, and CSP headers.
+- For real production hardening, combine with:
+  Content-Security-Policy
+  HttpOnly/Secure cookies
+  server-side WAF/rate-limiting/logging
+
+8) Demo file:
+function_kit/security_kit/examples/demo-security.html
+
+9) For the most stable local test setup:
+- Open the demo from port 8787 instead of Live Server 5500.
+- That keeps the page and API on the same origin and avoids dev-time browser policy noise.

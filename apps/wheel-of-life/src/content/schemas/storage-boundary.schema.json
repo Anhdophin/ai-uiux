@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "zones",
+    "boundaries"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "zones": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "boundaries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WheelMapSeedBundle",
+  "type": "object",
+  "required": [
+    "version",
+    "updated_at",
+    "source_note",
+    "life_areas"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "source_note": {
+      "type": "string"
+    },
+    "life_areas": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "description"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "sub_areas": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "object",
+                  "required": [
+                    "id",
+                    "label"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "label": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              ]
+            }
+          },
+          "evidence_rule_note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

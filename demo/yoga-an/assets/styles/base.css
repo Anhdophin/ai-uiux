@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-foreground);
+  background:
+    radial-gradient(circle at top left, rgba(29, 142, 198, 0.10), transparent 20%),
+    radial-gradient(circle at bottom right, rgba(255, 127, 103, 0.08), transparent 18%),
+    var(--color-background);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+main {
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, p, ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--space-md);
+  top: -3rem;
+  z-index: var(--z-skip-link);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-pill);
+  background: var(--color-primary-strong);
+  color: #fff;
+}
+
+.skip-link:focus {
+  top: var(--space-md);
+}
+
+:focus-visible {
+  outline: 3px solid rgba(29, 142, 198, 0.35);
+  outline-offset: 3px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

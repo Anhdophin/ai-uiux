@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SessionAnalyticsSeed",
+  "type": "object",
+  "required": [
+    "version",
+    "compact_after_events",
+    "keep_recent_events",
+    "resume_max_recent_events",
+    "engagement_stage_thresholds",
+    "resume_actions"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "compact_after_events": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "keep_recent_events": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "resume_max_recent_events": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "engagement_stage_thresholds": {
+      "type": "object",
+      "required": [
+        "early_max_events",
+        "active_max_events",
+        "deep_min_events"
+      ],
+      "properties": {
+        "early_max_events": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "active_max_events": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "deep_min_events": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "resume_actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label_key"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label_key": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": "v1",
+  "memory_profile_fields": [
+    "locale",
+    "age_range",
+    "gender",
+    "life_stage",
+    "career_stage",
+    "life_setup"
+  ],
+  "snapshot_rules": {
+    "min_keywords_for_snapshot": 1,
+    "max_recent_keywords": 8,
+    "max_recent_trail_ids": 8
+  },
+  "pattern_thresholds": {
+    "recurring_keyword_min_snapshots": 2,
+    "persistent_life_area_min_snapshots": 2,
+    "oscillation_min_points": 3
+  }
+}

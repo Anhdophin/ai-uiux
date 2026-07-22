@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!--
+  Responsive UI domain prototype.
+  Purpose:
+  - lock the visual language, sizing system, and interaction shell
+  - keep flows selection-first, icon-first, and scroll-safe
+  - avoid deep business logic here; use demo data only
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Coaching Tools UI Domain</title>
+    <link rel="stylesheet" href="./assets/css/tokens.css" />
+    <link rel="stylesheet" href="./assets/css/foundation.css" />
+    <link rel="stylesheet" href="./assets/css/effects.css" />
+    <link rel="stylesheet" href="./assets/css/components.css" />
+    <link rel="stylesheet" href="./assets/css/layout.css" />
+  </head>
+  <body>
+    <svg width="0" height="0" style="position:absolute;opacity:0;pointer-events:none" aria-hidden="true">
+      <symbol id="i-briefcase" viewBox="0 0 24 24"><path d="M9 4h6a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v7a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-7a2 2 0 0 1 2-2h2V6a2 2 0 0 1 2-2Zm0 4h6V6H9v2Zm-4 3v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-6h-4v1h-2v-1H9v1H7v-1H5Z"/></symbol>
+      <symbol id="i-compass" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 1 0 18a9 9 0 0 1 0-18Zm3.7 5.3l-5.1 2.1l-2.1 5.1l5.1-2.1l2.1-5.1Z"/></symbol>
+      <symbol id="i-growth" viewBox="0 0 24 24"><path d="M4 18h16v2H2V4h2v14Zm13-9h3v6h-2v-2.6l-4.3 4.3l-3-3L6 18l-1.4-1.4l5.9-5.9l3 3L16.6 10H14V8h3Z"/></symbol>
+      <symbol id="i-wallet" viewBox="0 0 24 24"><path d="M4 6a3 3 0 0 1 3-3h11v2H7a1 1 0 1 0 0 2h12a2 2 0 0 1 2 2v8a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V6Zm13 6a1.5 1.5 0 1 0 0 3h2v-3h-2Z"/></symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 21s-7-4.4-9.6-8.4C.3 9.4 2 5 6 5c2.2 0 3.4 1.2 4 2c.6-.8 1.8-2 4-2c4 0 5.7 4.4 3.6 7.6C19 16.6 12 21 12 21Z"/></symbol>
+      <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 2l1.8 5.2L19 9l-5.2 1.8L12 16l-1.8-5.2L5 9l5.2-1.8L12 2Zm7 13l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9L19 15ZM5 14l1.1 2.4L8.5 17l-2.4 1.1L5 20.5l-1.1-2.4L1.5 17l2.4-1.1L5 14Z"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0-4-4a4 4 0 0 0 4 4Zm0 2c4.4 0 8 2.2 8 5v1H4v-1c0-2.8 3.6-5 8-5Z"/></symbol>
+      <symbol id="i-time" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 1 0 18a9 9 0 0 1 0-18Zm1 4h-2v6l4.5 2.7l1-1.7L13 12V7Z"/></symbol>
+      <symbol id="i-home" viewBox="0 0 24 24"><path d="M12 3l9 7h-3v10h-4v-6H10v6H6V10H3l9-7Z"/></symbol>
+      <symbol id="i-grid" viewBox="0 0 24 24"><path d="M4 4h7v7H4V4Zm9 0h7v7h-7V4ZM4 13h7v7H4v-7Zm9 0h7v7h-7v-7Z"/></symbol>
+      <symbol id="i-ring" viewBox="0 0 24 24"><path d="M12 4a8 8 0 1 0 8 8h-2a6 6 0 1 1-6-6V4Zm0 3l5 5h-4v5h-2v-7h6l-5-5Z"/></symbol>
+      <symbol id="i-gear" viewBox="0 0 24 24"><path d="M19.1 12.9a6.9 6.9 0 0 0 0-1.8l2-1.6l-2-3.5l-2.4 1a7.8 7.8 0 0 0-1.6-.9l-.4-2.6h-4l-.4 2.6a7.8 7.8 0 0 0-1.6.9l-2.4-1l-2 3.5l2 1.6a6.9 6.9 0 0 0 0 1.8l-2 1.6l2 3.5l2.4-1c.5.4 1 .7 1.6.9l.4 2.6h4l.4-2.6c.6-.2 1.1-.5 1.6-.9l2.4 1l2-3.5l-2-1.6ZM12 15a3 3 0 1 1 0-6a3 3 0 0 1 0 6Z"/></symbol>
+      <symbol id="i-note" viewBox="0 0 24 24"><path d="M5 3h10l4 4v14H5V3Zm9 1.5V8h3.5L14 4.5ZM8 12h8v2H8v-2Zm0 4h6v2H8v-2Zm0-8h4v2H8V8Z"/></symbol>
+      <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 11h10.2l-3.6-3.6L13 6l6 6l-6 6l-1.4-1.4l3.6-3.6H5v-2Z"/></symbol>
+      <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="m19 11v2H8.8l3.6 3.6L11 18l-6-6l6-6l1.4 1.4L8.8 11H19Z"/></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path d="m8 5 11 7-11 7V5Z"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m10 16.2 8.2-8.2L19.6 9.4 10 19 4.4 13.4 5.8 12Z"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M11 5h2v14h-2V5Zm-6 6h14v2H5v-2Z"/></symbol>
+    </svg>
+
+    <div class="ui-app-shell" data-role="app-shell" data-mobile-view="explore">
+      <header class="ui-topbar ui-panel-surface">
+        <div class="ui-topbar__left">
+          <button class="ui-icon-button" type="button" data-mobile-view="home" aria-label="home">
+            <svg class="ui-icon"><use href="#i-home"></use></svg>
+          </button>
+          <div class="ui-topbar__titles">
+            <span class="ui-topbar__eyebrow">Flow shell</span>
+            <h1 class="ui-topbar__title">Coaching UI</h1>
+          </div>
+        </div>
+        <div class="ui-topbar__center" data-role="top-progress"></div>
+        <div class="ui-topbar__actions">
+          <button class="ui-icon-button is-accent" type="button" data-action="cycle-locale" aria-label="locale">
+            <span class="ui-locale-indicator" data-role="locale-indicator">EN</span>
+          </button>
+          <button class="ui-icon-button" type="button" data-action="open-detail" aria-label="detail">
+            <svg class="ui-icon"><use href="#i-note"></use></svg>
+          </button>
+        </div>
+      </header>
+
+      <section class="ui-home-strip ui-panel-surface" data-role="home-strip">
+        <div class="ui-home-hero">
+          <div class="ui-home-art" data-role="hero-art"></div>
+          <div class="ui-home-copy">
+            <span class="ui-kicker">Current focus</span>
+            <strong data-role="hero-title">Direction</strong>
+            <span data-role="hero-subtitle">tap a tile</span>
+          </div>
+        </div>
+        <div class="ui-home-actions" data-role="quick-actions"></div>
+      </section>
+
+      <section class="ui-trailbar ui-panel-surface" data-role="trailbar"></section>
+
+      <main class="ui-shell-grid">
+        <section class="ui-left-rail">
+          <section class="ui-flow-section ui-panel-surface">
+            <div class="ui-section-head">
+              <span class="ui-panel-head__label">Topics</span>
+              <button class="ui-mini-action" type="button" data-mobile-view="explore">
+                <svg class="ui-icon ui-icon--xs"><use href="#i-arrow-right"></use></svg>
+              </button>
+            </div>
+            <div class="ui-scroll-row ui-scroll-row--cards" data-role="topic-row"></div>
+          </section>
+
+          <section class="ui-flow-section ui-panel-surface">
+            <div class="ui-section-head">
+              <span class="ui-panel-head__label">Context</span>
+              <button class="ui-mini-action" type="button" data-mobile-view="context">
+                <svg class="ui-icon ui-icon--xs"><use href="#i-plus"></use></svg>
+              </button>
+            </div>
+            <div class="ui-scroll-row ui-scroll-row--cards" data-role="context-row"></div>
+          </section>
+
+          <section class="ui-explore-board ui-panel-surface">
+            <div class="ui-section-head ui-section-head--sticky">
+              <span class="ui-panel-head__label" data-role="active-topic-label">Explore</span>
+              <div class="ui-segmented-switch" data-role="mobile-stage-tabs">
+                <button class="is-active" type="button" data-mobile-view="explore">Explore</button>
+                <button type="button" data-mobile-view="view">View</button>
+              </div>
+            </div>
+            <div class="ui-lane-stack" data-role="explore-stack">
+              <section class="ui-lane-group">
+                <div class="ui-lane-head">
+                  <span data-role="feeling-title">Feelings</span>
+                  <span class="ui-count-badge" data-role="feeling-count">0</span>
+                </div>
+                <div class="ui-scroll-row ui-scroll-row--tiles" data-role="feeling-row"></div>
+              </section>
+              <section class="ui-lane-group">
+                <div class="ui-lane-head">
+                  <span data-role="keyword-title">Keywords</span>
+                  <span class="ui-count-badge" data-role="keyword-count">0</span>
+                </div>
+                <div class="ui-scroll-row ui-scroll-row--tiles" data-role="keyword-row"></div>
+              </section>
+              <section class="ui-lane-group">
+                <div class="ui-lane-head">
+                  <span data-role="deeper-title">Deeper</span>
+                  <span class="ui-count-badge" data-role="deeper-count">0</span>
+                </div>
+                <div class="ui-scroll-row ui-scroll-row--tiles" data-role="deeper-row"></div>
+              </section>
+            </div>
+          </section>
+        </section>
+
+        <section class="ui-right-rail" data-role="view-panel">
+          <section class="ui-dashboard-panel ui-panel-surface">
+            <div class="ui-card-head">
+              <span class="ui-panel-head__label">Snapshot</span>
+              <span class="ui-pill" data-role="selected-count">0 picks</span>
+            </div>
+            <div class="ui-dashboard-grid">
+              <article class="ui-stat-card is-hero">
+                <div class="ui-stat-card__art" data-role="focus-art"></div>
+                <div class="ui-stat-card__copy">
+                  <strong data-role="focus-title">Direction</strong>
+                  <span data-role="focus-subtitle">active lane</span>
+                </div>
+              </article>
+              <article class="ui-stat-card">
+                <div class="ui-stat-card__value" data-role="context-count">1</div>
+                <div class="ui-stat-card__label">Context</div>
+              </article>
+              <article class="ui-stat-card">
+                <div class="ui-stat-card__value" data-role="trail-depth">0</div>
+                <div class="ui-stat-card__label">Trail</div>
+              </article>
+            </div>
+          </section>
+
+          <section class="ui-wheel-panel ui-panel-surface">
+            <div class="ui-card-head">
+              <span class="ui-panel-head__label">Wheel</span>
+              <button class="ui-mini-action" type="button" data-action="open-detail">
+                <svg class="ui-icon ui-icon--xs"><use href="#i-ring"></use></svg>
+              </button>
+            </div>
+            <div class="ui-wheel-visual" data-role="wheel-visual">
+              <div class="ui-wheel-center">
+                <svg class="ui-icon"><use href="#i-ring"></use></svg>
+              </div>
+            </div>
+            <div class="ui-wheel-legend" data-role="wheel-legend"></div>
+          </section>
+
+          <section class="ui-prompt-panel ui-panel-surface">
+            <div class="ui-card-head">
+              <span class="ui-panel-head__label">Prompt</span>
+              <span class="ui-pill" data-role="prompt-mode-label">select</span>
+            </div>
+            <div class="ui-prompt-question" data-role="prompt-question">Pick a topic.</div>
+            <div class="ui-scroll-row ui-scroll-row--prompt" data-role="prompt-options"></div>
+          </section>
+        </section>
+      </main>
+
+      <nav class="ui-bottom-nav ui-panel-surface" data-role="bottom-nav">
+        <button class="ui-nav-item is-active" type="button" data-mobile-view="explore">
+          <svg class="ui-icon"><use href="#i-grid"></use></svg>
+          <span>Explore</span>
+        </button>
+        <button class="ui-nav-item" type="button" data-mobile-view="context">
+          <svg class="ui-icon"><use href="#i-user"></use></svg>
+          <span>Context</span>
+        </button>
+        <button class="ui-nav-item" type="button" data-mobile-view="view">
+          <svg class="ui-icon"><use href="#i-ring"></use></svg>
+          <span>View</span>
+        </button>
+        <button class="ui-nav-item" type="button" data-mobile-view="detail">
+          <svg class="ui-icon"><use href="#i-note"></use></svg>
+          <span>Detail</span>
+        </button>
+      </nav>
+
+      <aside class="ui-detail-sheet" data-role="detail-sheet" aria-hidden="true">
+        <div class="ui-detail-sheet__scrim" data-action="close-detail"></div>
+        <div class="ui-detail-sheet__panel ui-panel-surface">
+          <div class="ui-detail-sheet__grab"></div>
+          <div class="ui-detail-sheet__head">
+            <button class="ui-icon-button" type="button" data-action="close-detail" aria-label="back">
+              <svg class="ui-icon"><use href="#i-arrow-left"></use></svg>
+            </button>
+            <div class="ui-detail-sheet__titles">
+              <span data-role="detail-kicker">Selected</span>
+              <strong data-role="detail-title">—</strong>
+            </div>
+            <div class="ui-detail-sheet__badge" data-role="detail-icon"></div>
+          </div>
+
+          <div class="ui-detail-sheet__body">
+            <div class="ui-detail-card">
+              <p class="ui-detail-copy" data-role="detail-copy"></p>
+              <div class="ui-mini-metrics" data-role="detail-metrics"></div>
+            </div>
+
+            <div class="ui-detail-card">
+              <div class="ui-card-head ui-card-head--tight">
+                <span class="ui-panel-head__label">Next picks</span>
+                <span class="ui-pill" data-role="detail-hint-count">0</span>
+              </div>
+              <div class="ui-scroll-row ui-scroll-row--prompt" data-role="detail-options"></div>
+            </div>
+
+            <div class="ui-detail-actions">
+              <button class="ui-square-action" type="button" data-action="pick-current">
+                <span class="ui-icon-wrap"><svg class="ui-icon"><use href="#i-check"></use></svg></span>
+                <span>Pick</span>
+              </button>
+              <button class="ui-square-action" type="button" data-action="jump-related">
+                <span class="ui-icon-wrap"><svg class="ui-icon"><use href="#i-arrow-right"></use></svg></span>
+                <span>Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <script type="module" src="./assets/js/main.js"></script>
+  </body>
+</html>

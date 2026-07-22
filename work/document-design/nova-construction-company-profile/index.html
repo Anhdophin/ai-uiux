@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>NOVA CONSTRUCTION COMPANY PROFILE - Work</title>
+  <meta name="description" content="Case study for Nova Construction company profile project.">
+  <link rel="stylesheet" href="../../../../css/base.css">
+</head>
+<body>
+  <div id="subpage-header"></div>
+
+  <div id="project-case-root"></div>
+
+  <div id="subpage-footer"></div>
+  <script src="../../../../shared/subpage-components.js"></script>
+  <script type="module">
+    import { renderProjectCase } from '../../shared/project-case-template.js';
+    import { novaConstructionProject } from '../../data/projects/nova-construction-company-profile.js';
+
+    const mount = document.getElementById('project-case-root');
+    if (mount) {
+      mount.innerHTML = renderProjectCase(novaConstructionProject);
+    }
+  </script>
+</body>
+</html>

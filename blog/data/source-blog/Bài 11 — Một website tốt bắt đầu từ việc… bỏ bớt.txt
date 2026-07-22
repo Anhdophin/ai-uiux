@@ -1,0 +1,192 @@
+Bài 11 — Một website tốt bắt đầu từ việc… bỏ bớt
+🧠 Một phản xạ rất tự nhiên… nhưng dễ đi sai hướng
+
+Khi một website chưa hiệu quả,
+cách nghĩ phổ biến là:
+
+Thêm nội dung
+Thêm section
+Thêm giải thích
+Thêm chi tiết
+
+Vì cảm giác rằng:
+
+“Chắc là chưa đủ nên người ta chưa hiểu”
+
+Nhưng sau khi thêm vào…
+
+Website không rõ hơn.
+Chỉ trở nên nặng hơn.
+
+Và đây là lúc một hướng đi khác bắt đầu xuất hiện:
+
+Không phải thêm — mà là bỏ
+
+🔍 Khi vấn đề không nằm ở thiếu
+
+Trong nhiều trường hợp,
+website không thiếu thông tin.
+
+Nó đang có:
+
+nhiều đoạn text
+nhiều section
+nhiều thông điệp
+nhiều cách diễn đạt
+
+Nhưng khi đọc, lại có cảm giác:
+
+không rõ cái chính là gì
+không biết nên tập trung vào đâu
+thông tin bị lặp lại dưới nhiều dạng
+
+👉 Đây không phải là thiếu.
+👉 Đây là overload.
+
+📌 [Chỗ này nên có hình minh họa: một trang đầy chữ vs một trang đã được tinh giản]
+
+🧠 Khi quá nhiều thứ cùng xuất hiện
+
+Não người không xử lý tốt khi có quá nhiều lựa chọn cùng lúc.
+
+Khi một trang web:
+
+nói nhiều thứ cùng lúc
+lặp lại thông điệp theo nhiều cách
+đưa ra quá nhiều điểm quan trọng
+
+Thì thực tế xảy ra là:
+
+không có gì nổi bật
+
+Người đọc sẽ:
+
+lướt nhanh
+bỏ qua chi tiết
+không giữ lại được gì rõ ràng
+🔄 Khi bắt đầu “bỏ”
+
+Bỏ không phải là làm ít đi.
+
+Mà là:
+
+giữ lại cái cần thiết nhất để hiểu
+
+Quá trình này thường đi qua 3 bước:
+
+🔹 1. Cắt text dư
+Những câu dài nhưng không thêm ý
+Những đoạn lặp lại cùng một thông điệp
+Những phần giải thích quá sớm
+
+Kết quả:
+
+câu ngắn hơn
+ý rõ hơn
+dễ đọc hơn
+🔹 2. Cắt section dư
+Những phần không có vai trò rõ trong flow
+Những section “có cũng được”
+Những block không dẫn dắt sang bước tiếp theo
+
+Kết quả:
+
+flow gọn lại
+thứ tự rõ hơn
+người đọc không bị phân tán
+🔹 3. Cắt message trùng
+Cùng một ý được nói lại nhiều lần
+Dưới nhiều cách diễn đạt khác nhau
+Nhưng không tạo thêm giá trị
+
+Kết quả:
+
+mỗi thông điệp chỉ xuất hiện một lần
+nhưng xuất hiện đúng chỗ
+
+📌 [Chỗ này nên có hình minh họa: highlight nội dung bị trùng và phiên bản đã được cắt gọn]
+
+🧩 Khi bỏ đúng
+
+Một điều thú vị xảy ra:
+
+Website không bị “thiếu”.
+
+Nó trở nên:
+
+rõ hơn
+nhẹ hơn
+dễ theo hơn
+
+Người đọc:
+
+hiểu nhanh hơn
+ít phải suy nghĩ hơn
+dễ đi tiếp hơn
+
+👉 Không phải vì có ít thông tin hơn.
+👉 Mà vì ít nhiễu hơn
+
+⚠️ Vì sao khó bỏ?
+
+Vì mỗi phần nội dung đều có lý do tồn tại.
+
+Đã viết rồi → khó bỏ
+Đã thêm rồi → muốn giữ
+Sợ thiếu → giữ lại cho chắc
+
+Nhưng khi nhìn từ phía người dùng:
+
+Họ không biết những phần đó được thêm vào vì lý do gì.
+
+Họ chỉ thấy:
+
+một dòng chảy có rõ hay không
+
+🧠 Góc nhìn UX
+
+Clarity không đến từ việc thêm.
+
+Nó đến từ việc:
+
+loại bỏ cái không cần thiết
+
+Một website tốt không phải là website có nhiều thông tin nhất.
+
+Mà là website:
+
+nói đúng
+nói đủ
+nói đúng lúc
+🔚 Kết lại
+
+Một website tốt không bắt đầu từ việc thêm.
+
+👉 Nó bắt đầu từ:
+
+việc bỏ bớt
+
+Và khi bỏ đúng:
+
+Clarity = loại bỏ
+
+🚀 Call to Action
+
+Nếu anh đang:
+
+Có website nhiều nội dung nhưng khó đọc
+Không biết nên giữ hay cắt phần nào
+Cảm giác “có gì đó rối” nhưng không rõ ở đâu
+
+→ Có thể vấn đề không nằm ở thiếu.
+
+Mà là chưa loại bỏ đúng
+
+👉 iAppLab hỗ trợ:
+
+Audit nội dung để xác định phần dư
+Tinh giản structure mà không mất ý
+Thiết kế lại flow giúp nội dung rõ ràng và dễ hiểu
+
+Xem dịch vụ thiết kế web & tối ưu nội dung tại iAppLab →
+(link đặt tại đây)

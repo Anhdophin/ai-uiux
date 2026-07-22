@@ -1,0 +1,228 @@
+
+/*
+  Layout rules.
+  v18 mobile-first rebuild:
+  - mobile is the primary viewport
+  - tablet is the upper target range
+  - desktop only spreads the same mobile system; it does not become the primary layout model
+  - no module should lose content because of equal-height forcing
+*/
+.ui-app-shell {
+  max-width: 860px;
+  margin-inline: auto;
+}
+
+.ui-shell-grid {
+  min-height: 0;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--ui-gap-3);
+}
+
+.ui-left-rail,
+.ui-right-rail {
+  min-height: 0;
+  display: grid;
+  gap: var(--ui-gap-3);
+}
+
+.ui-left-rail {
+  grid-template-rows: auto auto minmax(0, 1fr);
+}
+
+.ui-right-rail {
+  grid-template-rows: auto auto auto;
+  align-content: start;
+  overflow-y: auto;
+  padding-right: 2px;
+}
+
+.ui-flow-section,
+.ui-dashboard-panel,
+.ui-wheel-panel,
+.ui-prompt-panel {
+  min-height: 0;
+}
+
+.ui-explore-board {
+  min-height: 0;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  overflow: hidden;
+}
+
+.ui-lane-stack {
+  min-height: 0;
+  display: grid;
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+  gap: var(--ui-gap-3);
+  align-content: stretch;
+  overflow: hidden;
+}
+
+.ui-lane-group {
+  min-height: 0;
+}
+
+.ui-scroll-row--cards {
+  min-height: 102px;
+}
+
+.ui-scroll-row--tiles,
+.ui-scroll-row--prompt {
+  min-height: calc(var(--ui-tile-size) + 4px);
+}
+
+.ui-bottom-nav {
+  display: flex;
+}
+
+@media (min-width: 720px) {
+  .ui-app-shell {
+    max-width: 980px;
+  }
+}
+
+@media (min-width: 920px) {
+  :root {
+    --ui-topic-size: 92px;
+    --ui-context-size: 88px;
+    --ui-tile-size: 96px;
+    --ui-prompt-size: 108px;
+  }
+
+  .ui-app-shell {
+    max-width: 1240px;
+    padding-inline: 18px;
+  }
+
+  .ui-shell-grid {
+    grid-template-columns: minmax(0, 1.18fr) minmax(320px, 0.82fr);
+  }
+
+  .ui-right-rail {
+    grid-template-rows: auto auto auto;
+    overflow: hidden;
+  }
+
+  .ui-bottom-nav {
+    left: 50%;
+    right: auto;
+    width: min(420px, calc(100vw - 36px));
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 919px) {
+  .ui-app-shell {
+    padding: 14px 14px calc(var(--ui-bottom-nav-height) + 18px);
+    grid-template-rows: 68px auto auto minmax(0, 1fr);
+    overflow: hidden;
+  }
+
+  .ui-home-strip {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+
+  .ui-home-actions {
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+
+  .ui-segmented-switch {
+    display: inline-flex;
+  }
+
+  .ui-shell-grid {
+    height: 100%;
+    padding-bottom: 0;
+  }
+
+  .ui-left-rail,
+  .ui-right-rail {
+    min-height: 0;
+  }
+
+  .ui-right-rail {
+    align-content: start;
+    overflow-y: auto;
+  }
+
+  .ui-app-shell[data-mobile-view="context"] .ui-explore-board,
+  .ui-app-shell[data-mobile-view="context"] .ui-right-rail,
+  .ui-app-shell[data-mobile-view="view"] .ui-left-rail,
+  .ui-app-shell[data-mobile-view="home"] .ui-shell-grid,
+  .ui-app-shell[data-mobile-view="detail"] .ui-shell-grid {
+    display: none;
+  }
+
+  .ui-app-shell[data-mobile-view="home"] .ui-home-strip,
+  .ui-app-shell[data-mobile-view="home"] .ui-trailbar {
+    display: flex;
+  }
+
+  .ui-app-shell[data-mobile-view="context"] .ui-left-rail {
+    display: grid;
+  }
+
+  .ui-app-shell[data-mobile-view="context"] .ui-explore-board {
+    display: none;
+  }
+
+  .ui-app-shell[data-mobile-view="view"] .ui-right-rail {
+    display: grid;
+  }
+
+  .ui-app-shell[data-mobile-view="view"] .ui-left-rail {
+    display: none;
+  }
+
+  .ui-app-shell[data-mobile-view="explore"] .ui-right-rail {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  :root {
+    --ui-topbar-height: 66px;
+    --ui-gap-3: 14px;
+    --ui-topic-size: 84px;
+    --ui-context-size: 82px;
+    --ui-tile-size: 88px;
+    --ui-prompt-size: 96px;
+  }
+
+  .ui-topbar {
+    padding: 10px 12px;
+  }
+
+  .ui-topbar__center {
+    display: none;
+  }
+
+  .ui-topbar__title {
+    font-size: 1.08rem;
+  }
+
+  .ui-dashboard-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ui-stat-card.is-hero {
+    grid-column: 1 / -1;
+  }
+
+  .ui-bottom-nav {
+    left: 14px;
+    right: 14px;
+    width: auto;
+    transform: none;
+  }
+
+  .ui-detail-sheet__panel {
+    left: 14px;
+    right: 14px;
+  }
+}

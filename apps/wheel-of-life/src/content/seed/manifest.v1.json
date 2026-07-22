@@ -1,0 +1,135 @@
+{
+  "version": "v1",
+  "bundles": [
+    {
+      "id": "personas",
+      "file": "personas.v1.json",
+      "schema": "personas.bundle.schema.json"
+    },
+    {
+      "id": "feelings",
+      "file": "feelings.v1.json",
+      "schema": "feelings.schema.json"
+    },
+    {
+      "id": "keyword_tree",
+      "file": "keyword-tree.v1.json",
+      "schema": "keyword-tree.bundle.schema.json"
+    },
+    {
+      "id": "wheel_map",
+      "file": "wheel-map.v1.json",
+      "schema": "wheel-map.schema.json"
+    },
+    {
+      "id": "ai_modes",
+      "file": "ai-modes.v1.json",
+      "schema": "ai-modes.schema.json"
+    },
+    {
+      "id": "sample_session",
+      "file": "sample-session.v1.json",
+      "schema": "sample-session.schema.json"
+    },
+    {
+      "id": "keyword_ontology",
+      "file": "keyword-ontology.v1.json",
+      "schema": "keyword-ontology.schema.json"
+    },
+    {
+      "id": "persona_ontology",
+      "file": "persona-ontology.v1.json",
+      "schema": "persona-ontology.schema.json"
+    },
+    {
+      "id": "wheel_ontology",
+      "file": "wheel-ontology.v1.json",
+      "schema": "wheel-ontology.schema.json"
+    },
+    {
+      "id": "locales",
+      "file": "locales.v1.json",
+      "schema": "i18n-locale.schema.json"
+    },
+    {
+      "id": "user_context_options",
+      "file": "user-context-options.v1.json",
+      "schema": "user-context-options.schema.json"
+    },
+    {
+      "id": "semantic_label_registry",
+      "file": "semantic-label-registry.v1.json",
+      "schema": "semantic-label-registry.schema.json"
+    },
+    {
+      "id": "locale_content_en",
+      "file": "locale-content.en.v1.json",
+      "schema": "locale-content.schema.json"
+    },
+    {
+      "id": "locale_content_vi",
+      "file": "locale-content.vi.v1.json",
+      "schema": "locale-content.schema.json"
+    },
+    {
+      "id": "selectable_prompts",
+      "file": "selectable-prompts.v1.json",
+      "schema": "selectable-prompts.schema.json"
+    },
+    {
+      "id": "ai_option_resolution",
+      "file": "ai-option-resolution.v1.json",
+      "schema": "ai-option-resolution.schema.json"
+    },
+    {
+      "id": "session_flow",
+      "file": "session-flow.v1.json",
+      "schema": "session-flow.schema.json"
+    },
+    {
+      "id": "session_analytics",
+      "file": "session-analytics.v1.json",
+      "schema": "session-analytics.schema.json"
+    },
+    {
+      "id": "cross_session_memory",
+      "file": "cross-session-memory.v1.json",
+      "schema": "cross-session-memory.schema.json"
+    },
+    {
+      "id": "pattern_detection",
+      "file": "pattern-detection.v1.json",
+      "schema": "pattern-detection.schema.json"
+    },
+    {
+      "id": "privacy_retention",
+      "file": "privacy-retention.v1.json",
+      "schema": "privacy-retention.schema.json"
+    },
+    {
+      "id": "identity_linking",
+      "file": "identity-linking.v1.json",
+      "schema": "identity-linking.schema.json"
+    },
+    {
+      "id": "storage_boundary",
+      "file": "storage-boundary.v1.json",
+      "schema": "storage-boundary.schema.json"
+    },
+    {
+      "id": "account_lifecycle",
+      "file": "account-lifecycle.v1.json",
+      "schema": "account-lifecycle.schema.json"
+    },
+    {
+      "id": "export_delete_flows",
+      "file": "export-delete-flows.v1.json",
+      "schema": "export-delete-flows.schema.json"
+    },
+    {
+      "id": "consent_events",
+      "file": "consent-events.v1.json",
+      "schema": "consent-events.schema.json"
+    }
+  ]
+}

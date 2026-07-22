@@ -25,8 +25,8 @@ async function setupHome() {
     <main class="portal-page portal-home-page">
       <section class="portal-hero container">
         <div class="portal-hero__copy">
-          <p class="portal-eyebrow">ai-uiux.com</p>
-          <h1>iAppLab là cổng vào cho app, service, và shop.</h1>
+          <p class="portal-eyebrow">Creative Creation Idie</p>
+          <h1>Anhdophin là cổng vào cho app, service, và shop.</h1>
           <p class="portal-lead">Người dùng business có thể vào dùng app trước, rồi đi tiếp sang service để tìm hiểu dịch vụ thiết kế mini app, hoặc qua shop để xem các sản phẩm đi kèm.</p>
           <div class="portal-actions">
             <a class="portal-cta" href="${root}/apps/">Open Apps</a>
@@ -51,7 +51,7 @@ async function setupHome() {
         </div>
       </section>
       <section class="container portal-section">
-        <div class="portal-section__head"><div><p class="portal-eyebrow">Featured Apps</p><h2>App chính của iAppLab</h2></div><a class="portal-text-link" href="${root}/apps/">Xem toàn bộ apps</a></div>
+        <div class="portal-section__head"><div><p class="portal-eyebrow">Featured Apps</p><h2>App chính của Anhdophin</h2></div><a class="portal-text-link" href="${root}/apps/">Xem toàn bộ apps</a></div>
         <div class="portal-app-grid">${featuredApps.map((item) => appCard(item, root)).join('')}</div>
       </section>
       <section class="container portal-section portal-section--compact">

@@ -1,0 +1,18 @@
+{
+  "version": "v1",
+  "event_types": [
+    "consent_granted",
+    "consent_withdrawn",
+    "export_requested",
+    "export_generated",
+    "delete_requested",
+    "delete_completed",
+    "lifecycle_transition"
+  ],
+  "scopes": [
+    "memory_linking",
+    "analytics_tracking",
+    "account_ready_export",
+    "account_ready_delete"
+  ]
+}

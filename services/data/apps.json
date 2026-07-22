@@ -25,5 +25,14 @@
     "path": "apps/ebook_reader/",
     "group": "Reading Tool",
     "shelf": 1
+  },
+  {
+    "slug": "wheel-of-life",
+    "title": "Wheel of Life v5",
+    "subtitle": "Flow guided để người dùng tự soi lại trạng thái cuộc sống theo context và persona.",
+    "icon": "/apps/wheel-of-life/icon.png",
+    "path": "apps/wheel-of-life/",
+    "group": "Coaching Tool",
+    "shelf": 1
   }
 ]

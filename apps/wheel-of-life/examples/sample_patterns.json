@@ -1,0 +1,18 @@
+{
+  "patterns": [
+    {
+      "pattern_id": "p01",
+      "type": "repeated_concern",
+      "topic": "work stress",
+      "frequency": 2,
+      "confidence": "low"
+    },
+    {
+      "pattern_id": "p02",
+      "type": "avoidance",
+      "topic": "avoid and distract",
+      "frequency": 2,
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,2122 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-04-05",
+  "source_note": "Starter keyword graph with depth 0-3.",
+  "nodes": [
+    {
+      "id": "unclear_direction",
+      "label": "Mơ hồ hướng đi",
+      "depth": 0,
+      "kind": "feeling",
+      "parent_ids": [],
+      "child_ids": [
+        "ud_future",
+        "ud_strengths",
+        "ud_roadmap"
+      ],
+      "related_node_ids": [
+        "stuck"
+      ],
+      "life_area_weights": {
+        "direction": 0.6,
+        "career": 0.4
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Điều nào mơ hồ nhất: tương lai, năng lực, hay lộ trình?"
+      ],
+      "short_meaning": "Mơ hồ hướng đi",
+      "long_meaning": "Node 'Mơ hồ hướng đi' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Điều nào mơ hồ nhất: tương lai, năng lực, hay lộ trình?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "ud_future",
+      "label": "Không thấy tương lai",
+      "depth": 1,
+      "kind": "problem",
+      "parent_ids": [
+        "unclear_direction"
+      ],
+      "child_ids": [
+        "ud_future_path",
+        "ud_future_industry"
+      ],
+      "related_node_ids": [
+        "pressure_expectation",
+        "stuck_growth"
+      ],
+      "life_area_weights": {
+        "direction": 0.5,
+        "career": 0.5
+      },
+      "persona_tags": [
+        "early-career",
+        "transition"
+      ],
+      "clarifying_prompts": [
+        "Anh/chị không thấy tương lai ở công việc hiện tại hay ở cả bản thân?"
+      ],
+      "short_meaning": "Không thấy tương lai",
+      "long_meaning": "Node 'Không thấy tương lai' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Anh/chị không thấy tương lai ở công việc hiện tại hay ở cả bản thân?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "ud_strengths",
+      "label": "Không rõ mình mạnh gì",
+      "depth": 1,
+      "kind": "problem",
+      "parent_ids": [
+        "unclear_direction"
+      ],
+      "child_ids": [
+        "ud_strengths_feedback",
+        "ud_strengths_exposure"
+      ],
+      "related_node_ids": [
+        "stuck_motivation",
+        "want_change_job"
+      ],
+      "life_area_weights": {
+        "capability": 0.5,
+        "direction": 0.5
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Vấn đề là chưa từng thử đủ nhiều, hay chưa từng được phản hồi đúng?"
+      ],
+      "short_meaning": "Không rõ mình mạnh gì",
+      "long_meaning": "Node 'Không rõ mình mạnh gì' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Vấn đề là chưa từng thử đủ nhiều, hay chưa từng được phản hồi đúng?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "ud_roadmap",
+      "label": "Không có roadmap",
+      "depth": 1,
+      "kind": "problem",
+      "parent_ids": [
+        "unclear_direction"
+      ],
+      "child_ids": [
+        "ud_roadmap_mentors",
+        "ud_roadmap_decision"
+      ],
+      "related_node_ids": [
+        "want_change",
+        "want_change_reset"
+      ],
+      "life_area_weights": {
+        "direction": 0.4,
+        "life_system": 0.3,
+        "career": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Thiếu roadmap vì thiếu mentor, thiếu dữ liệu, hay thiếu kỷ luật?"
+      ],
+      "short_meaning": "Không có roadmap",
+      "long_meaning": "Node 'Không có roadmap' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Thiếu roadmap vì thiếu mentor, thiếu dữ liệu, hay thiếu kỷ luật?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "pressure",
+      "label": "Áp lực",
+      "depth": 0,
+      "kind": "feeling",
+      "parent_ids": [],
+      "child_ids": [
+        "pressure_money",
+        "pressure_expectation",
+        "pressure_roles"
+      ],
+      "related_node_ids": [
+        "stuck",
+        "want_change"
+      ],
+      "life_area_weights": {
+        "inner_system": 0.4,
+        "finance": 0.3,
+        "environment": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Áp lực này đến từ tiền, kỳ vọng, hay gánh nhiều vai?"
+      ],
+      "short_meaning": "Áp lực",
+      "long_meaning": "Node 'Áp lực' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Áp lực này đến từ tiền, kỳ vọng, hay gánh nhiều vai?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "pressure_money",
+      "label": "Áp lực tài chính",
+      "depth": 1,
+      "kind": "problem",
+      "parent_ids": [
+        "pressure"
+      ],
+      "child_ids": [
+        "pressure_money_income",
+        "pressure_money_buffer"
+      ],
+      "related_node_ids": [
+        "want_change",
+        "want_change_business_risk",
+        "want_change_job"
+      ],
+      "life_area_weights": {
+        "finance": 0.7,
+        "career": 0.3
+      },
+      "persona_tags": [
+        "male",
+        "builder",
+        "mid-career"
+      ],
+      "clarifying_prompts": [
+        "Áp lực chính là thu nhập thấp, dòng tiền bấp bênh, hay không có vùng đệm?"
+      ],
+      "short_meaning": "Áp lực tài chính",
+      "long_meaning": "Node 'Áp lực tài chính' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Áp lực chính là thu nhập thấp, dòng tiền bấp bênh, hay không có vùng đệm?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "pressure_expectation",
+      "label": "Áp lực kỳ vọng",
+      "depth": 1,
+      "kind": "problem",
+      "parent_ids": [
+        "pressure"
+      ],
+      "child_ids": [
+        "pressure_expectation_family",
+        "pressure_expectation_self"
+      ],
+      "related_node_ids": [
+        "ud_future"
+      ],
+      "life_area_weights": {
+        "environment": 0.4,
+        "inner_system": 0.6
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Kỳ vọng này đến từ gia đình, môi trường, hay chính bản thân?"
+      ],
+      "short_meaning": "Áp lực kỳ vọng",
+      "long_meaning": "Node 'Áp lực kỳ vọng' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Kỳ vọng này đến từ gia đình, môi trường, hay chính bản thân?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "pressure_roles",
+      "label": "Quá nhiều vai trò",
+      "depth": 1,
+      "kind": "problem",
+      "parent_ids": [
+        "pressure"
+      ],
+      "child_ids": [
+        "pressure_roles_family",
+        "pressure_roles_focus"
+      ],
+      "related_node_ids": [
+        "pressure_roles_family"
+      ],
+      "life_area_weights": {
+        "life_system": 0.4,
+        "environment": 0.3,
+        "health": 0.3
+      },
+      "persona_tags": [
+        "builder",
+        "female"
+      ],
+      "clarifying_prompts": [
+        "Vai trò nào đang lấy nhiều năng lượng nhất?"
+      ],
+      "short_meaning": "Quá nhiều vai trò",
+      "long_meaning": "Node 'Quá nhiều vai trò' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Vai trò nào đang lấy nhiều năng lượng nhất?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "stuck",
+      "label": "Bị kẹt",
+      "depth": 0,
+      "kind": "feeling",
+      "parent_ids": [],
+      "child_ids": [
+        "stuck_growth",
+        "stuck_motivation",
+        "stuck_environment"
+      ],
+      "related_node_ids": [
+        "pressure",
+        "unclear_direction"
+      ],
+      "life_area_weights": {
+        "career": 0.4,
+        "inner_system": 0.3,
+        "environment": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Sự kẹt này là do tăng trưởng, động lực, hay môi trường?"
+      ],
+      "short_meaning": "Bị kẹt",
+      "long_meaning": "Node 'Bị kẹt' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Sự kẹt này là do tăng trưởng, động lực, hay môi trường?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "stuck_growth",
+      "label": "Làm lâu nhưng không tiến",
+      "depth": 1,
+      "kind": "problem",
+      "parent_ids": [
+        "stuck"
+      ],
+      "child_ids": [
+        "stuck_growth_skill",
+        "stuck_growth_visibility"
+      ],
+      "related_node_ids": [
+        "ud_future"
+      ],
+      "life_area_weights": {
+        "career": 0.6,
+        "capability": 0.4
+      },
+      "persona_tags": [
+        "early",
+        "mid"
+      ],
+      "clarifying_prompts": [
+        "Không tiến vì skill không tăng, hay vì không được nhìn thấy?"
+      ],
+      "short_meaning": "Làm lâu nhưng không tiến",
+      "long_meaning": "Node 'Làm lâu nhưng không tiến' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Không tiến vì skill không tăng, hay vì không được nhìn thấy?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "stuck_motivation",
+      "label": "Thiếu động lực",
+      "depth": 1,
+      "kind": "problem",
+      "parent_ids": [
+        "stuck"
+      ],
+      "child_ids": [
+        "stuck_motivation_meaning",
+        "stuck_motivation_energy"
+      ],
+      "related_node_ids": [
+        "ud_strengths"
+      ],
+      "life_area_weights": {
+        "inner_system": 0.5,
+        "direction": 0.3,
+        "health": 0.2
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Đây là mất ý nghĩa hay cạn năng lượng?"
+      ],
+      "short_meaning": "Thiếu động lực",
+      "long_meaning": "Node 'Thiếu động lực' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Đây là mất ý nghĩa hay cạn năng lượng?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "stuck_environment",
+      "label": "Môi trường không kéo mình lên",
+      "depth": 1,
+      "kind": "problem",
+      "parent_ids": [
+        "stuck"
+      ],
+      "child_ids": [
+        "stuck_environment_team",
+        "stuck_environment_network"
+      ],
+      "related_node_ids": [
+        "pressure_expectation_family"
+      ],
+      "life_area_weights": {
+        "environment": 0.7,
+        "career": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Môi trường ở đây là công ty, người thân, hay network?"
+      ],
+      "short_meaning": "Môi trường không kéo mình lên",
+      "long_meaning": "Node 'Môi trường không kéo mình lên' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Môi trường ở đây là công ty, người thân, hay network?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "want_change",
+      "label": "Muốn đổi",
+      "depth": 0,
+      "kind": "feeling",
+      "parent_ids": [],
+      "child_ids": [
+        "want_change_job",
+        "want_change_business",
+        "want_change_reset"
+      ],
+      "related_node_ids": [
+        "pressure",
+        "pressure_money",
+        "ud_roadmap"
+      ],
+      "life_area_weights": {
+        "direction": 0.4,
+        "career": 0.4,
+        "finance": 0.2
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Anh/chị muốn đổi nghề, lập kinh doanh, hay chỉ muốn một phiên bản sống khác?"
+      ],
+      "short_meaning": "Muốn đổi",
+      "long_meaning": "Node 'Muốn đổi' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Anh/chị muốn đổi nghề, lập kinh doanh, hay chỉ muốn một phiên bản sống khác?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "want_change_job",
+      "label": "Muốn đổi nghề",
+      "depth": 1,
+      "kind": "problem",
+      "parent_ids": [
+        "want_change"
+      ],
+      "child_ids": [
+        "want_change_job_fit",
+        "want_change_job_plan"
+      ],
+      "related_node_ids": [
+        "pressure_money",
+        "ud_strengths"
+      ],
+      "life_area_weights": {
+        "career": 0.5,
+        "direction": 0.3,
+        "finance": 0.2
+      },
+      "persona_tags": [
+        "transition"
+      ],
+      "clarifying_prompts": [
+        "Đổi nghề vì nghề cũ không hợp, hay vì không còn cơ hội tăng trưởng?"
+      ],
+      "short_meaning": "Muốn đổi nghề",
+      "long_meaning": "Node 'Muốn đổi nghề' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Đổi nghề vì nghề cũ không hợp, hay vì không còn cơ hội tăng trưởng?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "want_change_business",
+      "label": "Muốn kinh doanh",
+      "depth": 1,
+      "kind": "problem",
+      "parent_ids": [
+        "want_change"
+      ],
+      "child_ids": [
+        "want_change_business_model",
+        "want_change_business_risk"
+      ],
+      "related_node_ids": [
+        "pressure_money_buffer"
+      ],
+      "life_area_weights": {
+        "career": 0.4,
+        "finance": 0.4,
+        "life_system": 0.2
+      },
+      "persona_tags": [
+        "builder"
+      ],
+      "clarifying_prompts": [
+        "Muốn kinh doanh để tự chủ, hay vì đang thấy một cơ hội cụ thể?"
+      ],
+      "short_meaning": "Muốn kinh doanh",
+      "long_meaning": "Node 'Muốn kinh doanh' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Muốn kinh doanh để tự chủ, hay vì đang thấy một cơ hội cụ thể?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "want_change_reset",
+      "label": "Sợ reset từ đầu",
+      "depth": 1,
+      "kind": "problem",
+      "parent_ids": [
+        "want_change"
+      ],
+      "child_ids": [
+        "want_change_reset_identity",
+        "want_change_reset_cost"
+      ],
+      "related_node_ids": [
+        "ud_roadmap",
+        "ud_roadmap_decision"
+      ],
+      "life_area_weights": {
+        "inner_system": 0.4,
+        "finance": 0.3,
+        "direction": 0.3
+      },
+      "persona_tags": [
+        "transition",
+        "mid"
+      ],
+      "clarifying_prompts": [
+        "Điều làm anh/chị sợ nhất là mất tiền, mất thời gian, hay mất cảm giác mình từng là ai?"
+      ],
+      "short_meaning": "Sợ reset từ đầu",
+      "long_meaning": "Node 'Sợ reset từ đầu' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Điều làm anh/chị sợ nhất là mất tiền, mất thời gian, hay mất cảm giác mình từng là ai?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "ud_future_path",
+      "label": "Không hình dung được path 2-3 năm tới",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "ud_future"
+      ],
+      "child_ids": [
+        "ud_future_path_exposure"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "direction": 0.6,
+        "career": 0.4
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Anh/chị đã từng nhìn thấy path nào đủ cụ thể để tin chưa?"
+      ],
+      "short_meaning": "Không hình dung được path 2-3 năm tới",
+      "long_meaning": "Node 'Không hình dung được path 2-3 năm tới' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Anh/chị đã từng nhìn thấy path nào đủ cụ thể để tin chưa?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "ud_future_industry",
+      "label": "Không hiểu ngành đang đi về đâu",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "ud_future"
+      ],
+      "child_ids": [
+        "ud_future_industry_signal"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "career": 0.6,
+        "direction": 0.4
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Anh/chị đang thiếu dữ liệu thị trường hay thiếu người để tham chiếu?"
+      ],
+      "short_meaning": "Không hiểu ngành đang đi về đâu",
+      "long_meaning": "Node 'Không hiểu ngành đang đi về đâu' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Anh/chị đang thiếu dữ liệu thị trường hay thiếu người để tham chiếu?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "ud_strengths_feedback",
+      "label": "Ít nhận được phản hồi đúng",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "ud_strengths"
+      ],
+      "child_ids": [
+        "ud_strengths_feedback_blind"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "capability": 0.4,
+        "environment": 0.3,
+        "direction": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Môi trường hiện tại có ai đủ hiểu việc của anh/chị để phản hồi không?"
+      ],
+      "short_meaning": "Ít nhận được phản hồi đúng",
+      "long_meaning": "Node 'Ít nhận được phản hồi đúng' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Môi trường hiện tại có ai đủ hiểu việc của anh/chị để phản hồi không?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "ud_strengths_exposure",
+      "label": "Chưa thử đủ nhiều để thấy điểm mạnh",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "ud_strengths"
+      ],
+      "child_ids": [
+        "ud_strengths_exposure_narrow"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "capability": 0.5,
+        "direction": 0.5
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Anh/chị đang bị bó trong một loại việc quá hẹp?"
+      ],
+      "short_meaning": "Chưa thử đủ nhiều để thấy điểm mạnh",
+      "long_meaning": "Node 'Chưa thử đủ nhiều để thấy điểm mạnh' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Anh/chị đang bị bó trong một loại việc quá hẹp?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "ud_roadmap_mentors",
+      "label": "Không có mentor hoặc hình mẫu gần",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "ud_roadmap"
+      ],
+      "child_ids": [
+        "ud_roadmap_mentors_sparse"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "environment": 0.4,
+        "direction": 0.3,
+        "career": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Anh/chị có đang đi một mình quá lâu?"
+      ],
+      "short_meaning": "Không có mentor hoặc hình mẫu gần",
+      "long_meaning": "Node 'Không có mentor hoặc hình mẫu gần' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Anh/chị có đang đi một mình quá lâu?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "ud_roadmap_decision",
+      "label": "Biết nhiều nhưng khó chốt quyết định",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "ud_roadmap"
+      ],
+      "child_ids": [
+        "ud_roadmap_decision_fear"
+      ],
+      "related_node_ids": [
+        "want_change_reset"
+      ],
+      "life_area_weights": {
+        "inner_system": 0.4,
+        "direction": 0.4,
+        "life_system": 0.2
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Đang thiếu tiêu chí chọn, hay sợ trả giá cho lựa chọn sai?"
+      ],
+      "short_meaning": "Biết nhiều nhưng khó chốt quyết định",
+      "long_meaning": "Node 'Biết nhiều nhưng khó chốt quyết định' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Đang thiếu tiêu chí chọn, hay sợ trả giá cho lựa chọn sai?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "pressure_money_income",
+      "label": "Thu nhập không theo kịp nhu cầu",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "pressure_money"
+      ],
+      "child_ids": [
+        "pressure_money_income_gap"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "finance": 0.7,
+        "career": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Thu nhập thấp do mức lương, số job, hay cấu trúc thu nhập chưa đúng?"
+      ],
+      "short_meaning": "Thu nhập không theo kịp nhu cầu",
+      "long_meaning": "Node 'Thu nhập không theo kịp nhu cầu' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Thu nhập thấp do mức lương, số job, hay cấu trúc thu nhập chưa đúng?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "pressure_money_buffer",
+      "label": "Không có vùng đệm tài chính",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "pressure_money"
+      ],
+      "child_ids": [
+        "pressure_money_buffer_anxiety"
+      ],
+      "related_node_ids": [
+        "want_change_business"
+      ],
+      "life_area_weights": {
+        "finance": 0.8,
+        "inner_system": 0.2
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Điều này làm mọi quyết định trở nên co cụm ra sao?"
+      ],
+      "short_meaning": "Không có vùng đệm tài chính",
+      "long_meaning": "Node 'Không có vùng đệm tài chính' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Điều này làm mọi quyết định trở nên co cụm ra sao?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "pressure_expectation_family",
+      "label": "Gia đình hoặc người thân kỳ vọng cao",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "pressure_expectation"
+      ],
+      "child_ids": [
+        "pressure_expectation_family_compare"
+      ],
+      "related_node_ids": [
+        "stuck_environment"
+      ],
+      "life_area_weights": {
+        "environment": 0.6,
+        "inner_system": 0.4
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Kỳ vọng này là hỗ trợ, hay đang đè nặng?"
+      ],
+      "short_meaning": "Gia đình hoặc người thân kỳ vọng cao",
+      "long_meaning": "Node 'Gia đình hoặc người thân kỳ vọng cao' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Kỳ vọng này là hỗ trợ, hay đang đè nặng?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "pressure_expectation_self",
+      "label": "Tự ép bản thân phải hơn hiện tại",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "pressure_expectation"
+      ],
+      "child_ids": [
+        "pressure_expectation_self_worth"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "inner_system": 0.7,
+        "direction": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Anh/chị đang muốn tốt lên, hay đang sợ bị xem là không đủ tốt?"
+      ],
+      "short_meaning": "Tự ép bản thân phải hơn hiện tại",
+      "long_meaning": "Node 'Tự ép bản thân phải hơn hiện tại' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Anh/chị đang muốn tốt lên, hay đang sợ bị xem là không đủ tốt?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "pressure_roles_family",
+      "label": "Gánh vai gia đình và công việc cùng lúc",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "pressure_roles"
+      ],
+      "child_ids": [
+        "pressure_roles_family_energy"
+      ],
+      "related_node_ids": [
+        "pressure_roles"
+      ],
+      "life_area_weights": {
+        "environment": 0.4,
+        "health": 0.3,
+        "life_system": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Vai nào khiến anh/chị thường xuyên thiếu thời gian thở nhất?"
+      ],
+      "short_meaning": "Gánh vai gia đình và công việc cùng lúc",
+      "long_meaning": "Node 'Gánh vai gia đình và công việc cùng lúc' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Vai nào khiến anh/chị thường xuyên thiếu thời gian thở nhất?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "pressure_roles_focus",
+      "label": "Bị chia nhỏ sự tập trung",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "pressure_roles"
+      ],
+      "child_ids": [
+        "pressure_roles_focus_fragment"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "life_system": 0.5,
+        "health": 0.2,
+        "career": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Ngày của anh/chị bị cắt vụn bởi điều gì?"
+      ],
+      "short_meaning": "Bị chia nhỏ sự tập trung",
+      "long_meaning": "Node 'Bị chia nhỏ sự tập trung' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Ngày của anh/chị bị cắt vụn bởi điều gì?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "stuck_growth_skill",
+      "label": "Skill tăng chậm hoặc không đúng hướng",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "stuck_growth"
+      ],
+      "child_ids": [
+        "stuck_growth_skill_system"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "capability": 0.6,
+        "career": 0.4
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Anh/chị thiếu hệ học đúng, hay thiếu việc đủ khó để lên tay?"
+      ],
+      "short_meaning": "Skill tăng chậm hoặc không đúng hướng",
+      "long_meaning": "Node 'Skill tăng chậm hoặc không đúng hướng' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Anh/chị thiếu hệ học đúng, hay thiếu việc đủ khó để lên tay?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "stuck_growth_visibility",
+      "label": "Có làm nhưng không được nhìn thấy",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "stuck_growth"
+      ],
+      "child_ids": [
+        "stuck_growth_visibility_story"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "career": 0.6,
+        "environment": 0.4
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Vấn đề là thiếu giao tiếp giá trị, hay môi trường không công nhận?"
+      ],
+      "short_meaning": "Có làm nhưng không được nhìn thấy",
+      "long_meaning": "Node 'Có làm nhưng không được nhìn thấy' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Vấn đề là thiếu giao tiếp giá trị, hay môi trường không công nhận?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "stuck_motivation_meaning",
+      "label": "Việc làm không còn ý nghĩa",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "stuck_motivation"
+      ],
+      "child_ids": [
+        "stuck_motivation_meaning_identity"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "direction": 0.5,
+        "inner_system": 0.5
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Anh/chị đang chán việc, hay chán phiên bản mình khi làm việc đó?"
+      ],
+      "short_meaning": "Việc làm không còn ý nghĩa",
+      "long_meaning": "Node 'Việc làm không còn ý nghĩa' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Anh/chị đang chán việc, hay chán phiên bản mình khi làm việc đó?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "stuck_motivation_energy",
+      "label": "Năng lượng tụt kéo dài",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "stuck_motivation"
+      ],
+      "child_ids": [
+        "stuck_motivation_energy_recovery"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "health": 0.5,
+        "inner_system": 0.5
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Năng lượng tụt vì lịch sống, stress, hay vì thiếu niềm tin?"
+      ],
+      "short_meaning": "Năng lượng tụt kéo dài",
+      "long_meaning": "Node 'Năng lượng tụt kéo dài' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Năng lượng tụt vì lịch sống, stress, hay vì thiếu niềm tin?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "stuck_environment_team",
+      "label": "Team / công ty không mở đường",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "stuck_environment"
+      ],
+      "child_ids": [
+        "stuck_environment_team_ceiling"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "environment": 0.6,
+        "career": 0.4
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Môi trường không mở vì cấu trúc, hay vì văn hóa?"
+      ],
+      "short_meaning": "Team / công ty không mở đường",
+      "long_meaning": "Node 'Team / công ty không mở đường' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Môi trường không mở vì cấu trúc, hay vì văn hóa?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "stuck_environment_network",
+      "label": "Thiếu network đúng tần số",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "stuck_environment"
+      ],
+      "child_ids": [
+        "stuck_environment_network_isolation"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "environment": 0.6,
+        "direction": 0.4
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Anh/chị đang thiếu cơ hội gặp người đúng, hay chưa chủ động tham gia?"
+      ],
+      "short_meaning": "Thiếu network đúng tần số",
+      "long_meaning": "Node 'Thiếu network đúng tần số' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Anh/chị đang thiếu cơ hội gặp người đúng, hay chưa chủ động tham gia?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "want_change_job_fit",
+      "label": "Nghề hiện tại không còn hợp",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "want_change_job"
+      ],
+      "child_ids": [
+        "want_change_job_fit_identity"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "career": 0.5,
+        "direction": 0.5
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Không hợp do bản chất nghề, hay do cách đang làm nghề?"
+      ],
+      "short_meaning": "Nghề hiện tại không còn hợp",
+      "long_meaning": "Node 'Nghề hiện tại không còn hợp' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Không hợp do bản chất nghề, hay do cách đang làm nghề?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "want_change_job_plan",
+      "label": "Muốn đổi nhưng chưa có kế hoạch chuyển",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "want_change_job"
+      ],
+      "child_ids": [
+        "want_change_job_plan_bridge"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "career": 0.4,
+        "finance": 0.3,
+        "life_system": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Thiếu kỹ năng mới, thiếu thời gian, hay thiếu cầu nối thử nghiệm?"
+      ],
+      "short_meaning": "Muốn đổi nhưng chưa có kế hoạch chuyển",
+      "long_meaning": "Node 'Muốn đổi nhưng chưa có kế hoạch chuyển' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Thiếu kỹ năng mới, thiếu thời gian, hay thiếu cầu nối thử nghiệm?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "want_change_business_model",
+      "label": "Muốn kinh doanh nhưng mô hình còn mờ",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "want_change_business"
+      ],
+      "child_ids": [
+        "want_change_business_model_offer"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "career": 0.4,
+        "finance": 0.3,
+        "direction": 0.3
+      },
+      "persona_tags": [
+        "builder"
+      ],
+      "clarifying_prompts": [
+        "Chưa rõ mô hình ở phần sản phẩm, khách hàng, hay kênh?"
+      ],
+      "short_meaning": "Muốn kinh doanh nhưng mô hình còn mờ",
+      "long_meaning": "Node 'Muốn kinh doanh nhưng mô hình còn mờ' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Chưa rõ mô hình ở phần sản phẩm, khách hàng, hay kênh?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "want_change_business_risk",
+      "label": "Sợ rủi ro khi xây riêng",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "want_change_business"
+      ],
+      "child_ids": [
+        "want_change_business_risk_buffer"
+      ],
+      "related_node_ids": [
+        "pressure_money"
+      ],
+      "life_area_weights": {
+        "finance": 0.4,
+        "inner_system": 0.3,
+        "life_system": 0.3
+      },
+      "persona_tags": [
+        "builder"
+      ],
+      "clarifying_prompts": [
+        "Sợ rủi ro vì tiền, vì trách nhiệm, hay vì chưa từng vận hành?"
+      ],
+      "short_meaning": "Sợ rủi ro khi xây riêng",
+      "long_meaning": "Node 'Sợ rủi ro khi xây riêng' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Sợ rủi ro vì tiền, vì trách nhiệm, hay vì chưa từng vận hành?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "want_change_reset_identity",
+      "label": "Sợ mất cảm giác mình từng giỏi",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "want_change_reset"
+      ],
+      "child_ids": [
+        "want_change_reset_identity_pride"
+      ],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "inner_system": 0.7,
+        "direction": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Có phải một phần nỗi sợ là phải làm lại từ vị trí thấp?"
+      ],
+      "short_meaning": "Sợ mất cảm giác mình từng giỏi",
+      "long_meaning": "Node 'Sợ mất cảm giác mình từng giỏi' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Có phải một phần nỗi sợ là phải làm lại từ vị trí thấp?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "want_change_reset_cost",
+      "label": "Sợ tốn thời gian và tiền để chuyển",
+      "depth": 2,
+      "kind": "sub_issue",
+      "parent_ids": [
+        "want_change_reset"
+      ],
+      "child_ids": [
+        "want_change_reset_cost_bridge"
+      ],
+      "related_node_ids": [
+        "ud_roadmap_decision_fear"
+      ],
+      "life_area_weights": {
+        "finance": 0.5,
+        "life_system": 0.3,
+        "direction": 0.2
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Anh/chị đã từng tính một lộ trình chuyển từng phần chưa?"
+      ],
+      "short_meaning": "Sợ tốn thời gian và tiền để chuyển",
+      "long_meaning": "Node 'Sợ tốn thời gian và tiền để chuyển' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Anh/chị đã từng tính một lộ trình chuyển từng phần chưa?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "ud_future_path_exposure",
+      "label": "Thiếu người thật / case thật để soi đường",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "ud_future_path"
+      ],
+      "child_ids": [],
+      "related_node_ids": [
+        "ud_roadmap_mentors_sparse"
+      ],
+      "life_area_weights": {
+        "environment": 0.4,
+        "direction": 0.4,
+        "career": 0.2
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Cần thêm exposure có chủ đích thay vì chỉ lướt nội dung tản mạn."
+      ],
+      "short_meaning": "Thiếu người thật / case thật để soi đường",
+      "long_meaning": "Node 'Thiếu người thật / case thật để soi đường' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Cần thêm exposure có chủ đích thay vì chỉ lướt nội dung tản mạn."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "ud_future_industry_signal",
+      "label": "Thiếu hệ theo dõi tín hiệu ngành và thời đại",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "ud_future_industry"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "career": 0.5,
+        "life_system": 0.3,
+        "direction": 0.2
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Cần một hệ đọc tín hiệu thay vì đợi cảm giác an tâm tự đến."
+      ],
+      "short_meaning": "Thiếu hệ theo dõi tín hiệu ngành và thời đại",
+      "long_meaning": "Node 'Thiếu hệ theo dõi tín hiệu ngành và thời đại' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Cần một hệ đọc tín hiệu thay vì đợi cảm giác an tâm tự đến."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "ud_strengths_feedback_blind",
+      "label": "Mù điểm mạnh vì phản hồi quanh mình không đủ chất lượng",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "ud_strengths_feedback"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "environment": 0.4,
+        "capability": 0.3,
+        "inner_system": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Có thể cần môi trường feedback khác, không chỉ cần cố hơn."
+      ],
+      "short_meaning": "Mù điểm mạnh vì phản hồi quanh mình không đủ chất lượng",
+      "long_meaning": "Node 'Mù điểm mạnh vì phản hồi quanh mình không đủ chất lượng' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Có thể cần môi trường feedback khác, không chỉ cần cố hơn."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "ud_strengths_exposure_narrow",
+      "label": "Bị bó trong vùng thử nghiệm quá hẹp",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "ud_strengths_exposure"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "capability": 0.4,
+        "direction": 0.4,
+        "life_system": 0.2
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Mở rộng thử nghiệm nhỏ có thể rõ bản thân hơn nhiều so với suy nghĩ trong đầu."
+      ],
+      "short_meaning": "Bị bó trong vùng thử nghiệm quá hẹp",
+      "long_meaning": "Node 'Bị bó trong vùng thử nghiệm quá hẹp' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Mở rộng thử nghiệm nhỏ có thể rõ bản thân hơn nhiều so với suy nghĩ trong đầu."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "ud_roadmap_mentors_sparse",
+      "label": "Thiếu người đi trước gần đủ để hỏi đường",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "ud_roadmap_mentors"
+      ],
+      "child_ids": [],
+      "related_node_ids": [
+        "ud_future_path_exposure"
+      ],
+      "life_area_weights": {
+        "environment": 0.5,
+        "direction": 0.3,
+        "career": 0.2
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Bài toán có thể là thiết kế lại network chứ không chỉ cố gắng thêm."
+      ],
+      "short_meaning": "Thiếu người đi trước gần đủ để hỏi đường",
+      "long_meaning": "Node 'Thiếu người đi trước gần đủ để hỏi đường' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Bài toán có thể là thiết kế lại network chứ không chỉ cố gắng thêm."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "ud_roadmap_decision_fear",
+      "label": "Sợ chọn sai nên kéo dài quyết định",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "ud_roadmap_decision"
+      ],
+      "child_ids": [],
+      "related_node_ids": [
+        "want_change_reset_cost"
+      ],
+      "life_area_weights": {
+        "inner_system": 0.5,
+        "direction": 0.3,
+        "life_system": 0.2
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Cần tiêu chí quyết định đủ thật, không cần sự chắc chắn tuyệt đối."
+      ],
+      "short_meaning": "Sợ chọn sai nên kéo dài quyết định",
+      "long_meaning": "Node 'Sợ chọn sai nên kéo dài quyết định' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Cần tiêu chí quyết định đủ thật, không cần sự chắc chắn tuyệt đối."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "pressure_money_income_gap",
+      "label": "Cấu trúc thu nhập hiện tại không đủ nuôi mục tiêu sống",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "pressure_money_income"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "finance": 0.6,
+        "career": 0.4
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Bài toán nằm ở tăng giá trị, tăng số kênh, hay giảm lỗ rò tiền?"
+      ],
+      "short_meaning": "Cấu trúc thu nhập hiện tại không đủ nuôi mục tiêu sống",
+      "long_meaning": "Node 'Cấu trúc thu nhập hiện tại không đủ nuôi mục tiêu sống' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Bài toán nằm ở tăng giá trị, tăng số kênh, hay giảm lỗ rò tiền?"
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "pressure_money_buffer_anxiety",
+      "label": "Thiếu vùng đệm khiến mọi lựa chọn bị co lại",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "pressure_money_buffer"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "finance": 0.6,
+        "inner_system": 0.4
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Có thể cần chiến lược vùng đệm trước khi nói chuyện đổi lớn."
+      ],
+      "short_meaning": "Thiếu vùng đệm khiến mọi lựa chọn bị co lại",
+      "long_meaning": "Node 'Thiếu vùng đệm khiến mọi lựa chọn bị co lại' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Có thể cần chiến lược vùng đệm trước khi nói chuyện đổi lớn."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "pressure_expectation_family_compare",
+      "label": "So sánh với chuẩn của người khác",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "pressure_expectation_family"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "environment": 0.4,
+        "inner_system": 0.6
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Không phải mọi thước đo xung quanh đều là thước đo đúng cho anh/chị."
+      ],
+      "short_meaning": "So sánh với chuẩn của người khác",
+      "long_meaning": "Node 'So sánh với chuẩn của người khác' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Không phải mọi thước đo xung quanh đều là thước đo đúng cho anh/chị."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "pressure_expectation_self_worth",
+      "label": "Giá trị bản thân đang gắn quá chặt với thành tựu",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "pressure_expectation_self"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "inner_system": 0.7,
+        "direction": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Có thể đang cần tách giá trị con người khỏi kết quả ngắn hạn."
+      ],
+      "short_meaning": "Giá trị bản thân đang gắn quá chặt với thành tựu",
+      "long_meaning": "Node 'Giá trị bản thân đang gắn quá chặt với thành tựu' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Có thể đang cần tách giá trị con người khỏi kết quả ngắn hạn."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "pressure_roles_family_energy",
+      "label": "Năng lượng phục hồi không đủ cho số vai đang gánh",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "pressure_roles_family"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "health": 0.5,
+        "life_system": 0.3,
+        "environment": 0.2
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Đây có thể là bài toán bảo toàn năng lượng chứ không chỉ cố thêm."
+      ],
+      "short_meaning": "Năng lượng phục hồi không đủ cho số vai đang gánh",
+      "long_meaning": "Node 'Năng lượng phục hồi không đủ cho số vai đang gánh' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Đây có thể là bài toán bảo toàn năng lượng chứ không chỉ cố thêm."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "pressure_roles_focus_fragment",
+      "label": "Lịch sống và đầu việc bị cắt vụn liên tục",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "pressure_roles_focus"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "life_system": 0.6,
+        "health": 0.2,
+        "career": 0.2
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Bài toán có thể là thiết kế lại nhịp sống chứ không phải làm nhanh hơn."
+      ],
+      "short_meaning": "Lịch sống và đầu việc bị cắt vụn liên tục",
+      "long_meaning": "Node 'Lịch sống và đầu việc bị cắt vụn liên tục' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Bài toán có thể là thiết kế lại nhịp sống chứ không phải làm nhanh hơn."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "stuck_growth_skill_system",
+      "label": "Không có hệ học và đo skill rõ ràng",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "stuck_growth_skill"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "capability": 0.7,
+        "life_system": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Cần hệ học có feedback loop thay vì học lan man."
+      ],
+      "short_meaning": "Không có hệ học và đo skill rõ ràng",
+      "long_meaning": "Node 'Không có hệ học và đo skill rõ ràng' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Cần hệ học có feedback loop thay vì học lan man."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "stuck_growth_visibility_story",
+      "label": "Thiếu cách kể và đóng gói giá trị mình tạo ra",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "stuck_growth_visibility"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "career": 0.5,
+        "environment": 0.3,
+        "capability": 0.2
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Không chỉ cần làm tốt, mà còn cần làm cho giá trị được hiểu đúng."
+      ],
+      "short_meaning": "Thiếu cách kể và đóng gói giá trị mình tạo ra",
+      "long_meaning": "Node 'Thiếu cách kể và đóng gói giá trị mình tạo ra' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Không chỉ cần làm tốt, mà còn cần làm cho giá trị được hiểu đúng."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "stuck_motivation_meaning_identity",
+      "label": "Phiên bản mình đang sống không còn hợp với mình hiện tại",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "stuck_motivation_meaning"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "direction": 0.5,
+        "inner_system": 0.5
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Có thể điều cần đổi không chỉ là việc, mà là vai sống đang mang."
+      ],
+      "short_meaning": "Phiên bản mình đang sống không còn hợp với mình hiện tại",
+      "long_meaning": "Node 'Phiên bản mình đang sống không còn hợp với mình hiện tại' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Có thể điều cần đổi không chỉ là việc, mà là vai sống đang mang."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "stuck_motivation_energy_recovery",
+      "label": "Thiếu chu kỳ nghỉ - hồi - làm hợp lý",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "stuck_motivation_energy"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "health": 0.6,
+        "life_system": 0.4
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Nhiều khi động lực thấp chỉ là hệ phục hồi đang hỏng."
+      ],
+      "short_meaning": "Thiếu chu kỳ nghỉ - hồi - làm hợp lý",
+      "long_meaning": "Node 'Thiếu chu kỳ nghỉ - hồi - làm hợp lý' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Nhiều khi động lực thấp chỉ là hệ phục hồi đang hỏng."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "stuck_environment_team_ceiling",
+      "label": "Đang chạm trần môi trường",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "stuck_environment_team"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "environment": 0.5,
+        "career": 0.5
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Khi đã chạm trần, bài toán có thể là tìm chiến trường khác."
+      ],
+      "short_meaning": "Đang chạm trần môi trường",
+      "long_meaning": "Node 'Đang chạm trần môi trường' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Khi đã chạm trần, bài toán có thể là tìm chiến trường khác."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "stuck_environment_network_isolation",
+      "label": "Đang phát triển trong trạng thái cô lập",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "stuck_environment_network"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "environment": 0.6,
+        "direction": 0.2,
+        "career": 0.2
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Cô lập kéo dài dễ làm méo nhận thức về bản thân và thị trường."
+      ],
+      "short_meaning": "Đang phát triển trong trạng thái cô lập",
+      "long_meaning": "Node 'Đang phát triển trong trạng thái cô lập' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Cô lập kéo dài dễ làm méo nhận thức về bản thân và thị trường."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "want_change_job_fit_identity",
+      "label": "Bản thân đã đổi nhưng công việc chưa đổi theo",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "want_change_job_fit"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "direction": 0.5,
+        "career": 0.5
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Đổi nghề đôi khi là cập nhật danh tính sống cho khớp thực tại."
+      ],
+      "short_meaning": "Bản thân đã đổi nhưng công việc chưa đổi theo",
+      "long_meaning": "Node 'Bản thân đã đổi nhưng công việc chưa đổi theo' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Đổi nghề đôi khi là cập nhật danh tính sống cho khớp thực tại."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "want_change_job_plan_bridge",
+      "label": "Thiếu cầu nối thử nghề mới khi chưa thể bỏ nghề cũ",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "want_change_job_plan"
+      ],
+      "child_ids": [],
+      "related_node_ids": [
+        "want_change_reset_cost_bridge"
+      ],
+      "life_area_weights": {
+        "life_system": 0.4,
+        "finance": 0.3,
+        "career": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Có thể cần mô hình chuyển từng phần thay vì nhảy đột ngột."
+      ],
+      "short_meaning": "Thiếu cầu nối thử nghề mới khi chưa thể bỏ nghề cũ",
+      "long_meaning": "Node 'Thiếu cầu nối thử nghề mới khi chưa thể bỏ nghề cũ' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Có thể cần mô hình chuyển từng phần thay vì nhảy đột ngột."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "want_change_business_model_offer",
+      "label": "Chưa đóng gói được giá trị thành offer rõ",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "want_change_business_model"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "career": 0.4,
+        "finance": 0.3,
+        "direction": 0.3
+      },
+      "persona_tags": [
+        "builder"
+      ],
+      "clarifying_prompts": [
+        "Muốn kinh doanh bền cần rõ người mua gì và vì sao mua."
+      ],
+      "short_meaning": "Chưa đóng gói được giá trị thành offer rõ",
+      "long_meaning": "Node 'Chưa đóng gói được giá trị thành offer rõ' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Muốn kinh doanh bền cần rõ người mua gì và vì sao mua."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "want_change_business_risk_buffer",
+      "label": "Chưa có vùng đệm để chịu rủi ro giai đoạn đầu",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "want_change_business_risk"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "finance": 0.5,
+        "life_system": 0.3,
+        "inner_system": 0.2
+      },
+      "persona_tags": [
+        "builder"
+      ],
+      "clarifying_prompts": [
+        "Kinh doanh không chỉ cần dám, mà cần vùng đệm để không chết sớm."
+      ],
+      "short_meaning": "Chưa có vùng đệm để chịu rủi ro giai đoạn đầu",
+      "long_meaning": "Node 'Chưa có vùng đệm để chịu rủi ro giai đoạn đầu' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Kinh doanh không chỉ cần dám, mà cần vùng đệm để không chết sớm."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "want_change_reset_identity_pride",
+      "label": "Bản ngã ngại quay về vị trí học lại",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "want_change_reset_identity"
+      ],
+      "child_ids": [],
+      "related_node_ids": [],
+      "life_area_weights": {
+        "inner_system": 0.7,
+        "direction": 0.3
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Một phần đổi hướng là học chịu cảm giác chưa giỏi lại từ đầu."
+      ],
+      "short_meaning": "Bản ngã ngại quay về vị trí học lại",
+      "long_meaning": "Node 'Bản ngã ngại quay về vị trí học lại' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Một phần đổi hướng là học chịu cảm giác chưa giỏi lại từ đầu."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    },
+    {
+      "id": "want_change_reset_cost_bridge",
+      "label": "Thiếu bản chuyển đổi từng chặng để giảm sốc",
+      "depth": 3,
+      "kind": "root_cause",
+      "parent_ids": [
+        "want_change_reset_cost"
+      ],
+      "child_ids": [],
+      "related_node_ids": [
+        "want_change_job_plan_bridge"
+      ],
+      "life_area_weights": {
+        "life_system": 0.4,
+        "finance": 0.4,
+        "direction": 0.2
+      },
+      "persona_tags": [
+        "all"
+      ],
+      "clarifying_prompts": [
+        "Thiết kế đường chuyển có thể thực tế hơn cố chờ một cú nhảy hoàn hảo."
+      ],
+      "short_meaning": "Thiếu bản chuyển đổi từng chặng để giảm sốc",
+      "long_meaning": "Node 'Thiếu bản chuyển đổi từng chặng để giảm sốc' dùng để nhận diện một lớp vấn đề trong flow coaching.",
+      "reflection_prompts": [
+        "Thiết kế đường chuyển có thể thực tế hơn cố chờ một cú nhảy hoàn hảo."
+      ],
+      "ai_hints": [],
+      "audit_tags": [],
+      "status": "active",
+      "version": "v1"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Work - Anhdophin</title>
+  <meta name="description" content="Portfolio and case-study structure across mini apps, document design, and creative media.">
+  <link rel="stylesheet" href="../css/base.css">
+</head>
+<body>
+  <div id="subpage-header"></div>
+
+  <main class="works-page">
+    <section class="works-hero container-content">
+      <p class="works-hero__eyebrow">SELECTED WORKS</p>
+      <h1>IDEAS MADE<br>CLEAR &amp; MEMORABLE</h1>
+      <p class="works-hero__lead">A selection of capability profiles, catalogues and creative media projects designed to communicate business ideas with clarity and character.</p>
+      <a class="works-hero__scroll" href="#featured-projects">Explore Featured Projects <span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section class="works-featured container-content" id="featured-projects" aria-label="Featured projects">
+      <div class="works-featured__grid" id="worksFeaturedGrid"></div>
+    </section>
+
+    <section class="works-intro container-reading" aria-label="More projects introduction">
+      <h2>A Few More Projects</h2>
+      <p>Explore by module: Profile, 360 Web Virtual Tours, Creative Tools, and Documents.</p>
+    </section>
+
+    <section class="works-modules container-content" aria-label="More projects modules">
+      <div class="works-modules__grid" id="worksModulesGrid"></div>
+    </section>
+
+    <section class="works-cta" aria-label="Work collaboration call to action">
+      <div class="container-reading works-cta__inner">
+        <h2>Have an idea that deserves to be understood clearly?</h2>
+        <p>Let&apos;s turn it into a visual experience people can understand, trust and remember.</p>
+        <div class="works-cta__actions">
+          <a class="portal-cta" href="../contact/">Start a Project</a>
+          <a class="portal-chip" href="../contact/">Contact Me</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="subpage-footer"></div>
+  <script src="../shared/subpage-components.js"></script>
+  <script>
+    const projects = [
+      {
+        id: 1,
+        title: 'Employee Onboarding System',
+        category: 'Internal Profile Document',
+        year: 'TBC',
+        image: '../demo/profile-anhdophin/assets/img_1.webp',
+        alt: 'Employee onboarding system document and development journey pages',
+        href: './document-design/megas-employee-onboarding-system/',
+        featured: true,
+        number: '01',
+        description:
+          'A structured onboarding document that helps new employees understand company culture, working standards and long-term career development.',
+        meta: 'Content Strategy / Information Architecture / Editorial Design / Visual Direction',
+      },
+      {
+        id: 2,
+        title: 'THE HILLSIDE VILLA',
+        category: 'Virtual Tour 360deg',
+        year: '2026',
+        image: '../demo/profile-anhdophin/assets/main_bg_1.webp',
+        alt: 'Interactive property tour opening scene and virtual navigation',
+        href: './virtual-tour-360/the-hillside-villa-interactive-property-tour/',
+        featured: true,
+        number: '02',
+        description:
+          'A demo interactive property tour that combines 360deg navigation, hotspot information and responsive web viewing in one guided spatial experience.',
+        meta: 'Experience Planning / 360deg Capture Direction / Tour Structure / Interface Design',
+      },
+    ];
+
+    const moduleGroups = [
+      {
+        title: 'Profile',
+        summary: 'Capability profiles and company story structures for business communication.',
+        tabs: [
+          {
+            label: 'KHUNG VIEC HANH PHUC',
+            href: './document-design/megas-employee-onboarding-system/',
+            image: '../demo/profile-anhdophin/assets/img_1.webp',
+            alt: 'Employee onboarding system cover and editorial layout',
+          },
+          {
+            label: 'NOVA CONSTRUCTION COMPANY PROFILE',
+            href: './document-design/nova-construction-company-profile/',
+            image: '../demo/profile-anhdophin/assets/img4.webp',
+            alt: 'Corporate capability profile visual structure and presentation',
+          },
+          {
+            label: 'Company Story System',
+            href: '../services/document-design/',
+            image: '../demo/profile-anhdophin/assets/hero_img.webp',
+            alt: 'Company story document and communication system',
+          },
+        ],
+      },
+      {
+        title: '360 Web Virtual Tours',
+        summary: 'Interactive formats for showcasing space, workflow, and product context.',
+        tabs: [
+          {
+            label: 'THE HILLSIDE VILLA',
+            href: './virtual-tour-360/the-hillside-villa-interactive-property-tour/',
+            image: '../demo/profile-anhdophin/assets/main_bg_1.webp',
+            alt: 'The Hillside Villa interactive property tour demo overview',
+          },
+          {
+            label: 'Website Experience Workflow',
+            href: '../services_solutions/website-ai/website-design-workflow.html',
+            image: '../demo/profile-anhdophin/assets/main_bg_2.webp',
+            alt: 'Website experience workflow board and structure',
+          },
+          {
+            label: 'Story Design Workflow',
+            href: '../services_solutions/corporate-story-design/story-design-workflow.html',
+            image: '../demo/profile-anhdophin/assets/img_2.webp',
+            alt: 'Story design workflow and communication mapping',
+          },
+        ],
+      },
+      {
+        title: 'Creative Tools',
+        summary: 'Mini tools that turn creative thinking methods into practical workflows.',
+        tabs: [
+          {
+            label: 'Mini Apps Case Studies',
+            href: './mini-apps/',
+            image: '../demo/profile-anhdophin/assets/about.webp',
+            alt: 'Mini apps case studies and product thinking outcomes',
+          },
+          {
+            label: 'Business Model Canvas',
+            href: '../apps/business-canvas/',
+            image: '../apps/business-canvas/icon-512.png',
+            alt: 'Business model canvas app thumbnail',
+          },
+          {
+            label: 'Wheel of Life',
+            href: '../apps/wheel-of-life/wheel-of-life-index.html',
+            image: '../apps/wheel-of-life/icon-512.png',
+            alt: 'Wheel of Life app thumbnail',
+          },
+        ],
+      },
+      {
+        title: 'Documents',
+        summary: 'From catalogue and proposal structure to practical decision-ready documents.',
+        tabs: [
+          {
+            label: 'Document Design Cases',
+            href: './document-design/',
+            image: '../demo/profile-anhdophin/assets/img_3.webp',
+            alt: 'Document design case samples and page spreads',
+          },
+          {
+            label: 'Document Design Service',
+            href: '../services/document-design/',
+            image: '../demo/profile-anhdophin/assets/img_1.webp',
+            alt: 'Document design service workflow and deliverables',
+          },
+          {
+            label: 'Templates and Resources',
+            href: '../resources/',
+            image: '../demo/profile-anhdophin/assets/hero_img.webp',
+            alt: 'Templates and resources ready for download',
+          },
+        ],
+      },
+    ];
+
+    function featuredCard(project, isOffset) {
+      return `
+        <article class="works-featured-card${isOffset ? ' works-featured-card--offset' : ''}">
+          <a class="works-featured-card__media" href="${project.href}">
+            <img src="${project.image}" alt="${project.alt}" loading="eager">
+            <span class="works-featured-card__number">${project.number}</span>
+          </a>
+          <div class="works-featured-card__body">
+            <p class="works-kicker">${project.category.toUpperCase()}</p>
+            <h3>${project.title}</h3>
+            <p>${project.description}</p>
+            <p class="works-meta">${project.meta}</p>
+            <a class="works-inline-link" href="${project.href}">View Project Review</a>
+          </div>
+        </article>`;
+    }
+
+    function moduleCard(module) {
+      return `
+        <article class="works-module-card">
+          <div class="works-module-card__head">
+            <p class="works-kicker">Module</p>
+            <h3>${module.title}</h3>
+            <p>${module.summary}</p>
+          </div>
+          <div class="works-module-tabs" role="tablist" aria-label="${module.title} links">
+            ${module.tabs
+              .map(
+                (tab) =>
+                  `<a class="works-module-tab" href="${tab.href}" role="tab" aria-selected="false"><span class="works-module-tab__thumb"><img src="${tab.image}" alt="${tab.alt}" loading="lazy"></span><span class="works-module-tab__label">${tab.label}</span><span class="works-module-tab__arrow" aria-hidden="true">-></span></a>`,
+              )
+              .join('')}
+          </div>
+        </article>`;
+    }
+
+    const featured = projects.filter((item) => item.featured);
+    document.getElementById('worksFeaturedGrid').innerHTML = featured
+      .map((project, idx) => featuredCard(project, idx % 2 === 1))
+      .join('');
+
+    document.getElementById('worksModulesGrid').innerHTML = moduleGroups
+      .map((module) => moduleCard(module))
+      .join('');
+  </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "title": "Wheel of Life v5",
+  "summary": "Flow guided để người dùng tự soi lại trạng thái cuộc sống theo context và persona, rồi mở dần góc nhìn phù hợp.",
+  "category": "Coaching Tool",
+  "tags": [
+    "wheel-of-life",
+    "reflection",
+    "guided"
+  ],
+  "order": 4,
+  "icon": "icon.png"
+}

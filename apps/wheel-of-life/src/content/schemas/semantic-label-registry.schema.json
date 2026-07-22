@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "keys"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "namespaces": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "keys": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "key",
+          "entity_type",
+          "entity_id",
+          "field"
+        ],
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "entity_type": {
+            "type": "string"
+          },
+          "entity_id": {
+            "type": "string"
+          },
+          "field": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

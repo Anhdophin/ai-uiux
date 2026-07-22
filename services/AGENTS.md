@@ -5,7 +5,8 @@ Before changing code in this project, read these files in order:
 1. `AGENTS.md`
 2. `.cursorrules`
 3. `AI-EDIT-PRECHECK.md`
-4. The file(s) you plan to edit
+4. `../CONTENT-CORE-RULES.md` (required when writing/editing page content)
+5. The file(s) you plan to edit
 
 If you are an AI assistant, your first code task is to identify:
 - which file controls the feature
@@ -19,6 +20,15 @@ If you are an AI assistant, your first code task is to identify:
 - Prefer small targeted edits over broad refactors.
 - Keep backward compatibility with the existing source as much as possible.
 - Keep code easy to read, easy to edit by hand, and easy to clone to another project.
+
+## Content writing rules
+- This website voice is defined in `../CONTENT-CORE-RULES.md`.
+- Treat the website as a living workshop, not a generic portfolio.
+- Use calm, practical, reasoning-first writing; avoid over-selling language.
+- Each section should move from real problem to practical takeaway.
+- Each page should answer at least one hidden question: why it exists, what it solves, what was learned, or what experiment comes next.
+- Keep internal terminology internal: do not expose module/field/schema/component naming in user-facing headings.
+- Convert label-like headings into direct conversational messages with clear context.
 
 ## Working rules
 - Read the current code before editing.

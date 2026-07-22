@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "resolutions"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "resolutions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "prompt_pack_id",
+          "option_key",
+          "append_keyword_ids",
+          "focus_tags",
+          "next_mode",
+          "trail_label_key"
+        ],
+        "properties": {
+          "prompt_pack_id": {
+            "type": "string"
+          },
+          "option_key": {
+            "type": "string"
+          },
+          "append_keyword_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "focus_tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "next_mode": {
+            "type": "string"
+          },
+          "trail_label_key": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

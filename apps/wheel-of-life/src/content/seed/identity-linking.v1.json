@@ -1,0 +1,26 @@
+{
+  "version": "v1",
+  "supported_source_systems": [
+    "local_demo",
+    "future_auth_adapter"
+  ],
+  "link_scope_labels": [
+    {
+      "scope": "anonymous_local",
+      "label_key": "identity.scope.anonymous_local"
+    },
+    {
+      "scope": "device_linked",
+      "label_key": "identity.scope.device_linked"
+    },
+    {
+      "scope": "account_ready",
+      "label_key": "identity.scope.account_ready"
+    }
+  ],
+  "preview_rules": {
+    "default_source_system": "local_demo",
+    "max_session_ids_per_commit": 10,
+    "max_memory_profiles_per_commit": 10
+  }
+}

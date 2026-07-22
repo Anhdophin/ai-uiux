@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WheelOntology",
+  "type": "object",
+  "required": [
+    "version",
+    "updated_at",
+    "life_areas",
+    "evidence_categories",
+    "confidence_levels"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "life_areas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "sub_areas"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "sub_areas": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "evidence_categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence_levels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

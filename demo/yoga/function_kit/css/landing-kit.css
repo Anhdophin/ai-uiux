@@ -1,0 +1,354 @@
+:root {
+  --lp-bg: #ffffff;
+  --lp-text: #171717;
+  --lp-muted: #6b7280;
+  --lp-border: #dddddd;
+  --lp-surface: #f7f7f8;
+  --lp-primary: #111111;
+  --lp-primary-text: #ffffff;
+  --lp-danger: #b42318;
+  --lp-success: #027a48;
+  --lp-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  --lp-radius: 16px;
+}
+
+body.lp-scroll-locked {
+  overflow: hidden;
+}
+
+/* =========================================================
+   Common buttons / fields
+   ========================================================= */
+
+.lp-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 18px;
+  border: 1px solid var(--lp-border);
+  border-radius: 999px;
+  background: var(--lp-bg);
+  color: var(--lp-text);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.lp-button--primary {
+  background: var(--lp-primary);
+  color: var(--lp-primary-text);
+  border-color: var(--lp-primary);
+}
+
+.lp-button.is-active {
+  background: var(--lp-primary);
+  color: var(--lp-primary-text);
+}
+
+.lp-field {
+  display: grid;
+  gap: 8px;
+}
+
+.lp-field input,
+.lp-field textarea,
+.lp-field select {
+  width: 100%;
+  min-height: 44px;
+  padding: 12px 14px;
+  border: 1px solid var(--lp-border);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.lp-field textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.lp-field.is-error input,
+.lp-field.is-error textarea,
+.lp-field.is-error select,
+input.is-error,
+textarea.is-error,
+select.is-error {
+  border-color: var(--lp-danger);
+}
+
+/* =========================================================
+   Sticky CTA
+   ========================================================= */
+
+[data-sticky-cta] {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  z-index: 60;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+[data-sticky-cta].is-visible {
+  pointer-events: auto;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.lp-sticky-cta__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid var(--lp-border);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: var(--lp-shadow);
+  backdrop-filter: blur(10px);
+}
+
+/* =========================================================
+   FAQ
+   ========================================================= */
+
+[data-faq-item] {
+  border: 1px solid var(--lp-border);
+  border-radius: var(--lp-radius);
+  background: #fff;
+  overflow: hidden;
+}
+
+[data-faq-question] {
+  width: 100%;
+  padding: 18px;
+  border: 0;
+  background: #fff;
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+}
+
+[data-faq-answer] {
+  padding: 0 18px 18px;
+  color: var(--lp-muted);
+}
+
+/* =========================================================
+   Popup
+   ========================================================= */
+
+.lp-popup {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.lp-popup.is-open {
+  display: flex;
+}
+
+.lp-popup__dialog {
+  width: min(100%, 560px);
+  padding: 24px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: var(--lp-shadow);
+}
+
+.lp-popup__close {
+  border: 0;
+  background: transparent;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* =========================================================
+   Toast
+   ========================================================= */
+
+.lp-toast-host {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 120;
+  display: grid;
+  gap: 10px;
+}
+
+.lp-toast {
+  min-width: 240px;
+  max-width: 360px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #111;
+  color: #fff;
+  box-shadow: var(--lp-shadow);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.22s ease, transform 0.22s ease;
+}
+
+.lp-toast.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.lp-toast--success {
+  background: var(--lp-success);
+}
+
+.lp-toast--error {
+  background: var(--lp-danger);
+}
+
+/* =========================================================
+   Tabs
+   ========================================================= */
+
+.lp-tab-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.lp-tab-panels {
+  margin-top: 16px;
+}
+
+/* =========================================================
+   Section nav
+   ========================================================= */
+
+.lp-section-nav {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.lp-section-nav [data-section-nav].is-active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* =========================================================
+   Reveal on scroll
+   ========================================================= */
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+[data-reveal].is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* =========================================================
+   Lightbox
+   ========================================================= */
+
+.lp-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 130;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.78);
+}
+
+.lp-lightbox.is-open {
+  display: flex;
+}
+
+.lp-lightbox__dialog {
+  position: relative;
+  max-width: min(100%, 1100px);
+  max-height: 90vh;
+}
+
+.lp-lightbox__image {
+  display: block;
+  max-width: 100%;
+  max-height: 90vh;
+  border-radius: 16px;
+}
+
+.lp-lightbox__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 42px;
+  height: 42px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* =========================================================
+   Demo utility blocks
+   ========================================================= */
+
+.lp-card {
+  padding: 20px;
+  border: 1px solid var(--lp-border);
+  border-radius: var(--lp-radius);
+  background: #fff;
+}
+
+.lp-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.lp-grid--3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.lp-gallery {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.lp-gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .lp-grid--3,
+  .lp-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  [data-sticky-cta] {
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+  }
+
+  .lp-sticky-cta__inner {
+    width: 100%;
+    border-radius: 20px;
+  }
+}

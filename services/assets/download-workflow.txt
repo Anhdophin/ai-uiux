@@ -1,9 +1,0 @@
-Human AI Agent - Sample Workflow
-
-1. Nhìn cách đang làm việc
-2. Tách step thủ công
-3. Xác định phần lặp lại
-4. Chuẩn hóa input/output
-5. Gắn AI + tool reader
-6. Test localhost
-7. Chuyển sang hệ chạy thật

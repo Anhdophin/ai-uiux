@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KeywordNode",
+  "description": "Foundation schema placeholder for curated keyword nodes.",
+  "type": "object",
+  "required": [
+    "id",
+    "label",
+    "depth",
+    "kind",
+    "parent_ids",
+    "child_ids",
+    "related_node_ids",
+    "life_area_weights",
+    "persona_tags",
+    "clarifying_prompts"
+  ],
+  "properties": {
+    "id": {"type": "string"},
+    "label": {"type": "string"},
+    "short_meaning": {"type": "string"},
+    "long_meaning": {"type": "string"},
+    "depth": {"type": "integer", "minimum": 0},
+    "kind": {"type": "string"},
+    "parent_ids": {"type": "array", "items": {"type": "string"}},
+    "child_ids": {"type": "array", "items": {"type": "string"}},
+    "related_node_ids": {"type": "array", "items": {"type": "string"}},
+    "life_area_weights": {"type": "object", "additionalProperties": {"type": "number"}},
+    "persona_tags": {"type": "array", "items": {"type": "string"}},
+    "reflection_prompts": {"type": "array", "items": {"type": "string"}},
+    "clarifying_prompts": {"type": "array", "items": {"type": "string"}},
+    "ai_hints": {"type": "array", "items": {"type": "string"}},
+    "ambiguity_note": {"type": "string"},
+    "audit_tags": {"type": "array", "items": {"type": "string"}},
+    "status": {"type": "string"},
+    "version": {"type": "string"}
+  }
+}

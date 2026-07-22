@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lotus Yoga Landing Page</title>
+  <meta name="description" content="Landing page yoga mobile-first với header, footer tách rời, CSS tái sử dụng và assets riêng.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/page-home.css">
+</head>
+<body data-base-path="">
+  <div id="site-header" data-include="partials/header.html"></div>
+
+  <main>
+    <section class="hero section-block">
+      <div class="container hero__content">
+        <div class="hero__media">
+          <img src="assets/images/hero-yoga.png" alt="Yoga hero" class="image-cover hero__image">
+        </div>
+
+        <div class="hero__text">
+          <p class="eyebrow eyebrow--light">Lotus Yoga Studio</p>
+          <h1 class="hero__title">Yoga Class</h1>
+          <p class="hero__description">Không gian luyện tập nhẹ nhàng, tập trung vào sự cân bằng, hít thở và kết nối thân tâm mỗi ngày.</p>
+
+          <div class="button-group">
+            <a href="#classes" class="button button--rounded button--orange">Join Now</a>
+            <a href="about/index.html" class="button button--rounded button--purple button--ghost">About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro section-block">
+      <div class="container intro__grid">
+        <div class="intro__headline">
+          <p class="eyebrow">Skilled Teachers</p>
+          <h2 class="section-title section-title--left">Join our classes for quality yoga practice.</h2>
+        </div>
+
+        <div class="intro__body">
+          <p class="section-text">Lớp học được xây theo hướng dễ tiếp cận, nhịp thở rõ ràng, động tác mạch lạc và phù hợp cho người muốn bắt đầu lại từ nền tảng căn bản.</p>
+        </div>
+      </div>
+
+      <div class="container feature-grid">
+        <article class="feature-card">
+          <div class="feature-card__icon">✿</div>
+          <h3 class="feature-card__title">Meditation &amp; Relax</h3>
+          <p class="feature-card__text">Tập trung vào thả lỏng và ổn định tâm trí.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-card__icon">☕</div>
+          <h3 class="feature-card__title">Healthy Herbal Bar</h3>
+          <p class="feature-card__text">Kết nối trải nghiệm thư giãn và chăm sóc cơ thể.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-card__icon">☯</div>
+          <h3 class="feature-card__title">Breathing Techniques</h3>
+          <p class="feature-card__text">Làm quen với nhịp thở và kiểm soát năng lượng.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="classes" class="classes section-block section-block--soft">
+      <div class="container">
+        <h2 class="section-title section-title--center">Choose the class for you</h2>
+
+        <div class="class-grid">
+          <article class="class-card">
+            <img src="assets/images/class-yoga-1.png" alt="Yoga class 1" class="class-card__image image-cover">
+            <div class="class-card__body">
+              <p class="class-card__days">Mon, Wed, Fri</p>
+              <p class="class-card__time">9:00 AM - 11:00 AM</p>
+              <a href="#" class="button button--rounded button--teal class-card__button">Book Class</a>
+            </div>
+          </article>
+
+          <article class="class-card">
+            <img src="assets/images/class-yoga-2.png" alt="Yoga class 2" class="class-card__image image-cover">
+            <div class="class-card__body">
+              <p class="class-card__days">Mon, Wed, Fri</p>
+              <p class="class-card__time">9:00 AM - 11:00 AM</p>
+              <a href="#" class="button button--rounded button--orange class-card__button">Book Class</a>
+            </div>
+          </article>
+
+          <article class="class-card">
+            <img src="assets/images/class-yoga-3.png" alt="Yoga class 3" class="class-card__image image-cover">
+            <div class="class-card__body">
+              <p class="class-card__days">Mon, Wed, Fri</p>
+              <p class="class-card__time">9:00 AM - 11:00 AM</p>
+              <a href="#" class="button button--rounded button--purple class-card__button">Book Class</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="benefits" class="highlight section-block">
+      <div class="container highlight__content">
+        <div class="highlight__media">
+          <img src="assets/images/yoga-enhance.png" alt="Yoga enhances life" class="image-cover highlight__image">
+        </div>
+
+        <div class="highlight__text">
+          <p class="eyebrow eyebrow--light">Practice &amp; Balance</p>
+          <h2 class="section-title section-title--light section-title--left">Yoga Enhances Your Life</h2>
+          <p class="section-text section-text--light">Một nhịp luyện tập đúng có thể giúp cơ thể dẻo hơn, đầu óc sáng hơn và cảm giác sống thường ngày cũng nhẹ hơn đáng kể.</p>
+
+          <div class="button-group">
+            <a href="about/index.html" class="button button--rounded button--orange">About Me</a>
+            <a href="#classes" class="button button--rounded button--teal button--ghost-light">View Classes</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer" data-include="partials/footer.html"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

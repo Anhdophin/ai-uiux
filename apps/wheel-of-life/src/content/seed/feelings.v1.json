@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-04-05",
+  "source_note": "Starter feeling entries.",
+  "feelings": [
+    {
+      "id": "unclear_direction",
+      "title": "Mơ hồ hướng đi",
+      "subtitle": "Không rõ mình nên đi đâu tiếp.",
+      "prompt": "Điều nào làm anh/chị thấy mơ hồ nhất lúc này?",
+      "intensity_scale_note": "1-5 subjective intensity"
+    },
+    {
+      "id": "pressure",
+      "title": "Áp lực",
+      "subtitle": "Cảm giác bị nén bởi nhiều thứ cùng lúc.",
+      "prompt": "Áp lực này đang nặng nhất ở mảng nào?",
+      "intensity_scale_note": "1-5 subjective intensity"
+    },
+    {
+      "id": "stuck",
+      "title": "Bị kẹt",
+      "subtitle": "Đang đứng yên dù vẫn cố gắng.",
+      "prompt": "Anh/chị thấy mình kẹt vì lực cản nào?",
+      "intensity_scale_note": "1-5 subjective intensity"
+    },
+    {
+      "id": "want_change",
+      "title": "Muốn đổi",
+      "subtitle": "Muốn rẽ hướng nhưng còn sợ.",
+      "prompt": "Điều gì khiến việc đổi hướng trở nên khó?",
+      "intensity_scale_note": "1-5 subjective intensity"
+    }
+  ]
+}

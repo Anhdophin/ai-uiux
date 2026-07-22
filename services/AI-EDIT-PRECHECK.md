@@ -6,6 +6,7 @@ Use this before changing code.
 - Read `AGENTS.md`
 - Read `.cursorrules`
 - If using Cursor, `.cursor/rules/*.mdc` should also be loaded
+- If task includes copy/content writing, read `../CONTENT-CORE-RULES.md`
 
 ## Step 2 — Map the feature
 Write down before editing:
@@ -37,3 +38,11 @@ When done, explain briefly:
 - logic changed
 - root cause
 - what the owner must remember when cloning next time
+
+## Step 6 — Content quality check (when writing copy)
+- Is the section grounded in a real-world problem?
+- Does it explain reasoning instead of using buzzwords?
+- Does it end with a takeaway (not a sales push)?
+- Does the page answer at least one hidden question from `../CONTENT-CORE-RULES.md`?
+- Does the UI copy avoid internal module/field/schema words?
+- Are headings conversational messages instead of label-style taxonomy?

@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-04-03T21:23:52+00:00",
-  "featured_count": 3,
+  "featured_count": 4,
   "items": [
     {
       "slug": "swot",
@@ -41,6 +41,20 @@
       "tags": [
         "ebook",
         "reader"
+      ]
+    },
+    {
+      "slug": "wheel-of-life",
+      "title": "Wheel of Life v5",
+      "summary": "Flow guided để người dùng tự soi lại trạng thái cuộc sống theo context và persona.",
+      "route": "/apps/wheel-of-life/",
+      "icon": "/apps/wheel-of-life/icon.png",
+      "cover": "/apps/wheel-of-life/icon.png",
+      "category": "Coaching Tool",
+      "tags": [
+        "wheel-of-life",
+        "reflection",
+        "guided"
       ]
     }
   ]

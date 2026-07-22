@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "export",
+    "delete"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "export": {
+      "type": "object"
+    },
+    "delete": {
+      "type": "object"
+    }
+  }
+}

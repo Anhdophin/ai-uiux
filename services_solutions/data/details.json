@@ -1,0 +1,493 @@
+[
+  {
+    "id": "detail-biz-knowledge-packaging",
+    "title": "Đóng gói tri thức thành tài sản",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Tri thức chỉ thật sự có giá trị bền khi được đóng gói thành thứ người khác đọc được, dùng được và mang đi tiếp được."
+      },
+      {
+        "type": "list",
+        "items": [
+          "tách tri thức lõi",
+          "xác định đối tượng dùng",
+          "chọn format đúng",
+          "giữ khả năng tái dùng trên nhiều tình huống"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Tài sản thông tin tốt là tri thức đã được làm cho dùng được.",
+        "author": "Biz Assets"
+      }
+    ]
+  },
+  {
+    "id": "detail-bizassets-core",
+    "title": "Biz Assets",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Biz Assets là lớp đóng gói phía sau: biến giải pháp, tri thức và nội dung thành tài sản dùng được cho bán hàng, giới thiệu, đào tạo hoặc bàn giao nội bộ."
+      },
+      {
+        "type": "list",
+        "items": [
+          "xác định asset dùng để làm gì",
+          "gom chất liệu cốt lõi",
+          "đóng gói theo format phù hợp",
+          "giữ khả năng dùng lại trên nhiều ngữ cảnh"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Tài liệu tốt không chỉ để đọc, mà để dùng tiếp.",
+        "author": "Biz Assets"
+      }
+    ]
+  },
+  {
+    "id": "detail-flow-audit-core",
+    "title": "Flow Audit",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Phù hợp với những công việc đang chạy nhưng đội ngũ không còn nhìn ra tổng thể, bước nào trước, bước nào sau, ai làm gì và bàn giao thế nào."
+      },
+      {
+        "type": "list",
+        "items": [
+          "đọc lại cách làm hiện tại",
+          "tìm chỗ rối, chỗ lặp, chỗ thiếu",
+          "sắp xếp lại theo hành động thật",
+          "đưa về flow, checklist hoặc tài liệu dễ dùng"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Làm rõ cách công việc đang chạy trước khi làm đẹp bề ngoài.",
+        "author": "Flow Audit"
+      }
+    ]
+  },
+  {
+    "id": "detail-flow-chaotic",
+    "title": "Flow rối / khó vận hành",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Xuất hiện khi quy trình có nhiều bước nhưng chưa có logic rõ ràng, dễ lặp bước, quên bước hoặc không biết ai nhận tiếp."
+      },
+      {
+        "type": "image",
+        "src": "assets/images/example-flow.svg",
+        "alt": "Flow example placeholder",
+        "caption": "Có thể thay bằng sơ đồ thực tế sau này"
+      },
+      {
+        "type": "list",
+        "items": [
+          "nhiều người cùng chạm vào một việc",
+          "không rõ trạng thái hiện tại",
+          "phụ thuộc vào người nhớ",
+          "khó kiểm soát chất lượng bàn giao"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "detail-miniapp-logic",
+    "title": "Mini App Design",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Mini app không phải là app nhỏ đi một cách ngẫu nhiên. Nó là app được giữ đúng trọng tâm, đủ logic để dùng thật và đủ gọn để test nhanh."
+      },
+      {
+        "type": "list",
+        "items": [
+          "tách ai dùng gì",
+          "làm rõ bước nào diễn ra trước",
+          "xác định trạng thái quan trọng",
+          "dựng prototype để kiểm tra sớm"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Làm đúng logic trước khi làm nhiều tính năng.",
+        "author": "Mini App Design"
+      }
+    ]
+  },
+  {
+    "id": "detail-rapid-prototyping",
+    "title": "Dựng nhanh bản kiểm thử",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Không đợi đầy đủ mọi thứ mới bắt đầu. Anh ưu tiên dựng nhanh một bản nhìn thấy được để kiểm tra logic, luồng thao tác và giá trị thật trước khi đầu tư sâu."
+      },
+      {
+        "type": "list",
+        "items": [
+          "dựng khung trước",
+          "xác định phần cần test",
+          "dùng AI để tăng tốc scaffold",
+          "chốt lại sau khi nhìn thấy luồng thực"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Thấy được sớm thì sửa đúng sớm.",
+        "author": "Anhdophin"
+      }
+    ]
+  },
+  {
+    "id": "detail-service-state-mapping",
+    "title": "Làm rõ trạng thái dịch vụ",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Nhiều app dịch vụ rối vì không làm rõ trạng thái. Khi biết đang ở đâu, chờ ai, bước nào tiếp theo, trải nghiệm sẽ ổn định hơn rất nhiều."
+      },
+      {
+        "type": "list",
+        "items": [
+          "xác định các trạng thái chính",
+          "gắn từng trạng thái với hành động",
+          "làm rõ điểm chuyển trạng thái",
+          "cho người dùng thấy tình trạng hiện tại"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Biết trạng thái là bớt rối một nửa.",
+        "author": "Mini App Design"
+      }
+    ]
+  },
+  {
+    "id": "detail-story-core",
+    "title": "Story Design",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Story Design giúp nội dung có mạch hơn, dễ tiếp nhận hơn và giữ được chất riêng của thương hiệu hoặc dự án."
+      },
+      {
+        "type": "list",
+        "items": [
+          "tìm chủ đề chính",
+          "xác định mạch kể",
+          "chọn giọng kể phù hợp",
+          "kết nối text với hình và trải nghiệm đọc"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Không chỉ viết nội dung, mà sắp xếp cách người ta đi qua nội dung đó.",
+        "author": "Story Design"
+      }
+    ]
+  },
+  {
+    "id": "detail-story-narrative-framing",
+    "title": "Dựng khung kể chuyện",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Khung kể chuyện giúp nội dung có trục, biết mở ở đâu, đào sâu ở đâu và dừng ở đâu. Không chỉ là viết hay, mà là tổ chức trải nghiệm đọc."
+      },
+      {
+        "type": "list",
+        "items": [
+          "xác định trục chính",
+          "chọn giọng kể",
+          "xếp tầng thông tin",
+          "gắn với hình và nhịp xem"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Có khung thì nội dung mới đi xa mà không rơi rụng.",
+        "author": "Story Design"
+      }
+    ]
+  },
+  {
+    "id": "detail-turn-idea-structure",
+    "title": "Từ ý tưởng mơ hồ thành cấu trúc",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Đây là năng lực xuyên suốt nhiều dịch vụ của anh. Khi đầu vào còn mơ hồ, anh ưu tiên gom ý chính, chia nhóm, nhìn mối liên hệ rồi mới chọn nên làm flow, tài liệu, story hay app."
+      },
+      {
+        "type": "list",
+        "items": [
+          "gom ý rời",
+          "tách lớp chính",
+          "chọn hình thức phù hợp",
+          "chốt đầu ra để người khác dùng tiếp"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Từ mơ hồ sang có thể bàn giao.",
+        "author": "Anhdophin"
+      }
+    ]
+  },
+  {
+    "id": "detail-web-logic",
+    "title": "Web Design",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Web ở đây không chỉ là giao diện. Đó là cách người xem hiểu nhanh mình là ai, đang cung cấp gì, vì sao nên tin và nên làm gì tiếp theo."
+      },
+      {
+        "type": "list",
+        "items": [
+          "xác định điều người xem cần hiểu trước",
+          "sắp thứ tự section theo nhận thức",
+          "kết nối thông điệp với hành động",
+          "giữ web vừa có chất vừa dễ dùng"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Web phải dẫn được người xem, không chỉ đứng đẹp.",
+        "author": "Web Design"
+      }
+    ]
+  },
+  {
+    "id": "detail-web-message-hierarchy",
+    "title": "Sắp xếp thông điệp trên web",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Không phải mọi thứ đều nên xuất hiện ngay. Điều quan trọng là người xem thấy đúng thứ cần hiểu ở đúng thời điểm."
+      },
+      {
+        "type": "list",
+        "items": [
+          "điều gì cần thấy ngay",
+          "điều gì để xác nhận thêm",
+          "điều gì để thuyết phục sâu",
+          "điều gì để dẫn tới hành động"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Người xem hiểu đúng sớm thì bấm đúng sớm.",
+        "author": "Web Design"
+      }
+    ]
+  },
+  {
+    "id": "detail-gamification-core",
+    "title": "Gamification",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Gamification ở đây không phải là làm game cho vui. Mục tiêu là dùng cơ chế quen thuộc của game để thiết kế hành vi: giúp người dùng hiểu mình đang làm gì, vì sao nên làm tiếp, và điều gì khiến họ muốn quay lại."
+      },
+      {
+        "type": "list",
+        "items": [
+          "biến hành động thành vòng lặp có phản hồi",
+          "tạo cảm giác tiến triển thay vì đứng yên",
+          "giữ trải nghiệm dịch vụ bớt khô và dễ quay lại",
+          "kết nối phần thưởng với hành vi thật sự có giá trị"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Tôi không thiết kế game. Tôi thiết kế lý do để người dùng muốn quay lại.",
+        "author": "Anhdophin Dynamic CV"
+      }
+    ]
+  },
+  {
+    "id": "detail-reward-loop",
+    "title": "Thiết kế vòng lặp phần thưởng",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Một hành vi chỉ dễ lặp lại khi người dùng nhận được phản hồi rõ ràng sau khi làm xong. Phần thưởng không nhất thiết phải là quà lớn; nhiều khi chỉ cần cảm giác được ghi nhận, mở khoá bước mới, hoặc nhìn thấy tiến độ tăng lên."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Hành động: người dùng làm một việc cụ thể",
+          "Phản hồi: hệ thống xác nhận việc đó đã được ghi nhận",
+          "Phần thưởng: điểm, dấu hoàn thành, mở khoá, lời khen, quyền lợi",
+          "Lý do quay lại: còn mục tiêu tiếp theo hoặc còn thứ muốn đạt"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Không có phản hồi rõ → hành vi khó thành thói quen.",
+        "author": "Reward loop"
+      }
+    ]
+  },
+  {
+    "id": "detail-quest-system",
+    "title": "Thiết kế hệ nhiệm vụ",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Người dùng thường ngại những việc lớn, nhưng lại dễ hoàn thành những bước nhỏ, rõ, có điểm dừng. Vì vậy, gamification thường hiệu quả khi biến dịch vụ hoặc quy trình thành chuỗi nhiệm vụ có mục tiêu cụ thể."
+      },
+      {
+        "type": "list",
+        "items": [
+          "mỗi nhiệm vụ phải đủ ngắn để bắt đầu được",
+          "phải biết điều kiện hoàn thành là gì",
+          "phải có phản hồi ngay sau khi xong",
+          "có thể nhóm thành chuỗi để tạo cảm giác hành trình"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "detail-progression-design",
+    "title": "Thiết kế cảm giác tiến triển",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Người dùng ở lại lâu hơn khi họ cảm thấy mình đang tiến lên, chứ không chỉ lặp lại những việc giống nhau. Cảm giác tiến triển có thể đến từ cấp độ, cột mốc, bộ sưu tập, điểm tích luỹ hoặc khả năng mở thêm lựa chọn mới."
+      },
+      {
+        "type": "list",
+        "items": [
+          "level hoặc mốc tiến độ",
+          "unlock nội dung, quyền lợi hoặc thử thách mới",
+          "achievement / cột mốc ghi nhận",
+          "bản đồ tiến trình để người dùng biết mình đang ở đâu"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "detail-engagement-flow",
+    "title": "Thiết kế lý do quay lại",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Giữ tương tác không đến từ việc nhồi nhiều tính năng. Nó đến từ việc thiết kế lý do quay lại hợp lý: còn nhiệm vụ dang dở, còn phần thưởng chưa nhận, còn chuỗi ngày cần giữ, hoặc còn bước tiếp theo đang chờ."
+      },
+      {
+        "type": "list",
+        "items": [
+          "daily / weekly check-in",
+          "streak hoặc nhịp quay lại",
+          "reward theo chu kỳ",
+          "nhiệm vụ tiếp nối từ kết quả cũ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "detail-motivation-mapping",
+    "title": "Đọc động lực người dùng",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Không phải ai cũng bị hấp dẫn bởi cùng một kiểu phần thưởng. Có người thích tiến độ, có người thích cảm giác hoàn thành, có người thích được công nhận, và có người thích mở khoá điều mới. Thiết kế game hóa cần đọc đúng động lực trước khi gắn cơ chế."
+      },
+      {
+        "type": "list",
+        "items": [
+          "động lực được ghi nhận",
+          "động lực hoàn thành và sưu tầm",
+          "động lực cạnh tranh hoặc so sánh",
+          "động lực khám phá và mở khoá"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "detail-reward-balancing",
+    "title": "Cân bằng phần thưởng",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Nếu thưởng quá dễ, hệ thống mất giá trị. Nếu thưởng quá khó, người dùng nản. Cân bằng phần thưởng là tìm mức vừa đủ để hành vi vẫn có ý nghĩa, nhưng người dùng vẫn thấy có cơ hội tiến lên."
+      },
+      {
+        "type": "list",
+        "items": [
+          "phần thưởng nhỏ cho hành vi lặp thường xuyên",
+          "phần thưởng lớn cho mốc đáng nhớ",
+          "tránh lạm phát điểm hoặc quà",
+          "giữ liên kết giữa công sức và cảm giác xứng đáng"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "detail-feedback-loop",
+    "title": "Phản hồi sau hành động",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Một thao tác không nên rơi vào im lặng. Sau mỗi hành động, người dùng cần được báo là việc đó có được ghi nhận hay không, có thay đổi gì hay không, và bước tiếp theo là gì. Phản hồi tốt giúp tăng độ chắc tay và giảm cảm giác mơ hồ."
+      },
+      {
+        "type": "list",
+        "items": [
+          "đã hoàn thành",
+          "đã cộng điểm hoặc ghi nhận",
+          "đã mở bước tiếp theo",
+          "đã tiến gần hơn đến mục tiêu lớn"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "detail-service-gamification",
+    "title": "Game hóa dịch vụ và trải nghiệm khách hàng",
+    "content_type": "rich_blocks",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Gamification có thể đi vào dịch vụ mà không làm dịch vụ trở nên trẻ con. Điều quan trọng là chọn cơ chế phù hợp với ngữ cảnh: có nơi nên dùng nhiệm vụ và mốc tiến độ, có nơi nên dùng bộ sưu tập, quà tặng, hoặc trải nghiệm mở khoá theo hành trình."
+      },
+      {
+        "type": "list",
+        "items": [
+          "dịch vụ gia đình: task, point, reward, đổi quà",
+          "tour trải nghiệm: quest, dấu mốc, vật phẩm, bản đồ hành trình",
+          "ứng dụng dịch vụ: onboarding có thưởng, streak, nhắc quay lại",
+          "chăm sóc khách hàng: hệ tích luỹ, mốc quyền lợi, hành trình trung thành"
+        ]
+      }
+    ]
+  }
+]

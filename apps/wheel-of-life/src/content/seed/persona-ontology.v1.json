@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-04-05",
+  "age_bands": [
+    "20s_early",
+    "20s_late",
+    "30s_early",
+    "30s_late",
+    "40s_plus"
+  ],
+  "genders": [
+    "male",
+    "female",
+    "unspecified"
+  ],
+  "life_stages": [
+    "studying",
+    "graduating_soon",
+    "new_to_work",
+    "working_stable",
+    "transitioning",
+    "building_business",
+    "rebuilding"
+  ],
+  "career_stages": [
+    "exploration",
+    "foundation",
+    "growth",
+    "plateau",
+    "pivot",
+    "builder"
+  ],
+  "goal_tags": [
+    "prove_myself",
+    "increase_income",
+    "find_direction",
+    "seek_fit",
+    "build_stability",
+    "build_business",
+    "rebalance_roles"
+  ],
+  "pressure_tags": [
+    "comparison",
+    "income_pressure",
+    "family_responsibility",
+    "reset_fear",
+    "time_pressure",
+    "identity_confusion"
+  ],
+  "blind_spot_tags": [
+    "overfocus_on_speed",
+    "weak_long_term_view",
+    "underpricing_self",
+    "system_gap",
+    "avoidance_loop"
+  ],
+  "ai_tone_hints": [
+    "grounded",
+    "warm",
+    "non_patronizing",
+    "structured",
+    "direct_but_gentle"
+  ]
+}

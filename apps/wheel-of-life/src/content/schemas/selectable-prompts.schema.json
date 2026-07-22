@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "prompt_packs"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "prompt_packs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "mode",
+          "when",
+          "context_filters",
+          "question_key",
+          "option_keys",
+          "suggested_keyword_ids",
+          "priority"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "mode": {
+            "type": "string"
+          },
+          "when": {
+            "type": "object"
+          },
+          "context_filters": {
+            "type": "object"
+          },
+          "question_key": {
+            "type": "string"
+          },
+          "option_keys": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "suggested_keyword_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "priority": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}

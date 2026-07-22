@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "event_types",
+    "scopes"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "event_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "scopes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
